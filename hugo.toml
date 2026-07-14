@@ -1,0 +1,3 @@
+baseURL = 'https://shasec.my.id/'
+locale = 'id'
+title = 'ShaSec'
