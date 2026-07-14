@@ -1,2 +1,0 @@
-# shasec
-Resource Shasec Site
