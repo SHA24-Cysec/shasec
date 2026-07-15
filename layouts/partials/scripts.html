@@ -21,6 +21,11 @@
   <script src="{{ $ss.RelPermalink }}" integrity="{{ $ss.Data.Integrity }}" crossorigin="anonymous" defer></script>
 {{- end -}}
 
+{{- with resources.Get "js/btt.js" -}}
+  {{- $btt := . | minify | fingerprint -}}
+  <script src="{{ $btt.RelPermalink }}" integrity="{{ $btt.Data.Integrity }}" crossorigin="anonymous" defer></script>
+{{- end -}}
+
 {{- $cc := .Site.Params.cookieConsent | default dict -}}
 {{- if $cc.enabled | default true -}}
   {{- with resources.Get "js/cookie-consent.js" -}}

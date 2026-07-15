@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{ .Site.LanguageCode | default .Site.Language.Lang | default "id" }}">
+<html lang="{{ .Site.Language.Locale | default .Site.Language.Lang | default "id" }}">
 <head>
   {{ partial "head.html" . }}
   {{ partial "seo/jsonld.html" . }}
@@ -11,6 +11,7 @@
     {{ block "main" . }}{{ end }}
   </main>
   {{ partial "footer.html" . }}
+  {{ partial "components/back-to-top.html" . }}
   {{ partial "components/cookie-consent.html" . }}
   {{ partial "scripts.html" . }}
   {{ block "scripts" . }}{{ end }}

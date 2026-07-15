@@ -13,8 +13,8 @@ defaultContentLanguageInSubdir = false
 # ============================================================
 [languages]
   [languages.id]
-    languageCode = 'id'
-    languageName = 'Indonesia'
+    locale = 'id'
+    label = 'Indonesia'
     weight = 1
     title = 'ShaSec'
     contentDir = 'content/id'
@@ -55,8 +55,8 @@ defaultContentLanguageInSubdir = false
         weight = 5
 
   [languages.en]
-    languageCode = 'en'
-    languageName = 'English'
+    locale = 'en'
+    label = 'English'
     weight = 2
     title = 'ShaSec'
     contentDir = 'content/en'

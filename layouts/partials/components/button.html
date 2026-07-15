@@ -18,7 +18,7 @@
 {{- $href := .href | default "" -}}
 {{- $variantClass := cond (eq $variant "outline") "btn-outline" (cond (eq $variant "ghost") "btn-ghost" "btn-primary") -}}
 {{- $sizeClass := cond (eq $size "sm") "btn-sm" "" -}}
-{{- $classes := printf "%s %s %s" $variantClass $sizeClass $class | strings.TrimSpace -}}
+{{- $classes := trim (printf "%s %s %s" $variantClass $sizeClass $class) " " -}}
 
 {{- if $href -}}
 <a href="{{ $href }}" class="{{ $classes }}">

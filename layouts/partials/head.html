@@ -62,7 +62,7 @@
   {{- if eq .Language.Lang "id" -}}{{- $defaultAlt = .Permalink -}}{{- end -}}
 {{- end -}}
 {{- if not $defaultAlt -}}
-  {{- with site.Sites.Default.Home.Permalink -}}{{- $defaultAlt = . -}}{{- end -}}
+  {{- with hugo.Sites.Default.Home.Permalink -}}{{- $defaultAlt = . -}}{{- end -}}
 {{- end -}}
 {{- with $defaultAlt -}}
 <link rel="alternate" hreflang="x-default" href="{{ . }}">
