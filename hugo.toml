@@ -1,3 +1,166 @@
 baseURL = 'https://shasec.my.id/'
-locale = 'id'
 title = 'ShaSec'
+enableRobotsTXT = true
+defaultContentLanguage = 'id'
+defaultContentLanguageInSubdir = false
+
+[pagination]
+  pagerSize = 12
+  path = 'page'
+
+# ============================================================
+# Multilingual — ID (default) + EN (/en/)
+# ============================================================
+[languages]
+  [languages.id]
+    languageCode = 'id'
+    languageName = 'Indonesia'
+    weight = 1
+    title = 'ShaSec'
+    contentDir = 'content/id'
+    [languages.id.params]
+      description = 'ShaSec — wawasan cybersecurity, threat intelligence, dan riset pertahanan.'
+      tagline = 'Wawasan cybersecurity, threat intelligence, dan riset pertahanan.'
+      organization = 'ShaSec'
+      baseDomain = 'shasec.my.id'
+      contactEmail = 'shaguardian24@gmail.com'
+      ownerName = 'Syukra'
+      legalName = 'ShaSec'
+      region = 'Indonesia'
+      jurisdiction = 'Indonesia'
+      privacyUpdated = '15 Juli 2026'
+      disclaimerUpdated = '15 Juli 2026'
+    # Menu utama (rapi production): tanpa Categories di nav.
+    # /categories/ tetap ada lewat badge artikel & sidebar.
+    [languages.id.menus]
+      [[languages.id.menus.main]]
+        name = 'Beranda'
+        pageRef = '/'
+        weight = 1
+      [[languages.id.menus.main]]
+        name = 'Artikel'
+        pageRef = '/articles/'
+        weight = 2
+      [[languages.id.menus.main]]
+        name = 'Tools'
+        pageRef = '/tools/'
+        weight = 3
+      [[languages.id.menus.main]]
+        name = 'Tentang'
+        pageRef = '/about/'
+        weight = 4
+      [[languages.id.menus.main]]
+        name = 'Kontak'
+        pageRef = '/contact/'
+        weight = 5
+
+  [languages.en]
+    languageCode = 'en'
+    languageName = 'English'
+    weight = 2
+    title = 'ShaSec'
+    contentDir = 'content/en'
+    [languages.en.params]
+      description = 'ShaSec — cybersecurity insights, threat intelligence, and defense research.'
+      tagline = 'Cybersecurity insights, threat intelligence, and defense research.'
+      organization = 'ShaSec'
+      baseDomain = 'shasec.my.id'
+      contactEmail = 'shaguardian24@gmail.com'
+      ownerName = 'Syukra'
+      legalName = 'ShaSec'
+      region = 'Indonesia'
+      jurisdiction = 'Indonesia'
+      privacyUpdated = '15 July 2026'
+      disclaimerUpdated = '15 July 2026'
+    [languages.en.menus]
+      [[languages.en.menus.main]]
+        name = 'Home'
+        pageRef = '/'
+        weight = 1
+      [[languages.en.menus.main]]
+        name = 'Articles'
+        pageRef = '/articles/'
+        weight = 2
+      [[languages.en.menus.main]]
+        name = 'Tools'
+        pageRef = '/tools/'
+        weight = 3
+      [[languages.en.menus.main]]
+        name = 'About'
+        pageRef = '/about/'
+        weight = 4
+      [[languages.en.menus.main]]
+        name = 'Contact'
+        pageRef = '/contact/'
+        weight = 5
+
+# Shared params (forms, ads, search, cookie)
+[params]
+  # Default author for articles (override per-post: author / authors)
+  # Sesuaikan nama/bio dengan identitas Anda.
+  [params.author]
+    # Ganti "name" dengan nama Anda jika ingin personal (bukan brand).
+    name = 'Syukra'
+    avatar = '/images/sha24.webp'
+    url = '/about/'
+    # role/bio dikosongkan → otomatis dari i18n (ID: Pengelola, EN: Operator)
+    role = ''
+    bio = ''
+    # Sosial: username ATAU URL penuh
+    linkedin = 'syukra-hadikasuma'          # → linkedin.com/in/username
+    instagram = 'sha24org'         # → instagram.com/username
+    github = 'SHA24-Cysec'            # → github.com/username
+
+  [params.contact]
+    provider = 'formspree'
+    formspreeId = 'meeyobrl'
+    successMessage = ''
+    errorMessage = ''
+    pendingMessage = ''
+
+  [params.subscribe]
+    provider = 'formspree'
+    formspreeId = 'meeyobrl'
+    successMessage = ''
+    errorMessage = ''
+    pendingMessage = ''
+    privacyNote = ''
+
+  [params.search]
+    includeSections = ['articles']
+
+  [params.cookieConsent]
+    enabled = true
+
+  [params.adsense]
+    enabled = true
+    placeholder = true
+    testMode = false
+
+[taxonomies]
+  category = 'categories'
+  tag = 'tags'
+
+[outputs]
+  home = ['HTML', 'RSS', 'JSON']
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+    [markup.goldmark.parser]
+      [markup.goldmark.parser.attribute]
+        title = true
+        block = true
+  [markup.tableOfContents]
+    startLevel = 2
+    endLevel = 3
+    ordered = false
+[build]
+  [build.buildStats]
+    enable = true
+
+[module]
+  [module.hugoVersion]
+    extended = true
+    min = '0.128.0'

@@ -1,0 +1,41 @@
+{{ define "main" }}
+<article class="section-y legal-page">
+  <div class="site-container">
+    {{ partial "components/breadcrumb.html" (dict "page" . "jsonld" true) }}
+    <div class="legal-layout">
+      <header class="legal-header">
+        <p class="text-eyebrow mb-3">// {{ with .Params.eyebrow }}{{ . }}{{ else }}{{ i18n "page_info" }}{{ end }}</p>
+        <h1 class="text-display text-3xl sm:text-4xl lg:text-5xl mb-4">{{ .Title }}</h1>
+        {{- with .Description -}}
+          <p class="text-lead">{{ . }}</p>
+        {{- end -}}
+        {{- if not .Date.IsZero -}}
+          <p class="mt-4 font-mono text-2xs tracking-wide uppercase text-shasec-muted-soft">
+            {{ i18n "updated" (dict "Date" (.Date.Format "2 January 2006")) }}
+          </p>
+        {{- end -}}
+      </header>
+
+      <div class="legal-content prose-shasec">
+        {{ .Content }}
+      </div>
+
+      <aside class="legal-aside" aria-label="{{ i18n "related_pages" }}">
+        <p class="font-mono text-2xs tracking-[0.14em] uppercase text-shasec-primary mb-3">{{ i18n "related_pages" }}</p>
+        <nav class="legal-aside-nav">
+          {{- $links := slice
+            (dict "title" (i18n "legal_about") "href" ("about/" | relLangURL))
+            (dict "title" (i18n "legal_contact") "href" ("contact/" | relLangURL))
+            (dict "title" (i18n "legal_privacy") "href" ("privacy/" | relLangURL))
+            (dict "title" (i18n "legal_disclaimer") "href" ("disclaimer/" | relLangURL))
+          -}}
+          {{- range $links -}}
+            {{- $active := eq $.RelPermalink .href -}}
+            <a href="{{ .href }}" class="legal-aside-link{{ if $active }} is-active{{ end }}">{{ .title }}</a>
+          {{- end -}}
+        </nav>
+      </aside>
+    </div>
+  </div>
+</article>
+{{ end }}

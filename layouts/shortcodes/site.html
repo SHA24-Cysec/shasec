@@ -1,0 +1,9 @@
+{{- /*
+  Inline identity from hugo.toml [params]
+  Usage: {{< site "organization" >}}  {{< site "contactEmail" >}}  {{< site "siteURL" >}}
+  Keys: title, organization, baseDomain|domain, siteURL, contactEmail|email,
+        region, ownerName|owner, legalName, jurisdiction, contactPhone|phone,
+        address, privacyUpdated, disclaimerUpdated, tagline, description
+*/ -}}
+{{- $key := .Get 0 | default "" -}}
+{{- partial "site/identity.html" (dict "key" $key "page" .Page) -}}

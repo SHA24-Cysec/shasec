@@ -1,0 +1,89 @@
+{{ define "main" }}
+<article class="section-y article-page">
+  <div class="site-container">
+    <div class="article-layout">
+      <div class="article-main">
+        {{ partial "components/breadcrumb.html" (dict "page" . "jsonld" true) }}
+        <header class="mb-8">
+          {{- with .Params.categories -}}
+            <div class="mb-3 flex flex-wrap gap-2">
+              {{- range . -}}
+                {{ partial "components/badge.html" (dict "label" .) }}
+              {{- end -}}
+            </div>
+          {{- end -}}
+          <p class="text-eyebrow mb-3">{{ i18n "article_label" }}</p>
+          <h1 class="text-display text-3xl sm:text-4xl lg:text-5xl mb-4">{{ .Title }}</h1>
+          {{- with .Params.summary -}}
+            <p class="text-lead mb-4">{{ . }}</p>
+          {{- else -}}
+            {{- with .Description -}}
+              <p class="text-lead mb-4">{{ . }}</p>
+            {{- end -}}
+          {{- end -}}
+          <div class="card-meta !pt-0">
+            {{- with .Date -}}
+              <span class="inline-flex items-center gap-1.5">
+                <svg class="h-3 w-3" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4"/></svg>
+                {{ .Format "2 Jan 2006" }}
+              </span>
+            {{- end -}}
+            {{- with (partial "site/reading-time.html" .) -}}
+              <span class="inline-flex items-center gap-1.5">
+                <svg class="h-3 w-3" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><circle cx="12" cy="12" r="8"/><path d="M12 8v4l2.5 2.5"/></svg>
+                {{ . }}
+              </span>
+            {{- end -}}
+          </div>
+        </header>
+
+        {{ partial "articles/share.html" (dict "page" . "class" "share-bar--header") }}
+
+        {{- $cover := partial "site/article-cover.html" . -}}
+        {{- if $cover -}}
+          <figure class="article-cover mb-8" id="article-cover-figure">
+            <img
+              src="{{ $cover }}"
+              alt="{{ .Title }}"
+              class="article-cover-img"
+              loading="eager"
+              decoding="async"
+              onerror="var f=this.closest('figure'); if(f){f.hidden=true;f.style.display='none';}"
+            >
+          </figure>
+        {{- end -}}
+
+        {{ partial "articles/toc.html" . }}
+
+        <div class="prose-shasec article-content" id="article-content">
+          {{ .Content }}
+        </div>
+
+        {{ partial "articles/share.html" (dict "page" . "class" "share-bar--footer") }}
+
+        {{ partial "articles/author-box.html" . }}
+
+        <div class="mt-10 article-ad-inline">
+          {{ partial "components/ad-slot.html" (dict
+            "context" .
+            "slot" "article"
+            "format" "horizontal"
+            "label" (i18n "ad_label_article")
+          ) }}
+        </div>
+
+        <footer class="mt-10 pt-6 border-t border-shasec-border flex flex-wrap gap-3">
+          <a href="{{ "articles/" | relLangURL }}" class="link-arrow">{{ i18n "back_articles" }}</a>
+          <a href="{{ "/" | relLangURL }}" class="link-arrow">{{ i18n "back_home" }}</a>
+        </footer>
+      </div>
+
+      {{ partial "articles/sidebar.html" . }}
+    </div>
+
+    <div class="related-articles-wrap">
+      {{ partial "articles/related.html" . }}
+    </div>
+  </div>
+</article>
+{{ end }}

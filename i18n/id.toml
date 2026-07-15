@@ -1,0 +1,352 @@
+[nav_home]
+other = "Beranda"
+[nav_articles]
+other = "Artikel"
+[nav_categories]
+other = "Kategori"
+[nav_tools]
+other = "Tools"
+[nav_about]
+other = "Tentang"
+[nav_contact]
+other = "Kontak"
+[nav_subscribe]
+other = "Berlangganan"
+[nav_search]
+other = "Cari…"
+[nav_open_menu]
+other = "Buka menu"
+[nav_close_menu]
+other = "Tutup menu"
+[nav_main]
+other = "Navigasi utama"
+[nav_mobile]
+other = "Navigasi mobile"
+[nav_footer]
+other = "Navigasi footer"
+[nav_legal]
+other = "Tautan legal"
+[lang_switch]
+other = "Bahasa"
+[lang_id]
+other = "Indonesia"
+[lang_en]
+other = "English"
+
+[home_eyebrow]
+other = "// Wawasan & Riset Cybersecurity"
+[home_title_1]
+other = "Tetap unggul"
+[home_title_2]
+other = "Tetap aman"
+[home_lead]
+other = "Artikel cybersecurity mendalam, threat intelligence, dan insight keamanan untuk membantu Anda tetap unggul menghadapi ancaman yang terus berkembang."
+[home_cta_articles]
+other = "Jelajahi Artikel"
+[home_cta_subscribe]
+other = "Berlangganan Update"
+[home_latest]
+other = "Artikel Terbaru"
+[home_view_all]
+other = "Lihat semua artikel"
+[home_empty_title]
+other = "Belum ada artikel"
+[home_empty_text]
+other = "Section ini sudah siap. Kartu akan muncul otomatis setelah konten dipublikasikan di content/articles/."
+[home_empty_cta]
+other = "Buka halaman artikel"
+[home_empty_eyebrow]
+other = "// feed kosong"
+
+[read_time]
+other = "{{ .Count }} mnt baca"
+[updated]
+other = "Diperbarui {{ .Date }}"
+[back_articles]
+other = "← Kembali ke artikel"
+[back_home]
+other = "Beranda"
+[article_label]
+other = "// artikel"
+[articles_label]
+other = "// articles"
+[related_pages]
+other = "Halaman terkait"
+[empty_state]
+other = "Empty state"
+[empty_section]
+other = "Belum ada konten di section ini."
+
+[footer_nav]
+other = "Navigasi"
+[footer_legal]
+other = "Legal"
+[footer_about]
+other = "Tentang"
+[footer_contact]
+other = "Kontak"
+[footer_privacy]
+other = "Privasi"
+[footer_disclaimer]
+other = "Disclaimer"
+
+[cookie_title]
+other = "Cookie & privasi"
+[cookie_text]
+other = "{{ .Org }} menggunakan cookie esensial agar situs berfungsi, dan cookie opsional (analitik/iklan, termasuk Google AdSense) jika Anda menyetujui. Lihat"
+[cookie_privacy_link]
+other = "Kebijakan Privasi"
+[cookie_reject]
+other = "Tolak opsional"
+[cookie_accept]
+other = "Terima"
+
+[search_title]
+other = "Cari"
+[search_eyebrow]
+other = "// search"
+[search_lead]
+other = "Cari di antara artikel {{ .Org }}. Halaman legal (About, Privacy, dll.) tidak ditampilkan di hasil."
+[search_placeholder]
+other = "Ketik kata kunci… (ransomware, zero trust, privasi…)"
+[search_button]
+other = "Cari"
+[search_loading]
+other = "Memuat indeks pencarian…"
+[search_hint]
+other = "Ketik kata kunci untuk mencari."
+[search_empty_title]
+other = "Tidak ada hasil"
+[search_empty_text]
+other = "Coba kata kunci lain, atau jelajahi artikel terbaru."
+[search_view_articles]
+other = "Lihat semua artikel →"
+[search_label]
+other = "Kata kunci"
+
+[contact_eyebrow]
+other = "// kontak"
+[contact_form_title]
+other = "Formulir pesan"
+[contact_name]
+other = "Nama"
+[contact_email]
+other = "Email"
+[contact_subject]
+other = "Subjek"
+[contact_message]
+other = "Pesan"
+[contact_name_ph]
+other = "Nama Anda"
+[contact_email_ph]
+other = "nama@domain.com"
+[contact_subject_ph]
+other = "Subjek pesan"
+[contact_message_ph]
+other = "Tulis pesan Anda…"
+[contact_send]
+other = "Kirim pesan"
+[contact_reset]
+other = "Reset"
+[contact_info]
+other = "Info"
+[contact_org]
+other = "Organisasi"
+[contact_domain]
+other = "Domain"
+[contact_email_label]
+other = "Email"
+[contact_region]
+other = "Wilayah"
+[contact_related]
+other = "Halaman terkait"
+[contact_note_ready]
+other = "Pesan dikirim lewat Formspree ke inbox Anda."
+[contact_note_pending]
+other = "Formspree belum aktif — isi params.contact.formspreeId di hugo.toml."
+[contact_direct]
+other = "Email langsung:"
+[contact_success]
+other = "Terima kasih — pesan Anda sudah terkirim. Kami akan membalas secepatnya."
+[contact_error]
+other = "Gagal mengirim pesan. Coba lagi atau hubungi email langsung."
+[contact_pending]
+other = "Formspree belum dikonfigurasi. Isi params.contact.formspreeId di hugo.toml."
+[contact_fill]
+other = "Lengkapi field yang wajib diisi."
+[contact_sending]
+other = "Mengirim pesan…"
+[contact_send_loading]
+other = "Mengirim…"
+
+[subscribe_eyebrow]
+other = "// subscribe"
+[subscribe_title]
+other = "Berlangganan"
+[subscribe_form_title]
+other = "Newsletter"
+[subscribe_email]
+other = "Email"
+[subscribe_name]
+other = "Nama"
+[subscribe_optional]
+other = "(opsional)"
+[subscribe_button]
+other = "Berlangganan"
+[subscribe_loading]
+other = "Mendaftarkan…"
+[subscribe_rss]
+other = "RSS Feed"
+[subscribe_benefits]
+other = "Yang Anda dapat"
+[subscribe_b1]
+other = "Update artikel cybersecurity baru"
+[subscribe_b2]
+other = "Ringkasan threat intelligence"
+[subscribe_b3]
+other = "Tanpa spam — frekuensi wajar"
+[subscribe_b4]
+other = "Berhenti langganan kapan saja"
+[subscribe_alt]
+other = "Alternatif"
+[subscribe_alt_text]
+other = "Lebih suka feed reader? Ikuti RSS situs."
+[subscribe_rss_open]
+other = "Buka RSS →"
+[subscribe_related]
+other = "Terkait"
+[subscribe_note_ready]
+other = "Pendaftaran diproses lewat Formspree."
+[subscribe_note_pending]
+other = "Formspree belum aktif — isi params.subscribe.formspreeId atau params.contact.formspreeId di hugo.toml."
+[subscribe_privacy]
+other = "Dengan berlangganan, Anda menyetujui"
+[subscribe_success]
+other = "Terima kasih — Anda sudah terdaftar. Cek inbox untuk konfirmasi bila diminta."
+[subscribe_error]
+other = "Gagal mendaftar. Coba lagi atau hubungi email situs."
+[subscribe_pending]
+other = "Subscribe belum dikonfigurasi. Isi formspreeId di hugo.toml."
+[subscribe_invalid]
+other = "Masukkan alamat email yang valid."
+[subscribe_registering]
+other = "Mendaftarkan email…"
+
+[tools_eyebrow]
+other = "// tools"
+[tools_all]
+other = "Semua"
+[tools_search]
+other = "Cari tools"
+[tools_search_ph]
+other = "Filter nama / tag…"
+[tools_showing]
+other = "Menampilkan {{ .Count }} tools"
+[tools_showing_filter]
+other = "Menampilkan {{ .Count }} tools (filter aktif)"
+[tools_empty_title]
+other = "Tidak ada tools"
+[tools_empty_text]
+other = "Coba kata kunci atau kategori lain."
+[tools_external]
+other = "Eksternal"
+[tools_internal]
+other = "Internal"
+[tools_open]
+other = "Buka"
+[tools_disclaimer_title]
+other = "// disclaimer singkat"
+[tools_disclaimer]
+other = "Tools di halaman ini disediakan untuk edukasi dan defense. Jangan gunakan untuk akses tanpa otorisasi. Lihat juga"
+[tools_empty_yaml]
+other = "Belum ada tools. Isi data/tools.yaml."
+
+[ad_placeholder]
+other = "Ad placeholder"
+[ad_label_article]
+other = "Ad · Artikel"
+[ad_label_feed]
+other = "Ad · Feed beranda"
+[ad_label_sidebar]
+other = "Ad · Sidebar"
+[ad_need_client]
+other = "Isi params.adsense.client di hugo.toml"
+[ad_need_slot]
+other = "Isi slot di hugo.toml"
+[ad_placeholder_mode]
+other = "Mode placeholder aktif — set placeholder = false untuk live"
+[ad_space]
+other = "Ruang iklan"
+
+[sidebar_nav]
+other = "Navigasi"
+[sidebar_all_articles]
+other = "Semua artikel"
+[sidebar_categories]
+other = "Kategori"
+[sidebar_about]
+other = "Tentang"
+[sidebar_contact]
+other = "Kontak"
+[sidebar_category]
+other = "Kategori"
+
+[page_info]
+other = "informasi situs"
+[legal_about]
+other = "Tentang Kami"
+[legal_contact]
+other = "Kontak"
+[legal_privacy]
+other = "Kebijakan Privasi"
+[legal_disclaimer]
+other = "Disclaimer"
+
+[404_eyebrow]
+other = "// error 404"
+[404_title]
+other = "Signal lost"
+[404_text]
+other = "Halaman yang Anda cari tidak ditemukan atau sudah dipindahkan."
+[404_home]
+other = "Back to Home"
+
+[site_info]
+other = "Info"
+
+[pagination_label]
+other = "Navigasi halaman"
+[pagination_prev]
+other = "Sebelumnya"
+[pagination_next]
+other = "Berikutnya"
+[pagination_status]
+other = "Halaman {{ .Page }} / {{ .Total }}"
+
+[breadcrumb_label]
+other = "Breadcrumb"
+[breadcrumb_tags]
+other = "Tag"
+
+[related_articles]
+other = "Artikel terkait"
+
+[toc_title]
+other = "Daftar isi"
+[author_section]
+other = "Tentang penulis"
+[author_profile]
+other = "Profil"
+[author_role_default]
+other = "Editor"
+[author_bio_default]
+other = "Hanya orang yang hobi dan menyukai hal-hal yang berhubungan dengan teknologi."
+
+[share_label]
+other = "Bagikan"
+[share_copy]
+other = "Salin tautan"
+[share_copied]
+other = "Tautan disalin"
+[share_native]
+other = "Bagikan lewat perangkat"

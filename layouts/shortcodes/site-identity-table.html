@@ -1,0 +1,44 @@
+{{- /*
+  Identity table for About — values from hugo.toml [params]
+  Output HTML (reliable inside prose)
+*/ -}}
+{{- $p := .Page.Site.Params -}}
+{{- $title := .Page.Site.Title -}}
+{{- $org := $p.organization | default $title -}}
+{{- $domain := partial "site/identity.html" (dict "key" "baseDomain" "page" .Page) -}}
+{{- $siteURL := partial "site/identity.html" (dict "key" "siteURL" "page" .Page) -}}
+{{- $email := $p.contactEmail | default "" -}}
+{{- $region := $p.region | default "" -}}
+{{- $owner := $p.ownerName | default $org -}}
+{{- $legal := $p.legalName | default $owner -}}
+{{- $address := $p.address | default "" -}}
+{{- $phone := $p.contactPhone | default "" -}}
+<div class="overflow-x-auto">
+<table>
+  <thead>
+    <tr>
+      <th>Item</th>
+      <th>Nilai</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>Nama situs</td><td>{{ $title }}</td></tr>
+    <tr><td>Organisasi</td><td>{{ $org }}</td></tr>
+    <tr><td>Editor</td><td>{{ $owner }}</td></tr>
+    <tr><td>Nama legal</td><td>{{ $legal }}</td></tr>
+    <tr><td>Domain</td><td><a href="{{ $siteURL }}/">{{ $domain }}</a></td></tr>
+    {{- with $email -}}
+    <tr><td>Email</td><td><a href="mailto:{{ . }}">{{ . }}</a></td></tr>
+    {{- end -}}
+    {{- with $phone -}}
+    <tr><td>Telepon</td><td>{{ . }}</td></tr>
+    {{- end -}}
+    {{- with $address -}}
+    <tr><td>Alamat</td><td>{{ . }}</td></tr>
+    {{- end -}}
+    {{- with $region -}}
+    <tr><td>Wilayah</td><td>{{ . }}</td></tr>
+    {{- end -}}
+  </tbody>
+</table>
+</div>

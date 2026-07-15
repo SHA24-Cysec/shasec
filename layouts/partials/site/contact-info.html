@@ -1,0 +1,51 @@
+{{- $org := partial "site/identity.html" (dict "key" "organization" "page" .) -}}
+{{- $domain := partial "site/identity.html" (dict "key" "baseDomain" "page" .) -}}
+{{- $email := partial "site/identity.html" (dict "key" "contactEmail" "page" .) -}}
+{{- $region := partial "site/identity.html" (dict "key" "region" "page" .) -}}
+{{- $phone := partial "site/identity.html" (dict "key" "contactPhone" "page" .) -}}
+{{- $address := partial "site/identity.html" (dict "key" "address" "page" .) -}}
+{{- $owner := partial "site/identity.html" (dict "key" "ownerName" "page" .) -}}
+
+<div class="card p-5">
+  <p class="font-mono text-2xs tracking-[0.14em] uppercase text-shasec-primary mb-3">{{ i18n "contact_info" }}</p>
+  <ul class="space-y-3 text-sm text-shasec-muted">
+    <li>
+      <span class="block font-mono text-2xs uppercase tracking-wider text-shasec-muted-soft mb-1">{{ i18n "contact_org" }}</span>
+      {{ $org }}
+    </li>
+    {{- if and $owner (ne $owner $org) -}}
+    <li>
+      <span class="block font-mono text-2xs uppercase tracking-wider text-shasec-muted-soft mb-1">{{ i18n "contact_org" }}</span>
+      {{ $owner }}
+    </li>
+    {{- end -}}
+    <li>
+      <span class="block font-mono text-2xs uppercase tracking-wider text-shasec-muted-soft mb-1">{{ i18n "contact_domain" }}</span>
+      {{ $domain }}
+    </li>
+    {{- with $email -}}
+    <li>
+      <span class="block font-mono text-2xs uppercase tracking-wider text-shasec-muted-soft mb-1">{{ i18n "contact_email_label" }}</span>
+      <a href="mailto:{{ . }}" class="text-shasec-primary hover:underline">{{ . }}</a>
+    </li>
+    {{- end -}}
+    {{- with $phone -}}
+    <li>
+      <span class="block font-mono text-2xs uppercase tracking-wider text-shasec-muted-soft mb-1">Phone</span>
+      {{ . }}
+    </li>
+    {{- end -}}
+    {{- with $address -}}
+    <li>
+      <span class="block font-mono text-2xs uppercase tracking-wider text-shasec-muted-soft mb-1">Address</span>
+      {{ . }}
+    </li>
+    {{- end -}}
+    {{- with $region -}}
+    <li>
+      <span class="block font-mono text-2xs uppercase tracking-wider text-shasec-muted-soft mb-1">{{ i18n "contact_region" }}</span>
+      {{ . }}
+    </li>
+    {{- end -}}
+  </ul>
+</div>

@@ -1,0 +1,19 @@
+{
+  "name": "shasec",
+  "version": "1.0.0",
+  "private": true,
+  "description": "ShaSec Hugo site — dark cyber UI foundation",
+  "scripts": {
+    "dev:css": "tailwindcss -i ./assets/css/main.css -o ./assets/css/main.bundle.css --watch",
+    "build:css": "tailwindcss -i ./assets/css/main.css -o ./assets/css/main.bundle.css --minify",
+    "build": "npm run build:css && hugo --minify",
+    "preview:css": "tailwindcss -i ./assets/css/main.css -o ./preview/foundation.css --minify"
+  },
+  "keywords": ["hugo", "cybersecurity", "shasec"],
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^3.4.17"
+  }
+}

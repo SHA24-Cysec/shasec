@@ -1,0 +1,48 @@
+{{ define "main" }}
+<section class="section-y">
+  <div class="site-container">
+    {{ partial "components/breadcrumb.html" (dict "page" . "jsonld" true) }}
+    <header class="mb-8 max-w-2xl">
+      <p class="text-eyebrow mb-2">{{ i18n "articles_label" }}</p>
+      <h1 class="text-display text-3xl sm:text-4xl">{{ .Title | default (i18n "nav_articles") }}</h1>
+      {{- with .Content -}}
+        <div class="text-lead mt-4 prose-shasec">{{ . }}</div>
+      {{- else -}}
+        {{- with .Description -}}
+          <p class="text-lead mt-4">{{ . }}</p>
+        {{- end -}}
+      {{- end -}}
+    </header>
+
+    {{- $pages := .Pages.ByDate.Reverse -}}
+    {{- $paginator := .Paginate $pages -}}
+    {{- if $paginator.Pages -}}
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+        {{- range $paginator.Pages -}}
+          {{- $cat := "" -}}
+          {{- with .Params.categories -}}{{- $cat = index . 0 -}}{{- end -}}
+          {{- $excerpt := "" -}}
+          {{- with .Params.summary -}}{{- $excerpt = . | plainify | truncate 140 -}}{{- else -}}{{- $excerpt = .Summary | plainify | truncate 140 -}}{{- end -}}
+          {{- $read := partial "site/reading-time.html" . -}}
+          {{- $img := partial "site/article-cover.html" . -}}
+          {{ partial "components/card.html" (dict
+            "title" .Title
+            "excerpt" $excerpt
+            "href" .RelPermalink
+            "category" $cat
+            "date" (.Date.Format "2 Jan 2006")
+            "readTime" $read
+            "image" $img
+          ) }}
+        {{- end -}}
+      </div>
+      {{ partial "pagination.html" . }}
+    {{- else -}}
+      <div class="card p-6 sm:p-8 max-w-xl">
+        <p class="font-mono text-xs uppercase tracking-[0.14em] text-shasec-primary mb-2">{{ i18n "empty_state" }}</p>
+        <p class="text-sm text-shasec-muted">{{ i18n "empty_section" }}</p>
+      </div>
+    {{- end -}}
+  </div>
+</section>
+{{ end }}

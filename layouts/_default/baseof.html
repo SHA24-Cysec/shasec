@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode | default .Site.Language.Lang | default "id" }}">
+<head>
+  {{ partial "head.html" . }}
+  {{ partial "seo/jsonld.html" . }}
+  {{ block "head" . }}{{ end }}
+</head>
+<body class="flex min-h-screen flex-col bg-matrix">
+  {{ partial "header.html" . }}
+  <main id="main" class="flex-1 w-full">
+    {{ block "main" . }}{{ end }}
+  </main>
+  {{ partial "footer.html" . }}
+  {{ partial "components/cookie-consent.html" . }}
+  {{ partial "scripts.html" . }}
+  {{ block "scripts" . }}{{ end }}
+</body>
+</html>

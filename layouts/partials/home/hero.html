@@ -1,0 +1,59 @@
+{{- /*
+  Homepage hero — multilingual via i18n
+*/ -}}
+<section class="hero" aria-labelledby="hero-title">
+  <div class="hero-bg" aria-hidden="true">
+    <div class="hero-matrix"></div>
+    <div class="hero-glow"></div>
+    <div class="hero-worldmap"></div>
+  </div>
+
+  <div class="site-container relative z-10">
+    <div class="hero-grid">
+      <div class="hero-copy animate-fade-in">
+        <p class="text-eyebrow mb-4 sm:mb-5">{{ i18n "home_eyebrow" }}</p>
+
+        <h1 id="hero-title" class="hero-title">
+          <span class="hero-title-line hero-title-line--white">{{ i18n "home_title_1" }}</span>
+          <span class="hero-title-line hero-title-line--green">{{ i18n "home_title_2" }}</span>
+        </h1>
+
+        <p class="text-lead mt-5 sm:mt-6 mb-7 sm:mb-8 max-w-lg">
+          {{ i18n "home_lead" }}
+        </p>
+
+        <div class="flex flex-col xs:flex-row flex-wrap gap-3">
+          {{ partial "components/button.html" (dict
+            "href" ("articles/" | relLangURL)
+            "label" (i18n "home_cta_articles")
+            "variant" "primary"
+            "icon" "terminal"
+            "class" "w-full sm:w-auto justify-center"
+          ) }}
+          {{ partial "components/button.html" (dict
+            "href" ("subscribe/" | relLangURL)
+            "label" (i18n "home_cta_subscribe")
+            "variant" "outline"
+            "icon" "bell"
+            "class" "w-full sm:w-auto justify-center"
+          ) }}
+        </div>
+      </div>
+
+      <div class="hero-terminal-wrap animate-fade-in" style="animation-delay: .08s">
+        <div class="terminal hero-terminal" id="hero-terminal" aria-label="Terminal">
+          <div class="terminal-bar">
+            <span>Terminal</span>
+            <div class="terminal-dots" aria-hidden="true"><span></span><span></span><span></span></div>
+          </div>
+          <div class="terminal-body hero-terminal-body" id="hero-terminal-body">
+            <noscript>
+              <p><span class="terminal-prompt">user@shasec:~$</span> <span class="terminal-cmd">whoami</span></p>
+              <p class="text-shasec-text">shasec.operator</p>
+            </noscript>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,23 @@
+{{ define "main" }}
+<section class="section-y">
+  <div class="site-container">
+    <div class="max-w-xl">
+      <p class="text-eyebrow mb-3">{{ i18n "404_eyebrow" }}</p>
+      <h1 class="text-display mb-2">{{ i18n "404_title" }}</h1>
+      <p class="text-lead mb-8">{{ i18n "404_text" }}</p>
+      <div class="terminal mb-8">
+        <div class="terminal-bar">
+          <span>Terminal</span>
+          <div class="terminal-dots" aria-hidden="true"><span></span><span></span><span></span></div>
+        </div>
+        <div class="terminal-body">
+          <p><span class="terminal-prompt">user@shasec:~$</span> <span class="terminal-cmd">open {{ .RelPermalink }}</span></p>
+          <p class="text-shasec-danger">bash: page not found</p>
+          <p class="mt-2"><span class="terminal-prompt">user@shasec:~$</span> <span class="terminal-cursor" aria-hidden="true"></span></p>
+        </div>
+      </div>
+      {{ partial "components/button.html" (dict "href" ("/" | relLangURL) "label" (i18n "404_home") "variant" "primary" "icon" "arrow") }}
+    </div>
+  </div>
+</section>
+{{ end }}

@@ -1,0 +1,85 @@
+{{- /*
+  JS via Hugo Pipes from assets/js
+  Always: main.js + nav.js + cookie-consent.js
+  Home:   hero-terminal.js
+  Contact: contact-form.js
+  AdSense enabled: adsense.js
+*/ -}}
+
+{{- with resources.Get "js/main.js" -}}
+  {{- $main := . | minify | fingerprint -}}
+  <script src="{{ $main.RelPermalink }}" integrity="{{ $main.Data.Integrity }}" crossorigin="anonymous" defer></script>
+{{- end -}}
+
+{{- with resources.Get "js/nav.js" -}}
+  {{- $nav := . | minify | fingerprint -}}
+  <script src="{{ $nav.RelPermalink }}" integrity="{{ $nav.Data.Integrity }}" crossorigin="anonymous" defer></script>
+{{- end -}}
+
+{{- with resources.Get "js/smooth-scroll.js" -}}
+  {{- $ss := . | minify | fingerprint -}}
+  <script src="{{ $ss.RelPermalink }}" integrity="{{ $ss.Data.Integrity }}" crossorigin="anonymous" defer></script>
+{{- end -}}
+
+{{- $cc := .Site.Params.cookieConsent | default dict -}}
+{{- if $cc.enabled | default true -}}
+  {{- with resources.Get "js/cookie-consent.js" -}}
+    {{- $cjs := . | minify | fingerprint -}}
+    <script src="{{ $cjs.RelPermalink }}" integrity="{{ $cjs.Data.Integrity }}" crossorigin="anonymous" defer></script>
+  {{- end -}}
+{{- end -}}
+
+{{- $ads := .Site.Params.adsense | default dict -}}
+{{- if $ads.enabled | default false -}}
+  {{- with resources.Get "js/adsense.js" -}}
+    {{- $ajs := . | minify | fingerprint -}}
+    <script src="{{ $ajs.RelPermalink }}" integrity="{{ $ajs.Data.Integrity }}" crossorigin="anonymous" defer></script>
+  {{- end -}}
+{{- end -}}
+
+{{- if .IsHome -}}
+  {{- with resources.Get "js/hero-terminal.js" -}}
+    {{- $hero := . | minify | fingerprint -}}
+    <script src="{{ $hero.RelPermalink }}" integrity="{{ $hero.Data.Integrity }}" crossorigin="anonymous" defer></script>
+  {{- end -}}
+{{- end -}}
+
+{{- $isContact := or (eq .Layout "contact") (eq .Type "contact") (and .File (eq .File.ContentBaseName "contact")) (eq .RelPermalink "/contact/") -}}
+{{- if $isContact -}}
+  {{- with resources.Get "js/contact-form.js" -}}
+    {{- $contact := . | minify | fingerprint -}}
+    <script src="{{ $contact.RelPermalink }}" integrity="{{ $contact.Data.Integrity }}" crossorigin="anonymous" defer></script>
+  {{- end -}}
+{{- end -}}
+
+{{- $isSearch := or (eq .Layout "search") (and .File (eq .File.ContentBaseName "search")) (eq .RelPermalink "/search/") -}}
+{{- if $isSearch -}}
+  {{- with resources.Get "js/search.js" -}}
+    {{- $search := . | minify | fingerprint -}}
+    <script src="{{ $search.RelPermalink }}" integrity="{{ $search.Data.Integrity }}" crossorigin="anonymous" defer></script>
+  {{- end -}}
+{{- end -}}
+
+{{- $isTools := or (eq .Section "tools") (eq .Type "tools") (eq .RelPermalink "/tools/") -}}
+{{- if $isTools -}}
+  {{- with resources.Get "js/tools.js" -}}
+    {{- $tools := . | minify | fingerprint -}}
+    <script src="{{ $tools.RelPermalink }}" integrity="{{ $tools.Data.Integrity }}" crossorigin="anonymous" defer></script>
+  {{- end -}}
+{{- end -}}
+
+{{- $isSubscribe := or (eq .Layout "subscribe") (and .File (eq .File.ContentBaseName "subscribe")) (eq .RelPermalink "/subscribe/") -}}
+{{- if $isSubscribe -}}
+  {{- with resources.Get "js/subscribe-form.js" -}}
+    {{- $sub := . | minify | fingerprint -}}
+    <script src="{{ $sub.RelPermalink }}" integrity="{{ $sub.Data.Integrity }}" crossorigin="anonymous" defer></script>
+  {{- end -}}
+{{- end -}}
+
+{{- $isArticle := and (eq .Section "articles") (eq .Kind "page") -}}
+{{- if $isArticle -}}
+  {{- with resources.Get "js/share.js" -}}
+    {{- $share := . | minify | fingerprint -}}
+    <script src="{{ $share.RelPermalink }}" integrity="{{ $share.Data.Integrity }}" crossorigin="anonymous" defer></script>
+  {{- end -}}
+{{- end -}}

@@ -1,0 +1,70 @@
+{{- /*
+  Article card
+  Params: title, excerpt, category, date, readTime, href, image, class
+  image empty or broken remote → fallback placeholder
+*/ -}}
+{{- $title := .title | default "Judul artikel" -}}
+{{- $excerpt := .excerpt | default "" -}}
+{{- $category := .category | default "" -}}
+{{- $date := .date | default "" -}}
+{{- $readTime := .readTime | default "" -}}
+{{- $href := .href | default "#" -}}
+{{- $image := .image | default "" -}}
+{{- $class := .class | default "" -}}
+
+<article class="card group {{ $class }}">
+  <a href="{{ $href }}" class="flex h-full flex-col focus-visible:outline-none">
+    <div class="card-media">
+      {{- if $image -}}
+        <img
+          src="{{ $image }}"
+          alt="{{ $title }}"
+          loading="lazy"
+          decoding="async"
+          class="card-media-img"
+          onerror="this.classList.add('is-broken'); this.removeAttribute('src'); var f=this.parentElement && this.parentElement.querySelector('.card-media-fallback'); if(f){f.hidden=false;f.classList.remove('hidden');} this.style.display='none';"
+        >
+        <span class="card-media-fade" aria-hidden="true"></span>
+        {{/* Hidden until img onerror (remote 404 / network) */}}
+        <div class="card-media-fallback hidden" hidden>
+          <div class="flex h-full w-full items-center justify-center bg-matrix absolute inset-0">
+            <span class="flex h-16 w-16 items-center justify-center rounded-full border border-shasec-primary/30 bg-shasec-primary-soft text-shasec-primary shadow-glow-sm">
+              <svg class="h-7 w-7" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+                <rect x="5" y="10" width="14" height="10" rx="2"/>
+                <path d="M8 10V8a4 4 0 0 1 8 0v2"/>
+                <circle cx="12" cy="15" r="1.2" fill="currentColor"/>
+              </svg>
+            </span>
+          </div>
+        </div>
+      {{- else -}}
+        {{ partial "components/card-media-fallback.html" . }}
+      {{- end -}}
+    </div>
+    <div class="card-body">
+      {{- if $category -}}
+        {{ partial "components/badge.html" (dict "label" $category) }}
+      {{- end -}}
+      <h3 class="card-title">{{ $title }}</h3>
+      {{- if $excerpt -}}
+        <p class="card-excerpt">{{ $excerpt }}</p>
+      {{- end -}}
+      {{- if or $date $readTime -}}
+        <div class="card-meta">
+          {{- if $date -}}
+            <span class="inline-flex items-center gap-1.5">
+              <svg class="h-3 w-3" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4"/></svg>
+              {{ $date }}
+            </span>
+          {{- end -}}
+          {{- if $readTime -}}
+            <span class="inline-flex items-center gap-1.5">
+              <svg class="h-3 w-3" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><circle cx="12" cy="12" r="8"/><path d="M12 8v4l2.5 2.5"/></svg>
+              {{ $readTime }}
+            </span>
+          {{- end -}}
+        </div>
+      {{- end -}}
+    </div>
+  </a>
+</article>

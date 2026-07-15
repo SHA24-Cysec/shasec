@@ -1,0 +1,81 @@
+{{- /*
+  Latest Articles — multilingual labels via i18n
+*/ -}}
+{{- $articles := where .Site.RegularPages "Section" "articles" -}}
+{{- if not $articles -}}
+  {{- $articles = where .Site.RegularPages "Type" "articles" -}}
+{{- end -}}
+{{- $articles = $articles.ByDate.Reverse -}}
+{{- $latest := first 4 $articles -}}
+{{- $count := len $latest -}}
+
+<section class="latest-articles section-y" id="artikel-terbaru" aria-labelledby="latest-articles-title">
+  <div class="site-container">
+    <div class="latest-articles-head">
+      <h2 id="latest-articles-title" class="text-section-title">{{ i18n "home_latest" }}</h2>
+      <a href="{{ "articles/" | relLangURL }}" class="link-arrow latest-articles-all">
+        {{ i18n "home_view_all" }}
+        <span aria-hidden="true">→</span>
+      </a>
+    </div>
+
+    {{- if gt $count 0 -}}
+      <div class="latest-articles-grid">
+        {{- range $latest -}}
+          {{- $cat := "" -}}
+          {{- with .Params.categories -}}
+            {{- $cat = index . 0 -}}
+          {{- else -}}
+            {{- with .Params.category -}}
+              {{- $cat = . -}}
+            {{- end -}}
+          {{- end -}}
+          {{- $read := partial "site/reading-time.html" . -}}
+          {{- $excerpt := "" -}}
+          {{- with .Params.summary -}}
+            {{- $excerpt = . | plainify | truncate 140 -}}
+          {{- else -}}
+            {{- $excerpt = .Summary | plainify | truncate 140 -}}
+          {{- end -}}
+          {{- $img := partial "site/article-cover.html" . -}}
+          {{ partial "components/card.html" (dict
+            "title" .Title
+            "excerpt" $excerpt
+            "href" .RelPermalink
+            "category" $cat
+            "date" (.Date.Format "2 Jan 2006")
+            "readTime" $read
+            "image" $img
+            "class" "latest-articles-card"
+          ) }}
+        {{- end -}}
+      </div>
+    {{- else -}}
+      <div class="latest-articles-empty" role="status">
+        <div class="latest-articles-empty-copy">
+          <p class="latest-articles-empty-eyebrow">{{ i18n "home_empty_eyebrow" }}</p>
+          <h3 class="latest-articles-empty-title">{{ i18n "home_empty_title" }}</h3>
+          <p class="latest-articles-empty-text">{{ i18n "home_empty_text" }}</p>
+          <div class="latest-articles-empty-actions">
+            {{ partial "components/button.html" (dict
+              "href" ("articles/" | relLangURL)
+              "label" (i18n "home_empty_cta")
+              "variant" "outline"
+              "size" "sm"
+              "icon" "arrow"
+            ) }}
+          </div>
+        </div>
+      </div>
+    {{- end -}}
+
+    <div class="mt-8 sm:mt-10">
+      {{ partial "components/ad-slot.html" (dict
+        "context" .
+        "slot" "feed"
+        "format" "horizontal"
+        "label" (i18n "ad_label_feed")
+      ) }}
+    </div>
+  </div>
+</section>

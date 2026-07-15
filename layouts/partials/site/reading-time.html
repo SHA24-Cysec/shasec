@@ -1,0 +1,6 @@
+{{- /*
+  Reading time — Hugo .ReadingTime + i18n
+*/ -}}
+{{- with .ReadingTime -}}
+{{- i18n "read_time" (dict "Count" .) -}}
+{{- end -}}

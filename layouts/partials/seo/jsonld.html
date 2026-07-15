@@ -1,0 +1,71 @@
+{{- /*
+  JSON-LD via dict|jsonify to avoid double-encoding.
+  WebSite on home · Article on article pages · WebPage otherwise.
+*/ -}}
+{{- $org := .Site.Params.organization | default .Site.Title -}}
+{{- $logo := "images/logo-plate.png" | absURL -}}
+
+{{- if .IsHome -}}
+  {{- $data := dict
+    "@context" "https://schema.org"
+    "@type" "WebSite"
+    "name" .Site.Title
+    "url" .Site.Home.Permalink
+    "description" (.Site.Params.description | default "")
+    "inLanguage" .Site.Language.Lang
+    "publisher" (dict
+      "@type" "Organization"
+      "name" $org
+      "url" .Site.Home.Permalink
+      "logo" (dict "@type" "ImageObject" "url" $logo)
+    )
+    "potentialAction" (dict
+      "@type" "SearchAction"
+      "target" (printf "%s?q={search_term_string}" ("search/" | absLangURL))
+      "query-input" "required name=search_term_string"
+    )
+  -}}
+<script type="application/ld+json">{{ $data | jsonify | safeJS }}</script>
+
+{{- else if and (eq .Section "articles") (eq .Kind "page") -}}
+  {{- $img := partial "site/article-cover.html" . -}}
+  {{- if and $img (not (or (hasPrefix $img "http://") (hasPrefix $img "https://"))) -}}
+    {{- $img = $img | absURL -}}
+  {{- end -}}
+  {{- if not $img -}}{{- $img = $logo -}}{{- end -}}
+  {{- $data := dict
+    "@context" "https://schema.org"
+    "@type" "Article"
+    "headline" .Title
+    "description" ((.Params.summary | default .Description) | default "" | plainify)
+    "url" .Permalink
+    "mainEntityOfPage" .Permalink
+    "image" $img
+    "datePublished" (.Date.Format "2006-01-02T15:04:05Z07:00")
+    "dateModified" ((.Lastmod | default .Date).Format "2006-01-02T15:04:05Z07:00")
+    "inLanguage" .Site.Language.Lang
+    "author" (dict "@type" "Organization" "name" $org)
+    "publisher" (dict
+      "@type" "Organization"
+      "name" $org
+      "logo" (dict "@type" "ImageObject" "url" $logo)
+    )
+  -}}
+<script type="application/ld+json">{{ $data | jsonify | safeJS }}</script>
+
+{{- else -}}
+  {{- $data := dict
+    "@context" "https://schema.org"
+    "@type" "WebPage"
+    "name" .Title
+    "description" ((.Description | default .Site.Params.description) | default "" | plainify)
+    "url" .Permalink
+    "inLanguage" .Site.Language.Lang
+    "isPartOf" (dict
+      "@type" "WebSite"
+      "name" .Site.Title
+      "url" .Site.Home.Permalink
+    )
+  -}}
+<script type="application/ld+json">{{ $data | jsonify | safeJS }}</script>
+{{- end -}}

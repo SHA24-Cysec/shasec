@@ -1,0 +1,32 @@
+<aside class="article-sidebar" aria-label="Sidebar">
+  <div class="article-sidebar-inner">
+    {{ partial "components/ad-slot.html" (dict
+      "context" .
+      "slot" "sidebar"
+      "format" "rectangle"
+      "label" (i18n "ad_label_sidebar")
+      "class" "ad-slot--sidebar"
+    ) }}
+
+    <div class="article-sidebar-card">
+      <p class="article-sidebar-card-title">{{ i18n "sidebar_nav" }}</p>
+      <nav class="article-sidebar-links">
+        <a href="{{ "articles/" | relLangURL }}">{{ i18n "sidebar_all_articles" }}</a>
+        <a href="{{ "tools/" | relLangURL }}">{{ i18n "nav_tools" }}</a>
+        <a href="{{ "about/" | relLangURL }}">{{ i18n "sidebar_about" }}</a>
+        <a href="{{ "contact/" | relLangURL }}">{{ i18n "sidebar_contact" }}</a>
+      </nav>
+    </div>
+
+    {{- with .Params.categories -}}
+      <div class="article-sidebar-card">
+        <p class="article-sidebar-card-title">{{ i18n "sidebar_category" }}</p>
+        <div class="flex flex-wrap gap-2">
+          {{- range . -}}
+            {{ partial "components/badge.html" (dict "label" .) }}
+          {{- end -}}
+        </div>
+      </div>
+    {{- end -}}
+  </div>
+</aside>

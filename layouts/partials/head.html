@@ -1,0 +1,166 @@
+{{- $title := "" -}}
+{{- if .IsHome -}}
+  {{- $title = .Site.Title -}}
+{{- else -}}
+  {{- $title = printf "%s · %s" .Title .Site.Title -}}
+{{- end -}}
+{{- $desc := "" -}}
+{{- with .Description -}}{{- $desc = . -}}{{- else -}}
+  {{- with .Params.summary -}}{{- $desc = . -}}{{- else -}}
+    {{- with .Site.Params.description -}}{{- $desc = . -}}{{- else -}}
+      {{- $desc = "ShaSec — cybersecurity insights, research, and defense." -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+{{- $canonical := .Permalink -}}
+{{- $ogType := "website" -}}
+{{- if and (not .IsHome) (eq .Section "articles") (eq .Kind "page") -}}
+  {{- $ogType = "article" -}}
+{{- end -}}
+{{- $locale := .Site.Language.Lang -}}
+{{- if eq $locale "id" -}}{{- $locale = "id_ID" -}}{{- else if eq $locale "en" -}}{{- $locale = "en_US" -}}{{- end -}}
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>{{ $title }}</title>
+<meta name="description" content="{{ $desc | plainify | truncate 160 }}">
+<meta name="theme-color" content="#05070A">
+{{- /*
+  robots — otomatis, tanpa front matter:
+  - halaman search (layout/type/filename/path) → noindex, follow
+  - override opsional: params.robots (jika pernah diisi)
+*/ -}}
+{{- $isSearchPage := or
+      (eq .Layout "search")
+      (eq .Type "search")
+      (and .File (eq .File.ContentBaseName "search"))
+      (in .RelPermalink "/search/")
+-}}
+{{- $robots := "" -}}
+{{- if isset .Params "robots" -}}
+  {{- $robots = .Params.robots -}}
+{{- else if $isSearchPage -}}
+  {{- $robots = "noindex, follow" -}}
+{{- end -}}
+{{- if $robots -}}
+<meta name="robots" content="{{ $robots }}">
+<meta name="googlebot" content="{{ $robots }}">
+{{- end -}}
+<link rel="canonical" href="{{ $canonical }}">
+
+{{- /* hreflang alternates + x-default */ -}}
+{{- $translations := .AllTranslations -}}
+{{- if not $translations -}}
+  {{- $translations = .Site.Home.AllTranslations -}}
+{{- end -}}
+{{- range $translations -}}
+<link rel="alternate" hreflang="{{ .Language.Lang }}" href="{{ .Permalink }}">
+{{- end -}}
+{{- /* x-default → Indonesian (default content language) home or translation */ -}}
+{{- $defaultAlt := "" -}}
+{{- range $translations -}}
+  {{- if eq .Language.Lang "id" -}}{{- $defaultAlt = .Permalink -}}{{- end -}}
+{{- end -}}
+{{- if not $defaultAlt -}}
+  {{- with site.Sites.Default.Home.Permalink -}}{{- $defaultAlt = . -}}{{- end -}}
+{{- end -}}
+{{- with $defaultAlt -}}
+<link rel="alternate" hreflang="x-default" href="{{ . }}">
+{{- end -}}
+{{- /* RSS */ -}}
+{{- with .OutputFormats.Get "RSS" -}}
+<link rel="alternate" type="application/rss+xml" title="{{ $.Site.Title }}" href="{{ .Permalink }}">
+{{- end -}}
+{{- if not (.OutputFormats.Get "RSS") -}}
+  {{- with .Site.Home.OutputFormats.Get "RSS" -}}
+<link rel="alternate" type="application/rss+xml" title="{{ $.Site.Title }}" href="{{ .Permalink }}">
+  {{- end -}}
+{{- end -}}
+
+<link rel="icon" href="{{ "favicon.ico" | relURL }}" sizes="any">
+<link rel="icon" type="image/png" sizes="32x32" href="{{ "favicon-32x32.png" | relURL }}">
+<link rel="icon" type="image/png" sizes="16x16" href="{{ "favicon-16x16.png" | relURL }}">
+<link rel="apple-touch-icon" sizes="180x180" href="{{ "apple-touch-icon.png" | relURL }}">
+<link rel="icon" type="image/png" sizes="192x192" href="{{ "images/logo-192.png" | relURL }}">
+<link rel="icon" type="image/png" sizes="512x512" href="{{ "images/logo-512.png" | relURL }}">
+
+{{- /* Open Graph image */ -}}
+{{- $ogImage := "" -}}
+{{- with partial "site/article-cover.html" . -}}
+  {{- if or (hasPrefix . "http://") (hasPrefix . "https://") -}}
+    {{- $ogImage = . -}}
+  {{- else -}}
+    {{- $ogImage = . | absURL -}}
+  {{- end -}}
+{{- end -}}
+{{- if not $ogImage -}}
+  {{- $ogImage = "images/logo-plate.png" | absURL -}}
+{{- end -}}
+
+{{- /* Open Graph */ -}}
+<meta property="og:site_name" content="{{ .Site.Title }}">
+<meta property="og:title" content="{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }}{{ end }}">
+<meta property="og:description" content="{{ $desc | plainify | truncate 200 }}">
+<meta property="og:type" content="{{ $ogType }}">
+<meta property="og:url" content="{{ $canonical }}">
+<meta property="og:image" content="{{ $ogImage }}">
+<meta property="og:locale" content="{{ $locale }}">
+{{- range .AllTranslations -}}
+  {{- if ne .Language.Lang $.Language.Lang -}}
+    {{- $altLocale := .Language.Lang -}}
+    {{- if eq $altLocale "id" -}}{{- $altLocale = "id_ID" -}}{{- else if eq $altLocale "en" -}}{{- $altLocale = "en_US" -}}{{- end -}}
+<meta property="og:locale:alternate" content="{{ $altLocale }}">
+  {{- end -}}
+{{- end -}}
+{{- if eq $ogType "article" -}}
+  {{- with .Date -}}
+<meta property="article:published_time" content="{{ .Format "2006-01-02T15:04:05Z07:00" }}">
+  {{- end -}}
+  {{- with .Lastmod -}}
+<meta property="article:modified_time" content="{{ .Format "2006-01-02T15:04:05Z07:00" }}">
+  {{- end -}}
+  {{- with .Params.categories -}}
+    {{- range . -}}
+<meta property="article:section" content="{{ . }}">
+    {{- end -}}
+  {{- end -}}
+  {{- with .Params.tags -}}
+    {{- range . -}}
+<meta property="article:tag" content="{{ . }}">
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+
+{{- /* Twitter Card */ -}}
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }}{{ end }}">
+<meta name="twitter:description" content="{{ $desc | plainify | truncate 200 }}">
+<meta name="twitter:image" content="{{ $ogImage }}">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+
+{{- /* CSS via Hugo Pipes from assets/css */ -}}
+{{- $css := resources.Get "css/main.bundle.css" -}}
+{{- if not $css -}}
+  {{- $css = resources.Get "css/main.css" -}}
+{{- end -}}
+{{- if $css -}}
+  {{- $css = $css | minify | fingerprint -}}
+  <link rel="stylesheet" href="{{ $css.RelPermalink }}" integrity="{{ $css.Data.Integrity }}" crossorigin="anonymous">
+{{- end -}}
+
+{{- /* AdSense config for JS */ -}}
+{{- with .Site.Params.adsense -}}
+  {{- if .enabled -}}
+    <script type="application/json" id="shasec-adsense-config">
+      {{- dict
+        "enabled" .enabled
+        "placeholder" (.placeholder | default true)
+        "client" (.client | default "")
+        "testMode" (.testMode | default false)
+      | jsonify | safeJS -}}
+    </script>
+  {{- end -}}
+{{- end -}}

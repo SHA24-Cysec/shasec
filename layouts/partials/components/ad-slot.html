@@ -1,0 +1,66 @@
+{{- /*
+  AdSense slot / placeholder
+  Params dict:
+    slot   - key in params.adsense.slots (home|article|sidebar|feed) or raw slot id
+    format - auto | horizontal | rectangle (visual only for placeholder)
+    label  - optional label override
+    class  - extra classes
+*/ -}}
+{{- $ads := .context.Site.Params.adsense | default dict -}}
+{{- $enabled := $ads.enabled | default false -}}
+{{- if not $enabled -}}{{- return -}}{{- end -}}
+
+{{- $slotKey := .slot | default "home" -}}
+{{- $format := .format | default "auto" -}}
+{{- $class := .class | default "" -}}
+{{- $label := .label | default (printf "Ad · %s" $slotKey) -}}
+{{- $placeholder := $ads.placeholder | default true -}}
+{{- $client := $ads.client | default "" -}}
+{{- $slots := $ads.slots | default dict -}}
+{{- $slotId := "" -}}
+{{- with index $slots $slotKey -}}
+  {{- $slotId = . -}}
+{{- else -}}
+  {{- /* allow passing raw numeric slot id as slot param */ -}}
+  {{- if findRE `^[0-9]+$` $slotKey -}}
+    {{- $slotId = $slotKey -}}
+  {{- end -}}
+{{- end -}}
+{{- $testMode := $ads.testMode | default false -}}
+{{- $live := and (not $placeholder) $client $slotId -}}
+
+<aside
+  class="ad-slot ad-slot--{{ $format }} {{ $class }}"
+  data-ad-slot="{{ $slotKey }}"
+  data-ad-live="{{ cond $live "true" "false" }}"
+  aria-label="Ruang iklan"
+>
+  {{- if $live -}}
+    <ins
+      class="adsbygoogle"
+      style="display:block"
+      data-ad-client="{{ $client }}"
+      data-ad-slot="{{ $slotId }}"
+      data-ad-format="auto"
+      data-full-width-responsive="true"
+      {{- if $testMode }} data-adtest="on"{{ end -}}
+    ></ins>
+    <script>
+      (window.adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+  {{- else -}}
+    <div class="ad-slot-placeholder">
+      <span class="ad-slot-badge">Ad placeholder</span>
+      <p class="ad-slot-title">{{ $label }}</p>
+      <p class="ad-slot-meta">
+        {{- if not $client -}}
+          Isi <span class="font-mono">params.adsense.client</span> di hugo.toml
+        {{- else if not $slotId -}}
+          Isi slot <span class="font-mono">{{ $slotKey }}</span> di hugo.toml
+        {{- else -}}
+          Mode placeholder aktif — set <span class="font-mono">placeholder = false</span> untuk live
+        {{- end -}}
+      </p>
+    </div>
+  {{- end -}}
+</aside>

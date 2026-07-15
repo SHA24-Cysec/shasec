@@ -1,0 +1,51 @@
+{{- /*
+  Pagination controls — uses .Paginator from parent page context.
+  Call: {{ partial "pagination.html" . }}  after {{ $paginator := .Paginate ... }}
+*/ -}}
+{{- $paginator := .Paginator -}}
+{{- if and $paginator (gt $paginator.TotalPages 1) -}}
+<nav class="pagination" aria-label="{{ i18n "pagination_label" }}">
+  <div class="pagination-inner">
+    {{- if $paginator.HasPrev -}}
+      <a class="pagination-btn" href="{{ $paginator.Prev.URL }}" rel="prev">
+        <span aria-hidden="true">←</span>
+        <span>{{ i18n "pagination_prev" }}</span>
+      </a>
+    {{- else -}}
+      <span class="pagination-btn is-disabled" aria-disabled="true">
+        <span aria-hidden="true">←</span>
+        <span>{{ i18n "pagination_prev" }}</span>
+      </span>
+    {{- end -}}
+
+    <ol class="pagination-pages">
+      {{- range $paginator.Pagers -}}
+        {{- $isCurrent := eq . $paginator -}}
+        <li>
+          {{- if $isCurrent -}}
+            <span class="pagination-page is-current" aria-current="page">{{ .PageNumber }}</span>
+          {{- else -}}
+            <a class="pagination-page" href="{{ .URL }}">{{ .PageNumber }}</a>
+          {{- end -}}
+        </li>
+      {{- end -}}
+    </ol>
+
+    <p class="pagination-meta font-mono text-2xs tracking-wide uppercase text-shasec-muted-soft">
+      {{ i18n "pagination_status" (dict "Page" $paginator.PageNumber "Total" $paginator.TotalPages) }}
+    </p>
+
+    {{- if $paginator.HasNext -}}
+      <a class="pagination-btn" href="{{ $paginator.Next.URL }}" rel="next">
+        <span>{{ i18n "pagination_next" }}</span>
+        <span aria-hidden="true">→</span>
+      </a>
+    {{- else -}}
+      <span class="pagination-btn is-disabled" aria-disabled="true">
+        <span>{{ i18n "pagination_next" }}</span>
+        <span aria-hidden="true">→</span>
+      </span>
+    {{- end -}}
+  </div>
+</nav>
+{{- end -}}

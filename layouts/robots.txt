@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+# Multilingual sitemaps (Hugo)
+Sitemap: {{ "sitemap.xml" | absURL }}

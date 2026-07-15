@@ -1,0 +1,27 @@
+{{- /*
+  ShaSec brand — Monogram S (circuit) from official logo asset
+  Uses PNG mark derived from the selected concept image for visual fidelity.
+*/ -}}
+{{- $title := .Site.Title -}}
+{{- $org := .Site.Params.organization | default $title -}}
+<a href="{{ "/" | relURL }}" class="brand group" aria-label="{{ $title }} — beranda">
+  <span class="brand-mark brand-mark--image" aria-hidden="true">
+    <img
+      class="brand-mark-img"
+      src="{{ "images/logo-mark.png" | relURL }}"
+      srcset="{{ "images/logo-64.png" | relURL }} 64w, {{ "images/logo-mark.png" | relURL }} 256w, {{ "images/logo-512.png" | relURL }} 512w"
+      sizes="40px"
+      width="40"
+      height="40"
+      alt=""
+      decoding="async"
+    >
+  </span>
+  <span class="brand-text truncate">
+    {{- if eq $org "ShaSec" -}}
+      Sha<span>Sec</span>
+    {{- else -}}
+      {{ $org }}
+    {{- end -}}
+  </span>
+</a>

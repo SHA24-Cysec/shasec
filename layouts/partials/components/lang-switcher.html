@@ -1,0 +1,26 @@
+{{- /*
+  Language switcher — translations of current page, else home per language.
+*/ -}}
+<nav class="lang-switch" aria-label="{{ i18n "lang_switch" }}">
+  {{- range .AllTranslations -}}
+    {{- $active := eq .Language.Lang $.Language.Lang -}}
+    <a
+      href="{{ .RelPermalink }}"
+      class="lang-switch-link{{ if $active }} is-active{{ end }}"
+      hreflang="{{ .Language.Lang }}"
+      {{- if $active }} aria-current="true"{{ end -}}
+      title="{{ .Language.LanguageName }}"
+    >{{ .Language.Lang | upper }}</a>
+  {{- else -}}
+    {{- range .Sites -}}
+      {{- $active := eq .Language.Lang $.Language.Lang -}}
+      <a
+        href="{{ .Home.RelPermalink }}"
+        class="lang-switch-link{{ if $active }} is-active{{ end }}"
+        hreflang="{{ .Language.Lang }}"
+        {{- if $active }} aria-current="true"{{ end -}}
+        title="{{ .Language.LanguageName }}"
+      >{{ .Language.Lang | upper }}</a>
+    {{- end -}}
+  {{- end -}}
+</nav>

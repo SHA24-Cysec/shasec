@@ -1,0 +1,129 @@
+{{- /*
+  Author box — solo-operator friendly.
+  Default: site.Params.author
+  Social (username or full URL):
+    linkedin, instagram, github
+  Per-article override: author / authors
+*/ -}}
+{{- $page := . -}}
+{{- $authors := slice -}}
+
+{{- with $page.Params.authors -}}
+  {{- range . -}}
+    {{- if reflect.IsMap . -}}
+      {{- $authors = $authors | append . -}}
+    {{- else -}}
+      {{- $authors = $authors | append (dict "name" .) -}}
+    {{- end -}}
+  {{- end -}}
+{{- else -}}
+  {{- $name := $page.Params.author | default "" -}}
+  {{- if $name -}}
+    {{- if reflect.IsMap $name -}}
+      {{- $authors = $authors | append $name -}}
+    {{- else -}}
+      {{- $authors = $authors | append (dict "name" $name) -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+
+{{- if eq (len $authors) 0 -}}
+  {{- with $page.Site.Params.author -}}
+    {{- $authors = $authors | append . -}}
+  {{- else -}}
+    {{- $authors = $authors | append (dict
+      "name" ($page.Site.Params.organization | default $page.Site.Title)
+      "avatar" "/images/logo-mark.png"
+      "url" ("about/" | relLangURL)
+    ) -}}
+  {{- end -}}
+{{- end -}}
+
+{{- if gt (len $authors) 0 -}}
+<section class="author-box" aria-label="{{ i18n "author_section" }}">
+  <p class="author-box-eyebrow">{{ i18n "author_section" }}</p>
+  <div class="author-box-list">
+    {{- range $authors -}}
+      {{- $name := .name | default .Name | default ($page.Site.Params.organization | default $page.Site.Title) -}}
+      {{- $role := .role | default .Role | default (i18n "author_role_default") -}}
+      {{- $bio := .bio | default .Bio | default (i18n "author_bio_default") -}}
+      {{- $avatar := .avatar | default .Avatar | default "/images/logo-mark.png" -}}
+      {{- $url := .url | default .URL | default ("about/" | relLangURL) -}}
+      {{- if and $avatar (not (or (hasPrefix $avatar "http://") (hasPrefix $avatar "https://"))) -}}
+        {{- $avatar = $avatar | relURL -}}
+      {{- end -}}
+      {{- if and $url (not (or (hasPrefix $url "http://") (hasPrefix $url "https://"))) -}}
+        {{- $url = $url | relLangURL -}}
+      {{- end -}}
+
+      {{- /* Social URLs: accept full URL or username/handle */ -}}
+      {{- $linkedin := .linkedin | default .LinkedIn | default "" -}}
+      {{- $instagram := .instagram | default .Instagram | default "" -}}
+      {{- $github := .github | default .GitHub | default "" -}}
+      {{- if and $linkedin (not (or (hasPrefix $linkedin "http://") (hasPrefix $linkedin "https://"))) -}}
+        {{- $linkedin = printf "https://www.linkedin.com/in/%s" (strings.TrimPrefix "@" (strings.TrimSuffix "/" $linkedin)) -}}
+      {{- end -}}
+      {{- if and $instagram (not (or (hasPrefix $instagram "http://") (hasPrefix $instagram "https://"))) -}}
+        {{- $instagram = printf "https://www.instagram.com/%s" (strings.TrimPrefix "@" (strings.TrimSuffix "/" $instagram)) -}}
+      {{- end -}}
+      {{- if and $github (not (or (hasPrefix $github "http://") (hasPrefix $github "https://"))) -}}
+        {{- $github = printf "https://github.com/%s" (strings.TrimPrefix "@" (strings.TrimSuffix "/" $github)) -}}
+      {{- end -}}
+
+      <div class="author-card">
+        <div class="author-card-media">
+          <img class="author-avatar" src="{{ $avatar }}" alt="{{ $name }}" width="64" height="64" loading="lazy" decoding="async">
+        </div>
+        <div class="author-card-body">
+          <div class="author-card-head">
+            {{- if $url -}}
+              <a class="author-name" href="{{ $url }}">{{ $name }}</a>
+            {{- else -}}
+              <span class="author-name">{{ $name }}</span>
+            {{- end -}}
+            {{- with $role -}}
+              <span class="author-role">{{ . }}</span>
+            {{- end -}}
+          </div>
+          {{- with $bio -}}
+            <p class="author-bio">{{ . }}</p>
+          {{- end -}}
+          <div class="author-links">
+            {{- with $linkedin -}}
+              <a class="author-social" href="{{ . }}" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn — {{ $name }}" title="LinkedIn">
+                <svg class="author-social-icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                  <path d="M4.98 3.5C4.98 4.88 3.86 6 2.5 6S0 4.88 0 3.5 1.12 1 2.5 1s2.48 1.12 2.48 2.5zM.5 8.5h4V23h-4V8.5zM8.5 8.5h3.8v2h.05c.53-1 1.84-2.05 3.79-2.05 4.05 0 4.8 2.67 4.8 6.14V23h-4v-6.6c0-1.57-.03-3.59-2.19-3.59-2.19 0-2.53 1.71-2.53 3.48V23h-4V8.5z"/>
+                </svg>
+              </a>
+            {{- end -}}
+            {{- with $instagram -}}
+              <a class="author-social" href="{{ . }}" target="_blank" rel="noopener noreferrer" aria-label="Instagram — {{ $name }}" title="Instagram">
+                <svg class="author-social-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true">
+                  <rect x="3" y="3" width="18" height="18" rx="5"/>
+                  <circle cx="12" cy="12" r="4"/>
+                  <circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/>
+                </svg>
+              </a>
+            {{- end -}}
+            {{- with $github -}}
+              <a class="author-social" href="{{ . }}" target="_blank" rel="noopener noreferrer" aria-label="GitHub — {{ $name }}" title="GitHub">
+                <svg class="author-social-icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                  <path d="M12 2C6.48 2 2 6.58 2 12.26c0 4.52 2.87 8.35 6.84 9.7.5.1.68-.22.68-.48 0-.24-.01-.87-.01-1.7-2.78.62-3.37-1.37-3.37-1.37-.45-1.18-1.11-1.5-1.11-1.5-.91-.64.07-.63.07-.63 1 .07 1.53 1.06 1.53 1.06.9 1.57 2.36 1.12 2.94.86.09-.67.35-1.12.63-1.38-2.22-.26-4.56-1.14-4.56-5.07 0-1.12.39-2.03 1.03-2.75-.1-.26-.45-1.32.1-2.75 0 0 .84-.27 2.75 1.05A9.2 9.2 0 0 1 12 7.5c.85 0 1.7.12 2.5.34 1.9-1.32 2.74-1.05 2.74-1.05.55 1.43.2 2.49.1 2.75.64.72 1.03 1.63 1.03 2.75 0 3.94-2.34 4.8-4.57 5.06.36.32.68.94.68 1.9 0 1.38-.01 2.48-.01 2.82 0 .26.18.59.69.48A10.03 10.03 0 0 0 22 12.26C22 6.58 17.52 2 12 2z"/>
+                </svg>
+              </a>
+            {{- end -}}
+            {{- if $url -}}
+              <a class="author-social author-social--profile" href="{{ $url }}" aria-label="{{ i18n "author_profile" }} — {{ $name }}" title="{{ i18n "author_profile" }}">
+                <svg class="author-social-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true">
+                  <circle cx="12" cy="8" r="3.5"/>
+                  <path d="M5 19.5c.8-3.2 3.4-5 7-5s6.2 1.8 7 5"/>
+                </svg>
+              </a>
+            {{- end -}}
+          </div>
+        </div>
+      </div>
+    {{- end -}}
+  </div>
+</section>
+{{- end -}}

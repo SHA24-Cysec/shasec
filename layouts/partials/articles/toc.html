@@ -1,0 +1,29 @@
+{{- /*
+  Table of contents for long articles.
+  Uses Hugo .TableOfContents (h2–h3 by config).
+  Hidden if fewer than 2 headings.
+*/ -}}
+{{- $toc := .TableOfContents -}}
+{{- if and $toc (not (eq $toc "")) (not (eq $toc "<nav id=\"TableOfContents\"></nav>")) -}}
+  {{- /* crude depth check: need at least one real link */ -}}
+  {{- if findRE `<a href="#[^"]+">` $toc -}}
+<aside class="article-toc" id="article-toc" aria-labelledby="article-toc-title">
+  <details class="article-toc-details" open>
+    <summary class="article-toc-summary" id="article-toc-title">
+      <span class="article-toc-summary-left">
+        <svg class="article-toc-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true">
+          <path d="M8 6h13M8 12h13M8 18h13M3 6h.01M3 12h.01M3 18h.01"/>
+        </svg>
+        <span>{{ i18n "toc_title" }}</span>
+      </span>
+      <svg class="article-toc-chevron" viewBox="0 0 16 16" fill="none" aria-hidden="true">
+        <path d="M4 6.5 8 10.5 12 6.5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+    </summary>
+    <div class="article-toc-body">
+      {{ $toc }}
+    </div>
+  </details>
+</aside>
+  {{- end -}}
+{{- end -}}

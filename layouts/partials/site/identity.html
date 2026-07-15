@@ -1,0 +1,45 @@
+{{- /*
+  Central identity helpers — read from hugo.toml [params]
+  Usage: partial "site/identity.html" (dict "key" "contactEmail" "page" .)
+  Or call via shortcode site.
+*/ -}}
+{{- $key := .key | default "" -}}
+{{- $page := .page | default . -}}
+{{- $p := $page.Site.Params -}}
+{{- $title := $page.Site.Title -}}
+{{- $baseURL := strings.TrimSuffix "/" $page.Site.BaseURL -}}
+{{- $domain := $p.baseDomain | default (strings.TrimPrefix "https://" (strings.TrimPrefix "http://" $baseURL)) -}}
+{{- $org := $p.organization | default $title -}}
+{{- $email := $p.contactEmail | default "" -}}
+{{- $region := $p.region | default "" -}}
+{{- $owner := $p.ownerName | default $org -}}
+{{- $legal := $p.legalName | default $owner -}}
+{{- $jurisdiction := $p.jurisdiction | default $region -}}
+{{- $phone := $p.contactPhone | default "" -}}
+{{- $address := $p.address | default "" -}}
+{{- $siteURL := $p.siteURL | default $baseURL -}}
+{{- $privacyUpdated := $p.privacyUpdated | default "" -}}
+{{- $disclaimerUpdated := $p.disclaimerUpdated | default "" -}}
+
+{{- if eq $key "title" -}}{{ $title -}}
+{{- else if eq $key "organization" -}}{{ $org -}}
+{{- else if eq $key "baseDomain" -}}{{ $domain -}}
+{{- else if eq $key "domain" -}}{{ $domain -}}
+{{- else if eq $key "siteURL" -}}{{ $siteURL -}}
+{{- else if eq $key "contactEmail" -}}{{ $email -}}
+{{- else if eq $key "email" -}}{{ $email -}}
+{{- else if eq $key "region" -}}{{ $region -}}
+{{- else if eq $key "ownerName" -}}{{ $owner -}}
+{{- else if eq $key "owner" -}}{{ $owner -}}
+{{- else if eq $key "legalName" -}}{{ $legal -}}
+{{- else if eq $key "jurisdiction" -}}{{ $jurisdiction -}}
+{{- else if eq $key "contactPhone" -}}{{ $phone -}}
+{{- else if eq $key "phone" -}}{{ $phone -}}
+{{- else if eq $key "address" -}}{{ $address -}}
+{{- else if eq $key "privacyUpdated" -}}{{ $privacyUpdated -}}
+{{- else if eq $key "disclaimerUpdated" -}}{{ $disclaimerUpdated -}}
+{{- else if eq $key "tagline" -}}{{ $p.tagline | default "" -}}
+{{- else if eq $key "description" -}}{{ $p.description | default "" -}}
+{{- else -}}
+{{- /* unknown key: empty */ -}}
+{{- end -}}

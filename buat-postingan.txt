@@ -1,0 +1,4 @@
+hugo new content/id/articles/nama-file.md --kind postingan
+hugo new content/en/articles/nama-file.md --kind postingan
+
+translationKey harus sama

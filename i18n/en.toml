@@ -1,0 +1,352 @@
+[nav_home]
+other = "Home"
+[nav_articles]
+other = "Articles"
+[nav_categories]
+other = "Categories"
+[nav_tools]
+other = "Tools"
+[nav_about]
+other = "About"
+[nav_contact]
+other = "Contact"
+[nav_subscribe]
+other = "Subscribe"
+[nav_search]
+other = "Search…"
+[nav_open_menu]
+other = "Open menu"
+[nav_close_menu]
+other = "Close menu"
+[nav_main]
+other = "Main navigation"
+[nav_mobile]
+other = "Mobile navigation"
+[nav_footer]
+other = "Footer navigation"
+[nav_legal]
+other = "Legal links"
+[lang_switch]
+other = "Language"
+[lang_id]
+other = "Indonesia"
+[lang_en]
+other = "English"
+
+[home_eyebrow]
+other = "// Cybersecurity Insights & Research"
+[home_title_1]
+other = "Stay ahead"
+[home_title_2]
+other = "Stay secure"
+[home_lead]
+other = "In-depth cybersecurity articles, threat intelligence, and defense insights to help you stay ahead of evolving threats."
+[home_cta_articles]
+other = "Browse Articles"
+[home_cta_subscribe]
+other = "Subscribe to Updates"
+[home_latest]
+other = "Latest Articles"
+[home_view_all]
+other = "View all articles"
+[home_empty_title]
+other = "No articles yet"
+[home_empty_text]
+other = "This section is ready. Cards appear automatically after content is published under content/articles/."
+[home_empty_cta]
+other = "Open articles page"
+[home_empty_eyebrow]
+other = "// empty feed"
+
+[read_time]
+other = "{{ .Count }} min read"
+[updated]
+other = "Updated {{ .Date }}"
+[back_articles]
+other = "← Back to articles"
+[back_home]
+other = "Home"
+[article_label]
+other = "// article"
+[articles_label]
+other = "// articles"
+[related_pages]
+other = "Related pages"
+[empty_state]
+other = "Empty state"
+[empty_section]
+other = "No content in this section yet."
+
+[footer_nav]
+other = "Navigate"
+[footer_legal]
+other = "Legal"
+[footer_about]
+other = "About"
+[footer_contact]
+other = "Contact"
+[footer_privacy]
+other = "Privacy"
+[footer_disclaimer]
+other = "Disclaimer"
+
+[cookie_title]
+other = "Cookies & privacy"
+[cookie_text]
+other = "{{ .Org }} uses essential cookies to run the site, and optional cookies (analytics/ads, including Google AdSense) if you consent. See our"
+[cookie_privacy_link]
+other = "Privacy Policy"
+[cookie_reject]
+other = "Reject optional"
+[cookie_accept]
+other = "Accept"
+
+[search_title]
+other = "Search"
+[search_eyebrow]
+other = "// search"
+[search_lead]
+other = "Search among {{ .Org }} articles. Legal pages (About, Privacy, etc.) are not included in results."
+[search_placeholder]
+other = "Type a keyword… (ransomware, zero trust, privacy…)"
+[search_button]
+other = "Search"
+[search_loading]
+other = "Loading search index…"
+[search_hint]
+other = "Type a keyword to search."
+[search_empty_title]
+other = "No results"
+[search_empty_text]
+other = "Try another keyword, or browse the latest articles."
+[search_view_articles]
+other = "View all articles →"
+[search_label]
+other = "Keyword"
+
+[contact_eyebrow]
+other = "// contact"
+[contact_form_title]
+other = "Message form"
+[contact_name]
+other = "Name"
+[contact_email]
+other = "Email"
+[contact_subject]
+other = "Subject"
+[contact_message]
+other = "Message"
+[contact_name_ph]
+other = "Your name"
+[contact_email_ph]
+other = "you@domain.com"
+[contact_subject_ph]
+other = "Message subject"
+[contact_message_ph]
+other = "Write your message…"
+[contact_send]
+other = "Send message"
+[contact_reset]
+other = "Reset"
+[contact_info]
+other = "Info"
+[contact_org]
+other = "Organization"
+[contact_domain]
+other = "Domain"
+[contact_email_label]
+other = "Email"
+[contact_region]
+other = "Region"
+[contact_related]
+other = "Related pages"
+[contact_note_ready]
+other = "Messages are delivered via Formspree to your inbox."
+[contact_note_pending]
+other = "Formspree is not active — set params.contact.formspreeId in hugo.toml."
+[contact_direct]
+other = "Direct email:"
+[contact_success]
+other = "Thank you — your message was sent. We will reply as soon as we can."
+[contact_error]
+other = "Failed to send. Try again or email us directly."
+[contact_pending]
+other = "Formspree is not configured. Set params.contact.formspreeId in hugo.toml."
+[contact_fill]
+other = "Please fill in the required fields."
+[contact_sending]
+other = "Sending message…"
+[contact_send_loading]
+other = "Sending…"
+
+[subscribe_eyebrow]
+other = "// subscribe"
+[subscribe_title]
+other = "Subscribe"
+[subscribe_form_title]
+other = "Newsletter"
+[subscribe_email]
+other = "Email"
+[subscribe_name]
+other = "Name"
+[subscribe_optional]
+other = "(optional)"
+[subscribe_button]
+other = "Subscribe"
+[subscribe_loading]
+other = "Subscribing…"
+[subscribe_rss]
+other = "RSS Feed"
+[subscribe_benefits]
+other = "What you get"
+[subscribe_b1]
+other = "New cybersecurity article updates"
+[subscribe_b2]
+other = "Threat intelligence summaries"
+[subscribe_b3]
+other = "No spam — reasonable frequency"
+[subscribe_b4]
+other = "Unsubscribe anytime"
+[subscribe_alt]
+other = "Alternative"
+[subscribe_alt_text]
+other = "Prefer a feed reader? Follow the site RSS."
+[subscribe_rss_open]
+other = "Open RSS →"
+[subscribe_related]
+other = "Related"
+[subscribe_note_ready]
+other = "Sign-ups are processed via Formspree."
+[subscribe_note_pending]
+other = "Formspree is not active — set params.subscribe.formspreeId or params.contact.formspreeId in hugo.toml."
+[subscribe_privacy]
+other = "By subscribing, you agree to our"
+[subscribe_success]
+other = "Thank you — you are subscribed. Check your inbox if confirmation is required."
+[subscribe_error]
+other = "Subscription failed. Try again or contact the site email."
+[subscribe_pending]
+other = "Subscribe is not configured. Set formspreeId in hugo.toml."
+[subscribe_invalid]
+other = "Enter a valid email address."
+[subscribe_registering]
+other = "Registering email…"
+
+[tools_eyebrow]
+other = "// tools"
+[tools_all]
+other = "All"
+[tools_search]
+other = "Search tools"
+[tools_search_ph]
+other = "Filter name / tag…"
+[tools_showing]
+other = "Showing {{ .Count }} tools"
+[tools_showing_filter]
+other = "Showing {{ .Count }} tools (filter active)"
+[tools_empty_title]
+other = "No tools"
+[tools_empty_text]
+other = "Try another keyword or category."
+[tools_external]
+other = "External"
+[tools_internal]
+other = "Internal"
+[tools_open]
+other = "Open"
+[tools_disclaimer_title]
+other = "// short disclaimer"
+[tools_disclaimer]
+other = "Tools on this page are for education and defense. Do not use them for unauthorized access. See also our"
+[tools_empty_yaml]
+other = "No tools yet. Fill data/tools.yaml."
+
+[ad_placeholder]
+other = "Ad placeholder"
+[ad_label_article]
+other = "Ad · Article"
+[ad_label_feed]
+other = "Ad · Home feed"
+[ad_label_sidebar]
+other = "Ad · Sidebar"
+[ad_need_client]
+other = "Set params.adsense.client in hugo.toml"
+[ad_need_slot]
+other = "Set the slot in hugo.toml"
+[ad_placeholder_mode]
+other = "Placeholder mode — set placeholder = false to go live"
+[ad_space]
+other = "Ad space"
+
+[sidebar_nav]
+other = "Navigate"
+[sidebar_all_articles]
+other = "All articles"
+[sidebar_categories]
+other = "Categories"
+[sidebar_about]
+other = "About"
+[sidebar_contact]
+other = "Contact"
+[sidebar_category]
+other = "Category"
+
+[page_info]
+other = "site information"
+[legal_about]
+other = "About Us"
+[legal_contact]
+other = "Contact"
+[legal_privacy]
+other = "Privacy Policy"
+[legal_disclaimer]
+other = "Disclaimer"
+
+[404_eyebrow]
+other = "// error 404"
+[404_title]
+other = "Signal lost"
+[404_text]
+other = "The page you requested was not found or has been moved."
+[404_home]
+other = "Back to Home"
+
+[site_info]
+other = "Info"
+
+[pagination_label]
+other = "Pagination"
+[pagination_prev]
+other = "Previous"
+[pagination_next]
+other = "Next"
+[pagination_status]
+other = "Page {{ .Page }} / {{ .Total }}"
+
+[breadcrumb_label]
+other = "Breadcrumb"
+[breadcrumb_tags]
+other = "Tags"
+
+[related_articles]
+other = "Related articles"
+
+[toc_title]
+other = "Table of contents"
+[author_section]
+other = "About the author"
+[author_profile]
+other = "Profile"
+[author_role_default]
+other = "Editor"
+[author_bio_default]
+other = "Just a person who has a hobby and likes things related to technology."
+
+[share_label]
+other = "Share"
+[share_copy]
+other = "Copy link"
+[share_copied]
+other = "Link copied"
+[share_native]
+other = "Share via device"

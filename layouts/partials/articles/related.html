@@ -1,0 +1,93 @@
+{{- /*
+  Related articles — same language only
+  Priority: shared categories → shared tags → recent articles
+  Excludes current page. Max 3 cards.
+*/ -}}
+{{- $page := . -}}
+{{- $max := 3 -}}
+{{- $related := slice -}}
+{{- $seen := dict -}}
+
+{{- /* Mark current as seen */ -}}
+{{- $seen = merge $seen (dict $page.RelPermalink true) -}}
+
+{{- $pool := where $page.Site.RegularPages "Section" "articles" -}}
+{{- $pool = where $pool "Draft" "ne" true -}}
+
+{{- /* 1) Same first category */ -}}
+{{- $cat := "" -}}
+{{- with $page.Params.categories -}}{{- $cat = index . 0 -}}{{- end -}}
+{{- if $cat -}}
+  {{- range $pool -}}
+    {{- if ge (len $related) $max -}}{{- break -}}{{- end -}}
+    {{- if index $seen .RelPermalink -}}{{- continue -}}{{- end -}}
+    {{- $hit := false -}}
+    {{- with .Params.categories -}}
+      {{- range . -}}
+        {{- if eq . $cat -}}{{- $hit = true -}}{{- end -}}
+      {{- end -}}
+    {{- end -}}
+    {{- if $hit -}}
+      {{- $related = $related | append . -}}
+      {{- $seen = merge $seen (dict .RelPermalink true) -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+
+{{- /* 2) Shared tags */ -}}
+{{- $tags := $page.Params.tags | default (slice) -}}
+{{- if and (lt (len $related) $max) (gt (len $tags) 0) -}}
+  {{- range $pool -}}
+    {{- if ge (len $related) $max -}}{{- break -}}{{- end -}}
+    {{- if index $seen .RelPermalink -}}{{- continue -}}{{- end -}}
+    {{- $hit := false -}}
+    {{- with .Params.tags -}}
+      {{- range . -}}
+        {{- if in $tags . -}}{{- $hit = true -}}{{- end -}}
+      {{- end -}}
+    {{- end -}}
+    {{- if $hit -}}
+      {{- $related = $related | append . -}}
+      {{- $seen = merge $seen (dict .RelPermalink true) -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+
+{{- /* 3) Fill with recent */ -}}
+{{- if lt (len $related) $max -}}
+  {{- range $pool.ByDate.Reverse -}}
+    {{- if ge (len $related) $max -}}{{- break -}}{{- end -}}
+    {{- if index $seen .RelPermalink -}}{{- continue -}}{{- end -}}
+    {{- $related = $related | append . -}}
+    {{- $seen = merge $seen (dict .RelPermalink true) -}}
+  {{- end -}}
+{{- end -}}
+
+{{- if gt (len $related) 0 -}}
+<section class="related-articles" aria-labelledby="related-articles-title">
+  <div class="related-articles-head">
+    <h2 id="related-articles-title" class="text-section-title">{{ i18n "related_articles" }}</h2>
+    <a href="{{ "articles/" | relLangURL }}" class="link-arrow">{{ i18n "home_view_all" }} →</a>
+  </div>
+  <div class="related-articles-grid">
+    {{- range $related -}}
+      {{- $catLabel := "" -}}
+      {{- with .Params.categories -}}{{- $catLabel = index . 0 -}}{{- end -}}
+      {{- $excerpt := "" -}}
+      {{- with .Params.summary -}}{{- $excerpt = . | plainify | truncate 120 -}}{{- else -}}{{- $excerpt = .Summary | plainify | truncate 120 -}}{{- end -}}
+      {{- $read := partial "site/reading-time.html" . -}}
+      {{- $img := partial "site/article-cover.html" . -}}
+      {{ partial "components/card.html" (dict
+        "title" .Title
+        "excerpt" $excerpt
+        "href" .RelPermalink
+        "category" $catLabel
+        "date" (.Date.Format "2 Jan 2006")
+        "readTime" $read
+        "image" $img
+        "class" "related-articles-card"
+      ) }}
+    {{- end -}}
+  </div>
+</section>
+{{- end -}}

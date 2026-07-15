@@ -1,0 +1,45 @@
+{{- /*
+  Button component
+  Params (dict):
+    href    - optional URL (renders <a> if set, else <button>)
+    label   - button text (required)
+    variant - primary | outline | ghost (default: primary)
+    size    - sm | md (default: md)
+    icon    - optional leading icon key: terminal | bell | arrow
+    class   - extra classes
+    type    - button type if not link (default: button)
+*/ -}}
+{{- $label := .label | default "Button" -}}
+{{- $variant := .variant | default "primary" -}}
+{{- $size := .size | default "md" -}}
+{{- $icon := .icon | default "" -}}
+{{- $class := .class | default "" -}}
+{{- $type := .type | default "button" -}}
+{{- $href := .href | default "" -}}
+{{- $variantClass := cond (eq $variant "outline") "btn-outline" (cond (eq $variant "ghost") "btn-ghost" "btn-primary") -}}
+{{- $sizeClass := cond (eq $size "sm") "btn-sm" "" -}}
+{{- $classes := printf "%s %s %s" $variantClass $sizeClass $class | strings.TrimSpace -}}
+
+{{- if $href -}}
+<a href="{{ $href }}" class="{{ $classes }}">
+  {{- if eq $icon "terminal" -}}
+    <span class="font-mono" aria-hidden="true">&gt;_</span>
+  {{- else if eq $icon "bell" -}}
+    <svg class="h-3.5 w-3.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M15 17H9a4 4 0 0 1-4-4V10a7 7 0 0 1 14 0v3a4 4 0 0 1-4 4Z"/><path d="M10 17a2 2 0 0 0 4 0"/><path d="M12 3v1"/></svg>
+  {{- else if eq $icon "arrow" -}}
+    <svg class="h-3.5 w-3.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M5 12h14"/><path d="m13 6 6 6-6 6"/></svg>
+  {{- end -}}
+  <span>{{ $label }}</span>
+</a>
+{{- else -}}
+<button type="{{ $type }}" class="{{ $classes }}">
+  {{- if eq $icon "terminal" -}}
+    <span class="font-mono" aria-hidden="true">&gt;_</span>
+  {{- else if eq $icon "bell" -}}
+    <svg class="h-3.5 w-3.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M15 17H9a4 4 0 0 1-4-4V10a7 7 0 0 1 14 0v3a4 4 0 0 1-4 4Z"/><path d="M10 17a2 2 0 0 0 4 0"/><path d="M12 3v1"/></svg>
+  {{- else if eq $icon "arrow" -}}
+    <svg class="h-3.5 w-3.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M5 12h14"/><path d="m13 6 6 6-6 6"/></svg>
+  {{- end -}}
+  <span>{{ $label }}</span>
+</button>
+{{- end -}}

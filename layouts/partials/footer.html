@@ -1,0 +1,46 @@
+<footer class="site-footer">
+  <div class="site-footer-inner site-footer-inner--rich">
+    <div class="footer-brand">
+      {{ partial "components/logo.html" . }}
+      <p class="text-xs text-shasec-muted max-w-sm mt-2">
+        {{ with .Site.Params.tagline }}{{ . }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}
+      </p>
+    </div>
+
+    <div class="footer-cols">
+      <div class="footer-col">
+        <p class="footer-col-title">{{ i18n "footer_nav" }}</p>
+        <nav class="footer-links" aria-label="{{ i18n "nav_footer" }}">
+          {{- range .Site.Menus.main -}}
+            <a href="{{ .URL }}">{{ .Name }}</a>
+          {{- end -}}
+        </nav>
+      </div>
+
+      <div class="footer-col">
+        <p class="footer-col-title">{{ i18n "footer_legal" }}</p>
+        <nav class="footer-links" aria-label="{{ i18n "nav_legal" }}">
+          <a href="{{ "about/" | relLangURL }}">{{ i18n "footer_about" }}</a>
+          <a href="{{ "contact/" | relLangURL }}">{{ i18n "footer_contact" }}</a>
+          <a href="{{ "privacy/" | relLangURL }}">{{ i18n "footer_privacy" }}</a>
+          <a href="{{ "disclaimer/" | relLangURL }}">{{ i18n "footer_disclaimer" }}</a>
+          <a href="{{ "subscribe/" | relLangURL }}">{{ i18n "nav_subscribe" }}</a>
+        </nav>
+      </div>
+    </div>
+
+    <div class="footer-meta">
+      <p class="font-mono text-2xs tracking-[0.14em] uppercase text-shasec-muted-soft">
+        © {{ now.Year }} {{ with .Site.Params.organization }}{{ . }}{{ else }}{{ .Site.Title }}{{ end }}
+      </p>
+      <p class="font-mono text-2xs text-shasec-muted-soft">
+        {{ partial "site/identity.html" (dict "key" "baseDomain" "page" .) }}
+      </p>
+      {{- with .Site.Params.contactEmail -}}
+      <p class="font-mono text-2xs text-shasec-muted-soft mt-1">
+        <a href="mailto:{{ . }}" class="hover:text-shasec-primary">{{ . }}</a>
+      </p>
+      {{- end -}}
+    </div>
+  </div>
+</footer>

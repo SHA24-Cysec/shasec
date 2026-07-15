@@ -1,0 +1,142 @@
+{{ define "main" }}
+{{- $data := site.Data.tools | default dict -}}
+{{- $cats := $data.categories | default (slice) -}}
+{{- $items := $data.items | default (slice) -}}
+
+<section class="section-y tools-page">
+  <div class="site-container">
+    <header class="tools-header mb-8 max-w-2xl">
+      <p class="text-eyebrow mb-3">{{ i18n "tools_eyebrow" }}</p>
+      <h1 class="text-display text-3xl sm:text-4xl mb-4">{{ .Title | default "Tools" }}</h1>
+      {{- with .Description -}}
+        <p class="text-lead mb-4">{{ . }}</p>
+      {{- end -}}
+      {{- with .Content -}}
+        <div class="prose-shasec text-sm sm:text-base">{{ . }}</div>
+      {{- end -}}
+    </header>
+
+    {{- if $items -}}
+      <div class="tools-toolbar">
+        <div class="tools-filters" id="tools-filters" role="toolbar" aria-label="Filter kategori tools">
+          <button type="button" class="tools-chip is-active" data-tools-filter="all" aria-pressed="true">
+            Semua
+            <span class="tools-chip-count">{{ len $items }}</span>
+          </button>
+          {{- range $cats -}}
+            {{- $cid := .id -}}
+            {{- $count := 0 -}}
+            {{- range $items -}}
+              {{- if eq .category $cid -}}{{- $count = add $count 1 -}}{{- end -}}
+            {{- end -}}
+            {{- if gt $count 0 -}}
+              <button type="button" class="tools-chip" data-tools-filter="{{ $cid }}" aria-pressed="false">
+                {{ .label }}
+                <span class="tools-chip-count">{{ $count }}</span>
+              </button>
+            {{- end -}}
+          {{- end -}}
+        </div>
+
+        <div class="tools-search-wrap">
+          <label class="sr-only" for="tools-search">{{ i18n "tools_search" }}</label>
+          <svg class="tools-search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true">
+            <circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/>
+          </svg>
+          <input
+            id="tools-search"
+            class="input tools-search-input"
+            type="search"
+            placeholder="{{ i18n "tools_search_ph" }}"
+            autocomplete="off"
+            spellcheck="false"
+          >
+        </div>
+      </div>
+
+      <p class="tools-status font-mono text-2xs tracking-wide uppercase text-shasec-muted-soft mb-4" id="tools-status" role="status" aria-live="polite">
+        {{ i18n "tools_showing" (dict "Count" (len $items)) }}
+      </p>
+
+      <div class="tools-grid" id="tools-grid">
+        {{- range $items -}}
+          {{- $item := . -}}
+          {{- $catLabel := $item.category -}}
+          {{- range $cats -}}
+            {{- if eq .id $item.category -}}{{- $catLabel = .label -}}{{- end -}}
+          {{- end -}}
+          {{- $ext := $item.external | default true -}}
+          {{- $href := $item.url | default "#" -}}
+          {{- if and (not $ext) (not (or (hasPrefix $href "http://") (hasPrefix $href "https://"))) -}}
+            {{- $href = $href | relURL -}}
+          {{- end -}}
+          {{- $tags := $item.tags | default (slice) -}}
+          {{- $searchBlob := printf "%s %s %s %s" $item.name $item.description $catLabel (delimit $tags " ") | lower -}}
+
+          <article
+            class="tool-card card"
+            data-tools-item
+            data-category="{{ $item.category }}"
+            data-search="{{ $searchBlob }}"
+          >
+            <div class="tool-card-body">
+              <div class="tool-card-top">
+                <span class="badge">{{ $catLabel }}</span>
+                {{- if $ext -}}
+                  <span class="tool-ext font-mono text-2xs uppercase tracking-wider text-shasec-muted-soft">{{ i18n "tools_external" }}</span>
+                {{- else -}}
+                  <span class="tool-ext font-mono text-2xs uppercase tracking-wider text-shasec-primary">{{ i18n "tools_internal" }}</span>
+                {{- end -}}
+              </div>
+              <h2 class="tool-card-title">{{ $item.name }}</h2>
+              <p class="tool-card-desc">{{ $item.description }}</p>
+              {{- if $tags -}}
+                <div class="tool-card-tags">
+                  {{- range $tags -}}
+                    <span class="tool-tag">#{{ . }}</span>
+                  {{- end -}}
+                </div>
+              {{- end -}}
+              <div class="tool-card-actions">
+                <a
+                  href="{{ $href }}"
+                  class="btn-primary btn-sm"
+                  {{- if $ext }} target="_blank" rel="noopener noreferrer"{{ end -}}
+                >
+                  <span>{{ i18n "tools_open" }}</span>
+                  {{- if $ext -}}
+                    <svg class="h-3.5 w-3.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M14 5h5v5"/><path d="M10 14 19 5"/><path d="M19 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V7a2 2 0 0 1 2-2h6"/></svg>
+                  {{- else -}}
+                    <svg class="h-3.5 w-3.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M5 12h14"/><path d="m13 6 6 6-6 6"/></svg>
+                  {{- end -}}
+                </a>
+              </div>
+            </div>
+          </article>
+        {{- end -}}
+      </div>
+
+      <div class="tools-empty card p-6 max-w-xl mt-4 hidden" id="tools-empty" hidden>
+        <p class="font-mono text-xs uppercase tracking-[0.14em] text-shasec-primary mb-2">{{ i18n "tools_empty_title" }}</p>
+        <p class="text-sm text-shasec-muted">{{ i18n "tools_empty_text" }}</p>
+      </div>
+    {{- else -}}
+      <div class="card p-6 sm:p-8 max-w-xl">
+        <p class="font-mono text-xs uppercase tracking-[0.14em] text-shasec-primary mb-2">Empty</p>
+        <p class="text-sm text-shasec-muted">Belum ada tools. Isi <span class="font-mono text-shasec-primary">data/tools.yaml</span>.</p>
+      </div>
+    {{- end -}}
+
+    <aside class="tools-note card p-5 mt-10 max-w-3xl">
+      <p class="font-mono text-2xs tracking-[0.14em] uppercase text-shasec-primary mb-2">{{ i18n "tools_disclaimer_title" }}</p>
+      <p class="text-sm text-shasec-muted m-0 leading-relaxed">
+        Tools di halaman ini disediakan untuk <strong class="text-shasec-text-bright">edukasi dan defense</strong>.
+        Jangan gunakan untuk akses tanpa otorisasi. Lihat juga
+        <a href="{{ "/disclaimer/" | relURL }}" class="text-shasec-primary hover:underline">Disclaimer</a>
+        dan
+        <a href="{{ "/privacy/" | relURL }}" class="text-shasec-primary hover:underline">Kebijakan Privasi</a>.
+      </p>
+    </aside>
+  </div>
+</section>
+{{ end }}

@@ -1,0 +1,106 @@
+# Katalog tools — edit di sini untuk menambah/menghapus item.
+# url eksternal: buka tab baru · url internal: path situs (contoh /search/)
+
+categories:
+  - id: recon
+    label: Recon & OSINT
+  - id: analysis
+    label: Analisis
+  - id: network
+    label: Network & DNS
+  - id: hardening
+    label: Hardening & Check
+  - id: site
+    label: Di situs ini
+
+items:
+  - name: CyberChef
+    description: Swiss-army knife untuk encode/decode, hashing, parsing data, dan transformasi payload secara offline di browser.
+    url: https://gchq.github.io/CyberChef/
+    category: analysis
+    tags: [encode, decode, hash]
+    external: true
+
+  - name: VirusTotal
+    description: Scan file, URL, domain, dan hash terhadap banyak engine antivirus serta intel komunitas.
+    url: https://www.virustotal.com/
+    category: analysis
+    tags: [malware, hash, url]
+    external: true
+
+  - name: urlscan.io
+    description: Sandbox browser untuk memindai URL, melihat request, redirect, dan indikator phishing/malware.
+    url: https://urlscan.io/
+    category: analysis
+    tags: [url, phishing]
+    external: true
+
+  - name: Have I Been Pwned
+    description: Cek apakah alamat email atau domain pernah muncul di data breach publik.
+    url: https://haveibeenpwned.com/
+    category: recon
+    tags: [breach, email]
+    external: true
+
+  - name: crt.sh
+    description: Cari sertifikat TLS/SSL dari Certificate Transparency logs — berguna untuk enumerasi subdomain.
+    url: https://crt.sh/
+    category: recon
+    tags: [ssl, subdomain]
+    external: true
+
+  - name: Shodan
+    description: Search engine untuk perangkat & layanan yang terpapar internet (port, banner, CVE terkait).
+    url: https://www.shodan.io/
+    category: recon
+    tags: [iot, ports]
+    external: true
+
+  - name: Security Headers
+    description: Analisis header keamanan HTTP (CSP, HSTS, X-Frame-Options, dll.) untuk situs Anda.
+    url: https://securityheaders.com/
+    category: hardening
+    tags: [http, headers]
+    external: true
+
+  - name: Mozilla Observatory
+    description: Scan hardening web (TLS, headers, cookie flags) dengan skor dan rekomendasi perbaikan.
+    url: https://observatory.mozilla.org/
+    category: hardening
+    tags: [tls, scan]
+    external: true
+
+  - name: MXToolbox
+    description: Cek DNS, MX, blacklist, SPF/DKIM/DMARC, dan diagnostik email/network cepat.
+    url: https://mxtoolbox.com/
+    category: network
+    tags: [dns, email, blacklist]
+    external: true
+
+  - name: DNS Leak Test
+    description: Uji apakah resolusi DNS bocor di luar jalur VPN/proxy yang diharapkan.
+    url: https://www.dnsleaktest.com/
+    category: network
+    tags: [dns, vpn]
+    external: true
+
+  - name: AbuseIPDB
+    description: Cek reputasi alamat IP terhadap laporan abuse komunitas (spam, bruteforce, bot, dll.).
+    url: https://www.abuseipdb.com/
+    category: network
+    tags: [ip, reputation]
+    external: true
+
+  - name: Cari di ShaSec
+    description: Pencarian artikel cybersecurity di situs ini (indeks lokal, tanpa backend).
+    url: /search/
+    category: site
+    tags: [search, internal]
+    external: false
+
+  - name: Artikel ShaSec
+    description: Kumpulan artikel threat intelligence, malware analysis, dan praktik defense.
+    url: /articles/
+    category: site
+    tags: [blog, internal]
+    external: false

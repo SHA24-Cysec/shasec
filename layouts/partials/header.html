@@ -1,0 +1,79 @@
+{{- $current := . -}}
+<header class="site-header">
+  <div class="site-header-inner">
+    {{ partial "components/logo.html" . }}
+
+    <nav class="hidden lg:flex items-center gap-5 xl:gap-6 flex-1 justify-center" aria-label="{{ i18n "nav_main" }}">
+      {{- range .Site.Menus.main -}}
+        {{- $active := or ($current.IsMenuCurrent "main" .) ($current.HasMenuCurrent "main" .) -}}
+        {{- if and (not $active) (eq $current.RelPermalink .URL) }}{{ $active = true }}{{ end -}}
+        <a href="{{ .URL }}" class="{{ if $active }}nav-link-active{{ else }}nav-link{{ end }}">
+          {{ .Name }}
+        </a>
+      {{- end -}}
+    </nav>
+
+    <div class="ml-auto flex items-center gap-2 sm:gap-3">
+      <form class="relative hidden md:block" role="search" action="{{ "search/" | relLangURL }}" method="get" id="header-search-form">
+        <label class="sr-only" for="site-search">{{ i18n "nav_search" }}</label>
+        <svg class="pointer-events-none absolute left-3 top-1/2 h-3.5 w-3.5 -translate-y-1/2 text-shasec-muted-soft" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+        <input id="site-search" name="q" type="search" class="input-search w-40 lg:w-48" placeholder="{{ i18n "nav_search" }}" autocomplete="off" enterkeyhint="search">
+      </form>
+
+      <div class="hidden sm:block">
+        {{ partial "components/lang-switcher.html" . }}
+      </div>
+
+      {{ partial "components/button.html" (dict
+        "href" ("subscribe/" | relLangURL)
+        "label" (i18n "nav_subscribe")
+        "variant" "outline"
+        "size" "sm"
+        "class" "hidden sm:inline-flex"
+      ) }}
+
+      <button
+        type="button"
+        id="nav-toggle"
+        class="btn-icon lg:hidden"
+        aria-controls="mobile-nav"
+        aria-expanded="false"
+        aria-label="{{ i18n "nav_open_menu" }}"
+      >
+        <svg class="h-5 w-5" id="nav-icon-open" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true">
+          <path d="M4 7h16M4 12h16M4 17h16"/>
+        </svg>
+        <svg class="h-5 w-5 hidden" id="nav-icon-close" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true">
+          <path d="M6 6l12 12M18 6 6 18"/>
+        </svg>
+      </button>
+    </div>
+  </div>
+
+  <div id="mobile-nav" class="mobile-nav hidden" hidden>
+    <nav class="flex flex-col gap-1" aria-label="{{ i18n "nav_mobile" }}">
+      {{- range .Site.Menus.main -}}
+        {{- $active := or ($current.IsMenuCurrent "main" .) ($current.HasMenuCurrent "main" .) -}}
+        {{- if and (not $active) (eq $current.RelPermalink .URL) }}{{ $active = true }}{{ end -}}
+        <a href="{{ .URL }}" class="{{ if $active }}nav-link-active{{ else }}nav-link{{ end }}">
+          {{ .Name }}
+        </a>
+      {{- end -}}
+    </nav>
+    <div class="mt-3 flex flex-col gap-2 border-t border-shasec-border pt-3">
+      <div class="px-1 pb-1">
+        {{ partial "components/lang-switcher.html" . }}
+      </div>
+      <form role="search" action="{{ "search/" | relLangURL }}" method="get">
+        <label class="sr-only" for="site-search-mobile">{{ i18n "nav_search" }}</label>
+        <input id="site-search-mobile" name="q" type="search" class="input" placeholder="{{ i18n "nav_search" }}">
+      </form>
+      {{ partial "components/button.html" (dict
+        "href" ("subscribe/" | relLangURL)
+        "label" (i18n "nav_subscribe")
+        "variant" "primary"
+        "class" "w-full"
+      ) }}
+    </div>
+  </div>
+</header>

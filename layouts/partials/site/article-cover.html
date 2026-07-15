@@ -1,0 +1,54 @@
+{{- /*
+  Resolve article cover URL.
+  Params: cover | image | images.cover
+
+  Local paths under static/:
+  - Prefer .webp sibling if present (smaller)
+  - Fall back to exact path if it exists
+  - Missing file → empty (card/single fallback)
+
+  Remote http(s): returned as-is
+*/ -}}
+{{- $img := "" -}}
+{{- with .Params.cover -}}{{- $img = . -}}{{- end -}}
+{{- if not $img -}}{{- with .Params.image -}}{{- $img = . -}}{{- end -}}{{- end -}}
+{{- if not $img -}}{{- with .Params.images -}}{{- with .cover -}}{{- $img = . -}}{{- end -}}{{- end -}}{{- end -}}
+
+{{- if $img -}}
+  {{- if or (hasPrefix $img "http://") (hasPrefix $img "https://") -}}
+    {{- $img -}}
+  {{- else -}}
+    {{- $path := strings.TrimPrefix "/" $img -}}
+    {{- $path = strings.TrimPrefix "./" $path -}}
+    {{- if hasPrefix $path "static/" -}}
+      {{- $path = strings.TrimPrefix "static/" $path -}}
+    {{- end -}}
+
+    {{- $chosen := "" -}}
+
+    {{- /* Prefer webp sibling for jpg/png/jpeg */ -}}
+    {{- if or (strings.HasSuffix $path ".jpg") (strings.HasSuffix $path ".jpeg") (strings.HasSuffix $path ".png") -}}
+      {{- $webp := replaceRE `\.(jpg|jpeg|png)$` ".webp" $path -}}
+      {{- if fileExists (printf "static/%s" $webp) -}}
+        {{- $chosen = $webp -}}
+      {{- end -}}
+    {{- end -}}
+
+    {{- /* Exact path */ -}}
+    {{- if and (not $chosen) (fileExists (printf "static/%s" $path)) -}}
+      {{- $chosen = $path -}}
+    {{- end -}}
+
+    {{- /* If user set .webp but missing, try .jpg fallback */ -}}
+    {{- if and (not $chosen) (strings.HasSuffix $path ".webp") -}}
+      {{- $jpg := replaceRE `\.webp$` ".jpg" $path -}}
+      {{- if fileExists (printf "static/%s" $jpg) -}}
+        {{- $chosen = $jpg -}}
+      {{- end -}}
+    {{- end -}}
+
+    {{- with $chosen -}}
+      {{- . | relURL -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}

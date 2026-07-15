@@ -1,0 +1,93 @@
+{{- /*
+  Breadcrumb UI (refined) + optional BreadcrumbList JSON-LD
+  Call: {{ partial "components/breadcrumb.html" (dict "page" . "jsonld" true) }}
+*/ -}}
+{{- $page := .page | default . -}}
+{{- $withJson := false -}}
+{{- with .jsonld -}}{{- $withJson = . -}}{{- end -}}
+
+{{- $items := slice -}}
+{{- $items = $items | append (dict "name" (i18n "nav_home") "url" $page.Site.Home.Permalink "home" true) -}}
+
+{{- if eq $page.Section "articles" -}}
+  {{- $items = $items | append (dict "name" (i18n "nav_articles") "url" ("articles/" | absLangURL)) -}}
+  {{- if and (eq $page.Kind "page") $page.Params.categories -}}
+    {{- $cat := index $page.Params.categories 0 -}}
+    {{- with $cat -}}
+      {{- $items = $items | append (dict "name" . "url" (printf "categories/%s/" (. | urlize) | absLangURL)) -}}
+    {{- end -}}
+  {{- end -}}
+  {{- if eq $page.Kind "page" -}}
+    {{- $items = $items | append (dict "name" $page.Title "url" $page.Permalink) -}}
+  {{- end -}}
+{{- else if eq $page.Kind "term" -}}
+  {{- if eq $page.Section "categories" -}}
+    {{- $items = $items | append (dict "name" (i18n "nav_categories") "url" ("categories/" | absLangURL)) -}}
+  {{- else if eq $page.Section "tags" -}}
+    {{- $items = $items | append (dict "name" (i18n "breadcrumb_tags") "url" ("tags/" | absLangURL)) -}}
+  {{- end -}}
+  {{- $items = $items | append (dict "name" $page.Title "url" $page.Permalink) -}}
+{{- else if eq $page.Kind "taxonomy" -}}
+  {{- if eq $page.Section "categories" -}}
+    {{- $items = $items | append (dict "name" (i18n "nav_categories") "url" $page.Permalink) -}}
+  {{- else if eq $page.Section "tags" -}}
+    {{- $items = $items | append (dict "name" (i18n "breadcrumb_tags") "url" $page.Permalink) -}}
+  {{- else -}}
+    {{- $items = $items | append (dict "name" $page.Title "url" $page.Permalink) -}}
+  {{- end -}}
+{{- else if not $page.IsHome -}}
+  {{- $items = $items | append (dict "name" $page.Title "url" $page.Permalink) -}}
+{{- end -}}
+
+{{- if gt (len $items) 1 -}}
+<nav class="breadcrumb" aria-label="{{ i18n "breadcrumb_label" }}">
+  <ol class="breadcrumb-list">
+    {{- range $i, $item := $items -}}
+      {{- $last := eq (add $i 1) (len $items) -}}
+      {{- $isHome := $item.home | default false -}}
+      <li class="breadcrumb-item{{ if $last }} is-current{{ end }}{{ if $isHome }} is-home{{ end }}">
+        {{- if $last -}}
+          <span class="breadcrumb-current" aria-current="page">
+            <span class="breadcrumb-current-dot" aria-hidden="true"></span>
+            <span class="breadcrumb-current-text">{{ $item.name }}</span>
+          </span>
+        {{- else -}}
+          <a class="breadcrumb-link" href="{{ $item.url }}">
+            {{- if $isHome -}}
+              <svg class="breadcrumb-home-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true">
+                <path d="M4 10.5 12 4l8 6.5V20a1 1 0 0 1-1 1h-5v-6H10v6H5a1 1 0 0 1-1-1v-9.5Z"/>
+              </svg>
+              <span class="breadcrumb-link-text">{{ $item.name }}</span>
+            {{- else -}}
+              <span class="breadcrumb-link-text">{{ $item.name }}</span>
+            {{- end -}}
+          </a>
+          <span class="breadcrumb-sep" aria-hidden="true">
+            <svg viewBox="0 0 16 16" fill="none" class="breadcrumb-chevron">
+              <path d="M6 3.5 10.5 8 6 12.5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </span>
+        {{- end -}}
+      </li>
+    {{- end -}}
+  </ol>
+</nav>
+
+{{- if $withJson -}}
+  {{- $list := slice -}}
+  {{- range $i, $item := $items -}}
+    {{- $list = $list | append (dict
+      "@type" "ListItem"
+      "position" (add $i 1)
+      "name" $item.name
+      "item" $item.url
+    ) -}}
+  {{- end -}}
+  {{- $data := dict
+    "@context" "https://schema.org"
+    "@type" "BreadcrumbList"
+    "itemListElement" $list
+  -}}
+<script type="application/ld+json">{{ $data | jsonify | safeJS }}</script>
+{{- end -}}
+{{- end -}}

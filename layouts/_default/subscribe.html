@@ -1,0 +1,120 @@
+{{ define "main" }}
+{{- $sub := .Site.Params.subscribe | default dict -}}
+{{- $contact := .Site.Params.contact | default dict -}}
+{{- $id := $sub.formspreeId | default "" -}}
+{{- if or (eq $id "") (eq $id "xxxxxxxx") -}}
+  {{- $id = $contact.formspreeId | default "" -}}
+{{- end -}}
+{{- $endpoint := $sub.formspreeEndpoint | default "" -}}
+{{- if and (not $endpoint) $id -}}
+  {{- $endpoint = printf "https://formspree.io/f/%s" $id -}}
+{{- end -}}
+{{- $configured := and $endpoint (ne $id "") (ne $id "xxxxxxxx") (ne $id "YOUR_FORM_ID") (not (hasPrefix $endpoint "https://formspree.io/f/xxxxxxxx")) -}}
+{{- $org := .Site.Params.organization | default .Site.Title -}}
+{{- $success := $sub.successMessage | default (i18n "subscribe_success") -}}
+{{- $error := $sub.errorMessage | default (i18n "subscribe_error") -}}
+{{- $pending := $sub.pendingMessage | default (i18n "subscribe_pending") -}}
+
+<section class="section-y subscribe-page">
+  <div class="site-container">
+    <div class="subscribe-layout">
+      <header class="subscribe-header">
+        <p class="text-eyebrow mb-3">{{ i18n "subscribe_eyebrow" }}</p>
+        <h1 class="text-display text-3xl sm:text-4xl lg:text-5xl mb-4">{{ .Title }}</h1>
+        {{- with .Description -}}
+          <p class="text-lead mb-4">{{ . }}</p>
+        {{- end -}}
+        {{- with .Content -}}
+          <div class="prose-shasec mb-2">{{ . }}</div>
+        {{- end -}}
+      </header>
+
+      <div class="subscribe-grid">
+        <form
+          class="subscribe-form card p-5 sm:p-6"
+          id="subscribe-form"
+          action="{{ if $configured }}{{ $endpoint }}{{ else }}#{{ end }}"
+          method="POST"
+          novalidate
+          data-subscribe-configured="{{ cond $configured "true" "false" }}"
+          data-success-message="{{ $success }}"
+          data-error-message="{{ $error }}"
+          data-pending-message="{{ $pending }}"
+        >
+          <p class="font-mono text-2xs tracking-[0.14em] uppercase text-shasec-primary mb-4">{{ i18n "subscribe_form_title" }}</p>
+
+          <input type="hidden" name="_subject" value="Subscribe — {{ $org }}">
+          <input type="hidden" name="form_type" value="subscribe">
+          <input type="text" name="_gotcha" class="contact-honeypot" tabindex="-1" autocomplete="off" aria-hidden="true">
+
+          <div class="form-field">
+            <label class="form-label" for="subscribe-email">{{ i18n "subscribe_email" }}</label>
+            <input class="input" type="email" id="subscribe-email" name="email" autocomplete="email" placeholder="{{ i18n "contact_email_ph" }}" required maxlength="200">
+          </div>
+
+          <div class="form-field">
+            <label class="form-label" for="subscribe-name">{{ i18n "subscribe_name" }} <span class="text-shasec-muted-soft normal-case tracking-normal">{{ i18n "subscribe_optional" }}</span></label>
+            <input class="input" type="text" id="subscribe-name" name="name" autocomplete="name" placeholder="{{ i18n "contact_name_ph" }}" maxlength="120">
+          </div>
+
+          <p class="form-note" id="subscribe-form-note" role="status" aria-live="polite">
+            {{- if $configured -}}
+              {{ i18n "subscribe_note_ready" }}
+            {{- else -}}
+              {{ i18n "subscribe_note_pending" }}
+            {{- end -}}
+          </p>
+
+          <div class="flex flex-wrap gap-3 pt-1">
+            <button type="submit" class="btn-primary" id="subscribe-submit">
+              <svg class="h-3.5 w-3.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true">
+                <path d="M15 17H9a4 4 0 0 1-4-4V10a7 7 0 0 1 14 0v3a4 4 0 0 1-4 4Z"/>
+                <path d="M10 17a2 2 0 0 0 4 0"/>
+                <path d="M12 3v1"/>
+              </svg>
+              <span class="subscribe-submit-label">{{ i18n "subscribe_button" }}</span>
+            </button>
+            <a href="{{ "index.xml" | relLangURL }}" class="btn-outline btn-sm" rel="alternate" type="application/rss+xml">
+              {{ i18n "subscribe_rss" }}
+            </a>
+          </div>
+
+          <p class="subscribe-privacy text-2xs sm:text-xs text-shasec-muted-soft mt-4 m-0 leading-relaxed">
+            {{ i18n "subscribe_privacy" }}
+            <a href="{{ "privacy/" | relLangURL }}" class="text-shasec-primary hover:underline">{{ i18n "cookie_privacy_link" }}</a>.
+          </p>
+        </form>
+
+        <aside class="subscribe-side space-y-4">
+          <div class="card p-5">
+            <p class="font-mono text-2xs tracking-[0.14em] uppercase text-shasec-primary mb-3">{{ i18n "subscribe_benefits" }}</p>
+            <ul class="subscribe-benefits">
+              <li>{{ i18n "subscribe_b1" }}</li>
+              <li>{{ i18n "subscribe_b2" }}</li>
+              <li>{{ i18n "subscribe_b3" }}</li>
+              <li>{{ i18n "subscribe_b4" }}</li>
+            </ul>
+          </div>
+
+          <div class="card p-5">
+            <p class="font-mono text-2xs tracking-[0.14em] uppercase text-shasec-primary mb-3">{{ i18n "subscribe_alt" }}</p>
+            <p class="text-sm text-shasec-muted m-0 mb-3 leading-relaxed">{{ i18n "subscribe_alt_text" }}</p>
+            <a href="{{ "index.xml" | relLangURL }}" class="link-arrow" rel="alternate" type="application/rss+xml">
+              {{ i18n "subscribe_rss_open" }}
+            </a>
+          </div>
+
+          <div class="card p-5">
+            <p class="font-mono text-2xs tracking-[0.14em] uppercase text-shasec-primary mb-3">{{ i18n "subscribe_related" }}</p>
+            <nav class="legal-aside-nav">
+              <a href="{{ "articles/" | relLangURL }}" class="legal-aside-link">{{ i18n "nav_articles" }}</a>
+              <a href="{{ "contact/" | relLangURL }}" class="legal-aside-link">{{ i18n "nav_contact" }}</a>
+              <a href="{{ "privacy/" | relLangURL }}" class="legal-aside-link">{{ i18n "footer_privacy" }}</a>
+            </nav>
+          </div>
+        </aside>
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}

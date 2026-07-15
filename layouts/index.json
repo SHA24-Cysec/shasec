@@ -1,0 +1,22 @@
+{{- /*
+  Search index → /index.json
+  Default: hanya section "articles" (bukan About/Contact/Privacy/dll.)
+  Override: params.search.includeSections = ["articles", "docs"]
+*/ -}}
+{{- $cfg := .Site.Params.search | default dict -}}
+{{- $sections := $cfg.includeSections | default (slice "articles") -}}
+{{- $pages := where .Site.RegularPages "Draft" "ne" true -}}
+{{- $pages = where $pages "Section" "in" $sections -}}
+[{{- $first := true -}}
+{{- range $pages -}}
+  {{- if .Params.excludeFromSearch -}}
+  {{- else -}}
+    {{- if not $first -}},{{- end -}}
+    {{- $first = false -}}
+    {{- $summary := "" -}}
+    {{- with .Params.summary -}}{{- $summary = . | plainify -}}{{- else -}}{{- $summary = .Summary | plainify -}}{{- end -}}
+    {{- $body := .Plain | plainify -}}
+    {{- if gt (len $body) 1800 -}}{{- $body = slicestr $body 0 1800 -}}{{- end -}}
+    {"title":{{ .Title | jsonify }},"permalink":{{ .RelPermalink | jsonify }},"section":{{ .Section | jsonify }},"date":{{ cond .Date.IsZero "" (.Date.Format "2006-01-02") | jsonify }},"categories":{{ (.Params.categories | default (slice)) | jsonify }},"summary":{{ $summary | jsonify }},"content":{{ $body | jsonify }},"type":{{ .Type | jsonify }}}
+  {{- end -}}
+{{- end -}}]

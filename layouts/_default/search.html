@@ -1,0 +1,58 @@
+{{ define "main" }}
+{{- $org := .Site.Params.organization | default .Site.Title -}}
+<section class="section-y search-page">
+  <div class="site-container">
+    <header class="search-header mb-8 max-w-2xl">
+      <p class="text-eyebrow mb-3">{{ i18n "search_eyebrow" }}</p>
+      <h1 class="text-display text-3xl sm:text-4xl mb-4">{{ .Title | default (i18n "search_title") }}</h1>
+      <p class="text-lead mb-6">
+        {{ i18n "search_lead" (dict "Org" $org) }}
+      </p>
+
+      {{- $searchCfg := .Site.Params.search | default dict -}}
+      {{- $sections := $searchCfg.includeSections | default (slice "articles") -}}
+      <script type="application/json" id="shasec-search-config">
+        {{- dict
+          "indexUrl" ("index.json" | relLangURL)
+          "indexUrlAbs" ("index.json" | absLangURL)
+          "includeSections" $sections
+        | jsonify | safeJS -}}
+      </script>
+
+      <form class="search-form" id="search-page-form" role="search" action="{{ "search/" | relLangURL }}" method="get">
+        <label class="sr-only" for="search-page-input">{{ i18n "search_label" }}</label>
+        <div class="search-form-row">
+          <svg class="search-form-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true">
+            <circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/>
+          </svg>
+          <input
+            id="search-page-input"
+            class="input search-form-input"
+            type="search"
+            name="q"
+            placeholder="{{ i18n "search_placeholder" }}"
+            autocomplete="off"
+            enterkeyhint="search"
+            spellcheck="false"
+          >
+          <button type="submit" class="btn-primary btn-sm search-form-submit">{{ i18n "search_button" }}</button>
+        </div>
+      </form>
+    </header>
+
+    <div class="search-status" id="search-status" role="status" aria-live="polite">
+      {{ i18n "search_loading" }}
+    </div>
+
+    <div class="search-meta font-mono text-2xs tracking-wide uppercase text-shasec-muted-soft mb-4" id="search-meta" hidden></div>
+
+    <div class="search-results" id="search-results"></div>
+
+    <div class="search-empty card p-6 sm:p-8 max-w-xl hidden" id="search-empty" hidden aria-hidden="true">
+      <p class="font-mono text-xs uppercase tracking-[0.14em] text-shasec-primary mb-2">{{ i18n "search_empty_title" }}</p>
+      <p class="text-sm text-shasec-muted mb-4">{{ i18n "search_empty_text" }}</p>
+      <a href="{{ "articles/" | relLangURL }}" class="link-arrow">{{ i18n "search_view_articles" }}</a>
+    </div>
+  </div>
+</section>
+{{ end }}

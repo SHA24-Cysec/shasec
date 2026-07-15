@@ -1,0 +1,104 @@
+{{ define "main" }}
+{{- $cfg := .Site.Params.contact | default dict -}}
+{{- $id := $cfg.formspreeId | default "" -}}
+{{- $endpoint := $cfg.formspreeEndpoint | default "" -}}
+{{- if and (not $endpoint) $id -}}
+  {{- $endpoint = printf "https://formspree.io/f/%s" $id -}}
+{{- end -}}
+{{- $configured := and $endpoint (ne $id "") (ne $id "xxxxxxxx") (ne $id "YOUR_FORM_ID") (not (hasPrefix $endpoint "https://formspree.io/f/xxxxxxxx")) -}}
+{{- $success := $cfg.successMessage | default (i18n "contact_success") -}}
+{{- $error := $cfg.errorMessage | default (i18n "contact_error") -}}
+{{- $pending := $cfg.pendingMessage | default (i18n "contact_pending") -}}
+<section class="section-y legal-page">
+  <div class="site-container">
+    <div class="legal-layout legal-layout--contact">
+      <header class="legal-header">
+        <p class="text-eyebrow mb-3">{{ i18n "contact_eyebrow" }}</p>
+        <h1 class="text-display text-3xl sm:text-4xl lg:text-5xl mb-4">{{ .Title }}</h1>
+        {{- with .Description -}}
+          <p class="text-lead">{{ . }}</p>
+        {{- end -}}
+      </header>
+
+      <div class="legal-content space-y-6">
+        {{- with .Content -}}
+          <div class="prose-shasec">{{ . }}</div>
+        {{- end -}}
+
+        <div class="contact-grid">
+          <form
+            class="contact-form card p-5 sm:p-6"
+            id="contact-form"
+            action="{{ if $configured }}{{ $endpoint }}{{ else }}#{{ end }}"
+            method="POST"
+            novalidate
+            data-contact-provider="formspree"
+            data-contact-configured="{{ cond $configured "true" "false" }}"
+            data-success-message="{{ $success }}"
+            data-error-message="{{ $error }}"
+            data-pending-message="{{ $pending }}"
+          >
+            <p class="font-mono text-2xs tracking-[0.14em] uppercase text-shasec-primary mb-4">{{ i18n "contact_form_title" }}</p>
+
+            <input type="hidden" name="_subject" value="{{ .Site.Title }}">
+            <input type="text" name="_gotcha" class="contact-honeypot" tabindex="-1" autocomplete="off" aria-hidden="true">
+
+            <div class="form-field">
+              <label class="form-label" for="contact-name">{{ i18n "contact_name" }}</label>
+              <input class="input" type="text" id="contact-name" name="name" autocomplete="name" placeholder="{{ i18n "contact_name_ph" }}" required maxlength="120">
+            </div>
+
+            <div class="form-field">
+              <label class="form-label" for="contact-email">{{ i18n "contact_email" }}</label>
+              <input class="input" type="email" id="contact-email" name="email" autocomplete="email" placeholder="{{ i18n "contact_email_ph" }}" required maxlength="200">
+            </div>
+
+            <div class="form-field">
+              <label class="form-label" for="contact-subject">{{ i18n "contact_subject" }}</label>
+              <input class="input" type="text" id="contact-subject" name="subject" placeholder="{{ i18n "contact_subject_ph" }}" required maxlength="200">
+            </div>
+
+            <div class="form-field">
+              <label class="form-label" for="contact-message">{{ i18n "contact_message" }}</label>
+              <textarea class="input input-textarea" id="contact-message" name="message" rows="6" placeholder="{{ i18n "contact_message_ph" }}" required maxlength="5000"></textarea>
+            </div>
+
+            <p class="form-note" id="contact-form-note" role="status" aria-live="polite">
+              {{- if $configured -}}
+                {{ i18n "contact_note_ready" }}
+              {{- else -}}
+                {{ i18n "contact_note_pending" }}
+              {{- end -}}
+              {{- with .Site.Params.contactEmail }}
+                · {{ i18n "contact_direct" }}
+                <a href="mailto:{{ . }}" class="text-shasec-primary hover:underline">{{ . }}</a>
+              {{- end }}
+            </p>
+
+            <div class="flex flex-wrap gap-3 pt-1">
+              <button type="submit" class="btn-primary" id="contact-submit">
+                <svg class="h-3.5 w-3.5 contact-submit-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M5 12h14"/><path d="m13 6 6 6-6 6"/></svg>
+                <span class="contact-submit-label">{{ i18n "contact_send" }}</span>
+              </button>
+              <button type="reset" class="btn-ghost btn-sm" id="contact-reset">{{ i18n "contact_reset" }}</button>
+            </div>
+          </form>
+
+          <div class="contact-side space-y-4">
+            {{ partial "site/contact-info.html" . }}
+
+            <div class="card p-5">
+              <p class="font-mono text-2xs tracking-[0.14em] uppercase text-shasec-primary mb-3">{{ i18n "contact_related" }}</p>
+              <nav class="legal-aside-nav">
+                <a href="{{ "about/" | relLangURL }}" class="legal-aside-link">{{ i18n "legal_about" }}</a>
+                <a href="{{ "privacy/" | relLangURL }}" class="legal-aside-link">{{ i18n "legal_privacy" }}</a>
+                <a href="{{ "disclaimer/" | relLangURL }}" class="legal-aside-link">{{ i18n "legal_disclaimer" }}</a>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}

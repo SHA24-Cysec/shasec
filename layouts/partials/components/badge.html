@@ -1,0 +1,9 @@
+{{- /*
+  Badge component
+  Params: label (required), variant (default|muted), class
+*/ -}}
+{{- $label := .label | default "" -}}
+{{- $variant := .variant | default "default" -}}
+{{- $class := .class | default "" -}}
+{{- $base := cond (eq $variant "muted") "badge-muted" "badge" -}}
+<span class="{{ $base }} {{ $class }}">{{ $label }}</span>
