@@ -14,10 +14,10 @@
     var configured = form.getAttribute('data-contact-configured') === 'true';
     var successMsg =
       form.getAttribute('data-success-message') ||
-      'Terima kasih — pesan Anda sudah terkirim.';
+      '';
     var errorMsg =
       form.getAttribute('data-error-message') ||
-      'Gagal mengirim pesan. Coba lagi nanti.';
+      '';
     var pendingMsg =
       form.getAttribute('data-pending-message') ||
       'Formspree belum dikonfigurasi.';
@@ -37,7 +37,9 @@
       submitBtn.classList.toggle('is-loading', loading);
       form.classList.toggle('is-submitting', loading);
       if (submitLabel) {
-        submitLabel.textContent = loading ? 'Mengirim…' : 'Kirim pesan';
+        submitLabel.textContent = loading
+          ? (form.getAttribute('data-send-loading') || '')
+          : (form.getAttribute('data-send-label') || '');
       }
     }
 
@@ -46,7 +48,7 @@
 
       if (!form.checkValidity()) {
         form.reportValidity();
-        setNote('Lengkapi field yang wajib diisi.', 'warn');
+        setNote(form.getAttribute('data-required-note') || '', 'warn');
         return;
       }
 

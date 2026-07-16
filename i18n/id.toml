@@ -6,8 +6,6 @@ other = "Artikel"
 other = "Kategori"
 [nav_tools]
 other = "Tools"
-[nav_about]
-other = "Tentang"
 [nav_contact]
 other = "Kontak"
 [nav_subscribe]
@@ -28,10 +26,6 @@ other = "Navigasi footer"
 other = "Tautan legal"
 [lang_switch]
 other = "Bahasa"
-[lang_id]
-other = "Indonesia"
-[lang_en]
-other = "English"
 
 [home_eyebrow]
 other = "// Wawasan & Riset Cybersecurity"
@@ -69,11 +63,11 @@ other = "Beranda"
 [article_label]
 other = "// artikel"
 [articles_label]
-other = "// articles"
+other = "// artikel"
 [related_pages]
 other = "Halaman terkait"
 [empty_state]
-other = "Empty state"
+other = "Kosong"
 [empty_section]
 other = "Belum ada konten di section ini."
 
@@ -156,6 +150,11 @@ other = "Organisasi"
 other = "Domain"
 [contact_email_label]
 other = "Email"
+
+[contact_phone_label]
+other = "Telepon"
+[contact_address_label]
+other = "Alamat"
 [contact_region]
 other = "Wilayah"
 [contact_related]
@@ -172,17 +171,11 @@ other = "Terima kasih — pesan Anda sudah terkirim. Kami akan membalas secepatn
 other = "Gagal mengirim pesan. Coba lagi atau hubungi email langsung."
 [contact_pending]
 other = "Formspree belum dikonfigurasi. Isi params.contact.formspreeId di hugo.toml."
-[contact_fill]
-other = "Lengkapi field yang wajib diisi."
-[contact_sending]
-other = "Mengirim pesan…"
 [contact_send_loading]
 other = "Mengirim…"
 
 [subscribe_eyebrow]
 other = "// subscribe"
-[subscribe_title]
-other = "Berlangganan"
 [subscribe_form_title]
 other = "Newsletter"
 [subscribe_email]
@@ -229,8 +222,6 @@ other = "Gagal mendaftar. Coba lagi atau hubungi email situs."
 other = "Subscribe belum dikonfigurasi. Isi formspreeId di hugo.toml."
 [subscribe_invalid]
 other = "Masukkan alamat email yang valid."
-[subscribe_registering]
-other = "Mendaftarkan email…"
 
 [tools_eyebrow]
 other = "// tools"
@@ -242,8 +233,6 @@ other = "Cari tools"
 other = "Filter nama / tag…"
 [tools_showing]
 other = "Menampilkan {{ .Count }} tools"
-[tools_showing_filter]
-other = "Menampilkan {{ .Count }} tools (filter aktif)"
 [tools_empty_title]
 other = "Tidak ada tools"
 [tools_empty_text]
@@ -258,32 +247,22 @@ other = "Buka"
 other = "// disclaimer singkat"
 [tools_disclaimer]
 other = "Tools di halaman ini disediakan untuk edukasi dan defense. Jangan gunakan untuk akses tanpa otorisasi. Lihat juga"
+[tools_disclaimer_conj]
+other = "dan"
 [tools_empty_yaml]
 other = "Belum ada tools. Isi data/tools.yaml."
 
-[ad_placeholder]
-other = "Ad placeholder"
 [ad_label_article]
 other = "Ad · Artikel"
 [ad_label_feed]
 other = "Ad · Feed beranda"
 [ad_label_sidebar]
 other = "Ad · Sidebar"
-[ad_need_client]
-other = "Isi params.adsense.client di hugo.toml"
-[ad_need_slot]
-other = "Isi slot di hugo.toml"
-[ad_placeholder_mode]
-other = "Mode placeholder aktif — set placeholder = false untuk live"
-[ad_space]
-other = "Ruang iklan"
 
 [sidebar_nav]
 other = "Navigasi"
 [sidebar_all_articles]
 other = "Semua artikel"
-[sidebar_categories]
-other = "Kategori"
 [sidebar_about]
 other = "Tentang"
 [sidebar_contact]
@@ -309,10 +288,34 @@ other = "Signal lost"
 [404_text]
 other = "Halaman yang Anda cari tidak ditemukan atau sudah dipindahkan."
 [404_home]
-other = "Back to Home"
+other = "Kembali ke Beranda"
 
-[site_info]
-other = "Info"
+
+[site_table_item]
+other = "Item"
+[site_table_value]
+other = "Nilai"
+[site_table_name]
+other = "Nama situs"
+[site_table_org]
+other = "Organisasi"
+[site_table_editor]
+other = "Editor"
+[site_table_legal]
+other = "Nama legal"
+[site_table_domain]
+other = "Domain"
+[site_table_email]
+other = "Email"
+[site_table_phone]
+other = "Telepon"
+[site_table_address]
+other = "Alamat"
+[site_table_region]
+other = "Wilayah"
+
+[back_to_top]
+other = "Kembali ke atas"
 
 [pagination_label]
 other = "Navigasi halaman"
@@ -350,3 +353,43 @@ other = "Salin tautan"
 other = "Tautan disalin"
 [share_native]
 other = "Bagikan lewat perangkat"
+[tools_cat_recon]
+other = "Recon & OSINT"
+[tools_cat_analysis]
+other = "Analisis"
+[tools_cat_network]
+other = "Network & DNS"
+[tools_cat_hardening]
+other = "Hardening & Check"
+[tools_cat_site]
+other = "Di situs ini"
+[tools_filter_aria]
+other = "Filter kategori tools"
+[contact_required]
+other = "Lengkapi field yang wajib diisi."
+[subscribe_submitting]
+other = "Mendaftarkan email…"
+[hero_init]
+other = "Menginisialisasi pertahanan…"
+[hero_feed]
+other = "Feed ancaman diperbarui."
+[hero_safe]
+other = "Sistem aman."
+[hero_stay]
+other = "stay_secure --selalu"
+[card_title_default]
+other = "Judul artikel"
+[ad_placeholder_1]
+other = "Mode placeholder aktif — set"
+[ad_placeholder_2]
+other = "untuk live"
+[search_short]
+other = "Kata kunci terlalu pendek (min. 2 huruf)."
+[search_results]
+other = "{count} hasil untuk “{query}”"
+[search_searching]
+other = "Mencari…"
+[search_error]
+other = "Gagal memuat indeks. Buka /index.json di browser — harus JSON array. Lalu hard-refresh halaman search."
+[search_no_title]
+other = "Tanpa judul"

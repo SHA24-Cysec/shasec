@@ -112,19 +112,16 @@ defaultContentLanguageInSubdir = false
     github = 'SHA24-Cysec'            # → github.com/username
 
   [params.contact]
-    provider = 'formspree'
     formspreeId = 'meeyobrl'
     successMessage = ''
     errorMessage = ''
     pendingMessage = ''
 
   [params.subscribe]
-    provider = 'formspree'
     formspreeId = 'meeyobrl'
     successMessage = ''
     errorMessage = ''
     pendingMessage = ''
-    privacyNote = ''
 
   [params.search]
     includeSections = ['articles']

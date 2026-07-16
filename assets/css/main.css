@@ -121,10 +121,6 @@
       text-3xl sm:text-5xl lg:text-6xl text-shasec-text-bright;
   }
 
-  .text-display-accent {
-    @apply text-display text-shasec-primary drop-shadow-[0_0_24px_rgba(63,196,102,0.35)];
-  }
-
   .text-lead {
     @apply text-sm sm:text-base text-shasec-muted max-w-xl leading-relaxed;
   }
@@ -401,18 +397,6 @@
       flex flex-col gap-6 sm:flex-row sm:items-center sm:justify-between;
   }
 
-  /* ---------- Utility surfaces ---------- */
-  .surface-grid {
-    background-image: var(--tw-gradient-stops),
-      linear-gradient(rgba(63, 196, 102, 0.035) 1px, transparent 1px),
-      linear-gradient(90deg, rgba(63, 196, 102, 0.035) 1px, transparent 1px);
-    background-size: auto, 40px 40px, 40px 40px;
-  }
-
-  .divider {
-    @apply border-t border-shasec-border;
-  }
-
   .link-arrow {
     @apply font-mono text-2xs sm:text-xs tracking-[0.14em] uppercase
       text-shasec-primary inline-flex items-center gap-1.5
@@ -537,15 +521,6 @@
     @apply space-y-6;
   }
 
-  .latest-articles-empty-visual {
-    @apply flex sm:hidden;
-  }
-
-  .latest-articles-empty-icon {
-    @apply flex h-14 w-14 items-center justify-center rounded-full
-      border border-shasec-primary/30 bg-shasec-primary-soft text-shasec-primary shadow-glow-sm;
-  }
-
   .latest-articles-empty-copy {
     @apply max-w-xl;
   }
@@ -564,52 +539,6 @@
 
   .latest-articles-empty-actions {
     @apply flex flex-wrap gap-3;
-  }
-
-  .latest-articles-skeleton {
-    @apply opacity-60;
-  }
-
-  .latest-articles-skel-card {
-    @apply pointer-events-none select-none;
-    box-shadow: none;
-  }
-
-  .latest-articles-skel-card:hover {
-    @apply border-shasec-border bg-shasec-bg-card;
-    box-shadow: none;
-  }
-
-  .skel-line {
-    @apply block h-2.5 rounded bg-shasec-border/80;
-    background-image: linear-gradient(
-      90deg,
-      rgba(26, 42, 36, 0.9) 0%,
-      rgba(63, 196, 102, 0.12) 50%,
-      rgba(26, 42, 36, 0.9) 100%
-    );
-    background-size: 200% 100%;
-    animation: shasec-shimmer 1.8s ease-in-out infinite;
-  }
-
-  .skel-line--badge {
-    @apply w-24 h-5 mb-1;
-  }
-
-  .skel-line--title {
-    @apply w-full h-3 mt-1;
-  }
-
-  .skel-line--body {
-    @apply w-full h-2 mt-1 opacity-80;
-  }
-
-  .skel-line--meta {
-    @apply w-28 h-2 mt-4;
-  }
-
-  .skel-line--short {
-    @apply w-2/3;
   }
 
   /* ---------- Legal / AdSense pages (Stage 4) ---------- */
@@ -1482,10 +1411,6 @@
     overflow: hidden;
   }
 
-  .text-glow {
-    text-shadow: 0 0 18px rgba(63, 196, 102, 0.45);
-  }
-
   .bg-matrix {
     background-color: #05070a;
     background-image:
@@ -1497,20 +1422,7 @@
   }
 }
 
-@keyframes shasec-shimmer {
-  0% {
-    background-position: 100% 0;
-  }
-  100% {
-    background-position: -100% 0;
-  }
-}
-
 @media (prefers-reduced-motion: reduce) {
-  .skel-line {
-    animation: none;
-  }
-
   html {
     scroll-behavior: auto !important;
   }

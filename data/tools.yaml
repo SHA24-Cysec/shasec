@@ -3,19 +3,15 @@
 
 categories:
   - id: recon
-    label: Recon & OSINT
   - id: analysis
-    label: Analisis
   - id: network
-    label: Network & DNS
   - id: hardening
-    label: Hardening & Check
   - id: site
-    label: Di situs ini
 
 items:
   - name: CyberChef
     description: Swiss-army knife untuk encode/decode, hashing, parsing data, dan transformasi payload secara offline di browser.
+    description_en: Swiss-army knife for encode/decode, hashing, data parsing, and offline payload transformation right in the browser.
     url: https://gchq.github.io/CyberChef/
     category: analysis
     tags: [encode, decode, hash]
@@ -23,6 +19,7 @@ items:
 
   - name: VirusTotal
     description: Scan file, URL, domain, dan hash terhadap banyak engine antivirus serta intel komunitas.
+    description_en: Scan files, URLs, domains, and hashes against many antivirus engines plus community threat intel.
     url: https://www.virustotal.com/
     category: analysis
     tags: [malware, hash, url]
@@ -30,6 +27,7 @@ items:
 
   - name: urlscan.io
     description: Sandbox browser untuk memindai URL, melihat request, redirect, dan indikator phishing/malware.
+    description_en: Browser sandbox to scan URLs, inspect requests, redirects, and phishing/malware indicators.
     url: https://urlscan.io/
     category: analysis
     tags: [url, phishing]
@@ -37,6 +35,7 @@ items:
 
   - name: Have I Been Pwned
     description: Cek apakah alamat email atau domain pernah muncul di data breach publik.
+    description_en: Check whether an email address or domain has appeared in public breach data.
     url: https://haveibeenpwned.com/
     category: recon
     tags: [breach, email]
@@ -44,6 +43,7 @@ items:
 
   - name: crt.sh
     description: Cari sertifikat TLS/SSL dari Certificate Transparency logs — berguna untuk enumerasi subdomain.
+    description_en: Look up TLS/SSL certificates from Certificate Transparency logs — useful for subdomain enumeration.
     url: https://crt.sh/
     category: recon
     tags: [ssl, subdomain]
@@ -51,6 +51,7 @@ items:
 
   - name: Shodan
     description: Search engine untuk perangkat & layanan yang terpapar internet (port, banner, CVE terkait).
+    description_en: Search engine for internet-exposed devices and services (open ports, banners, related CVEs).
     url: https://www.shodan.io/
     category: recon
     tags: [iot, ports]
@@ -58,6 +59,7 @@ items:
 
   - name: Security Headers
     description: Analisis header keamanan HTTP (CSP, HSTS, X-Frame-Options, dll.) untuk situs Anda.
+    description_en: Analyze your site's HTTP security headers (CSP, HSTS, X-Frame-Options, etc.).
     url: https://securityheaders.com/
     category: hardening
     tags: [http, headers]
@@ -65,6 +67,7 @@ items:
 
   - name: Mozilla Observatory
     description: Scan hardening web (TLS, headers, cookie flags) dengan skor dan rekomendasi perbaikan.
+    description_en: Web hardening scan (TLS, headers, cookie flags) with a score and remediation recommendations.
     url: https://observatory.mozilla.org/
     category: hardening
     tags: [tls, scan]
@@ -72,6 +75,7 @@ items:
 
   - name: MXToolbox
     description: Cek DNS, MX, blacklist, SPF/DKIM/DMARC, dan diagnostik email/network cepat.
+    description_en: Quick checks for DNS, MX, blacklists, SPF/DKIM/DMARC, and email/network diagnostics.
     url: https://mxtoolbox.com/
     category: network
     tags: [dns, email, blacklist]
@@ -79,6 +83,7 @@ items:
 
   - name: DNS Leak Test
     description: Uji apakah resolusi DNS bocor di luar jalur VPN/proxy yang diharapkan.
+    description_en: Test whether DNS resolution leaks outside your intended VPN/proxy path.
     url: https://www.dnsleaktest.com/
     category: network
     tags: [dns, vpn]
@@ -86,20 +91,25 @@ items:
 
   - name: AbuseIPDB
     description: Cek reputasi alamat IP terhadap laporan abuse komunitas (spam, bruteforce, bot, dll.).
+    description_en: Check an IP address's reputation against community abuse reports (spam, brute force, bots, etc.).
     url: https://www.abuseipdb.com/
     category: network
     tags: [ip, reputation]
     external: true
 
   - name: Cari di ShaSec
+    name_en: Search ShaSec
     description: Pencarian artikel cybersecurity di situs ini (indeks lokal, tanpa backend).
+    description_en: Search cybersecurity articles on this site (local index, no backend).
     url: /search/
     category: site
     tags: [search, internal]
     external: false
 
   - name: Artikel ShaSec
+    name_en: ShaSec Articles
     description: Kumpulan artikel threat intelligence, malware analysis, dan praktik defense.
+    description_en: A collection of threat intelligence, malware analysis, and defense articles.
     url: /articles/
     category: site
     tags: [blog, internal]

@@ -307,6 +307,7 @@
       "site-header",
       "site-header-inner",
       "sm:block",
+      "sm:flex-row",
       "sm:gap-3",
       "sm:grid-cols-2",
       "sm:inline-flex",
@@ -351,7 +352,6 @@
       "text-shasec-muted-soft",
       "text-shasec-primary",
       "text-shasec-text",
-      "text-shasec-text-bright",
       "text-sm",
       "text-xs",
       "tool-card",
@@ -391,7 +391,6 @@
       "w-7",
       "w-full",
       "xl:gap-6",
-      "xs:flex-row",
       "z-10"
     ],
     "ids": [

@@ -10,7 +10,7 @@ tags:
   - raas
   - defense
 summary: "How RaaS platforms are evolving and practical steps organizations can take to strengthen defenses."
-cover: "/images/covers/ransomware-raas.webp"
+cover: "/images/covers/ransomware-raas.jpg"
 ---
 
 Ransomware is no longer a single tool owned by one actor. The **Ransomware-as-a-Service (RaaS)** model separates developers, affiliates, and payment infrastructure — making attacks easier to scale.

@@ -10,7 +10,7 @@ tags:
   - raas
   - defense
 summary: "Analisis bagaimana platform RaaS berevolusi dan langkah praktis yang dapat diambil organisasi untuk memperkuat pertahanan."
-cover: "/images/covers/ransomware-raas.webp"
+cover: "/images/covers/ransomware-raas.jpg"
 ---
 
 Ransomware tidak lagi sekadar tool tunggal milik satu aktor. Model **Ransomware-as-a-Service (RaaS)** memisahkan peran pengembang, afiliasi, dan infrastruktur pembayaran — sehingga serangan lebih mudah diskalakan.

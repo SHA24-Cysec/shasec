@@ -10,7 +10,7 @@ tags:
   - arsitektur
   - identity
 summary: "Prinsip Zero Trust dan langkah implementasi realistis di lingkungan hybrid tanpa jargon berlebihan."
-cover: "/images/covers/zero-trust.webp"
+cover: "/images/covers/zero-trust.jpg"
 ---
 
 **Zero Trust** bukan produk tunggal. Ini model: *jangan percaya secara implisit, selalu verifikasi*, dengan kontrol berbasis identitas, konteks, dan least privilege.

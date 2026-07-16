@@ -4,7 +4,6 @@ module.exports = {
     './layouts/**/*.html',
     './content/**/*.{html,md}',
     './assets/**/*.{js,css}',
-    './preview/**/*.html',
   ],
   theme: {
     extend: {
@@ -19,7 +18,7 @@ module.exports = {
           border: '#1A2A24',
           'border-strong': '#243830',
           muted: '#7A8F86',
-          'muted-soft': '#5C6F68',
+          'muted-soft': '#6E867C',
           text: '#E8F0EC',
           'text-bright': '#F5FBF7',
           primary: '#3FC466',

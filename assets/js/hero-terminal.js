@@ -8,6 +8,13 @@
     var root = document.getElementById('hero-terminal-body');
     if (!root) return;
 
+    var HERO = {
+      init: root.getAttribute('data-hero-init') || '',
+      feed: root.getAttribute('data-hero-feed') || '',
+      safe: root.getAttribute('data-hero-safe') || '',
+      stay: root.getAttribute('data-hero-stay') || ''
+    };
+
     var lines = [
       { type: 'cmd', text: 'whoami' },
       { type: 'out', text: 'shasec.operator', cls: 'text-shasec-text' },
@@ -17,10 +24,10 @@
       { type: 'out', text: 'zero-day', cls: 'text-shasec-primary' },
       { type: 'out', text: 'apt-groups', cls: 'text-shasec-primary' },
       { type: 'out', text: 'malware-analysis', cls: 'text-shasec-primary' },
-      { type: 'cmd', text: 'stay_secure --selalu' },
-      { type: 'out', text: 'Menginisialisasi pertahanan…' },
-      { type: 'out', text: 'Feed ancaman diperbarui.' },
-      { type: 'out', text: 'Sistem aman.', cls: 'text-shasec-primary' },
+      { type: 'cmd', text: HERO.stay },
+      { type: 'out', text: HERO.init },
+      { type: 'out', text: HERO.feed },
+      { type: 'out', text: HERO.safe, cls: 'text-shasec-primary' },
       { type: 'prompt' }
     ];
 

@@ -2,6 +2,7 @@
 {{- $data := hugo.Data.tools | default dict -}}
 {{- $cats := $data.categories | default (slice) -}}
 {{- $items := $data.items | default (slice) -}}
+{{- $lang := .Site.Language.Lang -}}
 
 <section class="section-y tools-page">
   <div class="site-container">
@@ -18,9 +19,9 @@
 
     {{- if $items -}}
       <div class="tools-toolbar">
-        <div class="tools-filters" id="tools-filters" role="toolbar" aria-label="Filter kategori tools">
+        <div class="tools-filters" id="tools-filters" role="toolbar" aria-label="{{ i18n "tools_filter_aria" }}">
           <button type="button" class="tools-chip is-active" data-tools-filter="all" aria-pressed="true">
-            Semua
+            {{ i18n "tools_all" }}
             <span class="tools-chip-count">{{ len $items }}</span>
           </button>
           {{- range $cats -}}
@@ -31,7 +32,7 @@
             {{- end -}}
             {{- if gt $count 0 -}}
               <button type="button" class="tools-chip" data-tools-filter="{{ $cid }}" aria-pressed="false">
-                {{ .label }}
+                {{ i18n (printf "tools_cat_%s" .id) }}
                 <span class="tools-chip-count">{{ $count }}</span>
               </button>
             {{- end -}}
@@ -61,9 +62,13 @@
       <div class="tools-grid" id="tools-grid">
         {{- range $items -}}
           {{- $item := . -}}
+          {{- $tname := $item.name -}}
+          {{- $tdesc := $item.description -}}
+          {{- if and (eq $lang "en") $item.name_en }}{{ $tname = $item.name_en }}{{ end -}}
+          {{- if and (eq $lang "en") $item.description_en }}{{ $tdesc = $item.description_en }}{{ end -}}
           {{- $catLabel := $item.category -}}
           {{- range $cats -}}
-            {{- if eq .id $item.category -}}{{- $catLabel = .label -}}{{- end -}}
+            {{- if eq .id $item.category -}}{{- $catLabel = (i18n (printf "tools_cat_%s" .id)) -}}{{- end -}}
           {{- end -}}
           {{- $ext := $item.external | default true -}}
           {{- $href := $item.url | default "#" -}}
@@ -71,7 +76,7 @@
             {{- $href = $href | relURL -}}
           {{- end -}}
           {{- $tags := $item.tags | default (slice) -}}
-          {{- $searchBlob := printf "%s %s %s %s" $item.name $item.description $catLabel (delimit $tags " ") | lower -}}
+          {{- $searchBlob := printf "%s %s %s %s" $tname $tdesc $catLabel (delimit $tags " ") | lower -}}
 
           <article
             class="tool-card card"
@@ -88,8 +93,8 @@
                   <span class="tool-ext font-mono text-2xs uppercase tracking-wider text-shasec-primary">{{ i18n "tools_internal" }}</span>
                 {{- end -}}
               </div>
-              <h2 class="tool-card-title">{{ $item.name }}</h2>
-              <p class="tool-card-desc">{{ $item.description }}</p>
+              <h2 class="tool-card-title">{{ $tname }}</h2>
+              <p class="tool-card-desc">{{ $tdesc }}</p>
               {{- if $tags -}}
                 <div class="tool-card-tags">
                   {{- range $tags -}}
@@ -122,19 +127,18 @@
       </div>
     {{- else -}}
       <div class="card p-6 sm:p-8 max-w-xl">
-        <p class="font-mono text-xs uppercase tracking-[0.14em] text-shasec-primary mb-2">Empty</p>
-        <p class="text-sm text-shasec-muted">Belum ada tools. Isi <span class="font-mono text-shasec-primary">data/tools.yaml</span>.</p>
+        <p class="font-mono text-xs uppercase tracking-[0.14em] text-shasec-primary mb-2">{{ i18n "tools_empty_title" }}</p>
+        <p class="text-sm text-shasec-muted">{{ i18n "tools_empty_yaml" }}</p>
       </div>
     {{- end -}}
 
     <aside class="tools-note card p-5 mt-10 max-w-3xl">
       <p class="font-mono text-2xs tracking-[0.14em] uppercase text-shasec-primary mb-2">{{ i18n "tools_disclaimer_title" }}</p>
       <p class="text-sm text-shasec-muted m-0 leading-relaxed">
-        Tools di halaman ini disediakan untuk <strong class="text-shasec-text-bright">edukasi dan defense</strong>.
-        Jangan gunakan untuk akses tanpa otorisasi. Lihat juga
-        <a href="{{ "/disclaimer/" | relURL }}" class="text-shasec-primary hover:underline">Disclaimer</a>
-        dan
-        <a href="{{ "/privacy/" | relURL }}" class="text-shasec-primary hover:underline">Kebijakan Privasi</a>.
+        {{ i18n "tools_disclaimer" }}
+        <a href="{{ "/disclaimer/" | relURL }}" class="text-shasec-primary hover:underline">{{ i18n "footer_disclaimer" }}</a>
+        {{ i18n "tools_disclaimer_conj" }}
+        <a href="{{ "/privacy/" | relURL }}" class="text-shasec-primary hover:underline">{{ i18n "footer_privacy" }}</a>.
       </p>
     </aside>
   </div>

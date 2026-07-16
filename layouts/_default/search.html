@@ -16,6 +16,15 @@
           "indexUrl" ("index.json" | relLangURL)
           "indexUrlAbs" ("index.json" | absLangURL)
           "includeSections" $sections
+          "strings" (dict
+            "hint" (i18n "search_hint")
+            "short" (i18n "search_short")
+            "results" (i18n "search_results")
+            "searching" (i18n "search_searching")
+            "loading" (i18n "search_loading")
+            "error" (i18n "search_error")
+            "noTitle" (i18n "search_no_title")
+          )
         | jsonify | safeJS -}}
       </script>
 

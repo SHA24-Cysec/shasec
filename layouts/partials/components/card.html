@@ -3,7 +3,7 @@
   Params: title, excerpt, category, date, readTime, href, image, class
   image empty or broken remote → fallback placeholder
 */ -}}
-{{- $title := .title | default "Judul artikel" -}}
+{{- $title := .title | default (i18n "card_title_default") -}}
 {{- $excerpt := .excerpt | default "" -}}
 {{- $category := .category | default "" -}}
 {{- $date := .date | default "" -}}

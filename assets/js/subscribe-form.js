@@ -14,10 +14,10 @@
     var configured = form.getAttribute('data-subscribe-configured') === 'true';
     var successMsg =
       form.getAttribute('data-success-message') ||
-      'Terima kasih — Anda sudah terdaftar.';
+      '';
     var errorMsg =
       form.getAttribute('data-error-message') ||
-      'Gagal mendaftar. Coba lagi nanti.';
+      '';
     var pendingMsg =
       form.getAttribute('data-pending-message') ||
       'Subscribe belum dikonfigurasi.';
@@ -37,7 +37,9 @@
       submitBtn.classList.toggle('is-loading', loading);
       form.classList.toggle('is-submitting', loading);
       if (submitLabel) {
-        submitLabel.textContent = loading ? 'Mendaftarkan…' : 'Berlangganan';
+        submitLabel.textContent = loading
+          ? (form.getAttribute('data-subscribe-loading') || '')
+          : (form.getAttribute('data-subscribe-label') || '');
       }
     }
 
@@ -46,7 +48,7 @@
 
       if (!form.checkValidity()) {
         form.reportValidity();
-        setNote('Masukkan alamat email yang valid.', 'warn');
+        setNote(form.getAttribute('data-invalid-note') || '', 'warn');
         return;
       }
 
@@ -62,7 +64,7 @@
       }
 
       setLoading(true);
-      setNote('Mendaftarkan email…', null);
+      setNote(form.getAttribute('data-submitting-note') || '', null);
 
       var data = new FormData(form);
       if (data.get('email') && !data.get('_replyto')) {

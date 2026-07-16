@@ -22,7 +22,7 @@
           {{ i18n "home_lead" }}
         </p>
 
-        <div class="flex flex-col xs:flex-row flex-wrap gap-3">
+        <div class="flex flex-col sm:flex-row flex-wrap gap-3">
           {{ partial "components/button.html" (dict
             "href" ("articles/" | relLangURL)
             "label" (i18n "home_cta_articles")
@@ -46,7 +46,11 @@
             <span>Terminal</span>
             <div class="terminal-dots" aria-hidden="true"><span></span><span></span><span></span></div>
           </div>
-          <div class="terminal-body hero-terminal-body" id="hero-terminal-body">
+          <div class="terminal-body hero-terminal-body" id="hero-terminal-body"
+            data-hero-init="{{ i18n "hero_init" }}"
+            data-hero-feed="{{ i18n "hero_feed" }}"
+            data-hero-safe="{{ i18n "hero_safe" }}"
+            data-hero-stay="{{ i18n "hero_stay" }}">
             <noscript>
               <p><span class="terminal-prompt">user@shasec:~$</span> <span class="terminal-cmd">whoami</span></p>
               <p class="text-shasec-text">shasec.operator</p>

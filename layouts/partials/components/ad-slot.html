@@ -58,7 +58,7 @@
         {{- else if not $slotId -}}
           Isi slot <span class="font-mono">{{ $slotKey }}</span> di hugo.toml
         {{- else -}}
-          Mode placeholder aktif — set <span class="font-mono">placeholder = false</span> untuk live
+          {{ i18n "ad_placeholder_1" }} <span class="font-mono">placeholder = false</span> {{ i18n "ad_placeholder_2" }}
         {{- end -}}
       </p>
     </div>

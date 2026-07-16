@@ -10,7 +10,7 @@ tags:
   - ttp
   - threat-hunting
 summary: "Ringkasan TTP APT29 dan cara memetakannya ke deteksi untuk infrastruktur kritis serta organisasi target intelijen."
-cover: "/images/covers/apt29-tactics.webp"
+cover: "/images/covers/apt29-tactics.jpg"
 ---
 
 Kelompok yang sering dikaitkan dengan label **APT29** dikenal dengan operasi jangka panjang, penekanan pada stealth, dan pemanfaatan rantai pasok atau identitas yang sah.

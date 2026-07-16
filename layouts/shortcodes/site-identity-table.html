@@ -17,27 +17,27 @@
 <table>
   <thead>
     <tr>
-      <th>Item</th>
-      <th>Nilai</th>
+      <th>{{ i18n "site_table_item" }}</th>
+      <th>{{ i18n "site_table_value" }}</th>
     </tr>
   </thead>
   <tbody>
-    <tr><td>Nama situs</td><td>{{ $title }}</td></tr>
-    <tr><td>Organisasi</td><td>{{ $org }}</td></tr>
-    <tr><td>Editor</td><td>{{ $owner }}</td></tr>
-    <tr><td>Nama legal</td><td>{{ $legal }}</td></tr>
-    <tr><td>Domain</td><td><a href="{{ $siteURL }}/">{{ $domain }}</a></td></tr>
+    <tr><td>{{ i18n "site_table_name" }}</td><td>{{ $title }}</td></tr>
+    <tr><td>{{ i18n "site_table_org" }}</td><td>{{ $org }}</td></tr>
+    <tr><td>{{ i18n "site_table_editor" }}</td><td>{{ $owner }}</td></tr>
+    <tr><td>{{ i18n "site_table_legal" }}</td><td>{{ $legal }}</td></tr>
+    <tr><td>{{ i18n "site_table_domain" }}</td><td><a href="{{ $siteURL }}/">{{ $domain }}</a></td></tr>
     {{- with $email -}}
-    <tr><td>Email</td><td><a href="mailto:{{ . }}">{{ . }}</a></td></tr>
+    <tr><td>{{ i18n "site_table_email" }}</td><td><a href="mailto:{{ . }}">{{ . }}</a></td></tr>
     {{- end -}}
     {{- with $phone -}}
-    <tr><td>Telepon</td><td>{{ . }}</td></tr>
+    <tr><td>{{ i18n "site_table_phone" }}</td><td>{{ . }}</td></tr>
     {{- end -}}
     {{- with $address -}}
-    <tr><td>Alamat</td><td>{{ . }}</td></tr>
+    <tr><td>{{ i18n "site_table_address" }}</td><td>{{ . }}</td></tr>
     {{- end -}}
     {{- with $region -}}
-    <tr><td>Wilayah</td><td>{{ . }}</td></tr>
+    <tr><td>{{ i18n "site_table_region" }}</td><td>{{ . }}</td></tr>
     {{- end -}}
   </tbody>
 </table>

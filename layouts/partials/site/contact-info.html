@@ -31,13 +31,13 @@
     {{- end -}}
     {{- with $phone -}}
     <li>
-      <span class="block font-mono text-2xs uppercase tracking-wider text-shasec-muted-soft mb-1">Phone</span>
+      <span class="block font-mono text-2xs uppercase tracking-wider text-shasec-muted-soft mb-1">{{ i18n "contact_phone_label" }}</span>
       {{ . }}
     </li>
     {{- end -}}
     {{- with $address -}}
     <li>
-      <span class="block font-mono text-2xs uppercase tracking-wider text-shasec-muted-soft mb-1">Address</span>
+      <span class="block font-mono text-2xs uppercase tracking-wider text-shasec-muted-soft mb-1">{{ i18n "contact_address_label" }}</span>
       {{ . }}
     </li>
     {{- end -}}

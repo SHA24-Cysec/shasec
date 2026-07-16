@@ -6,8 +6,6 @@ other = "Articles"
 other = "Categories"
 [nav_tools]
 other = "Tools"
-[nav_about]
-other = "About"
 [nav_contact]
 other = "Contact"
 [nav_subscribe]
@@ -28,10 +26,6 @@ other = "Footer navigation"
 other = "Legal links"
 [lang_switch]
 other = "Language"
-[lang_id]
-other = "Indonesia"
-[lang_en]
-other = "English"
 
 [home_eyebrow]
 other = "// Cybersecurity Insights & Research"
@@ -73,7 +67,7 @@ other = "// articles"
 [related_pages]
 other = "Related pages"
 [empty_state]
-other = "Empty state"
+other = "No content"
 [empty_section]
 other = "No content in this section yet."
 
@@ -156,6 +150,11 @@ other = "Organization"
 other = "Domain"
 [contact_email_label]
 other = "Email"
+
+[contact_phone_label]
+other = "Phone"
+[contact_address_label]
+other = "Address"
 [contact_region]
 other = "Region"
 [contact_related]
@@ -172,17 +171,11 @@ other = "Thank you — your message was sent. We will reply as soon as we can."
 other = "Failed to send. Try again or email us directly."
 [contact_pending]
 other = "Formspree is not configured. Set params.contact.formspreeId in hugo.toml."
-[contact_fill]
-other = "Please fill in the required fields."
-[contact_sending]
-other = "Sending message…"
 [contact_send_loading]
 other = "Sending…"
 
 [subscribe_eyebrow]
 other = "// subscribe"
-[subscribe_title]
-other = "Subscribe"
 [subscribe_form_title]
 other = "Newsletter"
 [subscribe_email]
@@ -229,8 +222,6 @@ other = "Subscription failed. Try again or contact the site email."
 other = "Subscribe is not configured. Set formspreeId in hugo.toml."
 [subscribe_invalid]
 other = "Enter a valid email address."
-[subscribe_registering]
-other = "Registering email…"
 
 [tools_eyebrow]
 other = "// tools"
@@ -242,8 +233,6 @@ other = "Search tools"
 other = "Filter name / tag…"
 [tools_showing]
 other = "Showing {{ .Count }} tools"
-[tools_showing_filter]
-other = "Showing {{ .Count }} tools (filter active)"
 [tools_empty_title]
 other = "No tools"
 [tools_empty_text]
@@ -258,32 +247,22 @@ other = "Open"
 other = "// short disclaimer"
 [tools_disclaimer]
 other = "Tools on this page are for education and defense. Do not use them for unauthorized access. See also our"
+[tools_disclaimer_conj]
+other = "and"
 [tools_empty_yaml]
 other = "No tools yet. Fill data/tools.yaml."
 
-[ad_placeholder]
-other = "Ad placeholder"
 [ad_label_article]
 other = "Ad · Article"
 [ad_label_feed]
 other = "Ad · Home feed"
 [ad_label_sidebar]
 other = "Ad · Sidebar"
-[ad_need_client]
-other = "Set params.adsense.client in hugo.toml"
-[ad_need_slot]
-other = "Set the slot in hugo.toml"
-[ad_placeholder_mode]
-other = "Placeholder mode — set placeholder = false to go live"
-[ad_space]
-other = "Ad space"
 
 [sidebar_nav]
 other = "Navigate"
 [sidebar_all_articles]
 other = "All articles"
-[sidebar_categories]
-other = "Categories"
 [sidebar_about]
 other = "About"
 [sidebar_contact]
@@ -311,8 +290,32 @@ other = "The page you requested was not found or has been moved."
 [404_home]
 other = "Back to Home"
 
-[site_info]
-other = "Info"
+
+[site_table_item]
+other = "Item"
+[site_table_value]
+other = "Value"
+[site_table_name]
+other = "Site name"
+[site_table_org]
+other = "Organization"
+[site_table_editor]
+other = "Editor"
+[site_table_legal]
+other = "Legal name"
+[site_table_domain]
+other = "Domain"
+[site_table_email]
+other = "Email"
+[site_table_phone]
+other = "Phone"
+[site_table_address]
+other = "Address"
+[site_table_region]
+other = "Region"
+
+[back_to_top]
+other = "Back to top"
 
 [pagination_label]
 other = "Pagination"
@@ -350,3 +353,43 @@ other = "Copy link"
 other = "Link copied"
 [share_native]
 other = "Share via device"
+[tools_cat_recon]
+other = "Recon & OSINT"
+[tools_cat_analysis]
+other = "Analysis"
+[tools_cat_network]
+other = "Network & DNS"
+[tools_cat_hardening]
+other = "Hardening & Check"
+[tools_cat_site]
+other = "On this site"
+[tools_filter_aria]
+other = "Filter tools by category"
+[contact_required]
+other = "Please fill in the required fields."
+[subscribe_submitting]
+other = "Subscribing your email…"
+[hero_init]
+other = "Initializing defenses…"
+[hero_feed]
+other = "Threat feed updated."
+[hero_safe]
+other = "System secure."
+[hero_stay]
+other = "stay_secure --always"
+[card_title_default]
+other = "Article title"
+[ad_placeholder_1]
+other = "Placeholder mode active — set"
+[ad_placeholder_2]
+other = "for live"
+[search_short]
+other = "Keyword too short (min. 2 letters)."
+[search_results]
+other = "{count} results for “{query}”"
+[search_searching]
+other = "Searching…"
+[search_error]
+other = "Failed to load the index. Open /index.json in your browser — it must be a JSON array. Then hard-refresh the search page."
+[search_no_title]
+other = "Untitled"

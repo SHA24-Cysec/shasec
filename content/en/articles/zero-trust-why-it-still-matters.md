@@ -10,7 +10,7 @@ tags:
   - architecture
   - identity
 summary: "Zero Trust principles and realistic implementation steps in hybrid environments — without excess jargon."
-cover: "/images/covers/zero-trust.webp"
+cover: "/images/covers/zero-trust.jpg"
 ---
 
 **Zero Trust** is not a single product. It is a model: *never trust implicitly, always verify*, with controls based on identity, context, and least privilege.

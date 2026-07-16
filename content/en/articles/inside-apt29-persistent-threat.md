@@ -10,7 +10,7 @@ tags:
   - ttp
   - threat-hunting
 summary: "A concise TTP overview of APT29 and how to map it to detection for critical infrastructure and intelligence-targeted organizations."
-cover: "/images/covers/apt29-tactics.webp"
+cover: "/images/covers/apt29-tactics.jpg"
 ---
 
 Groups often labeled **APT29** are known for long-running operations, emphasis on stealth, and abuse of supply chains or legitimate identity.

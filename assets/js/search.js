@@ -42,6 +42,12 @@
     }
   }
 
+  function L(key, fb) {
+    var cfg = getConfig();
+    if (cfg && cfg.strings && cfg.strings[key]) return cfg.strings[key];
+    return fb;
+  }
+
   function getQuery() {
     try {
       return (new URLSearchParams(window.location.search).get('q') || '').trim();
@@ -291,7 +297,7 @@
     if (!q) {
       if (meta) {
         setHidden(meta, false);
-        meta.textContent = 'Ketik kata kunci untuk mencari.';
+        meta.textContent = L('hint', '');
       }
       setHidden(root, true);
       return;
@@ -300,7 +306,7 @@
     if (!tokens.length) {
       if (meta) {
         setHidden(meta, false);
-        meta.textContent = 'Kata kunci terlalu pendek (min. 2 huruf).';
+        meta.textContent = L('short', '');
       }
       setHidden(root, true);
       return;
@@ -309,7 +315,7 @@
     if (!items.length) {
       if (meta) {
         setHidden(meta, false);
-        meta.textContent = '0 hasil untuk “' + q + '”';
+        meta.textContent = L('results', '').replace('{count}', '0').replace('{query}', q);
       }
       setHidden(empty, false); // only here
       setHidden(root, true);
@@ -321,7 +327,7 @@
     setHidden(root, false);
     if (meta) {
       setHidden(meta, false);
-      meta.textContent = items.length + ' hasil untuk “' + q + '”';
+      meta.textContent = L('results', '').replace('{count}', String(items.length)).replace('{query}', q);
     }
 
     var frag = document.createDocumentFragment();
@@ -352,7 +358,7 @@
           ? '<div class="search-result-badges">' + badgeHtml + '</div>'
           : '') +
         '<h2 class="search-result-title">' +
-        highlight(item.title || 'Tanpa judul', tokens) +
+        highlight(item.title || L('noTitle', ''), tokens) +
         '</h2>' +
         (snippet
           ? '<p class="search-result-excerpt">' +
@@ -378,8 +384,8 @@
     if (status) {
       setHidden(status, false);
       status.textContent = indexCache
-        ? 'Mencari…'
-        : 'Memuat indeks pencarian…';
+        ? L('searching', 'Mencari…')
+        : L('loading', '');
     }
     // While loading, never flash empty-state
     setHidden(qs('#search-empty'), true);
@@ -414,7 +420,7 @@
         if (status) {
           setHidden(status, false);
           status.textContent =
-            'Gagal memuat indeks. Buka /index.json di browser — harus JSON array. Lalu hard-refresh halaman search.';
+            L('error', '');
         }
         setHidden(qs('#search-empty'), true);
         if (typeof console !== 'undefined' && console.warn) {
@@ -447,7 +453,7 @@
       var meta = qs('#search-meta');
       if (meta) {
         setHidden(meta, false);
-        meta.textContent = 'Ketik kata kunci untuk mencari.';
+        meta.textContent = L('hint', '');
       }
       setHidden(qs('#search-empty'), true);
       loadIndex().catch(function () {});

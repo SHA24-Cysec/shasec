@@ -19,7 +19,9 @@
         panel.setAttribute('hidden', '');
       }
       toggle.setAttribute('aria-expanded', open ? 'true' : 'false');
-      toggle.setAttribute('aria-label', open ? 'Tutup menu' : 'Buka menu');
+      var navOpenLabel = toggle.getAttribute('data-label-open') || '';
+      var navClosedLabel = toggle.getAttribute('data-label-closed') || '';
+      toggle.setAttribute('aria-label', open ? navOpenLabel : navClosedLabel);
       if (iconOpen && iconClose) {
         iconOpen.classList.toggle('hidden', open);
         iconClose.classList.toggle('hidden', !open);
