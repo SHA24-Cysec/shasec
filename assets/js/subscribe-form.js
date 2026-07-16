@@ -20,7 +20,7 @@
       '';
     var pendingMsg =
       form.getAttribute('data-pending-message') ||
-      'Subscribe belum dikonfigurasi.';
+      ''; /* P3-4: fallback kosong — data-pending-message selalu diisi oleh Hugo template */
 
     function setNote(text, kind) {
       if (!note) return;

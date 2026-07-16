@@ -34,8 +34,6 @@ Membantu individu dan organisasi **tetap unggul dan tetap aman** melalui konten 
 
 {{% site-identity-table %}}
 
-> Semua data identitas di atas diambil dari konfigurasi situs (`hugo.toml`). Ubah di sana agar About, Contact, Privacy, dan Disclaimer ikut berubah.
-
 ## Hubungi kami
 
 Kritik, koreksi, atau kolaborasi editorial dapat disampaikan melalui halaman **[Kontak]({{< ref "/contact.md" >}})** atau email **{{< site "contactEmail" >}}**.

@@ -393,3 +393,20 @@ other = "Searching…"
 other = "Failed to load the index. Open /index.json in your browser — it must be a JSON array. Then hard-refresh the search page."
 [search_no_title]
 other = "Untitled"
+[hero_cmd]
+other = "ls threats/"
+[hero_threats]
+other = "ransomware\nphishing\nzero-day\napt-groups\nmalware-analysis"
+
+[skip_to_content]
+other = "Skip to content"
+
+[ad_sponsored]
+other = "Sponsored"
+[ad_slot_aria]
+other = "Sponsored space"
+
+[search_pagination_label]
+other = "Search results navigation"
+[search_page_of]
+other = "Page {{ .Page }} of {{ .Total }}"

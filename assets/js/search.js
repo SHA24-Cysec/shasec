@@ -280,12 +280,70 @@
     return indexPromise;
   }
 
+  /* Opsi 10: state pagination */
+  var paginationState = { items: [], tokens: [], q: '', page: 1, pageSize: 10 };
+
+  function getPageSize() {
+    var cfg = getConfig();
+    return (cfg && cfg.pageSize) ? cfg.pageSize : 10;
+  }
+
+  function renderPage() {
+    var items   = paginationState.items;
+    var tokens  = paginationState.tokens;
+    var q       = paginationState.q;
+    var page    = paginationState.page;
+    var size    = paginationState.pageSize;
+    var total   = Math.ceil(items.length / size);
+    var start   = (page - 1) * size;
+    var slice   = items.slice(start, start + size);
+
+    _renderSlice(slice, tokens, q);
+
+    var paginationEl = qs('#search-pagination');
+    var prevBtn      = qs('#search-prev');
+    var nextBtn      = qs('#search-next');
+    var pageMeta     = qs('#search-pagination-meta');
+
+    if (paginationEl) {
+      if (total > 1) {
+        paginationEl.classList.remove('hidden');
+        paginationEl.removeAttribute('hidden');
+      } else {
+        paginationEl.classList.add('hidden');
+        paginationEl.setAttribute('hidden', '');
+      }
+    }
+    if (prevBtn) {
+      prevBtn.disabled = page <= 1;
+      prevBtn.classList.toggle('is-disabled', page <= 1);
+    }
+    if (nextBtn) {
+      nextBtn.disabled = page >= total;
+      nextBtn.classList.toggle('is-disabled', page >= total);
+    }
+    if (pageMeta) {
+      var tplStr = L('pageOf', '');
+      /* Ganti placeholder angka 0 dengan nilai aktual */
+      pageMeta.textContent = tplStr
+        .replace(/\b0\b/, String(page))
+        .replace(/\b0\b/, String(total || 1));
+    }
+  }
+
   function renderResults(items, tokens, q) {
     var root = qs('#search-results');
     var empty = qs('#search-empty');
     var meta = qs('#search-meta');
     var status = qs('#search-status');
     if (!root) return;
+
+    /* Reset pagination state */
+    paginationState.items    = items;
+    paginationState.tokens   = tokens;
+    paginationState.q        = q;
+    paginationState.page     = 1;
+    paginationState.pageSize = getPageSize();
 
     root.innerHTML = '';
     setHidden(status, true);
@@ -329,6 +387,17 @@
       setHidden(meta, false);
       meta.textContent = L('results', '').replace('{count}', String(items.length)).replace('{query}', q);
     }
+
+    /* Render halaman pertama */
+    renderPage();
+  }
+
+  /* _renderSlice: render satu halaman dari items (dipanggil renderPage) */
+  function _renderSlice(items, tokens, q) {
+    var root = qs('#search-results');
+    if (!root) return;
+    root.innerHTML = '';
+    if (!items.length) return;
 
     var frag = document.createDocumentFragment();
     items.forEach(function (item) {
@@ -384,7 +453,7 @@
     if (status) {
       setHidden(status, false);
       status.textContent = indexCache
-        ? L('searching', 'Mencari…')
+        ? L('searching', '') /* P3-3: fallback kosong — i18n search_searching selalu tersedia dari Hugo config */
         : L('loading', '');
     }
     // While loading, never flash empty-state
@@ -423,10 +492,7 @@
             L('error', '');
         }
         setHidden(qs('#search-empty'), true);
-        if (typeof console !== 'undefined' && console.warn) {
-          console.warn('[ShaSec search]', err && err.message ? err.message : err);
-          console.warn('[ShaSec search] tried:', candidateIndexUrls());
-        }
+
       });
   }
 
@@ -484,6 +550,38 @@
       syncHeaderInputs(q);
       runSearch(q);
     });
+
+    /* Opsi 10: Pagination — prev/next buttons */
+    var prevBtn = qs('#search-prev');
+    var nextBtn = qs('#search-next');
+
+    function scrollToResults() {
+      var resultsEl = qs('#search-results');
+      if (resultsEl) {
+        var top = resultsEl.getBoundingClientRect().top + window.pageYOffset - 80;
+        window.scrollTo({ top: Math.max(0, top), behavior: 'smooth' });
+      }
+    }
+
+    if (prevBtn) {
+      prevBtn.addEventListener('click', function () {
+        if (paginationState.page > 1) {
+          paginationState.page -= 1;
+          renderPage();
+          scrollToResults();
+        }
+      });
+    }
+    if (nextBtn) {
+      nextBtn.addEventListener('click', function () {
+        var total = Math.ceil(paginationState.items.length / paginationState.pageSize);
+        if (paginationState.page < total) {
+          paginationState.page += 1;
+          renderPage();
+          scrollToResults();
+        }
+      });
+    }
   }
 
   if (window.ShaSec && typeof window.ShaSec.ready === 'function') {

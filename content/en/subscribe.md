@@ -7,5 +7,6 @@ excludeFromSearch: true
 translationKey: "subscribe"
 ---
 
-Enter your email to receive **article updates** and security insight summaries from **{{< site "organization" >}}**.  
+Enter your email to receive **article updates** and security insight summaries from **{{< site "organization" >}}**.
+
 No spam — only relevant content.

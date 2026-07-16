@@ -4,7 +4,7 @@
 */ -}}
 {{- $title := .Site.Title -}}
 {{- $org := .Site.Params.organization | default $title -}}
-<a href="{{ "/" | relURL }}" class="brand group" aria-label="{{ $title }} — beranda">
+<a href="{{ "/" | relLangURL }}" class="brand group" aria-label="{{ $title }} — {{ i18n "nav_home" }}">
   <span class="brand-mark brand-mark--image" aria-hidden="true">
     <img
       class="brand-mark-img"

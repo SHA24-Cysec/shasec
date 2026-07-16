@@ -51,4 +51,48 @@
   } else {
     initNav();
   }
+
+  /* ─────────────────────────────────────────────────────────────
+   * Fix: Search bar navbar scroll ke atas saat mengetik
+   *
+   * Root cause:
+   *   html { scroll-padding-top: ~76px } membuat browser mengira
+   *   input di sticky header butuh ruang 76px di atasnya.
+   *   Padahal input sudah berada di dalam header itu sendiri,
+   *   sehingga browser scroll halaman ke atas setiap keystroke.
+   *
+   * Solusi:
+   *   Set scroll-padding-top = 0 saat input navbar aktif (focus),
+   *   pulihkan kembali saat selesai (blur) agar anchor-link
+   *   scroll tetap berfungsi normal.
+   * ───────────────────────────────────────────────────────────── */
+  (function () {
+    'use strict';
+
+    function initSearchScrollFix() {
+      var ids = ['site-search', 'site-search-mobile'];
+      ids.forEach(function (id) {
+        var el = document.getElementById(id);
+        if (!el) return;
+
+        el.addEventListener('focus', function () {
+          document.documentElement.style.scrollPaddingTop = '0px';
+        });
+
+        el.addEventListener('blur', function () {
+          var header = document.querySelector('.site-header');
+          var offset = header ? Math.ceil(header.getBoundingClientRect().height) : 64;
+          document.documentElement.style.scrollPaddingTop = (offset + 12) + 'px';
+        });
+      });
+    }
+
+    if (window.ShaSec && typeof window.ShaSec.ready === 'function') {
+      window.ShaSec.ready(initSearchScrollFix);
+    } else if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', initSearchScrollFix);
+    } else {
+      initSearchScrollFix();
+    }
+  })();
 })();

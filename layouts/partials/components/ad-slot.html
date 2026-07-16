@@ -33,7 +33,7 @@
   class="ad-slot ad-slot--{{ $format }} {{ $class }}"
   data-ad-slot="{{ $slotKey }}"
   data-ad-live="{{ cond $live "true" "false" }}"
-  aria-label="Ruang iklan"
+  aria-label="{{ i18n "ad_slot_aria" }}"
 >
   {{- if $live -}}
     <ins
@@ -50,17 +50,7 @@
     </script>
   {{- else -}}
     <div class="ad-slot-placeholder">
-      <span class="ad-slot-badge">Ad placeholder</span>
-      <p class="ad-slot-title">{{ $label }}</p>
-      <p class="ad-slot-meta">
-        {{- if not $client -}}
-          Isi <span class="font-mono">params.adsense.client</span> di hugo.toml
-        {{- else if not $slotId -}}
-          Isi slot <span class="font-mono">{{ $slotKey }}</span> di hugo.toml
-        {{- else -}}
-          {{ i18n "ad_placeholder_1" }} <span class="font-mono">placeholder = false</span> {{ i18n "ad_placeholder_2" }}
-        {{- end -}}
-      </p>
+      <span class="ad-slot-badge">{{ i18n "ad_sponsored" }}</span>
     </div>
   {{- end -}}
 </aside>

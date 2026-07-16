@@ -37,7 +37,7 @@
       if (copyBtn) {
         copyBtn.addEventListener('click', function () {
           var done = function () {
-            showFeedback(copyBtn.getAttribute('data-copied-msg') || 'Copied');
+            showFeedback(copyBtn.getAttribute('data-copied-msg') || ''); /* P3-5: fallback kosong — data-copied-msg selalu diisi dari i18n share_copied */
             copyBtn.classList.add('is-copied');
             window.setTimeout(function () {
               copyBtn.classList.remove('is-copied');

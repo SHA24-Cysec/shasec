@@ -24,6 +24,18 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>{{ $title }}</title>
 <meta name="description" content="{{ $desc | plainify | truncate 160 }}">
+{{- /* N-6: meta author — per-artikel jika ada, fallback ke site author */ -}}
+{{- $metaAuthor := "" -}}
+{{- with .Params.author -}}
+  {{- if reflect.IsMap . -}}{{- $metaAuthor = .name | default "" -}}{{- else -}}{{- $metaAuthor = . -}}{{- end -}}
+{{- else -}}
+  {{- with .Params.authors -}}{{- with index . 0 -}}
+    {{- if reflect.IsMap . -}}{{- $metaAuthor = .name | default "" -}}{{- else -}}{{- $metaAuthor = . -}}{{- end -}}
+  {{- end -}}{{- end -}}
+{{- end -}}
+{{- if not $metaAuthor -}}{{- with .Site.Params.author -}}{{- $metaAuthor = .name | default "" -}}{{- end -}}{{- end -}}
+{{- with $metaAuthor -}}<meta name="author" content="{{ . | plainify }}">
+{{- end -}}
 <meta name="theme-color" content="#05070A">
 {{- /*
   robots — otomatis, tanpa front matter:
@@ -104,6 +116,11 @@
 <meta property="og:type" content="{{ $ogType }}">
 <meta property="og:url" content="{{ $canonical }}">
 <meta property="og:image" content="{{ $ogImage }}">
+{{- /* N-5: dimensi & alt OG image — membantu Facebook/LinkedIn preview lebih optimal */ -}}
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:type" content="image/jpeg">
+<meta property="og:image:alt" content="{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }}{{ end }}">
 <meta property="og:locale" content="{{ $locale }}">
 {{- range .AllTranslations -}}
   {{- if ne .Language.Lang $.Language.Lang -}}
@@ -141,7 +158,8 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&family=Share+Tech+Mono&display=swap" rel="stylesheet">
 
-{{- /* CSS via Hugo Pipes from assets/css */ -}}
+{{- /* CSS via Hugo Pipes — main.bundle.css adalah hasil build Tailwind (npm run build:css)
+     yang sudah mencakup semua fix. Fallback ke main.css jika bundle tidak ada. */ -}}
 {{- $css := resources.Get "css/main.bundle.css" -}}
 {{- if not $css -}}
   {{- $css = resources.Get "css/main.css" -}}

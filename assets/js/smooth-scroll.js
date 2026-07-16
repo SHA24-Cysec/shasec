@@ -76,8 +76,13 @@
       } catch (e) {
         el.focus();
       }
+      /* Fix #10: Hapus tabindex setelah blur agar elemen non-interaktif
+         tidak bocor ke keyboard tab order */
       if (prevTab === null) {
-        // keep tabindex for subsequent focus if needed; leave -1
+        el.addEventListener('blur', function cleanup() {
+          el.removeAttribute('tabindex');
+          el.removeEventListener('blur', cleanup);
+        });
       }
     }
     return true;

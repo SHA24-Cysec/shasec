@@ -49,7 +49,10 @@
   {{- end -}}
 {{- end -}}
 
-{{- $isContact := or (eq .Layout "contact") (eq .Type "contact") (and .File (eq .File.ContentBaseName "contact")) (eq .RelPermalink "/contact/") -}}
+{{- /* Fix #02: Hapus cek RelPermalink hardcoded (/contact/, /search/, dll.)
+     agar JS ter-load di semua bahasa (/en/contact/, /en/search/, dll.)
+     Cukup andalkan .Layout / .Type / .File.ContentBaseName yang language-agnostic. */ -}}
+{{- $isContact := or (eq .Layout "contact") (eq .Type "contact") (and .File (eq .File.ContentBaseName "contact")) -}}
 {{- if $isContact -}}
   {{- with resources.Get "js/contact-form.js" -}}
     {{- $contact := . | minify | fingerprint -}}
@@ -57,7 +60,7 @@
   {{- end -}}
 {{- end -}}
 
-{{- $isSearch := or (eq .Layout "search") (and .File (eq .File.ContentBaseName "search")) (eq .RelPermalink "/search/") -}}
+{{- $isSearch := or (eq .Layout "search") (and .File (eq .File.ContentBaseName "search")) -}}
 {{- if $isSearch -}}
   {{- with resources.Get "js/search.js" -}}
     {{- $search := . | minify | fingerprint -}}
@@ -65,7 +68,7 @@
   {{- end -}}
 {{- end -}}
 
-{{- $isTools := or (eq .Section "tools") (eq .Type "tools") (eq .RelPermalink "/tools/") -}}
+{{- $isTools := or (eq .Section "tools") (eq .Type "tools") -}}
 {{- if $isTools -}}
   {{- with resources.Get "js/tools.js" -}}
     {{- $tools := . | minify | fingerprint -}}
@@ -73,7 +76,7 @@
   {{- end -}}
 {{- end -}}
 
-{{- $isSubscribe := or (eq .Layout "subscribe") (and .File (eq .File.ContentBaseName "subscribe")) (eq .RelPermalink "/subscribe/") -}}
+{{- $isSubscribe := or (eq .Layout "subscribe") (and .File (eq .File.ContentBaseName "subscribe")) -}}
 {{- if $isSubscribe -}}
   {{- with resources.Get "js/subscribe-form.js" -}}
     {{- $sub := . | minify | fingerprint -}}

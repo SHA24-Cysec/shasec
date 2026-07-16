@@ -20,7 +20,7 @@
       '';
     var pendingMsg =
       form.getAttribute('data-pending-message') ||
-      'Formspree belum dikonfigurasi.';
+      ''; /* fallback kosong — data-pending-message selalu diisi oleh Hugo template */
 
     function setNote(text, kind) {
       if (!note) return;
@@ -64,7 +64,8 @@
       }
 
       setLoading(true);
-      setNote('Mengirim pesan…', null);
+      /* N-3: baca dari data-send-loading (i18n: contact_send_loading) bukan hardcoded ID */
+      setNote(form.getAttribute('data-send-loading') || '', null);
 
       var data = new FormData(form);
       // Help Formspree set reply-to

@@ -8,28 +8,31 @@
     var root = document.getElementById('hero-terminal-body');
     if (!root) return;
 
+    /* Fix #05: Baca perintah & daftar ancaman dari data-attribute Hugo (multilingual-safe) */
     var HERO = {
-      init: root.getAttribute('data-hero-init') || '',
-      feed: root.getAttribute('data-hero-feed') || '',
-      safe: root.getAttribute('data-hero-safe') || '',
-      stay: root.getAttribute('data-hero-stay') || ''
+      init:    root.getAttribute('data-hero-init')    || '',
+      feed:    root.getAttribute('data-hero-feed')    || '',
+      safe:    root.getAttribute('data-hero-safe')    || '',
+      stay:    root.getAttribute('data-hero-stay')    || '',
+      cmd:     root.getAttribute('data-hero-cmd')     || 'ls threats/',
+      threats: root.getAttribute('data-hero-threats') || 'ransomware\nphishing\nzero-day\napt-groups\nmalware-analysis'
     };
 
-    var lines = [
-      { type: 'cmd', text: 'whoami' },
+    /* Bangun baris threat dari string i18n (dipisah \n) */
+    var threatLines = HERO.threats.split('\n').filter(function (t) { return t.trim(); }).map(function (t) {
+      return { type: 'out', text: t.trim(), cls: 'text-shasec-primary' };
+    });
+
+    var lines = [{ type: 'cmd', text: 'whoami' },
       { type: 'out', text: 'shasec.operator', cls: 'text-shasec-text' },
-      { type: 'cmd', text: 'ls ancaman/' },
-      { type: 'out', text: 'ransomware', cls: 'text-shasec-primary' },
-      { type: 'out', text: 'phishing', cls: 'text-shasec-primary' },
-      { type: 'out', text: 'zero-day', cls: 'text-shasec-primary' },
-      { type: 'out', text: 'apt-groups', cls: 'text-shasec-primary' },
-      { type: 'out', text: 'malware-analysis', cls: 'text-shasec-primary' },
+      { type: 'cmd', text: HERO.cmd }
+    ].concat(threatLines).concat([
       { type: 'cmd', text: HERO.stay },
       { type: 'out', text: HERO.init },
       { type: 'out', text: HERO.feed },
       { type: 'out', text: HERO.safe, cls: 'text-shasec-primary' },
       { type: 'prompt' }
-    ];
+    ]);
 
     var promptHtml = '<span class="terminal-prompt">user@shasec:~$</span> ';
     var i = 0;

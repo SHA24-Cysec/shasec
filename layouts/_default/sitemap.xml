@@ -10,17 +10,51 @@
           (eq .Params.sitemap.disable true)
     -}}
     {{- if not $skip -}}
+    {{- /* Opsi 9: Priority & changefreq otomatis per tipe halaman
+         Artikel      → priority 0.8, weekly  (konten utama, sering update)
+         Beranda      → priority 1.0, daily   (pintu masuk utama)
+         Tools        → priority 0.6, monthly (katalog, jarang berubah)
+         Legal pages  → priority 0.3, yearly  (Privacy, Disclaimer, dll.)
+         Default      → priority 0.5, monthly
+    */ -}}
+    {{- $priority := "0.5" -}}
+    {{- $changefreq := "monthly" -}}
+    {{- if .IsHome -}}
+      {{- $priority = "1.0" -}}
+      {{- $changefreq = "daily" -}}
+    {{- else if and (eq .Section "articles") (eq .Kind "page") -}}
+      {{- $priority = "0.8" -}}
+      {{- $changefreq = "weekly" -}}
+    {{- else if eq .Kind "section" -}}
+      {{- $priority = "0.6" -}}
+      {{- $changefreq = "weekly" -}}
+    {{- else if or (eq .Type "tools") (eq .Section "tools") -}}
+      {{- $priority = "0.6" -}}
+      {{- $changefreq = "monthly" -}}
+    {{- else if or
+          (and .File (eq .File.ContentBaseName "privacy"))
+          (and .File (eq .File.ContentBaseName "disclaimer"))
+          (and .File (eq .File.ContentBaseName "about"))
+    -}}
+      {{- $priority = "0.3" -}}
+      {{- $changefreq = "yearly" -}}
+    {{- else if or
+          (and .File (eq .File.ContentBaseName "contact"))
+          (and .File (eq .File.ContentBaseName "subscribe"))
+    -}}
+      {{- $priority = "0.5" -}}
+      {{- $changefreq = "yearly" -}}
+    {{- end -}}
+    {{- /* Override dengan front matter jika ada */ -}}
+    {{- if .Params.sitemap.priority -}}{{- $priority = printf "%.1f" .Params.sitemap.priority -}}{{- end -}}
+    {{- with .Params.sitemap.changeFreq -}}{{- $changefreq = . -}}{{- end -}}
   <url>
     <loc>{{ .Permalink }}</loc>
     {{- if not .Lastmod.IsZero }}
     <lastmod>{{ .Lastmod.Format "2006-01-02T15:04:05-07:00" }}</lastmod>
     {{- end }}
-    {{- with .Sitemap.ChangeFreq }}
-    <changefreq>{{ . }}</changefreq>
-    {{- end }}
-    {{- if ge .Sitemap.Priority 0.0 }}
-    <priority>{{ .Sitemap.Priority }}</priority>
-    {{- end }}
+    <changefreq>{{ $changefreq }}</changefreq>
+    <priority>{{ $priority }}</priority>
     {{- if .IsTranslated -}}
       {{- range .AllTranslations }}
     <xhtml:link rel="alternate" hreflang="{{ .Language.Lang }}" href="{{ .Permalink }}" />

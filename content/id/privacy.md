@@ -27,8 +27,6 @@ Kebijakan Privasi ini menjelaskan bagaimana **{{< site "organization" >}}** (`{{
 | Kontak | Halaman [Kontak]({{< ref "/contact.md" >}}) · {{< site "contactEmail" >}} |
 | Wilayah | {{< site "region" >}} |
 
-> Data di tabel ini bersumber dari `hugo.toml` (`[params]`). Perbarui file konfigurasi untuk mengubah identitas di seluruh situs.
-
 ## 2. Informasi yang kami kumpulkan
 
 ### 2.1 Informasi yang Anda berikan secara sukarela

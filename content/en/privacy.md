@@ -22,8 +22,6 @@ This Privacy Policy explains how **{{< site "organization" >}}** (`{{< site "sit
 | Contact | [Contact]({{< ref "/contact.md" >}}) page · {{< site "contactEmail" >}} |
 | Region | {{< site "region" >}} |
 
-> Table data comes from `hugo.toml` (`[params]` / language params). Update the config to change identity site-wide.
-
 ## 2. Information we collect
 
 ### 2.1 Information you provide voluntarily

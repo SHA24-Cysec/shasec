@@ -19,6 +19,9 @@
     var empty = document.getElementById('tools-empty');
     var activeCat = 'all';
 
+    /* Fix #04 + N-4: satu data-tpl — tpl-all dan tpl-filtered identik, disederhanakan */
+    var tpl = status ? (status.getAttribute('data-tpl') || '') : '';
+
     function setHidden(el, hide) {
       if (!el) return;
       if (hide) {
@@ -48,11 +51,8 @@
       });
 
       if (status) {
-        if (q || activeCat !== 'all') {
-          status.textContent = 'Menampilkan ' + visible + ' tools (filter aktif)';
-        } else {
-          status.textContent = 'Menampilkan ' + visible + ' tools';
-        }
+        /* N-4: tpl tunggal — replace angka 0 dengan count aktual */
+        status.textContent = tpl.replace(/\b0\b/, String(visible));
       }
       setHidden(empty, visible !== 0);
     }

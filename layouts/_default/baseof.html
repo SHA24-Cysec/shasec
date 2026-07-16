@@ -6,6 +6,8 @@
   {{ block "head" . }}{{ end }}
 </head>
 <body class="flex min-h-screen flex-col bg-matrix">
+  {{- /* N-2: Skip-to-content — WCAG 2.4.1 Level A (bypass blocks) */ -}}
+  <a href="#main" class="skip-to-content">{{ i18n "skip_to_content" }}</a>
   {{ partial "header.html" . }}
   <main id="main" class="flex-1 w-full">
     {{ block "main" . }}{{ end }}

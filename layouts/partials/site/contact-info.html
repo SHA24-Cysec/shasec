@@ -13,9 +13,10 @@
       <span class="block font-mono text-2xs uppercase tracking-wider text-shasec-muted-soft mb-1">{{ i18n "contact_org" }}</span>
       {{ $org }}
     </li>
+    {{- /* Fix #07: pakai label "Editor" bukan "Organisasi" agar tidak duplikat */ -}}
     {{- if and $owner (ne $owner $org) -}}
     <li>
-      <span class="block font-mono text-2xs uppercase tracking-wider text-shasec-muted-soft mb-1">{{ i18n "contact_org" }}</span>
+      <span class="block font-mono text-2xs uppercase tracking-wider text-shasec-muted-soft mb-1">{{ i18n "site_table_editor" }}</span>
       {{ $owner }}
     </li>
     {{- end -}}

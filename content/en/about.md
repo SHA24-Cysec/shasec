@@ -29,8 +29,6 @@ Help individuals and organizations **stay ahead and stay secure** through clear,
 
 {{% site-identity-table %}}
 
-> Identity data above comes from site config (`hugo.toml`). Change it there so About, Contact, Privacy, and Disclaimer stay in sync.
-
 ## Contact us
 
 Feedback, corrections, or editorial collaboration: **[Contact]({{< ref "/contact.md" >}})** or email **{{< site "contactEmail" >}}**.

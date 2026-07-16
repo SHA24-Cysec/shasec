@@ -55,7 +55,13 @@
         </div>
       </div>
 
-      <p class="tools-status font-mono text-2xs tracking-wide uppercase text-shasec-muted-soft mb-4" id="tools-status" role="status" aria-live="polite">
+      {{- /* Fix #04 + N-4: satu data-tpl cukup — tpl-all dan tpl-filtered identik */ -}}
+      <p class="tools-status font-mono text-2xs tracking-wide uppercase text-shasec-muted-soft mb-4"
+        id="tools-status"
+        role="status"
+        aria-live="polite"
+        data-tpl="{{ i18n "tools_showing" (dict "Count" 0) }}"
+      >
         {{ i18n "tools_showing" (dict "Count" (len $items)) }}
       </p>
 
@@ -73,7 +79,8 @@
           {{- $ext := $item.external | default true -}}
           {{- $href := $item.url | default "#" -}}
           {{- if and (not $ext) (not (or (hasPrefix $href "http://") (hasPrefix $href "https://"))) -}}
-            {{- $href = $href | relURL -}}
+            {{- /* N-1: relLangURL agar EN user diarahkan ke /en/search/ bukan /search/ */ -}}
+            {{- $href = $href | relLangURL -}}
           {{- end -}}
           {{- $tags := $item.tags | default (slice) -}}
           {{- $searchBlob := printf "%s %s %s %s" $tname $tdesc $catLabel (delimit $tags " ") | lower -}}
@@ -136,9 +143,9 @@
       <p class="font-mono text-2xs tracking-[0.14em] uppercase text-shasec-primary mb-2">{{ i18n "tools_disclaimer_title" }}</p>
       <p class="text-sm text-shasec-muted m-0 leading-relaxed">
         {{ i18n "tools_disclaimer" }}
-        <a href="{{ "/disclaimer/" | relURL }}" class="text-shasec-primary hover:underline">{{ i18n "footer_disclaimer" }}</a>
+        <a href="{{ "disclaimer/" | relLangURL }}" class="text-shasec-primary hover:underline">{{ i18n "footer_disclaimer" }}</a>
         {{ i18n "tools_disclaimer_conj" }}
-        <a href="{{ "/privacy/" | relURL }}" class="text-shasec-primary hover:underline">{{ i18n "footer_privacy" }}</a>.
+        <a href="{{ "privacy/" | relLangURL }}" class="text-shasec-primary hover:underline">{{ i18n "footer_privacy" }}</a>.
       </p>
     </aside>
   </div>

@@ -16,6 +16,7 @@
           "indexUrl" ("index.json" | relLangURL)
           "indexUrlAbs" ("index.json" | absLangURL)
           "includeSections" $sections
+          "pageSize" 10
           "strings" (dict
             "hint" (i18n "search_hint")
             "short" (i18n "search_short")
@@ -24,6 +25,8 @@
             "loading" (i18n "search_loading")
             "error" (i18n "search_error")
             "noTitle" (i18n "search_no_title")
+            "pageOf" (i18n "search_page_of" (dict "Page" 0 "Total" 0))
+            "paginationLabel" (i18n "search_pagination_label")
           )
         | jsonify | safeJS -}}
       </script>
@@ -49,13 +52,27 @@
       </form>
     </header>
 
-    <div class="search-status" id="search-status" role="status" aria-live="polite">
-      {{ i18n "search_loading" }}
-    </div>
+    {{- /* Fix #08: hidden saat awal — JS yang isi & tampilkan saat diperlukan (tidak flash "loading") */ -}}
+    <div class="search-status" id="search-status" role="status" aria-live="polite" hidden></div>
 
     <div class="search-meta font-mono text-2xs tracking-wide uppercase text-shasec-muted-soft mb-4" id="search-meta" hidden></div>
 
     <div class="search-results" id="search-results"></div>
+
+    {{- /* Opsi 10: Pagination search results */ -}}
+    <nav class="search-pagination hidden" id="search-pagination" aria-label="{{ i18n "search_pagination_label" }}">
+      <div class="search-pagination-inner">
+        <button type="button" class="pagination-btn" id="search-prev" aria-label="{{ i18n "pagination_prev" }}">
+          <span aria-hidden="true">←</span>
+          <span>{{ i18n "pagination_prev" }}</span>
+        </button>
+        <span class="search-pagination-meta font-mono text-2xs tracking-wide uppercase text-shasec-muted-soft" id="search-pagination-meta"></span>
+        <button type="button" class="pagination-btn" id="search-next" aria-label="{{ i18n "pagination_next" }}">
+          <span>{{ i18n "pagination_next" }}</span>
+          <span aria-hidden="true">→</span>
+        </button>
+      </div>
+    </nav>
 
     <div class="search-empty card p-6 sm:p-8 max-w-xl hidden" id="search-empty" hidden aria-hidden="true">
       <p class="font-mono text-xs uppercase tracking-[0.14em] text-shasec-primary mb-2">{{ i18n "search_empty_title" }}</p>

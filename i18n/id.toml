@@ -393,3 +393,20 @@ other = "Mencari…"
 other = "Gagal memuat indeks. Buka /index.json di browser — harus JSON array. Lalu hard-refresh halaman search."
 [search_no_title]
 other = "Tanpa judul"
+[hero_cmd]
+other = "ls ancaman/"
+[hero_threats]
+other = "ransomware\nphishing\nzero-day\napt-groups\nmalware-analysis"
+
+[skip_to_content]
+other = "Langsung ke konten"
+
+[ad_sponsored]
+other = "Sponsor"
+[ad_slot_aria]
+other = "Ruang sponsor"
+
+[search_pagination_label]
+other = "Navigasi halaman hasil pencarian"
+[search_page_of]
+other = "Halaman {{ .Page }} dari {{ .Total }}"

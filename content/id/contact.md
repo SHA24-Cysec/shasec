@@ -11,6 +11,4 @@ menu:
     weight: 2
 ---
 
-Gunakan formulir di bawah untuk mengirim pesan kepada **{{< site "organization" >}}**. Pesan diproses lewat **Formspree** setelah Form ID dikonfigurasi di `hugo.toml`.
-
-Identitas dan email kontak diambil dari konfigurasi situs — lihat panel **Info** di samping formulir.
+Gunakan formulir di bawah untuk mengirim pesan kepada **{{< site "organization" >}}**.

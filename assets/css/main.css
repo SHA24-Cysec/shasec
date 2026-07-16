@@ -261,12 +261,23 @@
 
   .input-search {
     @apply input pl-10 pr-3 py-2 text-xs sm:text-sm rounded-full;
+    /* Fix scroll: input ada di sticky header — browser tidak perlu scroll
+       untuk menampilkannya karena sudah selalu terlihat di atas */
+    scroll-margin-top: 0;
   }
 
   /* ---------- Header / Nav ---------- */
   .site-header {
     @apply sticky top-0 z-50 border-b border-shasec-border/80
       bg-shasec-bg/85 backdrop-blur-md;
+    /* Fix scroll: elemen sticky selalu di posisi atas,
+       browser tidak perlu scroll halaman untuk menampilkan isinya */
+    scroll-margin-top: 0;
+  }
+
+  /* Semua input di dalam sticky header tidak memicu scroll halaman */
+  .site-header input {
+    scroll-margin-top: 0;
   }
 
   .site-header-inner {
@@ -1329,24 +1340,39 @@
     @apply m-0 text-center sm:text-left w-full sm:w-auto order-last;
   }
 
+  /* Opsi 10: Search pagination */
+  .search-pagination {
+    @apply mt-6 pt-5 border-t border-shasec-border;
+  }
+
+  .search-pagination[hidden],
+  .search-pagination.hidden {
+    display: none !important;
+  }
+
+  .search-pagination-inner {
+    @apply flex items-center justify-between gap-4 flex-wrap;
+  }
+
+  .search-pagination-meta {
+    @apply font-mono text-2xs tracking-wide uppercase text-shasec-muted-soft
+      flex-1 text-center;
+  }
+
+  /* Placeholder: hanya badge kecil "Sponsored" — tanpa teks debug */
   .ad-slot-placeholder {
-    @apply flex flex-col items-center justify-center text-center gap-1.5
-      px-4 py-5 sm:py-6 min-h-[inherit];
+    @apply flex items-center justify-center min-h-[inherit] px-4 py-3;
   }
 
   .ad-slot-badge {
     @apply font-mono text-2xs tracking-[0.16em] uppercase
-      text-shasec-primary bg-shasec-primary-soft border border-shasec-primary/25
-      px-2 py-0.5 rounded;
+      text-shasec-muted-soft bg-transparent border border-shasec-border/60
+      px-2.5 py-1 rounded opacity-60;
   }
 
-  .ad-slot-title {
-    @apply font-mono text-xs sm:text-sm tracking-wide text-shasec-text-bright m-0;
-  }
-
-  .ad-slot-meta {
-    @apply text-2xs sm:text-xs text-shasec-muted-soft m-0 max-w-md leading-relaxed;
-  }
+  /* Kelas lama dipertahankan kosong agar tidak error jika masih dirujuk */
+  .ad-slot-title {}
+  .ad-slot-meta {}
 
   /* ---------- Cookie consent ---------- */
   .cookie-consent {
@@ -1404,6 +1430,18 @@
 }
 
 @layer utilities {
+  /* N-2: Skip-to-content — WCAG 2.4.1 Level A
+     Tersembunyi secara visual, muncul saat di-focus oleh keyboard */
+  .skip-to-content {
+    @apply sr-only
+      focus:not-sr-only
+      focus:fixed focus:top-4 focus:left-4 focus:z-[999]
+      focus:px-4 focus:py-2
+      focus:rounded-btn
+      focus:bg-shasec-primary focus:text-shasec-bg
+      focus:font-mono focus:text-xs focus:font-semibold focus:uppercase focus:tracking-widest
+      focus:shadow-glow focus:outline-none;
+  }
   .line-clamp-3 {
     display: -webkit-box;
     -webkit-box-orient: vertical;
