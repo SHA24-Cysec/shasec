@@ -4664,6 +4664,10 @@ body.has-cookie-banner {
   top: 12%;
 }
 
+.isolate {
+  isolation: isolate;
+}
+
 .z-10 {
   z-index: 10;
 }

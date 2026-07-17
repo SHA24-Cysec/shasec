@@ -144,10 +144,13 @@ defaultContentLanguageInSubdir = false
   home = ['HTML', 'RSS', 'JSON']
 
 [markup]
-  [markup.goldmark]
-    [markup.goldmark.renderer]
-      unsafe = true
-    [markup.goldmark.parser]
+[markup.goldmark]
+  [markup.goldmark.renderer]
+    unsafe = true
+  # Keep article punctuation literal; avoid typographic quote/dash substitution in rendered Markdown.
+  [markup.goldmark.extensions]
+    typographer = false
+  [markup.goldmark.parser]
       [markup.goldmark.parser.attribute]
         title = true
         block = true
