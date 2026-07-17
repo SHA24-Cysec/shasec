@@ -95,6 +95,13 @@ defaultContentLanguageInSubdir = false
         pageRef = '/contact/'
         weight = 5
 
+# Google Analytics 4
+# Set your Measurement ID (G-XXXXXXXXXX) to enable tracking.
+# With the current immediate-load preference, the Hugo internal template loads GA on page view once an ID is set.
+[services]
+  [services.googleAnalytics]
+    ID = 'G-WN592XKCP2'
+
 # Shared params (forms, ads, search, cookie)
 [params]
   disqusShortname = "shasec"

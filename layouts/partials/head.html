@@ -169,6 +169,10 @@
   <link rel="stylesheet" href="{{ $css.RelPermalink }}" integrity="{{ $css.Data.Integrity }}" crossorigin="anonymous">
 {{- end -}}
 
+{{- /* Google Analytics 4. Configure services.googleAnalytics.ID in hugo.toml.
+     The internal Hugo template outputs nothing while the Measurement ID is empty. */ -}}
+{{ template "_internal/google_analytics.html" . }}
+
 {{- /* AdSense config for JS */ -}}
 {{- with .Site.Params.adsense -}}
   {{- if .enabled -}}
