@@ -1,5 +1,6 @@
 baseURL = 'https://shasec.my.id/'
 title = 'ShaSec'
+disqusShortname = 'shasec'
 enableRobotsTXT = true
 defaultContentLanguage = 'id'
 defaultContentLanguageInSubdir = false

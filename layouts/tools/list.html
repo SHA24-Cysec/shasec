@@ -1,5 +1,5 @@
 {{ define "main" }}
-{{- $data := hugo.Data.tools | default dict -}}
+{{- $data := site.Data.tools | default dict -}}
 {{- $cats := $data.categories | default (slice) -}}
 {{- $items := $data.items | default (slice) -}}
 {{- $lang := .Site.Language.Lang -}}

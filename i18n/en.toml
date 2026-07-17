@@ -382,10 +382,6 @@ other = "System secure."
 other = "stay_secure --always"
 [card_title_default]
 other = "Article title"
-[ad_placeholder_1]
-other = "Placeholder mode active — set"
-[ad_placeholder_2]
-other = "for live"
 [search_short]
 other = "Keyword too short (min. 2 letters)."
 [search_results]

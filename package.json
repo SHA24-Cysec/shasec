@@ -6,8 +6,7 @@
   "scripts": {
     "dev:css": "tailwindcss -i ./assets/css/main.css -o ./assets/css/main.bundle.css --watch",
     "build:css": "tailwindcss -i ./assets/css/main.css -o ./assets/css/main.bundle.css --minify",
-    "build": "npm run build:css && hugo --minify",
-    "preview:css": "tailwindcss -i ./assets/css/main.css -o ./preview/foundation.css --minify"
+    "build": "npm run build:css && hugo --minify"
   },
   "keywords": ["hugo", "cybersecurity", "shasec"],
   "license": "ISC",

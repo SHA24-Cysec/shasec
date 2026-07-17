@@ -1370,10 +1370,6 @@
       px-2.5 py-1 rounded opacity-60;
   }
 
-  /* Kelas lama dipertahankan kosong agar tidak error jika masih dirujuk */
-  .ad-slot-title {}
-  .ad-slot-meta {}
-
   /* ---------- Cookie consent ---------- */
   .cookie-consent {
     @apply fixed inset-x-0 bottom-0 z-[60] p-3 sm:p-4

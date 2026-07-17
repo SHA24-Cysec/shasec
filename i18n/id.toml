@@ -382,10 +382,6 @@ other = "Sistem aman."
 other = "stay_secure --selalu"
 [card_title_default]
 other = "Judul artikel"
-[ad_placeholder_1]
-other = "Mode placeholder aktif — set"
-[ad_placeholder_2]
-other = "untuk live"
 [search_short]
 other = "Kata kunci terlalu pendek (min. 2 huruf)."
 [search_results]

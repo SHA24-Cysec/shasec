@@ -4400,14 +4400,6 @@ a {
   opacity: 0.6;
 }
 
-/* Kelas lama dipertahankan kosong agar tidak error jika masih dirujuk */
-
-.ad-slot-title {
-}
-
-.ad-slot-meta {
-}
-
 /* ---------- Cookie consent ---------- */
 
 .cookie-consent {
@@ -5597,10 +5589,6 @@ body.has-cookie-banner {
 .object-cover {
   -o-object-fit: cover;
      object-fit: cover;
-}
-
-.\!p-0 {
-  padding: 0px !important;
 }
 
 .p-0 {
