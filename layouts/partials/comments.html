@@ -1,0 +1,9 @@
+<section class="mt-12 pt-8 border-t border-shasec-border" id="comments">
+  <h2 class="text-2xl font-bold mb-6 flex items-center gap-2 text-shasec-text-bright">
+    <svg class="h-6 w-6 text-shasec-primary" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+      <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/>
+    </svg>
+    {{ i18n "comments_title" | default "Comments" }}
+  </h2>
+  {{ template "_internal/disqus.html" . }}
+</section>

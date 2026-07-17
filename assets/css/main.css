@@ -867,7 +867,7 @@
   }
 
   .article-toc-chevron {
-    @apply h-4 w-4 shrink-0 text-shasec-muted transition-transform duration-200;
+    @apply h-4 w-4 shrink-0 text-shasec-primary/70 transition-transform duration-200;
   }
 
   .article-toc-details[open] .article-toc-chevron {
@@ -875,7 +875,7 @@
   }
 
   .article-toc-body {
-    @apply border-t border-shasec-border px-4 py-3 sm:px-5 sm:py-4;
+    @apply border-t border-shasec-primary/30 px-4 py-3 sm:px-5 sm:py-4;
   }
 
   .article-toc-body #TableOfContents {

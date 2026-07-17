@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{ .Site.Language.Locale | default .Site.Language.Lang | default "id" }}">
+<html lang="{{ .Language.Lang | default "id" }}">
 <head>
   {{ partial "head.html" . }}
   {{ partial "seo/jsonld.html" . }}

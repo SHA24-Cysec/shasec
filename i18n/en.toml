@@ -334,6 +334,9 @@ other = "Tags"
 [related_articles]
 other = "Related articles"
 
+[comments_title]
+other = "Comments"
+
 [toc_title]
 other = "Table of contents"
 [author_section]

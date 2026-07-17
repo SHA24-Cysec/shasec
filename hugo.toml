@@ -13,12 +13,12 @@ defaultContentLanguageInSubdir = false
 # ============================================================
 [languages]
   [languages.id]
-    locale = 'id'
-    label = 'Indonesia'
     weight = 1
     title = 'ShaSec'
     contentDir = 'content/id'
     [languages.id.params]
+      locale = 'id'
+      label = 'Indonesia'
       description = 'ShaSec — wawasan cybersecurity, threat intelligence, dan riset pertahanan.'
       tagline = 'Wawasan cybersecurity, threat intelligence, dan riset pertahanan.'
       organization = 'ShaSec'
@@ -55,12 +55,12 @@ defaultContentLanguageInSubdir = false
         weight = 5
 
   [languages.en]
-    locale = 'en'
-    label = 'English'
     weight = 2
     title = 'ShaSec'
     contentDir = 'content/en'
     [languages.en.params]
+      locale = 'en'
+      label = 'English'
       description = 'ShaSec — cybersecurity insights, threat intelligence, and defense research.'
       tagline = 'Cybersecurity insights, threat intelligence, and defense research.'
       organization = 'ShaSec'
@@ -96,6 +96,7 @@ defaultContentLanguageInSubdir = false
 
 # Shared params (forms, ads, search, cookie)
 [params]
+  disqusShortname = "shasec"
   # Default author for articles (override per-post: author / authors)
   # Sesuaikan nama/bio dengan identitas Anda.
   [params.author]

@@ -9,17 +9,17 @@
       class="lang-switch-link{{ if $active }} is-active{{ end }}"
       hreflang="{{ .Language.Lang }}"
       {{- if $active }} aria-current="true"{{ end -}}
-      title="{{ .Language.Label }}"
+      title="{{ .Language.Params.label }}"
     >{{ .Language.Lang | upper }}</a>
   {{- else -}}
-    {{- range hugo.Sites -}}
+    {{- range .Sites -}}
       {{- $active := eq .Language.Lang $.Language.Lang -}}
       <a
         href="{{ .Home.RelPermalink }}"
         class="lang-switch-link{{ if $active }} is-active{{ end }}"
         hreflang="{{ .Language.Lang }}"
         {{- if $active }} aria-current="true"{{ end -}}
-        title="{{ .Language.Label }}"
+        title="{{ .Language.Params.label }}"
       >{{ .Language.Lang | upper }}</a>
     {{- end -}}
   {{- end -}}

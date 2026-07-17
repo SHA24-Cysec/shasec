@@ -63,6 +63,8 @@
 
         {{ partial "articles/author-box.html" . }}
 
+        {{ partial "comments.html" . }}
+
         <div class="mt-10 article-ad-inline">
           {{ partial "components/ad-slot.html" (dict
             "context" .

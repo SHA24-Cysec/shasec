@@ -334,6 +334,9 @@ other = "Tag"
 [related_articles]
 other = "Artikel terkait"
 
+[comments_title]
+other = "Komentar"
+
 [toc_title]
 other = "Daftar isi"
 [author_section]
