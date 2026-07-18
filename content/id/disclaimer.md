@@ -13,42 +13,42 @@ menu:
 
 **Terakhir diperbarui:** {{< site "disclaimerUpdated" >}}
 
-Harap baca disclaimer ini dengan saksama sebelum menggunakan situs **{{< site "organization" >}}** (`{{< site "siteURL" >}}`). Dengan mengakses atau menggunakan situs ini, Anda memahami dan menerima ketentuan berikut.
+Bacalah disclaimer ini sebelum menggunakan situs **{{< site "organization" >}}** (`{{< site "siteURL" >}}`). Dengan mengakses atau memakai situs ini, Anda menerima ketentuan berikut.
 
 ## 1. Sifat konten
 
 Semua artikel, panduan, analisis, dan materi di {{< site "organization" >}} disediakan **hanya untuk tujuan informasi dan edukasi**.
 
 - Konten **bukan** nasihat hukum, finansial, atau profesional yang mengikat.
-- Konten **bukan** undangan untuk melakukan aktivitas ilegal atau tidak sah.
-- Praktik keamanan siber harus dilakukan hanya pada sistem yang Anda miliki atau yang Anda miliki izin eksplisit untuk diuji.
+- Konten **bukan** undangan untuk aktivitas ilegal atau tidak sah.
+- Praktik keamanan siber hanya boleh dilakukan pada sistem yang Anda miliki atau punya izin eksplisit untuk diuji.
 
 ## 2. Tidak ada jaminan
 
-Materi disajikan “**sebagaimana adanya**” dan “**sebagaimana tersedia**” tanpa jaminan dalam bentuk apa pun, tersurat maupun tersirat, termasuk namun tidak terbatas pada jaminan kelayakan jual, kesesuaian untuk tujuan tertentu, dan non-pelanggaran.
+Materi disajikan "**sebagaimana adanya**" dan "**sebagaimana tersedia**" tanpa jaminan apa pun, tersurat maupun tersirat, termasuk namun tidak terbatas pada kelayakan jual, kesesuaian untuk tujuan tertentu, dan non-pelanggaran.
 
 Kami tidak menjamin bahwa:
 
-- Konten selalu lengkap, akurat, mutakhir, atau bebas galat
-- Situs tidak akan terputus atau bebas dari komponen berbahaya
-- Hasil tertentu akan tercapai jika Anda mengikuti informasi di situs
+- Konten selalu lengkap, akurat, mutakhir, atau bebas galat.
+- Situs tidak akan terputus atau bebas dari komponen berbahaya.
+- Hasil tertentu akan tercapai bila Anda mengikuti informasi di situs.
 
 ## 3. Batasan tanggung jawab
 
 Sejauh diizinkan hukum yang berlaku, {{< site "organization" >}}, {{< site "ownerName" >}}, penulis, dan afiliasinya **tidak bertanggung jawab** atas kerugian langsung, tidak langsung, insidental, khusus, konsekuensial, atau hukuman yang timbul dari:
 
-- Penggunaan atau ketidakmampuan menggunakan situs / konten
-- Ketergantungan pada informasi yang dipublikasikan
-- Kesalahan, kelalaian, atau keterlambatan pembaruan konten
-- Tindakan pihak ketiga (termasuk iklan dan tautan eksternal)
+- Penggunaan atau ketidakmampuan memakai situs / konten.
+- Ketergantungan pada informasi yang dipublikasikan.
+- Kesalahan, kelalaian, atau keterlambatan pembaruan konten.
+- Tindakan pihak ketiga (termasuk iklan dan tautan eksternal).
 
 ## 4. Penggunaan yang bertanggung jawab
 
-Anda setuju untuk **tidak** menyalahgunakan informasi di situs ini untuk:
+Anda setuju **tidak** menyalahgunakan informasi di situs ini untuk:
 
-- Mengakses sistem tanpa otorisasi
-- Menyebarkan malware atau melakukan serangan
-- Melanggar hukum, hak pihak ketiga, atau ketentuan layanan pihak lain
+- Mengakses sistem tanpa otorisasi.
+- Menyebarkan malware atau melakukan serangan.
+- Melanggar hukum, hak pihak ketiga, atau ketentuan layanan pihak lain.
 
 Pelanggaran hukum adalah tanggung jawab penuh pelaku. Pengelola situs dapat melaporkan aktivitas ilegal yang sah secara hukum kepada otoritas berwenang.
 
@@ -58,7 +58,7 @@ Situs dapat menampilkan iklan (termasuk Google AdSense) atau tautan afiliasi.
 
 - Kehadiran iklan **tidak** berarti kami mendukung semua produk/jasa yang diiklankan.
 - Kami tidak mengendalikan penuh konten iklan pihak ketiga.
-- Transaksi Anda dengan pengiklan adalah semata-mata antara Anda dan pengiklan tersebut.
+- Transaksi Anda dengan pengiklan semata-mata antara Anda dan pengiklan tersebut.
 
 ## 6. Tautan eksternal
 

@@ -8,7 +8,7 @@ translationKey: "disclaimer"
 
 **Last updated:** {{< site "disclaimerUpdated" >}}
 
-Please read this disclaimer carefully before using **{{< site "organization" >}}** (`{{< site "siteURL" >}}`). By accessing or using this site, you understand and accept the following terms.
+Please read this disclaimer before using **{{< site "organization" >}}** (`{{< site "siteURL" >}}`). By accessing or using this site, you accept the following terms.
 
 ## 1. Nature of content
 
@@ -20,30 +20,30 @@ All articles, guides, analysis, and materials on {{< site "organization" >}} are
 
 ## 2. No warranties
 
-Materials are provided “**as is**” and “**as available**” without warranties of any kind, express or implied, including but not limited to merchantability, fitness for a particular purpose, and non-infringement.
+Materials are provided "**as is**" and "**as available**" without warranties of any kind, express or implied, including but not limited to merchantability, fitness for a particular purpose, and non-infringement.
 
 We do not warrant that:
 
-- Content is always complete, accurate, current, or error-free
-- The site will be uninterrupted or free of harmful components
-- Specific results will follow if you act on site information
+- Content is always complete, accurate, current, or error-free.
+- The site will be uninterrupted or free of harmful components.
+- Specific results will follow if you act on site information.
 
 ## 3. Limitation of liability
 
 To the fullest extent permitted by law, {{< site "organization" >}}, {{< site "ownerName" >}}, authors, and affiliates are **not liable** for direct, indirect, incidental, special, consequential, or punitive damages arising from:
 
-- Use or inability to use the site / content
-- Reliance on published information
-- Errors, omissions, or delayed content updates
-- Third-party actions (including ads and external links)
+- Use of or inability to use the site / content.
+- Reliance on published information.
+- Errors, omissions, or delayed content updates.
+- Third-party actions (including ads and external links).
 
 ## 4. Responsible use
 
 You agree **not** to misuse information on this site to:
 
-- Access systems without authorization
-- Distribute malware or conduct attacks
-- Violate law, third-party rights, or other service terms
+- Access systems without authorization.
+- Distribute malware or conduct attacks.
+- Violate law, third-party rights, or other service terms.
 
 Legal violations are the full responsibility of the actor. Site operators may report lawful evidence of illegal activity to authorities.
 
@@ -51,7 +51,7 @@ Legal violations are the full responsibility of the actor. Site operators may re
 
 The site may show ads (including Google AdSense) or affiliate links.
 
-- Ads do **not** mean we endorse every advertised product/service.
+- Ads do **not** mean we endorse every advertised product or service.
 - We do not fully control third-party ad content.
 - Your dealings with advertisers are solely between you and them.
 

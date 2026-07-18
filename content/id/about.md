@@ -11,11 +11,11 @@ menu:
     weight: 1
 ---
 
-**{{< site "organization" >}}** adalah platform independen yang berfokus pada wawasan keamanan siber, threat intelligence, dan praktik pertahanan digital. Kami menyajikan artikel, analisis, dan ringkasan riset agar pembaca — dari praktisi hingga pemula yang serius — dapat memahami ancaman yang terus berkembang dan cara menghadapinya.
+**{{< site "organization" >}}** adalah platform independen yang berfokus pada wawasan keamanan siber, threat intelligence, dan praktik pertahanan digital. Kami menyajikan artikel, analisis, dan ringkasan riset agar pembaca, dari praktisi hingga pemula yang serius, dapat memahami ancaman yang terus berkembang dan cara menghadapinya.
 
 ## Misi
 
-Membantu individu dan organisasi **tetap unggul dan tetap aman** melalui konten yang jelas, praktis, dan dapat diverifikasi — tanpa dramatisi berlebihan, dengan penekanan pada pemahaman teknis yang bertanggung jawab.
+Membantu individu dan organisasi menghadapi risiko digital melalui konten yang jelas, praktis, dan dapat diverifikasi. Kami menulis untuk dipahami dan dipakai, bukan untuk menakuti.
 
 ## Apa yang kami bahas
 
@@ -26,9 +26,9 @@ Membantu individu dan organisasi **tetap unggul dan tetap aman** melalui konten 
 
 ## Prinsip editorial
 
-1. **Akurasi** — sumber dicek, klaim dibatasi pada apa yang dapat dijelaskan.
-2. **Tanggung jawab** — konten bersifat defensif dan edukatif; bukan panduan penyalahgunaan.
-3. **Transparansi** — jika ada afiliasi, sponsor, atau iklan, kami upayakan penandaan yang wajar.
+1. **Akurasi.** Sumber dicek, klaim dibatasi pada apa yang dapat dijelaskan.
+2. **Tanggung jawab.** Konten bersifat defensif dan edukatif, bukan panduan penyalahgunaan.
+3. **Transparansi.** Afiliasi, sponsor, atau iklan ditandai secara wajar.
 
 ## Identitas situs
 

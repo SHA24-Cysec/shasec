@@ -6,11 +6,11 @@ type: "page"
 translationKey: "about"
 ---
 
-**{{< site "organization" >}}** is an independent platform focused on cybersecurity insights, threat intelligence, and digital defense practices. We publish articles, analysis, and research summaries so readers — from practitioners to serious beginners — can understand evolving threats and how to respond.
+**{{< site "organization" >}}** is an independent platform focused on cybersecurity insights, threat intelligence, and digital defense practices. We publish articles, analysis, and research summaries so readers, from practitioners to serious beginners, can understand evolving threats and how to respond.
 
 ## Mission
 
-Help individuals and organizations **stay ahead and stay secure** through clear, practical, verifiable content — without hype, with responsible technical depth.
+Help individuals and organizations face digital risk through clear, practical, verifiable content. We write to be understood and used, not to frighten.
 
 ## What we cover
 
@@ -21,9 +21,9 @@ Help individuals and organizations **stay ahead and stay secure** through clear,
 
 ## Editorial principles
 
-1. **Accuracy** — sources checked; claims limited to what can be explained.
-2. **Responsibility** — defensive and educational content; not abuse guides.
-3. **Transparency** — affiliations, sponsorships, or ads are disclosed reasonably.
+1. **Accuracy.** Sources checked; claims limited to what can be explained.
+2. **Responsibility.** Defensive and educational content, not abuse guides.
+3. **Transparency.** Affiliations, sponsorships, or ads are disclosed reasonably.
 
 ## Site identity
 

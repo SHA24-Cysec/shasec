@@ -13,7 +13,7 @@ menu:
 
 **Terakhir diperbarui:** {{< site "privacyUpdated" >}}
 
-Kebijakan Privasi ini menjelaskan bagaimana **{{< site "organization" >}}** (`{{< site "siteURL" >}}`) mengumpulkan, menggunakan, dan melindungi informasi ketika Anda mengunjungi situs kami. Dengan menggunakan situs ini, Anda menyetujui praktik yang diuraikan di bawah.
+Kebijakan Privasi ini menjelaskan bagaimana **{{< site "organization" >}}** (`{{< site "siteURL" >}}`) mengumpulkan, memakai, dan melindungi informasi ketika Anda mengunjungi situs kami. Dengan memakai situs ini, Anda menyetujui praktik yang diuraikan di bawah.
 
 ## 1. Pengelola data
 
@@ -30,13 +30,13 @@ Kebijakan Privasi ini menjelaskan bagaimana **{{< site "organization" >}}** (`{{
 ## 2. Informasi yang kami kumpulkan
 
 ### 2.1 Informasi yang Anda berikan secara sukarela
-Jika Anda mengirim pesan lewat formulir kontak atau email, kami dapat menerima:
+Bila Anda mengirim pesan lewat formulir kontak atau email, kami dapat menerima:
 
 - Nama
 - Alamat email
 - Isi pesan / subjek
 
-Data ini hanya digunakan untuk menanggapi permintaan Anda.
+Data ini hanya dipakai untuk menanggapi permintaan Anda.
 
 ### 2.2 Data teknis otomatis
 Seperti kebanyakan situs, server dan layanan pihak ketiga dapat memproses data teknis, misalnya:
@@ -44,11 +44,11 @@ Seperti kebanyakan situs, server dan layanan pihak ketiga dapat memproses data t
 - Alamat IP (disingkat/dianonimkan bila didukung penyedia)
 - Jenis peramban dan perangkat
 - Halaman yang dikunjungi, waktu kunjungan, dan URL rujukan
-- Identifikasi cookie atau penyimpanan lokal yang sejenis
+- Cookie atau penyimpanan lokal sejenis
 
 ## 3. Cookie dan teknologi serupa
 
-Kami dapat menggunakan cookie dan teknologi serupa untuk:
+Kami dapat memakai cookie dan teknologi serupa untuk:
 
 - Menjalankan fungsi dasar situs
 - Mengingat preferensi
@@ -59,25 +59,25 @@ Anda dapat mengatur atau menghapus cookie melalui pengaturan peramban. Menolak c
 
 ## 4. Google AdSense dan mitra iklan
 
-{{< site "organization" >}} berencana / dapat menampilkan iklan melalui **Google AdSense** dan mitra yang bekerja sama dengan Google.
+{{< site "organization" >}} dapat menampilkan iklan melalui **Google AdSense** dan mitra yang bekerja sama dengan Google.
 
-- Google, sebagai vendor pihak ketiga, menggunakan cookie untuk menayangkan iklan berdasarkan kunjungan sebelumnya ke situs ini dan/atau situs lain.
-- Penggunaan cookie iklan memungkinkan Google dan mitranya menayangkan iklan berdasarkan kunjungan Anda ke situs ini dan/atau situs lain di internet.
-- Anda dapat menonaktifkan iklan yang dipersonalisasi dengan mengunjungi [Pengaturan Iklan Google](https://www.google.com/settings/ads).
-- Untuk informasi lebih lanjut, lihat [Kebijakan Privasi Google](https://policies.google.com/privacy) dan halaman tentang [cara Google menggunakan data saat Anda menggunakan situs atau aplikasi mitra](https://policies.google.com/technologies/partner-sites).
+- Google, sebagai vendor pihak ketiga, memakai cookie untuk menayangkan iklan berdasarkan kunjungan sebelumnya ke situs ini dan/atau situs lain.
+- Cookie iklan memungkinkan Google dan mitranya menayangkan iklan berdasarkan kunjungan Anda ke situs ini dan/atau situs lain di internet.
+- Nonaktifkan iklan yang dipersonalisasi di [Pengaturan Iklan Google](https://www.google.com/settings/ads).
+- Untuk informasi lebih lanjut, lihat [Kebijakan Privasi Google](https://policies.google.com/privacy) dan halaman tentang [cara Google memakai data saat Anda memakai situs atau aplikasi mitra](https://policies.google.com/technologies/partner-sites).
 
-Cookie iklan pihak ketiga lainnya dapat digunakan oleh pemasok iklan yang berwenang. Daftar mitra dapat berubah seiring waktu.
+Cookie iklan pihak ketiga lain dapat dipakai oleh pemasok iklan yang berwenang. Daftar mitra dapat berubah seiring waktu.
 
 ### Cookie dan persetujuan
-Di wilayah yang mewajibkan persetujuan cookie (misalnya sesuai regulasi yang berlaku), kami akan menyesuaikan mekanisme persetujuan sebelum cookie non-esensial / iklan diaktifkan sepenuhnya.
+Di wilayah yang mewajibkan persetujuan cookie (misalnya sesuai regulasi yang berlaku), kami menyesuaikan mekanisme persetujuan sebelum cookie non-esensial / iklan diaktifkan sepenuhnya.
 
 ## 5. Analytics (jika diaktifkan)
 
-Jika kami mengaktifkan layanan analitik (misalnya Google Analytics atau setara), data digunakan untuk memahami performa konten secara agregat — bukan untuk mengidentifikasi Anda secara pribadi. Opsi anonimisasi IP akan diutamakan bila tersedia.
+Bila kami mengaktifkan layanan analitik (misalnya Google Analytics atau setara), data dipakai untuk memahami performa konten secara agregat, bukan untuk mengidentifikasi Anda secara pribadi. Opsi anonimisasi IP diutamakan bila tersedia.
 
 ## 6. Tujuan pemrosesan
 
-Data digunakan untuk:
+Data dipakai untuk:
 
 - Menyediakan dan memelihara situs
 - Menanggapi pesan yang Anda kirim
@@ -91,7 +91,7 @@ Bergantung pada konteks: pelaksanaan layanan yang diminta, kepentingan sah penge
 
 ## 8. Penyimpanan dan keamanan
 
-Kami berupaya menerapkan langkah teknis dan organisasional yang wajar untuk melindungi data. Tidak ada transmisi internet yang 100% aman; kami tidak dapat menjamin keamanan mutlak.
+Kami menerapkan langkah teknis dan organisasional yang wajar untuk melindungi data. Tidak ada transmisi internet yang 100% aman; kami tidak dapat menjamin keamanan mutlak.
 
 Pesan kontak disimpan hanya selama diperlukan untuk penanganan dan administrasi, kecuali hukum mewajibkan retensi lebih lama.
 
@@ -112,7 +112,7 @@ Ajukan permintaan melalui halaman [Kontak]({{< ref "/contact.md" >}}) atau email
 
 ## 11. Tautan eksternal
 
-Situs dapat memuat tautan ke situs pihak ketiga. Kami tidak bertanggung jawab atas praktik privasi situs tersebut. Harap tinjau kebijakan privasi mereka secara terpisah.
+Situs dapat memuat tautan ke situs pihak ketiga. Kami tidak bertanggung jawab atas praktik privasi situs tersebut. Tinjau kebijakan privasi mereka secara terpisah.
 
 ## 12. Privasi anak
 
@@ -120,7 +120,7 @@ Situs ini tidak ditujukan untuk anak di bawah usia yang disyaratkan hukum setemp
 
 ## 13. Perubahan kebijakan
 
-Kami dapat memperbarui Kebijakan Privasi ini dari waktu ke waktu. Tanggal “Terakhir diperbarui” di bagian atas akan disesuaikan. Penggunaan berkelanjutan setelah perubahan berarti Anda menerima kebijakan yang direvisi, sejauh diizinkan hukum.
+Kami dapat memperbarui Kebijakan Privasi ini dari waktu ke waktu. Tanggal "Terakhir diperbarui" di bagian atas akan disesuaikan. Penggunaan berkelanjutan setelah perubahan berarti Anda menerima kebijakan yang direvisi, sejauh diizinkan hukum.
 
 ## 14. Hubungi kami
 

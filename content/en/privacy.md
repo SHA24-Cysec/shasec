@@ -58,17 +58,17 @@ You can control or delete cookies in your browser settings. Rejecting certain co
 
 - Google, as a third-party vendor, uses cookies to serve ads based on prior visits to this and/or other sites.
 - Ad cookies enable Google and partners to serve ads based on your visits across the web.
-- You can opt out of personalized ads at [Google Ads Settings](https://www.google.com/settings/ads).
+- Opt out of personalized ads at [Google Ads Settings](https://www.google.com/settings/ads).
 - See [Google Privacy Policy](https://policies.google.com/privacy) and [how Google uses data when you use partner sites or apps](https://policies.google.com/technologies/partner-sites).
 
 Other third-party ad cookies may be used by authorized suppliers. Partner lists may change over time.
 
 ### Cookies and consent
-Where consent is required, we will align consent mechanisms before non-essential / advertising cookies are fully enabled.
+Where consent is required, we align consent mechanisms before non-essential / advertising cookies are fully enabled.
 
 ## 5. Analytics (if enabled)
 
-If we enable analytics (e.g. Google Analytics or equivalent), data is used to understand content performance in aggregate — not to personally identify you. IP anonymization is preferred when available.
+If we enable analytics (e.g. Google Analytics or equivalent), data is used to understand content performance in aggregate, not to personally identify you. IP anonymization is preferred when available.
 
 ## 6. Processing purposes
 
@@ -115,7 +115,7 @@ This site is not directed at children below the age required by local law to con
 
 ## 13. Policy changes
 
-We may update this Privacy Policy from time to time. The “Last updated” date above will change. Continued use after changes means you accept the revised policy to the extent permitted by law.
+We may update this Privacy Policy from time to time. The "Last updated" date above will change. Continued use after changes means you accept the revised policy to the extent permitted by law.
 
 ## 14. Contact
 

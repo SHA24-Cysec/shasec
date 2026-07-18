@@ -4,4 +4,4 @@ description: "Cybersecurity articles, threat intelligence, and security research
 translationKey: "articles"
 ---
 
-Security insights and analysis from the ShaSec team.
+Our cybersecurity insights and analysis.
