@@ -140,8 +140,20 @@ defaultContentLanguageInSubdir = false
 
   [params.adsense]
     enabled = true
+    # placeholder = true  → slot iklan hanya render kotak "Sponsored" (aman sebelum approval).
+    # Setelah AdSense approved, ubah menjadi `placeholder = false` dan isi slots di bawah.
     placeholder = true
     testMode = false
+    # Publisher ID (ca-pub-XXXXXXXXXXXXXXXX). Loader script AdSense akan otomatis
+    # ter-inject di <head> selama nilai ini terisi — dibutuhkan untuk verifikasi
+    # kepemilikan situs saat submit review AdSense.
+    client = "ca-pub-2709528109709967"
+    [params.adsense.slots]
+      # Isi setelah approval dengan ID slot dari dashboard AdSense.
+      # home    = "1234567890"
+      # article = "1234567890"
+      # sidebar = "1234567890"
+      # feed    = "1234567890"
 
 [taxonomies]
   category = 'categories'

@@ -77,7 +77,7 @@ Seorang penjual online memakai WordPress dengan WooCommerce. Ia memasang plugin 
 
 - **Memakai kata sandi yang sama untuk marketplace dan email bisnis.** Jika satu diretas, semua ikut terbuka.
 - **Mengabaikan backup karena "tidak pernah ada masalah."** Serangan ransomware atau kesalahan teknis bisa terjadi kapan saja.
-- **Menyimpan data kartu pelanggan di spreadsheet.** Data kartu kredit tidak boleh disimpan oleh penjual; biarkan payment gateway yang menanganinya.
+- **Menyimpan data kartu pelanggan di spreadsheet.** Data kartu kredit tidak boleh disimpan oleh penjual. Biarkan payment gateway yang menanganinya.
 
 ## Pertanyaan yang sering diajukan
 

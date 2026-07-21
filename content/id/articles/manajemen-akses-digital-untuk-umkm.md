@@ -61,4 +61,4 @@ Untuk akun penting seperti email, pembayaran, dan media sosial utama, ya. MFA ad
 ## Sumber dan bacaan lanjutan
 - [CISA:SecureYourBusiness](https://www.Cisa.Gov/audiences/small-and-medium-businesses/secure-your-business)
 - [CISA:Smallandmediumbusinessresources](https://www.Cisa.Gov/audiences/small-and-medium-businesses/secure-your-business/smb-resources)
-> **Catatan editorial:** Artikel ini bersifat edukatif dan defensif. Fitur manajemen akses tiap layanan berbeda; gunakan dokumentasi resmi penyedia Anda.
+> **Catatan editorial:** Artikel ini bersifat edukatif dan defensif. Fitur manajemen akses tiap layanan berbeda. Gunakan dokumentasi resmi penyedia Anda.

@@ -77,7 +77,7 @@ An online seller uses WordPress with WooCommerce. They installed a free plugin f
 
 - **Using the same password for marketplace and business email.** If one is compromised, all are exposed.
 - **Ignoring backups because "nothing has ever happened."** Ransomware attacks or technical failures can happen anytime.
-- **Storing customer card data in spreadsheets.** Credit card data should never be stored by sellers; let the payment gateway handle it.
+- **Storing customer card data in spreadsheets.** Credit card data should never be stored by sellers. Let the payment gateway handle it.
 
 ## Frequently asked questions
 

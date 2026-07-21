@@ -25,13 +25,13 @@ Kerjakan dari atas ke bawah. Setiap langkah bisa diperiksa ulang, jadi tidak per
 Buka panel admin router (biasanya `192.168.1.1` atau `192.168.0.1`) dan ganti username serta kata sandi admin default. Banyak router dipasang dengan pasangan seperti `admin`/`admin` atau `admin`/`password`, dan daftar itu sudah tersedia umum. Pakai kata sandi panjang yang unik dan simpan di password manager.
 
 ### 2. Ganti nama jaringan dan pakai enkripsi WPA2 atau WPA3
-Ubah nama SSID bawaan (mis. `TP-LINK_1234`) menjadi nama lain yang tidak menyebut merek atau model router. Lalu pastikan enkungan memakai **WPA2** atau, jika didukung, **WPA3**. Hindari WEP atau WPA lama; keduanya bisa dipecahkan dalam hitungan menit. Pakai kata sandi Wi-Fi yang kuat dan berbeda dari kata sandi admin.
+Ubah nama SSID bawaan (mis. `TP-LINK_1234`) menjadi nama lain yang tidak menyebut merek atau model router. Lalu pastikan enkungan memakai **WPA2** atau, jika didukung, **WPA3**. Hindari WEP atau WPA lama. Keduanya bisa dipecahkan dalam hitungan menit. Pakai kata sandi Wi-Fi yang kuat dan berbeda dari kata sandi admin.
 
 ### 3. Perbarui firmware router
 Cari menu firmware atau pembaruan di panel admin. Firmware baru menambal celah yang diketahui penyerang. Jika router menyediakan pembaruan otomatis, aktifkan. Kalau perangkat Anda sudah berusia bertahun-tahun dan tidak lagi menerima pembaruan, saatnya mempertimbangkan penggantian.
 
 ### 4. Pisahkan perangkat tamu dan perangkat pintar
-Aktifkan jaringan tamu (guest network) untuk pengunjung dan untuk perangkat Internet of Things seperti kamera atau speaker pintar. Perangkat IoT sering jarang diperbarui dan jadi target; mengisolasi mereka di jaringan terpisah membatasi dampak bila satu perangkat diretas. Beri jaringan tamu kata sandinya sendiri.
+Aktifkan jaringan tamu (guest network) untuk pengunjung dan untuk perangkat Internet of Things seperti kamera atau speaker pintar. Perangkat IoT sering jarang diperbarui dan jadi target. Mengisolasi mereka di jaringan terpisah membatasi dampak bila satu perangkat diretas. Beri jaringan tamu kata sandinya sendiri.
 
 ### 5. Matikan fitur yang tidak perlu dan pantau perangkat
 Nonaktifkan **WPS** (rentan diserang lewat PIN), UPnP jika tidak dibutuhkan, dan akses administrasi dari internet (remote management). Lalu buka daftar perangkat yang terhubung secara berkala. Nama atau alamat MAC asing yang Anda tidak kenal perlu diperiksa.
@@ -43,7 +43,7 @@ Seseorang memasang router baru dan membiarkan kata sandi admin `admin`/`password
 Mulai dari langkah yang membatasi dampak. Cabut daya router sebentar, lalu nyalakan kembali. Setelah perangkat menyala, ganti kata sandi admin dan kata sandi Wi-Fi, perbarui firmware, dan nonaktifkan remote management. Periksa pengaturan DNS apakah masih otomatis atau sudah diubah. Kalau ragu perangkat bersih, lakukan reset pabrik lalu konfigurasi ulang dari awal.
 
 ## Kesalahan yang sebaiknya dihindari
-- **Membiarkan WPS aktif.** PIN WPS bisa dipecahkan dengan brute force; matikan fitur ini di panel admin.
+- **Membiarkan WPS aktif.** PIN WPS bisa dipecahkan dengan brute force. Matikan fitur ini di panel admin.
 - **Mencampur semua perangkat dalam satu jaringan.** Satu kamera pintar yang diretas seharusnya tidak membuka jalur ke laptop kerja.
 - **Tidak pernah memeriksa firmware.** Router yang tidak diperbarui tetap punya celah lama yang sudah diketahui publik.
 
@@ -61,4 +61,4 @@ Pengaruhnya kecil untuk pemakaian normal. Manfaat isolasi perangkat IoT dan tamu
 ## Sumber dan bacaan lanjutan
 - [CISA:Coreonlinesafetyactions](https://www.Cisa.Gov/news-events/news/national-internet-safety-month-june-take-4-easy-steps-stay-safe-online)
 - [FTC:Protectpersonalinformation](https://consumer.Ftc.Gov/articles/protect-your-personal-information-hackers-and-scammers)
-> **Catatan editorial:** Artikel ini bersifat edukatif dan defensif. Menu dan opsi setiap router berbeda; gunakan manual resmi perangkat Anda untuk langkah teknis yang tepat.
+> **Catatan editorial:** Artikel ini bersifat edukatif dan defensif. Menu dan opsi setiap router berbeda. Gunakan manual resmi perangkat Anda untuk langkah teknis yang tepat.

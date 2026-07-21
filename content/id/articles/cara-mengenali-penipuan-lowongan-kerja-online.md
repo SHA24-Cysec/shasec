@@ -37,7 +37,7 @@ Jangan mengirim foto KTP, paspor, foto wajah, atau nomor rekening saat baru mela
 Jika tugas Anda menerima uang lalu meneruskan ke pihak lain, atau "membantu mencairkan" dana, Anda bisa menjadi money mule tanpa sadar. Itu pel pencucian uang dan dapat berakibat hukum. Tugas yang sah tidak melibatkan rekening Anda sebagai jembatan.
 
 ## Contoh: "reviewer" yang diminta deposit
-Seseorang melamar posisi "memberi rating produk" dengan upai harian tinggi. Setelah beberapa tugas kecil, ia dibayar sedikit untuk membangun kepercayaan. Lalu muncul "tugas VIP" yang mengharuskan deposit agar bisa mengerjakan dan mencairkan upah lebih besar. Deposit itu tak pernah kembali. Pembayaran kecil di awal adalah umpan klasik; permintaan deposit adalah jebakan.
+Seseorang melamar posisi "memberi rating produk" dengan upai harian tinggi. Setelah beberapa tugas kecil, ia dibayar sedikit untuk membangun kepercayaan. Lalu muncul "tugas VIP" yang mengharuskan deposit agar bisa mengerjakan dan mencairkan upah lebih besar. Deposit itu tak pernah kembali. Pembayaran kecil di awal adalah umpan klasik. Permintaan deposit adalah jebakan.
 
 ## Jika sudah memberikan data atau membayar
 Catat semua komunikasi, nomor rekening, dan nama yang terlibat. Jika KTP atau data pribadi sudah terkirim, pantau laporan kredit dan rekening. Laporkan ke polisi dan platform tempat lowongan di posting. Jika sudah membayar, minta bank memblokir transaksi dan lapor segera.

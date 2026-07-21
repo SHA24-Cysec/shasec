@@ -37,7 +37,7 @@ Backup foto otomatis ke cloud memang nyaman, tetapi periksa apakah album dibagik
 Wajah anak, sekolah, dan rutinitas mereka adalah data yang mereka belum bisa setujui. Pertimbangkan menutupi wajah anak atau menahan unggahan yang membocorkan lokasi sekolah. Demikian pula, minta izin sebelum mengunggah foto teman atau kerabat.
 
 ## Contoh: foto tiket dan papan nama
-Seseorang mengunggah foto tiket konser tanpa menyensor barcode dan kode booking. Orang lain mengambil kode itu untuk mengakses atau mengubah data pemesanan. Pada kesempatan lain, foto selfie di depan rumah baru memperlihatkan plat nomor dan nomor rumah di latar; alamat jadi publik. Menyensor kode dan memperhatikan latar mencegah kedua kebocoran itu.
+Seseorang mengunggah foto tiket konser tanpa menyensor barcode dan kode booking. Orang lain mengambil kode itu untuk mengakses atau mengubah data pemesanan. Pada kesempatan lain, foto selfie di depan rumah baru memperlihatkan plat nomor dan nomor rumah di latar. Alamat jadi publik. Menyensor kode dan memperhatikan latar mencegah kedua kebocoran itu.
 
 ## Jika foto atau lokasi sudah menyebar
 Minta platform menghapus unggahan, dan minta teman yang meneruskan untuk menghapusnya juga. Jika menyangkut dokumen, batalkan atau ganti kode yang terbocor, misalnya kode booking. Untuk kasus penguntitan atau penyalahgunaan, simpan bukti dan laporkan ke platform dan otoritas.
@@ -61,4 +61,4 @@ Nyaman, tetapi periksa pengaturan berbagi album. Pastikan album pribadi tidak te
 ## Sumber dan bacaan lanjutan
 - [CISA:Coreonlinesafetyactions](https://www.Cisa.Gov/news-events/news/national-internet-safety-month-june-take-4-easy-steps-stay-safe-online)
 - [FTC:Protectpersonalinformation](https://consumer.Ftc.Gov/articles/protect-your-personal-information-hackers-and-scammers)
-> **Catatan editorial:** Artikel ini bersifat edukatif dan defensif. Pengaturan metadata dan privasi tiap platform berbeda; gunakan panduan resmi layanan Anda.
+> **Catatan editorial:** Artikel ini bersifat edukatif dan defensif. Pengaturan metadata dan privasi tiap platform berbeda. Gunakan panduan resmi layanan Anda.

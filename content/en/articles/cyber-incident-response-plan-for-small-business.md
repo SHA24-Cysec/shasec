@@ -13,7 +13,7 @@ summary: "A simple framework for roles, communication, evidence, and recovery be
 cover: "/images/articles/incident-response-smb.webp"
 ---
 
-An incident response plan is a written list of steps your team runs when a cyber attack happens. Its goal is not to prevent every incident (impossible), but to limit the damage and restore operations as fast as possible. During a crisis, alertness drops; a plan that already exists lets the team act in order rather than in panic.
+An incident response plan is a written list of steps your team runs when a cyber attack happens. Its goal is not to prevent every incident (impossible), but to limit the damage and restore operations as fast as possible. During a crisis, alertness drops. A plan that already exists lets the team act in order rather than in panic.
 
 ## Why a small business needs a response plan
 Cyber incidents at small businesses are rarely handled calmly. Without a plan, the team scrambles over who decides what, whether a device may be turned off, and whom to report to. Evidence gets lost, the spread continues, and recovery drags on. A simple plan written beforehand saves precious time in the first hours.
@@ -22,13 +22,13 @@ Cyber incidents at small businesses are rarely handled calmly. Without a plan, t
 Build from roles to communication. Each step makes one part of the crisis manageable.
 
 ### 1. Define roles and decision makers
-Write down who acts as incident commander, who handles technical work, who communicates, and who manages legal or reporting. For a small business, one person may hold several roles; what matters is that every role has a name. Also name a backup in case the primary holder is unavailable.
+Write down who acts as incident commander, who handles technical work, who communicates, and who manages legal or reporting. For a small business, one person may hold several roles. What matters is that every role has a name. Also name a backup in case the primary holder is unavailable.
 
 ### 2. Lay out the first isolation steps
 List the first actions that limit spread: unplugging the network cable of a suspect device, disabling a hijacked account, cutting the link to external services. Explain when a device may be powered off and when not, because powering off without thought can erase important traces in memory.
 
 ### 3. Prepare a contact list
-Gather key numbers in one place: your IT provider or external consultant, bank, main service providers, the reporting authority, and cyber insurance if any. During an incident, hunting for contacts adds delay; a ready list speeds up the response.
+Gather key numbers in one place: your IT provider or external consultant, bank, main service providers, the reporting authority, and cyber insurance if any. During an incident, hunting for contacts adds delay. A ready list speeds up the response.
 
 ### 4. Set up evidence collection
 Define what to record: logs, screenshots, times of events, and steps taken. This evidence matters for forensics, insurance claims, and reporting. Stress to the team that nothing should be cleaned or deleted before consultation, because lost evidence makes investigation far harder.

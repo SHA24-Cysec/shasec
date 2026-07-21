@@ -34,7 +34,7 @@ Turn on automatic updates for operating systems and key applications. Install a 
 Separate the office network from production or finance networks. The machine holding bookkeeping or customer data should not sit on the same subnet as a general browsing computer. Segmentation slows the spread when one machine is hit.
 
 ### 5. Prepare a simple response plan
-Write down who to contact, how to isolate a device (unplug the network cable), and where backups are stored. Run it once with the team. When an attack hits, alertness drops; a written plan keeps the response orderly under pressure.
+Write down who to contact, how to isolate a device (unplug the network cable), and where backups are stored. Run it once with the team. When an attack hits, alertness drops. A written plan keeps the response orderly under pressure.
 
 ## Example: a small shop saved by an offline backup
 A small shop is hit by ransomware through a phishing attachment a staff member opens. Within hours, bookkeeping files and customer data are encrypted. Because the owner routinely backs up to an external hard drive that is unplugged after the job finishes, the owner can restore from a copy made the day before the attack. The shop stops for only one day. Without an offline backup, the owner would face a choice between ransom and data loss.

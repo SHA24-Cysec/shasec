@@ -28,7 +28,7 @@ Untuk akun anak, gunakan kontrol orang tua dan pegang kata sandi utamanya sendir
 Tetapkan tiga larangan sederhana: jangan klik link dari orang asing, jangan bagikan OTP atau kode, dan jangan mengirim foto KTP atau dokumen. Anak-anak dan orang tua yang tidak terbiasa mengingat lebih mudah mengikuti tiga aturan pendek daripada daftar panjang.
 
 ### 3. Buat aturan "tanya dulu" sebelum tindakan bingung
-Sepakati bahwa setiap anggota boleh berhenti dan bertanya sebelum mengunduh aplikasi asing, membayar sesuatu, atau mengisi data. Tidak ada hukuman karena bertanya; yang ada bantuan. Aturan ini menahan keputusan terburu-buru yang sering jadi pintu masuk penipuan.
+Sepakati bahwa setiap anggota boleh berhenti dan bertanya sebelum mengunduh aplikasi asing, membayar sesuatu, atau mengisi data. Tidak ada hukuman karena bertanya. Yang ada bantuan. Aturan ini menahan keputusan terburu-buru yang sering jadi pintu masuk penipuan.
 
 ### 4. Pisahkan perangkat kerja dan pribadi
 Perangkat kerja orang tua sering menyimpan data perusahaan. Jangan biarkan anak memakainya untuk game atau browsing. Pisahkan juga akun kerja dari akun pribadi agar satu insiden tidak menjalar ke kedua sisi.
@@ -40,7 +40,7 @@ Catat nomor bank, layanan perangkat, dan kontak kepercayaan di tempat yang mudah
 Seorang anak menerima pesan di game yang menjanjikan skin gratis asal login lewat link yang diberikan. Karena aturan "jangan klik link asing" dan "tanya dulu", ia menceritakannya ke orang tua alih-alih mengikuti. Orang tua memeriksa dan menemukan itu upaya pencurian akun. Aturan pendek yang dipahami menyelamatkan akun tanpa drama.
 
 ## Jika ada anggota keluarga tertipu atau terkena insiden
-Tanggapi tanpa menyalahkan; rasa malu membuat orang menyembunyikan insiden. Batasi dampak: ganti kata sandi akun terkait, keluarkan sesi asing, dan hubungi bank jika menyangkut uang. Gunakan insiden sebagai bahan belajar bersama agar pola serupa tidak terulang.
+Tanggapi tanpa menyalahkan. Rasa malu membuat orang menyembunyikan insiden. Batasi dampak: ganti kata sandi akun terkait, keluarkan sesi asing, dan hubungi bank jika menyangkut uang. Gunakan insiden sebagai bahan belajar bersama agar pola serupa tidak terulang.
 
 ## Kesalahan yang sebaiknya dihindari
 - **Menakut-nakuti alih-alih mengedukasi.** Ketakutan membuat anggota menyembunyikan kejadian, bukan melaporkannya.
@@ -61,4 +61,4 @@ Negosiasikan aturan bersama, jelaskan alasannya. Aturan yang dipahami lebih dite
 ## Sumber dan bacaan lanjutan
 - [CISA:Coreonlinesafetyactions](https://www.Cisa.Gov/news-events/news/national-internet-safety-month-june-take-4-easy-steps-stay-safe-online)
 - [FTC:Protectpersonalinformation](https://consumer.Ftc.Gov/articles/protect-your-personal-information-hackers-and-scammers)
-> **Catatan editorial:** Artikel ini bersifat edukatif dan defensif. Fitur kontrol orang tua tiap perangkat berbeda; gunakan panduan resmi produsen perangkat Anda.
+> **Catatan editorial:** Artikel ini bersifat edukatif dan defensif. Fitur kontrol orang tua tiap perangkat berbeda. Gunakan panduan resmi produsen perangkat Anda.

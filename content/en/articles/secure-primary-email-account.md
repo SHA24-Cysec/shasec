@@ -16,7 +16,7 @@ cover: "/images/articles/primary-email-security.webp"
 Your primary email matters more than your other accounts. When you forget a bank or social media password, that service sends a reset link here. Whoever controls the primary email can try to reset other accounts while deleting the notifications that arrive. That is why the primary email deserves the strongest protection.
 
 ## Why primary email is a top target
-Attackers know one door to email often means a door to many accounts. Attacks are rarely brute password guessing; more often they come through convincing phishing, reused passwords exposed in another breach, or a takeover of the phone that receives codes. Securing the email closes all three paths at once.
+Attackers know one door to email often means a door to many accounts. Attacks are rarely brute password guessing. More often they come through convincing phishing, reused passwords exposed in another breach, or a takeover of the phone that receives codes. Securing the email closes all three paths at once.
 
 ## Practical steps to secure primary email
 Work through them in order. Each step is verifiable, so you know what is actually in place.
@@ -43,8 +43,8 @@ Someone signs in to their email through a phishing link that mimics the login pa
 Stay calm and order the steps. If you can still sign in, change the password at once from a trusted device, check and remove any foreign forwarding rules and filters, and sign out every other session. Turn on 2FA if it was off. If you cannot sign in, use the provider's official recovery option. Once you are back in, check the other accounts tied to this email, especially finance, and change their credentials.
 
 ## Common mistakes to avoid
-- **Relying on SMS 2FA with no backup.** Number theft can lock you out; an authenticator app or passkey is sturdier.
-- **Keeping an old email you never open.** Abandoned accounts often become silent entry points; secure or close them.
+- **Relying on SMS 2FA with no backup.** Number theft can lock you out. An authenticator app or passkey is sturdier.
+- **Keeping an old email you never open.** Abandoned accounts often become silent entry points. Secure or close them.
 - **Never checking forwarding rules.** An attacker's rule can run for weeks without you noticing.
 
 ## Frequently asked questions
@@ -61,4 +61,4 @@ At least every few months, or whenever you get a new device, change numbers, or 
 ## Sources and further reading
 - [CISA:Coreonlinesafetyactions](https://www.Cisa.Gov/news-events/news/national-internet-safety-month-june-take-4-easy-steps-stay-safe-online)
 - [FTC:Protectpersonalinformation](https://consumer.Ftc.Gov/articles/protect-your-personal-information-hackers-and-scammers)
-> **Editorial note:** This article is educational and defensive. Menu names differ between email providers; use the official help center for current technical steps.
+> **Editorial note:** This article is educational and defensive. Menu names differ between email providers. Use the official help center for current technical steps.

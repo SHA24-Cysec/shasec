@@ -37,7 +37,7 @@ Do not send a photo of your ID, passport, face, or bank account number when you 
 If your task is to receive money and forward it to someone else, or to help "cash out" funds, you may unknowingly become a money mule. That is money laundering and carries legal risk. A legitimate task never uses your account as a bridge.
 
 ## Example: a "reviewer" asked for a deposit
-Someone applies for a "product rating" role with high daily pay. After a few small tasks, they are paid a little to build trust. Then a "VIP task" appears that requires a deposit before they can work and withdraw larger earnings. The deposit never comes back. The small early payment is classic bait; the deposit request is the trap.
+Someone applies for a "product rating" role with high daily pay. After a few small tasks, they are paid a little to build trust. Then a "VIP task" appears that requires a deposit before they can work and withdraw larger earnings. The deposit never comes back. The small early payment is classic bait. The deposit request is the trap.
 
 ## If you already shared data or paid
 Record all communication, account numbers, and the names involved. If an ID or personal data has been sent, monitor your credit and bank accounts. Report to the police and to the platform where the job was posted. If you already paid, ask your bank to block the transaction and report it at once.

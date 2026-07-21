@@ -13,7 +13,7 @@ summary: "Memperkuat proses email bisnis agar perubahan pembayaran, permintaan d
 cover: "/images/articles/business-email-security.webp"
 ---
 
-Business Email Compromise (BEC) adalah penipuan yang meniru pihak internal atau tepercaya, biasanya eksekutif atau vendor, untuk meminta transfer uang atau data. Penyerang sering tidak perlu membobol email; mereka cukup menipu staf lewat pesan yang terlihat meyakinkan. Untuk UMKM, satu transfer ke rekening penipu bisa menghabiskan modal berbulan-bulan.
+Business Email Compromise (BEC) adalah penipuan yang meniru pihak internal atau tepercaya, biasanya eksekutif atau vendor, untuk meminta transfer uang atau data. Penyerang sering tidak perlu membobol email. Mereka cukup menipu staf lewat pesan yang terlihat meyakinkan. Untuk UMKM, satu transfer ke rekening penipu bisa menghabiskan modal berbulan-bulan.
 
 ## Mengapa BEC sangat efektif
 BEC memanfaatkan kewaspadaan yang turun saat ada tekanan. Email yang menyamar sebagai direktur minta transfer "rahasia dan mendesak", atau vendor mengabarkan "rekening bank berubah", terlihat wajar bagi staf yang sibuk. Penyerang mempelajari struktur dan istilah internal dari profil publik sehingga permintaannya terdengar akrab. Pertahanannya bukan teknologi canggih, melainkan proses verifikasi sederhana.
@@ -34,18 +34,18 @@ Penyerang memakai domain yang mirip tapi tidak sama, misalnya `perusaaan. Com` a
 Tetapkan secara tertulis bahwa perubahan rekening vendor atau karyawan tidak boleh hanya berdasarkan email. Wajibkan formulir atau konfirmasi lisan dari pihak yang berwenang. Aturan tertulis membuat staf keuangan punya dasar untuk menolak permintaan mencurigakan.
 
 ### 5. Latih staf keuangan dan aktifkan MFA
-Staf yang memproses pembayaran adalah sasaran utama; latih mereka mengenali pola BEC secara berkala. Pada sisi teknis, aktifkan MFA pada email bisnis dan perketat aturan forwarding agar akun yang dibajak tidak dipakai mengirim permintaan palsu.
+Staf yang memproses pembayaran adalah sasaran utama. Latih mereka mengenali pola BEC secara berkala. Pada sisi teknis, aktifkan MFA pada email bisnis dan perketat aturan forwarding agar akun yang dibajak tidak dipakai mengirim permintaan palsu.
 
 ## Contoh: email "direktur" yang minta transfer mendesak
 Staf keuangan sebuah UMKM menerima email dari nama direktur yang meminta transfer mendesak ke rekening baru, dengan pesan "jangan diskusikan dulu sampai selesai". Karena ada aturan verifikasi kanal kedua, ia menelepon direktur lewat nomor yang dikenal dan mengetahui direktur tidak pernah meminta hal itu. Email berasal dari domain tiruan. Satu telepon menyelamatkan dana yang besar.
 
 ## Jika transfer penipuan sudah terjadi
-Hubungi bank segera dan minta pembekuan rekening penerima; peluang ada dalam hitungan jam. Kumpulkan email, header, dan kronologi sebagai bukti, lalu laporkan ke polisi. Jika email bisnis Anda sendiri dibajak, ganti kata sandi, periksa aturan forwarding, dan keluarkan sesi asing. Tinjau proses agar pola serupa tertangkap lebih awal.
+Hubungi bank segera dan minta pembekuan rekening penerima. Peluang ada dalam hitungan jam. Kumpulkan email, header, dan kronologi sebagai bukti, lalu laporkan ke polisi. Jika email bisnis Anda sendiri dibajak, ganti kata sandi, periksa aturan forwarding, dan keluarkan sesi asing. Tinjau proses agar pola serupa tertangkap lebih awal.
 
 ## Kesalahan yang sebaiknya dihindari
 - **Memproses permintaan mendesak tanpa verifikasi.** Ketergesaan adalah alat utama BEC.
 - **Mengubah data bank hanya lewat email.** Satu permintaan palsu cukup untuk mengarahkan pembayaran ke penipu.
-- **Hanya melihat nama tampilan, bukan alamat.** Nama "Direktur" mudah dipalsukan; alamat domain tidak.
+- **Hanya melihat nama tampilan, bukan alamat.** Nama "Direktur" mudah dipalsukan. Alamat domain tidak.
 
 ## Pertanyaan yang sering diajukan
 

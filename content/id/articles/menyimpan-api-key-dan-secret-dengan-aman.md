@@ -22,7 +22,7 @@ Kode boleh berada di repository. Secret sebaiknya datang dari environment variab
 
 ## Batasi kemampuan setiap key
 
-Buat key terpisah untuk pengembangan, staging, dan produksi. Berikan izin sesempit mungkin. Key untuk membaca objek tidak perlu bisa menghapus bucket; key untuk satu layanan tidak perlu mengakses semua proyek. Tetapkan masa berlaku bila platform mendukungnya. Rotasi lebih mudah ketika aplikasi tidak memakai satu key bersama-sama. Catat pemilik, layanan, lingkungan, tanggal pembuatan, dan cara pencabutannya tanpa menulis nilai secret itu sendiri.
+Buat key terpisah untuk pengembangan, staging, dan produksi. Berikan izin sesempit mungkin. Key untuk membaca objek tidak perlu bisa menghapus bucket. Key untuk satu layanan tidak perlu mengakses semua proyek. Tetapkan masa berlaku bila platform mendukungnya. Rotasi lebih mudah ketika aplikasi tidak memakai satu key bersama-sama. Catat pemilik, layanan, lingkungan, tanggal pembuatan, dan cara pencabutannya tanpa menulis nilai secret itu sendiri.
 
 ## Jaga log dan alat kerja
 

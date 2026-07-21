@@ -37,7 +37,7 @@ Automatic photo backup to the cloud is convenient, but check whether an album is
 A child's face, school, and routine are data they cannot yet consent to. Consider blurring a child's face or holding back posts that reveal a school location. Likewise, ask before posting a photo of a friend or relative.
 
 ## Example: a ticket photo and a nameplate
-Someone posts a concert ticket photo without blurring the barcode and booking code. Another person takes the code to access or change the booking. On another occasion, a selfie in front of a new home shows the license plate and house number in the background; the address becomes public. Blurring codes and minding the background prevents both leaks.
+Someone posts a concert ticket photo without blurring the barcode and booking code. Another person takes the code to access or change the booking. On another occasion, a selfie in front of a new home shows the license plate and house number in the background. The address becomes public. Blurring codes and minding the background prevents both leaks.
 
 ## If photos or location already spread
 Ask the platform to remove the post, and ask friends who forwarded it to delete it too. If documents are involved, cancel or change the leaked code, such as a booking reference. For stalking or misuse, keep evidence and report it to the platform and the authorities.
@@ -61,4 +61,4 @@ Convenient, but check the album sharing settings. Make sure private albums are n
 ## Sources and further reading
 - [CISA:Coreonlinesafetyactions](https://www.Cisa.Gov/news-events/news/national-internet-safety-month-june-take-4-easy-steps-stay-safe-online)
 - [FTC:Protectpersonalinformation](https://consumer.Ftc.Gov/articles/protect-your-personal-information-hackers-and-scammers)
-> **Editorial note:** This article is educational and defensive. Metadata and privacy settings differ between platforms; use your service's official guidance.
+> **Editorial note:** This article is educational and defensive. Metadata and privacy settings differ between platforms. Use your service's official guidance.

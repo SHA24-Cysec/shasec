@@ -34,7 +34,7 @@ Buka pengaturan izin di ponsel: lokasi, kontak, mikrofon, kamera, galeri. Cabut 
 Akun lama yang tidak dipakai sering menyimpan data dan punya kata sandi lemah. Masuk, perbarui atau hapus data sensitif, lalu nonaktifkan akunnya. Buat daftar akun yang pernah dibuat agar tidak ada yang terlupakan.
 
 ### 5. Verifikasi setiap permintaan informasi
-Saat ada telepon atau chat minta data, jangan langsung beri. Akhiri percakapan, lalu hubungi lembah resmi lewat nomor atau situs yang Anda cari sendiri. Layanan sah jarang mendesak; ketergesaan adalah tanda bahaya.
+Saat ada telepon atau chat minta data, jangan langsung beri. Akhiri percakapan, lalu hubungi lembah resmi lewat nomor atau situs yang Anda cari sendiri. Layanan sah jarang mendesak. Ketergesaan adalah tanda bahaya.
 
 ## Contoh: foto KTP di grup "hadiah"
 Seseorang diminta memfoto KTP di grup chat agar klaim hadiah diproses. Ia mengirimkannya. Beberapa minggu kemudian, datanya dipakai mendaftar pinjaman online atas namanya. Karena verifikasi pinjaman online kadang longgar, kombinasi KTP dan foto wajah cukup. Menolak mengirim dokumen ke sumber yang belum diverifikasi, atau memverifikasi lewat kanal resmi, akan memutus jalurnya.
@@ -61,4 +61,4 @@ Mulai dari akun yang tidak terpakai: masuk, hapus data, nonaktifkan. Untuk data 
 ## Sumber dan bacaan lanjutan
 - [CISA:Coreonlinesafetyactions](https://www.Cisa.Gov/news-events/news/national-internet-safety-month-june-take-4-easy-steps-stay-safe-online)
 - [FTC:Protectpersonalinformation](https://consumer.Ftc.Gov/articles/protect-your-personal-information-hackers-and-scammers)
-> **Catatan editorial:** Artikel ini bersifat edukatif dan defensif. Aturan privasi tiap layanan berbeda; gunakan pusat bantuan resmi untuk pengaturan yang spesifik.
+> **Catatan editorial:** Artikel ini bersifat edukatif dan defensif. Aturan privasi tiap layanan berbeda. Gunakan pusat bantuan resmi untuk pengaturan yang spesifik.

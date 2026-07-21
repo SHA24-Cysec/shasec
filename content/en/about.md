@@ -18,7 +18,7 @@ Help individuals and organizations face digital risk through clear, practical, v
 - Security education for professionals and communities
 
 ## Editorial principles
-1. **Accuracy.** Sources checked; claims limited to what can be explained.
+1. **Accuracy.** Sources checked. Claims limited to what can be explained.
 2. **Responsibility.** Defensive and educational content, not abuse guides.
 3. **Transparency.** Affiliations, sponsorships, or ads are disclosed reasonably.
 

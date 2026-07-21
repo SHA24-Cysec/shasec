@@ -81,4 +81,4 @@ Di Android, antivirus bisa menambah lapisan pertahanan terhadap malware. Di iPho
 - [OJK:TipsAmanMobileBanking](https://www.Ojk.Go.Id/)
 - [CISA:MobileDeviceSecurity](https://www.Cisa.Gov/topics/cybersecurity-best-practices/mobile-device-security)
 - [FTC:MobileBankingSecurityTips](https://consumer.Ftc.Gov/articles/mobile-banking)
-> **Catatan editorial:** Artikel ini bersifat edukatif. Fitur keamanan setiap bank berbeda; periksa panduan keamanan dari bank yang Anda pakai untuk instruksi yang spesifik.
+> **Catatan editorial:** Artikel ini bersifat edukatif. Fitur keamanan setiap bank berbeda. Periksa panduan keamanan dari bank yang Anda pakai untuk instruksi yang spesifik.

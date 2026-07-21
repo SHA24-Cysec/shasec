@@ -52,7 +52,7 @@ Tidak semua produsen IoT memperlakukan keamanan dengan serius. Sebelum membeli, 
 Seorang pemilik toko memasang CCTV IP murah untuk memantau tokonya dari rumah. Ia tidak mengganti kata sandi default (admin/admin) dan membiarkan akses remote aktif. Beberapa minggu kemudian, rekaman tokunya muncul di situs streaming yang mengumpulkan feed CCTV tanpa izin. Penyerang cukup memakai kata sandi default yang mereka temukan di database online. Tindakan pencegahan yang sederhana, mengganti kata sandi default dan mematikan akses remote yang tidak perlu, akan menutup jalur ini sepenuhnya.
 
 ## Kesalahan umum pemilik perangkat IoT
-- **Menganggap perangkat kecil tidak menarik bagi peretas.** Botnet tidak memilih target; mereka memindai semua perangkat yang rentan secara otomatis.
+- **Menganggap perangkat kecil tidak menarik bagi peretas.** Botnet tidak memilih target. Mereka memindai semua perangkat yang rentan secara otomatis.
 - **Membiarkan UPnP aktif.** Fitur ini memungkinkan perangkat membuka port di router tanpa izin Anda, menciptakan jalan masuk dari internet.
 - **Tidak pernah memeriksa perangkat lama.** Perangkat IoT yang dipasang bertahun-tahun lalu dan tidak pernah ditinjau bisa menjadi titik lemah yang terlupakan.
 
@@ -71,4 +71,4 @@ Untuk penggunaan rumah tangga, firewall bawaan router biasanya cukup. Firewall k
 - [CISA:SecuringIoTDevices](https://www.Cisa.Gov/topics/cybersecurity-best-practices/iot)
 - [NIST:IoTCybersecurityGuidelines](https://www.Nist.Gov/iot)
 - [FTC:InternetofThings:Privacy&SecurityinaConnectedWorld](https://www.Ftc.Gov/reports/internet-things-privacy-security-connected-world)
-> **Catatan editorial:** Artikel ini bersifat edukatif dan defensif. Fitur dan antarmuka setiap perangkat berbeda; gunakan manual resmi perangkat Anda untuk panduan teknis yang spesifik.
+> **Catatan editorial:** Artikel ini bersifat edukatif dan defensif. Fitur dan antarmuka setiap perangkat berbeda. Gunakan manual resmi perangkat Anda untuk panduan teknis yang spesifik.

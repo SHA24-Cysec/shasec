@@ -25,13 +25,13 @@ Work top to bottom. Each step can be checked again later, so you do not have to 
 Open the router admin panel (usually `192.168.1.1` or `192.168.0.1`) and change the default admin username and password. Many routers ship with a pair like `admin`/`admin` or `admin`/`password`, and those lists are public. Use a long, unique password and store it in a password manager.
 
 ### 2. Rename the network and use WPA2 or WPA3
-Change the default SSID (for example `TP-LINK_1234`) to a name that does not reveal the brand or model. Then make sure encryption is set to **WPA2** or, if supported, **WPA3**. Avoid WEP or old WPA; both can be cracked in minutes. Use a strong Wi-Fi password that is different from the admin password.
+Change the default SSID (for example `TP-LINK_1234`) to a name that does not reveal the brand or model. Then make sure encryption is set to **WPA2** or, if supported, **WPA3**. Avoid WEP or old WPA. Both can be cracked in minutes. Use a strong Wi-Fi password that is different from the admin password.
 
 ### 3. Update the router firmware
 Look for a firmware or update menu in the admin panel. New firmware patches flaws attackers already know about. If the router offers automatic updates, turn them on. If your device is several years old and no longer receives updates, it is time to consider replacing it.
 
 ### 4. Separate guests and smart devices
-Turn on a guest network for visitors and for Internet of Things devices like cameras or smart speakers. IoT devices are rarely updated and are frequent targets; isolating them on a separate network limits the damage if one is compromised. Give the guest network its own password.
+Turn on a guest network for visitors and for Internet of Things devices like cameras or smart speakers. IoT devices are rarely updated and are frequent targets. Isolating them on a separate network limits the damage if one is compromised. Give the guest network its own password.
 
 ### 5. Turn off unneeded features and watch the device list
 Disable **WPS** (vulnerable through its PIN), UPnP if you do not need it, and remote management from the internet. Then check the list of connected devices from time to time. An unfamiliar name or MAC address is worth investigating.
@@ -43,7 +43,7 @@ Someone sets up a new router and leaves the admin password at `admin`/`password`
 Start with the step that limits the damage. Unplug the router briefly, then power it back on. Once it is up, change the admin and Wi-Fi passwords, update the firmware, and turn off remote management. Check whether the DNS setting is still automatic or has been changed. If you are unsure the device is clean, do a factory reset and configure it again from scratch.
 
 ## Common mistakes to avoid
-- **Leaving WPS switched on.** The WPS PIN can be brute-forced; turn the feature off in the admin panel.
+- **Leaving WPS switched on.** The WPS PIN can be brute-forced. Turn the feature off in the admin panel.
 - **Putting every device on one network.** One compromised smart camera should not open a path to a work laptop.
 - **Never checking firmware.** An unpatched router keeps old, publicly known flaws forever.
 
@@ -61,4 +61,4 @@ The effect is small for normal use. The benefit of isolating IoT and guest devic
 ## Sources and further reading
 - [CISA:Coreonlinesafetyactions](https://www.Cisa.Gov/news-events/news/national-internet-safety-month-june-take-4-easy-steps-stay-safe-online)
 - [FTC:Protectpersonalinformation](https://consumer.Ftc.Gov/articles/protect-your-personal-information-hackers-and-scammers)
-> **Editorial note:** This article is educational and defensive. Menus and options differ between routers; use your device's official manual for the exact technical steps.
+> **Editorial note:** This article is educational and defensive. Menus and options differ between routers. Use your device's official manual for the exact technical steps.

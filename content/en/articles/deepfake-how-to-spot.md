@@ -84,4 +84,4 @@ In the context of direct fraud, yes. Voice cloning requires less source data and
 - [MITMediaLab:DetectingDeepfakes](https://www.Media.Mit.Edu/)
 - [FTC:AIandDeepfakesinFraud](https://consumer.Ftc.Gov/articles/what-know-about-ai-and-deepfakes)
 
-> **Editorial note:** This article is educational and defensive in nature. Deepfake technology evolves rapidly; the signs mentioned may become less relevant as technology advances.
+> **Editorial note:** This article is educational and defensive in nature. Deepfake technology evolves rapidly. The signs mentioned may become less relevant as technology advances.

@@ -22,7 +22,7 @@ Code can live in a repository. Secrets should arrive through environment variabl
 
 ## Limit each key’s capability
 
-Create separate keys for development, staging, and production. Grant the smallest useful permission set. A key that reads objects does not need to delete a bucket; a key for one service does not need access to every project. Set an expiration when the platform supports it. Rotation becomes easier when applications do not share one key. Record the owner, service, environment, creation date, and revocation method without writing down the secret value.
+Create separate keys for development, staging, and production. Grant the smallest useful permission set. A key that reads objects does not need to delete a bucket. A key for one service does not need access to every project. Set an expiration when the platform supports it. Rotation becomes easier when applications do not share one key. Record the owner, service, environment, creation date, and revocation method without writing down the secret value.
 
 ## Protect logs and work tools
 

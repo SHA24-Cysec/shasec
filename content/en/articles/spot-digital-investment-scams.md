@@ -22,7 +22,7 @@ Scammers build trust slowly. They pay out small early profits, show a busy group
 Check each sign before you decide. More than one sign makes the suspicion stronger.
 
 ### 1. Judge the promised return
-An investment that promises fixed, high returns, for example "guaranteed 2% per day", is almost always a scam. Markets fluctuate; no return is guaranteed. The higher the promise, the higher your doubt should be.
+An investment that promises fixed, high returns, for example "guaranteed 2% per day", is almost always a scam. Markets fluctuate. No return is guaranteed. The higher the promise, the higher your doubt should be.
 
 ### 2. Verify legality and the promoter's identity
 Check whether the investment product is registered with the relevant financial authority in your country. Search the company and promoter online alongside "scam" or "fraud". Contact the institution through a website you find yourself, not through a link the promoter sends.
@@ -37,10 +37,10 @@ Requests to transfer to a personal account, pay through peer-to-peer crypto, or 
 A busy chat, screenshots of profits, and "limited time" offers are designed to make you fear missing out. Decide through your own research, not through collective excitement. A legitimate offer does not vanish in a few hours.
 
 ## Example: a friendly "trading signals" group
-Someone is invited to a WhatsApp group of "trading analysis" with a polite admin and many members. They try a small amount and are allowed to withdraw a profit. Confidence rises, and they invest a large amount. When they try to withdraw, the platform demands a "10% tax fee" first. After paying, another fee appears. The capital never returns. The small early profit is the bait; the withdrawal fee is the trap.
+Someone is invited to a WhatsApp group of "trading analysis" with a polite admin and many members. They try a small amount and are allowed to withdraw a profit. Confidence rises, and they invest a large amount. When they try to withdraw, the platform demands a "10% tax fee" first. After paying, another fee appears. The capital never returns. The small early profit is the bait. The withdrawal fee is the trap.
 
 ## If money already went to a scam
-Stop all payments at once. Gather evidence: chats, the recipient's account number, the platform name, and transaction times. Report to the authorities and request that the receiving account be blocked through your bank. Do not pay any further "release fees"; that rarely recovers losses and usually adds to them.
+Stop all payments at once. Gather evidence: chats, the recipient's account number, the platform name, and transaction times. Report to the authorities and request that the receiving account be blocked through your bank. Do not pay any further "release fees". That rarely recovers losses and usually adds to them.
 
 ## Common mistakes to avoid
 - **Believing in consistent profits.** No investment gains every single day.

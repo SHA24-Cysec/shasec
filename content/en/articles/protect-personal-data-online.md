@@ -34,7 +34,7 @@ Open the permissions settings on your phone: location, contacts, microphone, cam
 Old, unused accounts often hold data and have weak passwords. Sign in, update or delete the sensitive data, then deactivate the account. Keep a list of accounts you have made so none are forgotten.
 
 ### 5. Verify every request for information
-When a call or message asks for data, do not give it right away. End the conversation, then contact the organization through a number or website you find yourself. Legitimate services rarely rush you; urgency is a warning sign.
+When a call or message asks for data, do not give it right away. End the conversation, then contact the organization through a number or website you find yourself. Legitimate services rarely rush you. Urgency is a warning sign.
 
 ## Example: an ID photo in a "prize" group
 Someone is asked to photograph their ID card in a chat group so a prize claim can be processed. They send it. Weeks later, their data is used to register online loans in their name. Because some online lenders verify loosely, an ID number and a face photo are enough. Refusing to send documents to an unverified source, or verifying through the official channel, cuts the path off.
@@ -61,4 +61,4 @@ Start with unused accounts: sign in, delete data, deactivate. For data held by t
 ## Sources and further reading
 - [CISA:Coreonlinesafetyactions](https://www.Cisa.Gov/news-events/news/national-internet-safety-month-june-take-4-easy-steps-stay-safe-online)
 - [FTC:Protectpersonalinformation](https://consumer.Ftc.Gov/articles/protect-your-personal-information-hackers-and-scammers)
-> **Editorial note:** This article is educational and defensive. Privacy rules differ between services; use the official help center for specific settings.
+> **Editorial note:** This article is educational and defensive. Privacy rules differ between services. Use the official help center for specific settings.

@@ -33,7 +33,7 @@ Setiap kali Anda berbagi file melalui tautan, periksa pengaturannya:
 Tautan "siapa saja yang memiliki tautan" berarti file Anda bisa diakses oleh siapa pun yang mendapat tautannya, termasuk jika tautan itu diteruskan tanpa sepengetahuan Anda.
 
 ### 3. Enkripsi file sensitif sebelum mengunggah
-Untuk dokumen yang sangat sensitif (data keuangan, scan identitas, kata sandi cadangan), enkripsi sebelum mengunggah ke cloud. Gunakan alat seperti Cryptomator atau Veracrypt untuk membuat vault terenkripsi. Cloud provider hanya melihat file terenkripsi; kuncinya hanya Anda yang pegang. Pendekatan ini berarti Anda kehilangan beberapa kenyamanan (tidak bisa mencari isi file secara online, misalnya), tapi mendapat kendali penuh atas kerahasiaan data.
+Untuk dokumen yang sangat sensitif (data keuangan, scan identitas, kata sandi cadangan), enkripsi sebelum mengunggah ke cloud. Gunakan alat seperti Cryptomator atau Veracrypt untuk membuat vault terenkripsi. Cloud provider hanya melihat file terenkripsi. Kuncinya hanya Anda yang pegang. Pendekatan ini berarti Anda kehilangan beberapa kenyamanan (tidak bisa mencari isi file secara online, misalnya), tapi mendapat kendali penuh atas kerahasiaan data.
 
 ### 4. Audit perangkat yang tersinkronisasi
 Cloud storage biasanya tersinkronisasi ke beberapa perangkat: laptop kerja, ponsel pribadi, tablet. Buka pengaturan akun dan lihat daftar perangkat yang terhubung. Cabut akses perangkat yang tidak lagi Anda pakai atau yang sudah dijual. Perangkat lama yang masih terhubung bisa menjadi jalur masuk jika jatuh ke tangan yang salah.
@@ -70,4 +70,4 @@ Ya. Cloud storage bukan backup. Cloud storage menyinkronkan perubahan, termasuk 
 - [CISA:CloudSecurity](https://www.Cisa.Gov/topics/cybersecurity-best-practices/cloud-security)
 - [EFF:EncryptingYourData](https://ssd.Eff.Org/en/module/how-encrypt-your-devices)
 - [NIST:CloudComputingSecurity](https://csrc.Nist.Gov/projects/cloud-computing)
-> **Catatan editorial:** Artikel ini bersifat edukatif. Fitur dan kebijakan setiap penyedia cloud bisa berubah; periksa dokumentasi resmi penyedia layanan yang Anda pakai.
+> **Catatan editorial:** Artikel ini bersifat edukatif. Fitur dan kebijakan setiap penyedia cloud bisa berubah. Periksa dokumentasi resmi penyedia layanan yang Anda pakai.

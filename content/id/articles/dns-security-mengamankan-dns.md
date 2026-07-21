@@ -99,4 +99,4 @@ DNS filtering membantu, tapi anak yang cerdas bisa menemukan cara bypass. Paduka
 - [CISA:DNSSecurityBestPractices](https://www.Cisa.Gov/dns-security)
 - [EFF:HowtoEnableDNSoverHTTPS](https://www.Eff.Org/)
 
-> **Catatan editorial:** Konfigurasi DNS berbeda tergantung perangkat dan jaringan. Panduan ini bersifat umum; sesuaikan dengan perangkat dan lingkungan jaringan Anda.
+> **Catatan editorial:** Konfigurasi DNS berbeda tergantung perangkat dan jaringan. Panduan ini bersifat umum. Sesuaikan dengan perangkat dan lingkungan jaringan Anda.

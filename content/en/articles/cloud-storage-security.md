@@ -33,7 +33,7 @@ Every time you share a file via link, check the settings:
 "Anyone with the link" means your file is accessible to anyone who obtains the link, including if it is forwarded without your knowledge.
 
 ### 3. Encrypt sensitive files before uploading
-For sensitive documents (financial data, identity scans, backup passwords), encrypt before uploading to the cloud. Use tools like Cryptomator or VeraCrypt to create encrypted vaults. The cloud provider only sees encrypted files; only you hold the key. This approach means you lose some convenience (you cannot search file contents online, for instance), but you gain full control over data confidentiality.
+For sensitive documents (financial data, identity scans, backup passwords), encrypt before uploading to the cloud. Use tools like Cryptomator or VeraCrypt to create encrypted vaults. The cloud provider only sees encrypted files. Only you hold the key. This approach means you lose some convenience (you cannot search file contents online, for instance), but you gain full control over data confidentiality.
 
 ### 4. Audit synced devices
 Cloud storage syncs to multiple devices: work laptop, personal phone, tablet. Open your account settings and review the list of connected devices. Revoke access for devices you no longer use or have sold. Old devices still connected can become entry points if they fall into the wrong hands.
@@ -70,4 +70,4 @@ Yes. Cloud storage is not a backup. Cloud storage syncs changes, including delet
 - [CISA:CloudSecurity](https://www.Cisa.Gov/topics/cybersecurity-best-practices/cloud-security)
 - [EFF:EncryptingYourData](https://ssd.Eff.Org/en/module/how-encrypt-your-devices)
 - [NIST:CloudComputingSecurity](https://csrc.Nist.Gov/projects/cloud-computing)
-> **Editorial note:** This article is educational in nature. Features and policies of each cloud provider may change; refer to the official documentation of the service you use.
+> **Editorial note:** This article is educational in nature. Features and policies of each cloud provider may change. Refer to the official documentation of the service you use.

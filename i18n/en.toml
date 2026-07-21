@@ -83,6 +83,8 @@ other = "Contact"
 other = "Privacy"
 [footer_disclaimer]
 other = "Disclaimer"
+[footer_terms]
+other = "Terms"
 
 [cookie_title]
 other = "Cookies & privacy"

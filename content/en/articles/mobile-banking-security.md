@@ -81,4 +81,4 @@ On Android, antivirus can add a defense layer against malware. On non-jailbroken
 - [CISA:MobileDeviceSecurity](https://www.Cisa.Gov/topics/cybersecurity-best-practices/mobile-device-security)
 - [FTC:MobileBankingSecurityTips](https://consumer.Ftc.Gov/articles/mobile-banking)
 - [OWASP:MobileSecurityTestingGuide](https://owasp.Org/www-project-mobile-security-testing-guide/)
-> **Editorial note:** This article is educational in nature. Security features vary by bank; refer to your bank's security guide for specific instructions.
+> **Editorial note:** This article is educational in nature. Security features vary by bank. Refer to your bank's security guide for specific instructions.

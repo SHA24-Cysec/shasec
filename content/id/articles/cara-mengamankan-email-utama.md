@@ -16,7 +16,7 @@ cover: "/images/articles/primary-email-security.webp"
 Email utama Anda lebih penting dari akun lain. Saat Anda lupa kata sandi bank atau media sosial, layanan itu mengirim tautan reset ke email ini. Siapa pun yang menguasai email utama bisa mencoba mereset akun-akun lain sambil menghapus pemberitahuan yang masuk. Itulah alasan email utama perlu perlindungan paling kuat.
 
 ## Mengapa email utama jadi target utama
-Penyerang tahu satu pintu ke email sering kali berarti pintu ke banyak akun. Serangan jarang berupa tebakan kata sandi beruntun; lebih sering lewat phishing yang meyakinkan, kebocoran data layanan lain yang dipakai berulang, atau pengambilalihan ponsel yang menjadi penerima kode. Mengamankan email berarti menutup ketiga jalur itu sekaligus.
+Penyerang tahu satu pintu ke email sering kali berarti pintu ke banyak akun. Serangan jarang berupa tebakan kata sandi beruntun. Lebih sering lewat phishing yang meyakinkan, kebocoran data layanan lain yang dipakai berulang, atau pengambilalihan ponsel yang menjadi penerima kode. Mengamankan email berarti menutup ketiga jalur itu sekaligus.
 
 ## Langkah praktis mengamankan email utama
 Kerjakan berurutan. Setiap langkah terverifikasi, jadi Anda tahu mana yang sudah jalan.
@@ -43,8 +43,8 @@ Seseorang membuka emailnya lewat tautan phishing yang meniru halaman login. Pela
 Tetap tenang dan urutkan langkah. Jika masih bisa masuk, ganti kata sandi segera dari perangkat yang dipercaya, periksa dan hapus aturan forwarding serta filter asing, dan keluarkan semua sesi lain. Nyalakan 2FA bila belum aktif. Jika tidak bisa masuk, gunakan opsi pemulihan resmi layanan. Setelah kembali, periksa akun lain yang terhubung ke email ini, terutama keuangan, dan ubah kredensialnya.
 
 ## Kesalahan yang sebaiknya dihindari
-- **Mengandalkan 2FA via SMS tanpa cadangan.** Pencurian nomor bisa menggagalkan login Anda sendiri; app autentikator atau passkey lebih kokoh.
-- **Memakai email lama yang sudah tidak dibuka.** Akun yang ditinggal sering jadi titik masuk diam-diam; amankan atau tutup.
+- **Mengandalkan 2FA via SMS tanpa cadangan.** Pencurian nomor bisa menggagalkan login Anda sendiri. App autentikator atau passkey lebih kokoh.
+- **Memakai email lama yang sudah tidak dibuka.** Akun yang ditinggal sering jadi titik masuk diam-diam. Amankan atau tutup.
 - **Tidak memeriksa aturan forwarding.** Aturan penyerang bisa aktif berminggu-minggu tanpa Anda sadari.
 
 ## Pertanyaan yang sering diajukan
@@ -61,4 +61,4 @@ Setidaknya setiap beberapa bulan, atau setiap kali ada perangkat baru, pergantia
 ## Sumber dan bacaan lanjutan
 - [CISA:Coreonlinesafetyactions](https://www.Cisa.Gov/news-events/news/national-internet-safety-month-june-take-4-easy-steps-stay-safe-online)
 - [FTC:Protectpersonalinformation](https://consumer.Ftc.Gov/articles/protect-your-personal-information-hackers-and-scammers)
-> **Catatan editorial:** Artikel ini bersifat edukatif dan defensif. Nama menu tiap penyedia email berbeda; gunakan pusat bantuan resmi untuk langkah teknis terbaru.
+> **Catatan editorial:** Artikel ini bersifat edukatif dan defensif. Nama menu tiap penyedia email berbeda. Gunakan pusat bantuan resmi untuk langkah teknis terbaru.

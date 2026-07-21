@@ -74,7 +74,7 @@ Data dipakai untuk:
 Bergantung pada konteks: pelaksanaan layanan yang diminta, kepentingan sah pengelola situs (keamanan, peningkatan layanan), dan/atau persetujuan (cookie/iklan di yurisdiksi yang mensyaratkannya).
 
 ## 8. Penyimpanan dan keamanan
-Kami menerapkan langkah teknis dan organisasional yang wajar untuk melindungi data. Tidak ada transmisi internet yang 100% aman; kami tidak dapat menjamin keamanan mutlak. Pesan kontak disimpan hanya selama diperlukan untuk penanganan dan administrasi, kecuali hukum mewajibkan retensi lebih lama.
+Kami menerapkan langkah teknis dan organisasional yang wajar untuk melindungi data. Tidak ada transmisi internet yang 100% aman. Kami tidak dapat menjamin keamanan mutlak. Pesan kontak disimpan hanya selama diperlukan untuk penanganan dan administrasi, kecuali hukum mewajibkan retensi lebih lama.
 
 ## 9. Berbagi data
 Kami tidak menjual data pribadi Anda. Data dapat diproses oleh penyedia infrastruktur (hosting, CDN, email, analitik, periklanan) yang bertindak sebagai prosesor / pihak ketiga independen sesuai kebijakan mereka, semata-mata untuk menjalankan situs dan fitur terkait.

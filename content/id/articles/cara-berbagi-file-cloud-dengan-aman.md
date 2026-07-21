@@ -22,7 +22,7 @@ Kebocoran jarang karena peretasan canggih. Penyebabnya biasanya link "siapa pun 
 Kerjakan dari izin sampai pembersihan. Setiap langkah menutup satu celah kebocoran.
 
 ### 1. Pilih tingkat akses yang pas
-Beri "lihat" saja jika penerima cukup membaca. Cadangkan "edit" hanya untuk orang yang memang perlu mengubah. Jangan tergoda memberi izin tertinggi agar "praktis"; izin berlebihan adalah penyebab bocor paling umum.
+Beri "lihat" saja jika penerima cukup membaca. Cadangkan "edit" hanya untuk orang yang memang perlu mengubah. Jangan tergoda memberi izin tertinggi agar "praktis". Izin berlebihan adalah penyebab bocor paling umum.
 
 ### 2. Hindari opsi "siapa pun yang punya link" untuk file sensitif
 Untuk dokumen kontrak, keuangan, atau data klien, bagikan ke alamat email spesifik alih-alih link publik. Dengan email spesifik, Anda tahu siapa yang membuka dan bisa mencabut per orang.
@@ -61,4 +61,4 @@ Untuk dokumen rahasia yang dibagikan ke banyak pihak, watermark nama penerima me
 ## Sumber dan bacaan lanjutan
 - [CISA:SecureYourBusiness](https://www.Cisa.Gov/audiences/small-and-medium-businesses/secure-your-business)
 - [CISA:Smallandmediumbusinessresources](https://www.Cisa.Gov/audiences/small-and-medium-businesses/secure-your-business/smb-resources)
-> **Catatan editorial:** Artikel ini bersifat edukatif dan defensif. Fitur berbagi tiap layanan cloud berbeda; gunakan dokumentasi resmi penyedia Anda.
+> **Catatan editorial:** Artikel ini bersifat edukatif dan defensif. Fitur berbagi tiap layanan cloud berbeda. Gunakan dokumentasi resmi penyedia Anda.

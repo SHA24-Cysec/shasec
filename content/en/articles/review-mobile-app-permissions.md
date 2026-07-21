@@ -13,7 +13,7 @@ summary: "Assess app access to camera, location, contacts, microphone, and devic
 cover: "/images/articles/app-permissions.webp"
 ---
 
-Every app asks for permissions: location, camera, contacts, microphone, gallery. The right permissions let the app work; excessive ones let it collect data it does not need for its task. Modern phones let you review and revoke those permissions one by one, and that is the easiest way to limit what leaks.
+Every app asks for permissions: location, camera, contacts, microphone, gallery. The right permissions let the app work. Excessive ones let it collect data it does not need for its task. Modern phones let you review and revoke those permissions one by one, and that is the easiest way to limit what leaks.
 
 ## Why app permissions matter
 Apps send the data they are allowed to the developer's servers, and not all of them are honest about how it is used. A flashlight app that wants contacts and location, or a calculator that wants the microphone, has no sound technical reason. Excessive permissions are the main path ad trackers and malware use to gather personal data.
@@ -25,13 +25,13 @@ Start with the most sensitive permissions. Each one you revoke cuts one data str
 Open the phone's privacy settings and look at the permission list per app. Start with location, microphone, camera, and contacts. Ask each app: does it truly need this permission to do its job.
 
 ### 2. Tell core permissions apart from extras
-A camera app does need camera access; a messaging app does need the microphone for voice messages. Those are core. But a shopping app that wants contacts, or a game that wants constant location, is clearly a questionable extra. Revoke anything unrelated to the function.
+A camera app does need camera access. A messaging app does need the microphone for voice messages. Those are core. But a shopping app that wants contacts, or a game that wants constant location, is clearly a questionable extra. Revoke anything unrelated to the function.
 
 ### 3. Use the "only while in use" option
 For location and microphone, choose "while using the app" rather than "always". That way the app only reaches the permission when you are actively using it, not in the background all day. The option is available on modern iOS and Android.
 
 ### 4. Be careful with contacts, gallery, and background microphone
-Contacts hold other people's data, not just yours. The gallery stores personal photos and sensitive screenshots. A microphone that stays active in the background enables sound capture. Restrict all three tightly; few apps truly need them in full.
+Contacts hold other people's data, not just yours. The gallery stores personal photos and sensitive screenshots. A microphone that stays active in the background enables sound capture. Restrict all three tightly. Few apps truly need them in full.
 
 ### 5. Remove rarely used apps and update from the official store
 Apps you no longer use still hold their permissions. Just delete them. For apps you keep, update them through the official store (Play Store/App Store) so they get security patches. Avoid installing apps from unknown sources (random sideloaded APKs) since they bypass security checks.
@@ -61,4 +61,4 @@ Safer than sideloaded ones, but still check permissions and developer reputation
 ## Sources and further reading
 - [CISA:Coreonlinesafetyactions](https://www.Cisa.Gov/news-events/news/national-internet-safety-month-june-take-4-easy-steps-stay-safe-online)
 - [FTC:Protectpersonalinformation](https://consumer.Ftc.Gov/articles/protect-your-personal-information-hackers-and-scammers)
-> **Editorial note:** This article is educational and defensive. The permissions menu location differs between operating systems; use your phone's official guidance.
+> **Editorial note:** This article is educational and defensive. The permissions menu location differs between operating systems. Use your phone's official guidance.

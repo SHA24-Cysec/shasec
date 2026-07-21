@@ -16,7 +16,7 @@ Gunakan formulir di bawah untuk mengirim pesan kepada **{{< site "organization" 
 ## Apa yang membantu kami menanggapi
 Sertakan konteks yang relevan agar balasan lebih cepat dan tepat.
 - **Koreksi artikel:** tautkan judul atau URL, lalu jelaskan bagian yang perlu diperbaiki.
-- **Pertanyaan umum:** tulis singkat dan spesifik; sebutkan perangkat atau layanan yang dimaksud bila ada.
+- **Pertanyaan umum:** tulis singkat dan spesifik. Sebutkan perangkat atau layanan yang dimaksud bila ada.
 - **Kolaborasi:** jelaskan tujuan, audiens, dan ruang lingkup. Kami membaca setiap pesan. Tidak semua bisa dibalas satu per satu, tetapi setiap koreksi dan masukan kami perhatikan.
 
 ## Bukan layanan darurat

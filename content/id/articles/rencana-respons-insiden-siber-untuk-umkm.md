@@ -13,7 +13,7 @@ summary: "Kerangka sederhana untuk menyiapkan peran, komunikasi, bukti, dan pemu
 cover: "/images/articles/incident-response-smb.webp"
 ---
 
-Rencana respons insiden adalah daftar langkah tertulis yang dijalankan saat serangan siber terjadi. Tujuannya bukan mencegah semua insiden (tidak mungkin), melainkan membatasi dampak dan memulihkan operasional secepat mungkin. Saat krisis, kewaspadaan turun; rencana yang sudah ada membuat tim bertindak terurut, bukan panik.
+Rencana respons insiden adalah daftar langkah tertulis yang dijalankan saat serangan siber terjadi. Tujuannya bukan mencegah semua insiden (tidak mungkin), melainkan membatasi dampak dan memulihkan operasional secepat mungkin. Saat krisis, kewaspadaan turun. Rencana yang sudah ada membuat tim bertindak terurut, bukan panik.
 
 ## Mengapa UMKM butuh rencana respons
 Insiden siber pada UMKM jarang ditangani dengan tenang. Tanpa rencana, tim kebingungan siapa memutuskan apa, apakah perangkat boleh dimatikan, dan ke siapa melapor. Akibatnya, bukti hilang, penyebaran berlanjut, dan pemulihan makin lama. Rencana sederhana yang ditulis sebelumnya menghemat waktu berharga di jam-jam pertama.
@@ -22,13 +22,13 @@ Insiden siber pada UMKM jarang ditangani dengan tenang. Tanpa rencana, tim kebin
 Susun dari peran hingga komunikasi. Setiap langkah membuat satu bagian krisis dapat ditangani.
 
 ### 1. Tentukan peran dan pengambil keputusan
-Tuliskan siapa bertindak sebagai komandan insiden, siapa menangani teknis, siapa berkomunikasi, dan siapa mengurus aspek hukum atau pelaporan. Untuk UMKM kecil, satu orang bisa memegang beberapa peran; yang penting setiap peran punya nama. Juga tentukan siapa pengganti bila pemegang utama tidak ada.
+Tuliskan siapa bertindak sebagai komandan insiden, siapa menangani teknis, siapa berkomunikasi, dan siapa mengurus aspek hukum atau pelaporan. Untuk UMKM kecil, satu orang bisa memegang beberapa peran. Yang penting setiap peran punya nama. Juga tentukan siapa pengganti bila pemegang utama tidak ada.
 
 ### 2. Susun langkah isolasi awal
 Daftar tindakan pertama yang membatasi penyebaran: mencabut kabel jaringan perangkat terduga, menonaktifkan akun yang dibajak, memutus koneksi ke layanan eksternal. Jelaskan kapan perangkat boleh dimatikan dan kapan tidak, karena mematikan tanpa berpikir bisa menghapus jejak penting di memori.
 
 ### 3. Siapkan daftar kontak
-Kumpulkan nomor penting di satu tempat: penyedia IT atau konsultan eksternal, bank, penyedia layanan utama, otoritas pelaporan, dan asuransi siber bila ada. Saat insiden, mencari kontak menambah keterlambatan; daftar yang siap mempercepat respons.
+Kumpulkan nomor penting di satu tempat: penyedia IT atau konsultan eksternal, bank, penyedia layanan utama, otoritas pelaporan, dan asuransi siber bila ada. Saat insiden, mencari kontak menambah keterlambatan. Daftar yang siap mempercepat respons.
 
 ### 4. Siapkan cara pengumpulan bukti
 Tetapkan apa yang dicatat: log, tangkapan layar, waktu kejadian, dan langkah yang diambil. Bukti ini penting untuk forensik, klaim asuransi, dan pelaporan. Tegaskan kepada tim untuk tidak membersihkan atau menghapus apa pun sebelum konsultasi, karena bukti yang hilang menyulitkan penyelidikan.

@@ -22,7 +22,7 @@ Leaks rarely come from sophisticated hacking. They usually come from "anyone wit
 Work from permissions to cleanup. Each step closes one leak path.
 
 ### 1. Choose the right access level
-Grant "view" only when the recipient just needs to read. Reserve "edit" for people who truly must change the file. Do not default to the highest permission because it is convenient; over-permission is the most common cause of leaks.
+Grant "view" only when the recipient just needs to read. Reserve "edit" for people who truly must change the file. Do not default to the highest permission because it is convenient. Over-permission is the most common cause of leaks.
 
 ### 2. Avoid "anyone with the link" for sensitive files
 For contracts, financial data, or client information, share to specific email addresses rather than a public link. With specific emails, you know exactly who opens the file and can revoke access per person.
@@ -61,4 +61,4 @@ For confidential documents shared with many parties, a recipient-name watermark 
 ## Sources and further reading
 - [CISA:SecureYourBusiness](https://www.Cisa.Gov/audiences/small-and-medium-businesses/secure-your-business)
 - [CISA:Smallandmediumbusinessresources](https://www.Cisa.Gov/audiences/small-and-medium-businesses/secure-your-business/smb-resources)
-> **Editorial note:** This article is educational and defensive. Sharing features differ between cloud providers; use your provider's official documentation.
+> **Editorial note:** This article is educational and defensive. Sharing features differ between cloud providers. Use your provider's official documentation.

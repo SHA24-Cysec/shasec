@@ -83,6 +83,8 @@ other = "Kontak"
 other = "Privasi"
 [footer_disclaimer]
 other = "Disclaimer"
+[footer_terms]
+other = "Ketentuan"
 
 [cookie_title]
 other = "Cookie & privasi"

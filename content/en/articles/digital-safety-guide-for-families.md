@@ -40,7 +40,7 @@ Note bank numbers, device support, and trusted contacts somewhere every member c
 A child receives a message in a game promising a free skin if they log in through a provided link. Because of the rules "do not click strange links" and "ask first", they tell a parent instead of following along. The parent checks and finds it is an account-theft attempt. A short, understood rule saves the account without drama.
 
 ## If a family member is scammed or hit by an incident
-Respond without blaming; shame makes people hide incidents. Limit the damage: change the related account passwords, sign out foreign sessions, and contact the bank if money is involved. Use the incident as shared learning so a similar pattern does not repeat.
+Respond without blaming. Shame makes people hide incidents. Limit the damage: change the related account passwords, sign out foreign sessions, and contact the bank if money is involved. Use the incident as shared learning so a similar pattern does not repeat.
 
 ## Common mistakes to avoid
 - **Scaring instead of educating.** Fear makes members hide what happened instead of reporting it.
@@ -61,4 +61,4 @@ Negotiate the rules together and explain the reasons. Rules that are understood 
 ## Sources and further reading
 - [CISA:Coreonlinesafetyactions](https://www.Cisa.Gov/news-events/news/national-internet-safety-month-june-take-4-easy-steps-stay-safe-online)
 - [FTC:Protectpersonalinformation](https://consumer.Ftc.Gov/articles/protect-your-personal-information-hackers-and-scammers)
-> **Editorial note:** This article is educational and defensive. Parental control features differ between devices; use your device manufacturer's official guidance.
+> **Editorial note:** This article is educational and defensive. Parental control features differ between devices. Use your device manufacturer's official guidance.

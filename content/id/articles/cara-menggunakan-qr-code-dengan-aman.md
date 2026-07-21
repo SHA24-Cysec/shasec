@@ -61,4 +61,4 @@ Sebagian besar aman, tetapi tetap periksa apakah stiker ditempel di atasnya dan 
 ## Sumber dan bacaan lanjutan
 - [CISA:Coreonlinesafetyactions](https://www.Cisa.Gov/news-events/news/national-internet-safety-month-june-take-4-easy-steps-stay-safe-online)
 - [FTC:Protectpersonalinformation](https://consumer.Ftc.Gov/articles/protect-your-personal-information-hackers-and-scammers)
-> **Catatan editorial:** Artikel ini bersifat edukatif dan defensif. Perilaku QR tiap aplikasi pembayaran berbeda; gunakan panduan resmi penyedia layanan Anda.
+> **Catatan editorial:** Artikel ini bersifat edukatif dan defensif. Perilaku QR tiap aplikasi pembayaran berbeda. Gunakan panduan resmi penyedia layanan Anda.

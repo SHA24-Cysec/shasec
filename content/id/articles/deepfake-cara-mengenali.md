@@ -84,4 +84,4 @@ Dalam konteks penipuan langsung, ya. Voice cloning membutuhkan lebih sedikit dat
 - [MITMediaLab:DetectingDeepfakes](https://www.Media.Mit.Edu/)
 - [FTC:AIandDeepfakesinFraud](https://consumer.Ftc.Gov/articles/what-know-about-ai-and-deepfakes)
 
-> **Catatan editorial:** Artikel ini bersifat edukatif dan defensif. Teknologi deepfake berkembang cepat; tanda-tanda yang disebutkan bisa menjadi kurang relevan seiring kemajuan teknologi.
+> **Catatan editorial:** Artikel ini bersifat edukatif dan defensif. Teknologi deepfake berkembang cepat. Tanda-tanda yang disebutkan bisa menjadi kurang relevan seiring kemajuan teknologi.

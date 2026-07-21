@@ -52,7 +52,7 @@ Not all IoT manufacturers take security. Before purchasing, find out: does the m
 A shop owner installed a cheap IP camera to monitor their store remotely. They never changed the default password (admin/admin) and left remote access enabled. Weeks later, footage from their store appeared on a streaming site that aggregates unsecured camera feeds. Attackers used default credentials found in publicly available databases. Simple preventive actions, changing the default password and disabling unnecessary remote access, would have closed this path entirely.
 
 ## Common mistakes IoT owners make
-- **Assuming small devices are not interesting to hackers.** Botnets do not choose targets; they scan all vulnerable devices automatically.
+- **Assuming small devices are not interesting to hackers.** Botnets do not choose targets. They scan all vulnerable devices automatically.
 - **Leaving UPnP enabled.** This feature allows devices to open ports on your router without your permission, creating entry points from the internet.
 - **Never reviewing old devices.** IoT devices installed years ago and never reviewed can become forgotten weak points.
 
@@ -71,4 +71,4 @@ For home use, the router's built-in firewall is sufficient. Dedicated firewalls 
 - [CISA:SecuringIoTDevices](https://www.Cisa.Gov/topics/cybersecurity-best-practices/iot)
 - [NIST:IoTCybersecurityGuidelines](https://www.Nist.Gov/iot)
 - [FTC:InternetofThings:Privacy&SecurityinaConnectedWorld](https://www.Ftc.Gov/reports/internet-things-privacy-security-connected-world)
-> **Editorial note:** This article is educational and defensive in nature. Features and interfaces vary by device; refer to your device's official manual for specific technical guidance.
+> **Editorial note:** This article is educational and defensive in nature. Features and interfaces vary by device. Refer to your device's official manual for specific technical guidance.

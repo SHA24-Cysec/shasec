@@ -184,5 +184,16 @@
         "testMode" (.testMode | default false)
       | jsonify | safeJS -}}
     </script>
+    {{- /*
+      AdSense loader (pre-approval + verifikasi kepemilikan).
+      Google mensyaratkan tag <script ... adsbygoogle.js?client=...> hadir di
+      <head> saat review berjalan. Tag ini juga aman setelah approval —
+      slot iklan tetap dikontrol oleh partials/components/ad-slot.html dan
+      assets/js/adsense.js (consent + placeholder mode).
+    */ -}}
+    {{- with .client -}}
+      <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client={{ . }}" crossorigin="anonymous"></script>
+      <meta name="google-adsense-account" content="{{ . }}">
+    {{- end -}}
   {{- end -}}
 {{- end -}}

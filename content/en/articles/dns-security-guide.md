@@ -99,4 +99,4 @@ DNS filtering helps, but smart children can find bypass methods. Combine with de
 - [CISA:DNSSecurityBestPractices](https://www.Cisa.Gov/dns-security)
 - [EFF:HowtoEnableDNSoverHTTPS](https://www.Eff.Org/)
 
-> **Editorial note:** DNS configuration varies by device and network. This guide is general; adapt it to your devices and network environment.
+> **Editorial note:** DNS configuration varies by device and network. This guide is general. Adapt it to your devices and network environment.

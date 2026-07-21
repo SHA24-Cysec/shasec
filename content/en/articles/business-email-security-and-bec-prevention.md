@@ -13,7 +13,7 @@ summary: "Strengthen business email processes so payment changes, data requests,
 cover: "/images/articles/business-email-security.webp"
 ---
 
-Business Email Compromise (BEC) is a scam that impersonates an internal or trusted party, usually an executive or vendor, to request a money transfer or data. Attackers often do not need to hack the email; they only need to trick staff with a convincing message. For a small business, one transfer to a scammer's account can burn months of capital.
+Business Email Compromise (BEC) is a scam that impersonates an internal or trusted party, usually an executive or vendor, to request a money transfer or data. Attackers often do not need to hack the email. They only need to trick staff with a convincing message. For a small business, one transfer to a scammer's account can burn months of capital.
 
 ## Why BEC is so effective
 BEC preys on alertness that drops under pressure. An email posing as the CEO asking for a "secret and urgent" transfer, or a vendor announcing "our bank details changed", looks ordinary to busy staff. Attackers study the structure and language of a business from public profiles so the request sounds familiar. The defense is not advanced technology but a simple verification process.
@@ -34,18 +34,18 @@ Attackers use look-alike domains that are not identical, for example `companny. 
 Write down that a vendor or employee bank detail change may not rest on email alone. Require a form or oral confirmation from someone authorized. A written rule gives finance staff a basis to refuse a suspicious request.
 
 ### 5. Train finance staff and enable MFA
-Staff who process payments are the main target; train them to recognize BEC patterns regularly. On the technical side, enable MFA on business email and tighten forwarding rules so a hijacked account cannot send fake requests.
+Staff who process payments are the main target. Train them to recognize BEC patterns regularly. On the technical side, enable MFA on business email and tighten forwarding rules so a hijacked account cannot send fake requests.
 
 ## Example: a "CEO" email asking for an urgent transfer
 A small-business finance staff member receives an email in the CEO's name requesting an urgent transfer to a new account, with the note "do not discuss this until it is done". Because a second-channel verification rule exists, the staff member calls the CEO at a known number and learns the CEO never asked for it. The email came from a look-alike domain. One call saves a large sum.
 
 ## If a fraudulent transfer already went out
-Contact the bank at once and request that the recipient's account be frozen; the window is a matter of hours. Gather the email, headers, and timeline as evidence, then report to the police. If your own business email was hijacked, change the password, check forwarding rules, and sign out foreign sessions. Review the process so a similar pattern is caught earlier.
+Contact the bank at once and request that the recipient's account be frozen. The window is a matter of hours. Gather the email, headers, and timeline as evidence, then report to the police. If your own business email was hijacked, change the password, check forwarding rules, and sign out foreign sessions. Review the process so a similar pattern is caught earlier.
 
 ## Common mistakes to avoid
 - **Processing urgent requests without verification.** Rush is BEC's main tool.
 - **Changing bank details by email alone.** One fake request is enough to send a payment to a scammer.
-- **Looking only at the display name, not the address.** The name "CEO" is easy to fake; the domain is not.
+- **Looking only at the display name, not the address.** The name "CEO" is easy to fake. The domain is not.
 
 ## Frequently asked questions
 

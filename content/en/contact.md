@@ -11,7 +11,7 @@ Use the form below to message **{{< site "organization" >}}**. We welcome questi
 ## What helps us respond
 Include relevant context so the reply is faster and on target.
 - **Article corrections:** link the title or URL, then explain what needs fixing.
-- **General questions:** keep it short and specific; name the device or service if relevant.
+- **General questions:** keep it short and specific. Name the device or service if relevant.
 - **Collaboration:** state your goal, audience, and scope. We read every message. We cannot reply to all of them individually, but we take every correction and suggestion.
 
 ## Not an emergency service

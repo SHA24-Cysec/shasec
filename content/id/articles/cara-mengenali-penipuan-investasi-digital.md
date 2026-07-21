@@ -22,7 +22,7 @@ Penipu membangun kepercayaan perlahan. Mereka mengirim bukti keuntungan kecil di
 Periksa setiap tanda sebelum memutuskan. Tanda yang muncul lebih dari satu semakin menguatkan dugaan.
 
 ### 1. Nilai janji keuntungan
-Investasi yang menjanjikan keuntungan tetap dan tinggi, mis. "pasti untung 2% per hari", hampir selalu penipuan. Pasar berfluktuasi; tidak ada hasil yang dijamin. Semakin tinggi janji, semakin tinggi pula keraguan yang seharusnya muncul.
+Investasi yang menjanjikan keuntungan tetap dan tinggi, mis. "pasti untung 2% per hari", hampir selalu penipuan. Pasar berfluktuasi. Tidak ada hasil yang dijamin. Semakin tinggi janji, semakin tinggi pula keraguan yang seharusnya muncul.
 
 ### 2. Verifikasi legalitas dan identitas promotor
 Di Indonesia, cek apakah produk investasi terdaftar di OJK atau bursa resmi. Cari nama perusahaan dan promotor di internet beserta kata "penipuan" atau "scam". Hubungi lembaga lewat situs resmi yang Anda cari sendiri, bukan dari link yang dikirim promotor.
@@ -37,10 +37,10 @@ Permintaan transfer ke rekening pribadi, pembayaran via crypto P2P, atau "biaya 
 Grup chat yang ramai, bukti screenshot keuntungan, dan ajakan "kesempatan terbatas" didesain untuk membuat Anda takut tertinggal. Putuskan lewat riset mandiri, bukan dari euforia kolektif. Penawaran yang sah tidak hilang dalam beberapa jam.
 
 ## Contoh: grup "sinyal trading" yang ramah
-Seseorang diajak grup WhatsApp berisi "analisis trading" dengan admin yang sopan dan banyak anggota. Ia mencoba modal kecil dan benar-benar bisa menarik untung. Percaya diri naik, ia menanam modal besar. Saat ingin menarik, platform meminta "biaya pajak 10%" dulu. Setelah dibayar, muncul permintaan biaya lagi. Modal tak pernah kembali. Pola keuntungan kecil di awal adalah umpan; biaya pencairan adalah jebakan.
+Seseorang diajak grup WhatsApp berisi "analisis trading" dengan admin yang sopan dan banyak anggota. Ia mencoba modal kecil dan benar-benar bisa menarik untung. Percaya diri naik, ia menanam modal besar. Saat ingin menarik, platform meminta "biaya pajak 10%" dulu. Setelah dibayar, muncul permintaan biaya lagi. Modal tak pernah kembali. Pola keuntungan kecil di awal adalah umpan. Biaya pencairan adalah jebakan.
 
 ## Jika uang sudah masuk ke penipuan
-Hentikan semua pembayaran segera. Catat bukti: chat, nomor rekening penerima, nama platform, dan waktu transaksi. Laporkan ke pihak berwenang dan blokir rekening melalui bank. Jangan bayar "biaya pencairan" apa pun lagi; itu jarang memulihkan kerugian dan justru menambahnya.
+Hentikan semua pembayaran segera. Catat bukti: chat, nomor rekening penerima, nama platform, dan waktu transaksi. Laporkan ke pihak berwenang dan blokir rekening melalui bank. Jangan bayar "biaya pencairan" apa pun lagi. Itu jarang memulihkan kerugian dan justru menambahnya.
 
 ## Kesalahan yang sebaiknya dihindari
 - **Mempercayai profit konsisten.** Tidak ada investasi yang untung pasti setiap hari.

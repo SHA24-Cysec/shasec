@@ -69,7 +69,7 @@ Data is used to:
 Depending on context: performance of a requested service, legitimate interests of the site operator (security, service improvement), and/or consent (cookies/ads where required).
 
 ## 8. Retention and security
-We apply reasonable technical and organizational measures to protect data. No internet transmission is 100% secure; we cannot guarantee absolute security. Contact messages are kept only as long as needed for handling and administration, unless law requires longer retention.
+We apply reasonable technical and organizational measures to protect data. No internet transmission is 100% secure. We cannot guarantee absolute security. Contact messages are kept only as long as needed for handling and administration, unless law requires longer retention.
 
 ## 9. Sharing
 We do not sell your personal data. Data may be processed by infrastructure providers (hosting, CDN, email, analytics, advertising) acting as processors / independent third parties under their policies, solely to run the site and related features.

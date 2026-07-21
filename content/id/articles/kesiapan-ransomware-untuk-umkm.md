@@ -34,7 +34,7 @@ Nyalakan pembaruan otomatis untuk sistem operasi dan aplikasi utama. Pasang anti
 Pisahkan jaringan kantor dari jaringan produksi atau keuangan. Mesin yang menyimpan pembukuan atau data pelanggan sebaiknya tidak satu subnet dengan komputer yang dipakai browsing umum. Segmentasi memperlambat penyebaran saat satu mesin kena.
 
 ### 5. Siapkan rencana respons sederhana
-Tulis siapa yang dihubungi, bagaimana mengisolasi perangkat (cabut kabel jaringan), dan di mana backup disimpan. Latih sekali bersama tim. Saat serangan terjadi, kewaspadaan menurun; rencana tertulis membuat respons tetap terurut di bawah tekanan.
+Tulis siapa yang dihubungi, bagaimana mengisolasi perangkat (cabut kabel jaringan), dan di mana backup disimpan. Latih sekali bersama tim. Saat serangan terjadi, kewaspadaan menurun. Rencana tertulis membuat respons tetap terurut di bawah tekanan.
 
 ## Contoh: UMKM yang diselamatkan backup offline
 Sebuah toko kecil kena ransomware lewat lampiran phishing yang dibuka staf. Dalam beberapa jam, file pembukuan dan data pelanggan terenkungi. Karena pemilik rutin menyimpan backup di hard disk eksternal yang dicabut setelah proses selesai, ia bisa memulihkan data dari salinan sehari sebelum serangan. Usaha hanya berhenti satu hari. Tanpa backup offline, ia akan menghadapi pilihan tebusan atau kehilangan data.

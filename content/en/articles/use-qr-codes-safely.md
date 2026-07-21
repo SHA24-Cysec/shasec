@@ -61,4 +61,4 @@ Most are safe, but still check whether a sticker has been placed over it and whe
 ## Sources and further reading
 - [CISA:Coreonlinesafetyactions](https://www.Cisa.Gov/news-events/news/national-internet-safety-month-june-take-4-easy-steps-stay-safe-online)
 - [FTC:Protectpersonalinformation](https://consumer.Ftc.Gov/articles/protect-your-personal-information-hackers-and-scammers)
-> **Editorial note:** This article is educational and defensive. QR behavior differs between payment apps; use your provider's official guidance.
+> **Editorial note:** This article is educational and defensive. QR behavior differs between payment apps. Use your provider's official guidance.
