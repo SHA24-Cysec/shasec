@@ -25,7 +25,6 @@ Membantu individu dan organisasi menghadapi risiko digital melalui konten yang j
 - Edukasi keamanan digital untuk profesional dan komunitas
 
 ## Prinsip editorial
-
 1. **Akurasi.** Sumber dicek, klaim dibatasi pada apa yang dapat dijelaskan.
 2. **Tanggung jawab.** Konten bersifat defensif dan edukatif, bukan panduan penyalahgunaan.
 3. **Transparansi.** Afiliasi, sponsor, atau iklan ditandai secara wajar.

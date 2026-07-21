@@ -4,14 +4,15 @@ title: "How to Use QR Codes Safely in Public Places"
 date: 2026-06-05
 draft: false
 categories:
-  - Digital Safety
+ - Digital Safety
 tags:
-  - digital safety
-  - privacy
-  - online security
+ - digital safety
+ - privacy
+ - online security
 summary: "Simple steps to inspect a QR code, destination link, and payment request before scanning or opening it."
 cover: "/images/articles/qr-code-safety.webp"
 ---
+
 A QR code hides its destination. Your eyes cannot read where it leads until the phone processes it. That is what makes QR codes so handy and so dangerous at once: one sticker placed over a real QR code can send you to a fake payment page or a malicious app download.
 
 ## Why public QR codes are risky
@@ -47,6 +48,7 @@ Do not enter anything on the page that opened. Close the tab and, if unsure, cle
 - **Sharing an OTP that a QR page requests.** A legitimate service does not ask for your OTP to "verify a payment".
 
 ## Frequently asked questions
+
 ### Can a QR code be dangerous?
 Yes. A QR only stores text, usually a URL, and the destination can be anything, including a scam page.
 
@@ -57,6 +59,6 @@ One that shows the destination URL and asks for confirmation before opening. The
 Most are safe, but still check whether a sticker has been placed over it and whether the menu domain makes sense before ordering.
 
 ## Sources and further reading
-- [CISA: Core online safety actions](https://www.cisa.gov/news-events/news/national-internet-safety-month-june-take-4-easy-steps-stay-safe-online)
-- [FTC: Protect personal information](https://consumer.ftc.gov/articles/protect-your-personal-information-hackers-and-scammers)
+- [CISA:Coreonlinesafetyactions](https://www.Cisa.Gov/news-events/news/national-internet-safety-month-june-take-4-easy-steps-stay-safe-online)
+- [FTC:Protectpersonalinformation](https://consumer.Ftc.Gov/articles/protect-your-personal-information-hackers-and-scammers)
 > **Editorial note:** This article is educational and defensive. QR behavior differs between payment apps; use your provider's official guidance.

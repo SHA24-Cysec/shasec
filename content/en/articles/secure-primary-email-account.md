@@ -4,14 +4,15 @@ title: "How to Secure Primary Email as the Center of Account Recovery"
 date: 2026-06-26
 draft: false
 categories:
-  - Digital Safety
+ - Digital Safety
 tags:
-  - digital safety
-  - privacy
-  - online security
+ - digital safety
+ - privacy
+ - online security
 summary: "Protect primary email because it is often the recovery route for many other accounts."
 cover: "/images/articles/primary-email-security.webp"
 ---
+
 Your primary email matters more than your other accounts. When you forget a bank or social media password, that service sends a reset link here. Whoever controls the primary email can try to reset other accounts while deleting the notifications that arrive. That is why the primary email deserves the strongest protection.
 
 ## Why primary email is a top target
@@ -47,6 +48,7 @@ Stay calm and order the steps. If you can still sign in, change the password at 
 - **Never checking forwarding rules.** An attacker's rule can run for weeks without you noticing.
 
 ## Frequently asked questions
+
 ### Can I use a passkey for email?
 Yes, if the provider supports it. Passkeys reduce dependence on passwords and codes. Keep an official recovery option ready as backup.
 
@@ -57,6 +59,6 @@ It is stronger than SMS because it does not depend on the mobile network or your
 At least every few months, or whenever you get a new device, change numbers, or after opening a questionable link.
 
 ## Sources and further reading
-- [CISA: Core online safety actions](https://www.cisa.gov/news-events/news/national-internet-safety-month-june-take-4-easy-steps-stay-safe-online)
-- [FTC: Protect personal information](https://consumer.ftc.gov/articles/protect-your-personal-information-hackers-and-scammers)
+- [CISA:Coreonlinesafetyactions](https://www.Cisa.Gov/news-events/news/national-internet-safety-month-june-take-4-easy-steps-stay-safe-online)
+- [FTC:Protectpersonalinformation](https://consumer.Ftc.Gov/articles/protect-your-personal-information-hackers-and-scammers)
 > **Editorial note:** This article is educational and defensive. Menu names differ between email providers; use the official help center for current technical steps.

@@ -4,18 +4,17 @@ title: "DNS Security: Mengapa dan Cara Mengamankan Resolusi Domain Anda"
 date: 2026-07-08
 draft: false
 categories:
-  - Keamanan Digital
+ - Keamanan Digital
 tags:
-  - dns
-  - keamanan digital
-  - jaringan
-  - privasi
+ - dns
+ - keamanan digital
+ - jaringan
+ - privasi
 summary: "DNS adalah buku telepon internet. Jika dimanipulasi, Anda bisa diarahkan ke situs palsu tanpa menyadari. Pelajari ancaman terhadap DNS dan cara melindunginya."
 cover: "/images/articles/dns-security.webp"
 ---
-Setiap kali Anda mengetik alamat website seperti "shasec.my.id" di browser, perangkat Anda menghubungi server DNS (Domain Name System) untuk menerjemahkan nama domain menjadi alamat IP. Proses ini terjadi di balik layar, dalam hitungan milidetik, dan Anda hampir tidak pernah memikirkannya.
 
-Tapi DNS adalah titik rentan yang sering diabaikan. Jika seseorang bisa mengendalikan atau memanipulasi respons DNS yang diterima perangkat Anda, mereka bisa mengarahkan Anda ke situs palsu tanpa Anda sadari. Bank yang terlihat asli, halaman login yang identik, tapi semuanya di server pelaku.
+Setiap kali Anda mengetik alamat website seperti "shasec. My. Id" di browser, perangkat Anda menghubungi server DNS (Domain Name System) untuk menerjemahkan nama domain menjadi alamat IP. Proses ini terjadi di balik layar, dalam hitungan milidetik, dan Anda hampir tidak pernah memikirkannya. Tapi DNS adalah titik rentan yang sering diabaikan. Jika seseorang bisa mengendalikan atau memanipulasi respons DNS yang diterima perangkat Anda, mereka bisa mengarahkan Anda ke situs palsu tanpa Anda sadari. Bank yang terlihat asli, halaman login yang identik, tapi semuanya di server pelaku.
 
 ## Ancaman terhadap DNS
 
@@ -45,11 +44,7 @@ Konfigurasi DNS di setiap perangkat atau di router untuk melindungi seluruh jari
 
 ### 2. Aktifkan DNS over HTTPS (DoH) atau DNS over TLS (DoT)
 
-DoH dan DoT mengenkripsi query DNS Anda, mencegahnya dibaca atau dimodifikasi di jalur jaringan. Browser modern seperti Firefox dan Chrome mendukung DoH. Android 9+ mendukung DoT secara native.
-
-Di Firefox: Settings > Network Settings > Enable DNS over HTTPS. Pilih provider atau masukkan URL resolver kustom.
-
-Di Android: Settings > Network & Internet > Private DNS > Pilih "Private DNS provider hostname" dan masukkan seperti "dns.google" atau "1dot1dot1dot1.cloudflare-dns.com".
+DoH dan DoT mengenkripsi query DNS Anda, mencegahnya dibaca atau dimodifikasi di jalur jaringan. Browser modern seperti Firefox dan Chrome mendukung DoH. Android 9+ mendukung DoT secara native. Di Firefox: Settings > Network Settings > Enable DNS over HTTPS. Pilih provider atau masukkan URL resolver kustom. Di Android: Settings > Network & Internet > Private DNS > Pilih "Private DNS provider hostname" dan masukkan seperti "dns. Google" atau "1dot1dot1dot1. Cloudflare-dns. Com".
 
 ### 3. Amankan DNS router Anda
 
@@ -80,9 +75,7 @@ DNS filtering memblokir akses ke domain berbahaya atau tidak sesuai sebelum hala
 
 ## Contoh: DNS hijacking melalui router
 
-Seorang pengguna tidak pernah mengganti kata sandi admin router. Malware di salah satu perangkat IoT di jaringan rumahnya berhasil mengakses panel admin router dan mengubah DNS ke server yang dikendalikan penyerang. Sejak saat itu, setiap kali pengguna mengakses situs banking, mereka diarahkan ke halaman phishing yang terlihat identik. Pengguna memasukkan kredensial tanpa menyadari bahwa URL di address bar tampak benar tapi server yang merespons bukan server bank yang sebenarnya.
-
-Mengganti kata sandi admin router dan memakai DNS over HTTPS di browser akan mencegah serangan ini.
+Seorang pengguna tidak pernah mengganti kata sandi admin router. Malware di salah satu perangkat IoT di jaringan rumahnya berhasil mengakses panel admin router dan mengubah DNS ke server yang dikendalikan penyerang. Sejak saat itu, setiap kali pengguna mengakses situs banking, mereka diarahkan ke halaman phishing yang terlihat identik. Pengguna memasukkan kredensial tanpa menyadari bahwa URL di address bar tampak benar tapi server yang merespons bukan server bank yang sebenarnya. Mengganti kata sandi admin router dan memakai DNS over HTTPS di browser akan mencegah serangan ini.
 
 ## Kesalahan umum terkait DNS
 
@@ -102,8 +95,8 @@ Tidak. DoH menyembunyikan query DNS dari ISP Anda, tapi resolver DoH yang Anda p
 DNS filtering membantu, tapi anak yang cerdas bisa menemukan cara bypass. Padukan dengan parental control di perangkat dan komunikasi terbuka tentang keamanan online.
 
 ## Sumber dan bacaan lanjutan
-- [Cloudflare: DNS Security](https://www.cloudflare.com/learning/dns/dns-security/)
-- [CISA: DNS Security Best Practices](https://www.cisa.gov/dns-security)
-- [EFF: How to Enable DNS over HTTPS](https://www.eff.org/)
+- [Cloudflare:DNSSecurity](https://www.Cloudflare.Com/learning/dns/dns-security/)
+- [CISA:DNSSecurityBestPractices](https://www.Cisa.Gov/dns-security)
+- [EFF:HowtoEnableDNSoverHTTPS](https://www.Eff.Org/)
 
 > **Catatan editorial:** Konfigurasi DNS berbeda tergantung perangkat dan jaringan. Panduan ini bersifat umum; sesuaikan dengan perangkat dan lingkungan jaringan Anda.

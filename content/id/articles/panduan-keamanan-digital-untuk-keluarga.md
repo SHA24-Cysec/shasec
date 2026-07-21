@@ -4,14 +4,15 @@ title: "Panduan Keamanan Digital untuk Keluarga"
 date: 2026-05-29
 draft: false
 categories:
-  - Keamanan Digital
+ - Keamanan Digital
 tags:
-  - keamanan digital
-  - privasi
-  - literasi digital
+ - keamanan digital
+ - privasi
+ - literasi digital
 summary: "Cara membangun aturan sederhana tentang akun, perangkat, penipuan, dan bantuan tanpa membuat anggota keluarga takut menggunakan teknologi."
 cover: "/images/articles/family-digital-safety.webp"
 ---
+
 Keamanan digital keluarga bukan soal melarang teknologi, melainkan membuat aturan sederhana yang dipahami semua anggota. Anak, orang tua, dan anggota lain menghadapi risiko berbeda: anak terkena penipuan hadiah game, orang tua terkena phishing banking. Tujuannya satu: setiap orang tahu kapan harus berhenti dan bertanya sebelum melakukan sesuatu yang merugikan.
 
 ## Mengapa keluarga butuh aturan bersama
@@ -47,14 +48,17 @@ Tanggapi tanpa menyalahkan; rasa malu membuat orang menyembunyikan insiden. Bata
 - **Tidak ada kontak darurat.** Saat panik, keluarga butuh tahu siapa yang dihubungi lebih dulu.
 
 ## Pertanyaan yang sering diajukan
+
 ### Kontrol orang tua cukup?
 Membantu, tetapi tidak menggantikan edukasi. Anak yang paham aturan tetap lebih aman bahkan di luar rumah.
+
 ### Usia berapa mulai mengajarkan?
 Begitu anak mulai memakai perangkat. Sesuaikan kedalaman penjelasan dengan usia.
+
 ### Bagaimana dengan remaja yang menolak aturan?
 Negosiasikan aturan bersama, jelaskan alasannya. Aturan yang dipahami lebih diterima daripada aturan yang dipaksakan.
 
 ## Sumber dan bacaan lanjutan
-- [CISA: Core online safety actions](https://www.cisa.gov/news-events/news/national-internet-safety-month-june-take-4-easy-steps-stay-safe-online)
-- [FTC: Protect personal information](https://consumer.ftc.gov/articles/protect-your-personal-information-hackers-and-scammers)
+- [CISA:Coreonlinesafetyactions](https://www.Cisa.Gov/news-events/news/national-internet-safety-month-june-take-4-easy-steps-stay-safe-online)
+- [FTC:Protectpersonalinformation](https://consumer.Ftc.Gov/articles/protect-your-personal-information-hackers-and-scammers)
 > **Catatan editorial:** Artikel ini bersifat edukatif dan defensif. Fitur kontrol orang tua tiap perangkat berbeda; gunakan panduan resmi produsen perangkat Anda.

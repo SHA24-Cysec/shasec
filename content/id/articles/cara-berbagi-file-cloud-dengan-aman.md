@@ -4,14 +4,15 @@ title: "Cara Berbagi File Cloud dengan Aman untuk Tim dan Klien"
 date: 2026-04-10
 draft: false
 categories:
-  - Keamanan Digital
+ - Keamanan Digital
 tags:
-  - keamanan digital
-  - privasi
-  - literasi digital
+ - keamanan digital
+ - privasi
+ - literasi digital
 summary: "Panduan mengatur tautan, izin, masa akses, dan dokumen sensitif saat berbagi file melalui layanan cloud."
 cover: "/images/articles/secure-cloud-file-sharing.webp"
 ---
+
 Berbagi file lewat cloud sudah jadi rutinitas kerja. Masalahnya bukan layanannya, melainkan pengaturan bagiannya. Satu link dengan izin terlalu longgar bisa membuat folder proyek, data klien, atau dokumen keuangan terbaca orang yang tidak diundang. Aturan dasarnya sederhana: beri akses secukupnya, untuk orang yang tepat, selama waktu yang dibutuhkan.
 
 ## Mengapa pengaturan berbagi sering bocor
@@ -47,6 +48,7 @@ Tentukan cakupan: file apa, sejak kapan, siapa yang punya akses. Cabut semua lin
 - **Mencampur file sensitif dan umum.** Satu kesalahan pengaturan bisa membuka keduanya.
 
 ## Pertanyaan yang sering diajukan
+
 ### Opsi "siapa pun yang punya link" aman?
 Cukup untuk file tidak sensitif. Untuk dokumen rahasia, gunakan pembagian per-email atau tambahkan kata sandi dan kedaluwarsa.
 
@@ -57,6 +59,6 @@ Buka panel berbagi file atau folder, lalu hapus nama atau nonaktifkan link. Peru
 Untuk dokumen rahasia yang dibagikan ke banyak pihak, watermark nama penerima membantu menelusuri sumber jika file bocor.
 
 ## Sumber dan bacaan lanjutan
-- [CISA: Secure Your Business](https://www.cisa.gov/audiences/small-and-medium-businesses/secure-your-business)
-- [CISA: Small and medium business resources](https://www.cisa.gov/audiences/small-and-medium-businesses/secure-your-business/smb-resources)
+- [CISA:SecureYourBusiness](https://www.Cisa.Gov/audiences/small-and-medium-businesses/secure-your-business)
+- [CISA:Smallandmediumbusinessresources](https://www.Cisa.Gov/audiences/small-and-medium-businesses/secure-your-business/smb-resources)
 > **Catatan editorial:** Artikel ini bersifat edukatif dan defensif. Fitur berbagi tiap layanan cloud berbeda; gunakan dokumentasi resmi penyedia Anda.

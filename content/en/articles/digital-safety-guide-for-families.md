@@ -4,14 +4,15 @@ title: "A Digital Safety Guide for Families"
 date: 2026-05-29
 draft: false
 categories:
-  - Digital Safety
+ - Digital Safety
 tags:
-  - digital safety
-  - privacy
-  - online security
+ - digital safety
+ - privacy
+ - online security
 summary: "Build simple rules for accounts, devices, scams, and help without making family members afraid of technology."
 cover: "/images/articles/family-digital-safety.webp"
 ---
+
 Family digital safety is not about banning technology but about setting simple rules everyone understands. Children, parents, and other members face different risks: kids hit by game-prize scams, older relatives hit by banking phishing. The goal is the same: each person knows when to stop and ask before doing something harmful.
 
 ## Why a family needs shared rules
@@ -47,14 +48,17 @@ Respond without blaming; shame makes people hide incidents. Limit the damage: ch
 - **Having no emergency contact.** In panic, the family needs to know who to call first.
 
 ## Frequently asked questions
+
 ### Are parental controls enough?
 They help, but they do not replace education. A child who understands the rules stays safer even away from home.
+
 ### At what age should teaching start?
 As soon as a child uses a device. Adjust the depth of explanation to the age.
+
 ### What about teenagers who resist rules?
 Negotiate the rules together and explain the reasons. Rules that are understood are accepted better than rules that are forced.
 
 ## Sources and further reading
-- [CISA: Core online safety actions](https://www.cisa.gov/news-events/news/national-internet-safety-month-june-take-4-easy-steps-stay-safe-online)
-- [FTC: Protect personal information](https://consumer.ftc.gov/articles/protect-your-personal-information-hackers-and-scammers)
+- [CISA:Coreonlinesafetyactions](https://www.Cisa.Gov/news-events/news/national-internet-safety-month-june-take-4-easy-steps-stay-safe-online)
+- [FTC:Protectpersonalinformation](https://consumer.Ftc.Gov/articles/protect-your-personal-information-hackers-and-scammers)
 > **Editorial note:** This article is educational and defensive. Parental control features differ between devices; use your device manufacturer's official guidance.

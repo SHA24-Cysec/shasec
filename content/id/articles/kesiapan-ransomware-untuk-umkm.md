@@ -4,14 +4,15 @@ title: "Kesiapan Menghadapi Ransomware untuk UMKM"
 date: 2026-05-08
 draft: false
 categories:
-  - Keamanan Digital
+ - Keamanan Digital
 tags:
-  - keamanan digital
-  - privasi
-  - literasi digital
+ - keamanan digital
+ - privasi
+ - literasi digital
 summary: "Panduan defensif untuk mengurangi dampak ransomware melalui backup, akses terbatas, pembaruan, dan rencana respons yang dapat dipraktikkan."
 cover: "/images/articles/ransomware-readiness-smb.webp"
 ---
+
 Ransomware mengenkripsi data usaha Anda lalu meminta tebusan untuk membukanya. Bagi UMKM, satu serangan bisa menghentikan operasional berhari-hari dan menghabiskan dana yang tidak ada. Yang menyelamatkan nyaris selalu bukan tebusan, melainkan backup yang tidak ikut terenkripsi dan akses yang dibatasi sejak awal.
 
 ## Mengapa UMKM jadi sasaran
@@ -47,14 +48,17 @@ Isolasi perangkat terinfeksi segera dengan mencabut kabel jaringan atau mematika
 - **Membuka RDP ke internet tanpa perlindungan.** Ini pintu masuk paling umum serangan UMKM.
 
 ## Pertanyaan yang sering diajukan
+
 ### Haruskah membayar tebusan?
 Tidak disarankan. Tidak ada jaminan data dikembalikan, dan pembayaran mendanai serangan berikutnya. Backup dan pemulihan adalah jalan utama.
+
 ### Seberapa sering backup?
 Harian untuk data aktif, dengan minimal satu salinan offline. Yang krusial: uji pemulihan secara berkala, bukan hanya membuat backup.
+
 ### Apakah antivirus cukup?
 Antivirus modern membantu, tetapi tambahkan EDR, pembaruan rutin, dan backup. Tidak ada satu alat yang menutup semua celah.
 
 ## Sumber dan bacaan lanjutan
-- [CISA: StopRansomware Guide](https://www.cisa.gov/stopransomware/ransomware-guide)
-- [CISA: Secure Your Business](https://www.cisa.gov/audiences/small-and-medium-businesses/secure-your-business)
+- [CISA:StopRansomwareGuide](https://www.Cisa.Gov/stopransomware/ransomware-guide)
+- [CISA:SecureYourBusiness](https://www.Cisa.Gov/audiences/small-and-medium-businesses/secure-your-business)
 > **Catatan editorial:** Artikel ini bersifat edukatif dan defensif. Untuk respons insiden aktual, libatkan profesional dan otoritas yang berlaku di wilayah Anda.

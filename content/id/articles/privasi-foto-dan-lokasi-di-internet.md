@@ -4,14 +4,15 @@ title: "Privasi Foto dan Lokasi di Internet: Apa yang Perlu Dipikirkan Sebelum M
 date: 2026-05-22
 draft: false
 categories:
-  - Keamanan Digital
+ - Keamanan Digital
 tags:
-  - keamanan digital
-  - privasi
-  - literasi digital
+ - keamanan digital
+ - privasi
+ - literasi digital
 summary: "Panduan berbagi foto, lokasi, dan informasi keseharian dengan lebih sadar tanpa harus berhenti memakai media sosial."
 cover: "/images/articles/photo-location-privacy.webp"
 ---
+
 Foto yang Anda unggah sering membawa lebih banyak dari yang terlihat. Metadata GPS, latar belakang papan nama, rutinitas harian, dan wajah anak bisa bocor dari satu gambar. Tujuannya bukan berhenti berbagi momen, melainkan berbagi dengan sadar: tahu apa yang terbawa, dan menahan yang sebaiknya tidak ikut.
 
 ## Mengapa foto dan lokasi perlu dipikirkan
@@ -47,14 +48,17 @@ Minta platform menghapus unggahan, dan minta teman yang meneruskan untuk menghap
 - **Tidak menghapus metadata GPS.** Foto mentah yang dikirim langsung bisa membawa koordinat persis.
 
 ## Pertanyaan yang sering diajukan
+
 ### Bagaimana menghapus metadata EXIF?
 Matikan "simpan lokasi" di pengaturan kamera ponsel, atau gunakan aplikasi pembersih EXIF sebelum membagikan foto sensitif.
+
 ### Boleh mengunggah foto anak?
 Pertimbangkan privasi jangka panjang mereka. Banyak orang tua menutupi wajah atau menahan info yang membocorkan sekolah dan rutinitas.
+
 ### Apakah backup cloud otomatis aman?
 Nyaman, tetapi periksa pengaturan berbagi album. Pastikan album pribadi tidak terbuka lewat link publik.
 
 ## Sumber dan bacaan lanjutan
-- [CISA: Core online safety actions](https://www.cisa.gov/news-events/news/national-internet-safety-month-june-take-4-easy-steps-stay-safe-online)
-- [FTC: Protect personal information](https://consumer.ftc.gov/articles/protect-your-personal-information-hackers-and-scammers)
+- [CISA:Coreonlinesafetyactions](https://www.Cisa.Gov/news-events/news/national-internet-safety-month-june-take-4-easy-steps-stay-safe-online)
+- [FTC:Protectpersonalinformation](https://consumer.Ftc.Gov/articles/protect-your-personal-information-hackers-and-scammers)
 > **Catatan editorial:** Artikel ini bersifat edukatif dan defensif. Pengaturan metadata dan privasi tiap platform berbeda; gunakan panduan resmi layanan Anda.

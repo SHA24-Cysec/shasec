@@ -4,14 +4,15 @@ title: "Manajemen Akses Digital untuk UMKM: Siapa Bisa Membuka Apa"
 date: 2026-04-24
 draft: false
 categories:
-  - Keamanan Digital
+ - Keamanan Digital
 tags:
-  - keamanan digital
-  - privasi
-  - literasi digital
+ - keamanan digital
+ - privasi
+ - literasi digital
 summary: "Panduan dasar untuk membatasi akses akun, aplikasi, file, dan perangkat sesuai kebutuhan kerja tanpa menghambat operasi."
 cover: "/images/articles/access-management-smb.webp"
 ---
+
 Manajemen akses menjawab satu pertanyaan sederhana: siapa boleh membuka apa. Untuk UMKM, pertanyaan ini sering terabaikan karena akun dibagi-bagi, karyawan datang dan pergi, dan satu kata sandi dipakai bersama. Akibatnya, akun mantan karyawan tetap aktif dan satu kebocoran bisa membuka seluruh usaha. Aturan dasarnya: akses secukupnya, untuk orang yang tepat, dicabut saat tidak lagi dibutuhkan.
 
 ## Mengapa UMKM sering kehilangan kendali akses
@@ -47,14 +48,17 @@ Catat akses itu, siapa pemiliknya, dan kapan terakhir dipakai. Cabut jika tidak 
 - **Memberi hak admin secara seragam.** Akses admin sebaiknya hanya untuk sedikit orang.
 
 ## Pertanyaan yang sering diajukan
+
 ### Password manager untuk tim aman?
 Ya, terutama yang mendukung vault bersama dengan akses per orang. Lebih aman daripada berbagi satu kata sandi lewat chat.
+
 ### Seberapa serang meninjau akses?
 Setiap ada perubahan personel, dan secara berkala minimal beberapa bulan sekali. Inventaris mempermudah peninjauan ini.
+
 ### MFA wajib untuk akun usaha?
 Untuk akun penting seperti email, pembayaran, dan media sosial utama, ya. MFA adalah lapisan yang paling efektif dengan biaya minimum.
 
 ## Sumber dan bacaan lanjutan
-- [CISA: Secure Your Business](https://www.cisa.gov/audiences/small-and-medium-businesses/secure-your-business)
-- [CISA: Small and medium business resources](https://www.cisa.gov/audiences/small-and-medium-businesses/secure-your-business/smb-resources)
+- [CISA:SecureYourBusiness](https://www.Cisa.Gov/audiences/small-and-medium-businesses/secure-your-business)
+- [CISA:Smallandmediumbusinessresources](https://www.Cisa.Gov/audiences/small-and-medium-businesses/secure-your-business/smb-resources)
 > **Catatan editorial:** Artikel ini bersifat edukatif dan defensif. Fitur manajemen akses tiap layanan berbeda; gunakan dokumentasi resmi penyedia Anda.

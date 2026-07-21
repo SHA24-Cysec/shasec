@@ -4,14 +4,15 @@ title: "How to Share Cloud Files Securely With Teams and Clients"
 date: 2026-04-10
 draft: false
 categories:
-  - Digital Safety
+ - Digital Safety
 tags:
-  - digital safety
-  - privacy
-  - online security
+ - digital safety
+ - privacy
+ - online security
 summary: "Set links, permissions, access duration, and sensitive documents more safely when sharing through cloud services."
 cover: "/images/articles/secure-cloud-file-sharing.webp"
 ---
+
 Sharing files through the cloud is now routine at work. The problem is not the service but the sharing settings. One link with permissions set too loosely can expose a project folder, client data, or financial documents to people who were never invited. The basic rule is simple: give just enough access, to the right people, for as long as needed.
 
 ## Why sharing settings often leak
@@ -47,6 +48,7 @@ Establish the scope: which files, since when, who had access. Revoke all links a
 - **Mixing sensitive and general files.** One wrong setting can expose both.
 
 ## Frequently asked questions
+
 ### Is "anyone with the link" safe?
 Fine for non-sensitive files. For confidential documents, share by email or add a password and expiry.
 
@@ -57,6 +59,6 @@ Open the sharing panel for the file or folder, then remove the name or disable t
 For confidential documents shared with many parties, a recipient-name watermark helps trace the source if the file leaks.
 
 ## Sources and further reading
-- [CISA: Secure Your Business](https://www.cisa.gov/audiences/small-and-medium-businesses/secure-your-business)
-- [CISA: Small and medium business resources](https://www.cisa.gov/audiences/small-and-medium-businesses/secure-your-business/smb-resources)
+- [CISA:SecureYourBusiness](https://www.Cisa.Gov/audiences/small-and-medium-businesses/secure-your-business)
+- [CISA:Smallandmediumbusinessresources](https://www.Cisa.Gov/audiences/small-and-medium-businesses/secure-your-business/smb-resources)
 > **Editorial note:** This article is educational and defensive. Sharing features differ between cloud providers; use your provider's official documentation.

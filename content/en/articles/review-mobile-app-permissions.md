@@ -4,14 +4,15 @@ title: "A Guide to Reviewing Mobile App Permissions"
 date: 2026-07-03
 draft: false
 categories:
-  - Digital Safety
+ - Digital Safety
 tags:
-  - digital safety
-  - privacy
-  - online security
+ - digital safety
+ - privacy
+ - online security
 summary: "Assess app access to camera, location, contacts, microphone, and device data with better judgment."
 cover: "/images/articles/app-permissions.webp"
 ---
+
 Every app asks for permissions: location, camera, contacts, microphone, gallery. The right permissions let the app work; excessive ones let it collect data it does not need for its task. Modern phones let you review and revoke those permissions one by one, and that is the easiest way to limit what leaks.
 
 ## Why app permissions matter
@@ -47,14 +48,17 @@ It is not too late. Open the permissions settings and revoke access that is not 
 - **Installing APKs from random sources.** Without store checks, malware risk rises sharply.
 
 ## Frequently asked questions
+
 ### What permissions are reasonable for an app?
 Those directly tied to its function: camera for photos, location for maps. Permissions outside the function deserve suspicion.
+
 ### Does revoking a permission break the app?
 Sometimes a specific feature stops. Many permissions can be moved to "while in use" without breaking the core function.
+
 ### Are official-store apps guaranteed safe?
 Safer than sideloaded ones, but still check permissions and developer reputation. The official store is not a 100% guarantee.
 
 ## Sources and further reading
-- [CISA: Core online safety actions](https://www.cisa.gov/news-events/news/national-internet-safety-month-june-take-4-easy-steps-stay-safe-online)
-- [FTC: Protect personal information](https://consumer.ftc.gov/articles/protect-your-personal-information-hackers-and-scammers)
+- [CISA:Coreonlinesafetyactions](https://www.Cisa.Gov/news-events/news/national-internet-safety-month-june-take-4-easy-steps-stay-safe-online)
+- [FTC:Protectpersonalinformation](https://consumer.Ftc.Gov/articles/protect-your-personal-information-hackers-and-scammers)
 > **Editorial note:** This article is educational and defensive. The permissions menu location differs between operating systems; use your phone's official guidance.

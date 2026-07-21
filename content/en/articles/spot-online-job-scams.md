@@ -4,14 +4,15 @@ title: "How to Spot Online Job Scams"
 date: 2026-06-19
 draft: false
 categories:
-  - Digital Safety
+ - Digital Safety
 tags:
-  - digital safety
-  - privacy
-  - online security
+ - digital safety
+ - privacy
+ - online security
 summary: "Check job listings, recruiter identity, fee requests, and documents before sharing personal information."
 cover: "/images/articles/job-scam-safety.webp"
 ---
+
 Fake job postings thrive because they target people who need income. The common pattern is easy work, high pay, low requirements. The real goal is not hiring but harvesting personal data, extorting fees, or turning you into a conduit for illicit funds. If an offer sounds too good, check first before sharing anything.
 
 ## Why online job scams are common
@@ -47,6 +48,7 @@ Record all communication, account numbers, and the names involved. If an ID or p
 - **Accepting a fund-transfer role.** Acting as a conduit for someone else's money is legally risky.
 
 ## Frequently asked questions
+
 ### How do I confirm a listing is real?
 Check trusted job portals and the company's official profile. Contact HR through a contact you find yourself, not from a recruiter's chat.
 
@@ -57,6 +59,6 @@ Yes, since a CV holds your work history. What to hold back is identity documents
 You are asked to receive a transfer and forward it to another account, or to cash out funds on someone's behalf. Decline and report it.
 
 ## Sources and further reading
-- [CISA: Core online safety actions](https://www.cisa.gov/news-events/news/national-internet-safety-month-june-take-4-easy-steps-stay-safe-online)
-- [FTC: Protect personal information](https://consumer.ftc.gov/articles/protect-your-personal-information-hackers-and-scammers)
+- [CISA:Coreonlinesafetyactions](https://www.Cisa.Gov/news-events/news/national-internet-safety-month-june-take-4-easy-steps-stay-safe-online)
+- [FTC:Protectpersonalinformation](https://consumer.Ftc.Gov/articles/protect-your-personal-information-hackers-and-scammers)
 > **Editorial note:** This article is educational and defensive. To verify postings, use official job portals and the labor authority that applies in your region.

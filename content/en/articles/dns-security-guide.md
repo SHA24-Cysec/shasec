@@ -4,18 +4,17 @@ title: "DNS Security: Why and How to Secure Your Domain Resolution"
 date: 2026-07-08
 draft: false
 categories:
-  - Digital Security
+ - Digital Security
 tags:
-  - dns
-  - digital security
-  - networking
-  - privacy
+ - dns
+ - digital security
+ - networking
+ - privacy
 summary: "DNS is the internet's phone book. If manipulated, you can be redirected to fake sites without realizing. Learn the threats to DNS and how to protect it."
 cover: "/images/articles/dns-security.webp"
 ---
-Every time you type a website address like "google.com" in your browser, your device contacts a DNS (Domain Name System) server to translate the domain name into an IP address. This process happens behind the scenes, in milliseconds, and you almost never think about it.
 
-But DNS is an often-overlooked vulnerable point. If someone can control or manipulate the DNS responses your device receives, they can redirect you to fake sites without you noticing. A bank that looks authentic, an identical login page, but all on the attacker's server.
+Every time you type a website address like "google. Com" in your browser, your device contacts a DNS (Domain Name System) server to translate the domain name into an IP address. This process happens behind the scenes, in milliseconds, and you almost never think about it. But DNS is an often-overlooked vulnerable point. If someone can control or manipulate the DNS responses your device receives, they can redirect you to fake sites without you noticing. A bank that looks authentic, an identical login page, but all on the attacker's server.
 
 ## Threats to DNS
 
@@ -45,11 +44,7 @@ Configure DNS on each device or on your router to protect your entire home netwo
 
 ### 2. Enable DNS over HTTPS (DoH) or DNS over TLS (DoT)
 
-DoH and DoT encrypt your DNS queries, preventing them from being read or modified on the network path. Modern browsers like Firefox and Chrome support DoH. Android 9+ supports DoT natively.
-
-In Firefox: Settings > Network Settings > Enable DNS over HTTPS. Choose a provider or enter a custom resolver URL.
-
-On Android: Settings > Network & Internet > Private DNS > Select "Private DNS provider hostname" and enter something like "dns.google" or "1dot1dot1dot1.cloudflare-dns.com".
+DoH and DoT encrypt your DNS queries, preventing them from being read or modified on the network path. Modern browsers like Firefox and Chrome support DoH. Android 9+ supports DoT natively. In Firefox: Settings > Network Settings > Enable DNS over HTTPS. Choose a provider or enter a custom resolver URL. On Android: Settings > Network & Internet > Private DNS > Select "Private DNS provider hostname" and enter something like "dns. Google" or "1dot1dot1dot1. Cloudflare-dns. Com".
 
 ### 3. Secure your router's DNS
 
@@ -80,9 +75,7 @@ DNS filtering blocks access to malicious or inappropriate domains before pages l
 
 ## Example: DNS hijacking through a router
 
-A user never changed the router admin password. Malware on one IoT device in their home network accessed the router admin panel and changed DNS to an attacker-controlled server. From then on, every time the user accessed banking sites, they were directed to identical-looking phishing pages. The user entered credentials without realizing the URL in the address bar looked correct but the responding server was not the actual bank server.
-
-Changing the router admin password and using DNS over HTTPS in the browser would have prevented this attack.
+A user never changed the router admin password. Malware on one IoT device in their home network accessed the router admin panel and changed DNS to an attacker-controlled server. From then on, every time the user accessed banking sites, they were directed to identical-looking phishing pages. The user entered credentials without realizing the URL in the address bar looked correct but the responding server was not the actual bank server. Changing the router admin password and using DNS over HTTPS in the browser would have prevented this attack.
 
 ## Common DNS mistakes
 
@@ -102,8 +95,8 @@ No. DoH hides DNS queries from your ISP, but the DoH resolver you choose can sti
 DNS filtering helps, but smart children can find bypass methods. Combine with device-level parental controls and open communication about online safety.
 
 ## Sources and further reading
-- [Cloudflare: DNS Security](https://www.cloudflare.com/learning/dns/dns-security/)
-- [CISA: DNS Security Best Practices](https://www.cisa.gov/dns-security)
-- [EFF: How to Enable DNS over HTTPS](https://www.eff.org/)
+- [Cloudflare:DNSSecurity](https://www.Cloudflare.Com/learning/dns/dns-security/)
+- [CISA:DNSSecurityBestPractices](https://www.Cisa.Gov/dns-security)
+- [EFF:HowtoEnableDNSoverHTTPS](https://www.Eff.Org/)
 
 > **Editorial note:** DNS configuration varies by device and network. This guide is general; adapt it to your devices and network environment.

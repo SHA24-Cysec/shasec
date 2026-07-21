@@ -4,14 +4,15 @@ title: "How to Protect Personal Data Online Without Making Life Difficult"
 date: 2026-07-10
 draft: false
 categories:
-  - Digital Safety
+ - Digital Safety
 tags:
-  - digital safety
-  - privacy
-  - online security
+ - digital safety
+ - privacy
+ - online security
 summary: "Recognize sensitive data, limit unnecessary sharing, and respond to unusual information requests."
 cover: "/images/articles/personal-data-protection.webp"
 ---
+
 Personal data is almost impossible to take back once it spreads. A photo of an ID card, an address, a full birth date, or a mother's maiden name can be used to open accounts, apply for loans in your name, or craft phishing that is highly convincing. The goal is not to stop using the internet, but to choose what really needs to be shared.
 
 ## Why personal data is worth protecting
@@ -47,6 +48,7 @@ Note what data was exposed and to whom. Change passwords for related accounts, e
 - **Leaving old accounts open.** Unused accounts still hold data with minimal protection.
 
 ## Frequently asked questions
+
 ### What counts as the most sensitive data?
 ID number, full birth date, mother's maiden name, address, and bank account number. These are most often used to verify identity.
 
@@ -57,6 +59,6 @@ Hide the year if you can. Many services use the full date for password resets.
 Start with unused accounts: sign in, delete data, deactivate. For data held by third-party sites, file a deletion request under the service's terms.
 
 ## Sources and further reading
-- [CISA: Core online safety actions](https://www.cisa.gov/news-events/news/national-internet-safety-month-june-take-4-easy-steps-stay-safe-online)
-- [FTC: Protect personal information](https://consumer.ftc.gov/articles/protect-your-personal-information-hackers-and-scammers)
+- [CISA:Coreonlinesafetyactions](https://www.Cisa.Gov/news-events/news/national-internet-safety-month-june-take-4-easy-steps-stay-safe-online)
+- [FTC:Protectpersonalinformation](https://consumer.Ftc.Gov/articles/protect-your-personal-information-hackers-and-scammers)
 > **Editorial note:** This article is educational and defensive. Privacy rules differ between services; use the official help center for specific settings.

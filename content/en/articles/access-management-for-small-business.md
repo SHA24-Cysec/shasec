@@ -4,14 +4,15 @@ title: "Digital Access Management for Small Businesses: Who Can Open What"
 date: 2026-04-24
 draft: false
 categories:
-  - Digital Safety
+ - Digital Safety
 tags:
-  - digital safety
-  - privacy
-  - online security
+ - digital safety
+ - privacy
+ - online security
 summary: "Limit access to accounts, apps, files, and devices by work need without stopping operations."
 cover: "/images/articles/access-management-smb.webp"
 ---
+
 Access management answers one simple question: who may open what. For a small business, that question is often ignored because accounts get shared, staff come and go, and one password is used by everyone. The result is former employees' accounts still active and one leak opening the whole business. The basic rule: just enough access, for the right person, revoked when no longer needed.
 
 ## Why small businesses lose control of access
@@ -47,14 +48,17 @@ Record the access, who owns it, and when it was last used. Revoke it if no longe
 - **Handing out admin rights uniformly.** Admin access should belong to few people.
 
 ## Frequently asked questions
+
 ### Is a team password manager safe?
 Yes, especially one that supports shared vaults with per-person access. It is safer than sharing one password through chat.
+
 ### How often should we review access?
 Whenever staffing changes, and on a regular schedule at least every few months. An inventory makes this review easier.
+
 ### Is MFA required for business accounts?
 For important accounts such as email, payments, and main social media, yes. MFA is the most effective layer at minimum cost.
 
 ## Sources and further reading
-- [CISA: Secure Your Business](https://www.cisa.gov/audiences/small-and-medium-businesses/secure-your-business)
-- [CISA: Small and medium business resources](https://www.cisa.gov/audiences/small-and-medium-businesses/secure-your-business/smb-resources)
+- [CISA:SecureYourBusiness](https://www.Cisa.Gov/audiences/small-and-medium-businesses/secure-your-business)
+- [CISA:Smallandmediumbusinessresources](https://www.Cisa.Gov/audiences/small-and-medium-businesses/secure-your-business/smb-resources)
 > **Editorial note:** This article is educational and defensive. Access management features differ between services; use your provider's official documentation.

@@ -6,3 +6,4 @@ type: "page"
 excludeFromSearch: true
 translationKey: "search"
 ---
+

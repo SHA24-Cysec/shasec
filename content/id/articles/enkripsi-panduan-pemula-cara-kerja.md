@@ -4,26 +4,21 @@ title: "Enkripsi untuk Pemula: Cara Kerja, Jenis, dan Cara Menggunakannya Sehari
 date: 2026-06-20
 draft: false
 categories:
-  - Keamanan Digital
+ - Keamanan Digital
 tags:
-  - enkripsi
-  - privasi
-  - keamanan digital
-  - literasi digital
+ - enkripsi
+ - privasi
+ - keamanan digital
+ - literasi digital
 summary: "Enkripsi mengubah data Anda menjadi kode yang hanya bisa dibaca oleh penerima yang sah. Pahami jenis-jenisnya dan kapan Anda perlu memakainya."
 cover: "/images/articles/encryption-guide.webp"
 ---
-Setiap kali Anda mengirim pesan WhatsApp, membuka situs bank, atau menyimpan file di cloud, data Anda melewati jaringan yang bisa dipantau orang lain. Enkripsi adalah mekanisme yang membuat data itu tidak bisa dibaca oleh siapa pun selain pengirim dan penerima yang sah. Tanpa enkripsi, internet akan menjadi tempat di mana setiap percakapan, transaksi, dan file bisa dibaca oleh siapa saja yang berada di jalur yang sama.
 
-Anda tidak perlu memahami matematika di balik enkripsi untuk memanfaatkannya. Yang perlu Anda pahami adalah kapan data Anda terenkripsi, kapan tidak, dan langkah apa yang bisa Anda ambil untuk memastikan perlindungan berjalan.
+Setiap kali Anda mengirim pesan WhatsApp, membuka situs bank, atau menyimpan file di cloud, data Anda melewati jaringan yang bisa dipantau orang lain. Enkripsi adalah mekanisme yang membuat data itu tidak bisa dibaca oleh siapa pun selain pengirim dan penerima yang sah. Tanpa enkripsi, internet akan menjadi tempat di mana setiap percakapan, transaksi, dan file bisa dibaca oleh siapa saja yang berada di jalur yang sama. Anda tidak perlu memahami matematika di balik enkripsi untuk memanfaatkannya. Yang perlu Anda pahami adalah kapan data Anda terenkripsi, kapan tidak, dan langkah apa yang bisa Anda ambil untuk memastikan perlindungan berjalan.
 
 ## Bagaimana enkripsi bekerja secara sederhana
 
-Enkripsi mengubah teks biasa (plaintext) menjadi teks acak (ciphertext) menggunakan algoritma matematika dan kunci rahasia. Hanya pihak yang memiliki kunci yang tepat yang bisa mengubah ciphertext kembali menjadi plaintext.
-
-Bayangkan Anda mengirim surat dalam kotak terkunci. Anda mengunci kotak dengan kunci yang hanya Anda dan penerima yang punya salinannya. Kurir yang membawa kotak tidak bisa membukanya. Itulah prinsip dasar enkripsi.
-
-Ada dua jenis utama:
+Enkripsi mengubah teks biasa (plaintext) menjadi teks acak (ciphertext) menggunakan algoritma matematika dan kunci rahasia. Hanya pihak yang memiliki kunci yang tepat yang bisa mengubah ciphertext kembali menjadi plaintext. Bayangkan Anda mengirim surat dalam kotak terkunci. Anda mengunci kotak dengan kunci yang hanya Anda dan penerima yang punya salinannya. Kurir yang membawa kotak tidak bisa membukanya. Itulah prinsip dasar enkripsi. Ada dua jenis utama:
 
 **Enkripsi simetris** memakai satu kunci yang sama untuk mengunci dan membuka. Cepat dan efisien, tapi kedua pihak harus memiliki kunci yang sama tanpa orang lain tahu.
 
@@ -33,15 +28,11 @@ Ada dua jenis utama:
 
 ### Enkripsi data saat transit (HTTPS/TLS)
 
-Saat Anda membuka situs dengan awalan "https://" dan ikon gembok di browser, koneksi antara browser dan server terenkripsi menggunakan protokol TLS. Ini mencegah siapa pun di jaringan (operator WiFi, ISP, atau penyerang) membaca data yang Anda kirim dan terima.
-
-Semua situs yang menangani data sensitif seharusnya memakai HTTPS. Jika situs bank atau email Anda tidak memiliki HTTPS, jangan masukkan data apa pun.
+Saat Anda membuka situs dengan awalan "https://" dan ikon gembok di browser, koneksi antara browser dan server terenkripsi menggunakan protokol TLS. Ini mencegah siapa pun di jaringan (operator WiFi, ISP, atau penyerang) membaca data yang Anda kirim dan terima. Semua situs yang menangani data sensitif seharusnya memakai HTTPS. Jika situs bank atau email Anda tidak memiliki HTTPS, jangan masukkan data apa pun.
 
 ### Enkripsi end-to-end (E2EE)
 
-Enkripsi end-to-end melindungi pesan dari ujung ke ujung: hanya pengirim dan penerima yang bisa membaca isinya. Penyedia layanan (WhatsApp, Signal, iMessage) tidak bisa membaca pesan Anda, bahkan jika dipaksa oleh pengadilan.
-
-WhatsApp mengaktifkan E2EE secara default untuk chat dan panggilan. Signal dan iMessage juga memakai E2EE. Tapi SMS biasa dan email standar tidak terenkripsi end-to-end.
+Enkripsi end-to-end melindungi pesan dari ujung ke ujung: hanya pengirim dan penerima yang bisa membaca isinya. Penyedia layanan (WhatsApp, Signal, iMessage) tidak bisa membaca pesan Anda, bahkan jika dipaksa oleh pengadilan. WhatsApp mengaktifkan E2EE secara default untuk chat dan panggilan. Signal dan iMessage juga memakai E2EE. Tapi SMS biasa dan email standar tidak terenkripsi end-to-end.
 
 ### Enkripsi data saat disimpan (at rest)
 
@@ -95,8 +86,8 @@ Dampaknya sangat kecil pada perangkat modern. Enkripsi disk penuh menambah laten
 Tidak semua data memerlukan enkripsi tingkat tinggi. Prioritaskan data sensitif: kata sandi, data keuangan, dokumen identitas, komunikasi pribadi, dan data klien.
 
 ## Sumber dan bacaan lanjutan
-- [EFF: Encryption Basics](https://ssd.eff.org/en/module/what-should-i-know-about-encryption)
-- [NIST: Cryptographic Standards](https://csrc.nist.gov/projects/cryptographic-standards-and-guidelines)
-- [Signal Protocol Documentation](https://signal.org/docs/)
+- [EFF:EncryptionBasics](https://ssd.Eff.Org/en/module/what-should-i-know-about-encryption)
+- [NIST:CryptographicStandards](https://csrc.Nist.Gov/projects/cryptographic-standards-and-guidelines)
+- [SignalProtocolDocumentation](https://signal.Org/docs/)
 
 > **Catatan editorial:** Artikel ini menjelaskan konsep enkripsi untuk pemahaman umum. Implementasi teknis spesifik bergantung pada platform dan alat yang Anda pakai.

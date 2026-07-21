@@ -4,18 +4,17 @@ title: "Keamanan E-commerce untuk Penjual Online: 8 Langkah Melindungi Toko dan 
 date: 2026-06-26
 draft: false
 categories:
-  - Keamanan Digital
+ - Keamanan Digital
 tags:
-  - ecommerce
-  - keamanan digital
-  - umkm
-  - bisnis online
+ - ecommerce
+ - keamanan digital
+ - umkm
+ - bisnis online
 summary: "Toko online Anda menyimpan data pelanggan, riwayat transaksi, dan akses pembayaran. Jika diretas, dampaknya bisa menghancurkan reputasi dan keuangan bisnis Anda."
 cover: "/images/articles/ecommerce-security.webp"
 ---
-Menjalankan toko online berarti Anda bertanggung jawab atas data pelanggan: nama, alamat, nomor telepon, riwayat pembelian, dan dalam beberapa kasus informasi pembayaran. Pelanggan mempercayakan data mereka kepada Anda, dan satu insiden keamanan bisa menghapus kepercayaan yang dibangun bertahun-tahun.
 
-Baik Anda menjual melalui marketplace, website sendiri, atau media sosial, ancaman keamanan tetap nyata. Peretas menargetkan toko online kecil sama agresifnya dengan toko besar, karena toko kecil sering memiliki perlindungan yang lebih lemah.
+Menjalankan toko online berarti Anda bertanggung jawab atas data pelanggan: nama, alamat, nomor telepon, riwayat pembelian, dan dalam beberapa kasus informasi pembayaran. Pelanggan mempercayakan data mereka kepada Anda, dan satu insiden keamanan bisa menghapus kepercayaan yang dibangun bertahun-tahun. Baik Anda menjual melalui marketplace, website sendiri, atau media sosial, ancaman keamanan tetap nyata. Peretas menargetkan toko online kecil sama agresifnya dengan toko besar, karena toko kecil sering memiliki perlindungan yang lebih lemah.
 
 ## Ancaman yang menargetkan penjual online
 
@@ -34,9 +33,7 @@ Akun marketplace (Tokopedia, Shopee, Bukalapak), akun payment gateway, dan panel
 
 ### 2. Pastikan website toko memakai HTTPS dan SSL
 
-Jika Anda menjalankan website sendiri (WooCommerce, Shopify, atau platform lain), sertifikat SSL wajib aktif. HTTPS mengenkripsi data yang dikirim pelanggan saat checkout. Tanpa SSL, data kartu kredit dan informasi pribadi pelanggan bisa dicegat di jaringan.
-
-Kebanyakan penyedia hosting dan platform e-commerce menyediakan SSL gratis melalui Let's Encrypt. Aktifkan dan pastikan semua halaman, bukan hanya halaman checkout, memakai HTTPS.
+Jika Anda menjalankan website sendiri (WooCommerce, Shopify, atau platform lain), sertifikat SSL wajib aktif. HTTPS mengenkripsi data yang dikirim pelanggan saat checkout. Tanpa SSL, data kartu kredit dan informasi pribadi pelanggan bisa dicegat di jaringan. Kebanyakan penyedia hosting dan platform e-commerce menyediakan SSL gratis melalui Let's Encrypt. Aktifkan dan pastikan semua halaman, bukan hanya halaman checkout, memakai HTTPS.
 
 ### 3. Perbarui platform, tema, dan plugin secara rutin
 
@@ -74,11 +71,7 @@ Di Indonesia, Undang-Undang Pelindungan Data Pribadi (UU PDP) mengatur kewajiban
 
 ## Contoh: website toko yang disusupi malware
 
-Seorang penjual online memakai WordPress dengan WooCommerce. Ia memasang plugin gratis dari sumber tidak resmi untuk menambahkan fitur wishlist. Plugin tersebut mengandung malware yang menyisipkan skrip di halaman checkout. Setiap kali pelanggan memasukkan data kartu kredit, data tersebut dikirim ke server pelaku.
-
-Selama dua minggu, ratusan data kartu kredit pelanggan dicuri sebelum pemilik toko menyadari ada yang salah. Dampaknya: chargeback massal, reputasi hancur, dan investigasi yang memakan waktu berbulan-bulan.
-
-Menggunakan plugin hanya dari sumber resmi dan memperbarui secara rutin akan mencegah skenario ini.
+Seorang penjual online memakai WordPress dengan WooCommerce. Ia memasang plugin gratis dari sumber tidak resmi untuk menambahkan fitur wishlist. Plugin tersebut mengandung malware yang menyisipkan skrip di halaman checkout. Setiap kali pelanggan memasukkan data kartu kredit, data tersebut dikirim ke server pelaku. Selama dua minggu, ratusan data kartu kredit pelanggan dicuri sebelum pemilik toko menyadari ada yang salah. Dampaknya: chargeback massal, reputasi hancur, dan investigasi yang memakan waktu berbulan-bulan. Menggunakan plugin hanya dari sumber resmi dan memperbarui secara rutin akan mencegah skenario ini.
 
 ## Kesalahan umum penjual online
 
@@ -98,8 +91,8 @@ Banyak penyedia hosting menyediakan SSL gratis melalui Let's Encrypt. SSL berbay
 Ikuti prosedur yang diatur UU PDP: identifikasi data yang bocor, amankan sistem, laporkan ke otoritas dalam 3×24 jam, dan beri tahu pelanggan yang terdampak. Dokumentasikan setiap langkah untuk keperluan audit.
 
 ## Sumber dan bacaan lanjutan
-- [OWASP: E-Commerce Security](https://owasp.org/www-project-web-security-testing-guide/)
-- [PCI DSS: Payment Card Industry Standards](https://www.pcisecuritystandards.org/)
-- [UU Pelindungan Data Pribadi No. 27 Tahun 2022](https://peraturan.bpk.go.id/)
+- [OWASP:E-CommerceSecurity](https://owasp.Org/www-project-web-security-testing-guide/)
+- [PCIDSS:PaymentCardIndustryStandards](https://www.Pcisecuritystandards.Org/)
+- [UUPelindunganDataPribadiNo.27Tahun2022](https://peraturan.Bpk.Go.Id/)
 
 > **Catatan editorial:** Artikel ini bersifat panduan umum. Kewajiban hukum spesifik bergantung pada yurisdiksi dan jenis data yang Anda proses. Konsultasikan dengan ahli hukum untuk kepatuhan yang tepat.

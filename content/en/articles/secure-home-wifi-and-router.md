@@ -4,14 +4,15 @@ title: "How to Secure Home Wi-Fi and the Router"
 date: 2026-05-15
 draft: false
 categories:
-  - Digital Safety
+ - Digital Safety
 tags:
-  - digital safety
-  - privacy
-  - online security
+ - digital safety
+ - privacy
+ - online security
 summary: "Protect the home network, router credentials, guest devices, and smart devices from becoming a weak point."
 cover: "/images/articles/home-wifi-security.webp"
 ---
+
 Your home router connects nearly every device you own to the internet: phone, laptop, cameras, smart TV, even light switches. One weak setting on that box can open many devices at once. The good news: most fixes take a few minutes in the router's admin panel.
 
 ## Why the router is often the weak point
@@ -47,6 +48,7 @@ Start with the step that limits the damage. Unplug the router briefly, then powe
 - **Never checking firmware.** An unpatched router keeps old, publicly known flaws forever.
 
 ## Frequently asked questions
+
 ### Should I use WPA3?
 Use WPA3 if both your router and devices support it. If not, WPA2 with a strong password is still fine for home use. Avoid WEP and WPA.
 
@@ -57,6 +59,6 @@ If the manufacturer no longer ships firmware updates for it, replace it. A route
 The effect is small for normal use. The benefit of isolating IoT and guest devices far outweighs a barely noticeable drop in speed.
 
 ## Sources and further reading
-- [CISA: Core online safety actions](https://www.cisa.gov/news-events/news/national-internet-safety-month-june-take-4-easy-steps-stay-safe-online)
-- [FTC: Protect personal information](https://consumer.ftc.gov/articles/protect-your-personal-information-hackers-and-scammers)
+- [CISA:Coreonlinesafetyactions](https://www.Cisa.Gov/news-events/news/national-internet-safety-month-june-take-4-easy-steps-stay-safe-online)
+- [FTC:Protectpersonalinformation](https://consumer.Ftc.Gov/articles/protect-your-personal-information-hackers-and-scammers)
 > **Editorial note:** This article is educational and defensive. Menus and options differ between routers; use your device's official manual for the exact technical steps.

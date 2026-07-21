@@ -4,18 +4,17 @@ title: "SIM Swap Attack: How to Prevent Your Phone Number from Being Hijacked"
 date: 2026-06-29
 draft: false
 categories:
-  - Digital Security
+ - Digital Security
 tags:
-  - sim swap
-  - digital security
-  - authentication
-  - fraud
+ - sim swap
+ - digital security
+ - authentication
+ - fraud
 summary: "SIM swap attackers transfer your phone number to their SIM card, then hijack all accounts that use SMS for verification. Learn the threat and protect your number."
 cover: "/images/articles/sim-swap-attack.webp"
 ---
-Your phone number is the backup key to nearly all your online accounts. Email password resets, bank login verification, WhatsApp OTP codes — all can be sent via SMS. If someone takes over your phone number, they take over the gateway to your digital life.
 
-A SIM swap attack is a technique where attackers convince your mobile carrier to transfer your number to a SIM card they hold. Once successful, all SMS and calls that should reach your phone go to the attacker instead.
+Your phone number is the backup key to nearly all your online accounts. Email password resets, bank login verification, WhatsApp OTP codes: all can be sent via SMS. If someone takes over your phone number, they take over the gateway to your digital life. A SIM swap attack is a technique where attackers convince your mobile carrier to transfer your number to a SIM card they hold. Once successful, all SMS and calls that should reach your phone go to the attacker instead.
 
 ## How SIM swapping happens
 
@@ -32,25 +31,22 @@ The carrier processes the request and moves your number to the attacker's SIM ca
 Attackers use your number to reset email passwords, access bank accounts, and hijack social media accounts. If OTPs are sent via SMS, the attacker receives them. Within minutes, they can access bank accounts, primary email, and cryptocurrency accounts.
 
 ## Signs your number is being SIM swapped
-
 - **Phone signal suddenly drops** without a clear technical reason (not in a no-signal area)
 - **Cannot send or receive SMS and calls** despite sufficient credit
 - **Receiving email notifications about password resets** you did not request
 - **Banking or email apps logging you out** without reason
-
 If you experience any of these signs, act immediately. Every minute counts.
 
 ## 7 steps to prevent SIM swapping
 
 ### 1. Set a security PIN on your carrier account
-Contact your carrier and request activation of a PIN or security password specifically for your account. This PIN is required before anyone can make changes to the account, including SIM card replacements. Each carrier has different procedures, so contact customer service or visit an official store.
+Contact your carrier and request activation of a PIN or security password for your account. This PIN is required before anyone can make changes to the account, including SIM card replacements. Each carrier has different procedures, so contact customer service or visit an official store.
 
 ### 2. Reduce dependence on SMS OTP
 Replace SMS verification with more secure methods:
 - **Authenticator apps** (Google Authenticator, Authy, Microsoft Authenticator) for services that support them
 - **Push notifications** for login verification (like Google Prompt)
 - **Security keys** (YubiKey, Titan) for high-value accounts
-
 The fewer accounts that rely on SMS OTP, the smaller the impact if your number is swapped.
 
 ### 3. Protect personal information on social media
@@ -64,10 +60,10 @@ SIM swap attackers gather data from social media to answer carrier verification 
 Set your primary email to receive notifications whenever there are password changes, login attempts, or reset requests on important services. If you receive a reset notification you did not request, investigate immediately.
 
 ### 5. Set up a secure recovery email
-Recovery email for important accounts should be protected with a strong password and 2FA that does not depend on SMS. If attackers take over your phone number, they may try to reset email — but if email is protected with an authenticator app, they are stopped.
+Recovery email for important accounts should be protected with a strong password and 2FA that does not depend on SMS. If attackers take over your phone number, they may try to reset email: but if email is protected with an authenticator app, they are stopped.
 
 ### 6. Do not share your phone number freely
-Every place you provide your phone number adds a point where that information could leak. Consider whether you truly need to provide your phone number for service registrations, online forms, or membership cards.
+Every place you provide your phone number adds a point where that information could leak. Consider whether you need to provide your phone number for service registrations, online forms, or membership cards.
 
 ### 7. Prepare an emergency response plan
 Write down the steps to take if your number is swapped:
@@ -75,11 +71,9 @@ Write down the steps to take if your number is swapped:
 - Official bank numbers for account freezing
 - List of accounts that need securing
 - Nearest carrier store location
-
 Store this plan somewhere accessible without your phone (printed or in email accessible from another device).
 
 ## If your number has been swapped
-
 1. **Contact the carrier immediately** through customer service or visit an official store. Bring ID to prove your identity. Request the number be returned to your SIM.
 2. **Contact your bank** to freeze accounts and block unauthorized transactions.
 3. **Change passwords on all important accounts** from a device you control.
@@ -93,14 +87,13 @@ Store this plan somewhere accessible without your phone (printed or in email acc
 Yes. All carriers have SIM replacement procedures, and these procedures can be abused. Some carriers have stricter verification than others.
 
 ### How long does number recovery take after a swap?
-It varies by carrier. If you can prove identity with official ID at an official store, the process usually completes within hours.
+It varies by carrier. If you can prove identity with official ID at an official store, the process completes within hours.
 
 ### Is eSIM safer than physical SIM?
 eSIM can be safer because there is no physical card to swap, but eSIM reactivation processes can also be manipulated if attackers have enough personal data. A security PIN is still necessary.
 
 ## Sources and further reading
-- [FBI: SIM Swapping](https://www.fbi.gov/how-we-can-help-you/safety-resources/scams-and-fraud/sim-swapping)
-- [FTC: SIM Swap Scams](https://consumer.ftc.gov/consumer-alerts/2023/07/how-protect-yourself-sim-swap-scams)
-- [CISA: Mobile Device Security](https://www.cisa.gov/topics/cybersecurity-best-practices/mobile-device-security)
-
+- [FBI:SIMSwapping](https://www.Fbi.Gov/how-we-can-help-you/safety-resources/scams-and-fraud/sim-swapping)
+- [FTC:SIMSwapScams](https://consumer.Ftc.Gov/consumer-alerts/2023/07/how-protect-yourself-sim-swap-scams)
+- [CISA:MobileDeviceSecurity](https://www.Cisa.Gov/topics/cybersecurity-best-practices/mobile-device-security)
 > **Editorial note:** Procedures vary by carrier. Contact your carrier directly to learn about specific security options available.

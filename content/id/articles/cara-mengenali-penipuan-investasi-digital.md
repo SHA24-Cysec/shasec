@@ -4,14 +4,15 @@ title: "Cara Mengenali Penipuan Investasi Digital Tanpa Memberi Saran Investasi"
 date: 2026-06-12
 draft: false
 categories:
-  - Keamanan Digital
+ - Keamanan Digital
 tags:
-  - keamanan digital
-  - privasi
-  - literasi digital
+ - keamanan digital
+ - privasi
+ - literasi digital
 summary: "Panduan literasi keamanan untuk mengenali janji keuntungan tidak wajar, identitas promotor palsu, dan permintaan pembayaran berisiko."
 cover: "/images/articles/investment-scam-awareness.webp"
 ---
+
 Artikel ini bukan saran investasi. Tujuannya satu: membantu Anda mengenali tanda penipuan investasi digital sebelum uang keluar. Penipuan jenis ini berkembang karena menjanjikan keuntungan besar dengan risiko kecil, padahal investasi sah selalu punya risiko. Kalau tanda-tandanya cocok, urungkan niat, berapa pun keyakinan Anda.
 
 ## Mengapa penipuan investasi sulit dideteksi
@@ -47,6 +48,7 @@ Hentikan semua pembayaran segera. Catat bukti: chat, nomor rekening penerima, na
 - **Membayar biaya pencairan beruntun.** Setiap permintaan biaya baru adalah tanda uang sudah hilang.
 
 ## Pertanyaan yang sering diajukan
+
 ### Bagaimana mengecek legalitas investasi?
 Cek di situs resmi OJK untuk produk finansial atau bursa/otoritas terkait. Jika tidak terdaftar, anggap berisiko tinggi.
 
@@ -57,6 +59,6 @@ Bukan otomatis, tetapi pasar crypto sangat flukturatif dan banyak disalahgunakan
 Sulit, terutama bila sudah berpindah ke banyak rekening atau crypto. Laporkan segera agar ada peluang pembekuan rekening penerima.
 
 ## Sumber dan bacaan lanjutan
-- [CISA: Core online safety actions](https://www.cisa.gov/news-events/news/national-internet-safety-month-june-take-4-easy-steps-stay-safe-online)
-- [FTC: Protect personal information](https://consumer.ftc.gov/articles/protect-your-personal-information-hackers-and-scammers)
+- [CISA:Coreonlinesafetyactions](https://www.Cisa.Gov/news-events/news/national-internet-safety-month-june-take-4-easy-steps-stay-safe-online)
+- [FTC:Protectpersonalinformation](https://consumer.Ftc.Gov/articles/protect-your-personal-information-hackers-and-scammers)
 > **Catatan editorial:** Artikel ini bersifat edukatif dan defensif, bukan saran investasi. Untuk verifikasi resmi, gunakan otoritas finansial yang berlaku di wilayah Anda.

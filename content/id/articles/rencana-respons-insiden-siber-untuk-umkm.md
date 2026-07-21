@@ -4,14 +4,15 @@ title: "Rencana Respons Insiden Siber untuk UMKM"
 date: 2026-04-17
 draft: false
 categories:
-  - Keamanan Digital
+ - Keamanan Digital
 tags:
-  - keamanan digital
-  - privasi
-  - literasi digital
+ - keamanan digital
+ - privasi
+ - literasi digital
 summary: "Kerangka sederhana untuk menyiapkan peran, komunikasi, bukti, dan pemulihan sebelum insiden siber mengganggu operasional."
 cover: "/images/articles/incident-response-smb.webp"
 ---
+
 Rencana respons insiden adalah daftar langkah tertulis yang dijalankan saat serangan siber terjadi. Tujuannya bukan mencegah semua insiden (tidak mungkin), melainkan membatasi dampak dan memulihkan operasional secepat mungkin. Saat krisis, kewaspadaan turun; rencana yang sudah ada membuat tim bertindak terurut, bukan panik.
 
 ## Mengapa UMKM butuh rencana respons
@@ -47,14 +48,17 @@ Ikuti urutan: isolasi dulu, lalu investigasi. Hubungi kontak sesuai daftar, dan 
 - **Tidak pernah latihan.** Rencana yang tidak pernah dicoba sering gagal saat benar-benar dipakai.
 
 ## Pertanyaan yang sering diajukan
+
 ### Rencana respons harus mahal?
 Tidak. Dokumen sederhana berisi peran, langkah isolasi, kontak, dan komunikasi sudah sangat membantu, terutama untuk UMKM.
+
 ### Seberapa sering berlatih?
 Minimal sekali setahun, dan setelah perubahan besar pada sistem atau tim. Latihan ringan lebih berguna daripada tidak sama sekali.
+
 ### Jika data pelanggan bocor?
 Laporkan sesuai aturan yang berlaku dan beri tahu pelanggan yang terdampak dengan jelas. Kecepatan dan kejujuran melindungi kepercayaan dan kepatuhan.
 
 ## Sumber dan bacaan lanjutan
-- [CISA: Secure Your Business](https://www.cisa.gov/audiences/small-and-medium-businesses/secure-your-business)
-- [CISA: Small and medium business resources](https://www.cisa.gov/audiences/small-and-medium-businesses/secure-your-business/smb-resources)
+- [CISA:SecureYourBusiness](https://www.Cisa.Gov/audiences/small-and-medium-businesses/secure-your-business)
+- [CISA:Smallandmediumbusinessresources](https://www.Cisa.Gov/audiences/small-and-medium-businesses/secure-your-business/smb-resources)
 > **Catatan editorial:** Artikel ini bersifat edukatif dan defensif. Untuk insiden aktual, libatkan profesional dan otoritas yang berlaku di wilayah Anda.

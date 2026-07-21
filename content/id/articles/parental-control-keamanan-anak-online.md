@@ -4,24 +4,21 @@ title: "Panduan Parental Control: Menjaga Anak Aman di Internet Tanpa Mengontrol
 date: 2026-07-18
 draft: false
 categories:
-  - Keamanan Digital
+ - Keamanan Digital
 tags:
-  - parental control
-  - keamanan anak
-  - keamanan digital
-  - literasi digital
+ - parental control
+ - keamanan anak
+ - keamanan digital
+ - literasi digital
 summary: "Alat parental control membantu membatasi konten dan waktu layar, tapi perlindungan terbaik datang dari kombinasi teknologi dan komunikasi. Panduan ini menyeimbangkan keduanya."
 cover: "/images/articles/parental-control.webp"
 ---
-Anak-anak dan remaja menghabiskan waktu berjam-jam di internet setiap hari: menonton video, bermain game online, chatting dengan teman, mengerjakan tugas, dan menjelajahi media sosial. Internet menawarkan akses tak terbatas ke informasi dan komunitas, tapi juga membuka pintu ke konten yang tidak sesuai umur, predator online, cyberbullying, dan kecanduan layar.
 
-Parental control bukan tentang memata-matai anak. Ini tentang membangun pagar pembatas yang sesuai usia sambil secara bertahap mengajarkan mereka membuat keputusan digital yang baik sendiri.
+Anak-anak dan remaja menghabiskan waktu berjam-jam di internet setiap hari: menonton video, bermain game online, chatting dengan teman, mengerjakan tugas, dan menjelajahi media sosial. Internet menawarkan akses tak terbatas ke informasi dan komunitas, tapi juga membuka pintu ke konten yang tidak sesuai umur, predator online, cyberbullying, dan kecanduan layar. Parental control bukan tentang memata-matai anak. Ini tentang membangun pagar pembatas yang sesuai usia sambil secara bertahap mengajarkan mereka membuat keputusan digital yang baik sendiri.
 
 ## Mengapa pendekatan murni teknis tidak cukup
 
-Memasang filter dan pengawasan tanpa komunikasi menghasilkan dua skenario buruk: anak menemukan cara bypass (dan mereka akan menemukannya), atau anak tidak pernah belajar menilai risiko sendiri. Pendekatan yang efektif menggabungkan alat teknis dengan dialog terbuka yang berkembang sesuai usia anak.
-
-Anak usia 6 tahun membutuhkan pembatasan ketat dan pendampingan aktif. Remaja 15 tahun membutuhkan privasi dan kepercayaan yang dibangun dari fondasi literasi digital yang sudah ditanamkan bertahun-tahun sebelumnya.
+Memasang filter dan pengawasan tanpa komunikasi menghasilkan dua skenario buruk: anak menemukan cara bypass (dan mereka akan menemukannya), atau anak tidak pernah belajar menilai risiko sendiri. Pendekatan yang efektif menggabungkan alat teknis dengan dialog terbuka yang berkembang sesuai usia anak. Anak usia 6 tahun membutuhkan pembatasan ketat dan pendampingan aktif. Remaja 15 tahun membutuhkan privasi dan kepercayaan yang dibangun dari fondasi literasi digital yang sudah ditanamkan bertahun-tahun sebelumnya.
 
 ## Langkah teknis: alat parental control yang tersedia
 
@@ -37,9 +34,7 @@ Mulai dari perangkat yang paling sering dipakai anak. Aktifkan pengaturan dasar 
 
 ### 2. Konfigurasi router untuk memfilter konten di level jaringan
 
-Banyak router modern menyediakan fitur parental control yang memblokir kategori situs (judi, pornografi, kekerasan) untuk semua perangkat di jaringan rumah. Ini melindungi perangkat apa pun yang terhubung ke WiFi rumah, termasuk yang tidak bisa dipasang aplikasi parental control.
-
-Beberapa router juga memungkinkan penjadwalan: misalnya, memblokir akses internet untuk perangkat anak setelah pukul 21.00.
+Banyak router modern menyediakan fitur parental control yang memblokir kategori situs (judi, pornografi, kekerasan) untuk semua perangkat di jaringan rumah. Ini melindungi perangkat apa pun yang terhubung ke WiFi rumah, termasuk yang tidak bisa dipasang aplikasi parental control. Beberapa router juga memungkinkan penjadwalan: misalnya, memblokir akses internet untuk perangkat anak setelah pukul 21.00.
 
 ### 3. Atur DNS yang memfilter konten
 
@@ -98,8 +93,8 @@ Untuk anak kecil, memeriksa aktivitas online adalah bagian dari pengawasan. Untu
 Ini normal dan menunjukkan kecerdasan teknis. Alih-alih memperketat filter, bicarakan mengapa mereka ingin mengakses konten tersebut dan apa risikonya. Fondasi komunikasi lebih kuat dari pagar teknis.
 
 ## Sumber dan bacaan lanjutan
-- [Common Sense Media: Parenting with Technology](https://www.commonsensemedia.org/articles)
-- [UNICEF: Child Online Safety](https://www.unicef.org/child-protection/online-protection)
-- [Google: Family Link Help](https://families.google.com/familylink/)
+- [CommonSenseMedia:ParentingwithTechnology](https://www.Commonsensemedia.Org/articles)
+- [UNICEF:ChildOnlineSafety](https://www.Unicef.Org/child-protection/online-protection)
+- [Google:FamilyLinkHelp](https://families.Google.Com/familylink/)
 
 > **Catatan editorial:** Artikel ini bersifat panduan umum. Setiap keluarga memiliki nilai dan kebutuhan berbeda. Sesuaikan pendekatan dengan konteks keluarga Anda.

@@ -4,14 +4,15 @@ title: "Ransomware Readiness for Small Businesses"
 date: 2026-05-08
 draft: false
 categories:
-  - Digital Safety
+ - Digital Safety
 tags:
-  - digital safety
-  - privacy
-  - online security
+ - digital safety
+ - privacy
+ - online security
 summary: "Reduce ransomware impact through backups, limited access, updates, and a response plan that can be practiced."
 cover: "/images/articles/ransomware-readiness-smb.webp"
 ---
+
 Ransomware encrypts your business data and then demands payment to unlock it. For a small business, a single attack can halt operations for days and drain money that simply is not there. What saves you is almost never the ransom, but a backup that did not get encrypted and access that was limited from the start.
 
 ## Why small businesses are targeted
@@ -47,14 +48,17 @@ Isolate the infected device at once by unplugging the network cable or turning o
 - **Exposing RDP to the internet without protection.** This is the most common entry point for small-business attacks.
 
 ## Frequently asked questions
+
 ### Should we pay the ransom?
 Not advised. There is no guarantee data is returned, and payment funds the next attack. Backup and recovery are the main path.
+
 ### How often should we back up?
 Daily for active data, with at least one offline copy. What matters: test recovery regularly, not only create backups.
+
 ### Is antivirus enough?
 Modern antivirus helps, but add EDR, routine updates, and backups. No single tool closes every gap.
 
 ## Sources and further reading
-- [CISA: StopRansomware Guide](https://www.cisa.gov/stopransomware/ransomware-guide)
-- [CISA: Secure Your Business](https://www.cisa.gov/audiences/small-and-medium-businesses/secure-your-business)
+- [CISA:StopRansomwareGuide](https://www.Cisa.Gov/stopransomware/ransomware-guide)
+- [CISA:SecureYourBusiness](https://www.Cisa.Gov/audiences/small-and-medium-businesses/secure-your-business)
 > **Editorial note:** This article is educational and defensive. For an actual incident response, involve a professional and the authority that applies in your region.

@@ -4,14 +4,15 @@ title: "A Cyber Incident Response Plan for Small Businesses"
 date: 2026-04-17
 draft: false
 categories:
-  - Digital Safety
+ - Digital Safety
 tags:
-  - digital safety
-  - privacy
-  - online security
+ - digital safety
+ - privacy
+ - online security
 summary: "A simple framework for roles, communication, evidence, and recovery before a cyber incident disrupts operations."
 cover: "/images/articles/incident-response-smb.webp"
 ---
+
 An incident response plan is a written list of steps your team runs when a cyber attack happens. Its goal is not to prevent every incident (impossible), but to limit the damage and restore operations as fast as possible. During a crisis, alertness drops; a plan that already exists lets the team act in order rather than in panic.
 
 ## Why a small business needs a response plan
@@ -47,14 +48,17 @@ Follow the order: isolate first, then investigate. Contact people from the list,
 - **Never practicing.** A plan that is never tested often fails when it is truly needed.
 
 ## Frequently asked questions
+
 ### Does a response plan have to be expensive?
 No. A simple document with roles, isolation steps, contacts, and communication already helps a great deal, especially for a small business.
+
 ### How often should we practice?
 At least once a year, and after a major change to systems or team. A light drill beats none at all.
+
 ### If customer data leaks?
 Report under the rules that apply and clearly notify affected customers. Speed and honesty protect trust and compliance.
 
 ## Sources and further reading
-- [CISA: Secure Your Business](https://www.cisa.gov/audiences/small-and-medium-businesses/secure-your-business)
-- [CISA: Small and medium business resources](https://www.cisa.gov/audiences/small-and-medium-businesses/secure-your-business/smb-resources)
+- [CISA:SecureYourBusiness](https://www.Cisa.Gov/audiences/small-and-medium-businesses/secure-your-business)
+- [CISA:Smallandmediumbusinessresources](https://www.Cisa.Gov/audiences/small-and-medium-businesses/secure-your-business/smb-resources)
 > **Editorial note:** This article is educational and defensive. For an actual incident, involve a professional and the authority that applies in your region.

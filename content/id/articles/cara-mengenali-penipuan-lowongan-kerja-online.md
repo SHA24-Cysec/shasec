@@ -4,14 +4,15 @@ title: "Cara Mengenali Penipuan Lowongan Kerja Online"
 date: 2026-06-19
 draft: false
 categories:
-  - Keamanan Digital
+ - Keamanan Digital
 tags:
-  - keamanan digital
-  - privasi
-  - literasi digital
+ - keamanan digital
+ - privasi
+ - literasi digital
 summary: "Panduan memeriksa lowongan, identitas perekrut, permintaan biaya, dan dokumen sebelum membagikan data pribadi."
 cover: "/images/articles/job-scam-safety.webp"
 ---
+
 Lowongan kerja palsu berkembang karena memanfaatkan orang yang sedang butuh penghasilan. Pola umumnya: pekerjaan ringan, upah tinggi, syarat mudah. Tujuan sebenarnya bukan merekrut, melainkan mengambil data pribadi, memeras biaya, atau menjadikan Anda perantara dana hasil kejahatan. Kalau tawaran terdengar terlalu bagus, periksa dulu sebelum membagikan apa pun.
 
 ## Mengapa penipuan lowongan online marak
@@ -47,6 +48,7 @@ Catat semua komunikasi, nomor rekening, dan nama yang terlibat. Jika KTP atau da
 - **Menerima peran transfer dana.** Menjadi perantara uang pihak lain berisiko secara hukum.
 
 ## Pertanyaan yang sering diajukan
+
 ### Bagaimana memastikan lowongan resmi?
 Cek di portal kerja terpercaya dan profil resmi perusahaan. Hubungi HR lewat kontak yang Anda cari sendiri, bukan dari chat perekrut.
 
@@ -57,6 +59,6 @@ Boleh, karena CV berisi riwayat kerja. Yang perlu ditahan adalah dokumen identit
 Anda diminta menerima transfer lalu meneruskan ke rekening lain, atau mencairkan dana atas nama pihak lain. Tolak dan laporkan.
 
 ## Sumber dan bacaan lanjutan
-- [CISA: Core online safety actions](https://www.cisa.gov/news-events/news/national-internet-safety-month-june-take-4-easy-steps-stay-safe-online)
-- [FTC: Protect personal information](https://consumer.ftc.gov/articles/protect-your-personal-information-hackers-and-scammers)
+- [CISA:Coreonlinesafetyactions](https://www.Cisa.Gov/news-events/news/national-internet-safety-month-june-take-4-easy-steps-stay-safe-online)
+- [FTC:Protectpersonalinformation](https://consumer.Ftc.Gov/articles/protect-your-personal-information-hackers-and-scammers)
 > **Catatan editorial:** Artikel ini bersifat edukatif dan defensif. Untuk verifikasi lowongan, gunakan portal kerja resmi dan otoritas tenaga kerja yang berlaku di wilayah Anda.

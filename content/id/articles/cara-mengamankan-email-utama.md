@@ -4,14 +4,15 @@ title: "Cara Mengamankan Email Utama sebagai Pusat Pemulihan Akun"
 date: 2026-06-26
 draft: false
 categories:
-  - Keamanan Digital
+ - Keamanan Digital
 tags:
-  - keamanan digital
-  - privasi
-  - literasi digital
+ - keamanan digital
+ - privasi
+ - literasi digital
 summary: "Langkah untuk menjaga email utama karena layanan ini sering menjadi pintu pemulihan bagi akun lain."
 cover: "/images/articles/primary-email-security.webp"
 ---
+
 Email utama Anda lebih penting dari akun lain. Saat Anda lupa kata sandi bank atau media sosial, layanan itu mengirim tautan reset ke email ini. Siapa pun yang menguasai email utama bisa mencoba mereset akun-akun lain sambil menghapus pemberitahuan yang masuk. Itulah alasan email utama perlu perlindungan paling kuat.
 
 ## Mengapa email utama jadi target utama
@@ -47,6 +48,7 @@ Tetap tenang dan urutkan langkah. Jika masih bisa masuk, ganti kata sandi segera
 - **Tidak memeriksa aturan forwarding.** Aturan penyerang bisa aktif berminggu-minggu tanpa Anda sadari.
 
 ## Pertanyaan yang sering diajukan
+
 ### Passkey bisa dipakai untuk email?
 Bisa, jika penyedia email mendukung. Passkey mengurangi ketergantungan pada kata sandi dan kode. Tetap siapkan opsi pemulihan resmi sebagai cadangan.
 
@@ -57,6 +59,6 @@ Lebih kuat daripada SMS karena tidak bergantung pada jaringan seluler atau nomor
 Setidaknya setiap beberapa bulan, atau setiap kali ada perangkat baru, pergantian nomor, atau setelah membuka tautan yang meragukan.
 
 ## Sumber dan bacaan lanjutan
-- [CISA: Core online safety actions](https://www.cisa.gov/news-events/news/national-internet-safety-month-june-take-4-easy-steps-stay-safe-online)
-- [FTC: Protect personal information](https://consumer.ftc.gov/articles/protect-your-personal-information-hackers-and-scammers)
+- [CISA:Coreonlinesafetyactions](https://www.Cisa.Gov/news-events/news/national-internet-safety-month-june-take-4-easy-steps-stay-safe-online)
+- [FTC:Protectpersonalinformation](https://consumer.Ftc.Gov/articles/protect-your-personal-information-hackers-and-scammers)
 > **Catatan editorial:** Artikel ini bersifat edukatif dan defensif. Nama menu tiap penyedia email berbeda; gunakan pusat bantuan resmi untuk langkah teknis terbaru.

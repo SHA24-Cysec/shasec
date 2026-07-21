@@ -4,24 +4,21 @@ title: "Deepfakes: How to Spot Increasingly Convincing Fake Videos and Audio"
 date: 2026-07-18
 draft: false
 categories:
-  - Digital Security
+ - Digital Security
 tags:
-  - deepfake
-  - ai
-  - digital security
-  - fraud
+ - deepfake
+ - ai
+ - digital security
+ - fraud
 summary: "Deepfakes can replicate anyone's face and voice with quality that is hard to distinguish from the real thing. Learn the signs that are still detectable and how to respond."
 cover: "/images/articles/deepfake-detection.webp"
 ---
-Deepfakes are synthetic media created using artificial intelligence to replace someone's face, voice, or movements with highly realistic forgeries. The technology advances quickly: deepfakes that looked obviously fake two years ago can now fool even careful observers. Deepfake creation apps are available on phones, and the cost approaches zero.
 
-The impact extends beyond celebrities and politicians. Deepfake-based fraud already targets company employees: attackers use video calls with a fake CEO's face to order fund transfers, or a supervisor's cloned voice on the phone to request confidential information.
+Deepfakes are synthetic media created using artificial intelligence to replace someone's face, voice, or movements with highly realistic forgeries. The technology advances quickly: deepfakes that looked obviously fake two years ago can now fool even careful observers. Deepfake creation apps are available on phones, and the cost approaches zero. The impact extends beyond celebrities and politicians. Deepfake-based fraud already targets company employees: attackers use video calls with a fake CEO's face to order fund transfers, or a supervisor's cloned voice on the phone to request confidential information.
 
 ## How deepfakes work
 
-Deepfakes use AI models called generative adversarial networks (GANs) or diffusion models. These models are trained on thousands of photos or voice recordings of the target, then generate new media mimicking their characteristics: facial expressions, speech patterns, intonation, even lip movements synchronized with speech.
-
-For voice, voice cloning technology needs only a few seconds of original recording to produce a convincing copy. For video, real-time deepfakes can now be used in live video calls, not just pre-processed recordings.
+Deepfakes use AI models called generative adversarial networks (GANs) or diffusion models. These models are trained on thousands of photos or voice recordings of the target, then generate new media mimicking their characteristics: facial expressions, speech patterns, intonation, even lip movements synchronized with speech. For voice, voice cloning technology needs only a few seconds of original recording to produce a convincing copy. For video, real-time deepfakes can now be used in live video calls, not just pre-processed recordings.
 
 ## 7 signs of deepfakes that are still detectable
 
@@ -69,9 +66,7 @@ Family and colleagues unaware of deepfakes are more vulnerable. Share informatio
 
 ## Deepfakes in business fraud context
 
-Business Email Compromise (BEC) attacks now evolve into Business Identity Compromise using deepfakes. Attackers call employees with voices mimicking supervisors, or hold video calls with manipulated faces, to order fund transfers or data leaks.
-
-Some companies have added multi-channel verification procedures: every transfer request above a certain amount must be confirmed through at least two different communication channels (phone + email + internal messaging).
+Business Email Compromise (BEC) attacks now evolve into Business Identity Compromise using deepfakes. Attackers call employees with voices mimicking supervisors, or hold video calls with manipulated faces, to order fund transfers or data leaks. Some companies have added multi-channel verification procedures: every transfer request above a certain amount must be confirmed through at least two different communication channels (phone + email + internal messaging).
 
 ## Frequently asked questions
 
@@ -85,8 +80,8 @@ Some deepfake detection tools exist, but they lag behind creation technology. Au
 In the context of direct fraud, yes. Voice cloning requires less source data and can be used in real-time phone calls without the complex preparation video requires.
 
 ## Sources and further reading
-- [CISA: Deepfake Awareness](https://www.cisa.gov/deepfakes)
-- [MIT Media Lab: Detecting Deepfakes](https://www.media.mit.edu/)
-- [FTC: AI and Deepfakes in Fraud](https://consumer.ftc.gov/articles/what-know-about-ai-and-deepfakes)
+- [CISA:DeepfakeAwareness](https://www.Cisa.Gov/deepfakes)
+- [MITMediaLab:DetectingDeepfakes](https://www.Media.Mit.Edu/)
+- [FTC:AIandDeepfakesinFraud](https://consumer.Ftc.Gov/articles/what-know-about-ai-and-deepfakes)
 
 > **Editorial note:** This article is educational and defensive in nature. Deepfake technology evolves rapidly; the signs mentioned may become less relevant as technology advances.

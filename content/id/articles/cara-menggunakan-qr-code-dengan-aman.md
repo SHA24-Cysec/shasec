@@ -4,14 +4,15 @@ title: "Cara Menggunakan QR Code dengan Aman di Tempat Umum"
 date: 2026-06-05
 draft: false
 categories:
-  - Keamanan Digital
+ - Keamanan Digital
 tags:
-  - keamanan digital
-  - privasi
-  - literasi digital
+ - keamanan digital
+ - privasi
+ - literasi digital
 summary: "Langkah sederhana untuk memeriksa QR code, tautan tujuan, dan permintaan pembayaran sebelum membuka atau memindai."
 cover: "/images/articles/qr-code-safety.webp"
 ---
+
 QR code menyembunyikan alamat tujuan. Mata Anda tidak bisa membaca ke mana ia mengarah sampai ponsel memprosesnya. Itu yang membuat QR begitu praktis dan sekaligus berbahaya: satu stiker yang ditempel di atas QR asli bisa mengarahkan Anda ke halaman pembayaran palsu atau unduhan aplikasi jahat.
 
 ## Mengapa QR di tempat umum rentan
@@ -47,6 +48,7 @@ Jangan masukkan apa pun di halaman yang terbuka. Tutup tab dan, jika ragu, hapus
 - **Membagikan OTP yang diminta halaman QR.** Layanan sah tidak meminta OTP Anda untuk "verifikasi pembayaran".
 
 ## Pertanyaan yang sering diajukan
+
 ### Bisakah QR code berbahaya?
 Bisa. QR hanya menyimpan teks, biasanya URL, dan tujuannya bisa apa pun termasuk halaman penipuan.
 
@@ -57,6 +59,6 @@ Yang menampilkan URL tujuan dan meminta konfirmasi sebelum membuka. Kamera bawaa
 Sebagian besar aman, tetapi tetap periksa apakah stiker ditempel di atasnya dan apakah domain menu masuk akal sebelum memesan.
 
 ## Sumber dan bacaan lanjutan
-- [CISA: Core online safety actions](https://www.cisa.gov/news-events/news/national-internet-safety-month-june-take-4-easy-steps-stay-safe-online)
-- [FTC: Protect personal information](https://consumer.ftc.gov/articles/protect-your-personal-information-hackers-and-scammers)
+- [CISA:Coreonlinesafetyactions](https://www.Cisa.Gov/news-events/news/national-internet-safety-month-june-take-4-easy-steps-stay-safe-online)
+- [FTC:Protectpersonalinformation](https://consumer.Ftc.Gov/articles/protect-your-personal-information-hackers-and-scammers)
 > **Catatan editorial:** Artikel ini bersifat edukatif dan defensif. Perilaku QR tiap aplikasi pembayaran berbeda; gunakan panduan resmi penyedia layanan Anda.

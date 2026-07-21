@@ -4,14 +4,15 @@ title: "Business Email Security and Business Email Compromise Prevention"
 date: 2026-05-01
 draft: false
 categories:
-  - Digital Safety
+ - Digital Safety
 tags:
-  - digital safety
-  - privacy
-  - online security
+ - digital safety
+ - privacy
+ - online security
 summary: "Strengthen business email processes so payment changes, data requests, and urgent instructions are harder to misuse."
 cover: "/images/articles/business-email-security.webp"
 ---
+
 Business Email Compromise (BEC) is a scam that impersonates an internal or trusted party, usually an executive or vendor, to request a money transfer or data. Attackers often do not need to hack the email; they only need to trick staff with a convincing message. For a small business, one transfer to a scammer's account can burn months of capital.
 
 ## Why BEC is so effective
@@ -27,7 +28,7 @@ Every transfer request or bank detail change must be verified through another ch
 Requests that are urgent, secret, or "do not tell anyone" are classic BEC signs. Pressure and secrecy are designed to make staff skip verification. Make wariness of this combination part of the work culture.
 
 ### 3. Inspect the sender address closely
-Attackers use look-alike domains that are not identical, for example `companny.com` instead of `company.com`, or a display name "CEO" with a foreign address. Train staff to look at the actual address, not just the display name. A small spelling difference is a sign of impersonation.
+Attackers use look-alike domains that are not identical, for example `companny. Com` instead of `company. Com`, or a display name "CEO" with a foreign address. Train staff to look at the actual address, not just the display name. A small spelling difference is a sign of impersonation.
 
 ### 4. Set a rule: no bank changes by email alone
 Write down that a vendor or employee bank detail change may not rest on email alone. Require a form or oral confirmation from someone authorized. A written rule gives finance staff a basis to refuse a suspicious request.
@@ -47,14 +48,17 @@ Contact the bank at once and request that the recipient's account be frozen; the
 - **Looking only at the display name, not the address.** The name "CEO" is easy to fake; the domain is not.
 
 ## Frequently asked questions
+
 ### What is BEC?
 A scam that impersonates an internal or trusted party, such as a leader or vendor, to request a money transfer or sensitive data.
+
 ### What is the most effective prevention?
 Second-channel verification for every payment change. Call a known number, not the one in the email.
+
 ### A "leader" email asks for a secret transfer?
 Almost certainly a scam. The combination of urgent, secret, and transfer-requesting is a classic BEC signature.
 
 ## Sources and further reading
-- [CISA: Secure Your Business](https://www.cisa.gov/audiences/small-and-medium-businesses/secure-your-business)
-- [CISA: Small and medium business resources](https://www.cisa.gov/audiences/small-and-medium-businesses/secure-your-business/smb-resources)
+- [CISA:SecureYourBusiness](https://www.Cisa.Gov/audiences/small-and-medium-businesses/secure-your-business)
+- [CISA:Smallandmediumbusinessresources](https://www.Cisa.Gov/audiences/small-and-medium-businesses/secure-your-business/smb-resources)
 > **Editorial note:** This article is educational and defensive. To report an actual scam, use the bank's official channels and the authority that applies in your region.

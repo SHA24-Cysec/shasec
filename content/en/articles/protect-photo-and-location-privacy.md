@@ -4,14 +4,15 @@ title: "Photo and Location Privacy Online: What to Consider Before Sharing"
 date: 2026-05-22
 draft: false
 categories:
-  - Digital Safety
+ - Digital Safety
 tags:
-  - digital safety
-  - privacy
-  - online security
+ - digital safety
+ - privacy
+ - online security
 summary: "Share photos, location, and everyday information more consciously without leaving social media."
 cover: "/images/articles/photo-location-privacy.webp"
 ---
+
 Photos you upload often carry more than meets the eye. GPS metadata, a nameplate in the background, a daily routine, a child's face can all leak from a single image. The goal is not to stop sharing moments but to share with awareness: know what travels with the photo, and hold back what should not.
 
 ## Why photos and location deserve thought
@@ -47,14 +48,17 @@ Ask the platform to remove the post, and ask friends who forwarded it to delete 
 - **Not stripping GPS metadata.** A raw photo sent directly can carry exact coordinates.
 
 ## Frequently asked questions
+
 ### How do I remove EXIF metadata?
 Turn off "save location" in the phone camera settings, or use an EXIF-removal app before sharing a sensitive photo.
+
 ### Is it okay to post photos of children?
 Consider their long-term privacy. Many parents blur faces or hold back information that reveals school and routine.
+
 ### Is automatic cloud backup safe?
 Convenient, but check the album sharing settings. Make sure private albums are not open through a public link.
 
 ## Sources and further reading
-- [CISA: Core online safety actions](https://www.cisa.gov/news-events/news/national-internet-safety-month-june-take-4-easy-steps-stay-safe-online)
-- [FTC: Protect personal information](https://consumer.ftc.gov/articles/protect-your-personal-information-hackers-and-scammers)
+- [CISA:Coreonlinesafetyactions](https://www.Cisa.Gov/news-events/news/national-internet-safety-month-june-take-4-easy-steps-stay-safe-online)
+- [FTC:Protectpersonalinformation](https://consumer.Ftc.Gov/articles/protect-your-personal-information-hackers-and-scammers)
 > **Editorial note:** This article is educational and defensive. Metadata and privacy settings differ between platforms; use your service's official guidance.

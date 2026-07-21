@@ -4,14 +4,15 @@ title: "Cara Mengamankan Wi-Fi Rumah dan Router"
 date: 2026-05-15
 draft: false
 categories:
-  - Keamanan Digital
+ - Keamanan Digital
 tags:
-  - keamanan digital
-  - privasi
-  - literasi digital
+ - keamanan digital
+ - privasi
+ - literasi digital
 summary: "Langkah praktis untuk menjaga jaringan rumah, kata sandi router, perangkat tamu, dan perangkat pintar agar tidak menjadi titik lemah."
 cover: "/images/articles/home-wifi-security.webp"
 ---
+
 Router rumah menghubungkan hampir semua perangkat Anda ke internet: ponsel, laptop, kamera, TV pintar, hingga saklar lampu. Satu pengaturan lemah pada perangkat ini bisa membuka banyak perangkat sekaligus. Kabar baiknya, sebagian besar perbaikan hanya butuh beberapa menit di panel administrasi router.
 
 ## Mengapa router sering jadi titik lemah
@@ -47,6 +48,7 @@ Mulai dari langkah yang membatasi dampak. Cabut daya router sebentar, lalu nyala
 - **Tidak pernah memeriksa firmware.** Router yang tidak diperbarui tetap punya celah lama yang sudah diketahui publik.
 
 ## Pertanyaan yang sering diajukan
+
 ### WPA3 harus dipakai?
 Pakai WPA3 bila router dan perangkat Anda mendukungnya. Jika belum, WPA2 dengan kata sandi kuat masih cukup untuk pemakaian rumah. Hindari WEP dan WPA.
 
@@ -57,6 +59,6 @@ Kalau router tidak lagi menerima pembaruan firmware dari pabrikan, ganti. Router
 Pengaruhnya kecil untuk pemakaian normal. Manfaat isolasi perangkat IoT dan tamu jauh melebihi penurunan kecepatan yang nyaris tidak terasa.
 
 ## Sumber dan bacaan lanjutan
-- [CISA: Core online safety actions](https://www.cisa.gov/news-events/news/national-internet-safety-month-june-take-4-easy-steps-stay-safe-online)
-- [FTC: Protect personal information](https://consumer.ftc.gov/articles/protect-your-personal-information-hackers-and-scammers)
+- [CISA:Coreonlinesafetyactions](https://www.Cisa.Gov/news-events/news/national-internet-safety-month-june-take-4-easy-steps-stay-safe-online)
+- [FTC:Protectpersonalinformation](https://consumer.Ftc.Gov/articles/protect-your-personal-information-hackers-and-scammers)
 > **Catatan editorial:** Artikel ini bersifat edukatif dan defensif. Menu dan opsi setiap router berbeda; gunakan manual resmi perangkat Anda untuk langkah teknis yang tepat.

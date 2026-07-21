@@ -4,14 +4,15 @@ title: "Cara Melindungi Data Pribadi di Internet Tanpa Menyulitkan Diri"
 date: 2026-07-10
 draft: false
 categories:
-  - Keamanan Digital
+ - Keamanan Digital
 tags:
-  - keamanan digital
-  - privasi
-  - literasi digital
+ - keamanan digital
+ - privasi
+ - literasi digital
 summary: "Panduan untuk mengenali data sensitif, membatasi penyebarannya, dan merespons permintaan informasi yang tidak biasa."
 cover: "/images/articles/personal-data-protection.webp"
 ---
+
 Data pribadi sekali tersebar nyaris mustahil ditarik. Foto KTP, alamat, tanggal lahir lengkap, atau nama gadis ibu sering dipakai untuk membuka akun, mengajukan pinjaman atas nama Anda, atau menyusun phishing yang sangat meyakinkan. Tujuannya bukan berhenti memakai internet, melainkan memilih apa yang benar-benar perlu dibagikan.
 
 ## Mengapa data pribadi layak dijaga
@@ -47,6 +48,7 @@ Catat data apa yang dibocorkan dan ke siapa. Ganti kata sandi akun terkait, teru
 - **Membiarkan akun lama terbuka.** Akun tak terpakai tetap menyimpan data dengan perlindungan minimum.
 
 ## Pertanyaan yang sering diajukan
+
 ### Apa saja data paling sensitif?
 Nomor KTP, tanggal lahir lengkap, nama gadis ibu, alamat, dan nomor rekening. Ini paling sering dipakai untuk verifikasi identitas.
 
@@ -57,6 +59,6 @@ Sebaiknya sembunyikan tahunnya. Tanggal lengkap dipakai banyak layanan untuk res
 Mulai dari akun yang tidak terpakai: masuk, hapus data, nonaktifkan. Untuk data di situs pihak ketiga, ajukan permintaan penghapusan sesuai ketentuan layanan.
 
 ## Sumber dan bacaan lanjutan
-- [CISA: Core online safety actions](https://www.cisa.gov/news-events/news/national-internet-safety-month-june-take-4-easy-steps-stay-safe-online)
-- [FTC: Protect personal information](https://consumer.ftc.gov/articles/protect-your-personal-information-hackers-and-scammers)
+- [CISA:Coreonlinesafetyactions](https://www.Cisa.Gov/news-events/news/national-internet-safety-month-june-take-4-easy-steps-stay-safe-online)
+- [FTC:Protectpersonalinformation](https://consumer.Ftc.Gov/articles/protect-your-personal-information-hackers-and-scammers)
 > **Catatan editorial:** Artikel ini bersifat edukatif dan defensif. Aturan privasi tiap layanan berbeda; gunakan pusat bantuan resmi untuk pengaturan yang spesifik.

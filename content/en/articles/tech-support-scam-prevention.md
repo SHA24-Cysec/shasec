@@ -4,50 +4,39 @@ title: "Tech Support Scams: 6 Schemes You Must Recognize"
 date: 2026-06-23
 draft: false
 categories:
-  - Digital Security
+ - Digital Security
 tags:
-  - fraud
-  - tech support scam
-  - digital security
-  - malware
+ - fraud
+ - tech support scam
+ - digital security
+ - malware
 summary: "Tech support scammers impersonate IT staff from major companies to steal money and data. Learn their schemes and how to stop them."
 cover: "/images/articles/tech-support-scam.webp"
 ---
-A pop-up appears on screen: "WARNING: Your computer is infected with a dangerous virus! Call Microsoft Support immediately at 1-800-XXXX." An alarmed voice plays from the speakers. A phone number flashes. This is not a warning from Microsoft. This is a tech support scam, and millions of people worldwide fall victim every year.
 
-Tech support scams work by creating fear and urgency, then offering "help" that actually leads to money theft, malware installation, or personal data theft.
+A pop-up appears on screen: "WARNING: Your computer is infected with a dangerous virus! Call Microsoft Support immediately at 1-800-XXXX." An alarmed voice plays from the speakers. A phone number flashes. This is not a warning from Microsoft. This is a tech support scam, and millions of people worldwide fall victim every year. Tech support scams work by creating fear and urgency, then offering "help" that actually leads to money theft, malware installation, or personal data theft.
 
 ## How tech support scams work
 
-Scammers use several stages: first, they make victims believe there is a serious problem with their computer. Second, they build trust by impersonating technicians from well-known companies. Third, they "fix" a problem that does not actually exist, while stealing data or requesting payment.
-
-Amounts requested vary from hundreds to thousands of dollars for "software licenses" or "repair services" that are completely unnecessary.
+Scammers use several stages: first, they make victims believe there is a serious problem with their computer. Second, they build trust by impersonating technicians from well-known companies. Third, they "fix" a problem that does not actually exist, while stealing data or requesting payment. Amounts requested vary from hundreds to thousands of dollars for "software licenses" or "repair services" that are completely unnecessary.
 
 ## 6 tech support scam schemes
 
 ### 1. Fake warning pop-ups in the browser
 
-You are browsing the internet when a pop-up appears with a virus warning, complete with Microsoft or Apple logos. These pop-ups often lock the browser making it difficult to close. A "support" phone number is prominently displayed.
-
-The fact: Microsoft and Apple never display virus warnings through browser pop-ups. Real security warnings come from antivirus software installed on the system, not from web pages.
+You are browsing the internet when a pop-up appears with a virus warning, complete with Microsoft or Apple logos. These pop-ups often lock the browser making it difficult to close. A "support" phone number is prominently displayed. The fact: Microsoft and Apple never display virus warnings through browser pop-ups. Real security warnings come from antivirus software installed on the system, not from web pages.
 
 ### 2. Cold calls
 
-Someone calls claiming to be from "Microsoft", "Windows Support", or "your ISP". They say they detected problems with your computer and offer free help. They often state your name and address (information available in public directories) to build trust.
-
-The fact: Microsoft, Apple, and ISPs never proactively call customers to offer technical support. Every such call is a scam.
+Someone calls claiming to be from "Microsoft", "Windows Support", or "your ISP". They say they detected problems with your computer and offer free help. They often state your name and address (information available in public directories) to build trust. The fact: Microsoft, Apple, and ISPs never proactively call customers to offer technical support. Every such call is a scam.
 
 ### 3. Fake search results
 
-Scammers buy ads on Google or other search engines for keywords like "Microsoft support" or "Windows customer service number". When you search for official support numbers, their ads appear at the top with fake phone numbers.
-
-The fact: Official support numbers are always available on the company's official website, not in paid advertisements.
+Scammers buy ads on Google or other search engines for keywords like "Microsoft support" or "Windows customer service number". When you search for official support numbers, their ads appear at the top with fake phone numbers. The fact: Official support numbers are always available on the company's official website, not in paid advertisements.
 
 ### 4. Remote access for "diagnosis"
 
-After victims call the fake number, scammers ask them to install remote access software like AnyDesk, TeamViewer, or UltraViewer. They claim this is to "diagnose the problem". Once connected, scammers can fully control the victim's computer.
-
-While connected to the victim's computer, scammers often:
+After victims call the fake number, scammers ask them to install remote access software like AnyDesk, TeamViewer, or UltraViewer. They claim this is to "diagnose the problem". Once connected, scammers can fully control the victim's computer. While connected to the victim's computer, scammers often:
 - Open Event Viewer and show normal error logs as "proof of viruses"
 - Install actual malware
 - Steal files and passwords saved in the browser
@@ -73,13 +62,12 @@ If someone calls claiming to be from Microsoft or your ISP, hang up. Look up the
 Remote access software gives full control over your computer. Only allow people you know and trust in person.
 
 ### Verify through official websites
-If you are worried about computer problems, visit the manufacturer's official website (microsoft.com, apple.com) and contact support through their official channels.
+If you are worried about computer problems, visit the manufacturer's official website (microsoft. Com, apple. Com) and contact support through their official channels.
 
 ### Never pay with gift cards or cryptocurrency
 Requests for payment via gift cards, cryptocurrency, or wire transfers are certain signs of fraud. Legitimate companies never request payment this way.
 
 ## If you have become a victim
-
 1. **Disconnect from the internet** immediately if the scammer is still connected via remote access
 2. **Uninstall remote access software** the scammer installed
 3. **Scan your computer with trusted antivirus** to find any malware that may have been installed
@@ -99,8 +87,8 @@ Antivirus can block malicious pop-ups and detect malware, but cannot prevent you
 No. While elderly people are more frequently victimized, this scam targets all ages. Busy professionals who do not have time to verify are also vulnerable.
 
 ## Sources and further reading
-- [FTC: Tech Support Scams](https://consumer.ftc.gov/articles/tech-support-scams)
-- [Microsoft: Avoid Tech Support Scams](https://www.microsoft.com/en-us/wdsi/threats/tech-support-scams)
-- [FBI: Tech Support Fraud](https://www.fbi.gov/how-we-can-help-you/safety-resources/scams-and-fraud/tech-support-fraud)
+- [FTC:TechSupportScams](https://consumer.Ftc.Gov/articles/tech-support-scams)
+- [Microsoft:AvoidTechSupportScams](https://www.Microsoft.Com/en-us/wdsi/threats/tech-support-scams)
+- [FBI:TechSupportFraud](https://www.Fbi.Gov/how-we-can-help-you/safety-resources/scams-and-fraud/tech-support-fraud)
 
 > **Editorial note:** This article is educational and defensive in nature. If you suspect fraud, contact law enforcement and relevant agencies before taking further action.

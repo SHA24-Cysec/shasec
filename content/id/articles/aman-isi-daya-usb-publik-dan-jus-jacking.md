@@ -4,24 +4,21 @@ title: "Aman Mengisi Daya di USB Publik: Mengenali Risiko Juice Jacking"
 date: 2026-07-21
 draft: false
 categories:
-  - Keamanan Digital
+ - Keamanan Digital
 tags:
-  - ponsel
-  - keamanan perangkat
-  - privasi
-  - perjalanan
+ - ponsel
+ - keamanan perangkat
+ - privasi
+ - perjalanan
 summary: "Cara menjaga ponsel dan data tetap aman saat harus mengisi daya di bandara, hotel, atau tempat umum."
 cover: "/images/articles/usb-charging-safety.webp"
 ---
-Anda sedang menunggu penerbangan ketika baterai ponsel turun ke lima persen. Di dinding dekat kursi tersedia port USB. Menghubungkan kabel terasa seperti pilihan paling mudah, tetapi port tersebut dapat membawa lebih dari daya listrik. Pada perangkat tertentu, koneksi USB juga membuka jalur komunikasi data.
 
-Risiko ini sering disebut juice jacking. Istilahnya menggambarkan skenario ketika stasiun pengisian yang disusupi mencoba membaca data, mengirim perintah, atau memasang sesuatu ke perangkat. Risiko nyata bergantung pada jenis port, ponsel, sistem operasi, dan tindakan yang terjadi setelah kabel tersambung. Anda tidak perlu panik, tetapi Anda perlu memilih cara mengisi daya yang tidak menyerahkan kendali ke port asing.
+Anda sedang menunggu penerbangan ketika baterai ponsel turun ke lima persen. Di dinding dekat kursi tersedia port USB. Menghubungkan kabel terasa seperti pilihan paling mudah, tetapi port tersebut dapat membawa lebih dari daya listrik. Pada perangkat tertentu, koneksi USB juga membuka jalur komunikasi data. Risiko ini sering disebut juice jacking. Istilahnya menggambarkan skenario ketika stasiun pengisian yang disusupi mencoba membaca data, mengirim perintah, atau memasang sesuatu ke perangkat. Risiko nyata bergantung pada jenis port, ponsel, sistem operasi, dan tindakan yang terjadi setelah kabel tersambung. Anda tidak perlu panik, tetapi Anda perlu memilih cara mengisi daya yang tidak menyerahkan kendali ke port asing.
 
 ## Mengapa port USB berbeda dari stopkontak
 
-Stopkontak hanya menyediakan listrik melalui adaptor Anda. Port USB publik dapat berfungsi sebagai sumber daya sekaligus jalur data. Ketika ponsel menanyakan apakah Anda ingin mempercayai komputer atau mengizinkan transfer file, pesan itu memberi petunjuk bahwa koneksi tersebut tidak sekadar mengisi baterai.
-
-Ponsel modern memiliki perlindungan yang membantu. Layar terkunci, izin perangkat, dan pembaruan sistem mengurangi peluang penyalahgunaan. Perlindungan itu tidak menjadikan setiap port publik tepercaya. Keputusan paling aman tetap menggunakan jalur pengisian yang Anda bawa sendiri.
+Stopkontak hanya menyediakan listrik melalui adaptor Anda. Port USB publik dapat berfungsi sebagai sumber daya sekaligus jalur data. Ketika ponsel menanyakan apakah Anda ingin mempercayai komputer atau mengizinkan transfer file, pesan itu memberi petunjuk bahwa koneksi tersebut tidak sekadar mengisi baterai. Ponsel modern memiliki perlindungan yang membantu. Layar terkunci, izin perangkat, dan pembaruan sistem mengurangi peluang penyalahgunaan. Perlindungan itu tidak menjadikan setiap port publik tepercaya. Keputusan paling aman tetap menggunakan jalur pengisian yang Anda bawa sendiri.
 
 ## Pilihan yang lebih aman saat bepergian
 
@@ -43,9 +40,7 @@ Koneksi fisik bukan satu-satunya masalah. Orang lain dapat mengambil ponsel yang
 
 ## Jika Anda sudah terlanjur memakai port publik
 
-Putuskan kabel, kunci perangkat, dan perhatikan perubahan yang tidak biasa. Periksa aplikasi baru, izin aplikasi, perangkat tepercaya, dan sesi akun yang aktif. Jalankan pembaruan sistem jika tersedia. Untuk akun penting, ganti kata sandi dari perangkat yang Anda percaya dan cabut sesi yang tidak dikenal.
-
-Jika ponsel menunjukkan perilaku serius, seperti pop-up berulang, aplikasi asing, atau permintaan akses yang tidak Anda buat, simpan catatan waktunya. Hubungi dukungan resmi produsen atau penyedia akun. Jangan memasukkan kata sandi ke jendela yang muncul secara tiba-tiba.
+Putuskan kabel, kunci perangkat, dan perhatikan perubahan yang tidak biasa. Periksa aplikasi baru, izin aplikasi, perangkat tepercaya, dan sesi akun yang aktif. Jalankan pembaruan sistem jika tersedia. Untuk akun penting, ganti kata sandi dari perangkat yang Anda percaya dan cabut sesi yang tidak dikenal. Jika ponsel menunjukkan perilaku serius, seperti pop-up berulang, aplikasi asing, atau permintaan akses yang tidak Anda buat, simpan catatan waktunya. Hubungi dukungan resmi produsen atau penyedia akun. Jangan memasukkan kata sandi ke jendela yang muncul secara tiba-tiba.
 
 ## Kebiasaan kecil yang mengurangi risiko
 
