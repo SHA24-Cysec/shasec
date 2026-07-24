@@ -35,7 +35,8 @@
 {{- end -}}
 
 {{- $ads := .Site.Params.adsense | default dict -}}
-{{- if $ads.enabled | default false -}}
+{{- $isVercelProduction := eq (getenv "VERCEL_ENV") "production" -}}
+{{- if and $isVercelProduction ($ads.enabled | default false) -}}
   {{- with resources.Get "js/adsense.js" -}}
     {{- $ajs := . | minify | fingerprint -}}
     <script src="{{ $ajs.RelPermalink }}" integrity="{{ $ajs.Data.Integrity }}" crossorigin="anonymous" defer></script>

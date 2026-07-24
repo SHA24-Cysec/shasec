@@ -185,3 +185,9 @@ defaultContentLanguageInSubdir = false
   [module.hugoVersion]
     extended = true
     min = '0.128.0'
+
+# Allow templates to detect the deployment target without exposing other
+# environment variables to Hugo templates.
+[security]
+  [security.funcs]
+    getenv = ['^HUGO_', '^CI$', '^VERCEL_ENV$']

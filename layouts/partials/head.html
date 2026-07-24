@@ -169,31 +169,31 @@
   <link rel="stylesheet" href="{{ $css.RelPermalink }}" integrity="{{ $css.Data.Integrity }}" crossorigin="anonymous">
 {{- end -}}
 
-{{- /* Google Analytics 4. Configure services.googleAnalytics.ID in hugo.toml.
-     The internal Hugo template outputs nothing while the Measurement ID is empty. */ -}}
-{{ template "_internal/google_analytics.html" . }}
+{{- /*
+  External measurement and ad scripts only belong on the Vercel production
+  deployment. VERCEL_ENV is set by Vercel to production, preview, or development.
+  This keeps localhost and Preview deployments free of GA4 and AdSense requests.
+*/ -}}
+{{- $isVercelProduction := eq (getenv "VERCEL_ENV") "production" -}}
+{{- if $isVercelProduction -}}
+  {{- /* Google Analytics 4: outputs nothing while the Measurement ID is empty. */ -}}
+  {{ template "_internal/google_analytics.html" . }}
 
-{{- /* AdSense config for JS */ -}}
-{{- with .Site.Params.adsense -}}
-  {{- if .enabled -}}
-    <script type="application/json" id="shasec-adsense-config">
-      {{- dict
-        "enabled" .enabled
-        "placeholder" (.placeholder | default true)
-        "client" (.client | default "")
-        "testMode" (.testMode | default false)
-      | jsonify | safeJS -}}
-    </script>
-    {{- /*
-      AdSense loader (pre-approval + verifikasi kepemilikan).
-      Google mensyaratkan tag <script ... adsbygoogle.js?client=...> hadir di
-      <head> saat review berjalan. Tag ini juga aman setelah approval —
-      slot iklan tetap dikontrol oleh partials/components/ad-slot.html dan
-      assets/js/adsense.js (consent + placeholder mode).
-    */ -}}
-    {{- with .client -}}
-      <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client={{ . }}" crossorigin="anonymous"></script>
-      <meta name="google-adsense-account" content="{{ . }}">
+  {{- /* AdSense configuration and verification loader. */ -}}
+  {{- with .Site.Params.adsense -}}
+    {{- if .enabled -}}
+      <script type="application/json" id="shasec-adsense-config">
+        {{- dict
+          "enabled" .enabled
+          "placeholder" (.placeholder | default true)
+          "client" (.client | default "")
+          "testMode" (.testMode | default false)
+        | jsonify | safeJS -}}
+      </script>
+      {{- with .client -}}
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client={{ . }}" crossorigin="anonymous"></script>
+        <meta name="google-adsense-account" content="{{ . }}">
+      {{- end -}}
     {{- end -}}
   {{- end -}}
 {{- end -}}
