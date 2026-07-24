@@ -1,0 +1,1276 @@
+sources:
+  microsoft_mddr_2024:
+    title: Microsoft Digital Defense Report
+    year: '2024'
+    url: https://www.microsoft.com/en-us/security/security-insider/threat-landscape/microsoft-digital-defense-report-2024
+  verizon_dbir_2025:
+    title: Verizon Data Breach Investigations Report
+    year: '2025'
+    url: https://www.verizon.com/business/resources/reports/dbir/
+  fbi_ic3_2025:
+    title: FBI IC3 Internet Crime Report
+    year: '2025'
+    url: https://www.fbi.gov/news/press-releases/cryptocurrency-and-ai-scams-bilk-americans-of-billions
+  fbi_ic3_2024:
+    title: FBI IC3 Internet Crime Report
+    year: '2024'
+    url: https://www.ic3.gov/AnnualReport/Reports/2024_IC3Report.pdf
+  ftc_social_2025:
+    title: FTC social media scams data
+    year: '2025'
+    url: https://www.ftc.gov/news-events/news/press-releases/2026/04/new-ftc-data-show-people-have-lost-billions-social-media-scams
+  ftc_romance_2023:
+    title: FTC romance scam analysis
+    year: '2023'
+    url: https://www.ftc.gov/business-guidance/blog/2024/02/love-stinks-when-scammer-involved
+  ibm_codbr_2025:
+    title: IBM Cost of a Data Breach Report
+    year: '2025'
+    url: https://www.ibm.com/reports/data-breach
+  google_play_2025:
+    title: Google Play & Android ecosystem safety
+    year: '2025'
+    url: https://security.googleblog.com/2026/02/keeping-google-play-android-app-ecosystem-safe-2025.html
+  google_play_2024:
+    title: Google Play & Android app ecosystem safety
+    year: '2024'
+    url: https://security.googleblog.com/2025/01/how-we-kept-google-play-android-app-ecosystem-safe-2024.html
+  fido_passkey_index_2025:
+    title: FIDO Passkey Index
+    year: '2025'
+    url: https://fidoalliance.org/wp-content/uploads/2025/10/FIDO-Passkey-Index-October-2025.pdf
+  httparchive_cookies_2024:
+    title: 'HTTP Archive Web Almanac: Cookies'
+    year: '2024'
+    url: https://almanac.httparchive.org/en/2024/cookies
+  httparchive_privacy_2024:
+    title: 'HTTP Archive Web Almanac: Privacy'
+    year: '2024'
+    url: https://almanac.httparchive.org/en/2024/privacy
+  owasp_llm_top10_2025:
+    title: OWASP Top 10 for LLM Applications
+    year: '2025'
+    url: https://genai.owasp.org/llm-top-10/
+  fbi_ic3_2025_full:
+    title: FBI IC3 Internet Crime Report
+    year: '2025'
+    url: https://www.ic3.gov/AnnualReport/Reports/2025_IC3Report.pdf
+  cisa_fbi_lummac2_2025:
+    title: 'CISA & FBI Joint Advisory: LummaC2 Infostealer'
+    year: '2025'
+    url: https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-141b
+  fcc_sim_swap_2023:
+    title: FCC SIM Swap & Port-Out Fraud Rules
+    year: '2023'
+    url: https://docs.fcc.gov/public/attachments/FCC-23-95A1.pdf
+  fcc_juice_jacking:
+    title: 'FCC Consumer Advisory: Juice Jacking'
+    year: '2025'
+    url: https://www.fcc.gov/juice-jacking-tips-to-avoid-it
+  fbi_zoombombing_2020:
+    title: 'FBI Advisory: Teleconference Hijacking'
+    year: '2020'
+    url: https://www.fbi.gov/contact-us/field-offices/boston/news/press-releases/fbi-warns-of-teleconferencing-and-online-classroom-hijacking-during-covid-19-pandemic
+  enisa_threat_2025:
+    title: ENISA Threat Landscape
+    year: '2025'
+    url: https://www.enisa.europa.eu/publications/enisa-threat-landscape-2025
+  nist_sp800_153:
+    title: 'NIST SP 800-153: WLAN Security Guidelines'
+    year: '2012'
+    url: https://csrc.nist.gov/publications/detail/sp/800-153/final
+  cisa_cpg_2025:
+    title: CISA CPG Adoption Report
+    year: '2025'
+    url: https://www.cisa.gov/sites/default/files/2025-01/CPG%20Adoption%20Report.pdf
+bundles:
+  identity_access:
+    context:
+      id: Akun utama, kata sandi, 2FA, passkey, dan pemulihan akses adalah perimeter keamanan Anda. Bukan firewall. Bukan
+        antivirus. Akun Anda.
+      en: Primary accounts, passwords, 2FA, passkeys, and recovery paths are your security perimeter. Not your firewall. Your
+        account.
+    stats:
+    - value: 600M+
+      label:
+        id: serangan identitas per hari
+        en: identity attacks per day
+      note:
+        id: Microsoft melaporkan lebih dari 600 juta serangan identitas harian di telemetry Entra.
+        en: Microsoft reported more than 600 million daily identity attacks in Entra telemetry.
+      source: microsoft_mddr_2024
+    - value: '>99%'
+      label:
+        id: serangan identitas berbasis kata sandi
+        en: identity attacks were password-based
+      note:
+        id: Microsoft mencatat serangan berbasis kata sandi mendominasi insiden identitas.
+        en: Password-based attacks still dominated the identity incidents Microsoft observed.
+      source: microsoft_mddr_2024
+    - value: 22%
+      label:
+        id: pelanggaran bermula dari penyalahgunaan kredensial
+        en: breaches started with credential abuse
+      note:
+        id: Verizon DBIR menempatkan credential abuse sebagai salah satu vektor awal utama pelanggaran data.
+        en: Verizon DBIR listed credential abuse as one of the leading initial breach vectors.
+      source: verizon_dbir_2025
+    - value: 93%
+      label:
+        id: tingkat sukses login passkey
+        en: passkey login success rate
+      note:
+        id: FIDO Passkey Index mencatat login passkey berhasil 93%, dibanding 63% untuk metode lain.
+        en: The FIDO Passkey Index reported a 93% passkey login success rate, versus 63% for other methods.
+      source: fido_passkey_index_2025
+  phishing_social_engineering:
+    context:
+      id: 'Phishing, rekayasa sosial, QR jebakan, dan pesan yang memaksa Anda mengambil keputusan cepat: inilah ukuran risikonya.'
+      en: 'Phishing, social engineering, QR traps, and messages that pressure you into split-second decisions: the numbers
+        are stark.'
+    stats:
+    - value: 193,407
+      label:
+        id: laporan phishing/spoofing
+        en: phishing/spoofing complaints
+      note:
+        id: FBI IC3 mencatat phishing/spoofing sebagai kategori aduan terbanyak pada 2024.
+        en: FBI IC3 recorded phishing/spoofing as the most reported complaint category in 2024.
+      source: fbi_ic3_2024
+    - value: 16%
+      label:
+        id: pelanggaran memakai phishing sebagai akses awal
+        en: breaches used phishing as initial access
+      note:
+        id: Verizon DBIR melaporkan phishing sebagai vektor awal penting pada pelanggaran data.
+        en: Verizon DBIR reported phishing as a key initial vector in data breaches.
+      source: verizon_dbir_2025
+    - value: 60%
+      label:
+        id: pelanggaran melibatkan faktor manusia
+        en: breaches involved the human element
+      note:
+        id: DBIR menyorot tumpang tindih rekayasa sosial, kredensial, dan kesalahan manusia dalam pelanggaran.
+        en: DBIR highlighted overlap between social engineering, credentials, and human error in breaches.
+      source: verizon_dbir_2025
+    - value: 146%
+      label:
+        id: kenaikan phishing adversary-in-the-middle
+        en: increase in adversary-in-the-middle phishing
+      note:
+        id: 'Microsoft mencatat kenaikan serangan AiTM. Targetnya: sesi browser Anda, bahkan setelah Anda login dengan MFA.'
+        en: Microsoft reported growth in AiTM attacks that target browser sessions of MFA-protected accounts.
+      source: microsoft_mddr_2024
+  fraud_scams:
+    context:
+      id: 'Penipuan digital menyentuh belanja online, dompet digital, rekening tujuan, lowongan, dan dukungan palsu. Skalanya:'
+      en: 'Digital fraud hits online shopping, wallets, beneficiary accounts, job offers, and fake support. The scale:'
+    stats:
+    - value: $21B
+      label:
+        id: kerugian kejahatan siber yang dilaporkan
+        en: reported cyber-enabled losses
+      note:
+        id: FBI menyatakan kerugian 2025 mendekati 21 miliar dolar dari laporan IC3.
+        en: The FBI said 2025 IC3 reported losses approached 21 billion dollars.
+      source: fbi_ic3_2025
+    - value: 1,008,597
+      label:
+        id: aduan IC3 dalam setahun
+        en: IC3 complaints in one year
+      note:
+        id: Jumlah aduan 2025 melewati satu juta laporan.
+        en: The 2025 complaint volume passed one million reports.
+      source: fbi_ic3_2025
+    - value: $17.7B+
+      label:
+        id: kerugian cyber-enabled fraud
+        en: cyber-enabled fraud losses
+      note:
+        id: FBI melaporkan lebih dari 17,7 miliar dolar kerugian cyber-enabled fraud pada 2025.
+        en: The FBI reported more than 17.7 billion dollars in cyber-enabled fraud losses in 2025.
+      source: fbi_ic3_2025
+    - value: 8x
+      label:
+        id: kenaikan kerugian scam media sosial sejak 2020
+        en: increase in social media scam losses since 2020
+      note:
+        id: FTC melaporkan kerugian scam yang bermula dari media sosial naik delapan kali lipat.
+        en: The FTC reported an eightfold increase in losses from scams that began on social media.
+      source: ftc_social_2025
+  crypto_investment:
+    context:
+      id: Penipuan investasi digital dan kripto menyebabkan kerugian besar karena pelaku membangun kepercayaan palsu sebelum
+        meminta transfer dana.
+      en: Digital investment and crypto scams cause huge losses because perpetrators build false trust before requesting fund
+        transfers.
+    stats:
+    - value: $11B+
+      label:
+        id: kerugian terkait kripto yang dilaporkan
+        en: reported cryptocurrency-related losses
+      note:
+        id: FBI IC3 mencatat lebih dari 11 miliar dolar kerugian dalam aduan yang melibatkan kripto pada 2025.
+        en: FBI IC3 recorded more than 11 billion dollars in losses involving cryptocurrency complaints in 2025.
+      source: fbi_ic3_2025
+    - value: 181,565
+      label:
+        id: aduan yang melibatkan kripto
+        en: cryptocurrency-related complaints
+      note:
+        id: Volume laporan membuktikan kripto muncul di banyak skema penipuan. Bukan cuma investasi.
+        en: The complaint volume shows crypto appears across many fraud schemes, not only investment scams.
+      source: fbi_ic3_2025
+    - value: 49%
+      label:
+        id: porsi kerugian scam dari investment fraud
+        en: scam-loss share driven by investment fraud
+      note:
+        id: FBI menyebut investment fraud sebagai pendorong utama kerugian scam pada 2025.
+        en: The FBI described investment fraud as the main driver of scam-related losses in 2025.
+      source: fbi_ic3_2025
+    - value: $6.57B
+      label:
+        id: kerugian investment fraud
+        en: investment fraud losses
+      note:
+        id: Pada 2024, investment fraud menjadi kategori kerugian terbesar dalam laporan IC3.
+        en: In 2024, investment fraud was the largest loss category in the IC3 report.
+      source: fbi_ic3_2024
+  ransomware_recovery:
+    context:
+      id: Ransomware membuat backup, patching, pemulihan akses, dan latihan respons menjadi kebutuhan operasional, terutama
+        untuk bisnis kecil.
+      en: Ransomware makes backup, patching, access recovery, and response practice operational requirements, especially for
+        small businesses.
+    stats:
+    - value: 44%
+      label:
+        id: pelanggaran melibatkan ransomware
+        en: breaches involved ransomware
+      note:
+        id: Verizon DBIR melaporkan ransomware muncul pada 44% pelanggaran.
+        en: Verizon DBIR reported ransomware in 44% of breaches.
+      source: verizon_dbir_2025
+    - value: 37%
+      label:
+        id: kenaikan ransomware dibanding tahun sebelumnya
+        en: ransomware increase year over year
+      note:
+        id: DBIR mencatat kenaikan ransomware dibanding laporan sebelumnya.
+        en: DBIR recorded a ransomware increase compared with the previous report.
+      source: verizon_dbir_2025
+    - value: $5.13M
+      label:
+        id: biaya rata-rata breach terkait ransomware
+        en: average cost of a ransomware-related breach
+      note:
+        id: IBM menghitung insiden breach yang melibatkan ransomware berada di atas rata-rata biaya breach global.
+        en: IBM found ransomware-related breaches cost more than the global average breach.
+      source: ibm_codbr_2025
+    - value: 4,800+
+      label:
+        id: organisasi infrastruktur kritis melapor ke IC3
+        en: critical infrastructure organizations reported to IC3
+      note:
+        id: FBI IC3 2024 mencatat ribuan organisasi infrastruktur kritis terdampak ancaman siber, termasuk ransomware dan
+          data breach.
+        en: FBI IC3 2024 recorded thousands of critical infrastructure organizations affected by cyber threats, including
+          ransomware and data breaches.
+      source: fbi_ic3_2024
+  data_breach_privacy:
+    context:
+      id: Data pribadi, data pelanggan, file cloud, dan perangkat bekas menjadi bernilai karena biaya pemulihan breach tetap
+        tinggi.
+      en: Personal data, customer data, cloud files, and used devices carry value because breach recovery costs remain high.
+    stats:
+    - value: $4.44M
+      label:
+        id: biaya rata-rata data breach global
+        en: global average data breach cost
+      note:
+        id: IBM mengukur biaya rata-rata breach global pada 2025.
+        en: IBM measured the global average breach cost in 2025.
+      source: ibm_codbr_2025
+    - value: 241 hari
+      label:
+        id: rata-rata siklus identifikasi dan containment
+        en: average identify-and-contain lifecycle
+      note:
+        id: Siklus panjang. Pencatatan, monitoring, dan respons awal menentukan apakah breach berhenti atau menyebar.
+        en: Long breach lifecycles. Logging, monitoring, and early response determine whether a breach stops or spreads.
+      source: ibm_codbr_2025
+    - value: $10.22M
+      label:
+        id: biaya rata-rata breach di AS
+        en: average breach cost in the US
+      note:
+        id: IBM melaporkan biaya rata-rata di AS mencapai rekor baru pada 2025.
+        en: IBM reported a record average US breach cost in 2025.
+      source: ibm_codbr_2025
+    - value: $7.42M
+      label:
+        id: biaya rata-rata breach sektor kesehatan
+        en: average healthcare breach cost
+      note:
+        id: Data kesehatan tetap menjadi kategori paling mahal di laporan IBM.
+        en: Healthcare data remained the costliest industry category in IBM's report.
+      source: ibm_codbr_2025
+  mobile_app:
+    context:
+      id: Risiko aplikasi palsu, izin berlebih, malware ponsel, dan sideloading terlihat dari telemetry ekosistem Android.
+      en: Risks from fake apps, excessive permissions, phone malware, and sideloading dominate Android ecosystem telemetry.
+    stats:
+    - value: 266M
+      label:
+        id: instalasi berisiko yang Google blokir
+        en: risky installation attempts blocked
+      note:
+        id: Google Play Protect memblokir ratusan juta percobaan instalasi berisiko pada 2025.
+        en: Google Play Protect blocked hundreds of millions of risky installation attempts in 2025.
+      source: google_play_2025
+    - value: 872K
+      label:
+        id: aplikasi berisiko tinggi terdeteksi
+        en: high-risk applications detected
+      note:
+        id: Proteksi fraud Google membantu melindungi pengguna dari aplikasi berisiko tinggi.
+        en: Google's fraud protection helped protect users from high-risk applications.
+      source: google_play_2025
+    - value: 2.36M
+      label:
+        id: aplikasi melanggar kebijakan yang Google cegah
+        en: policy-violating apps blocked from publication
+      note:
+        id: Google mencegah jutaan aplikasi melanggar kebijakan masuk Play pada 2024.
+        en: Google stopped millions of policy-violating apps from reaching Play in 2024.
+      source: google_play_2024
+    - value: 1.3M
+      label:
+        id: aplikasi yang Google tolak karena akses sensitif berlebih
+        en: apps prevented from excessive sensitive access
+      note:
+        id: Google mencegah aplikasi memperoleh izin yang tidak perlu ke data sensitif.
+        en: Google prevented apps from obtaining unnecessary access to sensitive data.
+      source: google_play_2024
+  web_privacy_tracking:
+    context:
+      id: Jejak digital, fingerprinting, cookie pihak ketiga, dan metadata lokasi membuat privasi web perlu dikelola sebagai
+        kebiasaan.
+      en: Digital footprint, fingerprinting, third-party cookies, and location metadata make web privacy a habit, not a one-time
+        setting.
+    stats:
+    - value: 61%
+      label:
+        id: cookie dari konteks pihak ketiga
+        en: cookies set in a third-party context
+      note:
+        id: HTTP Archive Web Almanac menemukan mayoritas cookie di web muncul dari konteks pihak ketiga.
+        en: HTTP Archive Web Almanac found most web cookies were set in third-party contexts.
+      source: httparchive_cookies_2024
+    - value: 25%+
+      label:
+        id: halaman memuat doubleclick.com
+        en: pages included doubleclick.com
+      note:
+        id: Bab Privacy Web Almanac menyebut DoubleClick sebagai sumber cookie pihak ketiga terbesar.
+        en: The Web Almanac Privacy chapter named DoubleClick as the largest source of third-party cookies.
+      source: httparchive_privacy_2024
+    - value: 6%
+      label:
+        id: cookie pihak ketiga memakai partitioning
+        en: third-party cookies used partitioning
+      note:
+        id: Adopsi partitioning cookie yang membatasi pelacakan lintas situs masih kecil.
+        en: Cookie partitioning that limits cross-site tracking still had low adoption.
+      source: httparchive_cookies_2024
+    - value: 16.9M
+      label:
+        id: situs dalam dataset Web Almanac
+        en: sites in the Web Almanac dataset
+      note:
+        id: Web Almanac 2024 memakai crawl HTTP Archive berskala jutaan situs.
+        en: Web Almanac 2024 used an HTTP Archive crawl spanning millions of sites.
+      source: httparchive_cookies_2024
+  vulnerability_patch:
+    context:
+      id: 'Patch, update, hardening router, VPN, browser, dan perangkat IoT: semua harus menjadi prioritas. Eksploitasi celah
+        terus menjadi akses awal.'
+      en: Patch, update, router hardening, VPN, browser, and IoT work need priority because vulnerability exploitation remains
+        a common entry point.
+    stats:
+    - value: 34%
+      label:
+        id: kenaikan eksploitasi kerentanan
+        en: increase in vulnerability exploitation
+      note:
+        id: Verizon DBIR mencatat lonjakan eksploitasi kerentanan sebagai vektor akses awal.
+        en: Verizon DBIR recorded a jump in vulnerability exploitation as an initial access vector.
+      source: verizon_dbir_2025
+    - value: 20%
+      label:
+        id: pelanggaran bermula dari eksploitasi celah
+        en: breaches started with vulnerability exploitation
+      note:
+        id: Eksploitasi kerentanan berada dekat dengan credential abuse sebagai vektor awal.
+        en: Vulnerability exploitation ranked close to credential abuse as an initial vector.
+      source: verizon_dbir_2025
+    - value: 22%
+      label:
+        id: eksploitasi celah menargetkan edge/VPN zero-day
+        en: vulnerability exploits targeted edge/VPN zero-days
+      note:
+        id: DBIR menyorot perangkat perimeter dan VPN sebagai target eksploitasi yang menonjol.
+        en: DBIR highlighted perimeter and VPN devices as notable exploitation targets.
+      source: verizon_dbir_2025
+    - value: 32 hari
+      label:
+        id: median waktu remediasi edge/VPN
+        en: median edge/VPN remediation time
+      note:
+        id: Keterlambatan patch memberi penyerang jendela waktu yang cukup panjang.
+        en: Patch delay gives attackers a meaningful exploitation window.
+      source: verizon_dbir_2025
+  supply_chain:
+    context:
+      id: Ketergantungan pada vendor, integrasi, plugin, API, dan pihak ketiga membuat risiko supply chain harus terlihat
+        dalam akses dan kontrak.
+      en: Vendor, integration, plugin, API, and third-party dependencies make supply-chain risk a matter of access and contracts.
+    stats:
+    - value: 30%
+      label:
+        id: pelanggaran melibatkan pihak ketiga
+        en: breaches involved third parties
+      note:
+        id: Verizon DBIR menyebut keterlibatan pihak ketiga pada pelanggaran naik menjadi 30%.
+        en: Verizon DBIR said third-party involvement in breaches rose to 30%.
+      source: verizon_dbir_2025
+    - value: 2x
+      label:
+        id: kenaikan keterlibatan pihak ketiga
+        en: increase in third-party involvement
+      note:
+        id: Porsi pelanggaran terkait pihak ketiga berlipat ganda dari laporan sebelumnya.
+        en: The share of breaches involving third parties doubled from the previous report.
+      source: verizon_dbir_2025
+    - value: 15%
+      label:
+        id: breach berasal dari supply-chain compromise
+        en: breaches came from supply-chain compromise
+      note:
+        id: IBM menempatkan compromise supply chain sebagai salah satu akar breach yang menonjol pada 2025.
+        en: IBM listed supply-chain compromise as a notable root cause of breaches in 2025.
+      source: ibm_codbr_2025
+    - value: 267 hari
+      label:
+        id: rata-rata lifecycle breach supply chain
+        en: average supply-chain breach lifecycle
+      note:
+        id: Breach melalui rantai pasok butuh waktu lebih lama untuk Anda temukan dan kendalikan.
+        en: Supply-chain breaches tend to take longer to identify and contain.
+      source: ibm_codbr_2025
+  ai_shadow:
+    context:
+      id: AI membantu pertahanan, tetapi shadow AI, data sensitif di chatbot, dan kontrol akses yang lemah menambah biaya
+        breach.
+      en: AI helps defense, but shadow AI, sensitive data in chatbots, and weak access controls add breach cost.
+    stats:
+    - value: 20%
+      label:
+        id: organisasi breach punya isu shadow AI
+        en: breached organizations had shadow AI issues
+      note:
+        id: IBM melaporkan satu dari lima organisasi yang mengalami breach memiliki masalah terkait shadow AI.
+        en: IBM reported one in five breached organizations had a shadow AI issue.
+      source: ibm_codbr_2025
+    - value: $670K
+      label:
+        id: tambahan biaya rata-rata dari shadow AI
+        en: average added cost from shadow AI
+      note:
+        id: Shadow AI menaikkan biaya rata-rata breach dibanding organisasi tanpa isu tersebut.
+        en: Shadow AI increased average breach cost compared with organizations without that issue.
+      source: ibm_codbr_2025
+    - value: 97%
+      label:
+        id: insiden AI tanpa kontrol akses memadai
+        en: AI incidents lacked proper access controls
+      note:
+        id: IBM menemukan hampir semua organisasi dengan insiden keamanan AI tidak memiliki kontrol akses yang layak.
+        en: IBM found almost all organizations with AI security incidents lacked proper access controls.
+      source: ibm_codbr_2025
+    - value: $893M
+      label:
+        id: kerugian aduan terkait AI
+        en: losses from AI-related complaints
+      note:
+        id: FBI IC3 untuk pertama kali memuat bagian AI dan mencatat kerugian mendekati 893 juta dolar.
+        en: FBI IC3 added an AI section and reported nearly 893 million dollars in losses.
+      source: fbi_ic3_2025
+  deepfake_ai_abuse:
+    context:
+      id: Deepfake, voice clone, dan profil palsu memperkuat penipuan karena korban melihat atau mendengar sinyal yang terasa
+        familiar.
+      en: Deepfakes, voice clones, and fake profiles strengthen fraud because victims see or hear signals that feel familiar.
+    stats:
+    - value: 22,364
+      label:
+        id: aduan terkait AI
+        en: AI-related complaints
+      note:
+        id: FBI IC3 mencatat puluhan ribu aduan yang melibatkan AI pada 2025.
+        en: FBI IC3 recorded tens of thousands of complaints involving AI in 2025.
+      source: fbi_ic3_2025
+    - value: $893M
+      label:
+        id: kerugian aduan terkait AI
+        en: AI-related complaint losses
+      note:
+        id: Kerugian ini mencakup penggunaan profil palsu, voice clone, dan video meyakinkan dalam skema scam.
+        en: 'Fake profiles, voice clones, and convincing videos: all weaponized for scams.'
+      source: fbi_ic3_2025
+    - value: 16%
+      label:
+        id: breach melibatkan penggunaan AI oleh penyerang
+        en: breaches involved attacker use of AI
+      note:
+        id: IBM melaporkan sebagian breach melibatkan AI, terutama phishing buatan AI dan impersonasi deepfake.
+        en: IBM reported some breaches involved AI, especially AI-generated phishing and deepfake impersonation.
+      source: ibm_codbr_2025
+    - value: 35%
+      label:
+        id: kasus AI attacker berupa impersonasi deepfake
+        en: attacker AI cases used deepfake impersonation
+      note:
+        id: IBM mengaitkan sebagian penggunaan AI oleh penyerang dengan impersonasi deepfake.
+        en: IBM tied part of attacker AI use to deepfake impersonation.
+      source: ibm_codbr_2025
+  incident_response:
+    context:
+      id: Latihan respons, inventaris aset, jalur kontak, dan dokumentasi membantu menekan dampak saat insiden sudah terjadi.
+      en: Response drills, asset inventory, contact paths, and documentation reduce impact after an incident starts.
+    stats:
+    - value: 241 hari
+      label:
+        id: rata-rata siklus breach
+        en: average breach lifecycle
+      note:
+        id: IBM menghitung waktu rata-rata untuk mengidentifikasi dan mengendalikan breach.
+        en: IBM measured the average time to identify and contain a breach.
+      source: ibm_codbr_2025
+    - value: $4.44M
+      label:
+        id: biaya rata-rata breach
+        en: average breach cost
+      note:
+        id: Biaya rata-rata global menjadi baseline untuk menilai dampak downtime dan pemulihan.
+        en: The global average cost is a baseline for downtime and recovery impact.
+      source: ibm_codbr_2025
+    - value: 44%
+      label:
+        id: pelanggaran melibatkan ransomware
+        en: breaches involved ransomware
+      note:
+        id: Ransomware tetap menjadi alasan kuat untuk menguji backup dan prosedur pemulihan.
+        en: Ransomware remains a strong reason to test backups and recovery procedures.
+      source: verizon_dbir_2025
+    - value: 30%
+      label:
+        id: pelanggaran melibatkan pihak ketiga
+        en: breaches involved third parties
+      note:
+        id: Rencana respons perlu memasukkan vendor, SaaS, dan kontak eksternal.
+        en: Response plans need to include vendors, SaaS, and external contacts.
+      source: verizon_dbir_2025
+  dns_network:
+    context:
+      id: 'DNS, VPN, Wi-Fi, router, dan jaringan kecil: Anda perlu konfigurasi yang bisa Anda uji sendiri. Bukan sekadar nama
+        fitur.'
+      en: DNS, VPN, Wi-Fi, routers, and small-office networks need testable configuration, not just security feature names.
+    stats:
+    - value: 1.25M
+      label:
+        id: serangan DDoS yang Microsoft mitigasi
+        en: DDoS attacks mitigated in H2
+      note:
+        id: Microsoft melaporkan mitigasi 1,25 juta serangan DDoS pada paruh kedua periode laporan.
+        en: Microsoft reported mitigating 1.25 million DDoS attacks in the second half of the report period.
+      source: microsoft_mddr_2024
+    - value: 4x
+      label:
+        id: kenaikan serangan DDoS
+        en: increase in DDoS attacks
+      note:
+        id: Microsoft mencatat DDoS naik empat kali lipat.
+        en: DDoS activity observed by Microsoft was four times higher than the previous year.
+      source: microsoft_mddr_2024
+    - value: 34%
+      label:
+        id: kenaikan eksploitasi kerentanan
+        en: increase in vulnerability exploitation
+      note:
+        id: Perangkat perimeter seperti VPN dan edge menjadi bagian penting dari tren eksploitasi.
+        en: Perimeter devices such as VPN and edge systems were part of the exploitation trend.
+      source: verizon_dbir_2025
+    - value: 32 hari
+      label:
+        id: median remediasi edge/VPN
+        en: median edge/VPN remediation time
+      note:
+        id: Waktu remediasi lambat. Update router dan VPN Anda tidak bisa menunggu.
+        en: Slow remediation makes router and VPN updates hard to postpone.
+      source: verizon_dbir_2025
+  extortion_romance:
+    context:
+      id: Pemerasan, sextortion, dan romance scam memanfaatkan rasa malu, kedekatan palsu, dan isolasi korban.
+      en: Extortion, sextortion, and romance scams exploit shame, false intimacy, and victim isolation.
+    stats:
+    - value: 54,936
+      label:
+        id: aduan extortion
+        en: extortion complaints
+      note:
+        id: FBI IC3 mencatat lonjakan aduan extortion pada 2024.
+        en: FBI IC3 recorded a surge in extortion complaints in 2024.
+      source: fbi_ic3_2024
+    - value: $33.5M
+      label:
+        id: kerugian extortion
+        en: extortion losses
+      note:
+        id: Kerugian extortion yang dilaporkan tidak mencakup korban yang tidak melapor karena malu atau takut.
+        en: Reported extortion losses do not include victims who stayed silent out of shame or fear.
+      source: fbi_ic3_2024
+    - value: $1.14B
+      label:
+        id: kerugian romance scam
+        en: romance scam losses
+      note:
+        id: FTC melaporkan kerugian romance scam 2023 melewati satu miliar dolar.
+        en: The FTC reported romance scam losses above one billion dollars in 2023.
+      source: ftc_romance_2023
+    - value: 60%~
+      label:
+        id: romance scam berawal dari media sosial
+        en: romance scams started on social media
+      note:
+        id: FTC menyebut hampir 60% laporan korban romance scam yang kehilangan uang pada 2025 bermula dari media sosial.
+        en: The FTC said nearly 60% of 2025 romance scam loss reports started on social media.
+      source: ftc_social_2025
+  bec_business:
+    context:
+      id: BEC, email bisnis, dan pengambilalihan akun merugikan karena pelaku mengeksploitasi kepercayaan pada proses kerja
+        yang sudah dikenal.
+      en: BEC, business email, and account takeover cause heavy losses because attackers exploit trusted business processes.
+    stats:
+    - value: $2.77B
+      label:
+        id: kerugian BEC
+        en: BEC losses
+      note:
+        id: FBI IC3 mencatat kerugian Business Email Compromise bernilai miliaran dolar pada 2024.
+        en: FBI IC3 recorded billions of dollars in Business Email Compromise losses in 2024.
+      source: fbi_ic3_2024
+    - value: 21,442
+      label:
+        id: insiden BEC yang dilaporkan
+        en: reported BEC incidents
+      note:
+        id: BEC terus merugikan karena pelaku memakai akun, vendor, dan alur pembayaran yang sah.
+        en: BEC remains costly because it often uses legitimate accounts, vendors, and payment flows.
+      source: fbi_ic3_2024
+    - value: 600M+
+      label:
+        id: serangan identitas per hari
+        en: identity attacks per day
+      note:
+        id: Serangan identitas menjadi fondasi banyak pengambilalihan email bisnis.
+        en: Identity attacks underpin many business email takeovers.
+      source: microsoft_mddr_2024
+    - value: 22%
+      label:
+        id: breach bermula dari credential abuse
+        en: breaches started with credential abuse
+      note:
+        id: Kredensial bocor atau Anda pakai ulang. Risiko BEC membesar.
+        en: Leaked or reused credentials increase BEC risk.
+      source: verizon_dbir_2025
+  llm_app_security:
+    context:
+      id: Aplikasi LLM dan AI agent membutuhkan batas izin, validasi output, dan pemisahan instruksi dari data yang tidak
+        tepercaya.
+      en: LLM apps and AI agents need permission boundaries, output validation, and separation between instructions and untrusted
+        data.
+    stats:
+    - value: LLM01
+      label:
+        id: prompt injection di peringkat teratas
+        en: prompt injection ranked first
+      note:
+        id: OWASP Top 10 for LLM Applications 2025 menempatkan prompt injection sebagai risiko LLM01.
+        en: OWASP Top 10 for LLM Applications 2025 lists prompt injection as LLM01.
+      source: owasp_llm_top10_2025
+    - value: 97%
+      label:
+        id: insiden AI tanpa kontrol akses memadai
+        en: AI incidents lacked proper access controls
+      note:
+        id: Kontrol akses yang lemah membuat agent dan konektor AI berisiko menyentuh data yang tidak perlu.
+        en: Weak access controls let agents and AI connectors reach data they do not need.
+      source: ibm_codbr_2025
+    - value: $670K
+      label:
+        id: tambahan biaya breach dari shadow AI
+        en: added breach cost from shadow AI
+      note:
+        id: Shadow AI menaikkan biaya rata-rata breach dalam studi IBM.
+        en: Shadow AI increased average breach cost in IBM's study.
+      source: ibm_codbr_2025
+    - value: 20%
+      label:
+        id: organisasi breach punya isu shadow AI
+        en: breached organizations had shadow AI issues
+      note:
+        id: Pemakaian AI tanpa persetujuan membuat inventaris, logging, dan DLP tertinggal. Setiap saat.
+        en: Unsanctioned AI use leaves inventory, logging, and DLP unprepared.
+      source: ibm_codbr_2025
+  family_children:
+    context:
+      id: Keamanan keluarga dan anak perlu mencakup privasi, belanja, chat, game, media sosial, serta kebiasaan melapor saat
+        ada tekanan.
+      en: Family and child safety needs to cover privacy, shopping, chat, games, social media, and reporting habits when pressure
+        appears.
+    stats:
+    - value: 8x
+      label:
+        id: kenaikan kerugian scam media sosial sejak 2020
+        en: increase in social media scam losses since 2020
+      note:
+        id: FTC menyebut media sosial sebagai kanal scam paling merugikan pada 2025.
+        en: The FTC named social media the costliest scam contact method in 2025.
+      source: ftc_social_2025
+    - value: 40%+
+      label:
+        id: laporan scam media sosial berupa shopping scam
+        en: social media scam loss reports were shopping scams
+      note:
+        id: FTC menempatkan shopping scam di puncak laporan penipuan media sosial.
+        en: The FTC said shopping scams were the most reported type of social media scam.
+      source: ftc_social_2025
+    - value: 60%~
+      label:
+        id: romance scam berawal dari media sosial
+        en: romance scams started on social media
+      note:
+        id: Anak, remaja, dan keluarga perlu mengenali manipulasi relasi di akun sosial.
+        en: Children, teens, and families need to recognize relationship manipulation on social accounts.
+      source: ftc_social_2025
+    - value: $7.7B
+      label:
+        id: kerugian korban usia 60+
+        en: losses by victims aged 60+
+      note:
+        id: FBI IC3 2025 melaporkan korban usia di atas 60 tahun sebagai kelompok dengan kerugian besar.
+        en: FBI IC3 2025 reported large losses among victims over age 60.
+      source: fbi_ic3_2025
+  tech_support_scam:
+    context:
+      id: 'Penipu tech support mengeksploitasi kepanikan Anda saat perangkat terlihat bermasalah. FBI IC3 mencatat skala kerugiannya:'
+      en: Tech support scams prey on user concerns about device security. These FBI IC3 figures show the scale of losses.
+    stats:
+    - value: $2.1B
+      label:
+        id: kerugian tech/customer support fraud 2025
+        en: tech/customer support fraud losses 2025
+      note:
+        id: FBI IC3 mencatat tech/customer support fraud sebagai kategori kerugian tertinggi ketiga setelah investment fraud
+          dan BEC.
+        en: FBI IC3 recorded tech/customer support fraud as the third-largest loss category after investment fraud and BEC.
+      source: fbi_ic3_2025_full
+    - value: $1.46B
+      label:
+        id: kerugian tech support scam 2024
+        en: tech support scam losses 2024
+      note:
+        id: Kerugian tech support scam naik 87% dari 2022 ke 2024, menurut data IC3.
+        en: Tech support scam losses rose 87% from 2022 to 2024, per IC3 data.
+      source: fbi_ic3_2024
+    - value: $900M
+      label:
+        id: kerugian tech support untuk korban lansia (60+)
+        en: tech support losses for elderly victims (60+)
+      note:
+        id: FBI IC3 2024 melaporkan korban usia 60+ kehilangan hampir $900 juta akibat tech support scam.
+        en: FBI IC3 2024 reported victims aged 60+ lost nearly $900 million to tech support scams.
+      source: fbi_ic3_2024
+    - value: 26%
+      label:
+        id: kenaikan total kerugian cybercrime 2025
+        en: increase in total cybercrime losses 2025
+      note:
+        id: Total kerugian siber yang dilaporkan IC3 naik 26% menjadi hampir $20,9 miliar pada 2025.
+        en: Total IC3-reported cyber losses rose 26% to nearly $20.9 billion in 2025.
+      source: fbi_ic3_2025_full
+  sim_swap_esim:
+    context:
+      id: 'SIM swap, port-out fraud, dan pembajakan nomor seluler adalah ancaman serius: nomor telepon Anda adalah faktor
+        autentikasi kedua di puluhan layanan.'
+      en: 'SIM swap, port-out fraud, and mobile number hijacking are serious threats: your phone number is a second authentication
+        factor across dozens of services.'
+    stats:
+    - value: '982'
+      label:
+        id: aduan SIM swap ke FBI IC3 (2024)
+        en: SIM swap complaints to FBI IC3 (2024)
+      note:
+        id: FBI IC3 2024 mencatat 982 aduan SIM swap dengan total kerugian $25,9 juta. Rata-rata kerugian per korban mencapai
+          $26.400.
+        en: FBI IC3 2024 recorded 982 SIM swap complaints with $25.9 million total losses. Average loss per victim reached
+          $26,400.
+      source: fbi_ic3_2024
+    - value: Nov 2023
+      label:
+        id: FCC mengadopsi aturan anti SIM swap & port-out
+        en: FCC adopted anti SIM swap & port-out rules
+      note:
+        id: FCC mengadopsi aturan yang mewajibkan operator seluler menerapkan autentikasi aman dan notifikasi pelanggan untuk
+          setiap SIM swap atau port-out.
+        en: FCC adopted rules requiring carriers to implement secure authentication and customer notifications for every SIM
+          swap or port-out.
+      source: fcc_sim_swap_2023
+    - value: $359.7M
+      label:
+        id: kerugian account takeover 2025
+        en: account takeover losses 2025
+      note:
+        id: FBI IC3 2025 mencatat sekitar 4.700 aduan pengambilalihan akun dengan kerugian $359,7 juta. Nomor seluler yang
+          jatuh ke tangan penyerang membuka jalan untuk mengambil alih akun lain.
+        en: FBI IC3 2025 recorded ~4,700 account takeover complaints with $359.7M in losses. Hijacked phone numbers are frequently
+          used to compromise other accounts.
+      source: fbi_ic3_2025_full
+    - value: 1,055%
+      label:
+        id: lonjakan SIM swap di UK (Cifas)
+        en: SIM swap surge in UK (Cifas)
+      note:
+        id: Data Cifas Fraudscape 2025 mencatat kenaikan 1.055% kasus SIM swap tidak sah di Inggris pada 2024 dibanding tahun
+          sebelumnya.
+        en: Cifas Fraudscape 2025 recorded a 1,055% increase in unauthorized SIM swaps in the UK in 2024 year-over-year.
+      source: fcc_sim_swap_2023
+  infostealer:
+    context:
+      id: Infostealer menargetkan sesi aktif dan kredensial tersimpan. Penyerang masuk ke akun Anda tanpa menyentuh kata sandi.
+      en: 'Infostealers target active sessions and stored credentials. The result: unauthorized account access, even with
+        strong passwords.'
+    stats:
+    - value: 21,000+
+      label:
+        id: listing log curian LummaC2 di Q2 2024
+        en: LummaC2 stolen log listings in Q2 2024
+      note:
+        id: Advisory gabungan CISA dan FBI (Mei 2025) mencatat lebih dari 21.000 data log curian LummaC2 beredar di pasar
+          ilegal pada April–Juni 2024, naik 71,7% dari periode yang sama 2023.
+        en: CISA & FBI advisory (May 2025) noted 21,000+ LummaC2 stolen log records traded illicitly in Apr–Jun 2024, up 71.7%
+          from the same period in 2023.
+      source: cisa_fbi_lummac2_2025
+    - value: $359.7M
+      label:
+        id: kerugian account takeover 2025
+        en: account takeover losses 2025
+      note:
+        id: FBI IC3 2025 mencatat kerugian $359,7 juta dari pengambilalihan akun. Infostealer menjadi alat utama pencurian
+          sesi yang memicu ATO.
+        en: FBI IC3 2025 recorded $359.7M in account takeover losses. Infostealers are the primary tool for session theft
+          that triggers ATO.
+      source: fbi_ic3_2025_full
+    - value: May 2025
+      label:
+        id: advisory gabungan CISA & FBI terbaru
+        en: latest CISA & FBI joint advisory
+      note:
+        id: CISA dan FBI merilis advisory AA25-141B tentang LummaC2 infostealer yang menyasar berbagai sektor infrastruktur
+          kritis AS.
+        en: CISA and FBI released advisory AA25-141B on LummaC2 infostealer targeting multiple US critical infrastructure
+          sectors.
+      source: cisa_fbi_lummac2_2025
+    - value: $3.05B
+      label:
+        id: kerugian BEC 2025 dari kredensial curian
+        en: BEC losses 2025 from stolen credentials
+      note:
+        id: FBI IC3 2025 mencatat $3,05 miliar kerugian BEC. Infostealer menjadi jalur utama pencurian kredensial yang mendorong
+          BEC.
+        en: FBI IC3 2025 recorded $3.05B in BEC losses. Infostealers are a primary credential theft path fueling BEC.
+      source: fbi_ic3_2025_full
+  usb_charging:
+    context:
+      id: Pengisian daya USB publik membawa risiko juice jacking. Meskipun belum ada statistik korban dari sumber pemerintah,
+        beberapa lembaga federal AS mengeluarkan peringatan resmi.
+      en: Public USB charging carries juice jacking risk. No confirmed victim statistics exist from government sources, but
+        multiple US federal agencies have issued official warnings.
+    stats:
+    - value: 3 agensi
+      label:
+        id: lembaga federal AS yang memperingatkan juice jacking
+        en: US federal agencies that warned about juice jacking
+      note:
+        id: FBI (Denver, 2023), FCC (2025), dan TSA (2025) semuanya mengeluarkan peringatan publik agar tidak menggunakan
+          port USB publik karena risiko malware dan pencurian data.
+        en: FBI (Denver, 2023), FCC (2025), and TSA (2025) all issued public warnings against using public USB ports due to
+          malware and data theft risks.
+      source: fcc_juice_jacking
+    - value: 266M+
+      label:
+        id: instalasi berisiko yang Google Play Protect blokir
+        en: risky app installs blocked by Google Play Protect
+      note:
+        id: Google Play Protect memblokir ratusan juta instalasi berisiko pada 2025. Skala ancaman terhadap perangkat seluler
+          jauh lebih luas dari yang terlihat.
+        en: Google Play Protect blocked hundreds of millions of risky installs in 2025. The scale of mobile threats goes far
+          beyond what most users see.
+      source: google_play_2025
+    - value: 52%
+      label:
+        id: kenaikan ancaman via USB dalam 4 tahun
+        en: increase in USB-borne threats over 4 years
+      note:
+        id: Laporan Honeywell 2022 mencatat 52% ancaman industrial menyebar lewat USB. Vektor ini bukan risiko teori.
+        en: 'Honeywell 2022 report: 52% of industrial threats spread via USB. This vector is real, not theoretical.'
+      source: fcc_juice_jacking
+    - value: 0 kasus
+      label:
+        id: kasus juice jacking terkonfirmasi menurut FCC
+        en: confirmed juice jacking cases, per FCC
+      note:
+        id: FCC menyatakan belum mengetahui adanya kasus juice jacking terkonfirmasi. Risiko teknisnya ada. Pencegahannya
+          sederhana.
+        en: FCC stated they are not aware of any confirmed juice jacking cases, but the technical risk is real and prevention
+          is simple.
+      source: fcc_juice_jacking
+  video_meeting:
+    context:
+      id: Keamanan rapat video bukan cuma enkripsi. Penyerang membajak akun meeting Anda. Dari sana, BEC, phishing, dan pencurian
+        data mengikuti.
+      en: Video meeting security goes beyond encryption. A hijacked meeting account opens the door to BEC, phishing, and data
+        theft.
+    stats:
+    - value: '2020'
+      label:
+        id: FBI mengeluarkan advisory Zoombombing
+        en: FBI issued Zoombombing advisory
+      note:
+        id: 'FBI Boston memperingatkan pembajakan telekonferensi: peserta tak dikenal menyusup ke rapat virtual dan menyebarkan
+          konten mengganggu.'
+        en: 'FBI Boston issued a warning about teleconference hijacking: uninvited participants disrupted virtual meetings
+          with offensive content.'
+      source: fbi_zoombombing_2020
+    - value: $3.05B
+      label:
+        id: kerugian BEC 2025 terkait pembajakan akun
+        en: BEC losses 2025 tied to account hijacking
+      note:
+        id: FBI IC3 2025 mencatat $3,05 miliar kerugian BEC. Penyerang yang membajak akun email rapat Anda bisa membaca, meniru,
+          dan menyalahgunakan seluruh komunikasi internal.
+        en: 'FBI IC3 2025: $3.05B BEC losses. A hijacked meeting email account gives access to internal communication that
+          can be exploited.'
+      source: fbi_ic3_2025_full
+    - value: $359.7M
+      label:
+        id: kerugian account takeover 2025
+        en: account takeover losses 2025
+      note:
+        id: FBI IC3 2025 mencatat ~4.700 aduan ATO. Kredensial meeting yang lemah menjadi salah satu vektor pengambilalihan
+          akun.
+        en: FBI IC3 2025 recorded ~4,700 ATO complaints. Weak meeting credentials are one vector for account takeover.
+      source: fbi_ic3_2025_full
+    - value: 60%
+      label:
+        id: 'intrusi di EU: phishing sebagai pintu masuk'
+        en: EU intrusions started with phishing
+      note:
+        id: 'ENISA Threat Landscape 2025: phishing tetap menjadi vektor intrusi dominan di Eropa. Undangan meeting palsu menjadi
+          umpan phishing yang umum.'
+        en: 'ENISA Threat Landscape 2025: phishing remains the dominant intrusion vector in Europe. Fake meeting invites are
+          a common phishing lure.'
+      source: enisa_threat_2025
+  secret_leakage:
+    context:
+      id: API key, token, dan secret yang bocor di repositori publik atau penyimpanan tidak aman menjadi jalur masuk bagi
+        penyerang ke sistem produksi.
+      en: API keys, tokens, and secrets leaked in public repositories or insecure storage are an entry path for attackers
+        into production systems.
+    stats:
+    - value: $1.32B
+      label:
+        id: kerugian personal data breach 2025
+        en: personal data breach losses 2025
+      note:
+        id: 'FBI IC3 2025: kerugian personal data breach mencapai $1,32 miliar. Kredensial yang terekspos menjadi penyebab
+          utama.'
+        en: 'FBI IC3 2025: personal data breach losses reached $1.32 billion. Exposed credentials are a primary cause.'
+      source: fbi_ic3_2025_full
+    - value: 183 hari
+      label:
+        id: durasi eksposur kredensial CISA di GitHub publik
+        en: CISA credential exposure duration on public GitHub
+      note:
+        id: Pada 2025–2026, kredensial administratif CISA terekspos di repositori GitHub publik selama 183 hari. Risiko secret
+          leakage tidak mengenal ukuran organisasi.
+        en: In 2025–2026, a CISA contractor left administrative credentials in a public GitHub repository for 183 days. Secret
+          leakage risk spares no organization.
+      source: cisa_cpg_2025
+    - value: 83%
+      label:
+        id: stakeholder CISA kurangi layanan tereksploitasi
+        en: CISA stakeholders reduced exploitable services
+      note:
+        id: 'Laporan CISA CPG 2025: 83% pemangku kepentingan mengurangi layanan yang terekspos ke internet. Manajemen permukaan
+          serang bukan opsional.'
+        en: 'CISA CPG 2025 report: 83% of stakeholders reduced internet-exposed services. Attack surface management is not
+          optional.'
+      source: cisa_cpg_2025
+    - value: 30%
+      label:
+        id: pelanggaran melibatkan pihak ketiga
+        en: breaches involved third parties
+      note:
+        id: Verizon DBIR menghubungkan keterlibatan pihak ketiga dengan kebocoran API dan integrasi. Dua jalur yang sama-sama
+          berujung pada secret leakage rantai pasok.
+        en: 'Verizon DBIR ties third-party involvement to API and integration leaks. Two paths, same outcome: supply-chain
+          secret leakage.'
+      source: verizon_dbir_2025
+  digital_estate:
+    context:
+      id: Tanpa perencanaan akses warisan digital, akun penting bisa terkunci permanen. Angka berikut menunjukkan skala risiko
+        kehilangan akses akun.
+      en: Without digital estate access planning, critical accounts can be permanently locked. These figures show the scale
+        of account access loss risk.
+    stats:
+    - value: $359.7M
+      label:
+        id: kerugian account takeover 2025
+        en: account takeover losses 2025
+      note:
+        id: FBI IC3 2025 mencatat 4.700 aduan pengambilalihan akun. Tanpa rencana akses, memulihkan akun yang sudah lepas
+          kendali nyaris mustahil.
+        en: 'FBI IC3 2025: 4,700 account takeover complaints. Without planned access, recovering a taken-over account becomes
+          nearly impossible.'
+      source: fbi_ic3_2025_full
+    - value: $7.7B
+      label:
+        id: kerugian korban usia 60+ (2025)
+        en: losses by victims aged 60+ (2025)
+      note:
+        id: 'FBI IC3 2025: korban usia 60+ kehilangan $7,7 miliar. Kelompok ini paling rentan kehilangan akses digital permanen
+          tanpa perencanaan.'
+        en: 'FBI IC3 2025: victims aged 60+ lost $7.7 billion. This group is most vulnerable to permanent digital access loss
+          without planning.'
+      source: fbi_ic3_2025_full
+    - value: $1.32B
+      label:
+        id: kerugian personal data breach 2025
+        en: personal data breach losses 2025
+      note:
+        id: Data pribadi di akun yang tidak dikelola setelah pemilik meninggal berisiko bocor dan disalahgunakan tanpa sepengetahuan
+          ahli waris.
+        en: Personal data in unmanaged accounts after the owner's death risks being leaked and misused without heirs' knowledge.
+      source: fbi_ic3_2025_full
+    - value: $20,699
+      label:
+        id: rata-rata kerugian per korban cybercrime 2025
+        en: average loss per cybercrime victim 2025
+      note:
+        id: FBI IC3 2025 mencatat rata-rata kerugian $20.699 per korban. Tanpa rencana akses, potensi kerugian yang tidak
+          bisa Anda pulihkan makin besar.
+        en: 'FBI IC3 2025: average loss of $20,699 per victim. Unplanned account access increases potential for unrecoverable
+          losses.'
+      source: fbi_ic3_2025_full
+  public_wifi:
+    context:
+      id: CISA mengklasifikasikan WiFi publik di bandara, hotel, dan kafe sebagai lingkungan berisiko tinggi. Penyadapan dan
+        pencurian sesi adalah alasan utamanya.
+      en: CISA classifies public WiFi in airports, hotels, and cafés as high-risk. Eavesdropping and session theft top the
+        list of concerns.
+    stats:
+    - value: High-Risk
+      label:
+        id: klasifikasi CISA untuk WiFi publik
+        en: CISA classification for public WiFi
+      note:
+        id: CISA menempatkan WiFi publik dalam kategori risiko tinggi. Jaringan ini membuka vektor pencurian kredensial, session
+          hijacking, dan distribusi malware.
+        en: CISA puts public WiFi in the high-risk category. These networks open vectors for credential theft, session hijacking,
+          and malware distribution.
+      source: nist_sp800_153
+    - value: '2020'
+      label:
+        id: FBI memperingatkan MITM di WiFi hotel
+        en: FBI warned about MITM on hotel WiFi
+      note:
+        id: FBI mengeluarkan advisory tentang man-in-the-middle attack di jaringan WiFi hotel dan publik. Risiko tetap tinggi
+          bahkan dengan peralatan sederhana.
+        en: FBI issued an advisory on man-in-the-middle attacks on hotel and public WiFi. The risk stays high, even with simple
+          equipment.
+      source: nist_sp800_153
+    - value: 193,407
+      label:
+        id: aduan phishing/spoofing IC3 2024
+        en: phishing/spoofing complaints IC3 2024
+      note:
+        id: Phishing melalui jaringan tidak aman seperti WiFi publik menjadi salah satu metode pencurian kredensial yang paling
+          umum.
+        en: Phishing over insecure networks like public WiFi is one of the most common credential theft methods.
+      source: fbi_ic3_2024
+    - value: NIST SP 800-153
+      label:
+        id: standar NIST untuk pengamanan WLAN
+        en: NIST standard for WLAN security
+      note:
+        id: NIST membedakan WPA2-Personal (shared key) dari WPA2-Enterprise. Yang pertama tidak memberi isolasi antar pengguna.
+          Di WiFi publik, artinya semua pengguna berbagi kunci yang sama.
+        en: NIST distinguishes WPA2-Personal (shared key) from WPA2-Enterprise. WPA2-Personal offers zero user isolation.
+          On public WiFi, every user shares the same key.
+      source: nist_sp800_153
+articles:
+  ai-cybersecurity:
+    bundle: ai_shadow
+  usb-charging-safety:
+    bundle: usb_charging
+  social-media-security:
+    bundle: fraud_scams
+  messaging-security:
+    bundle: phishing_social_engineering
+  fake-apk-scam-prevention:
+    bundle: mobile_app
+  monthly-security-audit:
+    bundle: incident_response
+  two-factor-authentication:
+    bundle: identity_access
+  online-shopping:
+    bundle: fraud_scams
+  browser-fingerprinting:
+    bundle: web_privacy_tracking
+  secure-cloud-file-sharing:
+    bundle: data_breach_privacy
+  check-data-breach:
+    bundle: data_breach_privacy
+  check-hacked-phone:
+    bundle: mobile_app
+  check-scam-bank-account:
+    bundle: fraud_scams
+  personal-data-protection:
+    bundle: data_breach_privacy
+  primary-email-security:
+    bundle: identity_access
+  home-wifi-security:
+    bundle: dns_network
+  investment-scam-awareness:
+    bundle: crypto_investment
+  job-scam-safety:
+    bundle: fraud_scams
+  phishing-guide:
+    bundle: phishing_social_engineering
+  qr-code-safety:
+    bundle: phishing_social_engineering
+  remove-personal-data-google:
+    bundle: web_privacy_tracking
+  remove-android-pop-up-ads:
+    bundle: mobile_app
+  sextortion-scam-prevention:
+    bundle: extortion_romance
+  oauth-consent-phishing:
+    bundle: identity_access
+  crypto-scam:
+    bundle: crypto_investment
+  deepfake-detection:
+    bundle: deepfake_ai_abuse
+  dns-security:
+    bundle: dns_network
+  encrypted-dns-doh-dot:
+    bundle: dns_network
+  encryption-guide:
+    bundle: data_breach_privacy
+  secure-device-disposal:
+    bundle: data_breach_privacy
+  infostealer-session-theft:
+    bundle: infostealer
+  wfh-security:
+    bundle: incident_response
+  browser-security:
+    bundle: vulnerability_patch
+  cloud-storage-security:
+    bundle: data_breach_privacy
+  customer-data-security-smb:
+    bundle: data_breach_privacy
+  e-wallet-qris-security:
+    bundle: fraud_scams
+  ecommerce-security:
+    bundle: fraud_scams
+  business-email-security:
+    bundle: bec_business
+  esim-security:
+    bundle: sim_swap_esim
+  mobile-banking-security:
+    bundle: fraud_scams
+  iot-smart-home-security:
+    bundle: vulnerability_patch
+  video-meeting-security:
+    bundle: video_meeting
+  ransomware-readiness-smb:
+    bundle: ransomware_recovery
+  hardware-security-keys-passkeys:
+    bundle: identity_access
+  data-breach-first-hours:
+    bundle: incident_response
+  digital-identity-protection:
+    bundle: identity_access
+  access-management-smb:
+    bundle: identity_access
+  software-updates:
+    bundle: vulnerability_patch
+  api-key-security:
+    bundle: secret_leakage
+  osint-digital-footprint:
+    bundle: web_privacy_tracking
+  family-digital-safety:
+    bundle: family_children
+  app-permissions:
+    bundle: mobile_app
+  passwords-passkeys:
+    bundle: identity_access
+  parental-control:
+    bundle: family_children
+  threat-modeling-personal:
+    bundle: incident_response
+  romance-scam:
+    bundle: extortion_romance
+  tech-support-scam:
+    bundle: tech_support_scam
+  photo-location-privacy:
+    bundle: web_privacy_tracking
+  ai-chatbot-privacy:
+    bundle: ai_shadow
+  prompt-injection-ai-agent:
+    bundle: llm_app_security
+  lost-phone:
+    bundle: identity_access
+  incident-response-smb:
+    bundle: incident_response
+  supply-chain-third-party-risk:
+    bundle: supply_chain
+  shadow-ai-security:
+    bundle: ai_shadow
+  sim-swap-attack:
+    bundle: sim_swap_esim
+  social-engineering:
+    bundle: phishing_social_engineering
+  backup-3-2-1:
+    bundle: ransomware_recovery
+  digital-estate-planning:
+    bundle: digital_estate
+  vpn-guide:
+    bundle: vulnerability_patch
+  public-wifi:
+    bundle: public_wifi
+  zero-trust-small-business:
+    bundle: incident_response

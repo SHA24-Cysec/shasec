@@ -1,0 +1,44 @@
+{{- $key := .Params.translationKey | default .File.TranslationBaseName -}}
+{{- $article := index hugo.Data.article_stats.articles $key -}}
+{{- if $article -}}
+  {{- $bundle := index hugo.Data.article_stats.bundles $article.bundle -}}
+  {{- if $bundle -}}
+    {{- $lang := .Site.Language.Lang | default "en" -}}
+    {{- $context := index $bundle.context $lang | default (index $bundle.context "en") -}}
+    {{- $sectionId := printf "article-stats-%s" ($key | anchorize) -}}
+    <section class="article-stats" aria-labelledby="{{ $sectionId }}">
+      <div class="article-stats-head">
+        <div>
+          <p class="article-stats-eyebrow">{{ i18n "stats_eyebrow" }}</p>
+          <h2 class="article-stats-title" id="{{ $sectionId }}">{{ i18n "stats_title" }}</h2>
+        </div>
+        <span class="article-stats-badge">{{ i18n "stats_badge" }}</span>
+      </div>
+
+      {{- with $context -}}
+        <p class="article-stats-context">{{ . }}</p>
+      {{- end -}}
+
+      <div class="article-stats-grid">
+        {{- range $bundle.stats -}}
+          {{- $source := index hugo.Data.article_stats.sources .source -}}
+          {{- $label := index .label $lang | default (index .label "en") -}}
+          {{- $note := index .note $lang | default (index .note "en") -}}
+          <article class="article-stat-card">
+            <div class="article-stat-value">{{ .value }}</div>
+            <h3 class="article-stat-label">{{ $label }}</h3>
+            <p class="article-stat-note">{{ $note }}</p>
+            {{- with $source -}}
+              <a class="article-stat-source" href="{{ .url }}" target="_blank" rel="noopener noreferrer">
+                <span>{{ i18n "stats_source" }}: {{ .title }} · {{ .year }}</span>
+                <svg class="article-stat-source-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M7 17 17 7"/><path d="M8 7h9v9"/></svg>
+              </a>
+            {{- end -}}
+          </article>
+        {{- end -}}
+      </div>
+
+      <p class="article-stats-footnote">{{ i18n "stats_footnote" }}</p>
+    </section>
+  {{- end -}}
+{{- end -}}

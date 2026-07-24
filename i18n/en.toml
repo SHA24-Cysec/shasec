@@ -411,3 +411,14 @@ other = "Sponsored space"
 other = "Search results navigation"
 [search_page_of]
 other = "Page {{ .Page }} of {{ .Total }}"
+
+[stats_eyebrow]
+other = "// statistical data"
+[stats_title]
+other = "Real statistics for this topic"
+[stats_badge]
+other = "Verified sources"
+[stats_source]
+other = "Source"
+[stats_footnote]
+other = "Figures are summarized from public reports. Use the source links to review methodology, geography, and reporting period."

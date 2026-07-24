@@ -411,3 +411,14 @@ other = "Ruang sponsor"
 other = "Navigasi halaman hasil pencarian"
 [search_page_of]
 other = "Halaman {{ .Page }} dari {{ .Total }}"
+
+[stats_eyebrow]
+other = "// data statistik"
+[stats_title]
+other = "Statistik nyata terkait topik ini"
+[stats_badge]
+other = "Sumber terverifikasi"
+[stats_source]
+other = "Sumber"
+[stats_footnote]
+other = "Angka diringkas dari laporan publik. Gunakan tautan sumber untuk membaca metodologi, wilayah, dan periode data."
