@@ -77,7 +77,17 @@ Bergantung pada konteks: pelaksanaan layanan yang diminta, kepentingan sah penge
 Kami menerapkan langkah teknis dan organisasional yang wajar untuk melindungi data. Tidak ada transmisi internet yang 100% aman. Kami tidak dapat menjamin keamanan mutlak. Pesan kontak disimpan hanya selama diperlukan untuk penanganan dan administrasi, kecuali hukum mewajibkan retensi lebih lama.
 
 ## 9. Berbagi data
-Kami tidak menjual data pribadi Anda. Data dapat diproses oleh penyedia infrastruktur (hosting, CDN, email, analitik, periklanan) yang bertindak sebagai prosesor / pihak ketiga independen sesuai kebijakan mereka, semata-mata untuk menjalankan situs dan fitur terkait.
+Kami tidak menjual data pribadi Anda. Data dapat diproses oleh penyedia infrastruktur yang bertindak sebagai prosesor / pihak ketiga independen sesuai kebijakan mereka, semata-mata untuk menjalankan situs dan fitur terkait:
+
+- **Hosting & CDN:** Vercel (hosting, edge network, security headers)
+- **Formulir kontak & subscribe:** Formspree (memproses nama, email, isi pesan agar terkirim ke inbox kami) — lihat [Privacy Policy Formspree](https://formspree.io/legal/privacy-policy/)
+- **Analytics (jika aktif):** Google Analytics 4 (data agregat, anonimisasi IP diutamakan)
+- **Iklan (jika aktif):** Google AdSense dan mitra Google — lihat [Privacy Policy Google](https://policies.google.com/privacy)
+
+Formspree menyimpan pesan sesuai retensi layanan mereka untuk tujuan pengiriman dan anti-spam. Kami menghapus pesan dari inbox operasional setelah penanganan selesai, kecuali diperlukan untuk kewajiban hukum.
+
+## 9a. Retensi pesan kontak
+Pesan via formulir disimpan selama proses penanganan (biasanya 30–90 hari) lalu dihapus atau diarsip terbatas hanya untuk audit koreksi. Jika Anda minta penghapusan, kami proses dalam 14 hari kerja setelah verifikasi.
 
 ## 10. Hak Anda
 Sesuai hukum yang berlaku di yurisdiksi Anda, Anda dapat berhak untuk:

@@ -71,8 +71,18 @@ Depending on context: performance of a requested service, legitimate interests o
 ## 8. Retention and security
 We apply reasonable technical and organizational measures to protect data. No internet transmission is 100% secure. We cannot guarantee absolute security. Contact messages are kept only as long as needed for handling and administration, unless law requires longer retention.
 
-## 9. Sharing
-We do not sell your personal data. Data may be processed by infrastructure providers (hosting, CDN, email, analytics, advertising) acting as processors / independent third parties under their policies, solely to run the site and related features.
+## 9. Sharing & processors
+We do not sell your personal data. Data may be processed by infrastructure providers acting as processors / independent third parties under their own policies, solely to run the site and related features:
+
+- **Hosting & CDN:** Vercel (hosting, edge network, security headers)
+- **Contact & subscribe forms:** Formspree (processes name, email, message to deliver to our inbox) — see [Formspree Privacy Policy](https://formspree.io/legal/privacy-policy/)
+- **Analytics (if enabled):** Google Analytics 4 (aggregate, IP anonymization where possible)
+- **Ads (if enabled):** Google AdSense and Google ad partners — see [Google Privacy Policy](https://policies.google.com/privacy)
+
+Formspree stores messages per its retention for delivery and anti-spam. We delete messages from operational inbox after handling, unless retention is required by law.
+
+## 9a. Contact message retention
+Contact form messages are kept for handling (typically 30–90 days) then deleted or minimally archived for correction audit. If you request deletion, we process it within 14 business days after verification.
 
 ## 10. Your rights
 Subject to applicable law, you may have rights to:

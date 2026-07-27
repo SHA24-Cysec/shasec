@@ -344,11 +344,11 @@ other = "Table of contents"
 [author_section]
 other = "About the author"
 [author_profile]
-other = "Profile"
+other = "Full profile"
 [author_role_default]
-other = "Editor"
+other = "Independent Cybersecurity Researcher"
 [author_bio_default]
-other = "Just a person who has a hobby and likes things related to technology."
+other = "I research threat intel and hardening. I use Microsoft DR, Verizon DBIR, FBI IC3, ENISA as primary source. I test guide on my own device."
 
 [share_label]
 other = "Share"

@@ -344,11 +344,11 @@ other = "Daftar isi"
 [author_section]
 other = "Tentang penulis"
 [author_profile]
-other = "Profil"
+other = "Profil lengkap"
 [author_role_default]
-other = "Editor"
+other = "Peneliti Keamanan Siber Independen"
 [author_bio_default]
-other = "Hanya orang yang hobi dan menyukai hal-hal yang berhubungan dengan teknologi."
+other = "Saya riset threat intelligence dan hardening. Saya pakai Microsoft DR, Verizon DBIR, FBI IC3, ENISA sebagai sumber primer. Saya uji panduan di perangkat saya."
 
 [share_label]
 other = "Bagikan"

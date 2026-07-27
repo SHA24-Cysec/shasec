@@ -29,8 +29,8 @@ defaultContentLanguageInSubdir = false
       legalName = 'ShaSec'
       region = 'Indonesia'
       jurisdiction = 'Indonesia'
-      privacyUpdated = '15 Juli 2026'
-      disclaimerUpdated = '15 Juli 2026'
+      privacyUpdated = '27 Juli 2026'
+      disclaimerUpdated = '27 Juli 2026'
     # Menu utama (rapi production): tanpa Categories di nav.
     # /categories/ tetap ada lewat badge artikel & sidebar.
     [languages.id.menus]
@@ -71,8 +71,8 @@ defaultContentLanguageInSubdir = false
       legalName = 'ShaSec'
       region = 'Indonesia'
       jurisdiction = 'Indonesia'
-      privacyUpdated = '15 July 2026'
-      disclaimerUpdated = '15 July 2026'
+      privacyUpdated = '27 July 2026'
+      disclaimerUpdated = '27 July 2026'
     [languages.en.menus]
       [[languages.en.menus.main]]
         name = 'Home'
@@ -108,20 +108,20 @@ defaultContentLanguageInSubdir = false
   # Default author for articles (override per-post: author / authors)
   # Sesuaikan nama/bio dengan identitas Anda.
   [params.author]
-    # Ganti "name" dengan nama Anda jika ingin personal (bukan brand).
+    # Identitas penulis utama — dipakai untuk EEAT & JSON-LD Person
     name = 'Syukra'
     avatar = '/images/sha24.webp'
     # url     → halaman profil internal (ikon "Profil" di kotak penulis)
     # profile → situs profil eksternal; dipakai oleh nama penulis
     url = '/about/'
     profile = 'https://profile.shasec.my.id'
-    # role/bio dikosongkan → otomatis dari i18n (ID: Pengelola, EN: Operator)
-    role = ''
-    bio = ''
-    # Sosial: username ATAU URL penuh
-    linkedin = 'syukra-hadikasuma'          # → linkedin.com/in/username
-    instagram = 'sha24org'         # → instagram.com/username
-    github = 'SHA24-Cysec'            # → github.com/username
+    # role/bio stop-slop compliant — aktif, spesifik, tanpa adverb
+    role = 'Independent Cybersecurity Researcher'
+    bio = 'Saya riset threat intelligence dan hardening. Saya pakai Microsoft DR, Verizon DBIR, FBI IC3, ENISA sebagai sumber primer. Saya uji panduan di perangkat saya.'
+    # Sosial: username ATAU URL penuh — dipakai untuk Person sameAs (EEAT)
+    linkedin = 'syukra-hadikasuma'
+    instagram = 'sha24org'
+    github = 'SHA24-Cysec'
 
   [params.contact]
     formspreeId = 'meeyobrl'
