@@ -1274,3 +1274,13 @@ articles:
     bundle: public_wifi
   zero-trust-small-business:
     bundle: incident_response
+  malvertising-seo-poisoning:
+    bundle: infostealer
+  vishing-ai-voice-cloning:
+    bundle: deepfake_ai_abuse
+  illegal-lending-apps:
+    bundle: mobile_app
+  travel-digital-security:
+    bundle: public_wifi
+  credential-stuffing:
+    bundle: identity_access

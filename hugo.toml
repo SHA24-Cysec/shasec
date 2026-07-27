@@ -111,7 +111,10 @@ defaultContentLanguageInSubdir = false
     # Ganti "name" dengan nama Anda jika ingin personal (bukan brand).
     name = 'Syukra'
     avatar = '/images/sha24.webp'
+    # url     → halaman profil internal (ikon "Profil" di kotak penulis)
+    # profile → situs profil eksternal; dipakai oleh nama penulis
     url = '/about/'
+    profile = 'https://profile.shasec.my.id'
     # role/bio dikosongkan → otomatis dari i18n (ID: Pengelola, EN: Operator)
     role = ''
     bio = ''

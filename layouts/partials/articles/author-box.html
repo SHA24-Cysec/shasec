@@ -3,6 +3,9 @@
   Default: site.Params.author
   Social (username or full URL):
     linkedin, instagram, github
+  Links:
+    url     → internal profile page (icon "Profil"), default /about/
+    profile → external profile site; used by the author name when set
   Per-article override: author / authors
 */ -}}
 {{- $page := . -}}
@@ -56,6 +59,14 @@
         {{- $url = $url | relLangURL -}}
       {{- end -}}
 
+      {{- /* External profile site; author name links here when set */ -}}
+      {{- $profile := .profile | default .Profile | default "" -}}
+      {{- if and $profile (not (or (hasPrefix $profile "http://") (hasPrefix $profile "https://"))) -}}
+        {{- $profile = printf "https://%s" (strings.TrimSuffix "/" $profile) -}}
+      {{- end -}}
+      {{- $nameURL := $profile | default $url -}}
+      {{- $nameExternal := and $profile true -}}
+
       {{- /* Social URLs: accept full URL or username/handle */ -}}
       {{- $linkedin := .linkedin | default .LinkedIn | default "" -}}
       {{- $instagram := .instagram | default .Instagram | default "" -}}
@@ -76,8 +87,8 @@
         </div>
         <div class="author-card-body">
           <div class="author-card-head">
-            {{- if $url -}}
-              <a class="author-name" href="{{ $url }}">{{ $name }}</a>
+            {{- if $nameURL -}}
+              <a class="author-name" href="{{ $nameURL }}"{{ if $nameExternal }} target="_blank" rel="noopener noreferrer me"{{ end }}>{{ $name }}</a>
             {{- else -}}
               <span class="author-name">{{ $name }}</span>
             {{- end -}}
