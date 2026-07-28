@@ -114,15 +114,15 @@ Tidak selalu. Banyak kasus dapat dipulihkan dengan pemeriksaan dan instal ulang 
 
 ### Sumber unduhan
 
-Dalam pencegahan infostealer dan pencurian sesi browser, periksa Sumber unduhan sebelum pekerjaan berjalan lebih jauh. Pastikan pemilik perangkat, pengguna akun, dan tim IT bila tersedia dapat menjelaskan mengapa akses atau tindakan itu diperlukan. Jangan memilih pengaturan paling luas hanya agar proses terasa cepat. Catat keputusan yang diambil, lalu tinjau kembali ketika fungsi atau data yang dipakai berubah.
+Dalam pencegahan infostealer dan pencurian sesi browser, periksa Sumber unduhan sebelum pekerjaan berjalan lebih jauh. Pastikan pemilik perangkat, pengguna akun, dan tim IT bila tersedia dapat menjelaskan mengapa akses atau tindakan itu diperlukan.
 
 ### Iklan pencarian
 
-Iklan pencarian perlu memiliki batas yang dapat dipahami pengguna. Risiko muncul ketika malware mengambil kredensial, token sesi, atau data akun dari perangkat. Gunakan contoh kerja nyata untuk melihat apakah batas tersebut masih berlaku. Bila jawabannya tidak jelas, hentikan penggunaan sementara dan minta penilaian dari pemilik perangkat, pengguna akun, dan tim IT bila tersedia sebelum data atau tindakan berikutnya diproses.
+Iklan pencarian perlu memiliki batas yang dapat dipahami pengguna. Risiko muncul ketika malware mengambil kredensial, token sesi, atau data akun dari perangkat. Bila jawabannya tidak jelas, hentikan penggunaan sementara dan minta penilaian dari pemilik perangkat, pengguna akun, dan tim IT bila tersedia sebelum data atau tindakan berikutnya diproses.
 
 ### Aplikasi bajakan
 
-Jadikan Aplikasi bajakan sebagai bagian dari pemeriksaan rutin, bukan pekerjaan yang hanya dilakukan setelah insiden. Dalam konteks pencegahan infostealer dan pencurian sesi browser, perubahan kecil pada akun, izin, atau alur kerja dapat mengubah tingkat risiko. Pemilik perlu mengetahui perubahan itu dan memastikan perlindungan tetap sejalan dengan tujuan awal.
+Jadikan Aplikasi bajakan sebagai bagian dari pemeriksaan rutin, bukan pekerjaan yang hanya dilakukan setelah insiden. Dalam konteks pencegahan infostealer dan pencurian sesi browser, perubahan kecil pada akun, izin, atau alur kerja dapat mengubah tingkat risiko.
 
 ### Ekstensi browser
 
@@ -132,15 +132,15 @@ Saat menilai Ekstensi browser, fokus pada dampak yang mungkin terjadi, bukan han
 
 ### Situs unduhan
 
-Dalam pencegahan infostealer dan pencurian sesi browser, periksa Situs unduhan dengan tujuan yang jelas. Pastikan pemilik perangkat, pengguna akun, dan tim IT bila tersedia dapat menerangkan alasan akses atau tindakan tersebut. Jangan memilih pengaturan paling luas hanya demi kenyamanan. Catat keputusan dan tanggal pemeriksaan supaya perubahan kecil tidak berkembang tanpa diketahui.
+Dalam pencegahan infostealer dan pencurian sesi browser, periksa Situs unduhan dengan tujuan yang jelas. Pastikan pemilik perangkat, pengguna akun, dan tim IT bila tersedia dapat menerangkan alasan akses atau tindakan tersebut.
 
 ### Pengembang aplikasi
 
-Pengembang aplikasi perlu memiliki batas yang dapat dilihat pengguna. Uji alur dengan contoh yang aman, lalu hentikan penggunaan jika alasannya tidak jelas. Minta penilaian dari pemilik perangkat, pengguna akun, dan tim IT bila tersedia sebelum data atau tindakan tambahan diproses.
+Pengembang aplikasi perlu memiliki batas yang dapat dilihat pengguna. Minta penilaian dari pemilik perangkat, pengguna akun, dan tim IT bila tersedia sebelum data atau tindakan tambahan diproses.
 
 ### Izin ekstensi
 
-Jadikan Izin ekstensi bagian dari pekerjaan rutin, bukan tindakan setelah masalah terjadi. Pada pencegahan infostealer dan pencurian sesi browser, perubahan akun, izin, atau alur dapat mengubah risiko. Pemilik perlu mengetahui perubahan itu dan memastikan perlindungan masih sesuai tujuan awal.
+Jadikan Izin ekstensi bagian dari pekerjaan rutin, bukan tindakan setelah masalah terjadi. Pada pencegahan infostealer dan pencurian sesi browser, perubahan akun, izin, atau alur dapat mengubah risiko.
 
 ### Sinkronisasi browser
 

@@ -126,7 +126,7 @@ Untuk individu, setara ITDR adalah memanfaatkan fitur keamanan bawaan layanan ya
 
 ## Langkah Praktis untuk Melindungi Identitas Digital Anda
 
-1. **Gunakan password manager** dengan kata sandi master yang kuat dan unik. Aktifkan 2FA pada password manager itu sendiri.
+1. **Gunakan password manager** dengan kata sandi master yang kuat dan unik. Vault yang hanya dijaga satu kata sandi menjadi titik gagal tunggal bagi seluruh akun Anda.
 2. **Aktifkan 2FA di semua akun penting.** Prioritas: email utama, perbankan, media sosial, dan layanan cloud. Gunakan aplikasi authenticator, bukan SMS.
 3. **Beralih ke passkey** saat layanan mendukungnya. Passkey menghilangkan kata sandi dan membuat serangan phishing serta credential stuffing tidak efektif.
 4. **Pantau kebocoran data.** Daftarkan email Anda di Have I Been Pwned. Ganti kata sandi segera setelah pelanggaran terdeteksi.

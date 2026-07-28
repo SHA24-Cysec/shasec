@@ -45,29 +45,17 @@ Bila muncul unggahan, pesan, perubahan email, teman baru, atau perangkat yang ti
 ## Mengelola akun pribadi, komunitas, dan bisnis dengan lebih tertib
 Untuk akun bisnis atau komunitas, dokumentasikan siapa yang memiliki peran admin dan cara memulihkan akun tanpa menulis kata sandi utama pada dokumen terbuka. Tinjau akses saat seseorang berhenti bekerja atau berganti tugas. Untuk akun pribadi, lakukan pemeriksaan singkat sesekali terhadap aplikasi terhubung serta perangkat aktif. Pengelolaan akses yang rapi lebih efektif daripada menunggu notifikasi masalah. Jadwalkan peninjauan saat ada perubahan nyata: perangkat baru, nomor baru, akun kerja baru, atau layanan yang berhenti dipakai. Perhatikan khusus langkah "verifikasi pemberitahuan melalui aplikasi resmi". Peninjauan singkat yang menempel pada perubahan hidup menjaga perlindungan tetap masuk akal, bukan jadi daftar lama yang terlupakan.
 
-## Audit mandiri untuk menjaga keputusan tetap relevan
-Daftar langkah saja belum cukup. Nilainya muncul saat Anda bisa menerapkannya pada situasi yang sedikit berbeda dari contoh di atas. Pakai lima pemeriksaan berikut untuk menguji apakah perlindungan yang dipilih cocok dengan cara Anda memakai layanan digital. Anda tak perlu menyimpan jawaban berisi rahasia. Catat hanya tindakan, tanggal peninjauan, dan hal yang masih perlu dibereskan.
+## Audit mandiri untuk akun media sosial
 
-### 1. Meninjau: Amankan email pemulihan terlebih dahulu
-Lihat kondisi Anda saat ini, bukan sistem sempurna yang ingin dibangun dalam sehari. Tentukan apa yang harus selalu benar, siapa yang bertanggung jawab saat akun atau perangkat dipakai bersama, dan tanda apa yang menunjukkan perlindungan masih jalan. Batas minimum yang jelas lebih mudah dipatuhi daripada banyak aturan yang kabur. Buat penentuan sederhana: kapan Anda melakukannya dan apa yang tidak akan Anda lakukan sekalipun dikejar waktu. Dengan batas itu, Anda tak perlu memutuskan dari nol setiap kali situasi serupa muncul.
-**Pertanyaan pemeriksaan:** Apakah langkah ini dapat dilakukan tanpa mengikuti instruksi dari pihak yang tidak dikenal?
+Tinjau lima hal ini setiap kali Anda ganti ponsel, ganti nomor, atau menyadari ada login yang tidak Anda kenali.
 
-### 2. Meninjau: Gunakan kredensial khusus untuk setiap platform
-Setelah menerapkan langkah ini, cari bukti yang bisa dicek lagi: daftar perangkat bersih, pemulihan yang sudah diuji, catatan transaksi tersimpan, atau kemampuan membuka layanan resmi tanpa mengikuti tautan dari pesan. Rasa aman yang tak bisa dibuktikan sering hilang saat keadaan mendesak. Keberhasilan tak diukur dari banyaknya pengaturan, melainkan kemampuan Anda mengenali saat ada yang berubah.
-**Pertanyaan pemeriksaan:** Apakah ada bukti yang dapat dicek lagi dari perangkat atau jalur resmi?
+- **Email pemulihan.** Buka pengaturan akun dan pastikan alamat yang tercantum masih Anda kuasai. Alamat kantor lama atau email yang sudah tidak dibuka membuat pemulihan gagal saat dibutuhkan.
+- **Sesi aktif.** Instagram, Facebook, dan X punya daftar perangkat yang sedang masuk. Keluarkan perangkat yang tidak Anda kenali, lalu ganti kata sandi agar sesi lama ikut putus.
+- **Aplikasi terhubung.** Cabut izin aplikasi pihak ketiga yang sudah tidak dipakai. Aplikasi penjadwal posting yang Anda coba dua tahun lalu masih memegang token sampai Anda mencabutnya.
+- **Informasi publik.** Cek profil dari mode penyamaran browser. Tanggal lahir, nama sekolah, dan nama hewan peliharaan sering dipakai untuk menjawab pertanyaan pemulihan.
+- **Jalur pemberitahuan.** Buka notifikasi keamanan lewat aplikasi resmi, bukan tautan di email. Halaman peringatan palsu meniru tampilan platform dengan rapi.
 
-### 3. Meninjau: Tinjau sesi aktif dan aplikasi terhubung
-Kenyamanan penting agar kebiasaan bertahan, tapi jangan jadi alasan melewati pemeriksaan penting. Kalau suatu cara terasa terlalu rumit, sederhanakan prosesnya: simpan bookmark, buat daftar langkah, atau siapkan cadangan. Jangan hapus perlindungan yang sebenarnya dibutuhkan. Langkah ini mengurangi ketergantungan pada ingatan atau asumsi. Makin sedikit keputusan kritis yang ditebak, makin kecil peluang orang lain memanfaatkan momen Anda terburu-buru.
-**Pertanyaan pemeriksaan:** Jika perangkat utama tidak tersedia, apakah masih ada cara aman untuk melanjutkan atau memulihkan akses?
-
-### 4. Meninjau: Kurangi informasi publik yang sensitif
-Bayangkan situasi ini terjadi saat Anda sibuk atau tak memegang perangkat utama. Siapa yang bisa dihubungi? Dari mana kontak resmi didapat? Informasi apa yang tak boleh dibagikan? Jawaban yang dipikirkan lebih dulu membuat respons lebih tenang dan mencegah keputusan di bawah tekanan. Pikirkan juga dampaknya pada orang yang memakai perangkat bersama atau bergantung pada akun Anda. Komunikasi singkat soal jalur bantuan dan batas informasi bisa menghentikan kesalahan kecil menjalar ke keluarga atau tim.
-**Pertanyaan pemeriksaan:** Apakah orang di sekitar Anda memahami informasi apa yang tidak boleh mereka berikan ketika diminta?
-
-### 5. Meninjau: Verifikasi pemberitahuan melalui aplikasi resmi
-Jangan tunggu insiden untuk meninjau langkah ini. Jadikan pergantian ponsel, nomor, pekerjaan, alamat email, metode pembayaran, atau perangkat keluarga sebagai pemicu peninjauan. Keputusan keamanan yang dulu tepat bisa melemah saat konteks berubah tanpa disadari. Tetapkan tanda selesai yang konkret, lalu jadwalkan peninjauan berikutnya: daftar yang diperbarui, pengaturan yang dicek, atau kemampuan bertindak dari perangkat cadangan tanpa membongkar rahasia.
-**Pertanyaan pemeriksaan:** Kapan langkah ini terakhir diuji atau ditinjau setelah ada perubahan dalam cara Anda memakai layanan?
-Setelah audit, pilih satu perbaikan paling berdampak dan jadwalkan kapan mengerjakannya: memperbarui alamat pemulihan, menghapus sesi lama, menguji backup, atau menyimpan nomor resmi. Satu perbaikan yang selesai lebih berharga daripada banyak niat yang tak pernah jadi kebiasaan. Bila kebutuhan Anda melibatkan akun kerja, keuangan, atau data orang lain, padukan langkah pribadi ini dengan prosedur organisasi dan ketentuan layanan yang berlaku.
+Kalau salah satu pemeriksaan gagal, kerjakan yang itu dulu sebelum menambah pengaturan baru.
 
 ## Kebiasaan yang membuat pemulihan akun lebih sulit
 - **Memakai kuis atau aplikasi yang meminta izin luas tanpa memeriksanya.** Izin yang tidak diperlukan dapat memperluas data atau akses yang diberikan.

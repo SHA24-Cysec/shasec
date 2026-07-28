@@ -115,15 +115,15 @@ Revoke access, note details, and check account activity. Change the password as 
 
 ### Application name
 
-In consent phishing prevention and third party app permissions, check the App name before the work goes any further. Make sure account owners, organization administrators, and application owners can explain why the access or action is required. Don't choose the most extensive settings just to make the process feel fast. Record the decisions made, then review them when the function or data used changes.
+In consent phishing prevention and third party app permissions, check the App name before the work goes any further. Make sure account owners, organization administrators, and application owners can explain why the access or action is required.
 
 ### App publisher
 
-App publishers need to have boundaries that users can understand. The risk arises when untrusted applications gain tokens and access to key accounts. Use real work examples to see if the limits still apply. If the answer is unclear, temporarily suspend use and seek assessment from the account owner, organization administrator, and application owner before any further data or actions are processed.
+App publishers need to have boundaries that users can understand. The risk arises when untrusted applications gain tokens and access to key accounts. If the answer is unclear, temporarily suspend use and seek assessment from the account owner, organization administrator, and application owner before any further data or actions are processed.
 
 ### Developer site
 
-Make developer Sites part of a routine inspection, not a job only done after an incident. In the context of consent phishing prevention and third-party app permissions, small changes to accounts, permissions, or workflows can change the level of risk. Owners need to be aware of the changes and ensure protection remains in line with the original intent.
+Make developer Sites part of a routine inspection, not a job only done after an incident. In the context of consent phishing prevention and third-party app permissions, small changes to accounts, permissions, or workflows can change the level of risk.
 
 ### Integration goals
 
@@ -133,15 +133,15 @@ When assessing integration Goals, focus on the likely impact, not just on whethe
 
 ### Invitation domain
 
-In preventing consent phishing and third-party application permissions, check the invitation Domain with a clear purpose. Make sure the account owner, organization administrator, and application owner can explain the reason for the access or action. Don't choose the widest setting just for convenience. Record decisions and inspection dates so that small changes do not develop unnoticed.
+In preventing consent phishing and third-party application permissions, check the invitation Domain with a clear purpose. Make sure the account owner, organization administrator, and application owner can explain the reason for the access or action.
 
 ### Application logo
 
-The app logo needs to have borders that users can see. Test the flow with a safe example, then discontinue use if it's not clear why. Request assessment from account owners, organization administrators, and application owners before additional data or actions are processed.
+The app logo needs to have borders that users can see. Request assessment from account owners, organization administrators, and application owners before additional data or actions are processed.
 
 ### Permission description
 
-Make permission descriptions part of routine work, not an action after a problem occurs. In consent phishing prevention and third-party app permissions, changing accounts, permissions, or flows can change the risk. Owners need to be aware of the changes and ensure the protection still serves its original purpose.
+Make permission descriptions part of routine work, not an action after a problem occurs. In consent phishing prevention and third-party app permissions, changing accounts, permissions, or flows can change the risk.
 
 ### Privacy policy
 

@@ -22,15 +22,15 @@ The goal of this guide is to help you slow down your transfer decisions in a pra
 
 ## Initial steps before checking
 
-Start with devices and accounts you trust. Don't follow instructions from surprise messages, advertisements, or accounts that ask for secret codes. Log in via the application or site address that you type yourself. Don't use links, help numbers, or forms sent by unverified parties.
+Check before the money moves. Once a transfer lands in the recipient's account, getting it back depends on their cooperation and the bank's process, and often takes weeks with no guarantee.
 
-Determine the problem you want to examine, then separate fact from conjecture. The results of the examination provide guidance, not an absolute guarantee. Use some evidence before making decisions that are difficult to reverse.
+Have the account number, holder name, and bank name exactly as the seller gave them. A small mismatch in the holder name is reason enough to pause the payment.
 
 ## How to check safely
 
 ### 1. Start from the official examination portal
 
-Use CekRekening.id or the relevant official channel to search for the destination account number or digital wallet number. Type the portal address yourself. Do not submit login data, PIN, or OTP code to the inspection site. Keep brief notes about the time, sources of information, and steps taken. These notes are helpful if you need to contact authorized service.
+Use CekRekening.id or the relevant official channel to search for the destination account number or digital wallet number. Type the portal address yourself. Do not submit login data, PIN, or OTP code to the inspection site.
 
 ### 2. Match the transaction name and context
 
@@ -66,7 +66,7 @@ Raka found a used camera at a price far below market price. The seller requested
 
 ## Mistakes to avoid
 
-Don't treat one result, one symptom, or one social media post as a certainty. Avoid installing apps from random links, sharing verification codes, or giving screen access to unverified parties. Use official service procedures when the problem concerns money, accounts, or phone numbers.
+Do not read a clean record in a reporting database as proof the seller is trustworthy. A new account has not been reported yet. Do not rush because the seller says one item is left or the price rises within the hour either. Time pressure is a tool of the trade, not a coincidence.
 
 ## Short checklist
 
@@ -99,165 +99,11 @@ Yes. Treat digital wallet numbers like accounts. Match the purpose of the transa
 
 ## Helpful follow-up checks
 
-### Source of information
-
-In the context of how to check a fraudster's account before transferring: verification that should not be missed, check information sources with clear objectives. Avoid giving more access or data than necessary. Record important decisions, use official channels, and take gradual action so you don't create new problems while trying to resolve the initial problem.
-
-### Identity of related parties
-
-In the context of how to check a fraudster's account before transferring: verification that cannot be missed, check the identity of the party concerned with a clear purpose.
-
-### Main account
-
-In the context of how to check a fraudster's account before transferring: verification that should not be missed, check the main account with a clear purpose.
-
-### Other devices
-
-In the context of how to check a fraudster's account before transferring: verification that should not be missed, check other devices with a clear purpose.
-
-### Proof of transaction or activity
-
-In the context of how to check a fraudster's account before transferring: verification that should not be missed, check evidence of transactions or activities with a clear purpose.
-
-### App permissions
-
-In the context of how to check a fraudster's account before transferring: verification that should not be missed, check application permissions with a clear purpose.
-
-### Change history
-
-In the context of how to check a fraudster's account before transferring: verification that should not be missed, check the change history with a clear purpose.
-
-### Reporting path
-
-In the context of how to check fraudsters' accounts before transfers: verification that should not be missed, check reporting lines with clear objectives.
-
-### Account recovery
-
-In the context of how to check fraudsters' accounts before transfer: verification that should not be missed, check account recovery with clear objectives.
-
-### Next precaution
-
-In the context of how to check fraudsters' accounts before transfer: verification that should not be missed, check the next precaution with a clear goal.
-
-### Family customs
-
-In the context of how to check a fraudster's account before transferring: verification that should not be missed, check family habits with a clear goal.
-
-### Periodic review
-
-In the context of how to check fraudsters' accounts before transfer: verification that should not be missed, check periodic reviews with clear objectives.
-
-### Safe action notes
-
-If the situation feels urgent, stop for a moment and use official channels. Small steps taken in the right order are often more effective than quick actions without verification.
-
-### Safe action notes
-
-If the situation feels urgent, stop for a moment and use official channels.
-
-### Safe action notes
-
-If the situation feels urgent, stop for a moment and use official channels.
-
-### Safe action notes
-
-If the situation feels urgent, stop for a moment and use official channels.
-
-### Safe action notes
-
-If the situation feels urgent, stop for a moment and use official channels.
-
-### Safe action notes
-
-If the situation feels urgent, stop for a moment and use official channels.
-
-### Safe action notes
-
-If the situation feels urgent, stop for a moment and use official channels.
-
-### Safe action notes
-
-If the situation feels urgent, stop for a moment and use official channels.
-
-### Safe action notes
-
-If the situation feels urgent, stop for a moment and use official channels.
-
-### Safe action notes
-
-If the situation feels urgent, stop for a moment and use official channels.
-
-### Safe action notes
-
-If the situation feels urgent, stop for a moment and use official channels.
-
-### Safe action notes
-
-If the situation feels urgent, stop for a moment and use official channels.
-
-### Safe action notes
-
-If the situation feels urgent, stop for a moment and use official channels.
-
-### Safe action notes
-
-If the situation feels urgent, stop for a moment and use official channels.
-
-### Safe action notes
-
-If the situation feels urgent, stop for a moment and use official channels.
-
-### Safe action notes
-
-If the situation feels urgent, stop for a moment and use official channels.
-
-### Safe action notes
-
-If the situation feels urgent, stop for a moment and use official channels.
-
-### Safe action notes
-
-If the situation feels urgent, stop for a moment and use official channels.
-
-### Safe action notes
-
-If the situation feels urgent, stop for a moment and use official channels.
-
-### Safe action notes
-
-If the situation feels urgent, stop for a moment and use official channels.
-
-### Safe action notes
-
-If the situation feels urgent, stop for a moment and use official channels.
-
-### Safe action notes
-
-If the situation feels urgent, stop for a moment and use official channels.
-
-### Safe action notes
-
-If the situation feels urgent, stop for a moment and use official channels.
-
-### Safe action notes
-
-If the situation feels urgent, stop for a moment and use official channels.
-
-### Safe action notes
-
-If the situation feels urgent, stop for a moment and use official channels.
-
-### Safe action notes
-
-If the situation feels urgent, stop for a moment and use official channels.
-
-### Safe action notes
-
-If the situation feels urgent, stop for a moment and use official channels.
-
-### Safe action notes
-
-If the situation feels urgent, stop for a moment and use official channels.
+If the transfer already went out, this order decides your chance of recovery.
+
+- **Contact your bank within hours.** The sooner the report lands, the better the odds the funds are still sitting in the recipient account.
+- **Report through official channels.** National fraud-reporting services record problem accounts so the next person can check before paying.
+- **Keep complete evidence.** Transfer receipts, the conversation, and screenshots of the advertisement are what the bank and police ask for.
 
 ## Sources and further reading
 

@@ -45,29 +45,17 @@ When malware or ransomware is suspected, do not immediately connect the backup d
 ## Test recovery rather than merely creating copies
 Set one monthly date for a restoration test and a less frequent date to review the list of important data. When replacing a phone or computer, confirm that older data appears in the new backup before erasing the old device. If capacity is nearly full, do not delete blindly. Add space or organize categories so a space decision does not damage the recovery plan. Schedule a review when something concrete changes: a new device, a new number, a new work account, or a service you stopped using. Pay particular attention to "run a small restoration test". A short review tied to life changes keeps protection practical instead of turning it into a forgotten checklist.
 
-## A self-audit that keeps decisions relevant
-A checklist is not enough. The value shows up when you can apply it to a situation slightly different from the example above. Use the five checks below to test whether the protection you chose fits the way you actually use digital services. You do not need to record answers that contain secrets. Record only actions, review dates, and issues that still need attention.
+## A self-audit for backups
 
-### 1. Review: Inventory irreplaceable data
-Look at the conditions you have now, not the perfect system you would build in a day. Decide what must always be true, who is responsible when an account or device is shared, and what sign shows the protection still works. A clear minimum is easier to follow than many vague rules. Set a simple boundary: when you will do it and what you will not do, even under time pressure. With that boundary, you do not rebuild the decision from zero every time a similar situation appears.
-**Review question:** Can this step be completed without following instructions from an unknown party?
+A backup you have never restored is not yet a backup. Check these five twice a year.
 
-### 2. Review: Keep more than one copy
-After applying this step, look for evidence you can check later: a clean device list, a tested recovery method, stored transaction records, or the ability to open an official service without following a link from a message. Safety you cannot prove tends to disappear under pressure. Success is not measured by the number of settings but by your ability to notice when something changes.
-**Review question:** Is there evidence that can be checked again through an official route or trusted device?
+- **Inventory contents.** List files that cannot be recreated: family photos, identity documents, work archives. Anything downloadable again does not belong on the list.
+- **Number of copies.** Three copies means the original plus two backups, not one folder synced to several devices. Deletions sync too.
+- **Media and location.** Two media types, one copy elsewhere. An external drive left permanently plugged in gets hit alongside the primary device.
+- **Schedule.** Match how often the data changes. Phone photos may need daily copies; tax archives are fine yearly.
+- **Restoration test.** Pull one random file from an older backup and open it. This is the only check that proves the backup works.
 
-### 3. Review: Use different media and locations
-Convenience matters because habits must last, but it should not justify skipping important checks. If an approach feels too complex, simplify it: save a bookmark, write a short procedure, or prepare a backup. Do not remove the protection you actually need. This step cuts your dependence on memory or assumption. The fewer critical decisions made by guessing, the less room an attacker has to exploit a rushed moment.
-**Review question:** If the primary device is unavailable, is there still a safe way to continue or regain access?
-
-### 4. Review: Set a schedule that reflects data value
-Imagine this happening while you are busy or away from the primary device. Who can you contact? Where do official details come from? Which information must never be shared? Answers worked out in advance make the response calmer and prevent decisions made under pressure. Think about the effect on people who share a device or depend on your account too. Brief communication about help routes and information boundaries can stop a small error from spreading through a family or team.
-**Review question:** Do people around you understand which information must not be shared when a request arrives?
-
-### 5. Review: Run a small restoration test
-Do not wait for an incident to revisit this step. Treat a changed phone, number, job, email address, payment method, or family device as a review trigger. A security decision that was right before can weaken when the context shifts without you noticing. Set a concrete completion signal, then schedule the next review: an updated list, a checked setting, or the ability to act from a backup device without exposing a secret.
-**Review question:** When was this step last tested or reviewed after a change in the way you use the service?
-After the audit, pick one improvement with the biggest effect and schedule when you will do it: update recovery details, remove an old session, test a backup, or save an official contact number. One finished improvement is worth more than many intentions that never become habits. When your needs involve work accounts, finance, or other people's data, combine these personal steps with organizational procedures and the service terms that apply.
+If you only have time for one item, do the restoration test. The rest can follow.
 
 ## Backup mistakes often discovered too late
 - **Relying on one sync folder as the only backup.** Synchronization can spread an unwanted deletion or change.

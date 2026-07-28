@@ -126,29 +126,29 @@ Stop sharing additional data. Note tools, accounts, data types, times, and who m
 
 ### Account owner
 
-When using AI in the workplace, check the Account owner before work goes any further. Make sure process owners, administrators, and tool users can explain why the access or action is required. Don't choose the most extensive settings just to make the process feel fast. Record the decisions made, then review them when the function or data used changes.
+When using AI in the workplace, check the Account owner before work goes any further. Make sure process owners, administrators, and tool users can explain why the access or action is required.
 
 ### Data classification
 
-Data classification needs to have boundaries that users can understand. Risks arise when organizational or customer data enters services that have not been vetted. Use real work examples to see if the limits still apply. If the answer is unclear, temporarily discontinue use and seek assessment from process owners, administrators, and tool users before any further data or actions are processed.
+Data classification needs to have boundaries that users can understand. Risks arise when organizational or customer data enters services that have not been vetted. If the answer is unclear, temporarily discontinue use and seek assessment from process owners, administrators, and tool users before any further data or actions are processed.
 
 ### Personal account
 
-Make personal Accounts part of a routine check, not a job only done after an incident. In the context of using AI in the workplace, small changes to accounts, permissions, or workflows can change the level of risk. Owners need to be aware of the changes and ensure protection remains in line with the original intent.
+Make personal Accounts part of a routine check, not a job only done after an incident. In the context of using AI in the workplace, small changes to accounts, permissions, or workflows can change the level of risk.
 
 ## Field inspection details
 
 ### Administrator rights
 
-When using AI in the workplace, check Administrator rights with clear objectives. Make sure process owners, administrators, and tool users can explain the reason for the access or action. Don't choose the widest setting just for convenience. Record decisions and inspection dates so that small changes do not develop unnoticed.
+When using AI in the workplace, check Administrator rights with clear objectives. Make sure process owners, administrators, and tool users can explain the reason for the access or action.
 
 ### Internal policy
 
-Internal policies need to have boundaries that users can see. Test the flow with a safe example, then discontinue use if it's not clear why. Request judgment from process owners, administrators, and tool users before additional data or actions are processed.
+Internal policies need to have boundaries that users can see. Request judgment from process owners, administrators, and tool users before additional data or actions are processed.
 
 ### Example data
 
-Make sample data part of routine work, not an action after a problem occurs. In workplace AI use, changes to accounts, permissions, or flows can change risks. Owners need to be aware of the changes and ensure the protection still serves its original purpose.
+Make sample data part of routine work, not an action after a problem occurs. In workplace AI use, changes to accounts, permissions, or flows can change risks.
 
 ### Public output
 

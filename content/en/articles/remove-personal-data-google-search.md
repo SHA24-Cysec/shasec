@@ -22,15 +22,15 @@ This article discusses a scalable process: securely search for data, note URLs, 
 
 ## Initial steps before checking
 
-Start with devices and accounts you trust. Don't follow instructions from surprise messages, advertisements, or accounts that ask for secret codes. Log in via the application or site address that you type yourself. Don't use links, help numbers, or forms sent by unverified parties.
+Search your name, number, and email address from a private window so your own search history does not shape the results. Record the URL of each problem page, because Google's removal form asks for exact addresses.
 
-Determine the problem you want to examine, then separate fact from conjecture. The results of the examination provide guidance, not an absolute guarantee. Use some evidence before making decisions that are difficult to reverse.
+Understand two separate things: removing a result from Google, and removing the data from the source site. While the original page stays online, the data remains even after it stops appearing in Google.
 
 ## How to check safely
 
 ### 1. Search your information carefully
 
-Use private mode and search for a name, email, phone number, or username. Note the relevant URLs. Don't click on suspicious sites or enter credentials to see results. Keep brief notes about the time, sources of information, and steps taken. These notes are helpful if you need to contact authorized service.
+Use private mode and search for a name, email, phone number, or username. Note the relevant URLs. Don't click on suspicious sites or enter credentials to see results.
 
 ### 2. Differentiate between Google and the source site
 
@@ -66,7 +66,7 @@ Ayu found his cell phone number and old address in documents that can be searche
 
 ## Mistakes to avoid
 
-Don't treat one result, one symptom, or one social media post as a certainty. Avoid installing apps from random links, sharing verification codes, or giving screen access to unverified parties. Use official service procedures when the problem concerns money, accounts, or phone numbers.
+Do not stop at Google's form. If the source site is never contacted, other search engines keep showing that page. Do not send a full ID scan to sites requesting identity verification for removal either, unless the site is clearly official. Removal requests are themselves sometimes used to harvest identity documents.
 
 ## Short checklist
 
@@ -99,189 +99,11 @@ Save evidence and use the platform's reporting channels. If there are physical t
 
 ## Helpful follow-up checks
 
-### Source of information
-
-In the context of how to remove personal data from Google Search and reduce your online footprint, check information sources with a clear purpose. Avoid giving more access or data than necessary. Record important decisions, use official channels, and take gradual action so you don't create new problems while trying to resolve the initial problem.
-
-### Identity of related parties
-
-In the context of how to delete personal data from Google Search and reduce online footprints, check the identity of the parties concerned with a clear purpose.
-
-### Main account
-
-In the context of how to remove personal data from Google Search and reduce online footprints, check the main account with a clear purpose.
-
-### Other devices
-
-In the context of how to delete personal data from Google Search and reduce online footprints, check other devices with clear goals.
-
-### Proof of transaction or activity
-
-In the context of how to delete personal data from Google Search and reduce online footprints, check evidence of transactions or activities with a clear purpose.
-
-### App permissions
-
-In the context of how to remove personal data from Google Search and reduce online footprints, check app permissions with a clear purpose.
-
-### Change history
-
-In the context of how to remove personal data from Google Search and reduce your online footprint, check the history of changes with a clear purpose.
-
-### Reporting path
-
-In the context of how to remove personal data from Google Search and reduce your online footprint, check reporting lines with clear objectives.
-
-### Account recovery
-
-In the context of how to delete personal data from Google Search and reduce online footprints, check account recovery with a clear goal.
-
-### Next precaution
-
-In the context of how to remove personal data from Google Search and reduce your online footprint, check out the next precaution with a clear goal.
-
-### Family customs
-
-In the context of how to delete personal data from Google search and reduce online footprints, examine family habits with clear goals.
-
-### Periodic review
-
-In the context of how to remove personal data from Google Search and reduce your online footprint, check for regular reviews with a clear purpose.
-
-### Safe action notes
-
-Double check the information before sending data or funds. Small steps taken in the right order are often more effective than quick actions without verification.
-
-### Safe action notes
-
-Store evidence with limited access.
-
-### Safe action notes
-
-Store evidence with limited access.
-
-### Safe action notes
-
-Store evidence with limited access.
-
-### Safe action notes
-
-Store evidence with limited access.
-
-### Safe action notes
-
-Store evidence with limited access.
-
-### Safe action notes
-
-Store evidence with limited access.
-
-### Safe action notes
-
-Store evidence with limited access.
-
-### Safe action notes
-
-Store evidence with limited access.
-
-### Safe action notes
-
-Store evidence with limited access.
-
-### Safe action notes
-
-Store evidence with limited access.
-
-### Safe action notes
-
-Store evidence with limited access.
-
-### Safe action notes
-
-Store evidence with limited access.
-
-### Safe action notes
-
-Store evidence with limited access.
-
-### Safe action notes
-
-Store evidence with limited access.
-
-### Safe action notes
-
-Store evidence with limited access.
-
-### Safe action notes
-
-Store evidence with limited access.
-
-### Safe action notes
-
-Store evidence with limited access.
-
-### Safe action notes
-
-Store evidence with limited access.
-
-### Safe action notes
-
-Store evidence with limited access.
-
-### Safe action notes
-
-Store evidence with limited access.
-
-### Safe action notes
-
-Store evidence with limited access.
-
-### Safe action notes
-
-Store evidence with limited access.
-
-### Safe action notes
-
-Store evidence with limited access.
-
-### Safe action notes
-
-Store evidence with limited access.
-
-### Safe action notes
-
-Store evidence with limited access.
-
-### Safe action notes
-
-Store evidence with limited access.
-
-### Safe action notes
-
-Store evidence with limited access.
-
-### Safe action notes
-
-Store evidence with limited access.
-
-### Safe action notes
-
-Store evidence with limited access.
-
-### Safe action notes
-
-Store evidence with limited access.
-
-### Safe action notes
-
-Store evidence with limited access.
-
-### Safe action notes
-
-Store evidence with limited access.
-
-### Safe action notes
-
-Store evidence with limited access.
+Removal from Google is only half the job. These three finish it.
+
+- **Contact the source site owner.** While the original page stays online, other search engines keep showing it even after Google clears its results.
+- **Check data-aggregator sites.** Many pages holding numbers and addresses come from data brokers that run their own opt-out forms.
+- **Set a Google Alert for your name.** You will hear sooner if the same data reappears somewhere else.
 
 ## Sources and further reading
 

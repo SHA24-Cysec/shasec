@@ -22,15 +22,15 @@ This guide helps you differentiate ad sources, revoke unnecessary permissions, c
 
 ## Initial steps before checking
 
-Start with devices and accounts you trust. Don't follow instructions from surprise messages, advertisements, or accounts that ask for secret codes. Log in via the application or site address that you type yourself. Don't use links, help numbers, or forms sent by unverified parties.
+Pop-up ads come from three different places: site notifications you once allowed, free apps that legitimately show ads, or adware installed without your knowledge. Each needs different handling, so identify the source first.
 
-Determine the problem you want to examine, then separate fact from conjecture. The results of the examination provide guidance, not an absolute guarantee. Use some evidence before making decisions that are difficult to reverse.
+Notice when the ads appear. Ads showing only inside one app have a different origin than ads appearing on the home screen with nothing open.
 
 ## How to check safely
 
 ### 1. Remember the last change
 
-Note when pop-ups start appearing and what apps were recently installed. Changes after installing an application, updating it, or opening a particular site can provide clues to the source of the problem. Keep brief notes about the time, sources of information, and steps taken. These notes are helpful if you need to contact authorized service.
+Note when pop-ups start appearing and what apps were recently installed. Changes after installing an application, updating it, or opening a particular site can provide clues to the source of the problem.
 
 ### 2. Check recent apps
 
@@ -66,7 +66,7 @@ After installing the wallpaper application from a social media link, Bimo saw ad
 
 ## Mistakes to avoid
 
-Don't treat one result, one symptom, or one social media post as a certainty. Avoid installing apps from random links, sharing verification codes, or giving screen access to unverified parties. Use official service procedures when the problem concerns money, accounts, or phone numbers.
+Do not install cleaner apps advertised in the pop-ups themselves. That is the most common route adware takes in. Do not tap the close button on a full-screen ad either, since fake close buttons frequently trigger downloads instead. Use the back button or close the app from the recents list.
 
 ## Short checklist
 
@@ -99,197 +99,11 @@ Consider if suspicious apps cannot be removed, pop-ups continue to appear after 
 
 ## Helpful follow-up checks
 
-### Source of information
-
-In the context of how to get rid of pop-up ads on an Android phone without installing a new APK, check information sources with clear objectives. Avoid giving more access or data than necessary. Record important decisions, use official channels, and take gradual action so you don't create new problems while trying to resolve the initial problem.
-
-### Identity of related parties
-
-In the context of how to get rid of pop-up ads on an Android cellphone without installing a new APK, check the identity of the party concerned with a clear goal.
-
-### Main account
-
-In the context of how to get rid of pop-up ads on an Android phone without installing a new APK, check the main account with a clear goal.
-
-### Other devices
-
-In the context of how to get rid of pop-up ads on an Android phone without installing a new APK, check other devices with clear goals.
-
-### Proof of transaction or activity
-
-In the context of how to get rid of pop-up ads on Android phones without installing a new APK, check proof of transactions or activities with a clear purpose.
-
-### App permissions
-
-In the context of how to get rid of pop-up ads on an Android phone without installing a new APK, check the application permissions with a clear purpose.
-
-### Change history
-
-In the context of how to get rid of pop-up ads on an Android phone without installing a new APK, check the change history with a clear goal.
-
-### Reporting path
-
-In the context of how to get rid of pop-up ads on an Android phone without installing a new APK, check the reporting path with a clear objective.
-
-### Account recovery
-
-In the context of how to get rid of pop-up ads on an Android phone without installing a new APK, check account recovery with a clear goal.
-
-### Next precaution
-
-In the context of how to get rid of pop-up ads on an Android phone without installing a new APK, check out the next precaution with a clear goal.
-
-### Family customs
-
-In the context of how to get rid of pop-up ads on Android phones without installing a new APK, check family habits with a clear goal.
-
-### Periodic review
-
-In the context of how to get rid of pop-up ads on an Android phone without installing a new apk, check out periodic reviews with clear objectives.
-
-### Safe action notes
-
-Store evidence with limited access. Small steps taken in the right order are often more effective than quick actions without verification.
-
-### Safe action notes
-
-Store evidence with limited access.
-
-### Safe action notes
-
-Store evidence with limited access.
-
-### Safe action notes
-
-Store evidence with limited access.
-
-### Safe action notes
-
-Store evidence with limited access.
-
-### Safe action notes
-
-Store evidence with limited access.
-
-### Safe action notes
-
-Store evidence with limited access.
-
-### Safe action notes
-
-Store evidence with limited access.
-
-### Safe action notes
-
-Store evidence with limited access.
-
-### Safe action notes
-
-Store evidence with limited access.
-
-### Safe action notes
-
-Store evidence with limited access.
-
-### Safe action notes
-
-Store evidence with limited access.
-
-### Safe action notes
-
-Store evidence with limited access.
-
-### Safe action notes
-
-Store evidence with limited access.
-
-### Safe action notes
-
-Store evidence with limited access.
-
-### Safe action notes
-
-Store evidence with limited access.
-
-### Safe action notes
-
-Store evidence with limited access.
-
-### Safe action notes
-
-Store evidence with limited access.
-
-### Safe action notes
-
-Store evidence with limited access.
-
-### Safe action notes
-
-Store evidence with limited access.
-
-### Safe action notes
-
-Store evidence with limited access.
-
-### Safe action notes
-
-Store evidence with limited access.
-
-### Safe action notes
-
-Store evidence with limited access.
-
-### Safe action notes
-
-Store evidence with limited access.
-
-### Safe action notes
-
-Store evidence with limited access.
-
-### Safe action notes
-
-Store evidence with limited access.
-
-### Safe action notes
-
-Store evidence with limited access.
-
-### Safe action notes
-
-Store evidence with limited access.
-
-### Safe action notes
-
-Store evidence with limited access.
-
-### Safe action notes
-
-Store evidence with limited access.
-
-### Safe action notes
-
-Store evidence with limited access.
-
-### Safe action notes
-
-Store evidence with limited access.
-
-### Safe action notes
-
-Store evidence with limited access.
-
-### Safe action notes
-
-Store evidence with limited access.
-
-### Safe action notes
-
-Store evidence with limited access.
-
-### Safe action notes
-
-Store evidence with limited access.
+If ads persist after removing suspicious apps, check these three places.
+
+- **Display-over-other-apps permission.** Any app holding overlay permission can draw ads on any screen, including the home screen.
+- **Site notifications in the browser.** Open site settings in Chrome and block every domain you do not recognize in the notifications list.
+- **Android safe mode.** Safe mode disables third-party apps. If the ads stop there, an installed app is the cause.
 
 ## Sources and further reading
 

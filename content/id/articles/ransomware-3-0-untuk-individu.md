@@ -231,7 +231,7 @@ Ransomware 3.0 adalah ancaman nyata yang menargetkan siapa saja dengan data digi
 
 ## Checklist Tindakan untuk Pembaca
 
-Berikut ringkasan langkah yang bisa Anda ambil sekarang:
+Kerjakan dari atas, karena urutannya menentukan seberapa cepat Anda pulih bila terkena:
 
 1. **Buat backup dengan strategi 3-2-1** untuk semua data penting
 2. **Aktifkan pembaruan otomatis** untuk semua perangkat dan aplikasi

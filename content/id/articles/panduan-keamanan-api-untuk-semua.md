@@ -255,7 +255,7 @@ Keamanan API bukan topik yang eksklusif untuk developer. Setiap kali Anda menggu
 
 ## Checklist Tindakan untuk Pembaca
 
-Berikut ringkasan langkah yang bisa Anda ambil sekarang:
+Sebagai pengguna maupun pengembang, mulai dari yang paling dekat dengan kendali Anda:
 
 **Sebagai pengguna:**
 1. **Gunakan kata sandi unik** untuk setiap akun

@@ -113,15 +113,15 @@ Not always. Many cases can be recovered with proper inspection and reinstallatio
 
 ### Download source
 
-In infostealer prevention and browser session theft, check the download Source before the job goes any further. Make sure the device owner, account user, and IT team when available can explain why the access or action is required. Don't choose the most extensive settings just to make the process feel fast. Record the decisions made, then review them when the function or data used changes.
+In infostealer prevention and browser session theft, check the download Source before the job goes any further. Make sure the device owner, account user, and IT team when available can explain why the access or action is required.
 
 ### Search ads
 
-Search ads need to have boundaries that users can understand. The risk arises when malware harvests credentials, session tokens, or account data from the device. Use real work examples to see if the limits still apply. If the answer is unclear, temporarily suspend use and request an assessment from the device owner, account user, and IT team if available before any further data or actions are processed.
+Search ads need to have boundaries that users can understand. The risk arises when malware harvests credentials, session tokens, or account data from the device. If the answer is unclear, temporarily suspend use and request an assessment from the device owner, account user, and IT team if available before any further data or actions are processed.
 
 ### Pirated applications
 
-Make pirated Apps part of a routine inspection, not a job only done after an incident. In the context of infostealer prevention and browser session theft, small changes to accounts, permissions, or workflows can change the level of risk. Owners need to be aware of the changes and ensure protection remains in line with the original intent.
+Make pirated Apps part of a routine inspection, not a job only done after an incident. In the context of infostealer prevention and browser session theft, small changes to accounts, permissions, or workflows can change the level of risk.
 
 ### Browser extensions
 
@@ -131,15 +131,15 @@ When assessing browser Extensions, focus on the possible impact, not just on whe
 
 ### Download site
 
-In the prevention of infostealers and browser session theft, check the download Sites with a clear purpose. Make sure the device owner, account user, and IT team if available can explain the reason for the access or action. Don't choose the widest setting just for convenience. Record decisions and inspection dates so that small changes do not develop unnoticed.
+In the prevention of infostealers and browser session theft, check the download Sites with a clear purpose. Make sure the device owner, account user, and IT team if available can explain the reason for the access or action.
 
 ### Application developer
 
-Application developers need to have boundaries that users can see. Test the flow with a safe example, then discontinue use if it's not clear why. Request assessments from device owners, account users, and IT teams when available before additional data or actions are processed.
+Application developers need to have boundaries that users can see. Request assessments from device owners, account users, and IT teams when available before additional data or actions are processed.
 
 ### Extension permissions
 
-Make Extension permissions part of routine work, not an action after a problem occurs. In infostealer prevention and browser session theft, changing accounts, permissions, or flows can change the risk. Owners need to be aware of the changes and ensure the protection still serves its original purpose.
+Make Extension permissions part of routine work, not an action after a problem occurs. In infostealer prevention and browser session theft, changing accounts, permissions, or flows can change the risk.
 
 ### Browser synchronization
 

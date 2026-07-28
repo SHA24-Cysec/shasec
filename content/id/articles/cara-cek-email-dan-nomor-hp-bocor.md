@@ -22,9 +22,9 @@ Panduan ini mengutamakan langkah yang aman: gunakan layanan tepercaya, jangan me
 
 ## Langkah awal sebelum memeriksa
 
-Mulailah dari perangkat dan akun yang Anda percaya. Jangan mengikuti instruksi dari pesan mendadak, iklan, atau akun yang meminta kode rahasia. Masuk melalui aplikasi atau alamat situs yang Anda ketik sendiri. Jangan memakai tautan, nomor bantuan, atau formulir yang dikirim oleh pihak yang belum diverifikasi.
+Buka Have I Been Pwned dari alamat yang Anda ketik sendiri, bukan dari tautan di email yang mengabarkan kebocoran. Pesan bertema kebocoran adalah umpan phishing yang paling sering dipakai justru saat berita kebocoran sedang ramai.
 
-Tentukan masalah yang ingin Anda cek, lalu pisahkan fakta dari dugaan. Hasil pemeriksaan memberi petunjuk, bukan jaminan mutlak. Gunakan beberapa bukti sebelum mengambil keputusan yang sulit dibatalkan.
+Siapkan daftar alamat email dan nomor yang ingin dicek. Hasil pemeriksaan menunjukkan layanan mana yang pernah bocor, bukan apakah akun Anda sedang diambil alih hari ini.
 
 ## Cara memeriksa dengan aman
 
@@ -66,7 +66,7 @@ Nadia menemukan alamat emailnya muncul dalam kebocoran lama. Ia tidak langsung m
 
 ## Kesalahan yang perlu dihindari
 
-Jangan memperlakukan satu hasil, satu gejala, atau satu unggahan media sosial sebagai kepastian. Hindari memasang aplikasi dari tautan acak, membagikan kode verifikasi, atau memberi akses layar kepada pihak yang belum diverifikasi. Gunakan prosedur layanan resmi saat masalah menyangkut uang, akun, atau nomor telepon.
+Jangan menganggap nama Anda tidak muncul berarti aman. Banyak kebocoran belum dipublikasikan, dan sebagian tidak pernah dilaporkan sama sekali. Jangan pula membayar layanan yang menjanjikan menghapus data Anda dari internet setelah bocor, karena salinan yang sudah tersebar tidak bisa ditarik. Fokuskan tenaga pada mengganti kata sandi yang dipakai ulang dan mengaktifkan 2FA.
 
 ## Checklist singkat
 
@@ -99,185 +99,11 @@ Nomor dapat dipakai untuk pesan phishing, pencarian akun, atau upaya pemulihan. 
 
 ## Pemeriksaan lanjutan yang membantu
 
-### Sumber informasi
-
-Dalam konteks cara cek email dan nomor hp bocor: langkah aman setelah menemukan data anda, periksa sumber informasi dengan tujuan yang jelas. Hindari memberi akses atau data lebih banyak daripada yang diperlukan. Catat keputusan penting, gunakan kanal resmi, dan lakukan tindakan bertahap agar Anda tidak membuat masalah baru saat mencoba menyelesaikan masalah awal.
-
-### Identitas pihak terkait
-
-Dalam konteks cara cek email dan nomor hp bocor: langkah aman setelah menemukan data anda, periksa identitas pihak terkait dengan tujuan yang jelas.
-
-### Akun utama
-
-Dalam konteks cara cek email dan nomor hp bocor: langkah aman setelah menemukan data anda, periksa akun utama dengan tujuan yang jelas.
-
-### Perangkat lain
-
-Dalam konteks cara cek email dan nomor hp bocor: langkah aman setelah menemukan data anda, periksa perangkat lain dengan tujuan yang jelas.
-
-### Bukti transaksi atau aktivitas
-
-Dalam konteks cara cek email dan nomor hp bocor: langkah aman setelah menemukan data anda, periksa bukti transaksi atau aktivitas dengan tujuan yang jelas.
-
-### Izin aplikasi
-
-Dalam konteks cara cek email dan nomor hp bocor: langkah aman setelah menemukan data anda, periksa izin aplikasi dengan tujuan yang jelas.
-
-### Riwayat perubahan
-
-Dalam konteks cara cek email dan nomor hp bocor: langkah aman setelah menemukan data anda, periksa riwayat perubahan dengan tujuan yang jelas.
-
-### Jalur pelaporan
-
-Dalam konteks cara cek email dan nomor hp bocor: langkah aman setelah menemukan data anda, periksa jalur pelaporan dengan tujuan yang jelas.
-
-### Pemulihan akun
-
-Dalam konteks cara cek email dan nomor hp bocor: langkah aman setelah menemukan data anda, periksa pemulihan akun dengan tujuan yang jelas.
-
-### Pencegahan berikutnya
-
-Dalam konteks cara cek email dan nomor hp bocor: langkah aman setelah menemukan data anda, periksa pencegahan berikutnya dengan tujuan yang jelas.
-
-### Kebiasaan keluarga
-
-Dalam konteks cara cek email dan nomor hp bocor: langkah aman setelah menemukan data anda, periksa kebiasaan keluarga dengan tujuan yang jelas.
-
-### Tinjauan berkala
-
-Dalam konteks cara cek email dan nomor hp bocor: langkah aman setelah menemukan data anda, periksa tinjauan berkala dengan tujuan yang jelas.
-
-### Catatan tindakan aman
-
-Simpan bukti dengan akses terbatas. Langkah kecil yang dilakukan dengan urutan tepat sering lebih efektif daripada tindakan cepat tanpa verifikasi.
-
-### Catatan tindakan aman
-
-Simpan bukti dengan akses terbatas.
-
-### Catatan tindakan aman
-
-Simpan bukti dengan akses terbatas.
-
-### Catatan tindakan aman
-
-Simpan bukti dengan akses terbatas.
-
-### Catatan tindakan aman
-
-Simpan bukti dengan akses terbatas.
-
-### Catatan tindakan aman
-
-Simpan bukti dengan akses terbatas.
-
-### Catatan tindakan aman
-
-Simpan bukti dengan akses terbatas.
-
-### Catatan tindakan aman
-
-Simpan bukti dengan akses terbatas.
-
-### Catatan tindakan aman
-
-Simpan bukti dengan akses terbatas.
-
-### Catatan tindakan aman
-
-Simpan bukti dengan akses terbatas.
-
-### Catatan tindakan aman
-
-Simpan bukti dengan akses terbatas.
-
-### Catatan tindakan aman
-
-Simpan bukti dengan akses terbatas.
-
-### Catatan tindakan aman
-
-Simpan bukti dengan akses terbatas.
-
-### Catatan tindakan aman
-
-Simpan bukti dengan akses terbatas.
-
-### Catatan tindakan aman
-
-Simpan bukti dengan akses terbatas.
-
-### Catatan tindakan aman
-
-Simpan bukti dengan akses terbatas.
-
-### Catatan tindakan aman
-
-Simpan bukti dengan akses terbatas.
-
-### Catatan tindakan aman
-
-Simpan bukti dengan akses terbatas.
-
-### Catatan tindakan aman
-
-Simpan bukti dengan akses terbatas.
-
-### Catatan tindakan aman
-
-Simpan bukti dengan akses terbatas.
-
-### Catatan tindakan aman
-
-Simpan bukti dengan akses terbatas.
-
-### Catatan tindakan aman
-
-Simpan bukti dengan akses terbatas.
-
-### Catatan tindakan aman
-
-Simpan bukti dengan akses terbatas.
-
-### Catatan tindakan aman
-
-Simpan bukti dengan akses terbatas.
-
-### Catatan tindakan aman
-
-Simpan bukti dengan akses terbatas.
-
-### Catatan tindakan aman
-
-Simpan bukti dengan akses terbatas.
-
-### Catatan tindakan aman
-
-Simpan bukti dengan akses terbatas.
-
-### Catatan tindakan aman
-
-Simpan bukti dengan akses terbatas.
-
-### Catatan tindakan aman
-
-Simpan bukti dengan akses terbatas.
-
-### Catatan tindakan aman
-
-Simpan bukti dengan akses terbatas.
-
-### Catatan tindakan aman
-
-Simpan bukti dengan akses terbatas.
-
-### Catatan tindakan aman
-
-Simpan bukti dengan akses terbatas.
-
-### Catatan tindakan aman
-
-Simpan bukti dengan akses terbatas.
+Setelah kebocoran terkonfirmasi, tiga hal berikut menentukan seberapa jauh dampaknya menyebar.
+
+- **Email pemulihan tiap akun penting.** Pastikan masih Anda kuasai. Alamat yang sudah tidak dibuka membuat pemulihan gagal justru saat dibutuhkan.
+- **Sesi login yang masih aktif.** Keluarkan perangkat asing dari email, marketplace, dan media sosial, lalu ganti kata sandinya agar sesi lama putus.
+- **Notifikasi login dan transaksi.** Aktifkan supaya percobaan masuk berikutnya terlihat dalam hitungan menit, bukan bulan.
 
 ## Artikel terkait
 

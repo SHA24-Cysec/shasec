@@ -117,15 +117,15 @@ Chatbot terutama menghasilkan jawaban. Agent dapat menggabungkan jawaban dengan 
 
 ### Tujuan agent
 
-Dalam AI agent dan otomatisasi, periksa Tujuan agent sebelum pekerjaan berjalan lebih jauh. Pastikan pemilik agent, pengembang, dan peninjau bisnis dapat menjelaskan mengapa akses atau tindakan itu diperlukan. Jangan memilih pengaturan paling luas hanya agar proses terasa cepat. Catat keputusan yang diambil, lalu tinjau kembali ketika fungsi atau data yang dipakai berubah.
+Dalam AI agent dan otomatisasi, periksa Tujuan agent sebelum pekerjaan berjalan lebih jauh. Pastikan pemilik agent, pengembang, dan peninjau bisnis dapat menjelaskan mengapa akses atau tindakan itu diperlukan.
 
 ### Sumber instruksi
 
-Sumber instruksi perlu memiliki batas yang dapat dipahami pengguna. Risiko muncul ketika data tidak tepercaya memengaruhi tindakan agent atau memperluas aksesnya. Gunakan contoh kerja nyata untuk melihat apakah batas tersebut masih berlaku. Bila jawabannya tidak jelas, hentikan penggunaan sementara dan minta penilaian dari pemilik agent, pengembang, dan peninjau bisnis sebelum data atau tindakan berikutnya diproses.
+Sumber instruksi perlu memiliki batas yang dapat dipahami pengguna. Risiko muncul ketika data tidak tepercaya memengaruhi tindakan agent atau memperluas aksesnya. Bila jawabannya tidak jelas, hentikan penggunaan sementara dan minta penilaian dari pemilik agent, pengembang, dan peninjau bisnis sebelum data atau tindakan berikutnya diproses.
 
 ### Dokumen eksternal
 
-Jadikan Dokumen eksternal sebagai bagian dari pemeriksaan rutin, bukan pekerjaan yang hanya dilakukan setelah insiden. Dalam konteks AI agent dan otomatisasi, perubahan kecil pada akun, izin, atau alur kerja dapat mengubah tingkat risiko. Pemilik perlu mengetahui perubahan itu dan memastikan perlindungan tetap sejalan dengan tujuan awal.
+Jadikan Dokumen eksternal sebagai bagian dari pemeriksaan rutin, bukan pekerjaan yang hanya dilakukan setelah insiden. Dalam konteks AI agent dan otomatisasi, perubahan kecil pada akun, izin, atau alur kerja dapat mengubah tingkat risiko.
 
 ### Hasil pencarian
 
@@ -135,15 +135,15 @@ Saat menilai Hasil pencarian, fokus pada dampak yang mungkin terjadi, bukan hany
 
 ### Validasi masukan
 
-Dalam AI agent dan otomatisasi, periksa Validasi masukan dengan tujuan yang jelas. Pastikan pemilik agent, pengembang, dan peninjau bisnis dapat menerangkan alasan akses atau tindakan tersebut. Jangan memilih pengaturan paling luas hanya demi kenyamanan. Catat keputusan dan tanggal pemeriksaan supaya perubahan kecil tidak berkembang tanpa diketahui.
+Dalam AI agent dan otomatisasi, periksa Validasi masukan dengan tujuan yang jelas. Pastikan pemilik agent, pengembang, dan peninjau bisnis dapat menerangkan alasan akses atau tindakan tersebut.
 
 ### Pemisahan data
 
-Pemisahan data perlu memiliki batas yang dapat dilihat pengguna. Uji alur dengan contoh yang aman, lalu hentikan penggunaan jika alasannya tidak jelas. Minta penilaian dari pemilik agent, pengembang, dan peninjau bisnis sebelum data atau tindakan tambahan diproses.
+Pemisahan data perlu memiliki batas yang dapat dilihat pengguna. Minta penilaian dari pemilik agent, pengembang, dan peninjau bisnis sebelum data atau tindakan tambahan diproses.
 
 ### Pemanggilan API
 
-Jadikan Pemanggilan API bagian dari pekerjaan rutin, bukan tindakan setelah masalah terjadi. Pada AI agent dan otomatisasi, perubahan akun, izin, atau alur dapat mengubah risiko. Pemilik perlu mengetahui perubahan itu dan memastikan perlindungan masih sesuai tujuan awal.
+Jadikan Pemanggilan API bagian dari pekerjaan rutin, bukan tindakan setelah masalah terjadi. Pada AI agent dan otomatisasi, perubahan akun, izin, atau alur dapat mengubah risiko.
 
 ### Validasi keluaran
 

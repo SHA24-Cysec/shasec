@@ -22,15 +22,15 @@ Tujuan panduan ini adalah membantu Anda memperlambat keputusan transfer dengan c
 
 ## Langkah awal sebelum memeriksa
 
-Mulailah dari perangkat dan akun yang Anda percaya. Jangan mengikuti instruksi dari pesan mendadak, iklan, atau akun yang meminta kode rahasia. Masuk melalui aplikasi atau alamat situs yang Anda ketik sendiri. Jangan memakai tautan, nomor bantuan, atau formulir yang dikirim oleh pihak yang belum diverifikasi.
+Lakukan pengecekan sebelum uang berpindah. Setelah transfer masuk ke rekening penerima, penarikan kembali bergantung pada itikad penerima dan proses bank, dan sering memakan waktu berminggu-minggu tanpa jaminan.
 
-Tentukan masalah yang ingin Anda cek, lalu pisahkan fakta dari dugaan. Hasil pemeriksaan memberi petunjuk, bukan jaminan mutlak. Gunakan beberapa bukti sebelum mengambil keputusan yang sulit dibatalkan.
+Siapkan nomor rekening, nama pemilik, dan nama bank persis seperti yang diberikan penjual. Perbedaan kecil pada nama pemilik sudah cukup jadi alasan menunda pembayaran.
 
 ## Cara memeriksa dengan aman
 
 ### 1. Mulai dari portal pemeriksaan resmi
 
-Gunakan CekRekening.id atau kanal resmi yang relevan untuk mencari nomor rekening atau nomor dompet digital tujuan. Ketik alamat portal sendiri. Jangan menyerahkan data login, PIN, atau kode OTP pada situs pemeriksaan. Simpan catatan singkat tentang waktu, sumber informasi, dan langkah yang sudah dilakukan. Catatan ini membantu bila Anda perlu menghubungi layanan resmi.
+Gunakan CekRekening.id atau kanal resmi yang relevan untuk mencari nomor rekening atau nomor dompet digital tujuan. Ketik alamat portal sendiri. Jangan menyerahkan data login, PIN, atau kode OTP pada situs pemeriksaan.
 
 ### 2. Cocokkan nama dan konteks transaksi
 
@@ -66,7 +66,7 @@ Raka menemukan kamera bekas dengan harga jauh di bawah pasar. Penjual meminta tr
 
 ## Kesalahan yang perlu dihindari
 
-Jangan memperlakukan satu hasil, satu gejala, atau satu unggahan media sosial sebagai kepastian. Hindari memasang aplikasi dari tautan acak, membagikan kode verifikasi, atau memberi akses layar kepada pihak yang belum diverifikasi. Gunakan prosedur layanan resmi saat masalah menyangkut uang, akun, atau nomor telepon.
+Jangan menganggap rekening yang bersih di database laporan berarti penjual tepercaya. Rekening baru belum sempat dilaporkan siapa pun. Jangan pula tergesa karena penjual bilang stok tinggal satu atau harga naik satu jam lagi. Tekanan waktu adalah alat kerja penipu, bukan kebetulan.
 
 ## Checklist singkat
 
@@ -99,165 +99,11 @@ Ya. Perlakukan nomor dompet digital seperti rekening. Cocokkan tujuan transaksi 
 
 ## Pemeriksaan lanjutan yang membantu
 
-### Sumber informasi
-
-Dalam konteks cara cek rekening penipu sebelum transfer: verifikasi yang tidak boleh dilewatkan, periksa sumber informasi dengan tujuan yang jelas. Hindari memberi akses atau data lebih banyak daripada yang diperlukan. Catat keputusan penting, gunakan kanal resmi, dan lakukan tindakan bertahap agar Anda tidak membuat masalah baru saat mencoba menyelesaikan masalah awal.
-
-### Identitas pihak terkait
-
-Dalam konteks cara cek rekening penipu sebelum transfer: verifikasi yang tidak boleh dilewatkan, periksa identitas pihak terkait dengan tujuan yang jelas.
-
-### Akun utama
-
-Dalam konteks cara cek rekening penipu sebelum transfer: verifikasi yang tidak boleh dilewatkan, periksa akun utama dengan tujuan yang jelas.
-
-### Perangkat lain
-
-Dalam konteks cara cek rekening penipu sebelum transfer: verifikasi yang tidak boleh dilewatkan, periksa perangkat lain dengan tujuan yang jelas.
-
-### Bukti transaksi atau aktivitas
-
-Dalam konteks cara cek rekening penipu sebelum transfer: verifikasi yang tidak boleh dilewatkan, periksa bukti transaksi atau aktivitas dengan tujuan yang jelas.
-
-### Izin aplikasi
-
-Dalam konteks cara cek rekening penipu sebelum transfer: verifikasi yang tidak boleh dilewatkan, periksa izin aplikasi dengan tujuan yang jelas.
-
-### Riwayat perubahan
-
-Dalam konteks cara cek rekening penipu sebelum transfer: verifikasi yang tidak boleh dilewatkan, periksa riwayat perubahan dengan tujuan yang jelas.
-
-### Jalur pelaporan
-
-Dalam konteks cara cek rekening penipu sebelum transfer: verifikasi yang tidak boleh dilewatkan, periksa jalur pelaporan dengan tujuan yang jelas.
-
-### Pemulihan akun
-
-Dalam konteks cara cek rekening penipu sebelum transfer: verifikasi yang tidak boleh dilewatkan, periksa pemulihan akun dengan tujuan yang jelas.
-
-### Pencegahan berikutnya
-
-Dalam konteks cara cek rekening penipu sebelum transfer: verifikasi yang tidak boleh dilewatkan, periksa pencegahan berikutnya dengan tujuan yang jelas.
-
-### Kebiasaan keluarga
-
-Dalam konteks cara cek rekening penipu sebelum transfer: verifikasi yang tidak boleh dilewatkan, periksa kebiasaan keluarga dengan tujuan yang jelas.
-
-### Tinjauan berkala
-
-Dalam konteks cara cek rekening penipu sebelum transfer: verifikasi yang tidak boleh dilewatkan, periksa tinjauan berkala dengan tujuan yang jelas.
-
-### Catatan tindakan aman
-
-Jika situasi terasa mendesak, berhenti sejenak dan gunakan kanal resmi. Langkah kecil yang dilakukan dengan urutan tepat sering lebih efektif daripada tindakan cepat tanpa verifikasi.
-
-### Catatan tindakan aman
-
-Jika situasi terasa mendesak, berhenti sejenak dan gunakan kanal resmi.
-
-### Catatan tindakan aman
-
-Jika situasi terasa mendesak, berhenti sejenak dan gunakan kanal resmi.
-
-### Catatan tindakan aman
-
-Jika situasi terasa mendesak, berhenti sejenak dan gunakan kanal resmi.
-
-### Catatan tindakan aman
-
-Jika situasi terasa mendesak, berhenti sejenak dan gunakan kanal resmi.
-
-### Catatan tindakan aman
-
-Jika situasi terasa mendesak, berhenti sejenak dan gunakan kanal resmi.
-
-### Catatan tindakan aman
-
-Jika situasi terasa mendesak, berhenti sejenak dan gunakan kanal resmi.
-
-### Catatan tindakan aman
-
-Jika situasi terasa mendesak, berhenti sejenak dan gunakan kanal resmi.
-
-### Catatan tindakan aman
-
-Jika situasi terasa mendesak, berhenti sejenak dan gunakan kanal resmi.
-
-### Catatan tindakan aman
-
-Jika situasi terasa mendesak, berhenti sejenak dan gunakan kanal resmi.
-
-### Catatan tindakan aman
-
-Jika situasi terasa mendesak, berhenti sejenak dan gunakan kanal resmi.
-
-### Catatan tindakan aman
-
-Jika situasi terasa mendesak, berhenti sejenak dan gunakan kanal resmi.
-
-### Catatan tindakan aman
-
-Jika situasi terasa mendesak, berhenti sejenak dan gunakan kanal resmi.
-
-### Catatan tindakan aman
-
-Jika situasi terasa mendesak, berhenti sejenak dan gunakan kanal resmi.
-
-### Catatan tindakan aman
-
-Jika situasi terasa mendesak, berhenti sejenak dan gunakan kanal resmi.
-
-### Catatan tindakan aman
-
-Jika situasi terasa mendesak, berhenti sejenak dan gunakan kanal resmi.
-
-### Catatan tindakan aman
-
-Jika situasi terasa mendesak, berhenti sejenak dan gunakan kanal resmi.
-
-### Catatan tindakan aman
-
-Jika situasi terasa mendesak, berhenti sejenak dan gunakan kanal resmi.
-
-### Catatan tindakan aman
-
-Jika situasi terasa mendesak, berhenti sejenak dan gunakan kanal resmi.
-
-### Catatan tindakan aman
-
-Jika situasi terasa mendesak, berhenti sejenak dan gunakan kanal resmi.
-
-### Catatan tindakan aman
-
-Jika situasi terasa mendesak, berhenti sejenak dan gunakan kanal resmi.
-
-### Catatan tindakan aman
-
-Jika situasi terasa mendesak, berhenti sejenak dan gunakan kanal resmi.
-
-### Catatan tindakan aman
-
-Jika situasi terasa mendesak, berhenti sejenak dan gunakan kanal resmi.
-
-### Catatan tindakan aman
-
-Jika situasi terasa mendesak, berhenti sejenak dan gunakan kanal resmi.
-
-### Catatan tindakan aman
-
-Jika situasi terasa mendesak, berhenti sejenak dan gunakan kanal resmi.
-
-### Catatan tindakan aman
-
-Jika situasi terasa mendesak, berhenti sejenak dan gunakan kanal resmi.
-
-### Catatan tindakan aman
-
-Jika situasi terasa mendesak, berhenti sejenak dan gunakan kanal resmi.
-
-### Catatan tindakan aman
-
-Jika situasi terasa mendesak, berhenti sejenak dan gunakan kanal resmi.
+Kalau transfer sudah terlanjur dikirim, urutan berikut menentukan peluang dana kembali.
+
+- **Hubungi bank Anda dalam hitungan jam.** Semakin cepat laporan masuk, semakin besar peluang dana masih tertahan di rekening penerima.
+- **Laporkan ke kanal resmi.** Layanan pelaporan rekening bermasalah milik pemerintah mencatat laporan Anda sehingga calon korban berikutnya bisa memeriksa lebih dulu.
+- **Simpan bukti lengkap.** Bukti transfer, percakapan, dan tangkapan layar iklan adalah berkas yang diminta bank maupun kepolisian.
 
 ## Artikel terkait
 

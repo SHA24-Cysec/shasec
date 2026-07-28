@@ -169,7 +169,7 @@ Komputer quantum yang bisa memecahkan enkripsi klasik belum ada hari ini. Tapi a
 
 ## Checklist Tindakan untuk Pembaca
 
-Berikut ringkasan langkah yang bisa Anda ambil sekarang:
+Ancaman kuantum masih beberapa tahun lagi, tetapi lima langkah ini sudah bisa dikerjakan hari ini:
 
 1. **Perbarui browser** ke versi terbaru untuk mendukung TLS post-quantum
 2. **Gunakan Signal** untuk komunikasi terenkripsi post-quantum

@@ -70,5 +70,5 @@ Untuk penggunaan rumah tangga, firewall bawaan router biasanya cukup. Firewall k
 ## Sumber dan bacaan lanjutan
 - [NIST: Cybersecurity for IoT Program](https://www.nist.gov/itl/applied-cybersecurity/nist-cybersecurity-iot-program)
 - [NIST: Cybersecurity for IoT Program](https://www.nist.gov/itl/applied-cybersecurity/nist-cybersecurity-iot-program)
-- [FTC: Careful Connections — Keeping the Internet of Things Secure](https://www.ftc.gov/business-guidance/resources/careful-connections-keeping-internet-things-secure)
+- [FTC: Careful Connections, Keeping the Internet of Things Secure](https://www.ftc.gov/business-guidance/resources/careful-connections-keeping-internet-things-secure)
 > **Catatan editorial:** Artikel ini bersifat edukatif dan defensif. Fitur dan antarmuka setiap perangkat berbeda. Gunakan manual resmi perangkat Anda untuk panduan teknis yang spesifik.

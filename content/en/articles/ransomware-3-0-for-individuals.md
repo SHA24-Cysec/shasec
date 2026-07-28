@@ -52,15 +52,15 @@ The most significant change in 2026 is AI entering the ransomware attack chain. 
 
 ### AI-Powered Reconnaissance
 
-AI agents can automatically gather information about targets from social media, LinkedIn, GitHub, and other public data. This information is used to craft highly personalized phishing campaigns. AI-crafted spear-phishing campaigns achieve click rates 3 times higher than traditional bulk phishing.
+AI agents can automatically gather information about targets from social media, LinkedIn, GitHub, and other public data. This information is used to craft highly personalized phishing campaigns. Messages built this way read like they come from someone who knows your work, which is why they get opened.
 
 ### Customized Payloads
 
-Large language models can generate ransom notes that reference specific files found on the victim's system, individual names, and contextual details. This personalization creates far stronger psychological pressure than generic ransom messages.
+Large language models can generate ransom notes that reference specific files found on the victim's system, individual names, and contextual details. Seeing your own file names quoted back at you makes the threat feel verified, which is exactly the intent.
 
 ### Deepfakes for Negotiation
 
-Some ransomware groups use deepfake audio and video to impersonate executives during negotiations. The technology is also used for social engineering against employees identified through LinkedIn and GitHub.
+Cloned voices now appear in negotiation calls, so a familiar voice on the line proves very little. The technology is also used for social engineering against employees identified through LinkedIn and GitHub.
 
 ### Autonomous Lateral Movement
 

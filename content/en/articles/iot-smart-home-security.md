@@ -70,5 +70,5 @@ For home use, the router's built-in firewall is sufficient. Dedicated firewalls 
 ## Sources and further reading
 - [NIST: Cybersecurity for IoT Program](https://www.nist.gov/itl/applied-cybersecurity/nist-cybersecurity-iot-program)
 - [NIST: Cybersecurity for IoT Program](https://www.nist.gov/itl/applied-cybersecurity/nist-cybersecurity-iot-program)
-- [FTC: Careful Connections — Keeping the Internet of Things Secure](https://www.ftc.gov/business-guidance/resources/careful-connections-keeping-internet-things-secure)
+- [FTC: Careful Connections, Keeping the Internet of Things Secure](https://www.ftc.gov/business-guidance/resources/careful-connections-keeping-internet-things-secure)
 > **Editorial note:** This article is educational and defensive in nature. Features and interfaces vary by device. Refer to your device's official manual for specific technical guidance.

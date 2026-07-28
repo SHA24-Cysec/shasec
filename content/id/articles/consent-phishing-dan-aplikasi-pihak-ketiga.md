@@ -116,15 +116,15 @@ Cabut akses, catat detailnya, dan periksa aktivitas akun. Ganti kata sandi serta
 
 ### Nama aplikasi
 
-Dalam pencegahan consent phishing dan izin aplikasi pihak ketiga, periksa Nama aplikasi sebelum pekerjaan berjalan lebih jauh. Pastikan pemilik akun, administrator organisasi, dan pemilik aplikasi dapat menjelaskan mengapa akses atau tindakan itu diperlukan. Jangan memilih pengaturan paling luas hanya agar proses terasa cepat. Catat keputusan yang diambil, lalu tinjau kembali ketika fungsi atau data yang dipakai berubah.
+Dalam pencegahan consent phishing dan izin aplikasi pihak ketiga, periksa Nama aplikasi sebelum pekerjaan berjalan lebih jauh. Pastikan pemilik akun, administrator organisasi, dan pemilik aplikasi dapat menjelaskan mengapa akses atau tindakan itu diperlukan.
 
 ### Penerbit aplikasi
 
-Penerbit aplikasi perlu memiliki batas yang dapat dipahami pengguna. Risiko muncul ketika aplikasi yang tidak tepercaya memperoleh token dan akses ke akun utama. Gunakan contoh kerja nyata untuk melihat apakah batas tersebut masih berlaku. Bila jawabannya tidak jelas, hentikan penggunaan sementara dan minta penilaian dari pemilik akun, administrator organisasi, dan pemilik aplikasi sebelum data atau tindakan berikutnya diproses.
+Penerbit aplikasi perlu memiliki batas yang dapat dipahami pengguna. Risiko muncul ketika aplikasi yang tidak tepercaya memperoleh token dan akses ke akun utama. Bila jawabannya tidak jelas, hentikan penggunaan sementara dan minta penilaian dari pemilik akun, administrator organisasi, dan pemilik aplikasi sebelum data atau tindakan berikutnya diproses.
 
 ### Situs pengembang
 
-Jadikan Situs pengembang sebagai bagian dari pemeriksaan rutin, bukan pekerjaan yang hanya dilakukan setelah insiden. Dalam konteks pencegahan consent phishing dan izin aplikasi pihak ketiga, perubahan kecil pada akun, izin, atau alur kerja dapat mengubah tingkat risiko. Pemilik perlu mengetahui perubahan itu dan memastikan perlindungan tetap sejalan dengan tujuan awal.
+Jadikan Situs pengembang sebagai bagian dari pemeriksaan rutin, bukan pekerjaan yang hanya dilakukan setelah insiden. Dalam konteks pencegahan consent phishing dan izin aplikasi pihak ketiga, perubahan kecil pada akun, izin, atau alur kerja dapat mengubah tingkat risiko.
 
 ### Tujuan integrasi
 
@@ -134,15 +134,15 @@ Saat menilai Tujuan integrasi, fokus pada dampak yang mungkin terjadi, bukan han
 
 ### Domain undangan
 
-Dalam pencegahan consent phishing dan izin aplikasi pihak ketiga, periksa Domain undangan dengan tujuan yang jelas. Pastikan pemilik akun, administrator organisasi, dan pemilik aplikasi dapat menerangkan alasan akses atau tindakan tersebut. Jangan memilih pengaturan paling luas hanya demi kenyamanan. Catat keputusan dan tanggal pemeriksaan supaya perubahan kecil tidak berkembang tanpa diketahui.
+Dalam pencegahan consent phishing dan izin aplikasi pihak ketiga, periksa Domain undangan dengan tujuan yang jelas. Pastikan pemilik akun, administrator organisasi, dan pemilik aplikasi dapat menerangkan alasan akses atau tindakan tersebut.
 
 ### Logo aplikasi
 
-Logo aplikasi perlu memiliki batas yang dapat dilihat pengguna. Uji alur dengan contoh yang aman, lalu hentikan penggunaan jika alasannya tidak jelas. Minta penilaian dari pemilik akun, administrator organisasi, dan pemilik aplikasi sebelum data atau tindakan tambahan diproses.
+Logo aplikasi perlu memiliki batas yang dapat dilihat pengguna. Minta penilaian dari pemilik akun, administrator organisasi, dan pemilik aplikasi sebelum data atau tindakan tambahan diproses.
 
 ### Deskripsi izin
 
-Jadikan Deskripsi izin bagian dari pekerjaan rutin, bukan tindakan setelah masalah terjadi. Pada pencegahan consent phishing dan izin aplikasi pihak ketiga, perubahan akun, izin, atau alur dapat mengubah risiko. Pemilik perlu mengetahui perubahan itu dan memastikan perlindungan masih sesuai tujuan awal.
+Jadikan Deskripsi izin bagian dari pekerjaan rutin, bukan tindakan setelah masalah terjadi. Pada pencegahan consent phishing dan izin aplikasi pihak ketiga, perubahan akun, izin, atau alur dapat mengubah risiko.
 
 ### Kebijakan privasi
 

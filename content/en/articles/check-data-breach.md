@@ -22,9 +22,9 @@ This guide puts safety first: use trusted services, don't enter passwords on for
 
 ## Initial steps before checking
 
-Start with devices and accounts you trust. Don't follow instructions from surprise messages, advertisements, or accounts that ask for secret codes. Log in via the application or site address that you type yourself. Don't use links, help numbers, or forms sent by unverified parties.
+Open Have I Been Pwned from an address you type yourself, not from a link in an email announcing a breach. Breach-themed messages are among the most common phishing hooks, precisely when breach news is circulating.
 
-Determine the problem you want to examine, then separate fact from conjecture. The results of the examination provide guidance, not an absolute guarantee. Use some evidence before making decisions that are difficult to reverse.
+Prepare the list of addresses and numbers you want to check. Results show which services were breached, not whether your account is being taken over today.
 
 ## How to check safely
 
@@ -66,7 +66,7 @@ Nadia discovered her email address appeared in an old leak. It doesn't immediate
 
 ## Mistakes to avoid
 
-Don't treat one result, one symptom, or one social media post as a certainty. Avoid installing apps from random links, sharing verification codes, or giving screen access to unverified parties. Use official service procedures when the problem concerns money, accounts, or phone numbers.
+Do not read an empty result as safety. Many breaches are unpublished, and some are never disclosed at all. Do not pay services promising to erase your data from the internet after a leak either, because copies already circulating cannot be recalled. Spend the effort on replacing reused passwords and turning on 2FA.
 
 ## Short checklist
 
@@ -99,185 +99,11 @@ Numbers can be used for phishing messages, account searches, or recovery efforts
 
 ## Helpful follow-up checks
 
-### Source of information
-
-In the context of how to check leaked emails and cellphone numbers: safe steps after finding your data, check the information source with a clear purpose. Avoid giving more access or data than necessary. Record important decisions, use official channels, and take gradual action so you don't create new problems while trying to resolve the initial problem.
-
-### Identity of related parties
-
-In the context of how to check leaked emails and cellphone numbers: safe steps after finding your data, check the identity of the parties concerned with a clear goal.
-
-### Main account
-
-In the context of how to check leaked emails and cellphone numbers: safe steps after finding your data, check the main account with a clear purpose.
-
-### Other devices
-
-In the context of how to check leaked emails and cellphone numbers: safe steps after finding your data, check other devices with a clear purpose.
-
-### Proof of transaction or activity
-
-In the context of how to check leaked emails and cellphone numbers: safe steps after finding your data, check evidence of transactions or activities with a clear purpose.
-
-### App permissions
-
-In the context of how to check leaked emails and cellphone numbers: safe steps after finding your data, check application permissions with a clear purpose.
-
-### Change history
-
-In the context of how to check leaked emails and cell phone numbers: safe steps after finding your data, check the change history with a clear purpose.
-
-### Reporting path
-
-In the context of how to check leaked emails and cellphone numbers: safe steps after finding your data, check the reporting route with a clear objective.
-
-### Account recovery
-
-In the context of how to check leaked emails and cellphone numbers: safe steps after finding your data, check account recovery with a clear goal.
-
-### Next precaution
-
-In the context of how to check leaked emails and cellphone numbers: safe steps after finding your data, check the next precautions with a clear goal.
-
-### Family customs
-
-In the context of how to check leaked emails and cellphone numbers: safe steps after finding your data, check family habits with a clear goal.
-
-### Periodic review
-
-In the context of how to check leaked emails and cell phone numbers: safe steps after finding your data, check regular reviews with clear objectives.
-
-### Safe action notes
-
-Store evidence with limited access. Small steps taken in the right order are often more effective than quick actions without verification.
-
-### Safe action notes
-
-Store evidence with limited access.
-
-### Safe action notes
-
-Store evidence with limited access.
-
-### Safe action notes
-
-Store evidence with limited access.
-
-### Safe action notes
-
-Store evidence with limited access.
-
-### Safe action notes
-
-Store evidence with limited access.
-
-### Safe action notes
-
-Store evidence with limited access.
-
-### Safe action notes
-
-Store evidence with limited access.
-
-### Safe action notes
-
-Store evidence with limited access.
-
-### Safe action notes
-
-Store evidence with limited access.
-
-### Safe action notes
-
-Store evidence with limited access.
-
-### Safe action notes
-
-Store evidence with limited access.
-
-### Safe action notes
-
-Store evidence with limited access.
-
-### Safe action notes
-
-Store evidence with limited access.
-
-### Safe action notes
-
-Store evidence with limited access.
-
-### Safe action notes
-
-Store evidence with limited access.
-
-### Safe action notes
-
-Store evidence with limited access.
-
-### Safe action notes
-
-Store evidence with limited access.
-
-### Safe action notes
-
-Store evidence with limited access.
-
-### Safe action notes
-
-Store evidence with limited access.
-
-### Safe action notes
-
-Store evidence with limited access.
-
-### Safe action notes
-
-Store evidence with limited access.
-
-### Safe action notes
-
-Store evidence with limited access.
-
-### Safe action notes
-
-Store evidence with limited access.
-
-### Safe action notes
-
-Store evidence with limited access.
-
-### Safe action notes
-
-Store evidence with limited access.
-
-### Safe action notes
-
-Store evidence with limited access.
-
-### Safe action notes
-
-Store evidence with limited access.
-
-### Safe action notes
-
-Store evidence with limited access.
-
-### Safe action notes
-
-Store evidence with limited access.
-
-### Safe action notes
-
-Store evidence with limited access.
-
-### Safe action notes
-
-Store evidence with limited access.
-
-### Safe action notes
-
-Store evidence with limited access.
+Once a breach is confirmed, three things decide how far the damage spreads.
+
+- **Recovery email on each important account.** Confirm it is still yours. An address you no longer read breaks recovery exactly when you need it.
+- **Sessions still signed in.** Remove unfamiliar devices from email, marketplaces, and social accounts, then change the password so old sessions end.
+- **Login and transaction alerts.** Turn them on so the next attempt shows up within minutes rather than months.
 
 ## Sources and further reading
 

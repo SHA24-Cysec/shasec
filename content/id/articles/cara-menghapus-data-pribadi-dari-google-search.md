@@ -22,15 +22,15 @@ Artikel ini membahas proses yang terukur: cari data dengan aman, catat URL, ajuk
 
 ## Langkah awal sebelum memeriksa
 
-Mulailah dari perangkat dan akun yang Anda percaya. Jangan mengikuti instruksi dari pesan mendadak, iklan, atau akun yang meminta kode rahasia. Masuk melalui aplikasi atau alamat situs yang Anda ketik sendiri. Jangan memakai tautan, nomor bantuan, atau formulir yang dikirim oleh pihak yang belum diverifikasi.
+Cari nama, nomor, dan alamat email Anda dari jendela penyamaran agar hasilnya tidak dipengaruhi riwayat pencarian sendiri. Catat URL setiap halaman yang bermasalah, karena formulir penghapusan Google meminta alamat halaman yang persis.
 
-Tentukan masalah yang ingin Anda cek, lalu pisahkan fakta dari dugaan. Hasil pemeriksaan memberi petunjuk, bukan jaminan mutlak. Gunakan beberapa bukti sebelum mengambil keputusan yang sulit dibatalkan.
+Pahami dua hal berbeda: menghapus dari hasil pencarian Google, dan menghapus dari situs sumbernya. Selama halaman aslinya masih tayang, data itu tetap ada meski tidak lagi muncul di Google.
 
 ## Cara memeriksa dengan aman
 
 ### 1. Cari informasi Anda dengan hati-hati
 
-Gunakan mode privat dan cari nama, email, nomor ponsel, atau nama pengguna. Catat URL yang relevan. Jangan mengklik situs mencurigakan atau memasukkan kredensial untuk melihat hasil. Simpan catatan singkat tentang waktu, sumber informasi, dan langkah yang sudah dilakukan. Catatan ini membantu bila Anda perlu menghubungi layanan resmi.
+Gunakan mode privat dan cari nama, email, nomor ponsel, atau nama pengguna. Catat URL yang relevan. Jangan mengklik situs mencurigakan atau memasukkan kredensial untuk melihat hasil.
 
 ### 2. Bedakan Google dan situs sumber
 
@@ -66,7 +66,7 @@ Ayu menemukan nomor ponsel dan alamat lamanya dalam dokumen yang dapat dicari pu
 
 ## Kesalahan yang perlu dihindari
 
-Jangan memperlakukan satu hasil, satu gejala, atau satu unggahan media sosial sebagai kepastian. Hindari memasang aplikasi dari tautan acak, membagikan kode verifikasi, atau memberi akses layar kepada pihak yang belum diverifikasi. Gunakan prosedur layanan resmi saat masalah menyangkut uang, akun, atau nomor telepon.
+Jangan berhenti di formulir Google saja. Kalau situs sumber tidak dihubungi, mesin pencari lain tetap menampilkan halaman itu. Jangan pula mengirim scan KTP lengkap ke situs yang meminta verifikasi identitas untuk penghapusan, kecuali situsnya jelas resmi. Permintaan penghapusan sendiri kadang dipakai untuk memanen dokumen identitas.
 
 ## Checklist singkat
 
@@ -99,189 +99,11 @@ Simpan bukti dan gunakan jalur pelaporan platform. Jika ada ancaman fisik, pemer
 
 ## Pemeriksaan lanjutan yang membantu
 
-### Sumber informasi
-
-Dalam konteks cara menghapus data pribadi dari google search dan mengurangi jejak online, periksa sumber informasi dengan tujuan yang jelas. Hindari memberi akses atau data lebih banyak daripada yang diperlukan. Catat keputusan penting, gunakan kanal resmi, dan lakukan tindakan bertahap agar Anda tidak membuat masalah baru saat mencoba menyelesaikan masalah awal.
-
-### Identitas pihak terkait
-
-Dalam konteks cara menghapus data pribadi dari google search dan mengurangi jejak online, periksa identitas pihak terkait dengan tujuan yang jelas.
-
-### Akun utama
-
-Dalam konteks cara menghapus data pribadi dari google search dan mengurangi jejak online, periksa akun utama dengan tujuan yang jelas.
-
-### Perangkat lain
-
-Dalam konteks cara menghapus data pribadi dari google search dan mengurangi jejak online, periksa perangkat lain dengan tujuan yang jelas.
-
-### Bukti transaksi atau aktivitas
-
-Dalam konteks cara menghapus data pribadi dari google search dan mengurangi jejak online, periksa bukti transaksi atau aktivitas dengan tujuan yang jelas.
-
-### Izin aplikasi
-
-Dalam konteks cara menghapus data pribadi dari google search dan mengurangi jejak online, periksa izin aplikasi dengan tujuan yang jelas.
-
-### Riwayat perubahan
-
-Dalam konteks cara menghapus data pribadi dari google search dan mengurangi jejak online, periksa riwayat perubahan dengan tujuan yang jelas.
-
-### Jalur pelaporan
-
-Dalam konteks cara menghapus data pribadi dari google search dan mengurangi jejak online, periksa jalur pelaporan dengan tujuan yang jelas.
-
-### Pemulihan akun
-
-Dalam konteks cara menghapus data pribadi dari google search dan mengurangi jejak online, periksa pemulihan akun dengan tujuan yang jelas.
-
-### Pencegahan berikutnya
-
-Dalam konteks cara menghapus data pribadi dari google search dan mengurangi jejak online, periksa pencegahan berikutnya dengan tujuan yang jelas.
-
-### Kebiasaan keluarga
-
-Dalam konteks cara menghapus data pribadi dari google search dan mengurangi jejak online, periksa kebiasaan keluarga dengan tujuan yang jelas.
-
-### Tinjauan berkala
-
-Dalam konteks cara menghapus data pribadi dari google search dan mengurangi jejak online, periksa tinjauan berkala dengan tujuan yang jelas.
-
-### Catatan tindakan aman
-
-Periksa kembali informasi sebelum mengirim data atau dana. Langkah kecil yang dilakukan dengan urutan tepat sering lebih efektif daripada tindakan cepat tanpa verifikasi.
-
-### Catatan tindakan aman
-
-Simpan bukti dengan akses terbatas.
-
-### Catatan tindakan aman
-
-Simpan bukti dengan akses terbatas.
-
-### Catatan tindakan aman
-
-Simpan bukti dengan akses terbatas.
-
-### Catatan tindakan aman
-
-Simpan bukti dengan akses terbatas.
-
-### Catatan tindakan aman
-
-Simpan bukti dengan akses terbatas.
-
-### Catatan tindakan aman
-
-Simpan bukti dengan akses terbatas.
-
-### Catatan tindakan aman
-
-Simpan bukti dengan akses terbatas.
-
-### Catatan tindakan aman
-
-Simpan bukti dengan akses terbatas.
-
-### Catatan tindakan aman
-
-Simpan bukti dengan akses terbatas.
-
-### Catatan tindakan aman
-
-Simpan bukti dengan akses terbatas.
-
-### Catatan tindakan aman
-
-Simpan bukti dengan akses terbatas.
-
-### Catatan tindakan aman
-
-Simpan bukti dengan akses terbatas.
-
-### Catatan tindakan aman
-
-Simpan bukti dengan akses terbatas.
-
-### Catatan tindakan aman
-
-Simpan bukti dengan akses terbatas.
-
-### Catatan tindakan aman
-
-Simpan bukti dengan akses terbatas.
-
-### Catatan tindakan aman
-
-Simpan bukti dengan akses terbatas.
-
-### Catatan tindakan aman
-
-Simpan bukti dengan akses terbatas.
-
-### Catatan tindakan aman
-
-Simpan bukti dengan akses terbatas.
-
-### Catatan tindakan aman
-
-Simpan bukti dengan akses terbatas.
-
-### Catatan tindakan aman
-
-Simpan bukti dengan akses terbatas.
-
-### Catatan tindakan aman
-
-Simpan bukti dengan akses terbatas.
-
-### Catatan tindakan aman
-
-Simpan bukti dengan akses terbatas.
-
-### Catatan tindakan aman
-
-Simpan bukti dengan akses terbatas.
-
-### Catatan tindakan aman
-
-Simpan bukti dengan akses terbatas.
-
-### Catatan tindakan aman
-
-Simpan bukti dengan akses terbatas.
-
-### Catatan tindakan aman
-
-Simpan bukti dengan akses terbatas.
-
-### Catatan tindakan aman
-
-Simpan bukti dengan akses terbatas.
-
-### Catatan tindakan aman
-
-Simpan bukti dengan akses terbatas.
-
-### Catatan tindakan aman
-
-Simpan bukti dengan akses terbatas.
-
-### Catatan tindakan aman
-
-Simpan bukti dengan akses terbatas.
-
-### Catatan tindakan aman
-
-Simpan bukti dengan akses terbatas.
-
-### Catatan tindakan aman
-
-Simpan bukti dengan akses terbatas.
-
-### Catatan tindakan aman
-
-Simpan bukti dengan akses terbatas.
+Penghapusan dari Google hanya separuh pekerjaan. Tiga hal berikut menuntaskannya.
+
+- **Hubungi pemilik situs sumber.** Selama halaman aslinya tayang, mesin pencari lain tetap menampilkannya meski Google sudah membersihkan hasilnya.
+- **Periksa situs agregator data.** Banyak halaman berisi nomor dan alamat berasal dari pengumpul data yang punya formulir opt-out sendiri.
+- **Pasang Google Alerts untuk nama Anda.** Anda akan tahu lebih cepat kalau data yang sama muncul kembali di tempat lain.
 
 ## Artikel terkait
 

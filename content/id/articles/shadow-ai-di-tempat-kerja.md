@@ -127,29 +127,29 @@ Hentikan berbagi data tambahan. Catat alat, akun, jenis data, waktu, serta siapa
 
 ### Pemilik akun
 
-Dalam penggunaan AI di tempat kerja, periksa Pemilik akun sebelum pekerjaan berjalan lebih jauh. Pastikan pemilik proses, administrator, dan pengguna alat dapat menjelaskan mengapa akses atau tindakan itu diperlukan. Jangan memilih pengaturan paling luas hanya agar proses terasa cepat. Catat keputusan yang diambil, lalu tinjau kembali ketika fungsi atau data yang dipakai berubah.
+Dalam penggunaan AI di tempat kerja, periksa Pemilik akun sebelum pekerjaan berjalan lebih jauh. Pastikan pemilik proses, administrator, dan pengguna alat dapat menjelaskan mengapa akses atau tindakan itu diperlukan.
 
 ### Klasifikasi data
 
-Klasifikasi data perlu memiliki batas yang dapat dipahami pengguna. Risiko muncul ketika data organisasi atau pelanggan masuk ke layanan yang belum diperiksa. Gunakan contoh kerja nyata untuk melihat apakah batas tersebut masih berlaku. Bila jawabannya tidak jelas, hentikan penggunaan sementara dan minta penilaian dari pemilik proses, administrator, dan pengguna alat sebelum data atau tindakan berikutnya diproses.
+Klasifikasi data perlu memiliki batas yang dapat dipahami pengguna. Risiko muncul ketika data organisasi atau pelanggan masuk ke layanan yang belum diperiksa. Bila jawabannya tidak jelas, hentikan penggunaan sementara dan minta penilaian dari pemilik proses, administrator, dan pengguna alat sebelum data atau tindakan berikutnya diproses.
 
 ### Akun pribadi
 
-Jadikan Akun pribadi sebagai bagian dari pemeriksaan rutin, bukan pekerjaan yang hanya dilakukan setelah insiden. Dalam konteks penggunaan AI di tempat kerja, perubahan kecil pada akun, izin, atau alur kerja dapat mengubah tingkat risiko. Pemilik perlu mengetahui perubahan itu dan memastikan perlindungan tetap sejalan dengan tujuan awal.
+Jadikan Akun pribadi sebagai bagian dari pemeriksaan rutin, bukan pekerjaan yang hanya dilakukan setelah insiden. Dalam konteks penggunaan AI di tempat kerja, perubahan kecil pada akun, izin, atau alur kerja dapat mengubah tingkat risiko.
 
 ## Rincian pemeriksaan lapangan
 
 ### Hak administrator
 
-Dalam penggunaan AI di tempat kerja, periksa Hak administrator dengan tujuan yang jelas. Pastikan pemilik proses, administrator, dan pengguna alat dapat menerangkan alasan akses atau tindakan tersebut. Jangan memilih pengaturan paling luas hanya demi kenyamanan. Catat keputusan dan tanggal pemeriksaan supaya perubahan kecil tidak berkembang tanpa diketahui.
+Dalam penggunaan AI di tempat kerja, periksa Hak administrator dengan tujuan yang jelas. Pastikan pemilik proses, administrator, dan pengguna alat dapat menerangkan alasan akses atau tindakan tersebut.
 
 ### Kebijakan internal
 
-Kebijakan internal perlu memiliki batas yang dapat dilihat pengguna. Uji alur dengan contoh yang aman, lalu hentikan penggunaan jika alasannya tidak jelas. Minta penilaian dari pemilik proses, administrator, dan pengguna alat sebelum data atau tindakan tambahan diproses.
+Kebijakan internal perlu memiliki batas yang dapat dilihat pengguna. Minta penilaian dari pemilik proses, administrator, dan pengguna alat sebelum data atau tindakan tambahan diproses.
 
 ### Data contoh
 
-Jadikan Data contoh bagian dari pekerjaan rutin, bukan tindakan setelah masalah terjadi. Pada penggunaan AI di tempat kerja, perubahan akun, izin, atau alur dapat mengubah risiko. Pemilik perlu mengetahui perubahan itu dan memastikan perlindungan masih sesuai tujuan awal.
+Jadikan Data contoh bagian dari pekerjaan rutin, bukan tindakan setelah masalah terjadi. Pada penggunaan AI di tempat kerja, perubahan akun, izin, atau alur dapat mengubah risiko.
 
 ### Keluaran publik
 

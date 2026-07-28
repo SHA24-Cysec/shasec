@@ -116,15 +116,15 @@ Chatbots primarily generate answers. Agents can combine answers with actions thr
 
 ### Agent's goal
 
-In AI agents and automation, check the agent's Goals before the job goes any further. Make sure agent owners, developers, and business reviewers can explain why the access or action is necessary. Don't choose the most extensive settings just to make the process feel fast. Record the decisions made, then review them when the function or data used changes.
+In AI agents and automation, check the agent's Goals before the job goes any further. Make sure agent owners, developers, and business reviewers can explain why the access or action is necessary.
 
 ### Instruction source
 
-Instruction sources need to have boundaries that users can understand. Risks arise when untrusted data influences agent actions or expands their access. Use real work examples to see if the limits still apply. If the answer is not clear, temporarily discontinue use and seek assessment from agent owners, developers, and business reviewers before any further data or actions are processed.
+Instruction sources need to have boundaries that users can understand. Risks arise when untrusted data influences agent actions or expands their access. If the answer is not clear, temporarily discontinue use and seek assessment from agent owners, developers, and business reviewers before any further data or actions are processed.
 
 ### External documents
 
-Make external Documentation part of a routine inspection, not a job only done after an incident. In the context of AI agents and automation, small changes to accounts, permissions, or workflows can change the level of risk. Owners need to be aware of the changes and ensure protection remains in line with the original intent.
+Make external Documentation part of a routine inspection, not a job only done after an incident. In the context of AI agents and automation, small changes to accounts, permissions, or workflows can change the level of risk.
 
 ### Search results
 
@@ -134,15 +134,15 @@ When assessing search Results, focus on the possible impact, not just whether th
 
 ### Input validation
 
-In AI agents and automation, check Validate input with clear objectives. Make sure agent owners, developers, and business reviewers can explain the reason for the access or action. Don't choose the widest setting just for convenience. Record decisions and inspection dates so that small changes do not develop unnoticed.
+In AI agents and automation, check Validate input with clear objectives. Make sure agent owners, developers, and business reviewers can explain the reason for the access or action.
 
 ### Data separation
 
-Data separation needs to have user-visible boundaries. Test the flow with a safe example, then discontinue use if it's not clear why. Request assessments from agent owners, developers, and business reviewers before additional data or actions are processed.
+Data separation needs to have user-visible boundaries. Request assessments from agent owners, developers, and business reviewers before additional data or actions are processed.
 
 ### API calls
 
-Make API callss part of routine work, not actions after a problem occurs. With AI agents and automation, changes to accounts, permissions, or flows can change risk. Owners need to be aware of the changes and ensure the protection still serves its original purpose.
+Make API callss part of routine work, not actions after a problem occurs. With AI agents and automation, changes to accounts, permissions, or flows can change risk.
 
 ### Output validation
 

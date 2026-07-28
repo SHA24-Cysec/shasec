@@ -22,15 +22,15 @@ This article helps you check your phone with peace of mind. The guide does not p
 
 ## Initial steps before checking
 
-Start with devices and accounts you trust. Don't follow instructions from surprise messages, advertisements, or accounts that ask for secret codes. Log in via the application or site address that you type yourself. Don't use links, help numbers, or forms sent by unverified parties.
+Battery drain, a warm phone, and fast data use have plenty of ordinary causes: system updates, weak signal, or genuinely heavy apps. A single symptom is not enough to conclude surveillance.
 
-Determine the problem you want to examine, then separate fact from conjecture. The results of the examination provide guidance, not an absolute guarantee. Use some evidence before making decisions that are difficult to reverse.
+Note when symptoms started and which apps were installed around that time. That sequence separates a normal technical issue from a problem app.
 
 ## How to check safely
 
 ### 1. Don't draw conclusions from one symptom
 
-A hot or slow battery may occur due to updates, weak signal, or normal applications. Look for a combination of signs and changes that you can note before taking drastic action. Keep brief notes about the time, sources of information, and steps taken. These notes are helpful if you need to contact authorized service.
+A hot or slow battery may occur due to updates, weak signal, or normal applications. Look for a combination of signs and changes that you can note before taking drastic action.
 
 ### 2. Check installed applications
 
@@ -66,7 +66,7 @@ Sinta thought her cellphone was being tapped because the battery was running out
 
 ## Mistakes to avoid
 
-Don't treat one result, one symptom, or one social media post as a certainty. Avoid installing apps from random links, sharing verification codes, or giving screen access to unverified parties. Use official service procedures when the problem concerns money, accounts, or phone numbers.
+Do not install antivirus or cleaner apps from the pop-up ads that claim to have found a virus. Many of those apps are adware themselves. Do not grant accessibility permission to apps with unclear purpose either, since it allows screen reading and code capture. A factory reset is the last step rather than the first, and only helps once a backup is finished.
 
 ## Short checklist
 
@@ -99,161 +99,11 @@ Ask for help if a work device is involved, there is a serious threat, an applica
 
 ## Helpful follow-up checks
 
-### Source of information
-
-In the context of how to check if your cellphone is tapped or infected with malware: signs, checks and safe steps, check information sources with a clear purpose. Avoid giving more access or data than necessary. Record important decisions, use official channels, and take gradual action so you don't create new problems while trying to resolve the initial problem.
-
-### Identity of related parties
-
-In the context of how to check if a cellphone has been tapped or infected with malware: signs, checks and safe steps, check the identity of the party involved with a clear goal.
-
-### Main account
-
-In the context of how to check if your cellphone is tapped or infected with malware: signs, checks and safe steps, check the main account with a clear purpose.
-
-### Other devices
-
-In the context of how to check if your cellphone is tapped or infected with malware: signs, checks and safe steps, check other devices with a clear purpose.
-
-### Proof of transaction or activity
-
-In the context of how to check if your cellphone has been tapped or infected with malware: signs, checks and safe steps, check for evidence of transactions or activities with a clear purpose.
-
-### App permissions
-
-In the context of how to check if your cellphone is tapped or infected with malware: signs, checks and safe steps, check application permissions with a clear purpose.
-
-### Change history
-
-In the context of how to check if your cellphone has been tapped or infected with malware: signs, checks and safe steps, check the history of changes with a clear purpose.
-
-### Reporting path
-
-In the context of how to check if your cellphone is tapped or infected with malware: signs, checks and safe steps, check the reporting path with a clear objective.
-
-### Account recovery
-
-In the context of how to check if your cellphone has been tapped or infected with malware: signs, checks and safe steps, check account recovery with a clear goal.
-
-### Next precaution
-
-In the context of how to check if your cellphone is tapped or infected with malware: signs, checks and safe steps, check the next precautions with clear objectives.
-
-### Family customs
-
-In the context of how to check if your cellphone is tapped or infected with malware: signs, checks and safe steps, check family habits with a clear goal.
-
-### Periodic review
-
-In the context of how to check if your cellphone is tapped or infected by malware: signs, checks and security measures, check for regular reviews with clear objectives.
-
-### Safe action notes
-
-If the situation feels urgent, stop for a moment and use official channels. Small steps taken in the right order are often more effective than quick actions without verification.
-
-### Safe action notes
-
-If the situation feels urgent, stop for a moment and use official channels.
-
-### Safe action notes
-
-If the situation feels urgent, stop for a moment and use official channels.
-
-### Safe action notes
-
-If the situation feels urgent, stop for a moment and use official channels.
-
-### Safe action notes
-
-If the situation feels urgent, stop for a moment and use official channels.
-
-### Safe action notes
-
-If the situation feels urgent, stop for a moment and use official channels.
-
-### Safe action notes
-
-If the situation feels urgent, stop for a moment and use official channels.
-
-### Safe action notes
-
-If the situation feels urgent, stop for a moment and use official channels.
-
-### Safe action notes
-
-If the situation feels urgent, stop for a moment and use official channels.
-
-### Safe action notes
-
-If the situation feels urgent, stop for a moment and use official channels.
-
-### Safe action notes
-
-If the situation feels urgent, stop for a moment and use official channels.
-
-### Safe action notes
-
-If the situation feels urgent, stop for a moment and use official channels.
-
-### Safe action notes
-
-If the situation feels urgent, stop for a moment and use official channels.
-
-### Safe action notes
-
-If the situation feels urgent, stop for a moment and use official channels.
-
-### Safe action notes
-
-If the situation feels urgent, stop for a moment and use official channels.
-
-### Safe action notes
-
-If the situation feels urgent, stop for a moment and use official channels.
-
-### Safe action notes
-
-If the situation feels urgent, stop for a moment and use official channels.
-
-### Safe action notes
-
-If the situation feels urgent, stop for a moment and use official channels.
-
-### Safe action notes
-
-If the situation feels urgent, stop for a moment and use official channels.
-
-### Safe action notes
-
-If the situation feels urgent, stop for a moment and use official channels.
-
-### Safe action notes
-
-If the situation feels urgent, stop for a moment and use official channels.
-
-### Safe action notes
-
-If the situation feels urgent, stop for a moment and use official channels.
-
-### Safe action notes
-
-If the situation feels urgent, stop for a moment and use official channels.
-
-### Safe action notes
-
-If the situation feels urgent, stop for a moment and use official channels.
-
-### Safe action notes
-
-If the situation feels urgent, stop for a moment and use official channels.
-
-### Safe action notes
-
-If the situation feels urgent, stop for a moment and use official channels.
-
-### Safe action notes
-
-If the situation feels urgent, stop for a moment and use official channels.
+If symptoms persist after the basic checks, continue with these three.
+
+- **Accessibility and device-admin permissions.** Adware and spyware rely on these two most. Revoke them from apps with unclear purpose.
+- **Data use per app.** An app sending large amounts while you are not using it deserves suspicion and removal.
+- **The Google or Apple account on the phone.** Review linked devices and third-party apps holding access, then revoke anything unfamiliar.
 
 ## Sources and further reading
 

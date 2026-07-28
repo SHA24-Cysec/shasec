@@ -22,15 +22,15 @@ Panduan ini membantu Anda membedakan sumber iklan, mencabut izin yang tidak perl
 
 ## Langkah awal sebelum memeriksa
 
-Mulailah dari perangkat dan akun yang Anda percaya. Jangan mengikuti instruksi dari pesan mendadak, iklan, atau akun yang meminta kode rahasia. Masuk melalui aplikasi atau alamat situs yang Anda ketik sendiri. Jangan memakai tautan, nomor bantuan, atau formulir yang dikirim oleh pihak yang belum diverifikasi.
+Iklan pop-up bisa datang dari tiga tempat berbeda: notifikasi situs yang pernah Anda izinkan, aplikasi gratis yang memang beriklan, atau adware yang terpasang tanpa disadari. Ketiganya butuh penanganan berbeda, jadi tentukan sumbernya dulu.
 
-Tentukan masalah yang ingin Anda cek, lalu pisahkan fakta dari dugaan. Hasil pemeriksaan memberi petunjuk, bukan jaminan mutlak. Gunakan beberapa bukti sebelum mengambil keputusan yang sulit dibatalkan.
+Perhatikan kapan iklan muncul. Iklan yang hanya muncul di dalam satu aplikasi berbeda asal-usulnya dari iklan yang muncul di layar utama saat tidak ada aplikasi terbuka.
 
 ## Cara memeriksa dengan aman
 
 ### 1. Ingat perubahan terakhir
 
-Catat kapan pop-up mulai muncul dan aplikasi apa yang baru dipasang. Perubahan setelah instalasi aplikasi, pembaruan, atau membuka situs tertentu dapat memberi petunjuk sumber masalah. Simpan catatan singkat tentang waktu, sumber informasi, dan langkah yang sudah dilakukan. Catatan ini membantu bila Anda perlu menghubungi layanan resmi.
+Catat kapan pop-up mulai muncul dan aplikasi apa yang baru dipasang. Perubahan setelah instalasi aplikasi, pembaruan, atau membuka situs tertentu dapat memberi petunjuk sumber masalah.
 
 ### 2. Periksa aplikasi terbaru
 
@@ -66,7 +66,7 @@ Setelah memasang aplikasi wallpaper dari tautan media sosial, Bimo melihat iklan
 
 ## Kesalahan yang perlu dihindari
 
-Jangan memperlakukan satu hasil, satu gejala, atau satu unggahan media sosial sebagai kepastian. Hindari memasang aplikasi dari tautan acak, membagikan kode verifikasi, atau memberi akses layar kepada pihak yang belum diverifikasi. Gunakan prosedur layanan resmi saat masalah menyangkut uang, akun, atau nomor telepon.
+Jangan memasang aplikasi pembersih dari iklan yang muncul. Itu jalur masuk adware yang paling umum. Jangan menekan tombol silang pada iklan layar penuh, karena tombol tutup palsu sering justru membuka unduhan. Gunakan tombol kembali atau tutup aplikasi dari daftar aplikasi terbaru.
 
 ## Checklist singkat
 
@@ -99,197 +99,11 @@ Pertimbangkan bila aplikasi mencurigakan tidak dapat dihapus, pop-up terus muncu
 
 ## Pemeriksaan lanjutan yang membantu
 
-### Sumber informasi
-
-Dalam konteks cara menghilangkan iklan pop-up di hp android tanpa memasang apk baru, periksa sumber informasi dengan tujuan yang jelas. Hindari memberi akses atau data lebih banyak daripada yang diperlukan. Catat keputusan penting, gunakan kanal resmi, dan lakukan tindakan bertahap agar Anda tidak membuat masalah baru saat mencoba menyelesaikan masalah awal.
-
-### Identitas pihak terkait
-
-Dalam konteks cara menghilangkan iklan pop-up di hp android tanpa memasang apk baru, periksa identitas pihak terkait dengan tujuan yang jelas.
-
-### Akun utama
-
-Dalam konteks cara menghilangkan iklan pop-up di hp android tanpa memasang apk baru, periksa akun utama dengan tujuan yang jelas.
-
-### Perangkat lain
-
-Dalam konteks cara menghilangkan iklan pop-up di hp android tanpa memasang apk baru, periksa perangkat lain dengan tujuan yang jelas.
-
-### Bukti transaksi atau aktivitas
-
-Dalam konteks cara menghilangkan iklan pop-up di hp android tanpa memasang apk baru, periksa bukti transaksi atau aktivitas dengan tujuan yang jelas.
-
-### Izin aplikasi
-
-Dalam konteks cara menghilangkan iklan pop-up di hp android tanpa memasang apk baru, periksa izin aplikasi dengan tujuan yang jelas.
-
-### Riwayat perubahan
-
-Dalam konteks cara menghilangkan iklan pop-up di hp android tanpa memasang apk baru, periksa riwayat perubahan dengan tujuan yang jelas.
-
-### Jalur pelaporan
-
-Dalam konteks cara menghilangkan iklan pop-up di hp android tanpa memasang apk baru, periksa jalur pelaporan dengan tujuan yang jelas.
-
-### Pemulihan akun
-
-Dalam konteks cara menghilangkan iklan pop-up di hp android tanpa memasang apk baru, periksa pemulihan akun dengan tujuan yang jelas.
-
-### Pencegahan berikutnya
-
-Dalam konteks cara menghilangkan iklan pop-up di hp android tanpa memasang apk baru, periksa pencegahan berikutnya dengan tujuan yang jelas.
-
-### Kebiasaan keluarga
-
-Dalam konteks cara menghilangkan iklan pop-up di hp android tanpa memasang apk baru, periksa kebiasaan keluarga dengan tujuan yang jelas.
-
-### Tinjauan berkala
-
-Dalam konteks cara menghilangkan iklan pop-up di hp android tanpa memasang apk baru, periksa tinjauan berkala dengan tujuan yang jelas.
-
-### Catatan tindakan aman
-
-Simpan bukti dengan akses terbatas. Langkah kecil yang dilakukan dengan urutan tepat sering lebih efektif daripada tindakan cepat tanpa verifikasi.
-
-### Catatan tindakan aman
-
-Simpan bukti dengan akses terbatas.
-
-### Catatan tindakan aman
-
-Simpan bukti dengan akses terbatas.
-
-### Catatan tindakan aman
-
-Simpan bukti dengan akses terbatas.
-
-### Catatan tindakan aman
-
-Simpan bukti dengan akses terbatas.
-
-### Catatan tindakan aman
-
-Simpan bukti dengan akses terbatas.
-
-### Catatan tindakan aman
-
-Simpan bukti dengan akses terbatas.
-
-### Catatan tindakan aman
-
-Simpan bukti dengan akses terbatas.
-
-### Catatan tindakan aman
-
-Simpan bukti dengan akses terbatas.
-
-### Catatan tindakan aman
-
-Simpan bukti dengan akses terbatas.
-
-### Catatan tindakan aman
-
-Simpan bukti dengan akses terbatas.
-
-### Catatan tindakan aman
-
-Simpan bukti dengan akses terbatas.
-
-### Catatan tindakan aman
-
-Simpan bukti dengan akses terbatas.
-
-### Catatan tindakan aman
-
-Simpan bukti dengan akses terbatas.
-
-### Catatan tindakan aman
-
-Simpan bukti dengan akses terbatas.
-
-### Catatan tindakan aman
-
-Simpan bukti dengan akses terbatas.
-
-### Catatan tindakan aman
-
-Simpan bukti dengan akses terbatas.
-
-### Catatan tindakan aman
-
-Simpan bukti dengan akses terbatas.
-
-### Catatan tindakan aman
-
-Simpan bukti dengan akses terbatas.
-
-### Catatan tindakan aman
-
-Simpan bukti dengan akses terbatas.
-
-### Catatan tindakan aman
-
-Simpan bukti dengan akses terbatas.
-
-### Catatan tindakan aman
-
-Simpan bukti dengan akses terbatas.
-
-### Catatan tindakan aman
-
-Simpan bukti dengan akses terbatas.
-
-### Catatan tindakan aman
-
-Simpan bukti dengan akses terbatas.
-
-### Catatan tindakan aman
-
-Simpan bukti dengan akses terbatas.
-
-### Catatan tindakan aman
-
-Simpan bukti dengan akses terbatas.
-
-### Catatan tindakan aman
-
-Simpan bukti dengan akses terbatas.
-
-### Catatan tindakan aman
-
-Simpan bukti dengan akses terbatas.
-
-### Catatan tindakan aman
-
-Simpan bukti dengan akses terbatas.
-
-### Catatan tindakan aman
-
-Simpan bukti dengan akses terbatas.
-
-### Catatan tindakan aman
-
-Simpan bukti dengan akses terbatas.
-
-### Catatan tindakan aman
-
-Simpan bukti dengan akses terbatas.
-
-### Catatan tindakan aman
-
-Simpan bukti dengan akses terbatas.
-
-### Catatan tindakan aman
-
-Simpan bukti dengan akses terbatas.
-
-### Catatan tindakan aman
-
-Simpan bukti dengan akses terbatas.
-
-### Catatan tindakan aman
-
-Simpan bukti dengan akses terbatas.
+Kalau iklan masih muncul setelah aplikasi mencurigakan dicopot, periksa tiga tempat ini.
+
+- **Izin tampil di atas aplikasi lain.** Aplikasi yang memegang izin overlay bisa menampilkan iklan di layar mana pun, termasuk layar utama.
+- **Notifikasi situs di browser.** Buka pengaturan situs pada Chrome, lalu blokir semua domain yang tidak Anda kenali dari daftar notifikasi.
+- **Mode aman Android.** Menyalakan mode aman menonaktifkan aplikasi pihak ketiga. Kalau iklan hilang di mode ini, penyebabnya memang aplikasi yang terpasang.
 
 ## Artikel terkait
 
