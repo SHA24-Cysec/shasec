@@ -172,7 +172,7 @@ Kebiasaan ini menjaga rapat tetap berguna tanpa membuka informasi yang tidak per
 
 - [CISA: Secure Our World](https://www.cisa.gov/secure-our-world)
 - [NIST: Cybersecurity Framework](https://www.nist.gov/cyberframework)
-- [FTC: Protecting Personal Information](https://consumer.ftc.gov/articles/protecting-personal-information)
+- [FTC: Protecting Personal Information](https://www.ftc.gov/business-guidance/resources/protecting-personal-information-guide-business)
 - [Zoom Trust Center](https://trust.zoom.com/)
 
 > **Catatan editorial:** Pengaturan menu berbeda pada setiap platform. Periksa dokumentasi resmi layanan rapat video yang dipakai organisasi atau sekolah Anda sebelum menerapkan kebijakan.

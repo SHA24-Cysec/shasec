@@ -98,8 +98,8 @@ Initially, there is adjustment. But once accustomed, consistent verification pro
 Start with the most impactful: enable MFA on all accounts, restrict access by role, and back up data regularly. For advanced steps, consider a security consultant or managed service provider.
 
 ## Sources and further reading
-- [CISA:ZeroTrustMaturityModel](https://www.Cisa.Gov/zero-trust)
-- [NIST:ZeroTrustArchitecture](https://csrc.Nist.Gov/publications/detail/sp/800-207/final)
-- [Microsoft:ZeroTrustforSmallBusiness](https://www.Microsoft.Com/en-us/security/business/zero-trust)
+- [CISA: Zero Trust Maturity Model](https://www.cisa.gov/zero-trust-maturity-model)
+- [NIST SP 800-207: Zero Trust Architecture](https://csrc.nist.gov/pubs/sp/800/207/final)
+- [Microsoft: Zero Trust for Business](https://www.microsoft.com/en-us/security/business/zero-trust)
 
 > **Editorial note:** This article provides general guidance. Specific Zero Trust implementation depends on your business infrastructure, needs, and budget. Consult a security professional for a tailored plan.

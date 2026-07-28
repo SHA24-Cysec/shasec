@@ -34,31 +34,31 @@ Gunakan mode privat dan cari nama, email, nomor ponsel, atau nama pengguna. Cata
 
 ### 2. Bedakan Google dan situs sumber
 
-Hasil pencarian adalah petunjuk menuju halaman sumber. Catat domain yang memuat data. Untuk menghapus dari internet secara lebih menyeluruh, hubungi pemilik situs atau layanan yang mengunggahnya. Simpan catatan singkat tentang waktu, sumber informasi, dan langkah yang sudah dilakukan. Catatan ini membantu bila Anda perlu menghubungi layanan resmi.
+Hasil pencarian adalah petunjuk menuju halaman sumber. Catat domain yang memuat data. Untuk menghapus dari internet secara lebih menyeluruh, hubungi pemilik situs atau layanan yang mengunggahnya.
 
 ### 3. Kumpulkan bukti yang diperlukan
 
-Simpan URL halaman, URL hasil pencarian, tangkapan layar, tanggal, dan jenis data yang tampil. Bukti yang rapi memudahkan formulir penghapusan dan mengurangi kebutuhan membuka ulang halaman sensitif. Simpan catatan singkat tentang waktu, sumber informasi, dan langkah yang sudah dilakukan. Catatan ini membantu bila Anda perlu menghubungi layanan resmi.
+Simpan URL halaman, URL hasil pencarian, tangkapan layar, tanggal, dan jenis data yang tampil. Bukti yang rapi memudahkan formulir penghapusan dan mengurangi kebutuhan membuka ulang halaman sensitif.
 
 ### 4. Gunakan jalur penghapusan Google yang sesuai
 
-Google menyediakan proses untuk kategori informasi pribadi tertentu. Baca kategori dan syaratnya, lalu isi formulir dari halaman bantuan resmi. Beri informasi akurat dan jangan mengunggah dokumen lebih banyak dari yang diminta. Simpan catatan singkat tentang waktu, sumber informasi, dan langkah yang sudah dilakukan. Catatan ini membantu bila Anda perlu menghubungi layanan resmi.
+Google menyediakan proses untuk kategori informasi pribadi tertentu. Baca kategori dan syaratnya, lalu isi formulir dari halaman bantuan resmi. Beri informasi akurat dan jangan mengunggah dokumen lebih banyak dari yang diminta.
 
 ### 5. Hubungi situs sumber bila aman
 
-Jika Anda punya akses ke akun atau kanal resmi situs, minta penghapusan langsung. Jelaskan URL, data yang perlu dihapus, dan alasan singkat. Simpan korespondensi tanpa mengirim ulang dokumen sensitif. Simpan catatan singkat tentang waktu, sumber informasi, dan langkah yang sudah dilakukan. Catatan ini membantu bila Anda perlu menghubungi layanan resmi.
+Jika Anda punya akses ke akun atau kanal resmi situs, minta penghapusan langsung. Jelaskan URL, data yang perlu dihapus, dan alasan singkat. Simpan korespondensi tanpa mengirim ulang dokumen sensitif.
 
 ### 6. Amankan konten milik sendiri
 
-Hapus unggahan lama yang memuat boarding pass, tagihan, kartu akses, alamat, atau foto dokumen. Periksa pengaturan visibilitas drive, media sosial, dan album foto bersama. Simpan catatan singkat tentang waktu, sumber informasi, dan langkah yang sudah dilakukan. Catatan ini membantu bila Anda perlu menghubungi layanan resmi.
+Hapus unggahan lama yang memuat boarding pass, tagihan, kartu akses, alamat, atau foto dokumen. Periksa pengaturan visibilitas drive, media sosial, dan album foto bersama.
 
 ### 7. Waspadai jasa penghapusan palsu
 
-Pihak yang menawarkan hapus data instan dapat meminta dokumen atau biaya tanpa hasil. Gunakan formulir resmi dan jangan memberi kata sandi, OTP, atau akses akun kepada pihak yang menghubungi Anda lebih dulu. Simpan catatan singkat tentang waktu, sumber informasi, dan langkah yang sudah dilakukan. Catatan ini membantu bila Anda perlu menghubungi layanan resmi.
+Pihak yang menawarkan hapus data instan dapat meminta dokumen atau biaya tanpa hasil. Gunakan formulir resmi dan jangan memberi kata sandi, OTP, atau akses akun kepada pihak yang menghubungi Anda lebih dulu.
 
 ### 8. Pantau hasil secara berkala
 
-Permintaan dapat membutuhkan peninjauan. Simpan nomor referensi, cek pembaruan melalui email resmi, dan ulangi pencarian setelah ada keputusan. Jika ada ancaman atau penyebaran yang serius, simpan bukti dan cari bantuan yang sesuai. Simpan catatan singkat tentang waktu, sumber informasi, dan langkah yang sudah dilakukan. Catatan ini membantu bila Anda perlu menghubungi layanan resmi.
+Permintaan dapat membutuhkan peninjauan. Simpan nomor referensi, cek pembaruan melalui email resmi, dan ulangi pencarian setelah ada keputusan. Jika ada ancaman atau penyebaran yang serius, simpan bukti dan cari bantuan yang sesuai.
 
 ## Contoh situasi
 
@@ -105,47 +105,47 @@ Dalam konteks cara menghapus data pribadi dari google search dan mengurangi jeja
 
 ### Identitas pihak terkait
 
-Dalam konteks cara menghapus data pribadi dari google search dan mengurangi jejak online, periksa identitas pihak terkait dengan tujuan yang jelas. Hindari memberi akses atau data lebih banyak daripada yang diperlukan. Catat keputusan penting, gunakan kanal resmi, dan lakukan tindakan bertahap agar Anda tidak membuat masalah baru saat mencoba menyelesaikan masalah awal.
+Dalam konteks cara menghapus data pribadi dari google search dan mengurangi jejak online, periksa identitas pihak terkait dengan tujuan yang jelas.
 
 ### Akun utama
 
-Dalam konteks cara menghapus data pribadi dari google search dan mengurangi jejak online, periksa akun utama dengan tujuan yang jelas. Hindari memberi akses atau data lebih banyak daripada yang diperlukan. Catat keputusan penting, gunakan kanal resmi, dan lakukan tindakan bertahap agar Anda tidak membuat masalah baru saat mencoba menyelesaikan masalah awal.
+Dalam konteks cara menghapus data pribadi dari google search dan mengurangi jejak online, periksa akun utama dengan tujuan yang jelas.
 
 ### Perangkat lain
 
-Dalam konteks cara menghapus data pribadi dari google search dan mengurangi jejak online, periksa perangkat lain dengan tujuan yang jelas. Hindari memberi akses atau data lebih banyak daripada yang diperlukan. Catat keputusan penting, gunakan kanal resmi, dan lakukan tindakan bertahap agar Anda tidak membuat masalah baru saat mencoba menyelesaikan masalah awal.
+Dalam konteks cara menghapus data pribadi dari google search dan mengurangi jejak online, periksa perangkat lain dengan tujuan yang jelas.
 
 ### Bukti transaksi atau aktivitas
 
-Dalam konteks cara menghapus data pribadi dari google search dan mengurangi jejak online, periksa bukti transaksi atau aktivitas dengan tujuan yang jelas. Hindari memberi akses atau data lebih banyak daripada yang diperlukan. Catat keputusan penting, gunakan kanal resmi, dan lakukan tindakan bertahap agar Anda tidak membuat masalah baru saat mencoba menyelesaikan masalah awal.
+Dalam konteks cara menghapus data pribadi dari google search dan mengurangi jejak online, periksa bukti transaksi atau aktivitas dengan tujuan yang jelas.
 
 ### Izin aplikasi
 
-Dalam konteks cara menghapus data pribadi dari google search dan mengurangi jejak online, periksa izin aplikasi dengan tujuan yang jelas. Hindari memberi akses atau data lebih banyak daripada yang diperlukan. Catat keputusan penting, gunakan kanal resmi, dan lakukan tindakan bertahap agar Anda tidak membuat masalah baru saat mencoba menyelesaikan masalah awal.
+Dalam konteks cara menghapus data pribadi dari google search dan mengurangi jejak online, periksa izin aplikasi dengan tujuan yang jelas.
 
 ### Riwayat perubahan
 
-Dalam konteks cara menghapus data pribadi dari google search dan mengurangi jejak online, periksa riwayat perubahan dengan tujuan yang jelas. Hindari memberi akses atau data lebih banyak daripada yang diperlukan. Catat keputusan penting, gunakan kanal resmi, dan lakukan tindakan bertahap agar Anda tidak membuat masalah baru saat mencoba menyelesaikan masalah awal.
+Dalam konteks cara menghapus data pribadi dari google search dan mengurangi jejak online, periksa riwayat perubahan dengan tujuan yang jelas.
 
 ### Jalur pelaporan
 
-Dalam konteks cara menghapus data pribadi dari google search dan mengurangi jejak online, periksa jalur pelaporan dengan tujuan yang jelas. Hindari memberi akses atau data lebih banyak daripada yang diperlukan. Catat keputusan penting, gunakan kanal resmi, dan lakukan tindakan bertahap agar Anda tidak membuat masalah baru saat mencoba menyelesaikan masalah awal.
+Dalam konteks cara menghapus data pribadi dari google search dan mengurangi jejak online, periksa jalur pelaporan dengan tujuan yang jelas.
 
 ### Pemulihan akun
 
-Dalam konteks cara menghapus data pribadi dari google search dan mengurangi jejak online, periksa pemulihan akun dengan tujuan yang jelas. Hindari memberi akses atau data lebih banyak daripada yang diperlukan. Catat keputusan penting, gunakan kanal resmi, dan lakukan tindakan bertahap agar Anda tidak membuat masalah baru saat mencoba menyelesaikan masalah awal.
+Dalam konteks cara menghapus data pribadi dari google search dan mengurangi jejak online, periksa pemulihan akun dengan tujuan yang jelas.
 
 ### Pencegahan berikutnya
 
-Dalam konteks cara menghapus data pribadi dari google search dan mengurangi jejak online, periksa pencegahan berikutnya dengan tujuan yang jelas. Hindari memberi akses atau data lebih banyak daripada yang diperlukan. Catat keputusan penting, gunakan kanal resmi, dan lakukan tindakan bertahap agar Anda tidak membuat masalah baru saat mencoba menyelesaikan masalah awal.
+Dalam konteks cara menghapus data pribadi dari google search dan mengurangi jejak online, periksa pencegahan berikutnya dengan tujuan yang jelas.
 
 ### Kebiasaan keluarga
 
-Dalam konteks cara menghapus data pribadi dari google search dan mengurangi jejak online, periksa kebiasaan keluarga dengan tujuan yang jelas. Hindari memberi akses atau data lebih banyak daripada yang diperlukan. Catat keputusan penting, gunakan kanal resmi, dan lakukan tindakan bertahap agar Anda tidak membuat masalah baru saat mencoba menyelesaikan masalah awal.
+Dalam konteks cara menghapus data pribadi dari google search dan mengurangi jejak online, periksa kebiasaan keluarga dengan tujuan yang jelas.
 
 ### Tinjauan berkala
 
-Dalam konteks cara menghapus data pribadi dari google search dan mengurangi jejak online, periksa tinjauan berkala dengan tujuan yang jelas. Hindari memberi akses atau data lebih banyak daripada yang diperlukan. Catat keputusan penting, gunakan kanal resmi, dan lakukan tindakan bertahap agar Anda tidak membuat masalah baru saat mencoba menyelesaikan masalah awal.
+Dalam konteks cara menghapus data pribadi dari google search dan mengurangi jejak online, periksa tinjauan berkala dengan tujuan yang jelas.
 
 ### Catatan tindakan aman
 
@@ -153,135 +153,135 @@ Periksa kembali informasi sebelum mengirim data atau dana. Langkah kecil yang di
 
 ### Catatan tindakan aman
 
-Simpan bukti dengan akses terbatas. Langkah kecil yang dilakukan dengan urutan tepat sering lebih efektif daripada tindakan cepat tanpa verifikasi.
+Simpan bukti dengan akses terbatas.
 
 ### Catatan tindakan aman
 
-Simpan bukti dengan akses terbatas. Langkah kecil yang dilakukan dengan urutan tepat sering lebih efektif daripada tindakan cepat tanpa verifikasi.
+Simpan bukti dengan akses terbatas.
 
 ### Catatan tindakan aman
 
-Simpan bukti dengan akses terbatas. Langkah kecil yang dilakukan dengan urutan tepat sering lebih efektif daripada tindakan cepat tanpa verifikasi.
+Simpan bukti dengan akses terbatas.
 
 ### Catatan tindakan aman
 
-Simpan bukti dengan akses terbatas. Langkah kecil yang dilakukan dengan urutan tepat sering lebih efektif daripada tindakan cepat tanpa verifikasi.
+Simpan bukti dengan akses terbatas.
 
 ### Catatan tindakan aman
 
-Simpan bukti dengan akses terbatas. Langkah kecil yang dilakukan dengan urutan tepat sering lebih efektif daripada tindakan cepat tanpa verifikasi.
+Simpan bukti dengan akses terbatas.
 
 ### Catatan tindakan aman
 
-Simpan bukti dengan akses terbatas. Langkah kecil yang dilakukan dengan urutan tepat sering lebih efektif daripada tindakan cepat tanpa verifikasi.
+Simpan bukti dengan akses terbatas.
 
 ### Catatan tindakan aman
 
-Simpan bukti dengan akses terbatas. Langkah kecil yang dilakukan dengan urutan tepat sering lebih efektif daripada tindakan cepat tanpa verifikasi.
+Simpan bukti dengan akses terbatas.
 
 ### Catatan tindakan aman
 
-Simpan bukti dengan akses terbatas. Langkah kecil yang dilakukan dengan urutan tepat sering lebih efektif daripada tindakan cepat tanpa verifikasi.
+Simpan bukti dengan akses terbatas.
 
 ### Catatan tindakan aman
 
-Simpan bukti dengan akses terbatas. Langkah kecil yang dilakukan dengan urutan tepat sering lebih efektif daripada tindakan cepat tanpa verifikasi.
+Simpan bukti dengan akses terbatas.
 
 ### Catatan tindakan aman
 
-Simpan bukti dengan akses terbatas. Langkah kecil yang dilakukan dengan urutan tepat sering lebih efektif daripada tindakan cepat tanpa verifikasi.
+Simpan bukti dengan akses terbatas.
 
 ### Catatan tindakan aman
 
-Simpan bukti dengan akses terbatas. Langkah kecil yang dilakukan dengan urutan tepat sering lebih efektif daripada tindakan cepat tanpa verifikasi.
+Simpan bukti dengan akses terbatas.
 
 ### Catatan tindakan aman
 
-Simpan bukti dengan akses terbatas. Langkah kecil yang dilakukan dengan urutan tepat sering lebih efektif daripada tindakan cepat tanpa verifikasi.
+Simpan bukti dengan akses terbatas.
 
 ### Catatan tindakan aman
 
-Simpan bukti dengan akses terbatas. Langkah kecil yang dilakukan dengan urutan tepat sering lebih efektif daripada tindakan cepat tanpa verifikasi.
+Simpan bukti dengan akses terbatas.
 
 ### Catatan tindakan aman
 
-Simpan bukti dengan akses terbatas. Langkah kecil yang dilakukan dengan urutan tepat sering lebih efektif daripada tindakan cepat tanpa verifikasi.
+Simpan bukti dengan akses terbatas.
 
 ### Catatan tindakan aman
 
-Simpan bukti dengan akses terbatas. Langkah kecil yang dilakukan dengan urutan tepat sering lebih efektif daripada tindakan cepat tanpa verifikasi.
+Simpan bukti dengan akses terbatas.
 
 ### Catatan tindakan aman
 
-Simpan bukti dengan akses terbatas. Langkah kecil yang dilakukan dengan urutan tepat sering lebih efektif daripada tindakan cepat tanpa verifikasi.
+Simpan bukti dengan akses terbatas.
 
 ### Catatan tindakan aman
 
-Simpan bukti dengan akses terbatas. Langkah kecil yang dilakukan dengan urutan tepat sering lebih efektif daripada tindakan cepat tanpa verifikasi.
+Simpan bukti dengan akses terbatas.
 
 ### Catatan tindakan aman
 
-Simpan bukti dengan akses terbatas. Langkah kecil yang dilakukan dengan urutan tepat sering lebih efektif daripada tindakan cepat tanpa verifikasi.
+Simpan bukti dengan akses terbatas.
 
 ### Catatan tindakan aman
 
-Simpan bukti dengan akses terbatas. Langkah kecil yang dilakukan dengan urutan tepat sering lebih efektif daripada tindakan cepat tanpa verifikasi.
+Simpan bukti dengan akses terbatas.
 
 ### Catatan tindakan aman
 
-Simpan bukti dengan akses terbatas. Langkah kecil yang dilakukan dengan urutan tepat sering lebih efektif daripada tindakan cepat tanpa verifikasi.
+Simpan bukti dengan akses terbatas.
 
 ### Catatan tindakan aman
 
-Simpan bukti dengan akses terbatas. Langkah kecil yang dilakukan dengan urutan tepat sering lebih efektif daripada tindakan cepat tanpa verifikasi.
+Simpan bukti dengan akses terbatas.
 
 ### Catatan tindakan aman
 
-Simpan bukti dengan akses terbatas. Langkah kecil yang dilakukan dengan urutan tepat sering lebih efektif daripada tindakan cepat tanpa verifikasi.
+Simpan bukti dengan akses terbatas.
 
 ### Catatan tindakan aman
 
-Simpan bukti dengan akses terbatas. Langkah kecil yang dilakukan dengan urutan tepat sering lebih efektif daripada tindakan cepat tanpa verifikasi.
+Simpan bukti dengan akses terbatas.
 
 ### Catatan tindakan aman
 
-Simpan bukti dengan akses terbatas. Langkah kecil yang dilakukan dengan urutan tepat sering lebih efektif daripada tindakan cepat tanpa verifikasi.
+Simpan bukti dengan akses terbatas.
 
 ### Catatan tindakan aman
 
-Simpan bukti dengan akses terbatas. Langkah kecil yang dilakukan dengan urutan tepat sering lebih efektif daripada tindakan cepat tanpa verifikasi.
+Simpan bukti dengan akses terbatas.
 
 ### Catatan tindakan aman
 
-Simpan bukti dengan akses terbatas. Langkah kecil yang dilakukan dengan urutan tepat sering lebih efektif daripada tindakan cepat tanpa verifikasi.
+Simpan bukti dengan akses terbatas.
 
 ### Catatan tindakan aman
 
-Simpan bukti dengan akses terbatas. Langkah kecil yang dilakukan dengan urutan tepat sering lebih efektif daripada tindakan cepat tanpa verifikasi.
+Simpan bukti dengan akses terbatas.
 
 ### Catatan tindakan aman
 
-Simpan bukti dengan akses terbatas. Langkah kecil yang dilakukan dengan urutan tepat sering lebih efektif daripada tindakan cepat tanpa verifikasi.
+Simpan bukti dengan akses terbatas.
 
 ### Catatan tindakan aman
 
-Simpan bukti dengan akses terbatas. Langkah kecil yang dilakukan dengan urutan tepat sering lebih efektif daripada tindakan cepat tanpa verifikasi.
+Simpan bukti dengan akses terbatas.
 
 ### Catatan tindakan aman
 
-Simpan bukti dengan akses terbatas. Langkah kecil yang dilakukan dengan urutan tepat sering lebih efektif daripada tindakan cepat tanpa verifikasi.
+Simpan bukti dengan akses terbatas.
 
 ### Catatan tindakan aman
 
-Simpan bukti dengan akses terbatas. Langkah kecil yang dilakukan dengan urutan tepat sering lebih efektif daripada tindakan cepat tanpa verifikasi.
+Simpan bukti dengan akses terbatas.
 
 ### Catatan tindakan aman
 
-Simpan bukti dengan akses terbatas. Langkah kecil yang dilakukan dengan urutan tepat sering lebih efektif daripada tindakan cepat tanpa verifikasi.
+Simpan bukti dengan akses terbatas.
 
 ### Catatan tindakan aman
 
-Simpan bukti dengan akses terbatas. Langkah kecil yang dilakukan dengan urutan tepat sering lebih efektif daripada tindakan cepat tanpa verifikasi.
+Simpan bukti dengan akses terbatas.
 
 ## Artikel terkait
 
@@ -292,6 +292,6 @@ Simpan bukti dengan akses terbatas. Langkah kecil yang dilakukan dengan urutan t
 
 - [Google: Remove Personally Identifiable Information](https://support.google.com/websearch/troubleshooter/3111061)
 - [Google: Results About You](https://support.google.com/websearch/answer/12719076)
-- [FTC: Protecting Personal Information](https://consumer.ftc.gov/articles/protecting-personal-information)
+- [FTC: Protecting Personal Information](https://www.ftc.gov/business-guidance/resources/protecting-personal-information-guide-business)
 
 > **Catatan editorial:** Artikel ini bersifat edukatif. Prosedur layanan, menu perangkat, dan kebijakan platform dapat berubah. Gunakan kanal resmi untuk penanganan kasus spesifik.

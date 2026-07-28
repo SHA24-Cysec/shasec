@@ -145,7 +145,7 @@ Dalam penggunaan AI di tempat kerja, periksa Hak administrator dengan tujuan yan
 
 ### Kebijakan internal
 
-Kebijakan internal perlu memiliki batas yang dapat dilihat pengguna. Risiko muncul ketika data organisasi atau pelanggan masuk ke layanan yang belum diperiksa. Uji alur dengan contoh yang aman, lalu hentikan penggunaan jika alasannya tidak jelas. Minta penilaian dari pemilik proses, administrator, dan pengguna alat sebelum data atau tindakan tambahan diproses.
+Kebijakan internal perlu memiliki batas yang dapat dilihat pengguna. Uji alur dengan contoh yang aman, lalu hentikan penggunaan jika alasannya tidak jelas. Minta penilaian dari pemilik proses, administrator, dan pengguna alat sebelum data atau tindakan tambahan diproses.
 
 ### Data contoh
 
@@ -157,27 +157,27 @@ Saat menilai Keluaran publik, lihat dampaknya bagi orang dan data, bukan hanya a
 
 ### Data pelanggan
 
-Dalam penggunaan AI di tempat kerja, periksa Data pelanggan dengan tujuan yang jelas. Pastikan pemilik proses, administrator, dan pengguna alat dapat menerangkan alasan akses atau tindakan tersebut. Jangan memilih pengaturan paling luas hanya demi kenyamanan. Catat keputusan dan tanggal pemeriksaan supaya perubahan kecil tidak berkembang tanpa diketahui.
+Dalam penggunaan AI di tempat kerja, periksa Data pelanggan dengan tujuan yang jelas.
 
 ### Dokumen kontrak
 
-Dokumen kontrak perlu memiliki batas yang dapat dilihat pengguna. Risiko muncul ketika data organisasi atau pelanggan masuk ke layanan yang belum diperiksa. Uji alur dengan contoh yang aman, lalu hentikan penggunaan jika alasannya tidak jelas. Minta penilaian dari pemilik proses, administrator, dan pengguna alat sebelum data atau tindakan tambahan diproses.
+Dokumen kontrak perlu memiliki batas yang dapat dilihat pengguna.
 
 ### Akses repositori
 
-Jadikan Akses repositori bagian dari pekerjaan rutin, bukan tindakan setelah masalah terjadi. Pada penggunaan AI di tempat kerja, perubahan akun, izin, atau alur dapat mengubah risiko. Pemilik perlu mengetahui perubahan itu dan memastikan perlindungan masih sesuai tujuan awal.
+Jadikan Akses repositori bagian dari pekerjaan rutin, bukan tindakan setelah masalah terjadi.
 
 ### Konektor baru
 
-Saat menilai Konektor baru, lihat dampaknya bagi orang dan data, bukan hanya apakah fitur tersedia. pemilik proses, administrator, dan pengguna alat perlu memberi pengguna cara untuk bertanya dan melapor. Catatan yang dapat diperiksa akan membantu respons bila data organisasi atau pelanggan masuk ke layanan yang belum diperiksa.
+Saat menilai Konektor baru, lihat dampaknya bagi orang dan data, bukan hanya apakah fitur tersedia.
 
 ### Pencabutan akses
 
-Dalam penggunaan AI di tempat kerja, periksa Pencabutan akses dengan tujuan yang jelas. Pastikan pemilik proses, administrator, dan pengguna alat dapat menerangkan alasan akses atau tindakan tersebut. Jangan memilih pengaturan paling luas hanya demi kenyamanan. Catat keputusan dan tanggal pemeriksaan supaya perubahan kecil tidak berkembang tanpa diketahui.
+Dalam penggunaan AI di tempat kerja, periksa Pencabutan akses dengan tujuan yang jelas.
 
 ### Biaya tersembunyi
 
-Biaya tersembunyi perlu memiliki batas yang dapat dilihat pengguna. Risiko muncul ketika data organisasi atau pelanggan masuk ke layanan yang belum diperiksa. Uji alur dengan contoh yang aman, lalu hentikan penggunaan jika alasannya tidak jelas. Minta penilaian dari pemilik proses, administrator, dan pengguna alat sebelum data atau tindakan tambahan diproses.
+Biaya tersembunyi perlu memiliki batas yang dapat dilihat pengguna.
 
 ## Sumber dan bacaan lanjutan
 

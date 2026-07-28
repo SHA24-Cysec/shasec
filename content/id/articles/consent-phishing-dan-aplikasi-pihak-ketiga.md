@@ -138,7 +138,7 @@ Dalam pencegahan consent phishing dan izin aplikasi pihak ketiga, periksa Domain
 
 ### Logo aplikasi
 
-Logo aplikasi perlu memiliki batas yang dapat dilihat pengguna. Risiko muncul ketika aplikasi yang tidak tepercaya memperoleh token dan akses ke akun utama. Uji alur dengan contoh yang aman, lalu hentikan penggunaan jika alasannya tidak jelas. Minta penilaian dari pemilik akun, administrator organisasi, dan pemilik aplikasi sebelum data atau tindakan tambahan diproses.
+Logo aplikasi perlu memiliki batas yang dapat dilihat pengguna. Uji alur dengan contoh yang aman, lalu hentikan penggunaan jika alasannya tidak jelas. Minta penilaian dari pemilik akun, administrator organisasi, dan pemilik aplikasi sebelum data atau tindakan tambahan diproses.
 
 ### Deskripsi izin
 
@@ -150,43 +150,43 @@ Saat menilai Kebijakan privasi, lihat dampaknya bagi orang dan data, bukan hanya
 
 ### Retensi data
 
-Dalam pencegahan consent phishing dan izin aplikasi pihak ketiga, periksa Retensi data dengan tujuan yang jelas. Pastikan pemilik akun, administrator organisasi, dan pemilik aplikasi dapat menerangkan alasan akses atau tindakan tersebut. Jangan memilih pengaturan paling luas hanya demi kenyamanan. Catat keputusan dan tanggal pemeriksaan supaya perubahan kecil tidak berkembang tanpa diketahui.
+Dalam pencegahan consent phishing dan izin aplikasi pihak ketiga, periksa Retensi data dengan tujuan yang jelas.
 
 ### Akses offline
 
-Akses offline perlu memiliki batas yang dapat dilihat pengguna. Risiko muncul ketika aplikasi yang tidak tepercaya memperoleh token dan akses ke akun utama. Uji alur dengan contoh yang aman, lalu hentikan penggunaan jika alasannya tidak jelas. Minta penilaian dari pemilik akun, administrator organisasi, dan pemilik aplikasi sebelum data atau tindakan tambahan diproses.
+Akses offline perlu memiliki batas yang dapat dilihat pengguna.
 
 ### Akses antar akun
 
-Jadikan Akses antar akun bagian dari pekerjaan rutin, bukan tindakan setelah masalah terjadi. Pada pencegahan consent phishing dan izin aplikasi pihak ketiga, perubahan akun, izin, atau alur dapat mengubah risiko. Pemilik perlu mengetahui perubahan itu dan memastikan perlindungan masih sesuai tujuan awal.
+Jadikan Akses antar akun bagian dari pekerjaan rutin, bukan tindakan setelah masalah terjadi.
 
 ### Pemilik integrasi
 
-Saat menilai Pemilik integrasi, lihat dampaknya bagi orang dan data, bukan hanya apakah fitur tersedia. pemilik akun, administrator organisasi, dan pemilik aplikasi perlu memberi pengguna cara untuk bertanya dan melapor. Catatan yang dapat diperiksa akan membantu respons bila aplikasi yang tidak tepercaya memperoleh token dan akses ke akun utama.
+Saat menilai Pemilik integrasi, lihat dampaknya bagi orang dan data, bukan hanya apakah fitur tersedia.
 
 ### Daftar domain
 
-Dalam pencegahan consent phishing dan izin aplikasi pihak ketiga, periksa Daftar domain dengan tujuan yang jelas. Pastikan pemilik akun, administrator organisasi, dan pemilik aplikasi dapat menerangkan alasan akses atau tindakan tersebut. Jangan memilih pengaturan paling luas hanya demi kenyamanan. Catat keputusan dan tanggal pemeriksaan supaya perubahan kecil tidak berkembang tanpa diketahui.
+Dalam pencegahan consent phishing dan izin aplikasi pihak ketiga, periksa Daftar domain dengan tujuan yang jelas.
 
 ### Tanggal persetujuan
 
-Tanggal persetujuan perlu memiliki batas yang dapat dilihat pengguna. Risiko muncul ketika aplikasi yang tidak tepercaya memperoleh token dan akses ke akun utama. Uji alur dengan contoh yang aman, lalu hentikan penggunaan jika alasannya tidak jelas. Minta penilaian dari pemilik akun, administrator organisasi, dan pemilik aplikasi sebelum data atau tindakan tambahan diproses.
+Tanggal persetujuan perlu memiliki batas yang dapat dilihat pengguna.
 
 ### Aktivitas token
 
-Jadikan Aktivitas token bagian dari pekerjaan rutin, bukan tindakan setelah masalah terjadi. Pada pencegahan consent phishing dan izin aplikasi pihak ketiga, perubahan akun, izin, atau alur dapat mengubah risiko. Pemilik perlu mengetahui perubahan itu dan memastikan perlindungan masih sesuai tujuan awal.
+Jadikan Aktivitas token bagian dari pekerjaan rutin, bukan tindakan setelah masalah terjadi.
 
 ### Akun mantan staf
 
-Saat menilai Akun mantan staf, lihat dampaknya bagi orang dan data, bukan hanya apakah fitur tersedia. pemilik akun, administrator organisasi, dan pemilik aplikasi perlu memberi pengguna cara untuk bertanya dan melapor. Catatan yang dapat diperiksa akan membantu respons bila aplikasi yang tidak tepercaya memperoleh token dan akses ke akun utama.
+Saat menilai Akun mantan staf, lihat dampaknya bagi orang dan data, bukan hanya apakah fitur tersedia.
 
 ### Aplikasi tidak aktif
 
-Dalam pencegahan consent phishing dan izin aplikasi pihak ketiga, periksa Aplikasi tidak aktif dengan tujuan yang jelas. Pastikan pemilik akun, administrator organisasi, dan pemilik aplikasi dapat menerangkan alasan akses atau tindakan tersebut. Jangan memilih pengaturan paling luas hanya demi kenyamanan. Catat keputusan dan tanggal pemeriksaan supaya perubahan kecil tidak berkembang tanpa diketahui.
+Dalam pencegahan consent phishing dan izin aplikasi pihak ketiga, periksa Aplikasi tidak aktif dengan tujuan yang jelas.
 
 ### Permintaan pemasok
 
-Permintaan pemasok perlu memiliki batas yang dapat dilihat pengguna. Risiko muncul ketika aplikasi yang tidak tepercaya memperoleh token dan akses ke akun utama. Uji alur dengan contoh yang aman, lalu hentikan penggunaan jika alasannya tidak jelas. Minta penilaian dari pemilik akun, administrator organisasi, dan pemilik aplikasi sebelum data atau tindakan tambahan diproses.
+Permintaan pemasok perlu memiliki batas yang dapat dilihat pengguna.
 
 ## Sumber dan bacaan lanjutan
 

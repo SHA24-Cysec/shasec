@@ -80,8 +80,8 @@ Yes, slightly. Data must pass through the VPN server before reaching its destina
 If your home WiFi is secured with WPA2/WPA3 and you do not need to hide activity from your ISP, a home VPN is optional. VPNs are most valuable on networks you do not control.
 
 ## Sources and further reading
-- [EFF:HowtoChooseaVPN](https://www.Eff.Org/pages/how-choose-vpn)
-- [PrivacyTools:VPNRecommendations](https://www.Privacytools.Io/providers/vpn/)
-- [RestorePrivacy:VPNAuditReports](https://restoreprivacy.Com/vpn/)
+- [EFF: Choosing the VPN That's Right for You](https://ssd.eff.org/module/choosing-vpn-thats-right-you)
+- [Privacy Guides: VPN Recommendations](https://www.privacyguides.org/en/vpn/)
+- [RestorePrivacy: VPN Audit Reports](https://restoreprivacy.com/vpn/)
 
 > **Editorial note:** This article is educational and does not recommend specific VPN products. Evaluate your needs and choose a service based on relevant criteria.

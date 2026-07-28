@@ -19,7 +19,7 @@ Many people set up digital security once then forget about it. Passwords that we
 ## Monthly audit checklist
 
 ### Week 1: Accounts and passwords
-**Check for new data breaches.** Visit [haveibeenpwned.Com](https://haveibeenpwned.Com) and check your email addresses. If there are new breaches since your last check, change passwords on affected services and enable 2FA if not already active.
+**Check for new data breaches.** Visit [haveibeenpwned.com](https://haveibeenpwned.com) and check your email addresses. If there are new breaches since your last check, change passwords on affected services and enable 2FA if not already active.
 **Review active login sessions.** Open security settings on major accounts (Google, Microsoft, Apple, Facebook). Check the list of logged-in devices. Log out sessions you do not recognize or devices you no longer use.
 **Update weak passwords.** If you still use passwords created years ago, or ones reused across services, change them. Prioritize your primary email, banking, and social media accounts.
 
@@ -64,7 +64,7 @@ No. All steps in this checklist can be done with free and built-in tools. Have I
 Prioritize immediate handling. Change passwords, log out unknown sessions, report to the bank if there are suspicious transactions. Delay the rest of the checklist if needed to handle critical findings.
 
 ## Sources and further reading
-- [HaveIBeenPwned](https://haveibeenpwned.Com)
-- [EFF:SurveillanceSelf-Defense](https://ssd.Eff.Org/)
-- [CISA:CyberHygiene](https://www.Cisa.Gov/cyber-hygiene)
+- [Have I Been Pwned](https://haveibeenpwned.com)
+- [EFF: Surveillance Self-Defense](https://ssd.eff.org/)
+- [CISA: Cyber Hygiene Services](https://www.cisa.gov/cyber-hygiene-services)
 > **Editorial note:** This checklist is a general guide. Adjust the frequency and depth of reviews to your risk level. Users with high-risk profiles (journalists, activists, executives) may need more frequent audits.

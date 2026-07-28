@@ -75,7 +75,7 @@ No. Many crypto projects are legitimate and innovative. But the scam risk in cry
 Legitimate exchanges are registered with regulators, have verifiable office addresses, and appear on tracking sites like CoinMarketCap or CoinGecko.
 
 ## Sources and further reading
-- [FTC:CryptocurrencyScams](https://consumer.Ftc.Gov/articles/what-know-about-cryptocurrency-scams)
-- [FBI:CryptocurrencyFraud](https://www.Fbi.Gov/how-we-can-help-you/safety-resources/scams-and-fraud/cryptocurrency-fraud)
-- [Chainalysis:CryptoCrimeReport](https://www.Chainalysis.Com/)
+- [FTC: What to Know About Cryptocurrency and Scams](https://consumer.ftc.gov/articles/what-know-about-cryptocurrency-and-scams)
+- [FBI IC3: Cryptocurrency Investment Fraud (Pig Butchering)](https://www.ic3.gov/PSA/2022/PSA221003)
+- [Chainalysis: Crypto Crime Report](https://www.chainalysis.com/)
 > **Editorial note:** This article is educational and not investment advice. Always conduct independent research before investing in any asset, including cryptocurrency.

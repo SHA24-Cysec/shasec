@@ -277,6 +277,6 @@ Keamanan API bukan hanya urusan developer. Pelanggaran API mengekspos data Anda,
 
 Sebagai pengguna, langkah terbaik Anda: gunakan kata sandi unik, aktifkan 2FA, periksa izin aplikasi, dan pilih layanan yang memperhatikan keamanan. Sebagai developer, ikuti OWASP API Security Top 10 sebagai garis dasar pertahanan.
 
-Keamanan API adalah tanggung jawab bersama. Setiap langkah kecil mengurangi celah yang bisa dimanfaatkan penyerang.
+Keamanan API adalah tanggung jawab bersama.
 
 > **Catatan editorial:** Standar keamanan API berkembang mengikuti ancaman baru. Artikel ini mencerminkan OWASP API Security Top 10 edisi 2023 dan kondisi saat penulisan. Periksa perkembangan terbaru dari OWASP dan vendor keamanan Anda.

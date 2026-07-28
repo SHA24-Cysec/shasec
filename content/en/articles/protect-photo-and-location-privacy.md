@@ -59,6 +59,6 @@ Consider their long-term privacy. Many parents blur faces or hold back informati
 Convenient, but check the album sharing settings. Make sure private albums are not open through a public link.
 
 ## Sources and further reading
-- [CISA:Coreonlinesafetyactions](https://www.Cisa.Gov/news-events/news/national-internet-safety-month-june-take-4-easy-steps-stay-safe-online)
-- [FTC:Protectpersonalinformation](https://consumer.Ftc.Gov/articles/protect-your-personal-information-hackers-and-scammers)
+- [CISA: Core Online Safety Actions](https://www.cisa.gov/news-events/news/national-internet-safety-month-june-take-4-easy-steps-stay-safe-online)
+- [FTC: Protect Your Personal Information](https://consumer.ftc.gov/articles/protect-your-personal-information-hackers-and-scammers)
 > **Editorial note:** This article is educational and defensive. Metadata and privacy settings differ between platforms. Use your service's official guidance.

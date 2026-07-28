@@ -30,7 +30,7 @@ Buka Google, lalu cari nama lengkap Anda dalam tanda kutip: `"Nama Lengkap Anda"
 
 ### 2. Periksa kebocoran data dengan Have I Been Pwned
 
-Kunjungi [haveibeenpwned.Com](https://haveibeenpwned.Com) dan masukkan alamat email Anda. Situs ini mengumpulkan database dari insiden kebocoran data publik dan menunjukkan layanan mana yang pernah membocorkan data Anda. Jika email Anda muncul di beberapa kebocoran, periksa jenis data yang bocor: kata sandi, nomor telepon, alamat, atau tanggal lahir. Ganti kata sandi di layanan terkait dan aktifkan autentikasi dua faktor. Layanan yang sama bisa dipakai untuk memeriksa nomor telepon.
+Kunjungi [haveibeenpwned.com](https://haveibeenpwned.com) dan masukkan alamat email Anda. Situs ini mengumpulkan database dari insiden kebocoran data publik dan menunjukkan layanan mana yang pernah membocorkan data Anda. Jika email Anda muncul di beberapa kebocoran, periksa jenis data yang bocor: kata sandi, nomor telepon, alamat, atau tanggal lahir. Ganti kata sandi di layanan terkait dan aktifkan autentikasi dua faktor. Layanan yang sama bisa dipakai untuk memeriksa nomor telepon.
 
 ### 3. Audit akun media sosial dari sudut pandang orang asing
 
@@ -43,7 +43,7 @@ Buka profil media sosial Anda dari browser tanpa login (mode incognito). Lihat a
 
 ### 4. Cari username Anda di seluruh internet
 
-Banyak orang memakai username yang sama di berbagai platform. Gunakan [namechk.Com](https://namechk.Com) atau [whatsmyname.App](https://whatsmyname.App) untuk mencari username Anda di ratusan layanan sekaligus. Hasil pencarian akan menunjukkan akun-akun yang Anda buat dan mungkin sudah lupa. Akun lama yang tidak terpakai menyimpan data dengan perlindungan minimum. Masuk ke akun-akun tersebut, hapus data pribadi yang tersimpan, lalu nonaktifkan atau hapus akunnya. Buat catatan akun mana yang Anda pertahankan dan mana yang sudah dihapus.
+Banyak orang memakai username yang sama di berbagai platform. Gunakan [namechk.com](https://namechk.com) atau [whatsmyname.app](https://whatsmyname.app) untuk mencari username Anda di ratusan layanan sekaligus. Hasil pencarian akan menunjukkan akun-akun yang Anda buat dan mungkin sudah lupa. Akun lama yang tidak terpakai menyimpan data dengan perlindungan minimum. Masuk ke akun-akun tersebut, hapus data pribadi yang tersimpan, lalu nonaktifkan atau hapus akunnya. Buat catatan akun mana yang Anda pertahankan dan mana yang sudah dihapus.
 
 ### 5. Periksa direktori online dan data broker
 
@@ -61,7 +61,7 @@ Foto yang diunggah ke blog, forum, atau platform tertentu masih menyimpan metada
 
 ### 7. Pantau secara berkala dengan Google Alerts
 
-Buka [google.Com/alerts](https://www.Google.Com/alerts) dan buat peringatan untuk nama lengkap Anda, username, alamat email, atau nomor telepon. Google akan mengirim email setiap kali istilah tersebut muncul di halaman baru yang terindeks. Buat alert terpisah untuk setiap istilah. Atur frekuensi ke "sekali sehari" agar tidak membanjiri inbox. Saat alert masuk, periksa konteksnya: apakah informasi baru yang akurat, atau sekadar kebetulan nama yang sama.
+Buka [google.com/alerts](https://www.google.com/alerts) dan buat peringatan untuk nama lengkap Anda, username, alamat email, atau nomor telepon. Google akan mengirim email setiap kali istilah tersebut muncul di halaman baru yang terindeks. Buat alert terpisah untuk setiap istilah. Atur frekuensi ke "sekali sehari" agar tidak membanjiri inbox. Saat alert masuk, periksa konteksnya: apakah informasi baru yang akurat, atau sekadar kebetulan nama yang sama.
 
 ## Hasil yang biasa ditemukan dan cara menanggapinya
 
@@ -71,7 +71,7 @@ Setelah menjalankan ketujuh langkah, Anda kemungkinan menemukan kombinasi dari h
 
 **Foto atau posting yang menampilkan informasi sensitif.** Hapus atau edit konten tersebut. Boarding pass, KTP, surat kendaraan, dan foto depan rumah termasuk yang paling sering disalahgunakan.
 
-**Data di situs pihak ketiga.** Ajukan penghapusan melalui formulir atau email kontak yang tersedia. Untuk hasil pencarian Google, gunakan [GoogleRemoveOutdatedContent](https://search.Google.Com/search-console/remove-outdated-content) jika halaman asli sudah dihapus tapi masih muncul di cache.
+**Data di situs pihak ketiga.** Ajukan penghapusan melalui formulir atau email kontak yang tersedia. Untuk hasil pencarian Google, gunakan [Google: Remove Outdated Content](https://search.google.com/search-console/remove-outdated-content) jika halaman asli sudah dihapus tapi masih muncul di cache.
 
 **Kebocoran data yang belum ditangani.** Ganti kata sandi, aktifkan 2FA, dan pantau rekening terkait. Untuk kebocoran yang melibatkan data keuangan, pertimbangkan membekukan kartu atau mengganti nomor rekening.
 
@@ -97,10 +97,10 @@ Tidak. Tujuannya bukan menghilangkan semua jejak, melainkan mengurangi informasi
 Laporkan ke pihak berwajib dan buat catatan resmi. Hubungi bank atau lembaga keuangan terkait. Dokumentasikan setiap langkah yang Anda ambil untuk mempermudah proses pemulihan.
 
 ## Sumber dan bacaan lanjutan
-- [HaveIBeenPwned](https://haveibeenpwned.Com)
-- [GoogleAlerts](https://www.Google.Com/alerts)
-- [GoogleRemoveOutdatedContent](https://search.Google.Com/search-console/remove-outdated-content)
-- [OSINTFramework](https://osintframework.Com)
-- [EFF:HowtoRemoveYourPersonalInformationfromDataBrokers](https://www.Eff.Org/issues/privacy)
+- [Have I Been Pwned](https://haveibeenpwned.com)
+- [Google Alerts](https://www.google.com/alerts)
+- [Google: Remove Outdated Content](https://search.google.com/search-console/remove-outdated-content)
+- [OSINT Framework](https://osintframework.com)
+- [EFF: Privacy Issues](https://www.eff.org/issues/privacy)
 
 > **Catatan editorial:** Artikel ini bersifat edukatif dan defensif. Alat dan layanan yang disebutkan dapat berubah kebijakan dan fiturnya. Selalu periksa dokumentasi resmi sebelum memasukkan data pribadi ke platform pihak ketiga.

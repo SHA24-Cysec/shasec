@@ -50,7 +50,7 @@ Ikuti urutan: isolasi dulu, lalu investigasi. Hubungi kontak sesuai daftar, dan 
 ## Pertanyaan yang sering diajukan
 
 ### Rencana respons harus mahal?
-Tidak. Dokumen sederhana berisi peran, langkah isolasi, kontak, dan komunikasi sudah sangat membantu, terutama untuk UMKM.
+Tidak. Dokumen sederhana berisi peran, langkah isolasi, kontak, dan komunikasi sudah membantu, terutama untuk UMKM.
 
 ### Seberapa sering berlatih?
 Minimal sekali setahun, dan setelah perubahan besar pada sistem atau tim. Latihan ringan lebih berguna daripada tidak sama sekali.
@@ -59,6 +59,6 @@ Minimal sekali setahun, dan setelah perubahan besar pada sistem atau tim. Latiha
 Laporkan sesuai aturan yang berlaku dan beri tahu pelanggan yang terdampak dengan jelas. Kecepatan dan kejujuran melindungi kepercayaan dan kepatuhan.
 
 ## Sumber dan bacaan lanjutan
-- [CISA:SecureYourBusiness](https://www.Cisa.Gov/audiences/small-and-medium-businesses/secure-your-business)
-- [CISA:Smallandmediumbusinessresources](https://www.Cisa.Gov/audiences/small-and-medium-businesses/secure-your-business/smb-resources)
+- [CISA: Secure Your Business](https://www.cisa.gov/audiences/small-and-medium-businesses/secure-your-business)
+- [CISA: Small and Medium Business Resources](https://www.cisa.gov/audiences/small-and-medium-businesses/secure-your-business/smb-resources)
 > **Catatan editorial:** Artikel ini bersifat edukatif dan defensif. Untuk insiden aktual, libatkan profesional dan otoritas yang berlaku di wilayah Anda.

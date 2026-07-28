@@ -86,7 +86,7 @@ Gunakan opsi paling kuat yang didukung dan dapat Anda kelola dengan andal. Passk
 Selagi masih bisa masuk, buat ulang kode cadangan dan tinjau metode pemulihan. Jangan menunggu perangkat utama hilang.
 
 ## Sumber dan bacaan lanjutan
-- [GoogleAccountHelp:Makeyouraccountmoresecure](https://support.Google.Com/accounts/answer/46526?hl=en)
-- [GoogleAccountHelp:2-StepVerification](https://support.Google.Com/accounts/answer/185839?hl=en&co=GENIE.Platform%3DAndroid)
-- [NISTNCCoE:Multi-factorauthenticationconcepts](https://www.Nccoe.Nist.Gov/news-insights/mobile-passwords-tricks-treats)
+- [Google Account Help: Make Your Account More Secure](https://support.google.com/accounts/answer/46526?hl=en)
+- [Google Account Help: 2-Step Verification](https://support.google.com/accounts/answer/185839?hl=en&co=GENIE.Platform%3DAndroid)
+- [NIST NCCoE: Multi-Factor Authentication Concepts](https://www.nccoe.nist.gov/news-insights/mobile-passwords-tricks-treats)
 > **Catatan editorial:** Artikel ini bersifat edukatif dan defensif. Tampilan, kebijakan, dan fitur setiap layanan dapat berubah. Gunakan dokumentasi resmi layanan yang Anda pakai untuk petunjuk teknis terbaru.

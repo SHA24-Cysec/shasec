@@ -53,12 +53,12 @@ Hentikan semua pembayaran segera. Catat bukti: chat, nomor rekening penerima, na
 Cek di situs resmi OJK untuk produk finansial atau bursa/otoritas terkait. Jika tidak terdaftar, anggap berisiko tinggi.
 
 ### Crypto termasuk penipuan?
-Bukan otomatis, tetapi pasar crypto sangat flukturatif dan banyak disalahgunakan penipu. Hati-hati pada "investasi crypto" dengan janji keuntungan pasti.
+Bukan otomatis, tetapi pasar crypto fluktuatif dan banyak disalahgunakan penipu. Hati-hati pada "investasi crypto" dengan janji keuntungan pasti.
 
 ### Uang yang sudah masuk bisa kembali?
 Sulit, terutama bila sudah berpindah ke banyak rekening atau crypto. Laporkan segera agar ada peluang pembekuan rekening penerima.
 
 ## Sumber dan bacaan lanjutan
-- [CISA:Coreonlinesafetyactions](https://www.Cisa.Gov/news-events/news/national-internet-safety-month-june-take-4-easy-steps-stay-safe-online)
-- [FTC:Protectpersonalinformation](https://consumer.Ftc.Gov/articles/protect-your-personal-information-hackers-and-scammers)
+- [CISA: Core Online Safety Actions](https://www.cisa.gov/news-events/news/national-internet-safety-month-june-take-4-easy-steps-stay-safe-online)
+- [FTC: Protect Your Personal Information](https://consumer.ftc.gov/articles/protect-your-personal-information-hackers-and-scammers)
 > **Catatan editorial:** Artikel ini bersifat edukatif dan defensif, bukan saran investasi. Untuk verifikasi resmi, gunakan otoritas finansial yang berlaku di wilayah Anda.

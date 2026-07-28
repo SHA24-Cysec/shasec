@@ -161,7 +161,7 @@ Here is a comparison of identity-based attack methods in terms of effectiveness 
 
 **Credential stuffing.** Prevalence: very high. Effectiveness: medium. Typical success rate: 0.1-2%. But at the scale of millions of accounts, even 0.1% yields thousands of compromised accounts.
 
-**Credential phishing.** Prevalence: very high. Effectiveness: high. Depends on message quality and victim awareness. AI significantly increases effectiveness.
+**Credential phishing.** Prevalence: very high. Effectiveness: high. Depends on message quality and victim awareness. AI increases effectiveness.
 
 **Token theft.** Prevalence: medium. Effectiveness: very high. Stolen tokens grant full access without additional credentials. Automatic MFA bypass.
 
@@ -191,7 +191,7 @@ Identity-based attacks shift security from a technical problem to a human one. A
 
 ### Does 2FA really protect me?
 
-2FA significantly increases security, but it is not an absolute guarantee. SMS-based 2FA is vulnerable to SIM swap. Push notification-based 2FA is vulnerable to MFA fatigue. TOTP (Time-based One-Time Password) based 2FA from an authenticator app is much more secure. Passkeys and hardware security keys are the most secure options.
+2FA increases security, but it is not an absolute guarantee. SMS-based 2FA is vulnerable to SIM swap. Push notification-based 2FA is vulnerable to MFA fatigue. TOTP (Time-based One-Time Password) based 2FA from an authenticator app is much more secure. Passkeys and hardware security keys are the most secure options.
 
 ### What is the difference between a passkey and a password?
 

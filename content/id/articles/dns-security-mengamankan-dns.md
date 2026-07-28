@@ -95,8 +95,8 @@ Tidak. DoH menyembunyikan query DNS dari ISP Anda, tapi resolver DoH yang Anda p
 DNS filtering membantu, tapi anak yang cerdas bisa menemukan cara bypass. Padukan dengan parental control di perangkat dan komunikasi terbuka tentang keamanan online.
 
 ## Sumber dan bacaan lanjutan
-- [Cloudflare:DNSSecurity](https://www.Cloudflare.Com/learning/dns/dns-security/)
-- [CISA:DNSSecurityBestPractices](https://www.Cisa.Gov/dns-security)
-- [EFF:HowtoEnableDNSoverHTTPS](https://www.Eff.Org/)
+- [Cloudflare: DNS Security](https://www.cloudflare.com/learning/dns/dns-security/)
+- [CISA: Cybersecurity Best Practices](https://www.cisa.gov/topics/cybersecurity-best-practices)
+- [EFF: Surveillance Self-Defense](https://www.eff.org/)
 
 > **Catatan editorial:** Konfigurasi DNS berbeda tergantung perangkat dan jaringan. Panduan ini bersifat umum. Sesuaikan dengan perangkat dan lingkungan jaringan Anda.

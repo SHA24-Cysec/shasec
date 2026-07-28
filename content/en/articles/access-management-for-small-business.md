@@ -59,6 +59,6 @@ Whenever staffing changes, and on a regular schedule at least every few months. 
 For important accounts such as email, payments, and main social media, yes. MFA is the most effective layer at minimum cost.
 
 ## Sources and further reading
-- [CISA:SecureYourBusiness](https://www.Cisa.Gov/audiences/small-and-medium-businesses/secure-your-business)
-- [CISA:Smallandmediumbusinessresources](https://www.Cisa.Gov/audiences/small-and-medium-businesses/secure-your-business/smb-resources)
+- [CISA: Secure Your Business](https://www.cisa.gov/audiences/small-and-medium-businesses/secure-your-business)
+- [CISA: Small and Medium Business Resources](https://www.cisa.gov/audiences/small-and-medium-businesses/secure-your-business/smb-resources)
 > **Editorial note:** This article is educational and defensive. Access management features differ between services. Use your provider's official documentation.

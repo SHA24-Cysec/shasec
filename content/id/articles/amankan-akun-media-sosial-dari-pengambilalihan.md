@@ -86,6 +86,6 @@ Gunakan fitur peran atau akses resmi platform bila tersedia, bukan membagikan ka
 Beri tahu secara singkat bahwa akun sempat bermasalah dan mereka perlu mengabaikan tautan atau permintaan selama periode tersebut.
 
 ## Sumber dan bacaan lanjutan
-- [FTC:Emailorsocialmediahacked?Here'swhattodo](https://consumer.Ftc.Gov/consumer-alerts/2024/10/email-or-social-media-hacked-heres-what-do)
-- [GoogleAccountHelp:Makeyouraccountmoresecure](https://support.Google.Com/accounts/answer/46526?hl=en)
+- [FTC: Email or Social Media Hacked? Here's What to Do](https://consumer.ftc.gov/consumer-alerts/2024/10/email-or-social-media-hacked-heres-what-do)
+- [Google Account Help: Make Your Account More Secure](https://support.google.com/accounts/answer/46526?hl=en)
 > **Catatan editorial:** Artikel ini bersifat edukatif dan defensif. Tampilan, kebijakan, dan fitur setiap layanan dapat berubah. Gunakan dokumentasi resmi layanan yang Anda pakai untuk petunjuk teknis terbaru.

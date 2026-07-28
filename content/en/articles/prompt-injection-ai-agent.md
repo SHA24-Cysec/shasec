@@ -138,7 +138,7 @@ In AI agents and automation, check Validate input with clear objectives. Make su
 
 ### Data separation
 
-Data separation needs to have user-visible boundaries. Risks arise when untrusted data influences agent actions or expands their access. Test the flow with a safe example, then discontinue use if it's not clear why. Request assessments from agent owners, developers, and business reviewers before additional data or actions are processed.
+Data separation needs to have user-visible boundaries. Test the flow with a safe example, then discontinue use if it's not clear why. Request assessments from agent owners, developers, and business reviewers before additional data or actions are processed.
 
 ### API calls
 
@@ -150,43 +150,43 @@ When assessing output Validation, look at the impact on people and data, not jus
 
 ### Domain restrictions
 
-In AI agents and automation, check Domain restrictions with clear objectives. Make sure agent owners, developers, and business reviewers can explain the reason for the access or action. Don't choose the widest setting just for convenience. Record decisions and inspection dates so that small changes do not develop unnoticed.
+In AI agents and automation, check Domain restrictions with clear objectives.
 
 ### Task deadline
 
-Task deadlines need to have limits that users can see. Risks arise when untrusted data influences agent actions or expands their access. Test the flow with a safe example, then discontinue use if it's not clear why. Request assessments from agent owners, developers, and business reviewers before additional data or actions are processed.
+Task deadlines need to have limits that users can see.
 
 ### Cost limit
 
-Make Cost limits part of routine work, not an action after a problem occurs. With AI agents and automation, changes to accounts, permissions, or flows can change risk. Owners need to be aware of the changes and ensure the protection still serves its original purpose.
+Make Cost limits part of routine work, not an action after a problem occurs.
 
 ### Anomaly warning
 
-When assessing Anomaly alerts, look at the impact on people and data, not just whether the feature is available. Agent owners, developers, and business reviewers need to give users a way to ask questions and report. Checkable logs will help with response when untrusted data impacts agent actions or expands their access.
+When assessing Anomaly alerts, look at the impact on people and data, not just whether the feature is available.
 
 ### Production monitoring
 
-In AI agents and automation, check Production monitoring with clear objectives. Make sure agent owners, developers, and business reviewers can explain the reason for the access or action. Don't choose the widest setting just for convenience. Record decisions and inspection dates so that small changes do not develop unnoticed.
+In AI agents and automation, check Production monitoring with clear objectives.
 
 ### Owner responsibility
 
-Owner responsibilities need to have boundaries that users can see. Risks arise when untrusted data influences agent actions or expands their access. Test the flow with a safe example, then discontinue use if it's not clear why. Request assessments from agent owners, developers, and business reviewers before additional data or actions are processed.
+Owner responsibilities need to have boundaries that users can see.
 
 ### Customer data
 
-Make customer data part of routine work, not an action after a problem occurs. With AI agents and automation, changes to accounts, permissions, or flows can change risk. Owners need to be aware of the changes and ensure the protection still serves its original purpose.
+Make customer data part of routine work, not an action after a problem occurs.
 
 ### Partner documents
 
-When assessing partner Docs, look at the impact on people and data, not just whether features are available. Agent owners, developers, and business reviewers need to give users a way to ask questions and report. Checkable logs will help with response when untrusted data impacts agent actions or expands their access.
+When assessing partner Docs, look at the impact on people and data, not just whether features are available.
 
 ### Model update
 
-In AI agents and automation, check Model updates with clear objectives. Make sure agent owners, developers, and business reviewers can explain the reason for the access or action. Don't choose the widest setting just for convenience. Record decisions and inspection dates so that small changes do not develop unnoticed.
+In AI agents and automation, check Model updates with clear objectives.
 
 ### Connector changes
 
-Connector changes need to have user-visible boundaries. Risks arise when untrusted data influences agent actions or expands their access. Test the flow with a safe example, then discontinue use if it's not clear why. Request assessments from agent owners, developers, and business reviewers before additional data or actions are processed.
+Connector changes need to have user-visible boundaries.
 
 ## Sources and further reading
 

@@ -30,7 +30,7 @@ Open Google and search for your full name in quotation marks: `"Your Full Name"`
 
 ### 2. Check data breaches with Have I Been Pwned
 
-Visit [haveibeenpwned.Com](https://haveibeenpwned.Com) and enter your email address. This site aggregates databases from public data breach incidents and shows which services have leaked your data. If your email appears in several breaches, check what type of data was exposed: passwords, phone numbers, addresses, or dates of birth. Change passwords on affected services and enable two-factor authentication. The same service can check phone numbers.
+Visit [haveibeenpwned.com](https://haveibeenpwned.com) and enter your email address. This site aggregates databases from public data breach incidents and shows which services have leaked your data. If your email appears in several breaches, check what type of data was exposed: passwords, phone numbers, addresses, or dates of birth. Change passwords on affected services and enable two-factor authentication. The same service can check phone numbers.
 
 ### 3. Audit social media accounts from a stranger's perspective
 
@@ -43,7 +43,7 @@ Open your social media profiles from a browser without logging in (incognito mod
 
 ### 4. Search your username across the internet
 
-Many people use the same username across platforms. Use [namechk.Com](https://namechk.Com) or [whatsmyname.App](https://whatsmyname.App) to search your username across hundreds of services at once. Results will show accounts you created and may have forgotten about. Old unused accounts store data with minimal protection. Log into those accounts, delete stored personal data, then deactivate or delete the account. Keep notes on which accounts you kept and which you removed.
+Many people use the same username across platforms. Use [namechk.com](https://namechk.com) or [whatsmyname.app](https://whatsmyname.app) to search your username across hundreds of services at once. Results will show accounts you created and may have forgotten about. Old unused accounts store data with minimal protection. Log into those accounts, delete stored personal data, then deactivate or delete the account. Keep notes on which accounts you kept and which you removed.
 
 ### 5. Check online directories and data brokers
 
@@ -61,7 +61,7 @@ Photos uploaded to blogs, forums, or certain platforms may still carry EXIF meta
 
 ### 7. Monitor regularly with Google Alerts
 
-Visit [google.Com/alerts](https://www.Google.Com/alerts) and create alerts for your full name, username, email address, or phone number. Google will email you each time those terms appear on a newly indexed page. Create a separate alert for each term. Set frequency to "once a day" to avoid flooding your inbox. When an alert arrives, check the context: is it new accurate information, or just a coincidental name match.
+Visit [google.com/alerts](https://www.google.com/alerts) and create alerts for your full name, username, email address, or phone number. Google will email you each time those terms appear on a newly indexed page. Create a separate alert for each term. Set frequency to "once a day" to avoid flooding your inbox. When an alert arrives, check the context: is it new accurate information, or just a coincidental name match.
 
 ## Common findings and how to handle them
 
@@ -71,7 +71,7 @@ After running all seven steps, you will likely find a combination of the followi
 
 **Photos or posts displaying sensitive information.** Delete or edit that content. Boarding passes, ID cards, vehicle documents, and photos of your home's exterior are among the most commonly misused.
 
-**Data on third-party sites.** Submit removal requests through available forms or contact emails. For Google search results, use [GoogleRemoveOutdatedContent](https://search.Google.Com/search-console/remove-outdated-content) if the original page has been removed but still appears in cache.
+**Data on third-party sites.** Submit removal requests through available forms or contact emails. For Google search results, use [Google: Remove Outdated Content](https://search.google.com/search-console/remove-outdated-content) if the original page has been removed but still appears in cache.
 
 **Unhandled data breaches.** Change passwords, enable 2FA, and monitor related accounts. For breaches involving financial data, consider freezing cards or changing account numbers.
 
@@ -97,10 +97,10 @@ No. The goal is not to eliminate every trace, but to reduce information that cou
 Report it to law enforcement and create an official record. Contact your bank or financial institution. Document every step you take to simplify the recovery process.
 
 ## Sources and further reading
-- [HaveIBeenPwned](https://haveibeenpwned.Com)
-- [GoogleAlerts](https://www.Google.Com/alerts)
-- [GoogleRemoveOutdatedContent](https://search.Google.Com/search-console/remove-outdated-content)
-- [OSINTFramework](https://osintframework.Com)
-- [EFF:HowtoRemoveYourPersonalInformationfromDataBrokers](https://www.Eff.Org/issues/privacy)
+- [Have I Been Pwned](https://haveibeenpwned.com)
+- [Google Alerts](https://www.google.com/alerts)
+- [Google: Remove Outdated Content](https://search.google.com/search-console/remove-outdated-content)
+- [OSINT Framework](https://osintframework.com)
+- [EFF: Privacy Issues](https://www.eff.org/issues/privacy)
 
 > **Editorial note:** This article is educational and defensive in nature. Tools and services mentioned may change their policies and features. Always check official documentation before entering personal data on third-party platforms.

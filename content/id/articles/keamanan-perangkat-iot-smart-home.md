@@ -68,7 +68,7 @@ Beberapa router menyediakan fitur AP Isolation yang mencegah perangkat saling be
 Untuk penggunaan rumah tangga, firewall bawaan router biasanya cukup. Firewall khusus seperti Pi-hole atau firewall berbasis Raspberry Pi berguna jika Anda ingin kontrol lebih detail atas lalu lintas jaringan.
 
 ## Sumber dan bacaan lanjutan
-- [CISA:SecuringIoTDevices](https://www.Cisa.Gov/topics/cybersecurity-best-practices/iot)
-- [NIST:IoTCybersecurityGuidelines](https://www.Nist.Gov/iot)
-- [FTC:InternetofThings:Privacy&SecurityinaConnectedWorld](https://www.Ftc.Gov/reports/internet-things-privacy-security-connected-world)
+- [NIST: Cybersecurity for IoT Program](https://www.nist.gov/itl/applied-cybersecurity/nist-cybersecurity-iot-program)
+- [NIST: Cybersecurity for IoT Program](https://www.nist.gov/itl/applied-cybersecurity/nist-cybersecurity-iot-program)
+- [FTC: Careful Connections — Keeping the Internet of Things Secure](https://www.ftc.gov/business-guidance/resources/careful-connections-keeping-internet-things-secure)
 > **Catatan editorial:** Artikel ini bersifat edukatif dan defensif. Fitur dan antarmuka setiap perangkat berbeda. Gunakan manual resmi perangkat Anda untuk panduan teknis yang spesifik.

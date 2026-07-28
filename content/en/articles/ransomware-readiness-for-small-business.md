@@ -59,6 +59,6 @@ Daily for active data, with at least one offline copy. What matters: test recove
 Modern antivirus helps, but add EDR, routine updates, and backups. No single tool closes every gap.
 
 ## Sources and further reading
-- [CISA:StopRansomwareGuide](https://www.Cisa.Gov/stopransomware/ransomware-guide)
-- [CISA:SecureYourBusiness](https://www.Cisa.Gov/audiences/small-and-medium-businesses/secure-your-business)
+- [CISA: StopRansomware Guide](https://www.cisa.gov/stopransomware/ransomware-guide)
+- [CISA: Secure Your Business](https://www.cisa.gov/audiences/small-and-medium-businesses/secure-your-business)
 > **Editorial note:** This article is educational and defensive. For an actual incident response, involve a professional and the authority that applies in your region.

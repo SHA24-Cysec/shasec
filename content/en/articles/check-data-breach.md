@@ -34,31 +34,31 @@ Open Have I Been Pwned from the address you typed yourself. Enter the email addr
 
 ### 2. Understand the meaning of the results found
 
-Results can show services that have experienced incidents as well as the type of data that was exposed. Read the service name and data type, but don't conclude that all current data or accounts have definitely been taken over. Keep brief notes about the time, sources of information, and steps taken. These notes are helpful if you need to contact authorized service.
+Results can show services that have experienced incidents as well as the type of data that was exposed. Read the service name and data type, but don't conclude that all current data or accounts have definitely been taken over.
 
 ### 3. Start from the main email
 
-Secure the email used for account recovery first. Change the unique password of a secure device, check login devices, recovery addresses, forward filters, and third-party apps that have permissions. Keep brief notes about the time, sources of information, and steps taken. These notes are helpful if you need to contact authorized service.
+Secure the email used for account recovery first. Change the unique password of a secure device, check login devices, recovery addresses, forward filters, and third-party apps that have permissions.
 
 ### 4. Change the reused password
 
-If the password has been used on multiple services, change it on all of them. Password managers help create unique passwords so that one leak doesn't open multiple accounts. Keep brief notes about the time, sources of information, and steps taken. These notes are helpful if you need to contact authorized service.
+If the password has been used on multiple services, change it on all of them. Password managers help create unique passwords so that one leak doesn't open multiple accounts.
 
 ### 5. Enable stronger authentication
 
-Select passkey, security key, or authenticator application if available. SMS remains useful as a backup, but phone numbers can become targets for SIM switching. Keep brief notes about the time, sources of information, and steps taken. These notes are helpful if you need to contact authorized service.
+Select passkey, security key, or authenticator application if available. SMS remains useful as a backup, but phone numbers can become targets for SIM switching.
 
 ### 6. Beware of leak-themed messages
 
-Fraudsters often take advantage of news leaks to send fake reset links. Don't click on sudden messages. Go to the official service yourself and check the account status from there. Keep brief notes about the time, sources of information, and steps taken. These notes are helpful if you need to contact authorized service.
+Fraudsters often take advantage of news leaks to send fake reset links. Don't click on sudden messages. Go to the official service yourself and check the account status from there.
 
 ### 7. Review the phone number as a recovery path
 
-Update old numbers on email, marketplace, bank, and social media. Contact the operator to ask for additional protection if the number plays an important role in account verification. Keep brief notes about the time, sources of information, and steps taken. These notes are helpful if you need to contact authorized service.
+Update old numbers on email, marketplace, bank, and social media. Contact the operator to ask for additional protection if the number plays an important role in account verification.
 
 ### 8. Monitor, don't panic
 
-Set login and transaction notifications, then check important accounts regularly. Note unknown activity and act through official channels if signs of compromise appear. Keep brief notes about the time, sources of information, and steps taken. These notes are helpful if you need to contact authorized service.
+Set login and transaction notifications, then check important accounts regularly. Note unknown activity and act through official channels if signs of compromise appear.
 
 ## Example situations
 
@@ -105,47 +105,47 @@ In the context of how to check leaked emails and cellphone numbers: safe steps a
 
 ### Identity of related parties
 
-In the context of how to check leaked emails and cellphone numbers: safe steps after finding your data, check the identity of the parties concerned with a clear goal. Avoid giving more access or data than necessary. Record important decisions, use official channels, and take gradual action so you don't create new problems while trying to resolve the initial problem.
+In the context of how to check leaked emails and cellphone numbers: safe steps after finding your data, check the identity of the parties concerned with a clear goal.
 
 ### Main account
 
-In the context of how to check leaked emails and cellphone numbers: safe steps after finding your data, check the main account with a clear purpose. Avoid giving more access or data than necessary. Record important decisions, use official channels, and take gradual action so you don't create new problems while trying to resolve the initial problem.
+In the context of how to check leaked emails and cellphone numbers: safe steps after finding your data, check the main account with a clear purpose.
 
 ### Other devices
 
-In the context of how to check leaked emails and cellphone numbers: safe steps after finding your data, check other devices with a clear purpose. Avoid giving more access or data than necessary. Record important decisions, use official channels, and take gradual action so you don't create new problems while trying to resolve the initial problem.
+In the context of how to check leaked emails and cellphone numbers: safe steps after finding your data, check other devices with a clear purpose.
 
 ### Proof of transaction or activity
 
-In the context of how to check leaked emails and cellphone numbers: safe steps after finding your data, check evidence of transactions or activities with a clear purpose. Avoid giving more access or data than necessary. Record important decisions, use official channels, and take gradual action so you don't create new problems while trying to resolve the initial problem.
+In the context of how to check leaked emails and cellphone numbers: safe steps after finding your data, check evidence of transactions or activities with a clear purpose.
 
 ### App permissions
 
-In the context of how to check leaked emails and cellphone numbers: safe steps after finding your data, check application permissions with a clear purpose. Avoid giving more access or data than necessary. Record important decisions, use official channels, and take gradual action so you don't create new problems while trying to resolve the initial problem.
+In the context of how to check leaked emails and cellphone numbers: safe steps after finding your data, check application permissions with a clear purpose.
 
 ### Change history
 
-In the context of how to check leaked emails and cell phone numbers: safe steps after finding your data, check the change history with a clear purpose. Avoid giving more access or data than necessary. Record important decisions, use official channels, and take gradual action so you don't create new problems while trying to resolve the initial problem.
+In the context of how to check leaked emails and cell phone numbers: safe steps after finding your data, check the change history with a clear purpose.
 
 ### Reporting path
 
-In the context of how to check leaked emails and cellphone numbers: safe steps after finding your data, check the reporting route with a clear objective. Avoid giving more access or data than necessary. Record important decisions, use official channels, and take gradual action so you don't create new problems while trying to resolve the initial problem.
+In the context of how to check leaked emails and cellphone numbers: safe steps after finding your data, check the reporting route with a clear objective.
 
 ### Account recovery
 
-In the context of how to check leaked emails and cellphone numbers: safe steps after finding your data, check account recovery with a clear goal. Avoid giving more access or data than necessary. Record important decisions, use official channels, and take gradual action so you don't create new problems while trying to resolve the initial problem.
+In the context of how to check leaked emails and cellphone numbers: safe steps after finding your data, check account recovery with a clear goal.
 
 ### Next precaution
 
-In the context of how to check leaked emails and cellphone numbers: safe steps after finding your data, check the next precautions with a clear goal. Avoid giving more access or data than necessary. Record important decisions, use official channels, and take gradual action so you don't create new problems while trying to resolve the initial problem.
+In the context of how to check leaked emails and cellphone numbers: safe steps after finding your data, check the next precautions with a clear goal.
 
 ### Family customs
 
-In the context of how to check leaked emails and cellphone numbers: safe steps after finding your data, check family habits with a clear goal. Avoid giving more access or data than necessary. Record important decisions, use official channels, and take gradual action so you don't create new problems while trying to resolve the initial problem.
+In the context of how to check leaked emails and cellphone numbers: safe steps after finding your data, check family habits with a clear goal.
 
 ### Periodic review
 
-In the context of how to check leaked emails and cell phone numbers: safe steps after finding your data, check regular reviews with clear objectives. Avoid giving more access or data than necessary. Record important decisions, use official channels, and take gradual action so you don't create new problems while trying to resolve the initial problem.
+In the context of how to check leaked emails and cell phone numbers: safe steps after finding your data, check regular reviews with clear objectives.
 
 ### Safe action notes
 
@@ -153,131 +153,131 @@ Store evidence with limited access. Small steps taken in the right order are oft
 
 ### Safe action notes
 
-Store evidence with limited access. Small steps taken in the right order are often more effective than quick actions without verification.
+Store evidence with limited access.
 
 ### Safe action notes
 
-Store evidence with limited access. Small steps taken in the right order are often more effective than quick actions without verification.
+Store evidence with limited access.
 
 ### Safe action notes
 
-Store evidence with limited access. Small steps taken in the right order are often more effective than quick actions without verification.
+Store evidence with limited access.
 
 ### Safe action notes
 
-Store evidence with limited access. Small steps taken in the right order are often more effective than quick actions without verification.
+Store evidence with limited access.
 
 ### Safe action notes
 
-Store evidence with limited access. Small steps taken in the right order are often more effective than quick actions without verification.
+Store evidence with limited access.
 
 ### Safe action notes
 
-Store evidence with limited access. Small steps taken in the right order are often more effective than quick actions without verification.
+Store evidence with limited access.
 
 ### Safe action notes
 
-Store evidence with limited access. Small steps taken in the right order are often more effective than quick actions without verification.
+Store evidence with limited access.
 
 ### Safe action notes
 
-Store evidence with limited access. Small steps taken in the right order are often more effective than quick actions without verification.
+Store evidence with limited access.
 
 ### Safe action notes
 
-Store evidence with limited access. Small steps taken in the right order are often more effective than quick actions without verification.
+Store evidence with limited access.
 
 ### Safe action notes
 
-Store evidence with limited access. Small steps taken in the right order are often more effective than quick actions without verification.
+Store evidence with limited access.
 
 ### Safe action notes
 
-Store evidence with limited access. Small steps taken in the right order are often more effective than quick actions without verification.
+Store evidence with limited access.
 
 ### Safe action notes
 
-Store evidence with limited access. Small steps taken in the right order are often more effective than quick actions without verification.
+Store evidence with limited access.
 
 ### Safe action notes
 
-Store evidence with limited access. Small steps taken in the right order are often more effective than quick actions without verification.
+Store evidence with limited access.
 
 ### Safe action notes
 
-Store evidence with limited access. Small steps taken in the right order are often more effective than quick actions without verification.
+Store evidence with limited access.
 
 ### Safe action notes
 
-Store evidence with limited access. Small steps taken in the right order are often more effective than quick actions without verification.
+Store evidence with limited access.
 
 ### Safe action notes
 
-Store evidence with limited access. Small steps taken in the right order are often more effective than quick actions without verification.
+Store evidence with limited access.
 
 ### Safe action notes
 
-Store evidence with limited access. Small steps taken in the right order are often more effective than quick actions without verification.
+Store evidence with limited access.
 
 ### Safe action notes
 
-Store evidence with limited access. Small steps taken in the right order are often more effective than quick actions without verification.
+Store evidence with limited access.
 
 ### Safe action notes
 
-Store evidence with limited access. Small steps taken in the right order are often more effective than quick actions without verification.
+Store evidence with limited access.
 
 ### Safe action notes
 
-Store evidence with limited access. Small steps taken in the right order are often more effective than quick actions without verification.
+Store evidence with limited access.
 
 ### Safe action notes
 
-Store evidence with limited access. Small steps taken in the right order are often more effective than quick actions without verification.
+Store evidence with limited access.
 
 ### Safe action notes
 
-Store evidence with limited access. Small steps taken in the right order are often more effective than quick actions without verification.
+Store evidence with limited access.
 
 ### Safe action notes
 
-Store evidence with limited access. Small steps taken in the right order are often more effective than quick actions without verification.
+Store evidence with limited access.
 
 ### Safe action notes
 
-Store evidence with limited access. Small steps taken in the right order are often more effective than quick actions without verification.
+Store evidence with limited access.
 
 ### Safe action notes
 
-Store evidence with limited access. Small steps taken in the right order are often more effective than quick actions without verification.
+Store evidence with limited access.
 
 ### Safe action notes
 
-Store evidence with limited access. Small steps taken in the right order are often more effective than quick actions without verification.
+Store evidence with limited access.
 
 ### Safe action notes
 
-Store evidence with limited access. Small steps taken in the right order are often more effective than quick actions without verification.
+Store evidence with limited access.
 
 ### Safe action notes
 
-Store evidence with limited access. Small steps taken in the right order are often more effective than quick actions without verification.
+Store evidence with limited access.
 
 ### Safe action notes
 
-Store evidence with limited access. Small steps taken in the right order are often more effective than quick actions without verification.
+Store evidence with limited access.
 
 ### Safe action notes
 
-Store evidence with limited access. Small steps taken in the right order are often more effective than quick actions without verification.
+Store evidence with limited access.
 
 ### Safe action notes
 
-Store evidence with limited access. Small steps taken in the right order are often more effective than quick actions without verification.
+Store evidence with limited access.
 
 ### Safe action notes
 
-Store evidence with limited access. Small steps taken in the right order are often more effective than quick actions without verification.
+Store evidence with limited access.
 
 ## Sources and further reading
 

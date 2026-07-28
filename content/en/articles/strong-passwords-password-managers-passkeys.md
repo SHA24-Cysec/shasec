@@ -92,7 +92,7 @@ Not every service supports passkeys yet. Use them where offered and keep officia
 Prioritize change after a breach, reuse, unfamiliar access, or a suspicious site. Routine changes without a reason often create weak patterns.
 
 ## Sources and further reading
-- [CISA:Coreonline-safetyactions](https://www.Cisa.Gov/news-events/news/national-internet-safety-month-june-take-4-easy-steps-stay-safe-online)
-- [GoogleAccountHelp:PasswordManager](https://support.Google.Com/accounts/answer/9231944?p=password-checkup)
-- [NIST:Guidanceonpasskeys](https://www.Nist.Gov/blogs/cybersecurity-insights/giving-nist-digital-identity-guidelines-boost-supplement-incorporating)
+- [CISA: Core Online Safety Actions](https://www.cisa.gov/news-events/news/national-internet-safety-month-june-take-4-easy-steps-stay-safe-online)
+- [Google Account Help: Password Manager](https://support.google.com/accounts/answer/9231944?p=password-checkup)
+- [NIST: Guidance on Passkeys](https://www.nist.gov/blogs/cybersecurity-insights/giving-nist-digital-identity-guidelines-boost-supplement-incorporating)
 > **Editorial note:** This article is educational and defensive. Interfaces, policies, and features can change. Use the official documentation for the service you use when you need current technical instructions.

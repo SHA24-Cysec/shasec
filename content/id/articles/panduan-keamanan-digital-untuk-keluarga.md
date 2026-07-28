@@ -59,6 +59,6 @@ Begitu anak mulai memakai perangkat. Sesuaikan kedalaman penjelasan dengan usia.
 Negosiasikan aturan bersama, jelaskan alasannya. Aturan yang dipahami lebih diterima daripada aturan yang dipaksakan.
 
 ## Sumber dan bacaan lanjutan
-- [CISA:Coreonlinesafetyactions](https://www.Cisa.Gov/news-events/news/national-internet-safety-month-june-take-4-easy-steps-stay-safe-online)
-- [FTC:Protectpersonalinformation](https://consumer.Ftc.Gov/articles/protect-your-personal-information-hackers-and-scammers)
+- [CISA: Core Online Safety Actions](https://www.cisa.gov/news-events/news/national-internet-safety-month-june-take-4-easy-steps-stay-safe-online)
+- [FTC: Protect Your Personal Information](https://consumer.ftc.gov/articles/protect-your-personal-information-hackers-and-scammers)
 > **Catatan editorial:** Artikel ini bersifat edukatif dan defensif. Fitur kontrol orang tua tiap perangkat berbeda. Gunakan panduan resmi produsen perangkat Anda.

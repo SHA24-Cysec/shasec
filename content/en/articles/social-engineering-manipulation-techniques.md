@@ -74,7 +74,7 @@ Establish clear reporting procedures, conduct regular phishing simulations, and 
 Yes. AI-generated voice deepfakes and text make pretexting and vishing more convincing. The principle of verification through independent channels remains relevant.
 
 ## Sources and further reading
-- [CISA:SocialEngineering](https://www.Cisa.Gov/topics/cybersecurity-best-practices/social-engineering)
-- [SANSInstitute:SocialEngineering](https://www.Sans.Org/information-security-training/)
-- [FTC:ImposterScams](https://consumer.Ftc.Gov/features/imposter-scams)
+- [CISA: Recognize and Report Phishing](https://www.cisa.gov/secure-our-world/recognize-and-report-phishing)
+- [SANS Institute: Security Training](https://www.sans.org/information-security-training/)
+- [FTC: Imposter Scams](https://consumer.ftc.gov/features/imposter-scams)
 > **Editorial note:** This article is educational and defensive in nature. The techniques described are meant to help you recognize and prevent attacks, not to replicate them.

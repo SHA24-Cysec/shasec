@@ -86,6 +86,6 @@ Choose a method with clear buyer protection and dispute process. Rules vary by s
 Contact seller and platform through official routes, keep evidence, and use the payment provider's dispute process where available.
 
 ## Sources and further reading
-- [FTC:OnlineShopping](https://consumer.Ftc.Gov/articles/online-shopping)
-- [FTC:Makingmobilepayments?Protectyourselffromscams](https://consumer.Ftc.Gov/node/76695)
+- [FTC: Online Shopping](https://consumer.ftc.gov/articles/online-shopping)
+- [FTC: Making Mobile Payments? Protect Yourself From Scams](https://consumer.ftc.gov/articles/how-recognize-and-avoid-phishing-scams)
 > **Editorial note:** This article is educational and defensive. Interfaces, policies, and features can change. Use the official documentation for the service you use when you need current technical instructions.

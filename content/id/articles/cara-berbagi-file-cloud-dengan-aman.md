@@ -59,6 +59,6 @@ Buka panel berbagi file atau folder, lalu hapus nama atau nonaktifkan link. Peru
 Untuk dokumen rahasia yang dibagikan ke banyak pihak, watermark nama penerima membantu menelusuri sumber jika file bocor.
 
 ## Sumber dan bacaan lanjutan
-- [CISA:SecureYourBusiness](https://www.Cisa.Gov/audiences/small-and-medium-businesses/secure-your-business)
-- [CISA:Smallandmediumbusinessresources](https://www.Cisa.Gov/audiences/small-and-medium-businesses/secure-your-business/smb-resources)
+- [CISA: Secure Your Business](https://www.cisa.gov/audiences/small-and-medium-businesses/secure-your-business)
+- [CISA: Small and Medium Business Resources](https://www.cisa.gov/audiences/small-and-medium-businesses/secure-your-business/smb-resources)
 > **Catatan editorial:** Artikel ini bersifat edukatif dan defensif. Fitur berbagi tiap layanan cloud berbeda. Gunakan dokumentasi resmi penyedia Anda.

@@ -137,7 +137,7 @@ In preventing consent phishing and third-party application permissions, check th
 
 ### Application logo
 
-The app logo needs to have borders that users can see. The risk arises when untrusted applications gain tokens and access to key accounts. Test the flow with a safe example, then discontinue use if it's not clear why. Request assessment from account owners, organization administrators, and application owners before additional data or actions are processed.
+The app logo needs to have borders that users can see. Test the flow with a safe example, then discontinue use if it's not clear why. Request assessment from account owners, organization administrators, and application owners before additional data or actions are processed.
 
 ### Permission description
 
@@ -149,43 +149,43 @@ When evaluating a privacy Policy, look at its impact on people and data, not jus
 
 ### Data retention
 
-In preventing consent phishing and third-party app permissions, check Data retention with clear objectives. Make sure the account owner, organization administrator, and application owner can explain the reason for the access or action. Don't choose the widest setting just for convenience. Record decisions and inspection dates so that small changes do not develop unnoticed.
+In preventing consent phishing and third-party app permissions, check Data retention with clear objectives.
 
 ### Offline access
 
-Offline access needs to have boundaries that users can see. The risk arises when untrusted applications gain tokens and access to key accounts. Test the flow with a safe example, then discontinue use if it's not clear why. Request assessment from account owners, organization administrators, and application owners before additional data or actions are processed.
+Offline access needs to have boundaries that users can see.
 
 ### Access between accounts
 
-Make Access between accounts part of routine work, not an action after a problem occurs. In consent phishing prevention and third-party app permissions, changing accounts, permissions, or flows can change the risk. Owners need to be aware of the changes and ensure the protection still serves its original purpose.
+Make Access between accounts part of routine work, not an action after a problem occurs.
 
 ### Integration owner
 
-When assessing integration Owners, look at the impact on people and data, not just whether features are available. account owners, organization administrators, and application owners need to give users a way to ask questions and report. Checkable logs will help with response when untrusted applications gain tokens and access to key accounts.
+When assessing integration Owners, look at the impact on people and data, not just whether features are available.
 
 ### Registered domain
 
-In preventing consent phishing and third party application permissions, check the List of domains with a clear purpose. Make sure the account owner, organization administrator, and application owner can explain the reason for the access or action. Don't choose the widest setting just for convenience. Record decisions and inspection dates so that small changes do not develop unnoticed.
+In preventing consent phishing and third party application permissions, check the List of domains with a clear purpose.
 
 ### Approval date
 
-The approval date needs to have a boundary that users can see. The risk arises when untrusted applications gain tokens and access to key accounts. Test the flow with a safe example, then discontinue use if it's not clear why. Request assessment from account owners, organization administrators, and application owners before additional data or actions are processed.
+The approval date needs to have a boundary that users can see.
 
 ### Token activity
 
-Make token Activities part of routine work, not actions after a problem occurs. In consent phishing prevention and third-party app permissions, changing accounts, permissions, or flows can change the risk. Owners need to be aware of the changes and ensure the protection still serves its original purpose.
+Make token Activities part of routine work, not actions after a problem occurs.
 
 ### Former staff account
 
-When assessing former staff Accounts, look at the impact on people and data, not just whether features are available. account owners, organization administrators, and application owners need to give users a way to ask questions and report. Checkable logs will help with response when untrusted applications gain tokens and access to key accounts.
+When assessing former staff Accounts, look at the impact on people and data, not just whether features are available.
 
 ### Inactive application
 
-In the prevention of consent phishing and third-party app permissions, check for inactive Apps with a clear purpose. Make sure the account owner, organization administrator, and application owner can explain the reason for the access or action. Don't choose the widest setting just for convenience. Record decisions and inspection dates so that small changes do not develop unnoticed.
+In the prevention of consent phishing and third-party app permissions, check for inactive Apps with a clear purpose.
 
 ### Supplier requests
 
-Supplier requests need to have limits that users can see. The risk arises when untrusted applications gain tokens and access to key accounts. Test the flow with a safe example, then discontinue use if it's not clear why. Request assessment from account owners, organization administrators, and application owners before additional data or actions are processed.
+Supplier requests need to have limits that users can see.
 
 ## Sources and further reading
 

@@ -79,7 +79,7 @@ Untuk anak atau remaja, segera hubungi orang tua, wali, guru bimbingan, atau ora
 
 ## Kelola kemungkinan pesan kepada kontak Anda
 
-Ancaman untuk mengirim materi kepada teman atau keluarga terasa sangat menakutkan karena Anda tidak dapat mengendalikan semua orang. Anda tetap dapat mengurangi dampak dengan pesan singkat kepada lingkaran terdekat. Anda tidak perlu menjelaskan materi. Cukup beri tahu mereka bahwa ada akun yang mencoba menyamar atau menyebarkan konten tanpa izin, dan minta mereka tidak membuka, meneruskan, atau membalas pesan tersebut.
+Ancaman untuk mengirim materi kepada teman atau keluarga terasa menakutkan karena Anda tidak dapat mengendalikan semua orang. Anda tetap dapat mengurangi dampak dengan pesan singkat kepada lingkaran terdekat. Anda tidak perlu menjelaskan materi. Cukup beri tahu mereka bahwa ada akun yang mencoba menyamar atau menyebarkan konten tanpa izin, dan minta mereka tidak membuka, meneruskan, atau membalas pesan tersebut.
 
 Contoh pesan yang netral: "Ada akun yang mungkin mengirim pesan atau konten atas nama saya. Tolong jangan buka tautan, jangan teruskan, dan laporkan akun itu bila menghubungi Anda. Saya sedang menangani masalahnya." Pesan ini menjaga privasi Anda sambil memberi kontak instruksi yang berguna.
 
@@ -144,7 +144,7 @@ Jangan menilai keberhasilan hanya dari apakah pelaku mengirim pesan lagi. Keberh
 
 ## Sumber dan bacaan lanjutan
 
-- [FBI: Sextortion](https://www.fbi.gov/how-we-can-help-you/scams-and-safety/common-scams-and-crimes/sextortion)
+- [FBI: Sextortion](https://www.fbi.gov/how-we-can-help-you/scams-and-safety/common-frauds-and-scams/sextortion)
 - [NCMEC: Take It Down](https://takeitdown.ncmec.org/)
 - [Meta: Report Intimate Images](https://www.facebook.com/help/383420348387540)
 - [Komdigi: Aduan Konten](https://aduankonten.id/)

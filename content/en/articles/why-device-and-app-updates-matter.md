@@ -86,6 +86,6 @@ Limit it for sensitive data, use a safer network, and plan replacement where pos
 The risk is usually small, but backups and adequate storage are sound habits before a major update.
 
 ## Sources and further reading
-- [CISA:UpdateSoftware](https://www.Cisa.Gov/secure-our-world/update-software)
-- [FTC:Fivewaystokeepscammersandhackersaway](https://consumer.Ftc.Gov/consumer-alerts/2024/08/five-ways-keep-scammers-hackers-away)
+- [CISA: Update Software](https://www.cisa.gov/secure-our-world/update-software)
+- [FTC: Five Ways to Keep Scammers and Hackers Away](https://consumer.ftc.gov/consumer-alerts/2024/08/five-ways-keep-scammers-hackers-away)
 > **Editorial note:** This article is educational and defensive. Interfaces, policies, and features can change. Use the official documentation for the service you use when you need current technical instructions.

@@ -34,31 +34,31 @@ A hot or slow battery may occur due to updates, weak signal, or normal applicati
 
 ### 2. Check installed applications
 
-Open the application list and look for names, icons, or installation times that you don't recognize. Also check for apps that are hidden or have common names. Remove it only after you understand its function or ask trusted help. Keep brief notes about the time, sources of information, and steps taken. These notes are helpful if you need to contact authorized service.
+Open the application list and look for names, icons, or installation times that you don't recognize. Also check for apps that are hidden or have common names. Remove it only after you understand its function or ask trusted help.
 
 ### 3. Review high-risk permissions
 
-Check accessibility, camera, microphone, location, notifications, device administrator, and permissions to appear on top of other apps. Revoke permissions that do not suit the application's function. Keep brief notes about the time, sources of information, and steps taken. These notes are helpful if you need to contact authorized service.
+Check accessibility, camera, microphone, location, notifications, device administrator, and permissions to appear on top of other apps. Revoke permissions that do not suit the application's function.
 
 ### 4. Check account security from other devices
 
-Check your primary email, Google or Apple account, social media, and financial services from devices you trust. View logged in devices, active sessions, recovery addresses, as well as unknown activity. Keep brief notes about the time, sources of information, and steps taken. These notes are helpful if you need to contact authorized service.
+Check your primary email, Google or Apple account, social media, and financial services from devices you trust. View logged in devices, active sessions, recovery addresses, as well as unknown activity.
 
 ### 5. Update system and applications
 
-Install important Android or iOS, browser and app updates. The update fixes a loophole that could be used for compromise. Avoid rooting or jailbreaking devices used for sensitive services. Keep brief notes about the time, sources of information, and steps taken. These notes are helpful if you need to contact authorized service.
+Install important Android or iOS, browser and app updates. The update fixes a loophole that could be used for compromise. Avoid rooting or jailbreaking devices used for sensitive services.
 
 ### 6. Don't trust USSD codes as proof of wiretapping
 
-Certain dial codes can indicate settings such as call diversion, but do not prove spyware or eavesdropping. Contact the operator via official channels if there is a diversion that you did not set up. Keep brief notes about the time, sources of information, and steps taken. These notes are helpful if you need to contact authorized service.
+Certain dial codes can indicate settings such as call diversion, but do not prove spyware or eavesdropping. Contact the operator via official channels if there is a diversion that you did not set up.
 
 ### 7. Secure access to finances and phone numbers
 
-If there are strange transactions, unsolicited OTP codes, or sudden signal loss, contact your bank, digital wallet, and operator. Don't wait for the perpetrator to try more accounts. Keep brief notes about the time, sources of information, and steps taken. These notes are helpful if you need to contact authorized service.
+If there are strange transactions, unsolicited OTP codes, or sudden signal loss, contact your bank, digital wallet, and operator. Don't wait for the perpetrator to try more accounts.
 
 ### 8. Reset with a plan if necessary
 
-If the malicious app cannot be removed or the device remains suspicious after checking, back up important data and perform a factory reset via the official menu. Afterwards, install the app from the official source and change the credentials of the clean device. Keep brief notes about the time, sources of information, and steps taken. These notes are helpful if you need to contact authorized service.
+If the malicious app cannot be removed or the device remains suspicious after checking, back up important data and perform a factory reset via the official menu. Afterwards, install the app from the official source and change the credentials of the clean device.
 
 ## Example situations
 
@@ -105,47 +105,47 @@ In the context of how to check if your cellphone is tapped or infected with malw
 
 ### Identity of related parties
 
-In the context of how to check if a cellphone has been tapped or infected with malware: signs, checks and safe steps, check the identity of the party involved with a clear goal. Avoid giving more access or data than necessary. Record important decisions, use official channels, and take gradual action so you don't create new problems while trying to resolve the initial problem.
+In the context of how to check if a cellphone has been tapped or infected with malware: signs, checks and safe steps, check the identity of the party involved with a clear goal.
 
 ### Main account
 
-In the context of how to check if your cellphone is tapped or infected with malware: signs, checks and safe steps, check the main account with a clear purpose. Avoid giving more access or data than necessary. Record important decisions, use official channels, and take gradual action so you don't create new problems while trying to resolve the initial problem.
+In the context of how to check if your cellphone is tapped or infected with malware: signs, checks and safe steps, check the main account with a clear purpose.
 
 ### Other devices
 
-In the context of how to check if your cellphone is tapped or infected with malware: signs, checks and safe steps, check other devices with a clear purpose. Avoid giving more access or data than necessary. Record important decisions, use official channels, and take gradual action so you don't create new problems while trying to resolve the initial problem.
+In the context of how to check if your cellphone is tapped or infected with malware: signs, checks and safe steps, check other devices with a clear purpose.
 
 ### Proof of transaction or activity
 
-In the context of how to check if your cellphone has been tapped or infected with malware: signs, checks and safe steps, check for evidence of transactions or activities with a clear purpose. Avoid giving more access or data than necessary. Record important decisions, use official channels, and take gradual action so you don't create new problems while trying to resolve the initial problem.
+In the context of how to check if your cellphone has been tapped or infected with malware: signs, checks and safe steps, check for evidence of transactions or activities with a clear purpose.
 
 ### App permissions
 
-In the context of how to check if your cellphone is tapped or infected with malware: signs, checks and safe steps, check application permissions with a clear purpose. Avoid giving more access or data than necessary. Record important decisions, use official channels, and take gradual action so you don't create new problems while trying to resolve the initial problem.
+In the context of how to check if your cellphone is tapped or infected with malware: signs, checks and safe steps, check application permissions with a clear purpose.
 
 ### Change history
 
-In the context of how to check if your cellphone has been tapped or infected with malware: signs, checks and safe steps, check the history of changes with a clear purpose. Avoid giving more access or data than necessary. Record important decisions, use official channels, and take gradual action so you don't create new problems while trying to resolve the initial problem.
+In the context of how to check if your cellphone has been tapped or infected with malware: signs, checks and safe steps, check the history of changes with a clear purpose.
 
 ### Reporting path
 
-In the context of how to check if your cellphone is tapped or infected with malware: signs, checks and safe steps, check the reporting path with a clear objective. Avoid giving more access or data than necessary. Record important decisions, use official channels, and take gradual action so you don't create new problems while trying to resolve the initial problem.
+In the context of how to check if your cellphone is tapped or infected with malware: signs, checks and safe steps, check the reporting path with a clear objective.
 
 ### Account recovery
 
-In the context of how to check if your cellphone has been tapped or infected with malware: signs, checks and safe steps, check account recovery with a clear goal. Avoid giving more access or data than necessary. Record important decisions, use official channels, and take gradual action so you don't create new problems while trying to resolve the initial problem.
+In the context of how to check if your cellphone has been tapped or infected with malware: signs, checks and safe steps, check account recovery with a clear goal.
 
 ### Next precaution
 
-In the context of how to check if your cellphone is tapped or infected with malware: signs, checks and safe steps, check the next precautions with clear objectives. Avoid giving more access or data than necessary. Record important decisions, use official channels, and take gradual action so you don't create new problems while trying to resolve the initial problem.
+In the context of how to check if your cellphone is tapped or infected with malware: signs, checks and safe steps, check the next precautions with clear objectives.
 
 ### Family customs
 
-In the context of how to check if your cellphone is tapped or infected with malware: signs, checks and safe steps, check family habits with a clear goal. Avoid giving more access or data than necessary. Record important decisions, use official channels, and take gradual action so you don't create new problems while trying to resolve the initial problem.
+In the context of how to check if your cellphone is tapped or infected with malware: signs, checks and safe steps, check family habits with a clear goal.
 
 ### Periodic review
 
-In the context of how to check if your cellphone is tapped or infected by malware: signs, checks and security measures, check for regular reviews with clear objectives. Avoid giving more access or data than necessary. Record important decisions, use official channels, and take gradual action so you don't create new problems while trying to resolve the initial problem.
+In the context of how to check if your cellphone is tapped or infected by malware: signs, checks and security measures, check for regular reviews with clear objectives.
 
 ### Safe action notes
 
@@ -153,111 +153,111 @@ If the situation feels urgent, stop for a moment and use official channels. Smal
 
 ### Safe action notes
 
-If the situation feels urgent, stop for a moment and use official channels. Small steps taken in the right order are often more effective than quick actions without verification.
+If the situation feels urgent, stop for a moment and use official channels.
 
 ### Safe action notes
 
-If the situation feels urgent, stop for a moment and use official channels. Small steps taken in the right order are often more effective than quick actions without verification.
+If the situation feels urgent, stop for a moment and use official channels.
 
 ### Safe action notes
 
-If the situation feels urgent, stop for a moment and use official channels. Small steps taken in the right order are often more effective than quick actions without verification.
+If the situation feels urgent, stop for a moment and use official channels.
 
 ### Safe action notes
 
-If the situation feels urgent, stop for a moment and use official channels. Small steps taken in the right order are often more effective than quick actions without verification.
+If the situation feels urgent, stop for a moment and use official channels.
 
 ### Safe action notes
 
-If the situation feels urgent, stop for a moment and use official channels. Small steps taken in the right order are often more effective than quick actions without verification.
+If the situation feels urgent, stop for a moment and use official channels.
 
 ### Safe action notes
 
-If the situation feels urgent, stop for a moment and use official channels. Small steps taken in the right order are often more effective than quick actions without verification.
+If the situation feels urgent, stop for a moment and use official channels.
 
 ### Safe action notes
 
-If the situation feels urgent, stop for a moment and use official channels. Small steps taken in the right order are often more effective than quick actions without verification.
+If the situation feels urgent, stop for a moment and use official channels.
 
 ### Safe action notes
 
-If the situation feels urgent, stop for a moment and use official channels. Small steps taken in the right order are often more effective than quick actions without verification.
+If the situation feels urgent, stop for a moment and use official channels.
 
 ### Safe action notes
 
-If the situation feels urgent, stop for a moment and use official channels. Small steps taken in the right order are often more effective than quick actions without verification.
+If the situation feels urgent, stop for a moment and use official channels.
 
 ### Safe action notes
 
-If the situation feels urgent, stop for a moment and use official channels. Small steps taken in the right order are often more effective than quick actions without verification.
+If the situation feels urgent, stop for a moment and use official channels.
 
 ### Safe action notes
 
-If the situation feels urgent, stop for a moment and use official channels. Small steps taken in the right order are often more effective than quick actions without verification.
+If the situation feels urgent, stop for a moment and use official channels.
 
 ### Safe action notes
 
-If the situation feels urgent, stop for a moment and use official channels. Small steps taken in the right order are often more effective than quick actions without verification.
+If the situation feels urgent, stop for a moment and use official channels.
 
 ### Safe action notes
 
-If the situation feels urgent, stop for a moment and use official channels. Small steps taken in the right order are often more effective than quick actions without verification.
+If the situation feels urgent, stop for a moment and use official channels.
 
 ### Safe action notes
 
-If the situation feels urgent, stop for a moment and use official channels. Small steps taken in the right order are often more effective than quick actions without verification.
+If the situation feels urgent, stop for a moment and use official channels.
 
 ### Safe action notes
 
-If the situation feels urgent, stop for a moment and use official channels. Small steps taken in the right order are often more effective than quick actions without verification.
+If the situation feels urgent, stop for a moment and use official channels.
 
 ### Safe action notes
 
-If the situation feels urgent, stop for a moment and use official channels. Small steps taken in the right order are often more effective than quick actions without verification.
+If the situation feels urgent, stop for a moment and use official channels.
 
 ### Safe action notes
 
-If the situation feels urgent, stop for a moment and use official channels. Small steps taken in the right order are often more effective than quick actions without verification.
+If the situation feels urgent, stop for a moment and use official channels.
 
 ### Safe action notes
 
-If the situation feels urgent, stop for a moment and use official channels. Small steps taken in the right order are often more effective than quick actions without verification.
+If the situation feels urgent, stop for a moment and use official channels.
 
 ### Safe action notes
 
-If the situation feels urgent, stop for a moment and use official channels. Small steps taken in the right order are often more effective than quick actions without verification.
+If the situation feels urgent, stop for a moment and use official channels.
 
 ### Safe action notes
 
-If the situation feels urgent, stop for a moment and use official channels. Small steps taken in the right order are often more effective than quick actions without verification.
+If the situation feels urgent, stop for a moment and use official channels.
 
 ### Safe action notes
 
-If the situation feels urgent, stop for a moment and use official channels. Small steps taken in the right order are often more effective than quick actions without verification.
+If the situation feels urgent, stop for a moment and use official channels.
 
 ### Safe action notes
 
-If the situation feels urgent, stop for a moment and use official channels. Small steps taken in the right order are often more effective than quick actions without verification.
+If the situation feels urgent, stop for a moment and use official channels.
 
 ### Safe action notes
 
-If the situation feels urgent, stop for a moment and use official channels. Small steps taken in the right order are often more effective than quick actions without verification.
+If the situation feels urgent, stop for a moment and use official channels.
 
 ### Safe action notes
 
-If the situation feels urgent, stop for a moment and use official channels. Small steps taken in the right order are often more effective than quick actions without verification.
+If the situation feels urgent, stop for a moment and use official channels.
 
 ### Safe action notes
 
-If the situation feels urgent, stop for a moment and use official channels. Small steps taken in the right order are often more effective than quick actions without verification.
+If the situation feels urgent, stop for a moment and use official channels.
 
 ### Safe action notes
 
-If the situation feels urgent, stop for a moment and use official channels. Small steps taken in the right order are often more effective than quick actions without verification.
+If the situation feels urgent, stop for a moment and use official channels.
 
 ## Sources and further reading
 
-- [CISA: Mobile Device Security](https://www.cisa.gov/topics/cybersecurity-best-practices/mobile-device-security)
+- [CISA: Mobile Device Security](https://www.cisa.gov/resources-tools/resources/mobile-communications-best-practice-guidance)
 - [Google: Android Security](https://source.android.com/docs/security)
 - [Apple: Personal Safety User Guide](https://support.apple.com/guide/personal-safety/welcome/web)
 

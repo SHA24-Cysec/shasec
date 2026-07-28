@@ -135,7 +135,7 @@ In the prevention of infostealers and browser session theft, check the download 
 
 ### Application developer
 
-Application developers need to have boundaries that users can see. The risk arises when malware harvests credentials, session tokens, or account data from the device. Test the flow with a safe example, then discontinue use if it's not clear why. Request assessments from device owners, account users, and IT teams when available before additional data or actions are processed.
+Application developers need to have boundaries that users can see. Test the flow with a safe example, then discontinue use if it's not clear why. Request assessments from device owners, account users, and IT teams when available before additional data or actions are processed.
 
 ### Extension permissions
 
@@ -147,45 +147,45 @@ When assessing browser Sync, look at its impact on people and data, not just whe
 
 ### Guest profile
 
-In preventing infostealers and browser session theft, check guest Profiles with clear objectives. Make sure the device owner, account user, and IT team if available can explain the reason for the access or action. Don't choose the widest setting just for convenience. Record decisions and inspection dates so that small changes do not develop unnoticed.
+In preventing infostealers and browser session theft, check guest Profiles with clear objectives.
 
 ### Operating system
 
-The operating system needs to have boundaries that users can see. The risk arises when malware harvests credentials, session tokens, or account data from the device. Test the flow with a safe example, then discontinue use if it's not clear why. Request assessments from device owners, account users, and IT teams when available before additional data or actions are processed.
+The operating system needs to have boundaries that users can see.
 
 ### Financial accounts
 
-Make financial Accounts part of routine work, not an action after a problem occurs. In infostealer prevention and browser session theft, changing accounts, permissions, or flows can change the risk. Owners need to be aware of the changes and ensure the protection still serves its original purpose.
+Make financial Accounts part of routine work, not an action after a problem occurs.
 
 ### Recovery email
 
-When assessing Recovery email, look at its impact on people and data, not just whether the feature is available. device owners, account users, and IT teams where available need to provide users with ways to ask questions and report. Checkable logs will help with response when malware captures credentials, session tokens, or account data from devices.
+When assessing Recovery email, look at its impact on people and data, not just whether the feature is available.
 
 ### Backup code
 
-In the prevention of infostealers and browser session theft, check the backup Code with a clear purpose. Make sure the device owner, account user, and IT team if available can explain the reason for the access or action. Don't choose the widest setting just for convenience. Record decisions and inspection dates so that small changes do not develop unnoticed.
+In the prevention of infostealers and browser session theft, check the backup Code with a clear purpose.
 
 ### Second phone
 
-The second phone needs to have a border that the user can see. The risk arises when malware harvests credentials, session tokens, or account data from the device. Test the flow with a safe example, then discontinue use if it's not clear why. Request assessments from device owners, account users, and IT teams when available before additional data or actions are processed.
+The second phone needs to have a border that the user can see.
 
 ### Account notifications
 
-Make Account alerts part of routine work, not action after a problem occurs. In infostealer prevention and browser session theft, changing accounts, permissions, or flows can change the risk. Owners need to be aware of the changes and ensure the protection still serves its original purpose.
+Make Account alerts part of routine work, not action after a problem occurs.
 
 ### Shared users
 
-When assessing Shared users, look at the impact on people and data, not just whether features are available. device owners, account users, and IT teams where available need to provide users with ways to ask questions and report. Checkable logs will help with response when malware captures credentials, session tokens, or account data from devices.
+When assessing Shared users, look at the impact on people and data, not just whether features are available.
 
 ### Device sharing
 
-In infostealer prevention and browser session theft, check Device sharing with a clear purpose. Make sure the device owner, account user, and IT team if available can explain the reason for the access or action. Don't choose the widest setting just for convenience. Record decisions and inspection dates so that small changes do not develop unnoticed.
+In infostealer prevention and browser session theft, check Device sharing with a clear purpose.
 
 ## Sources and further reading
 
 - [CISA: Secure Our World](https://www.cisa.gov/secure-our-world)
 - [CISA: Avoiding Social Engineering and Phishing Attacks](https://www.cisa.gov/news-events/news/avoiding-social-engineering-and-phishing-attacks)
 - [Google Safety Center](https://safety.google/)
-- [Microsoft: Protect Yourself from Malware](https://support.microsoft.com/windows/protect-my-pc-from-malware-0f6a30d5-9c8f-4b4b-828e-95a0fcd49000)
+- [Microsoft: Protect Yourself from Malware](https://support.microsoft.com/en-us/windows/protect-my-pc-from-viruses-b2025ed1-02d5-1e87-ba5f-71999008e026)
 
 > **Editorial note:** If work devices or financial accounts may be impacted, report them early to your organization or service provider. Speed of response often limits subsequent impact.

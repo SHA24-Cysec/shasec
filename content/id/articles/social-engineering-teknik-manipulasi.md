@@ -74,7 +74,7 @@ Buat prosedur pelaporan yang jelas, adakan simulasi phishing berkala, dan bangun
 Ya. Deepfake suara dan teks yang dihasilkan AI membuat pretexting dan vishing lebih meyakinkan. Prinsip verifikasi melalui jalur independen tetap relevan.
 
 ## Sumber dan bacaan lanjutan
-- [CISA:SocialEngineering](https://www.Cisa.Gov/topics/cybersecurity-best-practices/social-engineering)
-- [SANSInstitute:SocialEngineering](https://www.Sans.Org/information-security-training/)
-- [FTC:ImposterScams](https://consumer.Ftc.Gov/features/imposter-scams)
+- [CISA: Recognize and Report Phishing](https://www.cisa.gov/secure-our-world/recognize-and-report-phishing)
+- [SANS Institute: Security Training](https://www.sans.org/information-security-training/)
+- [FTC: Imposter Scams](https://consumer.ftc.gov/features/imposter-scams)
 > **Catatan editorial:** Artikel ini bersifat edukatif dan defensif. Teknik yang dijelaskan bertujuan membantu Anda mengenali dan mencegah serangan, bukan untuk menirunya.

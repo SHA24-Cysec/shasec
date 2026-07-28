@@ -17,7 +17,7 @@ cover: "/images/articles/browser-security.webp"
 Browser menyimpan lebih banyak informasi tentang Anda dari yang mungkin Anda sadari: riwayat penjelajahan, kata sandi tersimpan, cookie pelacakan, data formulir, izin situs, dan daftar extension yang bisa membaca setiap halaman yang Anda buka. Extension sendiri sering meminta akses luas: "membaca dan mengubah semua data di semua situs web." Kombinasi browser yang tidak dikonfigurasi dan extension yang tidak diperiksa menciptakan profil risiko yang besar.
 
 ## Mengapa browser menjadi target utama
-Browser adalah titik di mana semua aktivitas online Anda bertemu. Perbankan, email, belanja, media sosial, pekerjaan: semuanya melewati browser. Penyerang tahu ini dan menargetkan browser melalui beberapa jalur: extension berbahaya, situs yang mengeksploitasi kerentanan browser, iklan jahat (malvertising), dan serangan man-in-the-browser. Extension sangat menarik bagi penyerang karena mereka beroperasi dengan izin tinggi. Extension ad blocker yang populer bisa dijual ke pihak baru yang menyisipkan kode pelacakan tanpa sepengetahuan pengguna. Ini sudah terjadi berkali-kali.
+Browser adalah titik di mana semua aktivitas online Anda bertemu. Perbankan, email, belanja, media sosial, pekerjaan: semuanya melewati browser. Penyerang tahu ini dan menargetkan browser melalui beberapa jalur: extension berbahaya, situs yang mengeksploitasi kerentanan browser, iklan jahat (malvertising), dan serangan man-in-the-browser. Extension menarik bagi penyerang karena mereka beroperasi dengan izin tinggi. Extension ad blocker yang populer bisa dijual ke pihak baru yang menyisipkan kode pelacakan tanpa sepengetahuan pengguna. Ini sudah terjadi berkali-kali.
 
 ## 8 langkah mengamankan browser Anda
 
@@ -84,7 +84,7 @@ Tidak. Google memeriksa extension, tapi pemeriksaan tidak sempurna. Extension be
 Memakai profil atau browser terpisah untuk perbankan menambah lapisan isolasi. Jika browser utama Anda terkena malware, sesi perbankan di browser terpisah lebih aman.
 
 ## Sumber dan bacaan lanjutan
-- [EFF:CoverYourTracks](https://coveryourtracks.Eff.Org)
-- [Mozilla:FirefoxPrivacySettings](https://support.Mozilla.Org/en-US/kb/firefox-protection-enhanced-tracking)
-- [ChromeWebStore:PermissionWarnings](https://developer.Chrome.Com/docs/extensions/develop/concepts/permission-warnings)
+- [EFF: Cover Your Tracks](https://coveryourtracks.eff.org)
+- [Mozilla Support: Firefox Enhanced Tracking Protection](https://support.mozilla.org/en-US/kb/firefox-protection-enhanced-tracking)
+- [Chrome for Developers: Permission Warnings](https://developer.chrome.com/docs/extensions/develop/concepts/permission-warnings)
 > **Catatan editorial:** Artikel ini bersifat edukatif dan tidak merekomendasikan produk spesifik. Evaluasi kebutuhan Anda dan pilih alat yang sesuai dengan tingkat risiko yang Anda hadapi.

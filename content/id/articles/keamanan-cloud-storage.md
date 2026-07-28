@@ -67,7 +67,7 @@ Ketiganya menawarkan enkripsi standar. Perbedaan utama ada di kebijakan privasi 
 Ya. Cloud storage bukan backup. Cloud storage menyinkronkan perubahan, termasuk penghapusan atau enkripsi oleh ransomware. Backup terpisah (hard drive eksternal atau layanan backup khusus) menyimpan snapshot yang tidak bisa dimodifikasi dari perangkat Anda.
 
 ## Sumber dan bacaan lanjutan
-- [CISA:CloudSecurity](https://www.Cisa.Gov/topics/cybersecurity-best-practices/cloud-security)
-- [EFF:EncryptingYourData](https://ssd.Eff.Org/en/module/how-encrypt-your-devices)
-- [NIST:CloudComputingSecurity](https://csrc.Nist.Gov/projects/cloud-computing)
+- [CISA: Secure Cloud Business Applications](https://www.cisa.gov/resources-tools/services/secure-cloud-business-applications-scuba-project)
+- [EFF: Keeping Your Data Safe](https://ssd.eff.org/module/how-encrypt-your-iphone)
+- [NIST: Cloud Computing Project](https://csrc.nist.gov/projects/cloud-computing)
 > **Catatan editorial:** Artikel ini bersifat edukatif. Fitur dan kebijakan setiap penyedia cloud bisa berubah. Periksa dokumentasi resmi penyedia layanan yang Anda pakai.

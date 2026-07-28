@@ -68,7 +68,7 @@ Some routers offer AP Isolation, which prevents devices from communicating with 
 For home use, the router's built-in firewall is sufficient. Dedicated firewalls like Pi-hole or Raspberry Pi-based firewalls are useful if you want more granular control over network traffic.
 
 ## Sources and further reading
-- [CISA:SecuringIoTDevices](https://www.Cisa.Gov/topics/cybersecurity-best-practices/iot)
-- [NIST:IoTCybersecurityGuidelines](https://www.Nist.Gov/iot)
-- [FTC:InternetofThings:Privacy&SecurityinaConnectedWorld](https://www.Ftc.Gov/reports/internet-things-privacy-security-connected-world)
+- [NIST: Cybersecurity for IoT Program](https://www.nist.gov/itl/applied-cybersecurity/nist-cybersecurity-iot-program)
+- [NIST: Cybersecurity for IoT Program](https://www.nist.gov/itl/applied-cybersecurity/nist-cybersecurity-iot-program)
+- [FTC: Careful Connections — Keeping the Internet of Things Secure](https://www.ftc.gov/business-guidance/resources/careful-connections-keeping-internet-things-secure)
 > **Editorial note:** This article is educational and defensive in nature. Features and interfaces vary by device. Refer to your device's official manual for specific technical guidance.

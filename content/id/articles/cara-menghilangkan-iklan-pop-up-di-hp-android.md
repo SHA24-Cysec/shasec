@@ -34,31 +34,31 @@ Catat kapan pop-up mulai muncul dan aplikasi apa yang baru dipasang. Perubahan s
 
 ### 2. Periksa aplikasi terbaru
 
-Buka daftar aplikasi dan urutkan menurut waktu pemasangan bila tersedia. Hapus aplikasi yang tidak Anda kenal atau tidak lagi butuhkan. Jangan memasang aplikasi pembersih baru dari iklan pop-up. Simpan catatan singkat tentang waktu, sumber informasi, dan langkah yang sudah dilakukan. Catatan ini membantu bila Anda perlu menghubungi layanan resmi.
+Buka daftar aplikasi dan urutkan menurut waktu pemasangan bila tersedia. Hapus aplikasi yang tidak Anda kenal atau tidak lagi butuhkan. Jangan memasang aplikasi pembersih baru dari iklan pop-up.
 
 ### 3. Tinjau izin tampil di atas aplikasi lain
 
-Izin overlay memungkinkan aplikasi muncul di atas layar lain. Periksa aplikasi yang memiliki izin ini dan nonaktifkan bila fungsi aplikasi tidak memerlukannya. Simpan catatan singkat tentang waktu, sumber informasi, dan langkah yang sudah dilakukan. Catatan ini membantu bila Anda perlu menghubungi layanan resmi.
+Izin overlay memungkinkan aplikasi muncul di atas layar lain. Periksa aplikasi yang memiliki izin ini dan nonaktifkan bila fungsi aplikasi tidak memerlukannya.
 
 ### 4. Periksa aksesibilitas dan notifikasi
 
-Aplikasi yang tidak dikenal tidak seharusnya memiliki aksesibilitas atau akses membaca notifikasi. Cabut izin yang mencurigakan. Izin tersebut dapat dipakai untuk menutupi layar atau membaca kode verifikasi. Simpan catatan singkat tentang waktu, sumber informasi, dan langkah yang sudah dilakukan. Catatan ini membantu bila Anda perlu menghubungi layanan resmi.
+Aplikasi yang tidak dikenal tidak seharusnya memiliki aksesibilitas atau akses membaca notifikasi. Cabut izin yang mencurigakan. Izin tersebut dapat dipakai untuk menutupi layar atau membaca kode verifikasi.
 
 ### 5. Bersihkan notifikasi situs di browser
 
-Di pengaturan browser, periksa situs yang diizinkan mengirim notifikasi. Blokir atau hapus situs yang tidak dikenal. Atur pemblokiran pop-up dan pengalihan sesuai pilihan browser. Simpan catatan singkat tentang waktu, sumber informasi, dan langkah yang sudah dilakukan. Catatan ini membantu bila Anda perlu menghubungi layanan resmi.
+Di pengaturan browser, periksa situs yang diizinkan mengirim notifikasi. Blokir atau hapus situs yang tidak dikenal. Atur pemblokiran pop-up dan pengalihan sesuai pilihan browser.
 
 ### 6. Gunakan Play Protect dan pembaruan
 
-Buka Google Play Store dan pastikan pemindaian keamanan aktif. Perbarui Android, browser, dan aplikasi karena pembaruan dapat menutup celah serta memperbaiki masalah yang telah diketahui. Simpan catatan singkat tentang waktu, sumber informasi, dan langkah yang sudah dilakukan. Catatan ini membantu bila Anda perlu menghubungi layanan resmi.
+Buka Google Play Store dan pastikan pemindaian keamanan aktif. Perbarui Android, browser, dan aplikasi karena pembaruan dapat menutup celah serta memperbaiki masalah yang telah diketahui.
 
 ### 7. Jangan klik iklan untuk menutupnya
 
-Iklan berbahaya sering memakai tombol tutup palsu. Gunakan tombol kembali, tutup aplikasi dari layar aplikasi terbaru, atau mulai ulang perangkat bila layar tidak dapat dipakai. Simpan catatan singkat tentang waktu, sumber informasi, dan langkah yang sudah dilakukan. Catatan ini membantu bila Anda perlu menghubungi layanan resmi.
+Iklan berbahaya sering memakai tombol tutup palsu. Gunakan tombol kembali, tutup aplikasi dari layar aplikasi terbaru, atau mulai ulang perangkat bila layar tidak dapat dipakai.
 
 ### 8. Pilih reset pabrik sebagai langkah akhir
 
-Jika pop-up terus muncul, aplikasi tidak bisa dihapus, atau izin berubah sendiri, cadangkan data penting lalu pertimbangkan reset pabrik dari menu resmi. Setelah reset, pasang aplikasi satu per satu dari sumber resmi. Simpan catatan singkat tentang waktu, sumber informasi, dan langkah yang sudah dilakukan. Catatan ini membantu bila Anda perlu menghubungi layanan resmi.
+Jika pop-up terus muncul, aplikasi tidak bisa dihapus, atau izin berubah sendiri, cadangkan data penting lalu pertimbangkan reset pabrik dari menu resmi. Setelah reset, pasang aplikasi satu per satu dari sumber resmi.
 
 ## Contoh situasi
 
@@ -105,47 +105,47 @@ Dalam konteks cara menghilangkan iklan pop-up di hp android tanpa memasang apk b
 
 ### Identitas pihak terkait
 
-Dalam konteks cara menghilangkan iklan pop-up di hp android tanpa memasang apk baru, periksa identitas pihak terkait dengan tujuan yang jelas. Hindari memberi akses atau data lebih banyak daripada yang diperlukan. Catat keputusan penting, gunakan kanal resmi, dan lakukan tindakan bertahap agar Anda tidak membuat masalah baru saat mencoba menyelesaikan masalah awal.
+Dalam konteks cara menghilangkan iklan pop-up di hp android tanpa memasang apk baru, periksa identitas pihak terkait dengan tujuan yang jelas.
 
 ### Akun utama
 
-Dalam konteks cara menghilangkan iklan pop-up di hp android tanpa memasang apk baru, periksa akun utama dengan tujuan yang jelas. Hindari memberi akses atau data lebih banyak daripada yang diperlukan. Catat keputusan penting, gunakan kanal resmi, dan lakukan tindakan bertahap agar Anda tidak membuat masalah baru saat mencoba menyelesaikan masalah awal.
+Dalam konteks cara menghilangkan iklan pop-up di hp android tanpa memasang apk baru, periksa akun utama dengan tujuan yang jelas.
 
 ### Perangkat lain
 
-Dalam konteks cara menghilangkan iklan pop-up di hp android tanpa memasang apk baru, periksa perangkat lain dengan tujuan yang jelas. Hindari memberi akses atau data lebih banyak daripada yang diperlukan. Catat keputusan penting, gunakan kanal resmi, dan lakukan tindakan bertahap agar Anda tidak membuat masalah baru saat mencoba menyelesaikan masalah awal.
+Dalam konteks cara menghilangkan iklan pop-up di hp android tanpa memasang apk baru, periksa perangkat lain dengan tujuan yang jelas.
 
 ### Bukti transaksi atau aktivitas
 
-Dalam konteks cara menghilangkan iklan pop-up di hp android tanpa memasang apk baru, periksa bukti transaksi atau aktivitas dengan tujuan yang jelas. Hindari memberi akses atau data lebih banyak daripada yang diperlukan. Catat keputusan penting, gunakan kanal resmi, dan lakukan tindakan bertahap agar Anda tidak membuat masalah baru saat mencoba menyelesaikan masalah awal.
+Dalam konteks cara menghilangkan iklan pop-up di hp android tanpa memasang apk baru, periksa bukti transaksi atau aktivitas dengan tujuan yang jelas.
 
 ### Izin aplikasi
 
-Dalam konteks cara menghilangkan iklan pop-up di hp android tanpa memasang apk baru, periksa izin aplikasi dengan tujuan yang jelas. Hindari memberi akses atau data lebih banyak daripada yang diperlukan. Catat keputusan penting, gunakan kanal resmi, dan lakukan tindakan bertahap agar Anda tidak membuat masalah baru saat mencoba menyelesaikan masalah awal.
+Dalam konteks cara menghilangkan iklan pop-up di hp android tanpa memasang apk baru, periksa izin aplikasi dengan tujuan yang jelas.
 
 ### Riwayat perubahan
 
-Dalam konteks cara menghilangkan iklan pop-up di hp android tanpa memasang apk baru, periksa riwayat perubahan dengan tujuan yang jelas. Hindari memberi akses atau data lebih banyak daripada yang diperlukan. Catat keputusan penting, gunakan kanal resmi, dan lakukan tindakan bertahap agar Anda tidak membuat masalah baru saat mencoba menyelesaikan masalah awal.
+Dalam konteks cara menghilangkan iklan pop-up di hp android tanpa memasang apk baru, periksa riwayat perubahan dengan tujuan yang jelas.
 
 ### Jalur pelaporan
 
-Dalam konteks cara menghilangkan iklan pop-up di hp android tanpa memasang apk baru, periksa jalur pelaporan dengan tujuan yang jelas. Hindari memberi akses atau data lebih banyak daripada yang diperlukan. Catat keputusan penting, gunakan kanal resmi, dan lakukan tindakan bertahap agar Anda tidak membuat masalah baru saat mencoba menyelesaikan masalah awal.
+Dalam konteks cara menghilangkan iklan pop-up di hp android tanpa memasang apk baru, periksa jalur pelaporan dengan tujuan yang jelas.
 
 ### Pemulihan akun
 
-Dalam konteks cara menghilangkan iklan pop-up di hp android tanpa memasang apk baru, periksa pemulihan akun dengan tujuan yang jelas. Hindari memberi akses atau data lebih banyak daripada yang diperlukan. Catat keputusan penting, gunakan kanal resmi, dan lakukan tindakan bertahap agar Anda tidak membuat masalah baru saat mencoba menyelesaikan masalah awal.
+Dalam konteks cara menghilangkan iklan pop-up di hp android tanpa memasang apk baru, periksa pemulihan akun dengan tujuan yang jelas.
 
 ### Pencegahan berikutnya
 
-Dalam konteks cara menghilangkan iklan pop-up di hp android tanpa memasang apk baru, periksa pencegahan berikutnya dengan tujuan yang jelas. Hindari memberi akses atau data lebih banyak daripada yang diperlukan. Catat keputusan penting, gunakan kanal resmi, dan lakukan tindakan bertahap agar Anda tidak membuat masalah baru saat mencoba menyelesaikan masalah awal.
+Dalam konteks cara menghilangkan iklan pop-up di hp android tanpa memasang apk baru, periksa pencegahan berikutnya dengan tujuan yang jelas.
 
 ### Kebiasaan keluarga
 
-Dalam konteks cara menghilangkan iklan pop-up di hp android tanpa memasang apk baru, periksa kebiasaan keluarga dengan tujuan yang jelas. Hindari memberi akses atau data lebih banyak daripada yang diperlukan. Catat keputusan penting, gunakan kanal resmi, dan lakukan tindakan bertahap agar Anda tidak membuat masalah baru saat mencoba menyelesaikan masalah awal.
+Dalam konteks cara menghilangkan iklan pop-up di hp android tanpa memasang apk baru, periksa kebiasaan keluarga dengan tujuan yang jelas.
 
 ### Tinjauan berkala
 
-Dalam konteks cara menghilangkan iklan pop-up di hp android tanpa memasang apk baru, periksa tinjauan berkala dengan tujuan yang jelas. Hindari memberi akses atau data lebih banyak daripada yang diperlukan. Catat keputusan penting, gunakan kanal resmi, dan lakukan tindakan bertahap agar Anda tidak membuat masalah baru saat mencoba menyelesaikan masalah awal.
+Dalam konteks cara menghilangkan iklan pop-up di hp android tanpa memasang apk baru, periksa tinjauan berkala dengan tujuan yang jelas.
 
 ### Catatan tindakan aman
 
@@ -153,143 +153,143 @@ Simpan bukti dengan akses terbatas. Langkah kecil yang dilakukan dengan urutan t
 
 ### Catatan tindakan aman
 
-Simpan bukti dengan akses terbatas. Langkah kecil yang dilakukan dengan urutan tepat sering lebih efektif daripada tindakan cepat tanpa verifikasi.
+Simpan bukti dengan akses terbatas.
 
 ### Catatan tindakan aman
 
-Simpan bukti dengan akses terbatas. Langkah kecil yang dilakukan dengan urutan tepat sering lebih efektif daripada tindakan cepat tanpa verifikasi.
+Simpan bukti dengan akses terbatas.
 
 ### Catatan tindakan aman
 
-Simpan bukti dengan akses terbatas. Langkah kecil yang dilakukan dengan urutan tepat sering lebih efektif daripada tindakan cepat tanpa verifikasi.
+Simpan bukti dengan akses terbatas.
 
 ### Catatan tindakan aman
 
-Simpan bukti dengan akses terbatas. Langkah kecil yang dilakukan dengan urutan tepat sering lebih efektif daripada tindakan cepat tanpa verifikasi.
+Simpan bukti dengan akses terbatas.
 
 ### Catatan tindakan aman
 
-Simpan bukti dengan akses terbatas. Langkah kecil yang dilakukan dengan urutan tepat sering lebih efektif daripada tindakan cepat tanpa verifikasi.
+Simpan bukti dengan akses terbatas.
 
 ### Catatan tindakan aman
 
-Simpan bukti dengan akses terbatas. Langkah kecil yang dilakukan dengan urutan tepat sering lebih efektif daripada tindakan cepat tanpa verifikasi.
+Simpan bukti dengan akses terbatas.
 
 ### Catatan tindakan aman
 
-Simpan bukti dengan akses terbatas. Langkah kecil yang dilakukan dengan urutan tepat sering lebih efektif daripada tindakan cepat tanpa verifikasi.
+Simpan bukti dengan akses terbatas.
 
 ### Catatan tindakan aman
 
-Simpan bukti dengan akses terbatas. Langkah kecil yang dilakukan dengan urutan tepat sering lebih efektif daripada tindakan cepat tanpa verifikasi.
+Simpan bukti dengan akses terbatas.
 
 ### Catatan tindakan aman
 
-Simpan bukti dengan akses terbatas. Langkah kecil yang dilakukan dengan urutan tepat sering lebih efektif daripada tindakan cepat tanpa verifikasi.
+Simpan bukti dengan akses terbatas.
 
 ### Catatan tindakan aman
 
-Simpan bukti dengan akses terbatas. Langkah kecil yang dilakukan dengan urutan tepat sering lebih efektif daripada tindakan cepat tanpa verifikasi.
+Simpan bukti dengan akses terbatas.
 
 ### Catatan tindakan aman
 
-Simpan bukti dengan akses terbatas. Langkah kecil yang dilakukan dengan urutan tepat sering lebih efektif daripada tindakan cepat tanpa verifikasi.
+Simpan bukti dengan akses terbatas.
 
 ### Catatan tindakan aman
 
-Simpan bukti dengan akses terbatas. Langkah kecil yang dilakukan dengan urutan tepat sering lebih efektif daripada tindakan cepat tanpa verifikasi.
+Simpan bukti dengan akses terbatas.
 
 ### Catatan tindakan aman
 
-Simpan bukti dengan akses terbatas. Langkah kecil yang dilakukan dengan urutan tepat sering lebih efektif daripada tindakan cepat tanpa verifikasi.
+Simpan bukti dengan akses terbatas.
 
 ### Catatan tindakan aman
 
-Simpan bukti dengan akses terbatas. Langkah kecil yang dilakukan dengan urutan tepat sering lebih efektif daripada tindakan cepat tanpa verifikasi.
+Simpan bukti dengan akses terbatas.
 
 ### Catatan tindakan aman
 
-Simpan bukti dengan akses terbatas. Langkah kecil yang dilakukan dengan urutan tepat sering lebih efektif daripada tindakan cepat tanpa verifikasi.
+Simpan bukti dengan akses terbatas.
 
 ### Catatan tindakan aman
 
-Simpan bukti dengan akses terbatas. Langkah kecil yang dilakukan dengan urutan tepat sering lebih efektif daripada tindakan cepat tanpa verifikasi.
+Simpan bukti dengan akses terbatas.
 
 ### Catatan tindakan aman
 
-Simpan bukti dengan akses terbatas. Langkah kecil yang dilakukan dengan urutan tepat sering lebih efektif daripada tindakan cepat tanpa verifikasi.
+Simpan bukti dengan akses terbatas.
 
 ### Catatan tindakan aman
 
-Simpan bukti dengan akses terbatas. Langkah kecil yang dilakukan dengan urutan tepat sering lebih efektif daripada tindakan cepat tanpa verifikasi.
+Simpan bukti dengan akses terbatas.
 
 ### Catatan tindakan aman
 
-Simpan bukti dengan akses terbatas. Langkah kecil yang dilakukan dengan urutan tepat sering lebih efektif daripada tindakan cepat tanpa verifikasi.
+Simpan bukti dengan akses terbatas.
 
 ### Catatan tindakan aman
 
-Simpan bukti dengan akses terbatas. Langkah kecil yang dilakukan dengan urutan tepat sering lebih efektif daripada tindakan cepat tanpa verifikasi.
+Simpan bukti dengan akses terbatas.
 
 ### Catatan tindakan aman
 
-Simpan bukti dengan akses terbatas. Langkah kecil yang dilakukan dengan urutan tepat sering lebih efektif daripada tindakan cepat tanpa verifikasi.
+Simpan bukti dengan akses terbatas.
 
 ### Catatan tindakan aman
 
-Simpan bukti dengan akses terbatas. Langkah kecil yang dilakukan dengan urutan tepat sering lebih efektif daripada tindakan cepat tanpa verifikasi.
+Simpan bukti dengan akses terbatas.
 
 ### Catatan tindakan aman
 
-Simpan bukti dengan akses terbatas. Langkah kecil yang dilakukan dengan urutan tepat sering lebih efektif daripada tindakan cepat tanpa verifikasi.
+Simpan bukti dengan akses terbatas.
 
 ### Catatan tindakan aman
 
-Simpan bukti dengan akses terbatas. Langkah kecil yang dilakukan dengan urutan tepat sering lebih efektif daripada tindakan cepat tanpa verifikasi.
+Simpan bukti dengan akses terbatas.
 
 ### Catatan tindakan aman
 
-Simpan bukti dengan akses terbatas. Langkah kecil yang dilakukan dengan urutan tepat sering lebih efektif daripada tindakan cepat tanpa verifikasi.
+Simpan bukti dengan akses terbatas.
 
 ### Catatan tindakan aman
 
-Simpan bukti dengan akses terbatas. Langkah kecil yang dilakukan dengan urutan tepat sering lebih efektif daripada tindakan cepat tanpa verifikasi.
+Simpan bukti dengan akses terbatas.
 
 ### Catatan tindakan aman
 
-Simpan bukti dengan akses terbatas. Langkah kecil yang dilakukan dengan urutan tepat sering lebih efektif daripada tindakan cepat tanpa verifikasi.
+Simpan bukti dengan akses terbatas.
 
 ### Catatan tindakan aman
 
-Simpan bukti dengan akses terbatas. Langkah kecil yang dilakukan dengan urutan tepat sering lebih efektif daripada tindakan cepat tanpa verifikasi.
+Simpan bukti dengan akses terbatas.
 
 ### Catatan tindakan aman
 
-Simpan bukti dengan akses terbatas. Langkah kecil yang dilakukan dengan urutan tepat sering lebih efektif daripada tindakan cepat tanpa verifikasi.
+Simpan bukti dengan akses terbatas.
 
 ### Catatan tindakan aman
 
-Simpan bukti dengan akses terbatas. Langkah kecil yang dilakukan dengan urutan tepat sering lebih efektif daripada tindakan cepat tanpa verifikasi.
+Simpan bukti dengan akses terbatas.
 
 ### Catatan tindakan aman
 
-Simpan bukti dengan akses terbatas. Langkah kecil yang dilakukan dengan urutan tepat sering lebih efektif daripada tindakan cepat tanpa verifikasi.
+Simpan bukti dengan akses terbatas.
 
 ### Catatan tindakan aman
 
-Simpan bukti dengan akses terbatas. Langkah kecil yang dilakukan dengan urutan tepat sering lebih efektif daripada tindakan cepat tanpa verifikasi.
+Simpan bukti dengan akses terbatas.
 
 ### Catatan tindakan aman
 
-Simpan bukti dengan akses terbatas. Langkah kecil yang dilakukan dengan urutan tepat sering lebih efektif daripada tindakan cepat tanpa verifikasi.
+Simpan bukti dengan akses terbatas.
 
 ### Catatan tindakan aman
 
-Simpan bukti dengan akses terbatas. Langkah kecil yang dilakukan dengan urutan tepat sering lebih efektif daripada tindakan cepat tanpa verifikasi.
+Simpan bukti dengan akses terbatas.
 
 ### Catatan tindakan aman
 
-Simpan bukti dengan akses terbatas. Langkah kecil yang dilakukan dengan urutan tepat sering lebih efektif daripada tindakan cepat tanpa verifikasi.
+Simpan bukti dengan akses terbatas.
 
 ## Artikel terkait
 

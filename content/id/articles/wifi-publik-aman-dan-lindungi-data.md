@@ -86,6 +86,6 @@ Kebutuhan VPN bergantung pada konteks dan kebijakan. VPN bukan pengganti situs r
 Aktivitas rendah risiko tanpa data sensitif, sambil tetap memakai aplikasi dan situs resmi serta perangkat yang diperbarui.
 
 ## Sumber dan bacaan lanjutan
-- [FTC:PublicWi-FiNetworks:SecurityTips](https://consumer.Ftc.Gov/media/79888)
-- [CISA:Coreonline-safetyactions](https://www.Cisa.Gov/news-events/news/national-internet-safety-month-june-take-4-easy-steps-stay-safe-online)
+- [FTC: Public Wi-Fi Networks — Security Tips](https://consumer.ftc.gov/media/79888)
+- [CISA: Core Online Safety Actions](https://www.cisa.gov/news-events/news/national-internet-safety-month-june-take-4-easy-steps-stay-safe-online)
 > **Catatan editorial:** Artikel ini bersifat edukatif dan defensif. Tampilan, kebijakan, dan fitur setiap layanan dapat berubah. Gunakan dokumentasi resmi layanan yang Anda pakai untuk petunjuk teknis terbaru.

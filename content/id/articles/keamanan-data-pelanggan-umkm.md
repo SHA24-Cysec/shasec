@@ -83,7 +83,7 @@ Banyak langkah dasar (minimasi data, pembatasan akses, kebijakan privasi) tidak 
 UU PDP memberikan hak kepada subjek data untuk meminta penghapusan. Siapkan prosedur untuk memenuhi permintaan ini dalam waktu yang wajar. Hapus data dari semua sistem, termasuk backup setelah periode retensi berakhir.
 
 ## Sumber dan bacaan lanjutan
-- [UUPelindunganDataPribadiNo.27Tahun2022](https://peraturan.Bpk.Go.Id/)
-- [CISA:SmallBusinessCybersecurity](https://www.Cisa.Gov/small-business)
-- [NIST:SmallBusinessInformationSecurity](https://www.Nist.Gov/itb/ssd/small-business-information-security-guide)
+- [UU Pelindungan Data Pribadi No. 27 Tahun 2022](https://peraturan.bpk.go.id/)
+- [CISA: Small Business Cybersecurity](https://www.cisa.gov/small-business)
+- [NIST: Small Business Cybersecurity Corner](https://www.nist.gov/itl/smallbusinesscyber)
 > **Catatan editorial:** Artikel ini bersifat panduan umum dan bukan nasihat hukum. Untuk kepatuhan spesifik terhadap UU PDP, konsultasikan dengan ahli hukum atau konsultan privasi data.

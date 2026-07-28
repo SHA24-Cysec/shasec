@@ -59,6 +59,6 @@ Second-channel verification for every payment change. Call a known number, not t
 Almost certainly a scam. The combination of urgent, secret, and transfer-requesting is a classic BEC signature.
 
 ## Sources and further reading
-- [CISA:SecureYourBusiness](https://www.Cisa.Gov/audiences/small-and-medium-businesses/secure-your-business)
-- [CISA:Smallandmediumbusinessresources](https://www.Cisa.Gov/audiences/small-and-medium-businesses/secure-your-business/smb-resources)
+- [CISA: Secure Your Business](https://www.cisa.gov/audiences/small-and-medium-businesses/secure-your-business)
+- [CISA: Small and Medium Business Resources](https://www.cisa.gov/audiences/small-and-medium-businesses/secure-your-business/smb-resources)
 > **Editorial note:** This article is educational and defensive. To report an actual scam, use the bank's official channels and the authority that applies in your region.

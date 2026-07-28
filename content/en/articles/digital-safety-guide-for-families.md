@@ -59,6 +59,6 @@ As soon as a child uses a device. Adjust the depth of explanation to the age.
 Negotiate the rules together and explain the reasons. Rules that are understood are accepted better than rules that are forced.
 
 ## Sources and further reading
-- [CISA:Coreonlinesafetyactions](https://www.Cisa.Gov/news-events/news/national-internet-safety-month-june-take-4-easy-steps-stay-safe-online)
-- [FTC:Protectpersonalinformation](https://consumer.Ftc.Gov/articles/protect-your-personal-information-hackers-and-scammers)
+- [CISA: Core Online Safety Actions](https://www.cisa.gov/news-events/news/national-internet-safety-month-june-take-4-easy-steps-stay-safe-online)
+- [FTC: Protect Your Personal Information](https://consumer.ftc.gov/articles/protect-your-personal-information-hackers-and-scammers)
 > **Editorial note:** This article is educational and defensive. Parental control features differ between devices. Use your device manufacturer's official guidance.

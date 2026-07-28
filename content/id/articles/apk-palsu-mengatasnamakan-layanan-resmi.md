@@ -133,7 +133,7 @@ Dalam pencegahan APK palsu di Android, periksa Toko aplikasi dengan tujuan yang 
 
 ### Nama pengembang
 
-Nama pengembang perlu memiliki batas yang dapat dilihat pengguna. Risiko muncul ketika aplikasi dari pesan dapat membaca notifikasi atau mengambil alih tindakan pada ponsel. Uji alur dengan contoh yang aman, lalu hentikan penggunaan jika alasannya tidak jelas. Minta penilaian dari pemilik ponsel, anggota keluarga, dan penyedia layanan resmi sebelum data atau tindakan tambahan diproses.
+Nama pengembang perlu memiliki batas yang dapat dilihat pengguna. Uji alur dengan contoh yang aman, lalu hentikan penggunaan jika alasannya tidak jelas. Minta penilaian dari pemilik ponsel, anggota keluarga, dan penyedia layanan resmi sebelum data atau tindakan tambahan diproses.
 
 ### Pembaruan aplikasi
 
@@ -145,47 +145,47 @@ Saat menilai Daftar izin, lihat dampaknya bagi orang dan data, bukan hanya apaka
 
 ### Akun penting
 
-Dalam pencegahan APK palsu di Android, periksa Akun penting dengan tujuan yang jelas. Pastikan pemilik ponsel, anggota keluarga, dan penyedia layanan resmi dapat menerangkan alasan akses atau tindakan tersebut. Jangan memilih pengaturan paling luas hanya demi kenyamanan. Catat keputusan dan tanggal pemeriksaan supaya perubahan kecil tidak berkembang tanpa diketahui.
+Dalam pencegahan APK palsu di Android, periksa Akun penting dengan tujuan yang jelas.
 
 ### Ponsel hilang
 
-Ponsel hilang perlu memiliki batas yang dapat dilihat pengguna. Risiko muncul ketika aplikasi dari pesan dapat membaca notifikasi atau mengambil alih tindakan pada ponsel. Uji alur dengan contoh yang aman, lalu hentikan penggunaan jika alasannya tidak jelas. Minta penilaian dari pemilik ponsel, anggota keluarga, dan penyedia layanan resmi sebelum data atau tindakan tambahan diproses.
+Ponsel hilang perlu memiliki batas yang dapat dilihat pengguna.
 
 ### Fitur penguncian
 
-Jadikan Fitur penguncian bagian dari pekerjaan rutin, bukan tindakan setelah masalah terjadi. Pada pencegahan APK palsu di Android, perubahan akun, izin, atau alur dapat mengubah risiko. Pemilik perlu mengetahui perubahan itu dan memastikan perlindungan masih sesuai tujuan awal.
+Jadikan Fitur penguncian bagian dari pekerjaan rutin, bukan tindakan setelah masalah terjadi.
 
 ### Pesan dari keluarga
 
-Saat menilai Pesan dari keluarga, lihat dampaknya bagi orang dan data, bukan hanya apakah fitur tersedia. pemilik ponsel, anggota keluarga, dan penyedia layanan resmi perlu memberi pengguna cara untuk bertanya dan melapor. Catatan yang dapat diperiksa akan membantu respons bila aplikasi dari pesan dapat membaca notifikasi atau mengambil alih tindakan pada ponsel.
+Saat menilai Pesan dari keluarga, lihat dampaknya bagi orang dan data, bukan hanya apakah fitur tersedia.
 
 ### Nomor bantuan
 
-Dalam pencegahan APK palsu di Android, periksa Nomor bantuan dengan tujuan yang jelas. Pastikan pemilik ponsel, anggota keluarga, dan penyedia layanan resmi dapat menerangkan alasan akses atau tindakan tersebut. Jangan memilih pengaturan paling luas hanya demi kenyamanan. Catat keputusan dan tanggal pemeriksaan supaya perubahan kecil tidak berkembang tanpa diketahui.
+Dalam pencegahan APK palsu di Android, periksa Nomor bantuan dengan tujuan yang jelas.
 
 ### Laporan platform
 
-Laporan platform perlu memiliki batas yang dapat dilihat pengguna. Risiko muncul ketika aplikasi dari pesan dapat membaca notifikasi atau mengambil alih tindakan pada ponsel. Uji alur dengan contoh yang aman, lalu hentikan penggunaan jika alasannya tidak jelas. Minta penilaian dari pemilik ponsel, anggota keluarga, dan penyedia layanan resmi sebelum data atau tindakan tambahan diproses.
+Laporan platform perlu memiliki batas yang dapat dilihat pengguna.
 
 ### Kanal bank
 
-Jadikan Kanal bank bagian dari pekerjaan rutin, bukan tindakan setelah masalah terjadi. Pada pencegahan APK palsu di Android, perubahan akun, izin, atau alur dapat mengubah risiko. Pemilik perlu mengetahui perubahan itu dan memastikan perlindungan masih sesuai tujuan awal.
+Jadikan Kanal bank bagian dari pekerjaan rutin, bukan tindakan setelah masalah terjadi.
 
 ### Pengaturan Android
 
-Saat menilai Pengaturan Android, lihat dampaknya bagi orang dan data, bukan hanya apakah fitur tersedia. pemilik ponsel, anggota keluarga, dan penyedia layanan resmi perlu memberi pengguna cara untuk bertanya dan melapor. Catatan yang dapat diperiksa akan membantu respons bila aplikasi dari pesan dapat membaca notifikasi atau mengambil alih tindakan pada ponsel.
+Saat menilai Pengaturan Android, lihat dampaknya bagi orang dan data, bukan hanya apakah fitur tersedia.
 
 ### Akun operator
 
-Dalam pencegahan APK palsu di Android, periksa Akun operator dengan tujuan yang jelas. Pastikan pemilik ponsel, anggota keluarga, dan penyedia layanan resmi dapat menerangkan alasan akses atau tindakan tersebut. Jangan memilih pengaturan paling luas hanya demi kenyamanan. Catat keputusan dan tanggal pemeriksaan supaya perubahan kecil tidak berkembang tanpa diketahui.
+Dalam pencegahan APK palsu di Android, periksa Akun operator dengan tujuan yang jelas.
 
 ### Perangkat cadangan
 
-Perangkat cadangan perlu memiliki batas yang dapat dilihat pengguna. Risiko muncul ketika aplikasi dari pesan dapat membaca notifikasi atau mengambil alih tindakan pada ponsel. Uji alur dengan contoh yang aman, lalu hentikan penggunaan jika alasannya tidak jelas. Minta penilaian dari pemilik ponsel, anggota keluarga, dan penyedia layanan resmi sebelum data atau tindakan tambahan diproses.
+Perangkat cadangan perlu memiliki batas yang dapat dilihat pengguna.
 
 ### Pusat servis
 
-Jadikan Pusat servis bagian dari pekerjaan rutin, bukan tindakan setelah masalah terjadi. Pada pencegahan APK palsu di Android, perubahan akun, izin, atau alur dapat mengubah risiko. Pemilik perlu mengetahui perubahan itu dan memastikan perlindungan masih sesuai tujuan awal.
+Jadikan Pusat servis bagian dari pekerjaan rutin, bukan tindakan setelah masalah terjadi.
 
 ## Sumber dan bacaan lanjutan
 

@@ -17,7 +17,7 @@ cover: "/images/articles/browser-fingerprinting.webp"
 You delete cookies, use incognito mode, and block trackers. But ads still show the product you searched for yesterday. How do they know? The answer may not be cookies, but browser fingerprinting: a tracking technique that is much harder to avoid. Browser fingerprinting collects technical information about your browser and device: screen resolution, installed fonts, time zone, language, browser version, active plugins, and dozens of other parameters. Combined, these parameters produce a unique profile that can distinguish you from millions of other internet users, without storing anything on your device.
 
 ## Why browser fingerprinting is hard to avoid
-Unlike cookies stored in your browser that can be deleted, browser fingerprinting works on the server side. Websites collect information your browser sends automatically when loading pages. You cannot "delete" your screen resolution or installed font list. Studies show that 80-90% of browsers have unique fingerprints. This means even if you are not logged in, use a VPN, or delete cookies , websites can still recognize your browser from visit to visit.
+Unlike cookies stored in your browser that can be deleted, browser fingerprinting works on the server side. Websites collect information your browser sends automatically when loading pages. You cannot "delete" your screen resolution or installed font list. Studies show that 80-90% of browsers have unique fingerprints. This means even if you are not logged in, use a VPN, or delete cookies, websites can still recognize your browser from visit to visit.
 
 ## Information collected for fingerprinting
 Websites can collect dozens of parameters, including:
@@ -57,7 +57,7 @@ If you use a very unusual screen resolution (ultrawide, 4K on a small laptop), y
 Private browsing mode does not fully prevent fingerprinting, but it limits the information available to tracking scripts because there is no stored history or cookies.
 
 ### 7. Check your fingerprint uniqueness
-Visit [coveryourtracks.Eff.Org](https://coveryourtracks.Eff.Org) or [amiunique.Org](https://amiunique.Org) to see how unique your browser fingerprint is. These sites show what parameters are collected and how different you are from other users. Use this as a basis for deciding what steps to take.
+Visit [coveryourtracks.eff.org](https://coveryourtracks.eff.org) or [amiunique.org](https://amiunique.org) to see how unique your browser fingerprint is. These sites show what parameters are collected and how different you are from other users. Use this as a basis for deciding what steps to take.
 
 ## Trade-off: privacy vs convenience
 Reducing fingerprint means sacrificing some website convenience:
@@ -78,7 +78,7 @@ Partially. Incognito mode deletes cookies and history after the session ends, bu
 In some jurisdictions, collecting fingerprints without user consent may violate privacy regulations like GDPR. But enforcement against this practice remains limited.
 
 ## Sources and further reading
-- [EFF:CoverYourTracks](https://coveryourtracks.Eff.Org)
-- [AmIUnique:BrowserFingerprintResearch](https://amiunique.Org)
-- [Mozilla:Anti-FingerprintinginFirefox](https://wiki.Mozilla.Org/Security/Fingerprinting)
+- [EFF: Cover Your Tracks](https://coveryourtracks.eff.org)
+- [AmIUnique: Browser Fingerprint Research](https://amiunique.org)
+- [Mozilla Wiki: Anti-Fingerprinting in Firefox](https://wiki.mozilla.org/Security/Fingerprinting)
 > **Editorial note:** Fingerprinting technology continues to evolve. Effective protections today may be less adequate in the future. Monitor developments from sources like EFF for the latest information.

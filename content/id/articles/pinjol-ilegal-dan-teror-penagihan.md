@@ -74,7 +74,7 @@ Aktifkan pemblokiran dan pelaporan spam. Blokir setiap nomor penagih yang masuk.
 
 ## Melindungi diri saat penagihan sudah dimulai
 
-Beri tahu kontak Anda lebih dulu. Ini terasa memalukan, tetapi sangat efektif. Kirim pesan singkat kepada keluarga, rekan kerja, dan atasan yang menjelaskan bahwa Anda terjerat aplikasi pinjaman ilegal dan mereka mungkin menerima pesan yang menuduh Anda. Ketika pesan penagih tiba, senjata utamanya sudah tumpul. Rasa malu hanya bekerja kalau Anda diam.
+Beri tahu kontak Anda lebih dulu. Ini terasa memalukan, tetapi efektif. Kirim pesan singkat kepada keluarga, rekan kerja, dan atasan yang menjelaskan bahwa Anda terjerat aplikasi pinjaman ilegal dan mereka mungkin menerima pesan yang menuduh Anda. Ketika pesan penagih tiba, senjata utamanya sudah tumpul. Rasa malu hanya bekerja kalau Anda diam.
 
 Simpan semua bukti secara sistematis. Tangkapan layar pesan ancaman, rekaman panggilan, riwayat transfer, tangkapan layar halaman aplikasi yang menampilkan bunga dan denda, serta pesan yang dikirim ke kontak Anda. Simpan di penyimpanan cloud, bukan hanya di ponsel. Bukti ini diperlukan untuk pelaporan.
 

@@ -91,8 +91,8 @@ Banyak penyedia hosting menyediakan SSL gratis melalui Let's Encrypt. SSL berbay
 Ikuti prosedur yang diatur UU PDP: identifikasi data yang bocor, amankan sistem, laporkan ke otoritas dalam 3×24 jam, dan beri tahu pelanggan yang terdampak. Dokumentasikan setiap langkah untuk keperluan audit.
 
 ## Sumber dan bacaan lanjutan
-- [OWASP:E-CommerceSecurity](https://owasp.Org/www-project-web-security-testing-guide/)
-- [PCIDSS:PaymentCardIndustryStandards](https://www.Pcisecuritystandards.Org/)
-- [UUPelindunganDataPribadiNo.27Tahun2022](https://peraturan.Bpk.Go.Id/)
+- [OWASP: Web Security Testing Guide](https://owasp.org/www-project-web-security-testing-guide/)
+- [PCI Security Standards Council](https://www.pcisecuritystandards.org/)
+- [UU Pelindungan Data Pribadi No. 27 Tahun 2022](https://peraturan.bpk.go.id/)
 
 > **Catatan editorial:** Artikel ini bersifat panduan umum. Kewajiban hukum spesifik bergantung pada yurisdiksi dan jenis data yang Anda proses. Konsultasikan dengan ahli hukum untuk kepatuhan yang tepat.

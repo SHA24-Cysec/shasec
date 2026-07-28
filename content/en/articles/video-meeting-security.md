@@ -171,7 +171,7 @@ This habit keeps meetings useful without revealing unnecessary information.
 
 - [CISA: Secure Our World](https://www.cisa.gov/secure-our-world)
 - [NIST: Cybersecurity Framework](https://www.nist.gov/cyberframework)
-- [FTC: Protecting Personal Information](https://consumer.ftc.gov/articles/protecting-personal-information)
+- [FTC: Protecting Personal Information](https://www.ftc.gov/business-guidance/resources/protecting-personal-information-guide-business)
 - [Zoom Trust Center](https://trust.zoom.com/)
 
 > **Editorial note:** Menu settings differ on each platform. Check the official documentation of the video meeting service your organization or school uses before implementing the policy.

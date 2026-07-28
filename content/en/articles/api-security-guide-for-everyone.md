@@ -277,6 +277,6 @@ API security is not only a developer concern. API breaches expose your data, tak
 
 As a user, your best moves: use unique passwords, enable 2FA, check app permissions, and choose services that care about security. As a developer, follow the OWASP API Security Top 10 as your baseline defense.
 
-API security is a shared responsibility. Every small step reduces the gap attackers can exploit.
+API security is a shared responsibility.
 
 > **Editorial note:** API security standards evolve alongside new threats. This article reflects the OWASP API Security Top 10 2023 edition and conditions at the time of writing. Check the latest developments from OWASP and your security vendors.

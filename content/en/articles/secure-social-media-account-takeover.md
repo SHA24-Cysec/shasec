@@ -86,6 +86,6 @@ Use official roles or access features where available, rather than sharing a mai
 Briefly say the account had a problem and that links or requests from the affected period should be ignored.
 
 ## Sources and further reading
-- [FTC:Emailorsocialmediahacked?Here'swhattodo](https://consumer.Ftc.Gov/consumer-alerts/2024/10/email-or-social-media-hacked-heres-what-do)
-- [GoogleAccountHelp:Makeyouraccountmoresecure](https://support.Google.Com/accounts/answer/46526?hl=en)
+- [FTC: Email or Social Media Hacked? Here's What to Do](https://consumer.ftc.gov/consumer-alerts/2024/10/email-or-social-media-hacked-heres-what-do)
+- [Google Account Help: Make Your Account More Secure](https://support.google.com/accounts/answer/46526?hl=en)
 > **Editorial note:** This article is educational and defensive. Interfaces, policies, and features can change. Use the official documentation for the service you use when you need current technical instructions.

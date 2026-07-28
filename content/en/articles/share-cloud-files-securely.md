@@ -59,6 +59,6 @@ Open the sharing panel for the file or folder, then remove the name or disable t
 For confidential documents shared with many parties, a recipient-name watermark helps trace the source if the file leaks.
 
 ## Sources and further reading
-- [CISA:SecureYourBusiness](https://www.Cisa.Gov/audiences/small-and-medium-businesses/secure-your-business)
-- [CISA:Smallandmediumbusinessresources](https://www.Cisa.Gov/audiences/small-and-medium-businesses/secure-your-business/smb-resources)
+- [CISA: Secure Your Business](https://www.cisa.gov/audiences/small-and-medium-businesses/secure-your-business)
+- [CISA: Small and Medium Business Resources](https://www.cisa.gov/audiences/small-and-medium-businesses/secure-your-business/smb-resources)
 > **Editorial note:** This article is educational and defensive. Sharing features differ between cloud providers. Use your provider's official documentation.

@@ -14,7 +14,7 @@ summary: "Dunia kripto penuh dengan penipuan yang menargetkan investor baru dan 
 cover: "/images/articles/crypto-scam.webp"
 ---
 
-Cryptocurrency menawarkan peluang investasi yang menarik, tapi juga menarik penipu dalam skala yang belum pernah terlihat sebelumnya. Transaksi kripto tidak bisa dibatalkan, relatif anonim, dan melintasi batas negara: kombinasi sempurna bagi pelaku penipuan. Pada tahun 2024 saja, miliaran dolar hilang akibat penipuan cryptocurrency di seluruh dunia. Penipuan kripto tidak selalu terlihat mencurigakan. Beberapa dirancang sangat profesional dengan website yang meyakinkan, testimoni palsu, dan bahkan audit palsu. Investor berpengalaman pun bisa tertipu jika tidak mengenal polanya.
+Cryptocurrency menawarkan peluang investasi yang menarik, tapi juga menarik penipu dalam skala yang belum pernah terlihat sebelumnya. Transaksi kripto tidak bisa dibatalkan, relatif anonim, dan melintasi batas negara: kombinasi sempurna bagi pelaku penipuan. Pada tahun 2024 saja, miliaran dolar hilang akibat penipuan cryptocurrency di seluruh dunia. Penipuan kripto tidak selalu terlihat mencurigakan. Beberapa dirancang profesional dengan website yang meyakinkan, testimoni palsu, dan bahkan audit palsu. Investor berpengalaman pun bisa tertipu jika tidak mengenal polanya.
 
 ## 8 jenis penipuan cryptocurrency
 
@@ -75,7 +75,7 @@ Tidak. Banyak proyek kripto yang sah dan inovatif. Tapi risiko penipuan di ruang
 Exchange sah terdaftar di regulator (Bappebti di Indonesia, SEC/CFTC di AS), memiliki alamat kantor yang bisa diverifikasi, dan muncul di situs pelacakan seperti CoinMarketCap atau CoinGecko.
 
 ## Sumber dan bacaan lanjutan
-- [FTC:CryptocurrencyScams](https://consumer.Ftc.Gov/articles/what-know-about-cryptocurrency-scams)
-- [FBI:CryptocurrencyFraud](https://www.Fbi.Gov/how-we-can-help-you/safety-resources/scams-and-fraud/cryptocurrency-fraud)
-- [Chainalysis:CryptoCrimeReport](https://www.Chainalysis.Com/)
+- [FTC: What to Know About Cryptocurrency and Scams](https://consumer.ftc.gov/articles/what-know-about-cryptocurrency-and-scams)
+- [FBI IC3: Cryptocurrency Investment Fraud (Pig Butchering)](https://www.ic3.gov/PSA/2022/PSA221003)
+- [Chainalysis: Crypto Crime Report](https://www.chainalysis.com/)
 > **Catatan editorial:** Artikel ini bersifat edukatif dan bukan saran investasi. Selalu lakukan riset mandiri sebelum berinvestasi dalam aset apa pun, termasuk cryptocurrency.

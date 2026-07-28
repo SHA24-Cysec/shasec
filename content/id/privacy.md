@@ -53,8 +53,8 @@ Anda dapat mengatur atau menghapus cookie melalui pengaturan peramban. Menolak c
 {{< site "organization" >}} dapat menampilkan iklan melalui **Google AdSense** dan mitra yang bekerja sama dengan Google.
 - Google, sebagai vendor pihak ketiga, memakai cookie untuk menayangkan iklan berdasarkan kunjungan sebelumnya ke situs ini dan/atau situs lain.
 - Cookie iklan memungkinkan Google dan mitranya menayangkan iklan berdasarkan kunjungan Anda ke situs ini dan/atau situs lain di internet.
-- Nonaktifkan iklan yang dipersonalisasi di [PengaturanIklanGoogle](https://www.Google.Com/settings/ads).
-- Untuk informasi lebih lanjut, lihat [KebijakanPrivasiGoogle](https://policies.Google.Com/privacy) dan halaman tentang [caraGooglememakaidatasaatAndamemakaisitusatauaplikasimitra](https://policies.Google.Com/technologies/partner-sites). Cookie iklan pihak ketiga lain dapat dipakai oleh pemasok iklan yang berwenang. Daftar mitra dapat berubah seiring waktu.
+- Nonaktifkan iklan yang dipersonalisasi di [Pengaturan Iklan Google](https://www.google.com/settings/ads).
+- Untuk informasi lebih lanjut, lihat [Kebijakan Privasi Google](https://policies.google.com/privacy) dan halaman tentang [Cara Google memakai data saat Anda memakai situs atau aplikasi mitra](https://policies.google.com/technologies/partner-sites). Cookie iklan pihak ketiga lain dapat dipakai oleh pemasok iklan yang berwenang. Daftar mitra dapat berubah seiring waktu.
 
 ### Cookie dan persetujuan
 Di wilayah yang mewajibkan persetujuan cookie (misalnya sesuai regulasi yang berlaku), kami menyesuaikan mekanisme persetujuan sebelum cookie non-esensial / iklan diaktifkan sepenuhnya.

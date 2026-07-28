@@ -59,7 +59,7 @@ Both protocols encrypt DNS traffic inside TLS. Both use standard ports (443 for 
 Standardized in RFC 7858 (2016). DNS messages framed over a persistent TLS connection on port 853. The client initiates TCP, performs TLS handshake, verifies certificate, sends DNS queries as length-prefixed messages.
 
 Characteristics:
-- Dedicated port (853)   easy to identify and block
+- Dedicated port (853): easy to identify and block
 - Lower latency after connection establishment (persistent connection)
 - Native OS support in Android 9+, iOS 14+, Windows 11, Linux (systemd-resolved, stubby)
 - Clear separation from HTTP traffic
@@ -69,7 +69,7 @@ Characteristics:
 Standardized in RFC 8484 (2018). DNS messages encoded as HTTPS requests (GET or POST) to an HTTPS endpoint. Uses standard port 443. Indistinguishable from regular HTTPS traffic to a casual observer.
 
 Characteristics:
-- Port 443   hard to block without blocking HTTPS
+- Port 443: hard to block without blocking HTTPS
 - Higher latency per query (new connection or HTTP/2 multiplexing)
 - Browser-native support (Firefox, Chrome, Edge, Brave, Safari)
 - Can leverage HTTP/2, HTTP/3 (QUIC) for performance
@@ -409,11 +409,11 @@ Uses Tor network for DNS. Do not enable DoH (breaks isolation).
 ## Verification: Is It Working?
 
 **Web Tests**
-- `https://1.1.1.1/help` (Cloudflare)   shows protocol, TLS, DNSSEC
-- `https://dnsleaktest.com/`   run standard and extended test
-- `https://dns.nextdns.io/`   shows your config, protocol, encryption
-- `https://quad9.net/test/`   Quad9 test page
-- `https://www.dns-oarc.net/oarc/services/dnsentropy`   entropy test
+- `https://1.1.1.1/help` (Cloudflare): shows protocol, TLS, DNSSEC
+- `https://dnsleaktest.com/`: run standard and extended test
+- `https://dns.nextdns.io/`: shows your config, protocol, encryption
+- `https://quad9.net/test/`: Quad9 test page
+- `https://www.dns-oarc.net/oarc/services/dnsentropy`: entropy test
 
 **Command Line**
 ```bash

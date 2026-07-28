@@ -93,7 +93,7 @@ Bervariasi tergantung operator. Jika Anda bisa membuktikan identitas dengan KTP 
 eSIM bisa lebih aman karena tidak ada kartu fisik yang bisa ditukar, tapi proses aktivasi ulang eSIM juga bisa dimanipulasi jika pelaku memiliki data pribadi yang cukup. PIN keamanan tetap diperlukan.
 
 ## Sumber dan bacaan lanjutan
-- [FBI:SIMSwapping](https://www.Fbi.Gov/how-we-can-help-you/safety-resources/scams-and-fraud/sim-swapping)
-- [FTC:SIMSwapScams](https://consumer.Ftc.Gov/consumer-alerts/2023/07/how-protect-yourself-sim-swap-scams)
-- [CISA:MobileDeviceSecurity](https://www.Cisa.Gov/topics/cybersecurity-best-practices/mobile-device-security)
+- [FBI IC3: SIM Swapping Public Service Announcement](https://www.ic3.gov/PSA/2022/PSA220208)
+- [FTC: How to Protect Your Phone and the Data on It](https://consumer.ftc.gov/articles/how-protect-your-phone-and-data-it)
+- [CISA: Mobile Communications Best Practice Guidance](https://www.cisa.gov/resources-tools/resources/mobile-communications-best-practice-guidance)
 > **Catatan editorial:** Prosedur setiap operator berbeda. Hubungi operator Anda secara langsung untuk mengetahui opsi keamanan spesifik yang tersedia.

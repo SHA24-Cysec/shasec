@@ -59,6 +59,6 @@ At least once a year, and after a major change to systems or team. A light drill
 Report under the rules that apply and clearly notify affected customers. Speed and honesty protect trust and compliance.
 
 ## Sources and further reading
-- [CISA:SecureYourBusiness](https://www.Cisa.Gov/audiences/small-and-medium-businesses/secure-your-business)
-- [CISA:Smallandmediumbusinessresources](https://www.Cisa.Gov/audiences/small-and-medium-businesses/secure-your-business/smb-resources)
+- [CISA: Secure Your Business](https://www.cisa.gov/audiences/small-and-medium-businesses/secure-your-business)
+- [CISA: Small and Medium Business Resources](https://www.cisa.gov/audiences/small-and-medium-businesses/secure-your-business/smb-resources)
 > **Editorial note:** This article is educational and defensive. For an actual incident, involve a professional and the authority that applies in your region.

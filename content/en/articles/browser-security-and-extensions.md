@@ -84,7 +84,7 @@ No. Google reviews extensions, but the review is not perfect. Malicious extensio
 Using a separate profile or browser for banking adds an isolation layer. If your main browser is compromised, banking sessions in a separate browser are safer.
 
 ## Sources and further reading
-- [EFF:CoverYourTracks](https://coveryourtracks.Eff.Org)
-- [Mozilla:FirefoxPrivacySettings](https://support.Mozilla.Org/en-US/kb/firefox-protection-enhanced-tracking)
-- [ChromeWebStore:PermissionWarnings](https://developer.Chrome.Com/docs/extensions/develop/concepts/permission-warnings)
+- [EFF: Cover Your Tracks](https://coveryourtracks.eff.org)
+- [Mozilla Support: Firefox Enhanced Tracking Protection](https://support.mozilla.org/en-US/kb/firefox-protection-enhanced-tracking)
+- [Chrome for Developers: Permission Warnings](https://developer.chrome.com/docs/extensions/develop/concepts/permission-warnings)
 > **Editorial note:** This article is educational and does not recommend specific products. Evaluate your needs and choose tools appropriate to the risk level you face.

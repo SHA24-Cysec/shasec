@@ -86,6 +86,6 @@ Contact the operator through official channels and ask about securing or replaci
 No. A screen PIN or password remains an important base layer and is required in some situations.
 
 ## Sources and further reading
-- [FTC:Fivewaystokeepscammersandhackersaway](https://consumer.Ftc.Gov/consumer-alerts/2024/08/five-ways-keep-scammers-hackers-away)
-- [GoogleAccountHelp:Makeyouraccountmoresecure](https://support.Google.Com/accounts/answer/46526?hl=en)
+- [FTC: Five Ways to Keep Scammers and Hackers Away](https://consumer.ftc.gov/consumer-alerts/2024/08/five-ways-keep-scammers-hackers-away)
+- [Google Account Help: Make Your Account More Secure](https://support.google.com/accounts/answer/46526?hl=en)
 > **Editorial note:** This article is educational and defensive. Interfaces, policies, and features can change. Use the official documentation for the service you use when you need current technical instructions.

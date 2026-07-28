@@ -143,7 +143,7 @@ Don't judge success solely by whether the perpetrator texts again. Initial succe
 
 ## Sources and further reading
 
-- [FBI: Sextortion](https://www.fbi.gov/how-we-can-help-you/scams-and-safety/common-scams-and-crimes/sextortion)
+- [FBI: Sextortion](https://www.fbi.gov/how-we-can-help-you/scams-and-safety/common-frauds-and-scams/sextortion)
 - [NCMEC: Take It Down](https://takeitdown.ncmec.org/)
 - [Meta: Report Intimate Images](https://www.facebook.com/help/383420348387540)
 - [Komdigi: Content Complaints](https://aduankonten.id/)

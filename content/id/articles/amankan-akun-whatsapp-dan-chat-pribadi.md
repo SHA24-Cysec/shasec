@@ -86,6 +86,6 @@ Jangan. Hubungi dukungan melalui kanal resmi. Kode verifikasi dan PIN seharusnya
 Gunakan perangkat pribadi yang terkunci, periksa daftar perangkat tertaut, dan keluar setelah memakai komputer bersama.
 
 ## Sumber dan bacaan lanjutan
-- [FTC:Emailorsocialmediahacked?Here'swhattodo](https://consumer.Ftc.Gov/consumer-alerts/2024/10/email-or-social-media-hacked-heres-what-do)
-- [FTC:ProtectYourPersonalInformationFromHackersandScammers](https://consumer.Ftc.Gov/articles/protect-your-personal-information-hackers-and-scammers)
+- [FTC: Email or Social Media Hacked? Here's What to Do](https://consumer.ftc.gov/consumer-alerts/2024/10/email-or-social-media-hacked-heres-what-do)
+- [FTC: Protect Your Personal Information From Hackers and Scammers](https://consumer.ftc.gov/articles/protect-your-personal-information-hackers-and-scammers)
 > **Catatan editorial:** Artikel ini bersifat edukatif dan defensif. Tampilan, kebijakan, dan fitur setiap layanan dapat berubah. Gunakan dokumentasi resmi layanan yang Anda pakai untuk petunjuk teknis terbaru.

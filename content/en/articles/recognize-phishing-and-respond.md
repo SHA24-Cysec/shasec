@@ -87,6 +87,6 @@ A friend's account may be taken over. Call or use another route you already know
 Follow the organization's reporting process. Forward the message as an attachment or report it, but do not click links to gather evidence.
 
 ## Sources and further reading
-- [CISA:TeachEmployeestoAvoidPhishing](https://www.Cisa.Gov/secure-our-world/teach-employees-avoid-phishing)
-- [FTC:ProtectYourPersonalInformationFromHackersandScammers](https://consumer.Ftc.Gov/articles/protect-your-personal-information-hackers-and-scammers)
+- [CISA: Teach Employees to Avoid Phishing](https://www.cisa.gov/secure-our-world/teach-employees-avoid-phishing)
+- [FTC: Protect Your Personal Information From Hackers and Scammers](https://consumer.ftc.gov/articles/protect-your-personal-information-hackers-and-scammers)
 > **Editorial note:** This article is educational and defensive. Interfaces, policies, and features can change. Use the official documentation for the service you use when you need current technical instructions.

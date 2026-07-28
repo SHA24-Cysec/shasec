@@ -67,7 +67,7 @@ All three offer standard encryption. The main differences lie in privacy policie
 Yes. Cloud storage is not a backup. Cloud storage syncs changes, including deletions or ransomware encryption. A separate backup (external hard drive or dedicated backup service) stores snapshots that cannot be modified from your device.
 
 ## Sources and further reading
-- [CISA:CloudSecurity](https://www.Cisa.Gov/topics/cybersecurity-best-practices/cloud-security)
-- [EFF:EncryptingYourData](https://ssd.Eff.Org/en/module/how-encrypt-your-devices)
-- [NIST:CloudComputingSecurity](https://csrc.Nist.Gov/projects/cloud-computing)
+- [CISA: Secure Cloud Business Applications](https://www.cisa.gov/resources-tools/services/secure-cloud-business-applications-scuba-project)
+- [EFF: Keeping Your Data Safe](https://ssd.eff.org/module/how-encrypt-your-iphone)
+- [NIST: Cloud Computing Project](https://csrc.nist.gov/projects/cloud-computing)
 > **Editorial note:** This article is educational in nature. Features and policies of each cloud provider may change. Refer to the official documentation of the service you use.

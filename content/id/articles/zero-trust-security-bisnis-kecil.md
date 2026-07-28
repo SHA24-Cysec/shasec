@@ -98,8 +98,8 @@ Pada awalnya, ada penyesuaian. Tapi setelah terbiasa, proses verifikasi yang kon
 Mulai dari yang paling berdampak: aktifkan MFA di semua akun, batasi akses berdasarkan peran, dan backup data secara rutin. Untuk langkah lanjutan, pertimbangkan konsultan keamanan atau managed service provider.
 
 ## Sumber dan bacaan lanjutan
-- [CISA:ZeroTrustMaturityModel](https://www.Cisa.Gov/zero-trust)
-- [NIST:ZeroTrustArchitecture](https://csrc.Nist.Gov/publications/detail/sp/800-207/final)
-- [Microsoft:ZeroTrustforSmallBusiness](https://www.Microsoft.Com/en-us/security/business/zero-trust)
+- [CISA: Zero Trust Maturity Model](https://www.cisa.gov/zero-trust-maturity-model)
+- [NIST SP 800-207: Zero Trust Architecture](https://csrc.nist.gov/pubs/sp/800/207/final)
+- [Microsoft: Zero Trust for Business](https://www.microsoft.com/en-us/security/business/zero-trust)
 
 > **Catatan editorial:** Artikel ini bersifat panduan umum. Implementasi Zero Trust spesifik bergantung pada infrastruktur, kebutuhan, dan anggaran bisnis Anda. Konsultasikan dengan ahli keamanan untuk rencana yang disesuaikan.

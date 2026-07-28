@@ -80,8 +80,8 @@ Ya, sedikit. Data harus melewati server VPN sebelum mencapai tujuan. VPN berkual
 Jika WiFi rumah Anda sudah diamankan dengan WPA2/WPA3 dan Anda tidak perlu menyembunyikan aktivitas dari ISP, VPN di rumah bersifat opsional. VPN paling bermanfaat di jaringan yang tidak Anda kendalikan.
 
 ## Sumber dan bacaan lanjutan
-- [EFF:HowtoChooseaVPN](https://www.Eff.Org/pages/how-choose-vpn)
-- [PrivacyTools:VPNRecommendations](https://www.Privacytools.Io/providers/vpn/)
-- [RestorePrivacy:VPNAuditReports](https://restoreprivacy.Com/vpn/)
+- [EFF: Choosing the VPN That's Right for You](https://ssd.eff.org/module/choosing-vpn-thats-right-you)
+- [Privacy Guides: VPN Recommendations](https://www.privacyguides.org/en/vpn/)
+- [RestorePrivacy: VPN Audit Reports](https://restoreprivacy.com/vpn/)
 
 > **Catatan editorial:** Artikel ini bersifat edukatif dan tidak merekomendasikan produk VPN tertentu. Evaluasi kebutuhan Anda dan pilih layanan berdasarkan kriteria yang relevan.

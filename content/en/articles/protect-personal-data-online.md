@@ -59,6 +59,6 @@ Hide the year if you can. Many services use the full date for password resets.
 Start with unused accounts: sign in, delete data, deactivate. For data held by third-party sites, file a deletion request under the service's terms.
 
 ## Sources and further reading
-- [CISA:Coreonlinesafetyactions](https://www.Cisa.Gov/news-events/news/national-internet-safety-month-june-take-4-easy-steps-stay-safe-online)
-- [FTC:Protectpersonalinformation](https://consumer.Ftc.Gov/articles/protect-your-personal-information-hackers-and-scammers)
+- [CISA: Core Online Safety Actions](https://www.cisa.gov/news-events/news/national-internet-safety-month-june-take-4-easy-steps-stay-safe-online)
+- [FTC: Protect Your Personal Information](https://consumer.ftc.gov/articles/protect-your-personal-information-hackers-and-scammers)
 > **Editorial note:** This article is educational and defensive. Privacy rules differ between services. Use the official help center for specific settings.

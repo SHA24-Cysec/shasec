@@ -86,6 +86,6 @@ No. Contact support through official channels. Verification codes and PINs shoul
 Use a locked personal device, review linked devices, and sign out after using a shared computer.
 
 ## Sources and further reading
-- [FTC:Emailorsocialmediahacked?Here'swhattodo](https://consumer.Ftc.Gov/consumer-alerts/2024/10/email-or-social-media-hacked-heres-what-do)
-- [FTC:ProtectYourPersonalInformationFromHackersandScammers](https://consumer.Ftc.Gov/articles/protect-your-personal-information-hackers-and-scammers)
+- [FTC: Email or Social Media Hacked? Here's What to Do](https://consumer.ftc.gov/consumer-alerts/2024/10/email-or-social-media-hacked-heres-what-do)
+- [FTC: Protect Your Personal Information From Hackers and Scammers](https://consumer.ftc.gov/articles/protect-your-personal-information-hackers-and-scammers)
 > **Editorial note:** This article is educational and defensive. Interfaces, policies, and features can change. Use the official documentation for the service you use when you need current technical instructions.

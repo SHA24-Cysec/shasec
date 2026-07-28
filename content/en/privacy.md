@@ -48,8 +48,8 @@ You can control or delete cookies in your browser settings. Rejecting certain co
 {{< site "organization" >}} may display ads via **Google AdSense** and partners working with Google.
 - Google, as a third-party vendor, uses cookies to serve ads based on prior visits to this and/or other sites.
 - Ad cookies enable Google and partners to serve ads based on your visits across the web.
-- Opt out of personalized ads at [GoogleAdsSettings](https://www.Google.Com/settings/ads).
-- See [GooglePrivacyPolicy](https://policies.Google.Com/privacy) and [howGoogleusesdatawhenyouusepartnersitesorapps](https://policies.Google.Com/technologies/partner-sites). Other third-party ad cookies may be used by authorized suppliers. Partner lists may change over time.
+- Opt out of personalized ads at [Google Ads Settings](https://www.google.com/settings/ads).
+- See [Google Privacy Policy](https://policies.google.com/privacy) and [How Google uses data when you use partner sites or apps](https://policies.google.com/technologies/partner-sites). Other third-party ad cookies may be used by authorized suppliers. Partner lists may change over time.
 
 ### Cookies and consent
 Where consent is required, we align consent mechanisms before non-essential / advertising cookies are fully enabled.

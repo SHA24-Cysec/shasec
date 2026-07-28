@@ -92,7 +92,7 @@ Belum semua layanan mendukung passkey. Gunakan saat tersedia dan tetap jaga meto
 Utamakan perubahan ketika ada kebocoran, penggunaan ulang, akses asing, atau situs mencurigakan. Perubahan rutin tanpa alasan sering menghasilkan pola lemah.
 
 ## Sumber dan bacaan lanjutan
-- [CISA:Coreonline-safetyactions](https://www.Cisa.Gov/news-events/news/national-internet-safety-month-june-take-4-easy-steps-stay-safe-online)
-- [GoogleAccountHelp:PasswordManager](https://support.Google.Com/accounts/answer/9231944?p=password-checkup)
-- [NIST:Guidanceonpasskeys](https://www.Nist.Gov/blogs/cybersecurity-insights/giving-nist-digital-identity-guidelines-boost-supplement-incorporating)
+- [CISA: Core Online Safety Actions](https://www.cisa.gov/news-events/news/national-internet-safety-month-june-take-4-easy-steps-stay-safe-online)
+- [Google Account Help: Password Manager](https://support.google.com/accounts/answer/9231944?p=password-checkup)
+- [NIST: Guidance on Passkeys](https://www.nist.gov/blogs/cybersecurity-insights/giving-nist-digital-identity-guidelines-boost-supplement-incorporating)
 > **Catatan editorial:** Artikel ini bersifat edukatif dan defensif. Tampilan, kebijakan, dan fitur setiap layanan dapat berubah. Gunakan dokumentasi resmi layanan yang Anda pakai untuk petunjuk teknis terbaru.

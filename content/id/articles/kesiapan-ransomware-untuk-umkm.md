@@ -59,6 +59,6 @@ Harian untuk data aktif, dengan minimal satu salinan offline. Yang krusial: uji 
 Antivirus modern membantu, tetapi tambahkan EDR, pembaruan rutin, dan backup. Tidak ada satu alat yang menutup semua celah.
 
 ## Sumber dan bacaan lanjutan
-- [CISA:StopRansomwareGuide](https://www.Cisa.Gov/stopransomware/ransomware-guide)
-- [CISA:SecureYourBusiness](https://www.Cisa.Gov/audiences/small-and-medium-businesses/secure-your-business)
+- [CISA: StopRansomware Guide](https://www.cisa.gov/stopransomware/ransomware-guide)
+- [CISA: Secure Your Business](https://www.cisa.gov/audiences/small-and-medium-businesses/secure-your-business)
 > **Catatan editorial:** Artikel ini bersifat edukatif dan defensif. Untuk respons insiden aktual, libatkan profesional dan otoritas yang berlaku di wilayah Anda.

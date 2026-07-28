@@ -139,7 +139,7 @@ Dalam AI agent dan otomatisasi, periksa Validasi masukan dengan tujuan yang jela
 
 ### Pemisahan data
 
-Pemisahan data perlu memiliki batas yang dapat dilihat pengguna. Risiko muncul ketika data tidak tepercaya memengaruhi tindakan agent atau memperluas aksesnya. Uji alur dengan contoh yang aman, lalu hentikan penggunaan jika alasannya tidak jelas. Minta penilaian dari pemilik agent, pengembang, dan peninjau bisnis sebelum data atau tindakan tambahan diproses.
+Pemisahan data perlu memiliki batas yang dapat dilihat pengguna. Uji alur dengan contoh yang aman, lalu hentikan penggunaan jika alasannya tidak jelas. Minta penilaian dari pemilik agent, pengembang, dan peninjau bisnis sebelum data atau tindakan tambahan diproses.
 
 ### Pemanggilan API
 
@@ -151,43 +151,43 @@ Saat menilai Validasi keluaran, lihat dampaknya bagi orang dan data, bukan hanya
 
 ### Pembatasan domain
 
-Dalam AI agent dan otomatisasi, periksa Pembatasan domain dengan tujuan yang jelas. Pastikan pemilik agent, pengembang, dan peninjau bisnis dapat menerangkan alasan akses atau tindakan tersebut. Jangan memilih pengaturan paling luas hanya demi kenyamanan. Catat keputusan dan tanggal pemeriksaan supaya perubahan kecil tidak berkembang tanpa diketahui.
+Dalam AI agent dan otomatisasi, periksa Pembatasan domain dengan tujuan yang jelas.
 
 ### Batas waktu tugas
 
-Batas waktu tugas perlu memiliki batas yang dapat dilihat pengguna. Risiko muncul ketika data tidak tepercaya memengaruhi tindakan agent atau memperluas aksesnya. Uji alur dengan contoh yang aman, lalu hentikan penggunaan jika alasannya tidak jelas. Minta penilaian dari pemilik agent, pengembang, dan peninjau bisnis sebelum data atau tindakan tambahan diproses.
+Batas waktu tugas perlu memiliki batas yang dapat dilihat pengguna.
 
 ### Batas biaya
 
-Jadikan Batas biaya bagian dari pekerjaan rutin, bukan tindakan setelah masalah terjadi. Pada AI agent dan otomatisasi, perubahan akun, izin, atau alur dapat mengubah risiko. Pemilik perlu mengetahui perubahan itu dan memastikan perlindungan masih sesuai tujuan awal.
+Jadikan Batas biaya bagian dari pekerjaan rutin, bukan tindakan setelah masalah terjadi.
 
 ### Peringatan anomali
 
-Saat menilai Peringatan anomali, lihat dampaknya bagi orang dan data, bukan hanya apakah fitur tersedia. pemilik agent, pengembang, dan peninjau bisnis perlu memberi pengguna cara untuk bertanya dan melapor. Catatan yang dapat diperiksa akan membantu respons bila data tidak tepercaya memengaruhi tindakan agent atau memperluas aksesnya.
+Saat menilai Peringatan anomali, lihat dampaknya bagi orang dan data, bukan hanya apakah fitur tersedia.
 
 ### Pemantauan produksi
 
-Dalam AI agent dan otomatisasi, periksa Pemantauan produksi dengan tujuan yang jelas. Pastikan pemilik agent, pengembang, dan peninjau bisnis dapat menerangkan alasan akses atau tindakan tersebut. Jangan memilih pengaturan paling luas hanya demi kenyamanan. Catat keputusan dan tanggal pemeriksaan supaya perubahan kecil tidak berkembang tanpa diketahui.
+Dalam AI agent dan otomatisasi, periksa Pemantauan produksi dengan tujuan yang jelas.
 
 ### Tanggung jawab pemilik
 
-Tanggung jawab pemilik perlu memiliki batas yang dapat dilihat pengguna. Risiko muncul ketika data tidak tepercaya memengaruhi tindakan agent atau memperluas aksesnya. Uji alur dengan contoh yang aman, lalu hentikan penggunaan jika alasannya tidak jelas. Minta penilaian dari pemilik agent, pengembang, dan peninjau bisnis sebelum data atau tindakan tambahan diproses.
+Tanggung jawab pemilik perlu memiliki batas yang dapat dilihat pengguna.
 
 ### Data pelanggan
 
-Jadikan Data pelanggan bagian dari pekerjaan rutin, bukan tindakan setelah masalah terjadi. Pada AI agent dan otomatisasi, perubahan akun, izin, atau alur dapat mengubah risiko. Pemilik perlu mengetahui perubahan itu dan memastikan perlindungan masih sesuai tujuan awal.
+Jadikan Data pelanggan bagian dari pekerjaan rutin, bukan tindakan setelah masalah terjadi.
 
 ### Dokumen mitra
 
-Saat menilai Dokumen mitra, lihat dampaknya bagi orang dan data, bukan hanya apakah fitur tersedia. pemilik agent, pengembang, dan peninjau bisnis perlu memberi pengguna cara untuk bertanya dan melapor. Catatan yang dapat diperiksa akan membantu respons bila data tidak tepercaya memengaruhi tindakan agent atau memperluas aksesnya.
+Saat menilai Dokumen mitra, lihat dampaknya bagi orang dan data, bukan hanya apakah fitur tersedia.
 
 ### Pembaruan model
 
-Dalam AI agent dan otomatisasi, periksa Pembaruan model dengan tujuan yang jelas. Pastikan pemilik agent, pengembang, dan peninjau bisnis dapat menerangkan alasan akses atau tindakan tersebut. Jangan memilih pengaturan paling luas hanya demi kenyamanan. Catat keputusan dan tanggal pemeriksaan supaya perubahan kecil tidak berkembang tanpa diketahui.
+Dalam AI agent dan otomatisasi, periksa Pembaruan model dengan tujuan yang jelas.
 
 ### Perubahan konektor
 
-Perubahan konektor perlu memiliki batas yang dapat dilihat pengguna. Risiko muncul ketika data tidak tepercaya memengaruhi tindakan agent atau memperluas aksesnya. Uji alur dengan contoh yang aman, lalu hentikan penggunaan jika alasannya tidak jelas. Minta penilaian dari pemilik agent, pengembang, dan peninjau bisnis sebelum data atau tindakan tambahan diproses.
+Perubahan konektor perlu memiliki batas yang dapat dilihat pengguna.
 
 ## Sumber dan bacaan lanjutan
 

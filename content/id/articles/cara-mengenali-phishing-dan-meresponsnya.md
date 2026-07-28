@@ -87,6 +87,6 @@ Akun teman dapat diambil alih. Hubungi mereka melalui panggilan atau jalur lain 
 Ikuti prosedur pelaporan organisasi. Teruskan pesan sebagai lampiran atau gunakan tombol pelaporan, tetapi jangan klik tautan demi mencari bukti.
 
 ## Sumber dan bacaan lanjutan
-- [CISA:TeachEmployeestoAvoidPhishing](https://www.Cisa.Gov/secure-our-world/teach-employees-avoid-phishing)
-- [FTC:ProtectYourPersonalInformationFromHackersandScammers](https://consumer.Ftc.Gov/articles/protect-your-personal-information-hackers-and-scammers)
+- [CISA: Teach Employees to Avoid Phishing](https://www.cisa.gov/secure-our-world/teach-employees-avoid-phishing)
+- [FTC: Protect Your Personal Information From Hackers and Scammers](https://consumer.ftc.gov/articles/protect-your-personal-information-hackers-and-scammers)
 > **Catatan editorial:** Artikel ini bersifat edukatif dan defensif. Tampilan, kebijakan, dan fitur setiap layanan dapat berubah. Gunakan dokumentasi resmi layanan yang Anda pakai untuk petunjuk teknis terbaru.

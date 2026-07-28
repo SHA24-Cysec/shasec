@@ -87,8 +87,8 @@ Antivirus can block malicious pop-ups and detect malware, but cannot prevent you
 No. While elderly people are more frequently victimized, this scam targets all ages. Busy professionals who do not have time to verify are also vulnerable.
 
 ## Sources and further reading
-- [FTC:TechSupportScams](https://consumer.Ftc.Gov/articles/tech-support-scams)
-- [Microsoft:AvoidTechSupportScams](https://www.Microsoft.Com/en-us/wdsi/threats/tech-support-scams)
-- [FBI:TechSupportFraud](https://www.Fbi.Gov/how-we-can-help-you/safety-resources/scams-and-fraud/tech-support-fraud)
+- [FTC: How to Spot, Avoid, and Report Tech Support Scams](https://consumer.ftc.gov/articles/how-spot-avoid-and-report-tech-support-scams)
+- [Microsoft: Avoid Tech Support Scams](https://www.microsoft.com/en-us/wdsi/threats/tech-support-scams)
+- [FBI: Tech Support Scams](https://www.fbi.gov/how-we-can-help-you/scams-and-safety/common-frauds-and-scams/tech-support-scams)
 
 > **Editorial note:** This article is educational and defensive in nature. If you suspect fraud, contact law enforcement and relevant agencies before taking further action.

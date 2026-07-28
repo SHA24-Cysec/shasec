@@ -78,7 +78,7 @@ Segera hubungi bank untuk membekukan akses mobile banking. Hubungi operator untu
 Di Android, antivirus bisa menambah lapisan pertahanan terhadap malware. Di iPhone yang tidak di-jailbreak, risiko malware lebih rendah karena arsitektur sandboxing Apple. Di kedua platform, sumber utama perlindungan tetap berasal dari kebiasaan aman.
 
 ## Sumber dan bacaan lanjutan
-- [OJK:TipsAmanMobileBanking](https://www.Ojk.Go.Id/)
-- [CISA:MobileDeviceSecurity](https://www.Cisa.Gov/topics/cybersecurity-best-practices/mobile-device-security)
-- [FTC:MobileBankingSecurityTips](https://consumer.Ftc.Gov/articles/mobile-banking)
+- [OJK: Otoritas Jasa Keuangan](https://www.ojk.go.id/)
+- [CISA: Mobile Communications Best Practice Guidance](https://www.cisa.gov/resources-tools/resources/mobile-communications-best-practice-guidance)
+- [FTC: How to Protect Your Phone and the Data on It](https://consumer.ftc.gov/articles/how-protect-your-phone-and-data-it)
 > **Catatan editorial:** Artikel ini bersifat edukatif. Fitur keamanan setiap bank berbeda. Periksa panduan keamanan dari bank yang Anda pakai untuk instruksi yang spesifik.

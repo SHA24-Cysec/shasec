@@ -15,7 +15,7 @@ cover: "/images/articles/business-email-security.webp"
 
 Business Email Compromise (BEC) adalah penipuan yang meniru pihak internal atau tepercaya, biasanya eksekutif atau vendor, untuk meminta transfer uang atau data. Penyerang sering tidak perlu membobol email. Mereka cukup menipu staf lewat pesan yang terlihat meyakinkan. Untuk UMKM, satu transfer ke rekening penipu bisa menghabiskan modal berbulan-bulan.
 
-## Mengapa BEC sangat efektif
+## Mengapa BEC efektif
 BEC memanfaatkan kewaspadaan yang turun saat ada tekanan. Email yang menyamar sebagai direktur minta transfer "rahasia dan mendesak", atau vendor mengabarkan "rekening bank berubah", terlihat wajar bagi staf yang sibuk. Penyerang mempelajari struktur dan istilah internal dari profil publik sehingga permintaannya terdengar akrab. Pertahanannya bukan teknologi canggih, melainkan proses verifikasi sederhana.
 
 ## Langkah praktik mencegah BEC
@@ -59,6 +59,6 @@ Verifikasi kanal kedua untuk setiap perubahan pembayaran. Telepon ke nomor yang 
 Hampir pasti penipuan. Kombinasi mendesak, rahasia, dan minta transfer adalah ciri BEC klasik.
 
 ## Sumber dan bacaan lanjutan
-- [CISA:SecureYourBusiness](https://www.Cisa.Gov/audiences/small-and-medium-businesses/secure-your-business)
-- [CISA:Smallandmediumbusinessresources](https://www.Cisa.Gov/audiences/small-and-medium-businesses/secure-your-business/smb-resources)
+- [CISA: Secure Your Business](https://www.cisa.gov/audiences/small-and-medium-businesses/secure-your-business)
+- [CISA: Small and Medium Business Resources](https://www.cisa.gov/audiences/small-and-medium-businesses/secure-your-business/smb-resources)
 > **Catatan editorial:** Artikel ini bersifat edukatif dan defensif. Untuk pelaporan penipuan aktual, gunakan kanal resmi bank dan otoritas yang berlaku di wilayah Anda.

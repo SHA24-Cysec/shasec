@@ -86,6 +86,6 @@ Pilih metode yang jelas tentang perlindungan pembeli dan proses sengketa. Aturan
 Hubungi penjual serta platform melalui jalur resmi, simpan bukti, dan gunakan proses sengketa penyedia pembayaran bila tersedia.
 
 ## Sumber dan bacaan lanjutan
-- [FTC:OnlineShopping](https://consumer.Ftc.Gov/articles/online-shopping)
-- [FTC:Makingmobilepayments?Protectyourselffromscams](https://consumer.Ftc.Gov/node/76695)
+- [FTC: Online Shopping](https://consumer.ftc.gov/articles/online-shopping)
+- [FTC: Making Mobile Payments? Protect Yourself From Scams](https://consumer.ftc.gov/articles/how-recognize-and-avoid-phishing-scams)
 > **Catatan editorial:** Artikel ini bersifat edukatif dan defensif. Tampilan, kebijakan, dan fitur setiap layanan dapat berubah. Gunakan dokumentasi resmi layanan yang Anda pakai untuk petunjuk teknis terbaru.

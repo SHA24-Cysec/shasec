@@ -83,7 +83,7 @@ Many basic steps (data minimization, access restrictions, privacy policies) requ
 Data protection laws give data subjects the right to request deletion. Prepare procedures to fulfill these requests within reasonable timeframes. Delete data from all systems, including backups after retention periods expire.
 
 ## Sources and further reading
-- [GDPR:GuideforSmallBusinesses](https://gdpr.Eu/small-business/)
-- [CISA:SmallBusinessCybersecurity](https://www.Cisa.Gov/small-business)
-- [NIST:SmallBusinessInformationSecurity](https://www.Nist.Gov/itb/ssd/small-business-information-security-guide)
+- [GDPR.eu: Compliance Checklist](https://gdpr.eu/checklist/)
+- [CISA: Small Business Cybersecurity](https://www.cisa.gov/small-business)
+- [NIST: Small Business Cybersecurity Corner](https://www.nist.gov/itl/smallbusinesscyber)
 > **Editorial note:** This article provides general guidance and is not legal advice. For specific compliance with applicable data protection regulations, consult a legal professional or data privacy consultant.

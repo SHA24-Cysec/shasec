@@ -80,8 +80,8 @@ Some deepfake detection tools exist, but they lag behind creation technology. Au
 In the context of direct fraud, yes. Voice cloning requires less source data and can be used in real-time phone calls without the complex preparation video requires.
 
 ## Sources and further reading
-- [CISA:DeepfakeAwareness](https://www.Cisa.Gov/deepfakes)
-- [MITMediaLab:DetectingDeepfakes](https://www.Media.Mit.Edu/)
-- [FTC:AIandDeepfakesinFraud](https://consumer.Ftc.Gov/articles/what-know-about-ai-and-deepfakes)
+- [CISA: Contextualizing Deepfake Threats](https://www.cisa.gov/news-events/alerts/2023/09/12/nsa-fbi-and-cisa-release-cybersecurity-information-sheet-deepfake-threats)
+- [MIT Media Lab: Detecting Deepfakes](https://www.media.mit.edu/)
+- [FTC: How to Avoid a Scam](https://consumer.ftc.gov/articles/how-avoid-scam)
 
 > **Editorial note:** This article is educational and defensive in nature. Deepfake technology evolves rapidly. The signs mentioned may become less relevant as technology advances.

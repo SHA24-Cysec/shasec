@@ -86,7 +86,7 @@ No. But online relationships with people you have never met in person require ex
 Recovery chances are very small, especially for international transfers, cryptocurrency, or gift cards. Speed of reporting to the bank and law enforcement determines recovery chances.
 
 ## Sources and further reading
-- [FTC:RomanceScams](https://consumer.Ftc.Gov/articles/what-know-about-romance-scams)
-- [FBI:RomanceScams](https://www.Fbi.Gov/how-we-can-help-you/safety-resources/scams-and-fraud/romance-scams)
-- [ACCC:ReportaRomanceScam](https://www.Scamwatch.Gov.Au/)
+- [FTC: What to Know About Romance Scams](https://consumer.ftc.gov/articles/what-know-about-romance-scams)
+- [FBI: Romance Scams](https://www.fbi.gov/how-we-can-help-you/scams-and-safety/common-frauds-and-scams/romance-scams)
+- [ACCC Scamwatch: Report a Romance Scam](https://www.scamwatch.gov.au/)
 > **Editorial note:** This article is written with empathy for romance scam victims. If you or a loved one has experienced this fraud, professional help is available and recovery is possible.

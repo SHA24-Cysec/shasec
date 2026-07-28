@@ -86,8 +86,8 @@ The impact is minimal on modern devices. Full disk encryption adds less than 1% 
 Not all data requires high-level encryption. Prioritize sensitive data: passwords, financial data, identity documents, private communications, and client data.
 
 ## Sources and further reading
-- [EFF:EncryptionBasics](https://ssd.Eff.Org/en/module/what-should-i-know-about-encryption)
-- [NIST:CryptographicStandards](https://csrc.Nist.Gov/projects/cryptographic-standards-and-guidelines)
-- [SignalProtocolDocumentation](https://signal.Org/docs/)
+- [EFF: Keeping Your Data Safe](https://ssd.eff.org/module/keeping-your-data-safe)
+- [NIST: Cryptographic Standards and Guidelines](https://csrc.nist.gov/projects/cryptographic-standards-and-guidelines)
+- [Signal Protocol Documentation](https://signal.org/docs/)
 
 > **Editorial note:** This article explains encryption concepts for general understanding. Specific technical implementation depends on the platforms and tools you use.

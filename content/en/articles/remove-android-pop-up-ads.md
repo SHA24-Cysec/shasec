@@ -34,31 +34,31 @@ Note when pop-ups start appearing and what apps were recently installed. Changes
 
 ### 2. Check recent apps
 
-Open the app list and sort by installation time if available. Delete apps you don't recognize or no longer need. Don't install new cleaning apps from pop-up ads. Keep brief notes about the time, sources of information, and steps taken. These notes are helpful if you need to contact authorized service.
+Open the app list and sort by installation time if available. Delete apps you don't recognize or no longer need. Don't install new cleaning apps from pop-up ads.
 
 ### 3. Review permissions to appear on top of other apps
 
-Overlay permission allows apps to appear on top of other screens. Check which apps have this permission and disable them if the app's functionality doesn't require it. Keep brief notes about the time, sources of information, and steps taken. These notes are helpful if you need to contact authorized service.
+Overlay permission allows apps to appear on top of other screens. Check which apps have this permission and disable them if the app's functionality doesn't require it.
 
 ### 4. Check accessibility and notifications
 
-Unknown apps should not have accessibility or notification reading access. Revoke suspicious permissions. This permission can be used to cover the screen or read the verification code. Keep brief notes about the time, sources of information, and steps taken. These notes are helpful if you need to contact authorized service.
+Unknown apps should not have accessibility or notification reading access. Revoke suspicious permissions. This permission can be used to cover the screen or read the verification code.
 
 ### 5. Clear site notifications in the browser
 
-In your browser settings, check which sites are allowed to send notifications. Block or delete unknown sites. Set pop-up and redirect blocking according to browser preferences. Keep brief notes about the time, sources of information, and steps taken. These notes are helpful if you need to contact authorized service.
+In your browser settings, check which sites are allowed to send notifications. Block or delete unknown sites. Set pop-up and redirect blocking according to browser preferences.
 
 ### 6. Use Play Protect and update
 
-Open Google Play Store and make sure security scanning is active. Update Android, browsers, and apps as updates can close gaps and fix known issues. Keep brief notes about the time, sources of information, and steps taken. These notes are helpful if you need to contact authorized service.
+Open Google Play Store and make sure security scanning is active. Update Android, browsers, and apps as updates can close gaps and fix known issues.
 
 ### 7. Don't click on ads to close them
 
-Malicious ads often use fake close buttons. Use the back button, close the app from the recent apps screen, or restart the device if the screen becomes unusable. Keep brief notes about the time, sources of information, and steps taken. These notes are helpful if you need to contact authorized service.
+Malicious ads often use fake close buttons. Use the back button, close the app from the recent apps screen, or restart the device if the screen becomes unusable.
 
 ### 8. Select factory reset as the final step
 
-If pop-ups keep appearing, the app won't delete, or the permissions change on their own, back up important data and then consider a factory reset from the official menu. After reset, install apps one by one from official sources. Keep brief notes about the time, sources of information, and steps taken. These notes are helpful if you need to contact authorized service.
+If pop-ups keep appearing, the app won't delete, or the permissions change on their own, back up important data and then consider a factory reset from the official menu. After reset, install apps one by one from official sources.
 
 ## Example situations
 
@@ -105,47 +105,47 @@ In the context of how to get rid of pop-up ads on an Android phone without insta
 
 ### Identity of related parties
 
-In the context of how to get rid of pop-up ads on an Android cellphone without installing a new APK, check the identity of the party concerned with a clear goal. Avoid giving more access or data than necessary. Record important decisions, use official channels, and take gradual action so you don't create new problems while trying to resolve the initial problem.
+In the context of how to get rid of pop-up ads on an Android cellphone without installing a new APK, check the identity of the party concerned with a clear goal.
 
 ### Main account
 
-In the context of how to get rid of pop-up ads on an Android phone without installing a new APK, check the main account with a clear goal. Avoid giving more access or data than necessary. Record important decisions, use official channels, and take gradual action so you don't create new problems while trying to resolve the initial problem.
+In the context of how to get rid of pop-up ads on an Android phone without installing a new APK, check the main account with a clear goal.
 
 ### Other devices
 
-In the context of how to get rid of pop-up ads on an Android phone without installing a new APK, check other devices with clear goals. Avoid giving more access or data than necessary. Record important decisions, use official channels, and take gradual action so you don't create new problems while trying to resolve the initial problem.
+In the context of how to get rid of pop-up ads on an Android phone without installing a new APK, check other devices with clear goals.
 
 ### Proof of transaction or activity
 
-In the context of how to get rid of pop-up ads on Android phones without installing a new APK, check proof of transactions or activities with a clear purpose. Avoid giving more access or data than necessary. Record important decisions, use official channels, and take gradual action so you don't create new problems while trying to resolve the initial problem.
+In the context of how to get rid of pop-up ads on Android phones without installing a new APK, check proof of transactions or activities with a clear purpose.
 
 ### App permissions
 
-In the context of how to get rid of pop-up ads on an Android phone without installing a new APK, check the application permissions with a clear purpose. Avoid giving more access or data than necessary. Record important decisions, use official channels, and take gradual action so you don't create new problems while trying to resolve the initial problem.
+In the context of how to get rid of pop-up ads on an Android phone without installing a new APK, check the application permissions with a clear purpose.
 
 ### Change history
 
-In the context of how to get rid of pop-up ads on an Android phone without installing a new APK, check the change history with a clear goal. Avoid giving more access or data than necessary. Record important decisions, use official channels, and take gradual action so you don't create new problems while trying to resolve the initial problem.
+In the context of how to get rid of pop-up ads on an Android phone without installing a new APK, check the change history with a clear goal.
 
 ### Reporting path
 
-In the context of how to get rid of pop-up ads on an Android phone without installing a new APK, check the reporting path with a clear objective. Avoid giving more access or data than necessary. Record important decisions, use official channels, and take gradual action so you don't create new problems while trying to resolve the initial problem.
+In the context of how to get rid of pop-up ads on an Android phone without installing a new APK, check the reporting path with a clear objective.
 
 ### Account recovery
 
-In the context of how to get rid of pop-up ads on an Android phone without installing a new APK, check account recovery with a clear goal. Avoid giving more access or data than necessary. Record important decisions, use official channels, and take gradual action so you don't create new problems while trying to resolve the initial problem.
+In the context of how to get rid of pop-up ads on an Android phone without installing a new APK, check account recovery with a clear goal.
 
 ### Next precaution
 
-In the context of how to get rid of pop-up ads on an Android phone without installing a new APK, check out the next precaution with a clear goal. Avoid giving more access or data than necessary. Record important decisions, use official channels, and take gradual action so you don't create new problems while trying to resolve the initial problem.
+In the context of how to get rid of pop-up ads on an Android phone without installing a new APK, check out the next precaution with a clear goal.
 
 ### Family customs
 
-In the context of how to get rid of pop-up ads on Android phones without installing a new APK, check family habits with a clear goal. Avoid giving more access or data than necessary. Record important decisions, use official channels, and take gradual action so you don't create new problems while trying to resolve the initial problem.
+In the context of how to get rid of pop-up ads on Android phones without installing a new APK, check family habits with a clear goal.
 
 ### Periodic review
 
-In the context of how to get rid of pop-up ads on an Android phone without installing a new apk, check out periodic reviews with clear objectives. Avoid giving more access or data than necessary. Record important decisions, use official channels, and take gradual action so you don't create new problems while trying to resolve the initial problem.
+In the context of how to get rid of pop-up ads on an Android phone without installing a new apk, check out periodic reviews with clear objectives.
 
 ### Safe action notes
 
@@ -153,143 +153,143 @@ Store evidence with limited access. Small steps taken in the right order are oft
 
 ### Safe action notes
 
-Store evidence with limited access. Small steps taken in the right order are often more effective than quick actions without verification.
+Store evidence with limited access.
 
 ### Safe action notes
 
-Store evidence with limited access. Small steps taken in the right order are often more effective than quick actions without verification.
+Store evidence with limited access.
 
 ### Safe action notes
 
-Store evidence with limited access. Small steps taken in the right order are often more effective than quick actions without verification.
+Store evidence with limited access.
 
 ### Safe action notes
 
-Store evidence with limited access. Small steps taken in the right order are often more effective than quick actions without verification.
+Store evidence with limited access.
 
 ### Safe action notes
 
-Store evidence with limited access. Small steps taken in the right order are often more effective than quick actions without verification.
+Store evidence with limited access.
 
 ### Safe action notes
 
-Store evidence with limited access. Small steps taken in the right order are often more effective than quick actions without verification.
+Store evidence with limited access.
 
 ### Safe action notes
 
-Store evidence with limited access. Small steps taken in the right order are often more effective than quick actions without verification.
+Store evidence with limited access.
 
 ### Safe action notes
 
-Store evidence with limited access. Small steps taken in the right order are often more effective than quick actions without verification.
+Store evidence with limited access.
 
 ### Safe action notes
 
-Store evidence with limited access. Small steps taken in the right order are often more effective than quick actions without verification.
+Store evidence with limited access.
 
 ### Safe action notes
 
-Store evidence with limited access. Small steps taken in the right order are often more effective than quick actions without verification.
+Store evidence with limited access.
 
 ### Safe action notes
 
-Store evidence with limited access. Small steps taken in the right order are often more effective than quick actions without verification.
+Store evidence with limited access.
 
 ### Safe action notes
 
-Store evidence with limited access. Small steps taken in the right order are often more effective than quick actions without verification.
+Store evidence with limited access.
 
 ### Safe action notes
 
-Store evidence with limited access. Small steps taken in the right order are often more effective than quick actions without verification.
+Store evidence with limited access.
 
 ### Safe action notes
 
-Store evidence with limited access. Small steps taken in the right order are often more effective than quick actions without verification.
+Store evidence with limited access.
 
 ### Safe action notes
 
-Store evidence with limited access. Small steps taken in the right order are often more effective than quick actions without verification.
+Store evidence with limited access.
 
 ### Safe action notes
 
-Store evidence with limited access. Small steps taken in the right order are often more effective than quick actions without verification.
+Store evidence with limited access.
 
 ### Safe action notes
 
-Store evidence with limited access. Small steps taken in the right order are often more effective than quick actions without verification.
+Store evidence with limited access.
 
 ### Safe action notes
 
-Store evidence with limited access. Small steps taken in the right order are often more effective than quick actions without verification.
+Store evidence with limited access.
 
 ### Safe action notes
 
-Store evidence with limited access. Small steps taken in the right order are often more effective than quick actions without verification.
+Store evidence with limited access.
 
 ### Safe action notes
 
-Store evidence with limited access. Small steps taken in the right order are often more effective than quick actions without verification.
+Store evidence with limited access.
 
 ### Safe action notes
 
-Store evidence with limited access. Small steps taken in the right order are often more effective than quick actions without verification.
+Store evidence with limited access.
 
 ### Safe action notes
 
-Store evidence with limited access. Small steps taken in the right order are often more effective than quick actions without verification.
+Store evidence with limited access.
 
 ### Safe action notes
 
-Store evidence with limited access. Small steps taken in the right order are often more effective than quick actions without verification.
+Store evidence with limited access.
 
 ### Safe action notes
 
-Store evidence with limited access. Small steps taken in the right order are often more effective than quick actions without verification.
+Store evidence with limited access.
 
 ### Safe action notes
 
-Store evidence with limited access. Small steps taken in the right order are often more effective than quick actions without verification.
+Store evidence with limited access.
 
 ### Safe action notes
 
-Store evidence with limited access. Small steps taken in the right order are often more effective than quick actions without verification.
+Store evidence with limited access.
 
 ### Safe action notes
 
-Store evidence with limited access. Small steps taken in the right order are often more effective than quick actions without verification.
+Store evidence with limited access.
 
 ### Safe action notes
 
-Store evidence with limited access. Small steps taken in the right order are often more effective than quick actions without verification.
+Store evidence with limited access.
 
 ### Safe action notes
 
-Store evidence with limited access. Small steps taken in the right order are often more effective than quick actions without verification.
+Store evidence with limited access.
 
 ### Safe action notes
 
-Store evidence with limited access. Small steps taken in the right order are often more effective than quick actions without verification.
+Store evidence with limited access.
 
 ### Safe action notes
 
-Store evidence with limited access. Small steps taken in the right order are often more effective than quick actions without verification.
+Store evidence with limited access.
 
 ### Safe action notes
 
-Store evidence with limited access. Small steps taken in the right order are often more effective than quick actions without verification.
+Store evidence with limited access.
 
 ### Safe action notes
 
-Store evidence with limited access. Small steps taken in the right order are often more effective than quick actions without verification.
+Store evidence with limited access.
 
 ### Safe action notes
 
-Store evidence with limited access. Small steps taken in the right order are often more effective than quick actions without verification.
+Store evidence with limited access.
 
 ### Safe action notes
 
-Store evidence with limited access. Small steps taken in the right order are often more effective than quick actions without verification.
+Store evidence with limited access.
 
 ## Sources and further reading
 

@@ -86,6 +86,6 @@ Hubungi operator melalui jalur resmi dan tanyakan pilihan pengamanan atau pengga
 Tidak. PIN atau kata sandi layar tetap penting sebagai lapisan dasar dan untuk situasi tertentu.
 
 ## Sumber dan bacaan lanjutan
-- [FTC:Fivewaystokeepscammersandhackersaway](https://consumer.Ftc.Gov/consumer-alerts/2024/08/five-ways-keep-scammers-hackers-away)
-- [GoogleAccountHelp:Makeyouraccountmoresecure](https://support.Google.Com/accounts/answer/46526?hl=en)
+- [FTC: Five Ways to Keep Scammers and Hackers Away](https://consumer.ftc.gov/consumer-alerts/2024/08/five-ways-keep-scammers-hackers-away)
+- [Google Account Help: Make Your Account More Secure](https://support.google.com/accounts/answer/46526?hl=en)
 > **Catatan editorial:** Artikel ini bersifat edukatif dan defensif. Tampilan, kebijakan, dan fitur setiap layanan dapat berubah. Gunakan dokumentasi resmi layanan yang Anda pakai untuk petunjuk teknis terbaru.

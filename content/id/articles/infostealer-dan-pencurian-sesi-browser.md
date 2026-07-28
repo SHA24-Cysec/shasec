@@ -136,7 +136,7 @@ Dalam pencegahan infostealer dan pencurian sesi browser, periksa Situs unduhan d
 
 ### Pengembang aplikasi
 
-Pengembang aplikasi perlu memiliki batas yang dapat dilihat pengguna. Risiko muncul ketika malware mengambil kredensial, token sesi, atau data akun dari perangkat. Uji alur dengan contoh yang aman, lalu hentikan penggunaan jika alasannya tidak jelas. Minta penilaian dari pemilik perangkat, pengguna akun, dan tim IT bila tersedia sebelum data atau tindakan tambahan diproses.
+Pengembang aplikasi perlu memiliki batas yang dapat dilihat pengguna. Uji alur dengan contoh yang aman, lalu hentikan penggunaan jika alasannya tidak jelas. Minta penilaian dari pemilik perangkat, pengguna akun, dan tim IT bila tersedia sebelum data atau tindakan tambahan diproses.
 
 ### Izin ekstensi
 
@@ -148,45 +148,45 @@ Saat menilai Sinkronisasi browser, lihat dampaknya bagi orang dan data, bukan ha
 
 ### Profil tamu
 
-Dalam pencegahan infostealer dan pencurian sesi browser, periksa Profil tamu dengan tujuan yang jelas. Pastikan pemilik perangkat, pengguna akun, dan tim IT bila tersedia dapat menerangkan alasan akses atau tindakan tersebut. Jangan memilih pengaturan paling luas hanya demi kenyamanan. Catat keputusan dan tanggal pemeriksaan supaya perubahan kecil tidak berkembang tanpa diketahui.
+Dalam pencegahan infostealer dan pencurian sesi browser, periksa Profil tamu dengan tujuan yang jelas.
 
 ### Sistem operasi
 
-Sistem operasi perlu memiliki batas yang dapat dilihat pengguna. Risiko muncul ketika malware mengambil kredensial, token sesi, atau data akun dari perangkat. Uji alur dengan contoh yang aman, lalu hentikan penggunaan jika alasannya tidak jelas. Minta penilaian dari pemilik perangkat, pengguna akun, dan tim IT bila tersedia sebelum data atau tindakan tambahan diproses.
+Sistem operasi perlu memiliki batas yang dapat dilihat pengguna.
 
 ### Akun keuangan
 
-Jadikan Akun keuangan bagian dari pekerjaan rutin, bukan tindakan setelah masalah terjadi. Pada pencegahan infostealer dan pencurian sesi browser, perubahan akun, izin, atau alur dapat mengubah risiko. Pemilik perlu mengetahui perubahan itu dan memastikan perlindungan masih sesuai tujuan awal.
+Jadikan Akun keuangan bagian dari pekerjaan rutin, bukan tindakan setelah masalah terjadi.
 
 ### Email pemulihan
 
-Saat menilai Email pemulihan, lihat dampaknya bagi orang dan data, bukan hanya apakah fitur tersedia. pemilik perangkat, pengguna akun, dan tim IT bila tersedia perlu memberi pengguna cara untuk bertanya dan melapor. Catatan yang dapat diperiksa akan membantu respons bila malware mengambil kredensial, token sesi, atau data akun dari perangkat.
+Saat menilai Email pemulihan, lihat dampaknya bagi orang dan data, bukan hanya apakah fitur tersedia.
 
 ### Kode cadangan
 
-Dalam pencegahan infostealer dan pencurian sesi browser, periksa Kode cadangan dengan tujuan yang jelas. Pastikan pemilik perangkat, pengguna akun, dan tim IT bila tersedia dapat menerangkan alasan akses atau tindakan tersebut. Jangan memilih pengaturan paling luas hanya demi kenyamanan. Catat keputusan dan tanggal pemeriksaan supaya perubahan kecil tidak berkembang tanpa diketahui.
+Dalam pencegahan infostealer dan pencurian sesi browser, periksa Kode cadangan dengan tujuan yang jelas.
 
 ### Ponsel kedua
 
-Ponsel kedua perlu memiliki batas yang dapat dilihat pengguna. Risiko muncul ketika malware mengambil kredensial, token sesi, atau data akun dari perangkat. Uji alur dengan contoh yang aman, lalu hentikan penggunaan jika alasannya tidak jelas. Minta penilaian dari pemilik perangkat, pengguna akun, dan tim IT bila tersedia sebelum data atau tindakan tambahan diproses.
+Ponsel kedua perlu memiliki batas yang dapat dilihat pengguna.
 
 ### Pemberitahuan akun
 
-Jadikan Pemberitahuan akun bagian dari pekerjaan rutin, bukan tindakan setelah masalah terjadi. Pada pencegahan infostealer dan pencurian sesi browser, perubahan akun, izin, atau alur dapat mengubah risiko. Pemilik perlu mengetahui perubahan itu dan memastikan perlindungan masih sesuai tujuan awal.
+Jadikan Pemberitahuan akun bagian dari pekerjaan rutin, bukan tindakan setelah masalah terjadi.
 
 ### Pengguna bersama
 
-Saat menilai Pengguna bersama, lihat dampaknya bagi orang dan data, bukan hanya apakah fitur tersedia. pemilik perangkat, pengguna akun, dan tim IT bila tersedia perlu memberi pengguna cara untuk bertanya dan melapor. Catatan yang dapat diperiksa akan membantu respons bila malware mengambil kredensial, token sesi, atau data akun dari perangkat.
+Saat menilai Pengguna bersama, lihat dampaknya bagi orang dan data, bukan hanya apakah fitur tersedia.
 
 ### Berbagi perangkat
 
-Dalam pencegahan infostealer dan pencurian sesi browser, periksa Berbagi perangkat dengan tujuan yang jelas. Pastikan pemilik perangkat, pengguna akun, dan tim IT bila tersedia dapat menerangkan alasan akses atau tindakan tersebut. Jangan memilih pengaturan paling luas hanya demi kenyamanan. Catat keputusan dan tanggal pemeriksaan supaya perubahan kecil tidak berkembang tanpa diketahui.
+Dalam pencegahan infostealer dan pencurian sesi browser, periksa Berbagi perangkat dengan tujuan yang jelas.
 
 ## Sumber dan bacaan lanjutan
 
 - [CISA: Secure Our World](https://www.cisa.gov/secure-our-world)
 - [CISA: Avoiding Social Engineering and Phishing Attacks](https://www.cisa.gov/news-events/news/avoiding-social-engineering-and-phishing-attacks)
 - [Google Safety Center](https://safety.google/)
-- [Microsoft: Protect Yourself from Malware](https://support.microsoft.com/windows/protect-my-pc-from-malware-0f6a30d5-9c8f-4b4b-828e-95a0fcd49000)
+- [Microsoft: Protect Yourself from Malware](https://support.microsoft.com/en-us/windows/protect-my-pc-from-viruses-b2025ed1-02d5-1e87-ba5f-71999008e026)
 
 > **Catatan editorial:** Jika perangkat kerja atau akun keuangan mungkin terdampak, laporkan lebih awal kepada organisasi atau penyedia layanan. Kecepatan respons sering membatasi dampak lanjutan.

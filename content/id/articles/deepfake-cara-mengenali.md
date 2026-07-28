@@ -14,7 +14,7 @@ summary: "Deepfake bisa meniru wajah dan suara siapa pun dengan kualitas yang su
 cover: "/images/articles/deepfake-detection.webp"
 ---
 
-Deepfake adalah media sintetis yang dibuat menggunakan kecerdasan buatan untuk menggantikan wajah, suara, atau gerakan seseorang dengan tiruan yang sangat realistis. Teknologi ini berkembang cepat: deepfake yang dua tahun lalu terlihat jelas palsu sekarang bisa menipu bahkan pengamat yang teliti. Aplikasi pembuat deepfake sudah tersedia di ponsel, dan biayanya mendekati nol. Dampaknya melampaui selebriti dan politisi. Penipuan berbasis deepfake sudah menargetkan karyawan perusahaan: pelaku memakai video call dengan wajah CEO palsu untuk memerintahkan transfer dana, atau suara atasan yang ditelepon untuk meminta informasi rahasia.
+Deepfake adalah media sintetis yang dibuat menggunakan kecerdasan buatan untuk menggantikan wajah, suara, atau gerakan seseorang dengan tiruan yang realistis. Teknologi ini berkembang cepat: deepfake yang dua tahun lalu terlihat jelas palsu sekarang bisa menipu bahkan pengamat yang teliti. Aplikasi pembuat deepfake sudah tersedia di ponsel, dan biayanya mendekati nol. Dampaknya melampaui selebriti dan politisi. Penipuan berbasis deepfake sudah menargetkan karyawan perusahaan: pelaku memakai video call dengan wajah CEO palsu untuk memerintahkan transfer dana, atau suara atasan yang ditelepon untuk meminta informasi rahasia.
 
 ## Bagaimana deepfake bekerja
 
@@ -80,8 +80,8 @@ Beberapa alat deteksi deepfake tersedia, tapi mereka tertinggal dari teknologi p
 Dalam konteks penipuan langsung, ya. Voice cloning membutuhkan lebih sedikit data sumber dan bisa dipakai secara real-time dalam panggilan telepon, tanpa perlu persiapan video yang rumit.
 
 ## Sumber dan bacaan lanjutan
-- [CISA:DeepfakeAwareness](https://www.Cisa.Gov/deepfakes)
-- [MITMediaLab:DetectingDeepfakes](https://www.Media.Mit.Edu/)
-- [FTC:AIandDeepfakesinFraud](https://consumer.Ftc.Gov/articles/what-know-about-ai-and-deepfakes)
+- [CISA: Contextualizing Deepfake Threats](https://www.cisa.gov/news-events/alerts/2023/09/12/nsa-fbi-and-cisa-release-cybersecurity-information-sheet-deepfake-threats)
+- [MIT Media Lab: Detecting Deepfakes](https://www.media.mit.edu/)
+- [FTC: How to Avoid a Scam](https://consumer.ftc.gov/articles/how-avoid-scam)
 
 > **Catatan editorial:** Artikel ini bersifat edukatif dan defensif. Teknologi deepfake berkembang cepat. Tanda-tanda yang disebutkan bisa menjadi kurang relevan seiring kemajuan teknologi.

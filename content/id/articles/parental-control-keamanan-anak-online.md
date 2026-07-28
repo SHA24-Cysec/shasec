@@ -79,7 +79,7 @@ Parental control seharusnya berkurang seiring anak bertambah dewasa dan menunjuk
 
 - **Memasang pengawasan tanpa sepengetahuan anak.** Ketika anak menemukannya (dan mereka akan), kepercayaan rusak. Lebih baik transparan tentang apa yang dipantau dan mengapa.
 - **Menganggap filter sebagai solusi lengkap.** Anak bisa mengakses internet di luar rumah, di sekolah, atau melalui perangkat teman. Literasi digital lebih penting daripada filter.
-- **M bereaksi berlebihan saat menemukan sesuatu.** Jika anak menceritakan pengalaman buruk online, respons pertama harus mendengarkan, bukan menghukum atau menyita perangkat. Reaksi berlebihan membuat anak berhenti bercerita.
+- **Bereaksi berlebihan saat menemukan sesuatu.** Jika anak menceritakan pengalaman buruk online, respons pertama harus mendengarkan, bukan menghukum atau menyita perangkat. Reaksi berlebihan membuat anak berhenti bercerita.
 
 ## Pertanyaan yang sering diajukan
 
@@ -93,8 +93,8 @@ Untuk anak kecil, memeriksa aktivitas online adalah bagian dari pengawasan. Untu
 Ini normal dan menunjukkan kecerdasan teknis. Alih-alih memperketat filter, bicarakan mengapa mereka ingin mengakses konten tersebut dan apa risikonya. Fondasi komunikasi lebih kuat dari pagar teknis.
 
 ## Sumber dan bacaan lanjutan
-- [CommonSenseMedia:ParentingwithTechnology](https://www.Commonsensemedia.Org/articles)
-- [UNICEF:ChildOnlineSafety](https://www.Unicef.Org/child-protection/online-protection)
-- [Google:FamilyLinkHelp](https://families.Google.Com/familylink/)
+- [Common Sense Media: Parenting with Technology](https://www.commonsensemedia.org/articles)
+- [UNICEF: Keeping Children Safe Online](https://www.unicef.org/protection/keeping-children-safe-online)
+- [Google: Family Link Help](https://families.google.com/familylink/)
 
 > **Catatan editorial:** Artikel ini bersifat panduan umum. Setiap keluarga memiliki nilai dan kebutuhan berbeda. Sesuaikan pendekatan dengan konteks keluarga Anda.

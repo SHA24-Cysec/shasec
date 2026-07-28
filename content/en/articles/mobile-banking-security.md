@@ -78,7 +78,7 @@ Immediately contact the bank to freeze mobile banking access. Contact your carri
 On Android, antivirus can add a defense layer against malware. On non-jailbroken iPhones, malware risk is lower due to Apple's sandboxing architecture. On both platforms, the primary protection source remains safe habits.
 
 ## Sources and further reading
-- [CISA:MobileDeviceSecurity](https://www.Cisa.Gov/topics/cybersecurity-best-practices/mobile-device-security)
-- [FTC:MobileBankingSecurityTips](https://consumer.Ftc.Gov/articles/mobile-banking)
-- [OWASP:MobileSecurityTestingGuide](https://owasp.Org/www-project-mobile-security-testing-guide/)
+- [CISA: Mobile Communications Best Practice Guidance](https://www.cisa.gov/resources-tools/resources/mobile-communications-best-practice-guidance)
+- [FTC: How to Protect Your Phone and the Data on It](https://consumer.ftc.gov/articles/how-protect-your-phone-and-data-it)
+- [OWASP: Mobile Security Testing Guide](https://owasp.org/www-project-mobile-security-testing-guide/)
 > **Editorial note:** This article is educational in nature. Security features vary by bank. Refer to your bank's security guide for specific instructions.

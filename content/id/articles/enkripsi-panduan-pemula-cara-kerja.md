@@ -86,8 +86,8 @@ Dampaknya sangat kecil pada perangkat modern. Enkripsi disk penuh menambah laten
 Tidak semua data memerlukan enkripsi tingkat tinggi. Prioritaskan data sensitif: kata sandi, data keuangan, dokumen identitas, komunikasi pribadi, dan data klien.
 
 ## Sumber dan bacaan lanjutan
-- [EFF:EncryptionBasics](https://ssd.Eff.Org/en/module/what-should-i-know-about-encryption)
-- [NIST:CryptographicStandards](https://csrc.Nist.Gov/projects/cryptographic-standards-and-guidelines)
-- [SignalProtocolDocumentation](https://signal.Org/docs/)
+- [EFF: Keeping Your Data Safe](https://ssd.eff.org/module/keeping-your-data-safe)
+- [NIST: Cryptographic Standards and Guidelines](https://csrc.nist.gov/projects/cryptographic-standards-and-guidelines)
+- [Signal Protocol Documentation](https://signal.org/docs/)
 
 > **Catatan editorial:** Artikel ini menjelaskan konsep enkripsi untuk pemahaman umum. Implementasi teknis spesifik bergantung pada platform dan alat yang Anda pakai.

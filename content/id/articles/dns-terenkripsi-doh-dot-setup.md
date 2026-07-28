@@ -59,7 +59,7 @@ Dua protokol enkripsi traffic DNS di dalam TLS. Dua-duanya pakai port standar (4
 Distandardkan di RFC 7858 (2016). Pesan DNS diframe over persistent TLS connection di port 853. Client initiate TCP, lakukan TLS handshake, verifikasi sertifikat, kirim query DNS sebagai length-prefixed messages.
 
 Karakteristik:
-- Port dedicated (853)   mudah diidentifikasi dan diblokir
+- Port dedicated (853): mudah diidentifikasi dan diblokir
 - Latency lebih rendah setelah connection established (persistent connection)
 - Native OS support di Android 9+, iOS 14+, Windows 11, Linux (systemd-resolved, stubby)
 - Pemisahan jelas dari traffic HTTP
@@ -69,7 +69,7 @@ Karakteristik:
 Distandardkan di RFC 8484 (2018). Pesan DNS di-encode sebagai HTTPS request (GET atau POST) ke HTTPS endpoint. Pakai port standar 443. Tidak bisa dibedakan dari traffic HTTPS regular oleh observer casual.
 
 Karakteristik:
-- Port 443   sulit diblokir tanpa blokir HTTPS
+- Port 443: sulit diblokir tanpa blokir HTTPS
 - Latency lebih tinggi per query (koneksi baru atau HTTP/2 multiplexing)
 - Browser-native support (Firefox, Chrome, Edge, Brave, Safari)
 - Bisa leverage HTTP/2, HTTP/3 (QUIC) untuk performance
@@ -409,11 +409,11 @@ Pakai Tor network untuk DNS. JANGAN aktifkan DoH (pecah isolation).
 ## Verifikasi: Apakah Bekerja?
 
 **Web Tests**
-- `https://1.1.1.1/help` (Cloudflare)   tunjukkan protokol, TLS, DNSSEC
-- `https://dnsleaktest.com/`   jalankan test standard dan extended
-- `https://dns.nextdns.io/`   tunjukkan config Anda, protokol, enkripsi
-- `https://quad9.net/test/`   halaman test Quad9
-- `https://www.dns-oarc.net/oarc/services/dnsentropy`   test entropy
+- `https://1.1.1.1/help` (Cloudflare): tunjukkan protokol, TLS, DNSSEC
+- `https://dnsleaktest.com/`: jalankan test standard dan extended
+- `https://dns.nextdns.io/`: tunjukkan config Anda, protokol, enkripsi
+- `https://quad9.net/test/`: halaman test Quad9
+- `https://www.dns-oarc.net/oarc/services/dnsentropy`: test entropy
 
 **Command Line**
 ```bash

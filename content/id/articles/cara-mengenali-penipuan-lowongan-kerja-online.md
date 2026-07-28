@@ -59,6 +59,6 @@ Boleh, karena CV berisi riwayat kerja. Yang perlu ditahan adalah dokumen identit
 Anda diminta menerima transfer lalu meneruskan ke rekening lain, atau mencairkan dana atas nama pihak lain. Tolak dan laporkan.
 
 ## Sumber dan bacaan lanjutan
-- [CISA:Coreonlinesafetyactions](https://www.Cisa.Gov/news-events/news/national-internet-safety-month-june-take-4-easy-steps-stay-safe-online)
-- [FTC:Protectpersonalinformation](https://consumer.Ftc.Gov/articles/protect-your-personal-information-hackers-and-scammers)
+- [CISA: Core Online Safety Actions](https://www.cisa.gov/news-events/news/national-internet-safety-month-june-take-4-easy-steps-stay-safe-online)
+- [FTC: Protect Your Personal Information](https://consumer.ftc.gov/articles/protect-your-personal-information-hackers-and-scammers)
 > **Catatan editorial:** Artikel ini bersifat edukatif dan defensif. Untuk verifikasi lowongan, gunakan portal kerja resmi dan otoritas tenaga kerja yang berlaku di wilayah Anda.

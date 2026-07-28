@@ -161,7 +161,7 @@ Berikut perbandingan metode serangan berbasis identitas dari segi efektivitas da
 
 **Credential stuffing.** Prevalensi: sangat tinggi. Efektivitas: sedang. Rasio keberhasilan tipikal: 0,1-2%. Tapi pada skala jutaan akun, bahkan 0,1% menghasilkan ribuan akun yang dikompromikan.
 
-**Phishing kredensial.** Prevalensi: sangat tinggi. Efektivitas: tinggi. Tergantung pada kualitas pesan dan kesadaran korban. AI meningkatkan efektivitas secara signifikan.
+**Phishing kredensial.** Prevalensi: sangat tinggi. Efektivitas: tinggi. Tergantung pada kualitas pesan dan kesadaran korban. AI meningkatkan efektivitas.
 
 **Token theft.** Prevalensi: sedang. Efektivitas: sangat tinggi. Token yang dicuri memberikan akses penuh tanpa perlu kredensial tambahan. Bypass MFA otomatis.
 
@@ -191,7 +191,7 @@ Serangan berbasis identitas mengubah keamanan dari masalah teknis menjadi masala
 
 ### Apakah 2FA benar-benar melindungi saya?
 
-2FA meningkatkan keamanan secara signifikan, tapi bukan jaminan absolut. 2FA berbasis SMS rentan terhadap SIM swap. 2FA berbasis push notification rentan terhadap MFA fatigue. 2FA berbasis kode TOTP (Time-based One-Time Password) dari aplikasi authenticator jauh lebih aman. Passkey dan security key hardware adalah opsi paling aman.
+2FA meningkatkan keamanan, tapi bukan jaminan absolut. 2FA berbasis SMS rentan terhadap SIM swap. 2FA berbasis push notification rentan terhadap MFA fatigue. 2FA berbasis kode TOTP (Time-based One-Time Password) dari aplikasi authenticator jauh lebih aman. Passkey dan security key hardware adalah opsi paling aman.
 
 ### Apa bedanya passkey dan kata sandi?
 

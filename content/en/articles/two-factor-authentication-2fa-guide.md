@@ -86,7 +86,7 @@ Use the strongest supported option that you can manage reliably. Passkeys or sec
 While you can still sign in, regenerate them and review recovery methods. Do not wait for the primary device to be lost.
 
 ## Sources and further reading
-- [GoogleAccountHelp:Makeyouraccountmoresecure](https://support.Google.Com/accounts/answer/46526?hl=en)
-- [GoogleAccountHelp:2-StepVerification](https://support.Google.Com/accounts/answer/185839?hl=en&co=GENIE.Platform%3DAndroid)
-- [NISTNCCoE:Multi-factorauthenticationconcepts](https://www.Nccoe.Nist.Gov/news-insights/mobile-passwords-tricks-treats)
+- [Google Account Help: Make Your Account More Secure](https://support.google.com/accounts/answer/46526?hl=en)
+- [Google Account Help: 2-Step Verification](https://support.google.com/accounts/answer/185839?hl=en&co=GENIE.Platform%3DAndroid)
+- [NIST NCCoE: Multi-Factor Authentication Concepts](https://www.nccoe.nist.gov/news-insights/mobile-passwords-tricks-treats)
 > **Editorial note:** This article is educational and defensive. Interfaces, policies, and features can change. Use the official documentation for the service you use when you need current technical instructions.

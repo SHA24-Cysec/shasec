@@ -59,6 +59,6 @@ Kalau router tidak lagi menerima pembaruan firmware dari pabrikan, ganti. Router
 Pengaruhnya kecil untuk pemakaian normal. Manfaat isolasi perangkat IoT dan tamu jauh melebihi penurunan kecepatan yang nyaris tidak terasa.
 
 ## Sumber dan bacaan lanjutan
-- [CISA:Coreonlinesafetyactions](https://www.Cisa.Gov/news-events/news/national-internet-safety-month-june-take-4-easy-steps-stay-safe-online)
-- [FTC:Protectpersonalinformation](https://consumer.Ftc.Gov/articles/protect-your-personal-information-hackers-and-scammers)
+- [CISA: Core Online Safety Actions](https://www.cisa.gov/news-events/news/national-internet-safety-month-june-take-4-easy-steps-stay-safe-online)
+- [FTC: Protect Your Personal Information](https://consumer.ftc.gov/articles/protect-your-personal-information-hackers-and-scammers)
 > **Catatan editorial:** Artikel ini bersifat edukatif dan defensif. Menu dan opsi setiap router berbeda. Gunakan manual resmi perangkat Anda untuk langkah teknis yang tepat.

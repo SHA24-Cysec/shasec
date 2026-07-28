@@ -122,7 +122,7 @@ Penipuan suara jarang berdiri sendiri sekarang. Penipu menggabungkannya dengan p
 
 Pola paling umum dimulai dari pesan teks. Anda menerima pemberitahuan tentang paket tertahan, transaksi mencurigakan, atau tagihan yang belum dibayar. Pesan itu meminta Anda menelepon nomor tertentu. Ketika Anda menelepon, Anda merasa memegang kendali karena Andalah yang memulai panggilan. Perasaan itu keliru: nomornya tetap milik penipu, dan mereka sudah menunggu.
 
-Pola kedua membalik urutannya. Panggilan datang lebih dulu, lalu penipu mengirim email atau pesan berisi tautan sebagai "konfirmasi". Kehadiran dokumen tertulis membuat panggilan terasa sah, padahal keduanya berasal dari sumber yang sama. Email dengan logo yang benar sangat mudah dibuat.
+Pola kedua membalik urutannya. Panggilan datang lebih dulu, lalu penipu mengirim email atau pesan berisi tautan sebagai "konfirmasi". Kehadiran dokumen tertulis membuat panggilan terasa sah, padahal keduanya berasal dari sumber yang sama. Email dengan logo yang benar mudah dibuat.
 
 Pola ketiga memakai aplikasi kendali jarak jauh. Penipu meminta Anda memasang aplikasi dukungan teknis agar mereka bisa "membantu memperbaiki masalah". Setelah terpasang, mereka melihat layar Anda, termasuk saat Anda membuka aplikasi perbankan, dan dapat mengendalikan perangkat. Tidak ada bank yang meminta Anda memasang aplikasi kendali jarak jauh.
 

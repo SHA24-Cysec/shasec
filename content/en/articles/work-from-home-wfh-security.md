@@ -84,7 +84,7 @@ Use screen privacy filters, headphones, and schedule sensitive meetings when the
 If your company provides managed antivirus, do not install another that could cause conflicts. If not, discuss with IT about recommended solutions.
 
 ## Sources and further reading
-- [CISA:RemoteWorkSecurity](https://www.Cisa.Gov/topics/cybersecurity-best-practices/remote-work)
-- [NIST:TeleworkSecurityGuidelines](https://csrc.Nist.Gov/publications/detail/sp/800-46/rev-2/final)
-- [OWASP:RemoteWorkSecurityCheatSheet](https://cheatsheetseries.Owasp.Org/)
+- [CISA: Telework Essentials Toolkit](https://www.cisa.gov/resources-tools/resources/telework-essentials-toolkit)
+- [NIST SP 800-46 Rev. 2: Telework Security](https://csrc.nist.gov/pubs/sp/800/46/r2/final)
+- [OWASP: Cheat Sheet Series](https://cheatsheetseries.owasp.org/)
 > **Editorial note:** This article provides general guidance. Follow your company's information security policy as the primary reference, and consult with IT for specific configurations.

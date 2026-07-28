@@ -93,8 +93,8 @@ For young children, reviewing online activity is part of supervision. For teenag
 This is normal and shows technical intelligence. Instead of tightening filters, discuss why they wanted to access that content and what the risks are. A communication foundation is stronger than a technical fence.
 
 ## Sources and further reading
-- [CommonSenseMedia:ParentingwithTechnology](https://www.Commonsensemedia.Org/articles)
-- [UNICEF:ChildOnlineSafety](https://www.Unicef.Org/child-protection/online-protection)
-- [Google:FamilyLinkHelp](https://families.Google.Com/familylink/)
+- [Common Sense Media: Parenting with Technology](https://www.commonsensemedia.org/articles)
+- [UNICEF: Keeping Children Safe Online](https://www.unicef.org/protection/keeping-children-safe-online)
+- [Google: Family Link Help](https://families.google.com/familylink/)
 
 > **Editorial note:** This article provides general guidance. Every family has different values and needs. Adapt the approach to your family's context.

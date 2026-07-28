@@ -34,31 +34,31 @@ Use CekRekening.id or the relevant official channel to search for the destinatio
 
 ### 2. Match the transaction name and context
 
-Compare the recipient's name on the transfer screen with the name of the shop, seller, or party claiming to receive the payment. Name differences are not always fraudulent, but require an explanation that can be verified before funds are sent. Keep brief notes about the time, sources of information, and steps taken. These notes are helpful if you need to contact authorized service.
+Compare the recipient's name on the transfer screen with the name of the shop, seller, or party claiming to receive the payment. Name differences are not always fraudulent, but require an explanation that can be verified before funds are sent.
 
 ### 3. Check the offer trail
 
-Search for shop name, contact number, product photo and account number with a search engine. Check whether the review appears genuine, whether the account was newly created, and whether the photos are from another seller. Don't rely on a single testimonial screenshot. Keep brief notes about the time, sources of information, and steps taken. These notes are helpful if you need to contact authorized service.
+Search for shop name, contact number, product photo and account number with a search engine. Check whether the review appears genuine, whether the account was newly created, and whether the photos are from another seller. Don't rely on a single testimonial screenshot.
 
 ### 4. Use the platform's payment path
 
-For marketplace shopping, use the checkout and transaction protection provided by the platform. Sellers who insist on direct transfers via chat move you out of the way of records and available dispute resolution. Keep brief notes about the time, sources of information, and steps taken. These notes are helpful if you need to contact authorized service.
+For marketplace shopping, use the checkout and transaction protection provided by the platform. Sellers who insist on direct transfers via chat move you out of the way of records and available dispute resolution.
 
 ### 5. Read the inspection results correctly
 
-Reports in the database are risk signals, not legal decisions. If the account is ever reported, do not transfer and keep the proceeds. If there is no report, continue with another verification because the account could be new or has never been reported. Keep brief notes about the time, sources of information, and steps taken. These notes are helpful if you need to contact authorized service.
+Reports in the database are risk signals, not legal decisions. If the account is ever reported, do not transfer and keep the proceeds. If there is no report, continue with another verification because the account could be new or has never been reported.
 
 ### 6. Resist time pressure
 
-Prices that are only valid for a few minutes, threats of orders being cancelled, and requests for additional fees are common patterns used to bypass the verification process. Legitimate sellers can explain the product without forcing you to go through an inspection. Keep brief notes about the time, sources of information, and steps taken. These notes are helpful if you need to contact authorized service.
+Prices that are only valid for a few minutes, threats of orders being cancelled, and requests for additional fees are common patterns used to bypass the verification process. Legitimate sellers can explain the product without forcing you to go through an inspection.
 
 ### 7. Save proof before paying
 
-Save product links, seller profiles, conversations, recipient names, prices and shipping conditions. This proof is helpful if the item is not delivered or the information changes after the transfer. Keep brief notes about the time, sources of information, and steps taken. These notes are helpful if you need to contact authorized service.
+Save product links, seller profiles, conversations, recipient names, prices and shipping conditions. This proof is helpful if the item is not delivered or the information changes after the transfer.
 
 ### 8. Act quickly if you have transferred
 
-Contact the bank or digital wallet provider via official channels, report the transaction, and prepare evidence. Do not send additional funds for cancellation fees. Report the perpetrator's number and account via the appropriate channels. Keep brief notes about the time, sources of information, and steps taken. These notes are helpful if you need to contact authorized service.
+Contact the bank or digital wallet provider via official channels, report the transaction, and prepare evidence. Do not send additional funds for cancellation fees. Report the perpetrator's number and account via the appropriate channels.
 
 ## Example situations
 
@@ -105,47 +105,47 @@ In the context of how to check a fraudster's account before transferring: verifi
 
 ### Identity of related parties
 
-In the context of how to check a fraudster's account before transferring: verification that cannot be missed, check the identity of the party concerned with a clear purpose. Avoid giving more access or data than necessary. Record important decisions, use official channels, and take gradual action so you don't create new problems while trying to resolve the initial problem.
+In the context of how to check a fraudster's account before transferring: verification that cannot be missed, check the identity of the party concerned with a clear purpose.
 
 ### Main account
 
-In the context of how to check a fraudster's account before transferring: verification that should not be missed, check the main account with a clear purpose. Avoid giving more access or data than necessary. Record important decisions, use official channels, and take gradual action so you don't create new problems while trying to resolve the initial problem.
+In the context of how to check a fraudster's account before transferring: verification that should not be missed, check the main account with a clear purpose.
 
 ### Other devices
 
-In the context of how to check a fraudster's account before transferring: verification that should not be missed, check other devices with a clear purpose. Avoid giving more access or data than necessary. Record important decisions, use official channels, and take gradual action so you don't create new problems while trying to resolve the initial problem.
+In the context of how to check a fraudster's account before transferring: verification that should not be missed, check other devices with a clear purpose.
 
 ### Proof of transaction or activity
 
-In the context of how to check a fraudster's account before transferring: verification that should not be missed, check evidence of transactions or activities with a clear purpose. Avoid giving more access or data than necessary. Record important decisions, use official channels, and take gradual action so you don't create new problems while trying to resolve the initial problem.
+In the context of how to check a fraudster's account before transferring: verification that should not be missed, check evidence of transactions or activities with a clear purpose.
 
 ### App permissions
 
-In the context of how to check a fraudster's account before transferring: verification that should not be missed, check application permissions with a clear purpose. Avoid giving more access or data than necessary. Record important decisions, use official channels, and take gradual action so you don't create new problems while trying to resolve the initial problem.
+In the context of how to check a fraudster's account before transferring: verification that should not be missed, check application permissions with a clear purpose.
 
 ### Change history
 
-In the context of how to check a fraudster's account before transferring: verification that should not be missed, check the change history with a clear purpose. Avoid giving more access or data than necessary. Record important decisions, use official channels, and take gradual action so you don't create new problems while trying to resolve the initial problem.
+In the context of how to check a fraudster's account before transferring: verification that should not be missed, check the change history with a clear purpose.
 
 ### Reporting path
 
-In the context of how to check fraudsters' accounts before transfers: verification that should not be missed, check reporting lines with clear objectives. Avoid giving more access or data than necessary. Record important decisions, use official channels, and take gradual action so you don't create new problems while trying to resolve the initial problem.
+In the context of how to check fraudsters' accounts before transfers: verification that should not be missed, check reporting lines with clear objectives.
 
 ### Account recovery
 
-In the context of how to check fraudsters' accounts before transfer: verification that should not be missed, check account recovery with clear objectives. Avoid giving more access or data than necessary. Record important decisions, use official channels, and take gradual action so you don't create new problems while trying to resolve the initial problem.
+In the context of how to check fraudsters' accounts before transfer: verification that should not be missed, check account recovery with clear objectives.
 
 ### Next precaution
 
-In the context of how to check fraudsters' accounts before transfer: verification that should not be missed, check the next precaution with a clear goal. Avoid giving more access or data than necessary. Record important decisions, use official channels, and take gradual action so you don't create new problems while trying to resolve the initial problem.
+In the context of how to check fraudsters' accounts before transfer: verification that should not be missed, check the next precaution with a clear goal.
 
 ### Family customs
 
-In the context of how to check a fraudster's account before transferring: verification that should not be missed, check family habits with a clear goal. Avoid giving more access or data than necessary. Record important decisions, use official channels, and take gradual action so you don't create new problems while trying to resolve the initial problem.
+In the context of how to check a fraudster's account before transferring: verification that should not be missed, check family habits with a clear goal.
 
 ### Periodic review
 
-In the context of how to check fraudsters' accounts before transfer: verification that should not be missed, check periodic reviews with clear objectives. Avoid giving more access or data than necessary. Record important decisions, use official channels, and take gradual action so you don't create new problems while trying to resolve the initial problem.
+In the context of how to check fraudsters' accounts before transfer: verification that should not be missed, check periodic reviews with clear objectives.
 
 ### Safe action notes
 
@@ -153,115 +153,115 @@ If the situation feels urgent, stop for a moment and use official channels. Smal
 
 ### Safe action notes
 
-If the situation feels urgent, stop for a moment and use official channels. Small steps taken in the right order are often more effective than quick actions without verification.
+If the situation feels urgent, stop for a moment and use official channels.
 
 ### Safe action notes
 
-If the situation feels urgent, stop for a moment and use official channels. Small steps taken in the right order are often more effective than quick actions without verification.
+If the situation feels urgent, stop for a moment and use official channels.
 
 ### Safe action notes
 
-If the situation feels urgent, stop for a moment and use official channels. Small steps taken in the right order are often more effective than quick actions without verification.
+If the situation feels urgent, stop for a moment and use official channels.
 
 ### Safe action notes
 
-If the situation feels urgent, stop for a moment and use official channels. Small steps taken in the right order are often more effective than quick actions without verification.
+If the situation feels urgent, stop for a moment and use official channels.
 
 ### Safe action notes
 
-If the situation feels urgent, stop for a moment and use official channels. Small steps taken in the right order are often more effective than quick actions without verification.
+If the situation feels urgent, stop for a moment and use official channels.
 
 ### Safe action notes
 
-If the situation feels urgent, stop for a moment and use official channels. Small steps taken in the right order are often more effective than quick actions without verification.
+If the situation feels urgent, stop for a moment and use official channels.
 
 ### Safe action notes
 
-If the situation feels urgent, stop for a moment and use official channels. Small steps taken in the right order are often more effective than quick actions without verification.
+If the situation feels urgent, stop for a moment and use official channels.
 
 ### Safe action notes
 
-If the situation feels urgent, stop for a moment and use official channels. Small steps taken in the right order are often more effective than quick actions without verification.
+If the situation feels urgent, stop for a moment and use official channels.
 
 ### Safe action notes
 
-If the situation feels urgent, stop for a moment and use official channels. Small steps taken in the right order are often more effective than quick actions without verification.
+If the situation feels urgent, stop for a moment and use official channels.
 
 ### Safe action notes
 
-If the situation feels urgent, stop for a moment and use official channels. Small steps taken in the right order are often more effective than quick actions without verification.
+If the situation feels urgent, stop for a moment and use official channels.
 
 ### Safe action notes
 
-If the situation feels urgent, stop for a moment and use official channels. Small steps taken in the right order are often more effective than quick actions without verification.
+If the situation feels urgent, stop for a moment and use official channels.
 
 ### Safe action notes
 
-If the situation feels urgent, stop for a moment and use official channels. Small steps taken in the right order are often more effective than quick actions without verification.
+If the situation feels urgent, stop for a moment and use official channels.
 
 ### Safe action notes
 
-If the situation feels urgent, stop for a moment and use official channels. Small steps taken in the right order are often more effective than quick actions without verification.
+If the situation feels urgent, stop for a moment and use official channels.
 
 ### Safe action notes
 
-If the situation feels urgent, stop for a moment and use official channels. Small steps taken in the right order are often more effective than quick actions without verification.
+If the situation feels urgent, stop for a moment and use official channels.
 
 ### Safe action notes
 
-If the situation feels urgent, stop for a moment and use official channels. Small steps taken in the right order are often more effective than quick actions without verification.
+If the situation feels urgent, stop for a moment and use official channels.
 
 ### Safe action notes
 
-If the situation feels urgent, stop for a moment and use official channels. Small steps taken in the right order are often more effective than quick actions without verification.
+If the situation feels urgent, stop for a moment and use official channels.
 
 ### Safe action notes
 
-If the situation feels urgent, stop for a moment and use official channels. Small steps taken in the right order are often more effective than quick actions without verification.
+If the situation feels urgent, stop for a moment and use official channels.
 
 ### Safe action notes
 
-If the situation feels urgent, stop for a moment and use official channels. Small steps taken in the right order are often more effective than quick actions without verification.
+If the situation feels urgent, stop for a moment and use official channels.
 
 ### Safe action notes
 
-If the situation feels urgent, stop for a moment and use official channels. Small steps taken in the right order are often more effective than quick actions without verification.
+If the situation feels urgent, stop for a moment and use official channels.
 
 ### Safe action notes
 
-If the situation feels urgent, stop for a moment and use official channels. Small steps taken in the right order are often more effective than quick actions without verification.
+If the situation feels urgent, stop for a moment and use official channels.
 
 ### Safe action notes
 
-If the situation feels urgent, stop for a moment and use official channels. Small steps taken in the right order are often more effective than quick actions without verification.
+If the situation feels urgent, stop for a moment and use official channels.
 
 ### Safe action notes
 
-If the situation feels urgent, stop for a moment and use official channels. Small steps taken in the right order are often more effective than quick actions without verification.
+If the situation feels urgent, stop for a moment and use official channels.
 
 ### Safe action notes
 
-If the situation feels urgent, stop for a moment and use official channels. Small steps taken in the right order are often more effective than quick actions without verification.
+If the situation feels urgent, stop for a moment and use official channels.
 
 ### Safe action notes
 
-If the situation feels urgent, stop for a moment and use official channels. Small steps taken in the right order are often more effective than quick actions without verification.
+If the situation feels urgent, stop for a moment and use official channels.
 
 ### Safe action notes
 
-If the situation feels urgent, stop for a moment and use official channels. Small steps taken in the right order are often more effective than quick actions without verification.
+If the situation feels urgent, stop for a moment and use official channels.
 
 ### Safe action notes
 
-If the situation feels urgent, stop for a moment and use official channels. Small steps taken in the right order are often more effective than quick actions without verification.
+If the situation feels urgent, stop for a moment and use official channels.
 
 ### Safe action notes
 
-If the situation feels urgent, stop for a moment and use official channels. Small steps taken in the right order are often more effective than quick actions without verification.
+If the situation feels urgent, stop for a moment and use official channels.
 
 ## Sources and further reading
 
-- [CekRekening.id](https://cekrekening.id/)
+- [cekrekening.id](https://cekrekening.id/)
 - [OJK: Consumer Protection Portal](https://kontak157.ojk.go.id/)
 - [Komdigi: Content Complaints](https://aduankonten.id/)
 

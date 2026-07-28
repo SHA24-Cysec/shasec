@@ -37,7 +37,7 @@ Kontak berisi data orang lain, bukan hanya Anda. Galeri menyimpan foto pribadi d
 Aplikasi yang tak lagi dipakai tetap menyimpan izin. Hapus saja. Untuk aplikasi yang dipakai, perbarui lewat toko resmi (Play Store/App Store) agar mendapat tambalan keamanan. Hindari memasang aplikasi dari sumber tidak dikenal (sideload APK acak) karena dapat melewati pemeriksaan keamanan.
 
 ## Contoh: aplikasi senter dengan banyak izin
-Seseorang memasang aplikasi senter gratis yang meminta akses kontak, lokasi, dan galeri saat dipasang. Ia mengizinkan semua agar cepat. Beberapa minggu kemudian, ia menyadari iklan yang muncul tiba-tiba sangat tertarget pada tempat-tempat yang ia kunjungi. Aplikasi itu mengumpulkan lokasi dan kontak di latar. Mencabut izin yang tidak perlu, atau memilih aplikasi senter bawaan ponsel, memutus aliran data.
+Seseorang memasang aplikasi senter gratis yang meminta akses kontak, lokasi, dan galeri saat dipasang. Ia mengizinkan semua agar cepat. Beberapa minggu kemudian, ia menyadari iklan yang muncul tiba-tiba tertarget pada tempat-tempat yang ia kunjungi. Aplikasi itu mengumpulkan lokasi dan kontak di latar. Mencabut izin yang tidak perlu, atau memilih aplikasi senter bawaan ponsel, memutus aliran data.
 
 ## Jika izin sudah terlanjur diberikan
 Tidak terlambat. Buka pengaturan izin dan cabut akses yang tidak diperlukan. Jika ragu aplikasi aman, hapus dan cari alternatif dari pengembang tepercaya. Periksa juga layanan pihak ketiga yang diberi akses lewat "login dengan Google/Facebook" dan cabut yang tidak dipakai.
@@ -59,6 +59,6 @@ Kadang fitur tertentu berhenti. Banyak izin bisa diubah ke "saat dipakai" tanpa 
 Lebih aman daripada sideload, tetapi tetap periksa izin dan reputasi pengembang. Toko resmi tidak menjamin 100% bebas masalah.
 
 ## Sumber dan bacaan lanjutan
-- [CISA:Coreonlinesafetyactions](https://www.Cisa.Gov/news-events/news/national-internet-safety-month-june-take-4-easy-steps-stay-safe-online)
-- [FTC:Protectpersonalinformation](https://consumer.Ftc.Gov/articles/protect-your-personal-information-hackers-and-scammers)
+- [CISA: Core Online Safety Actions](https://www.cisa.gov/news-events/news/national-internet-safety-month-june-take-4-easy-steps-stay-safe-online)
+- [FTC: Protect Your Personal Information](https://consumer.ftc.gov/articles/protect-your-personal-information-hackers-and-scammers)
 > **Catatan editorial:** Artikel ini bersifat edukatif dan defensif. Lokasi menu izin tiap sistem operasi berbeda. Gunakan panduan resmi ponsel Anda.

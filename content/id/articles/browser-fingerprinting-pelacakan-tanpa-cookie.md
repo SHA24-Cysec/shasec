@@ -57,7 +57,7 @@ Jika Anda memakai resolusi layar yang sangat tidak biasa (ultrawide, 4K pada lap
 Mode private browsing tidak mencegah fingerprinting sepenuhnya, tapi biasanya membatasi jumlah informasi yang tersedia untuk script pelacakan karena tidak ada riwayat atau cookie yang tersimpan.
 
 ### 7. Periksa keunikan fingerprint Anda
-Kunjungi [coveryourtracks.Eff.Org](https://coveryourtracks.Eff.Org) atau [amiunique.Org](https://amiunique.Org) untuk melihat seberapa unik browser fingerprint Anda. Situs ini menunjukkan parameter apa yang dikumpulkan dan seberapa berbeda Anda dari pengguna lain. Gunakan ini sebagai dasar untuk memutuskan langkah apa yang perlu diambil.
+Kunjungi [coveryourtracks.eff.org](https://coveryourtracks.eff.org) atau [amiunique.org](https://amiunique.org) untuk melihat seberapa unik browser fingerprint Anda. Situs ini menunjukkan parameter apa yang dikumpulkan dan seberapa berbeda Anda dari pengguna lain. Gunakan ini sebagai dasar untuk memutuskan langkah apa yang perlu diambil.
 
 ## Trade-off: privasi vs kenyamanan
 Mengurangi fingerprint sering berarti mengorbankan beberapa kenyamanan website:
@@ -78,7 +78,7 @@ Sebagian. Mode incognito menghapus cookie dan riwayat setelah sesi berakhir, tap
 Di beberapa yurisdiksi, pengumpulan fingerprint tanpa persetujuan pengguna bisa melanggar regulasi privasi seperti GDPR. Tapi penegakan hukum terhadap praktik ini masih terbatas.
 
 ## Sumber dan bacaan lanjutan
-- [EFF:CoverYourTracks](https://coveryourtracks.Eff.Org)
-- [AmIUnique:BrowserFingerprintResearch](https://amiunique.Org)
-- [Mozilla:Anti-FingerprintinginFirefox](https://wiki.Mozilla.Org/Security/Fingerprinting)
+- [EFF: Cover Your Tracks](https://coveryourtracks.eff.org)
+- [AmIUnique: Browser Fingerprint Research](https://amiunique.org)
+- [Mozilla Wiki: Anti-Fingerprinting in Firefox](https://wiki.mozilla.org/Security/Fingerprinting)
 > **Catatan editorial:** Teknologi fingerprinting terus berkembang. Perlindungan yang efektif hari ini mungkin kurang memadai di masa depan. Pantau perkembangan dari sumber seperti EFF untuk informasi terbaru.

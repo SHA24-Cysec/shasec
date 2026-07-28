@@ -34,31 +34,31 @@ Gunakan CekRekening.id atau kanal resmi yang relevan untuk mencari nomor rekenin
 
 ### 2. Cocokkan nama dan konteks transaksi
 
-Bandingkan nama penerima pada layar transfer dengan nama toko, penjual, atau pihak yang mengaku menerima pembayaran. Perbedaan nama tidak selalu penipuan, tetapi perlu penjelasan yang bisa diverifikasi sebelum dana dikirim. Simpan catatan singkat tentang waktu, sumber informasi, dan langkah yang sudah dilakukan. Catatan ini membantu bila Anda perlu menghubungi layanan resmi.
+Bandingkan nama penerima pada layar transfer dengan nama toko, penjual, atau pihak yang mengaku menerima pembayaran. Perbedaan nama tidak selalu penipuan, tetapi perlu penjelasan yang bisa diverifikasi sebelum dana dikirim.
 
 ### 3. Periksa jejak penawaran
 
-Cari nama toko, nomor kontak, foto produk, dan nomor rekening dengan mesin pencari. Periksa apakah ulasan tampak asli, apakah akun baru dibuat, dan apakah foto berasal dari penjual lain. Jangan mengandalkan satu tangkapan layar testimoni. Simpan catatan singkat tentang waktu, sumber informasi, dan langkah yang sudah dilakukan. Catatan ini membantu bila Anda perlu menghubungi layanan resmi.
+Cari nama toko, nomor kontak, foto produk, dan nomor rekening dengan mesin pencari. Periksa apakah ulasan tampak asli, apakah akun baru dibuat, dan apakah foto berasal dari penjual lain. Jangan mengandalkan satu tangkapan layar testimoni.
 
 ### 4. Gunakan jalur pembayaran platform
 
-Untuk belanja marketplace, pakai checkout serta perlindungan transaksi yang disediakan platform. Penjual yang mendesak transfer langsung melalui chat memindahkan Anda keluar dari jalur catatan dan penyelesaian sengketa yang tersedia. Simpan catatan singkat tentang waktu, sumber informasi, dan langkah yang sudah dilakukan. Catatan ini membantu bila Anda perlu menghubungi layanan resmi.
+Untuk belanja marketplace, pakai checkout serta perlindungan transaksi yang disediakan platform. Penjual yang mendesak transfer langsung melalui chat memindahkan Anda keluar dari jalur catatan dan penyelesaian sengketa yang tersedia.
 
 ### 5. Baca hasil pemeriksaan dengan benar
 
-Laporan pada database merupakan sinyal risiko, bukan putusan hukum. Jika rekening pernah dilaporkan, jangan transfer dan simpan hasilnya. Jika tidak ada laporan, lanjutkan dengan verifikasi lain karena rekening bisa baru atau belum pernah dilaporkan. Simpan catatan singkat tentang waktu, sumber informasi, dan langkah yang sudah dilakukan. Catatan ini membantu bila Anda perlu menghubungi layanan resmi.
+Laporan pada database merupakan sinyal risiko, bukan putusan hukum. Jika rekening pernah dilaporkan, jangan transfer dan simpan hasilnya. Jika tidak ada laporan, lanjutkan dengan verifikasi lain karena rekening bisa baru atau belum pernah dilaporkan.
 
 ### 6. Tahan diri dari tekanan waktu
 
-Harga yang hanya berlaku beberapa menit, ancaman pesanan dibatalkan, dan permintaan biaya tambahan adalah pola yang sering dipakai untuk memotong proses verifikasi. Penjual sah dapat menjelaskan produk tanpa memaksa Anda melewati pemeriksaan. Simpan catatan singkat tentang waktu, sumber informasi, dan langkah yang sudah dilakukan. Catatan ini membantu bila Anda perlu menghubungi layanan resmi.
+Harga yang hanya berlaku beberapa menit, ancaman pesanan dibatalkan, dan permintaan biaya tambahan adalah pola yang sering dipakai untuk memotong proses verifikasi. Penjual sah dapat menjelaskan produk tanpa memaksa Anda melewati pemeriksaan.
 
 ### 7. Simpan bukti sebelum membayar
 
-Simpan tautan produk, profil penjual, percakapan, nama penerima, harga, dan ketentuan pengiriman. Bukti ini membantu bila barang tidak dikirim atau informasi berubah setelah transfer. Simpan catatan singkat tentang waktu, sumber informasi, dan langkah yang sudah dilakukan. Catatan ini membantu bila Anda perlu menghubungi layanan resmi.
+Simpan tautan produk, profil penjual, percakapan, nama penerima, harga, dan ketentuan pengiriman. Bukti ini membantu bila barang tidak dikirim atau informasi berubah setelah transfer.
 
 ### 8. Bertindak cepat jika sudah transfer
 
-Hubungi bank atau penyedia dompet digital melalui kanal resmi, laporkan transaksi, dan siapkan bukti. Jangan mengirim dana tambahan untuk biaya pembatalan. Laporkan nomor serta akun pelaku melalui kanal yang sesuai. Simpan catatan singkat tentang waktu, sumber informasi, dan langkah yang sudah dilakukan. Catatan ini membantu bila Anda perlu menghubungi layanan resmi.
+Hubungi bank atau penyedia dompet digital melalui kanal resmi, laporkan transaksi, dan siapkan bukti. Jangan mengirim dana tambahan untuk biaya pembatalan. Laporkan nomor serta akun pelaku melalui kanal yang sesuai.
 
 ## Contoh situasi
 
@@ -105,47 +105,47 @@ Dalam konteks cara cek rekening penipu sebelum transfer: verifikasi yang tidak b
 
 ### Identitas pihak terkait
 
-Dalam konteks cara cek rekening penipu sebelum transfer: verifikasi yang tidak boleh dilewatkan, periksa identitas pihak terkait dengan tujuan yang jelas. Hindari memberi akses atau data lebih banyak daripada yang diperlukan. Catat keputusan penting, gunakan kanal resmi, dan lakukan tindakan bertahap agar Anda tidak membuat masalah baru saat mencoba menyelesaikan masalah awal.
+Dalam konteks cara cek rekening penipu sebelum transfer: verifikasi yang tidak boleh dilewatkan, periksa identitas pihak terkait dengan tujuan yang jelas.
 
 ### Akun utama
 
-Dalam konteks cara cek rekening penipu sebelum transfer: verifikasi yang tidak boleh dilewatkan, periksa akun utama dengan tujuan yang jelas. Hindari memberi akses atau data lebih banyak daripada yang diperlukan. Catat keputusan penting, gunakan kanal resmi, dan lakukan tindakan bertahap agar Anda tidak membuat masalah baru saat mencoba menyelesaikan masalah awal.
+Dalam konteks cara cek rekening penipu sebelum transfer: verifikasi yang tidak boleh dilewatkan, periksa akun utama dengan tujuan yang jelas.
 
 ### Perangkat lain
 
-Dalam konteks cara cek rekening penipu sebelum transfer: verifikasi yang tidak boleh dilewatkan, periksa perangkat lain dengan tujuan yang jelas. Hindari memberi akses atau data lebih banyak daripada yang diperlukan. Catat keputusan penting, gunakan kanal resmi, dan lakukan tindakan bertahap agar Anda tidak membuat masalah baru saat mencoba menyelesaikan masalah awal.
+Dalam konteks cara cek rekening penipu sebelum transfer: verifikasi yang tidak boleh dilewatkan, periksa perangkat lain dengan tujuan yang jelas.
 
 ### Bukti transaksi atau aktivitas
 
-Dalam konteks cara cek rekening penipu sebelum transfer: verifikasi yang tidak boleh dilewatkan, periksa bukti transaksi atau aktivitas dengan tujuan yang jelas. Hindari memberi akses atau data lebih banyak daripada yang diperlukan. Catat keputusan penting, gunakan kanal resmi, dan lakukan tindakan bertahap agar Anda tidak membuat masalah baru saat mencoba menyelesaikan masalah awal.
+Dalam konteks cara cek rekening penipu sebelum transfer: verifikasi yang tidak boleh dilewatkan, periksa bukti transaksi atau aktivitas dengan tujuan yang jelas.
 
 ### Izin aplikasi
 
-Dalam konteks cara cek rekening penipu sebelum transfer: verifikasi yang tidak boleh dilewatkan, periksa izin aplikasi dengan tujuan yang jelas. Hindari memberi akses atau data lebih banyak daripada yang diperlukan. Catat keputusan penting, gunakan kanal resmi, dan lakukan tindakan bertahap agar Anda tidak membuat masalah baru saat mencoba menyelesaikan masalah awal.
+Dalam konteks cara cek rekening penipu sebelum transfer: verifikasi yang tidak boleh dilewatkan, periksa izin aplikasi dengan tujuan yang jelas.
 
 ### Riwayat perubahan
 
-Dalam konteks cara cek rekening penipu sebelum transfer: verifikasi yang tidak boleh dilewatkan, periksa riwayat perubahan dengan tujuan yang jelas. Hindari memberi akses atau data lebih banyak daripada yang diperlukan. Catat keputusan penting, gunakan kanal resmi, dan lakukan tindakan bertahap agar Anda tidak membuat masalah baru saat mencoba menyelesaikan masalah awal.
+Dalam konteks cara cek rekening penipu sebelum transfer: verifikasi yang tidak boleh dilewatkan, periksa riwayat perubahan dengan tujuan yang jelas.
 
 ### Jalur pelaporan
 
-Dalam konteks cara cek rekening penipu sebelum transfer: verifikasi yang tidak boleh dilewatkan, periksa jalur pelaporan dengan tujuan yang jelas. Hindari memberi akses atau data lebih banyak daripada yang diperlukan. Catat keputusan penting, gunakan kanal resmi, dan lakukan tindakan bertahap agar Anda tidak membuat masalah baru saat mencoba menyelesaikan masalah awal.
+Dalam konteks cara cek rekening penipu sebelum transfer: verifikasi yang tidak boleh dilewatkan, periksa jalur pelaporan dengan tujuan yang jelas.
 
 ### Pemulihan akun
 
-Dalam konteks cara cek rekening penipu sebelum transfer: verifikasi yang tidak boleh dilewatkan, periksa pemulihan akun dengan tujuan yang jelas. Hindari memberi akses atau data lebih banyak daripada yang diperlukan. Catat keputusan penting, gunakan kanal resmi, dan lakukan tindakan bertahap agar Anda tidak membuat masalah baru saat mencoba menyelesaikan masalah awal.
+Dalam konteks cara cek rekening penipu sebelum transfer: verifikasi yang tidak boleh dilewatkan, periksa pemulihan akun dengan tujuan yang jelas.
 
 ### Pencegahan berikutnya
 
-Dalam konteks cara cek rekening penipu sebelum transfer: verifikasi yang tidak boleh dilewatkan, periksa pencegahan berikutnya dengan tujuan yang jelas. Hindari memberi akses atau data lebih banyak daripada yang diperlukan. Catat keputusan penting, gunakan kanal resmi, dan lakukan tindakan bertahap agar Anda tidak membuat masalah baru saat mencoba menyelesaikan masalah awal.
+Dalam konteks cara cek rekening penipu sebelum transfer: verifikasi yang tidak boleh dilewatkan, periksa pencegahan berikutnya dengan tujuan yang jelas.
 
 ### Kebiasaan keluarga
 
-Dalam konteks cara cek rekening penipu sebelum transfer: verifikasi yang tidak boleh dilewatkan, periksa kebiasaan keluarga dengan tujuan yang jelas. Hindari memberi akses atau data lebih banyak daripada yang diperlukan. Catat keputusan penting, gunakan kanal resmi, dan lakukan tindakan bertahap agar Anda tidak membuat masalah baru saat mencoba menyelesaikan masalah awal.
+Dalam konteks cara cek rekening penipu sebelum transfer: verifikasi yang tidak boleh dilewatkan, periksa kebiasaan keluarga dengan tujuan yang jelas.
 
 ### Tinjauan berkala
 
-Dalam konteks cara cek rekening penipu sebelum transfer: verifikasi yang tidak boleh dilewatkan, periksa tinjauan berkala dengan tujuan yang jelas. Hindari memberi akses atau data lebih banyak daripada yang diperlukan. Catat keputusan penting, gunakan kanal resmi, dan lakukan tindakan bertahap agar Anda tidak membuat masalah baru saat mencoba menyelesaikan masalah awal.
+Dalam konteks cara cek rekening penipu sebelum transfer: verifikasi yang tidak boleh dilewatkan, periksa tinjauan berkala dengan tujuan yang jelas.
 
 ### Catatan tindakan aman
 
@@ -153,111 +153,111 @@ Jika situasi terasa mendesak, berhenti sejenak dan gunakan kanal resmi. Langkah 
 
 ### Catatan tindakan aman
 
-Jika situasi terasa mendesak, berhenti sejenak dan gunakan kanal resmi. Langkah kecil yang dilakukan dengan urutan tepat sering lebih efektif daripada tindakan cepat tanpa verifikasi.
+Jika situasi terasa mendesak, berhenti sejenak dan gunakan kanal resmi.
 
 ### Catatan tindakan aman
 
-Jika situasi terasa mendesak, berhenti sejenak dan gunakan kanal resmi. Langkah kecil yang dilakukan dengan urutan tepat sering lebih efektif daripada tindakan cepat tanpa verifikasi.
+Jika situasi terasa mendesak, berhenti sejenak dan gunakan kanal resmi.
 
 ### Catatan tindakan aman
 
-Jika situasi terasa mendesak, berhenti sejenak dan gunakan kanal resmi. Langkah kecil yang dilakukan dengan urutan tepat sering lebih efektif daripada tindakan cepat tanpa verifikasi.
+Jika situasi terasa mendesak, berhenti sejenak dan gunakan kanal resmi.
 
 ### Catatan tindakan aman
 
-Jika situasi terasa mendesak, berhenti sejenak dan gunakan kanal resmi. Langkah kecil yang dilakukan dengan urutan tepat sering lebih efektif daripada tindakan cepat tanpa verifikasi.
+Jika situasi terasa mendesak, berhenti sejenak dan gunakan kanal resmi.
 
 ### Catatan tindakan aman
 
-Jika situasi terasa mendesak, berhenti sejenak dan gunakan kanal resmi. Langkah kecil yang dilakukan dengan urutan tepat sering lebih efektif daripada tindakan cepat tanpa verifikasi.
+Jika situasi terasa mendesak, berhenti sejenak dan gunakan kanal resmi.
 
 ### Catatan tindakan aman
 
-Jika situasi terasa mendesak, berhenti sejenak dan gunakan kanal resmi. Langkah kecil yang dilakukan dengan urutan tepat sering lebih efektif daripada tindakan cepat tanpa verifikasi.
+Jika situasi terasa mendesak, berhenti sejenak dan gunakan kanal resmi.
 
 ### Catatan tindakan aman
 
-Jika situasi terasa mendesak, berhenti sejenak dan gunakan kanal resmi. Langkah kecil yang dilakukan dengan urutan tepat sering lebih efektif daripada tindakan cepat tanpa verifikasi.
+Jika situasi terasa mendesak, berhenti sejenak dan gunakan kanal resmi.
 
 ### Catatan tindakan aman
 
-Jika situasi terasa mendesak, berhenti sejenak dan gunakan kanal resmi. Langkah kecil yang dilakukan dengan urutan tepat sering lebih efektif daripada tindakan cepat tanpa verifikasi.
+Jika situasi terasa mendesak, berhenti sejenak dan gunakan kanal resmi.
 
 ### Catatan tindakan aman
 
-Jika situasi terasa mendesak, berhenti sejenak dan gunakan kanal resmi. Langkah kecil yang dilakukan dengan urutan tepat sering lebih efektif daripada tindakan cepat tanpa verifikasi.
+Jika situasi terasa mendesak, berhenti sejenak dan gunakan kanal resmi.
 
 ### Catatan tindakan aman
 
-Jika situasi terasa mendesak, berhenti sejenak dan gunakan kanal resmi. Langkah kecil yang dilakukan dengan urutan tepat sering lebih efektif daripada tindakan cepat tanpa verifikasi.
+Jika situasi terasa mendesak, berhenti sejenak dan gunakan kanal resmi.
 
 ### Catatan tindakan aman
 
-Jika situasi terasa mendesak, berhenti sejenak dan gunakan kanal resmi. Langkah kecil yang dilakukan dengan urutan tepat sering lebih efektif daripada tindakan cepat tanpa verifikasi.
+Jika situasi terasa mendesak, berhenti sejenak dan gunakan kanal resmi.
 
 ### Catatan tindakan aman
 
-Jika situasi terasa mendesak, berhenti sejenak dan gunakan kanal resmi. Langkah kecil yang dilakukan dengan urutan tepat sering lebih efektif daripada tindakan cepat tanpa verifikasi.
+Jika situasi terasa mendesak, berhenti sejenak dan gunakan kanal resmi.
 
 ### Catatan tindakan aman
 
-Jika situasi terasa mendesak, berhenti sejenak dan gunakan kanal resmi. Langkah kecil yang dilakukan dengan urutan tepat sering lebih efektif daripada tindakan cepat tanpa verifikasi.
+Jika situasi terasa mendesak, berhenti sejenak dan gunakan kanal resmi.
 
 ### Catatan tindakan aman
 
-Jika situasi terasa mendesak, berhenti sejenak dan gunakan kanal resmi. Langkah kecil yang dilakukan dengan urutan tepat sering lebih efektif daripada tindakan cepat tanpa verifikasi.
+Jika situasi terasa mendesak, berhenti sejenak dan gunakan kanal resmi.
 
 ### Catatan tindakan aman
 
-Jika situasi terasa mendesak, berhenti sejenak dan gunakan kanal resmi. Langkah kecil yang dilakukan dengan urutan tepat sering lebih efektif daripada tindakan cepat tanpa verifikasi.
+Jika situasi terasa mendesak, berhenti sejenak dan gunakan kanal resmi.
 
 ### Catatan tindakan aman
 
-Jika situasi terasa mendesak, berhenti sejenak dan gunakan kanal resmi. Langkah kecil yang dilakukan dengan urutan tepat sering lebih efektif daripada tindakan cepat tanpa verifikasi.
+Jika situasi terasa mendesak, berhenti sejenak dan gunakan kanal resmi.
 
 ### Catatan tindakan aman
 
-Jika situasi terasa mendesak, berhenti sejenak dan gunakan kanal resmi. Langkah kecil yang dilakukan dengan urutan tepat sering lebih efektif daripada tindakan cepat tanpa verifikasi.
+Jika situasi terasa mendesak, berhenti sejenak dan gunakan kanal resmi.
 
 ### Catatan tindakan aman
 
-Jika situasi terasa mendesak, berhenti sejenak dan gunakan kanal resmi. Langkah kecil yang dilakukan dengan urutan tepat sering lebih efektif daripada tindakan cepat tanpa verifikasi.
+Jika situasi terasa mendesak, berhenti sejenak dan gunakan kanal resmi.
 
 ### Catatan tindakan aman
 
-Jika situasi terasa mendesak, berhenti sejenak dan gunakan kanal resmi. Langkah kecil yang dilakukan dengan urutan tepat sering lebih efektif daripada tindakan cepat tanpa verifikasi.
+Jika situasi terasa mendesak, berhenti sejenak dan gunakan kanal resmi.
 
 ### Catatan tindakan aman
 
-Jika situasi terasa mendesak, berhenti sejenak dan gunakan kanal resmi. Langkah kecil yang dilakukan dengan urutan tepat sering lebih efektif daripada tindakan cepat tanpa verifikasi.
+Jika situasi terasa mendesak, berhenti sejenak dan gunakan kanal resmi.
 
 ### Catatan tindakan aman
 
-Jika situasi terasa mendesak, berhenti sejenak dan gunakan kanal resmi. Langkah kecil yang dilakukan dengan urutan tepat sering lebih efektif daripada tindakan cepat tanpa verifikasi.
+Jika situasi terasa mendesak, berhenti sejenak dan gunakan kanal resmi.
 
 ### Catatan tindakan aman
 
-Jika situasi terasa mendesak, berhenti sejenak dan gunakan kanal resmi. Langkah kecil yang dilakukan dengan urutan tepat sering lebih efektif daripada tindakan cepat tanpa verifikasi.
+Jika situasi terasa mendesak, berhenti sejenak dan gunakan kanal resmi.
 
 ### Catatan tindakan aman
 
-Jika situasi terasa mendesak, berhenti sejenak dan gunakan kanal resmi. Langkah kecil yang dilakukan dengan urutan tepat sering lebih efektif daripada tindakan cepat tanpa verifikasi.
+Jika situasi terasa mendesak, berhenti sejenak dan gunakan kanal resmi.
 
 ### Catatan tindakan aman
 
-Jika situasi terasa mendesak, berhenti sejenak dan gunakan kanal resmi. Langkah kecil yang dilakukan dengan urutan tepat sering lebih efektif daripada tindakan cepat tanpa verifikasi.
+Jika situasi terasa mendesak, berhenti sejenak dan gunakan kanal resmi.
 
 ### Catatan tindakan aman
 
-Jika situasi terasa mendesak, berhenti sejenak dan gunakan kanal resmi. Langkah kecil yang dilakukan dengan urutan tepat sering lebih efektif daripada tindakan cepat tanpa verifikasi.
+Jika situasi terasa mendesak, berhenti sejenak dan gunakan kanal resmi.
 
 ### Catatan tindakan aman
 
-Jika situasi terasa mendesak, berhenti sejenak dan gunakan kanal resmi. Langkah kecil yang dilakukan dengan urutan tepat sering lebih efektif daripada tindakan cepat tanpa verifikasi.
+Jika situasi terasa mendesak, berhenti sejenak dan gunakan kanal resmi.
 
 ### Catatan tindakan aman
 
-Jika situasi terasa mendesak, berhenti sejenak dan gunakan kanal resmi. Langkah kecil yang dilakukan dengan urutan tepat sering lebih efektif daripada tindakan cepat tanpa verifikasi.
+Jika situasi terasa mendesak, berhenti sejenak dan gunakan kanal resmi.
 
 ## Artikel terkait
 
@@ -266,7 +266,7 @@ Jika situasi terasa mendesak, berhenti sejenak dan gunakan kanal resmi. Langkah 
 
 ## Sumber dan bacaan lanjutan
 
-- [CekRekening.id](https://cekrekening.id/)
+- [cekrekening.id](https://cekrekening.id/)
 - [OJK: Portal Perlindungan Konsumen](https://kontak157.ojk.go.id/)
 - [Komdigi: Aduan Konten](https://aduankonten.id/)
 

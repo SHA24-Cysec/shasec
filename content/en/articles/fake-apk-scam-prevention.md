@@ -132,7 +132,7 @@ In preventing fake APKs on Android, check the App Store with a clear purpose. Ma
 
 ### Developer name
 
-The developer name needs to have a border that users can see. The risk arises when the messaging app can read notifications or take over actions on the phone. Test the flow with a safe example, then discontinue use if it's not clear why. Request an assessment from the phone owner, family members, and authorized service providers before additional data or actions are processed.
+The developer name needs to have a border that users can see. Test the flow with a safe example, then discontinue use if it's not clear why. Request an assessment from the phone owner, family members, and authorized service providers before additional data or actions are processed.
 
 ### Application updates
 
@@ -144,47 +144,47 @@ When assessing Permission lists, look at the impact on people and data, not just
 
 ### Important accounts
 
-In preventing fake APKs on Android, check important Accounts with a clear purpose. Make sure the phone owner, family members, and authorized service providers can explain the reason for the access or action. Don't choose the widest setting just for convenience. Record decisions and inspection dates so that small changes do not develop unnoticed.
+In preventing fake APKs on Android, check important Accounts with a clear purpose.
 
 ### Phone lost
 
-A lost phone needs to have a border that users can see. The risk arises when the messaging app can read notifications or take over actions on the phone. Test the flow with a safe example, then discontinue use if it's not clear why. Request an assessment from the phone owner, family members, and authorized service providers before additional data or actions are processed.
+A lost phone needs to have a border that users can see.
 
 ### Locking feature
 
-Make Feature locking part of routine work, not an action after a problem occurs. In counterfeit APK prevention on Android, changing accounts, permissions, or flows can change the risk. Owners need to be aware of the changes and ensure the protection still serves its original purpose.
+Make Feature locking part of routine work, not an action after a problem occurs.
 
 ### Message from family
 
-When assessing Messages from family, look at the impact it has on people and data, not just whether the feature is available. Phone owners, family members, and authorized service providers need to give users a way to ask questions and report. Checkable notes will help with responses if the messaging app can read notifications or take over actions on the phone.
+When assessing Messages from family, look at the impact it has on people and data, not just whether the feature is available.
 
 ### Help number
 
-In preventing fake APKs on Android, check the Help number with a clear purpose. Make sure the phone owner, family members, and authorized service providers can explain the reason for the access or action. Don't choose the widest setting just for convenience. Record decisions and inspection dates so that small changes do not develop unnoticed.
+In preventing fake APKs on Android, check the Help number with a clear purpose.
 
 ### Platform reports
 
-Platform reports need to have borders that users can see. The risk arises when the messaging app can read notifications or take over actions on the phone. Test the flow with a safe example, then discontinue use if it's not clear why. Request an assessment from the phone owner, family members, and authorized service providers before additional data or actions are processed.
+Platform reports need to have borders that users can see.
 
 ### Bank channel
 
-Make Banking channels part of routine work, not an action after a problem occurs. In counterfeit APK prevention on Android, changing accounts, permissions, or flows can change the risk. Owners need to be aware of the changes and ensure the protection still serves its original purpose.
+Make Banking channels part of routine work, not an action after a problem occurs.
 
 ### Android Settings
 
-When assessing Android Settings, look at the impact on people and data, not just whether features are available. Phone owners, family members, and authorized service providers need to give users a way to ask questions and report. Checkable notes will help with responses if the messaging app can read notifications or take over actions on the phone.
+When assessing Android Settings, look at the impact on people and data, not just whether features are available.
 
 ### Operator account
 
-In the prevention of fake APKs on Android, check the operator Account with a clear purpose. Make sure the phone owner, family members, and authorized service providers can explain the reason for the access or action. Don't choose the widest setting just for convenience. Record decisions and inspection dates so that small changes do not develop unnoticed.
+In the prevention of fake APKs on Android, check the operator Account with a clear purpose.
 
 ### Backup device
 
-Backup devices need to have user-visible boundaries. The risk arises when the messaging app can read notifications or take over actions on the phone. Test the flow with a safe example, then discontinue use if it's not clear why. Request an assessment from the phone owner, family members, and authorized service providers before additional data or actions are processed.
+Backup devices need to have user-visible boundaries.
 
 ### Service center
 
-Make the service center part of routine work, not an action after a problem occurs. In counterfeit APK prevention on Android, changing accounts, permissions, or flows can change the risk. Owners need to be aware of the changes and ensure the protection still serves its original purpose.
+Make the service center part of routine work, not an action after a problem occurs.
 
 ## Sources and further reading
 

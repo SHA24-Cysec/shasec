@@ -19,7 +19,7 @@ Banyak orang mengatur keamanan digital sekali lalu melupakannya. Kata sandi yang
 ## Checklist audit bulanan
 
 ### Minggu 1: Akun dan kata sandi
-**Periksa kebocoran data baru.** Kunjungi [haveibeenpwned.Com](https://haveibeenpwned.Com) dan cek alamat email Anda. Jika ada kebocoran baru sejak pemeriksaan terakhir, ganti kata sandi di layanan terkait dan aktifkan 2FA jika belum.
+**Periksa kebocoran data baru.** Kunjungi [haveibeenpwned.com](https://haveibeenpwned.com) dan cek alamat email Anda. Jika ada kebocoran baru sejak pemeriksaan terakhir, ganti kata sandi di layanan terkait dan aktifkan 2FA jika belum.
 **Tinjau sesi login aktif.** Buka pengaturan keamanan di akun utama (Google, Microsoft, Apple, Facebook). Lihat daftar perangkat yang sedang login. Keluarkan sesi yang tidak Anda kenal atau perangkat yang tidak lagi Anda pakai.
 **Perbarui kata sandi yang lemah.** Jika Anda masih memakai kata sandi yang dibuat bertahun-tahun lalu, atau yang dipakai di beberapa layanan, gantilah. Prioritaskan akun email utama, perbankan, dan media sosial.
 
@@ -64,7 +64,7 @@ Tidak. Semua langkah dalam checklist ini bisa dilakukan dengan alat gratis dan b
 Prioritaskan penanganan segera. Ganti kata sandi, keluarkan sesi tidak dikenal, laporkan ke bank jika ada transaksi mencurigakan. Tunda sisa checklist jika diperlukan untuk menangani temuan kritis.
 
 ## Sumber dan bacaan lanjutan
-- [HaveIBeenPwned](https://haveibeenpwned.Com)
-- [EFF:SurveillanceSelf-Defense](https://ssd.Eff.Org/)
-- [CISA:CyberHygiene](https://www.Cisa.Gov/cyber-hygiene)
+- [Have I Been Pwned](https://haveibeenpwned.com)
+- [EFF: Surveillance Self-Defense](https://ssd.eff.org/)
+- [CISA: Cyber Hygiene Services](https://www.cisa.gov/cyber-hygiene-services)
 > **Catatan editorial:** Checklist ini adalah panduan umum. Sesuaikan frekuensi dan kedalaman pemeriksaan dengan tingkat risiko Anda. Pengguna dengan profil risiko tinggi (jurnalis, aktivis, eksekutif) mungkin perlu audit lebih sering.

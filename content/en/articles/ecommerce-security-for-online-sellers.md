@@ -91,8 +91,8 @@ Many hosting providers offer free SSL through Let's Encrypt. Paid SSL is availab
 Follow applicable data protection regulations: identify the leaked data, secure the system, report to authorities within required timeframes, and notify affected customers. Document every step for audit purposes.
 
 ## Sources and further reading
-- [OWASP:E-CommerceSecurity](https://owasp.Org/www-project-web-security-testing-guide/)
-- [PCIDSS:PaymentCardIndustryStandards](https://www.Pcisecuritystandards.Org/)
-- [FTC:ProtectingPersonalInformation](https://www.Ftc.Gov/business-guidance/privacy-security)
+- [OWASP: Web Security Testing Guide](https://owasp.org/www-project-web-security-testing-guide/)
+- [PCI Security Standards Council](https://www.pcisecuritystandards.org/)
+- [FTC: Protecting Personal Information](https://www.ftc.gov/business-guidance/privacy-security)
 
 > **Editorial note:** This article provides general guidance. Specific legal obligations depend on your jurisdiction and the types of data you process. Consult a legal professional for proper compliance.

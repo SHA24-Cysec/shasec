@@ -34,31 +34,31 @@ Use private mode and search for a name, email, phone number, or username. Note t
 
 ### 2. Differentiate between Google and the source site
 
-Search results are directions to the source page. Note the domain containing the data. To remove it from the internet more completely, contact the owner of the site or service that uploaded it. Keep brief notes about the time, sources of information, and steps taken. These notes are helpful if you need to contact authorized service.
+Search results are directions to the source page. Note the domain containing the data. To remove it from the internet more completely, contact the owner of the site or service that uploaded it.
 
 ### 3. Gather necessary evidence
 
-Save page URLs, search result URLs, screenshots, dates, and the type of data displayed. A neat proof makes it easier to delete forms and reduces the need to re-open sensitive pages. Keep brief notes about the time, sources of information, and steps taken. These notes are helpful if you need to contact authorized service.
+Save page URLs, search result URLs, screenshots, dates, and the type of data displayed. A neat proof makes it easier to delete forms and reduces the need to re-open sensitive pages.
 
 ### 4. Use the appropriate Google deletion path
 
-Google provides processing for certain categories of personal information. Read the categories and terms, then fill out the form from the official help page. Provide accurate information and do not upload more documents than required. Keep brief notes about the time, sources of information, and steps taken. These notes are helpful if you need to contact authorized service.
+Google provides processing for certain categories of personal information. Read the categories and terms, then fill out the form from the official help page. Provide accurate information and do not upload more documents than required.
 
 ### 5. Contact the source site if safe
 
-If you have access to the site's official accounts or channels, request immediate removal. Describe the URL, the data that needs to be deleted, and a brief reason. Save correspondence without resending sensitive documents. Keep brief notes about the time, sources of information, and steps taken. These notes are helpful if you need to contact authorized service.
+If you have access to the site's official accounts or channels, request immediate removal. Describe the URL, the data that needs to be deleted, and a brief reason. Save correspondence without resending sensitive documents.
 
 ### 6. Secure your own content
 
-Delete old posts containing boarding passes, bills, access cards, addresses or photos of documents. Check the drive, social media, and shared photo album visibility settings. Keep brief notes about the time, sources of information, and steps taken. These notes are helpful if you need to contact authorized service.
+Delete old posts containing boarding passes, bills, access cards, addresses or photos of documents. Check the drive, social media, and shared photo album visibility settings.
 
 ### 7. Beware of fake removal services
 
-Parties offering instant data deletion may ask for documents or fees without success. Use official forms and do not give passwords, OTP, or account access to parties who contact you first. Keep brief notes about the time, sources of information, and steps taken. These notes are helpful if you need to contact authorized service.
+Parties offering instant data deletion may ask for documents or fees without success. Use official forms and do not give passwords, OTP, or account access to parties who contact you first.
 
 ### 8. Monitor results regularly
 
-Requests may require review. Save the reference number, check for updates via official email, and repeat the search after a decision is made. If there is a serious threat or spread, preserve evidence and seek appropriate assistance. Keep brief notes about the time, sources of information, and steps taken. These notes are helpful if you need to contact authorized service.
+Requests may require review. Save the reference number, check for updates via official email, and repeat the search after a decision is made. If there is a serious threat or spread, preserve evidence and seek appropriate assistance.
 
 ## Example situations
 
@@ -105,47 +105,47 @@ In the context of how to remove personal data from Google Search and reduce your
 
 ### Identity of related parties
 
-In the context of how to delete personal data from Google Search and reduce online footprints, check the identity of the parties concerned with a clear purpose. Avoid giving more access or data than necessary. Record important decisions, use official channels, and take gradual action so you don't create new problems while trying to resolve the initial problem.
+In the context of how to delete personal data from Google Search and reduce online footprints, check the identity of the parties concerned with a clear purpose.
 
 ### Main account
 
-In the context of how to remove personal data from Google Search and reduce online footprints, check the main account with a clear purpose. Avoid giving more access or data than necessary. Record important decisions, use official channels, and take gradual action so you don't create new problems while trying to resolve the initial problem.
+In the context of how to remove personal data from Google Search and reduce online footprints, check the main account with a clear purpose.
 
 ### Other devices
 
-In the context of how to delete personal data from Google Search and reduce online footprints, check other devices with clear goals. Avoid giving more access or data than necessary. Record important decisions, use official channels, and take gradual action so you don't create new problems while trying to resolve the initial problem.
+In the context of how to delete personal data from Google Search and reduce online footprints, check other devices with clear goals.
 
 ### Proof of transaction or activity
 
-In the context of how to delete personal data from Google Search and reduce online footprints, check evidence of transactions or activities with a clear purpose. Avoid giving more access or data than necessary. Record important decisions, use official channels, and take gradual action so you don't create new problems while trying to resolve the initial problem.
+In the context of how to delete personal data from Google Search and reduce online footprints, check evidence of transactions or activities with a clear purpose.
 
 ### App permissions
 
-In the context of how to remove personal data from Google Search and reduce online footprints, check app permissions with a clear purpose. Avoid giving more access or data than necessary. Record important decisions, use official channels, and take gradual action so you don't create new problems while trying to resolve the initial problem.
+In the context of how to remove personal data from Google Search and reduce online footprints, check app permissions with a clear purpose.
 
 ### Change history
 
-In the context of how to remove personal data from Google Search and reduce your online footprint, check the history of changes with a clear purpose. Avoid giving more access or data than necessary. Record important decisions, use official channels, and take gradual action so you don't create new problems while trying to resolve the initial problem.
+In the context of how to remove personal data from Google Search and reduce your online footprint, check the history of changes with a clear purpose.
 
 ### Reporting path
 
-In the context of how to remove personal data from Google Search and reduce your online footprint, check reporting lines with clear objectives. Avoid giving more access or data than necessary. Record important decisions, use official channels, and take gradual action so you don't create new problems while trying to resolve the initial problem.
+In the context of how to remove personal data from Google Search and reduce your online footprint, check reporting lines with clear objectives.
 
 ### Account recovery
 
-In the context of how to delete personal data from Google Search and reduce online footprints, check account recovery with a clear goal. Avoid giving more access or data than necessary. Record important decisions, use official channels, and take gradual action so you don't create new problems while trying to resolve the initial problem.
+In the context of how to delete personal data from Google Search and reduce online footprints, check account recovery with a clear goal.
 
 ### Next precaution
 
-In the context of how to remove personal data from Google Search and reduce your online footprint, check out the next precaution with a clear goal. Avoid giving more access or data than necessary. Record important decisions, use official channels, and take gradual action so you don't create new problems while trying to resolve the initial problem.
+In the context of how to remove personal data from Google Search and reduce your online footprint, check out the next precaution with a clear goal.
 
 ### Family customs
 
-In the context of how to delete personal data from Google search and reduce online footprints, examine family habits with clear goals. Avoid giving more access or data than necessary. Record important decisions, use official channels, and take gradual action so you don't create new problems while trying to resolve the initial problem.
+In the context of how to delete personal data from Google search and reduce online footprints, examine family habits with clear goals.
 
 ### Periodic review
 
-In the context of how to remove personal data from Google Search and reduce your online footprint, check for regular reviews with a clear purpose. Avoid giving more access or data than necessary. Record important decisions, use official channels, and take gradual action so you don't create new problems while trying to resolve the initial problem.
+In the context of how to remove personal data from Google Search and reduce your online footprint, check for regular reviews with a clear purpose.
 
 ### Safe action notes
 
@@ -153,140 +153,140 @@ Double check the information before sending data or funds. Small steps taken in 
 
 ### Safe action notes
 
-Store evidence with limited access. Small steps taken in the right order are often more effective than quick actions without verification.
+Store evidence with limited access.
 
 ### Safe action notes
 
-Store evidence with limited access. Small steps taken in the right order are often more effective than quick actions without verification.
+Store evidence with limited access.
 
 ### Safe action notes
 
-Store evidence with limited access. Small steps taken in the right order are often more effective than quick actions without verification.
+Store evidence with limited access.
 
 ### Safe action notes
 
-Store evidence with limited access. Small steps taken in the right order are often more effective than quick actions without verification.
+Store evidence with limited access.
 
 ### Safe action notes
 
-Store evidence with limited access. Small steps taken in the right order are often more effective than quick actions without verification.
+Store evidence with limited access.
 
 ### Safe action notes
 
-Store evidence with limited access. Small steps taken in the right order are often more effective than quick actions without verification.
+Store evidence with limited access.
 
 ### Safe action notes
 
-Store evidence with limited access. Small steps taken in the right order are often more effective than quick actions without verification.
+Store evidence with limited access.
 
 ### Safe action notes
 
-Store evidence with limited access. Small steps taken in the right order are often more effective than quick actions without verification.
+Store evidence with limited access.
 
 ### Safe action notes
 
-Store evidence with limited access. Small steps taken in the right order are often more effective than quick actions without verification.
+Store evidence with limited access.
 
 ### Safe action notes
 
-Store evidence with limited access. Small steps taken in the right order are often more effective than quick actions without verification.
+Store evidence with limited access.
 
 ### Safe action notes
 
-Store evidence with limited access. Small steps taken in the right order are often more effective than quick actions without verification.
+Store evidence with limited access.
 
 ### Safe action notes
 
-Store evidence with limited access. Small steps taken in the right order are often more effective than quick actions without verification.
+Store evidence with limited access.
 
 ### Safe action notes
 
-Store evidence with limited access. Small steps taken in the right order are often more effective than quick actions without verification.
+Store evidence with limited access.
 
 ### Safe action notes
 
-Store evidence with limited access. Small steps taken in the right order are often more effective than quick actions without verification.
+Store evidence with limited access.
 
 ### Safe action notes
 
-Store evidence with limited access. Small steps taken in the right order are often more effective than quick actions without verification.
+Store evidence with limited access.
 
 ### Safe action notes
 
-Store evidence with limited access. Small steps taken in the right order are often more effective than quick actions without verification.
+Store evidence with limited access.
 
 ### Safe action notes
 
-Store evidence with limited access. Small steps taken in the right order are often more effective than quick actions without verification.
+Store evidence with limited access.
 
 ### Safe action notes
 
-Store evidence with limited access. Small steps taken in the right order are often more effective than quick actions without verification.
+Store evidence with limited access.
 
 ### Safe action notes
 
-Store evidence with limited access. Small steps taken in the right order are often more effective than quick actions without verification.
+Store evidence with limited access.
 
 ### Safe action notes
 
-Store evidence with limited access. Small steps taken in the right order are often more effective than quick actions without verification.
+Store evidence with limited access.
 
 ### Safe action notes
 
-Store evidence with limited access. Small steps taken in the right order are often more effective than quick actions without verification.
+Store evidence with limited access.
 
 ### Safe action notes
 
-Store evidence with limited access. Small steps taken in the right order are often more effective than quick actions without verification.
+Store evidence with limited access.
 
 ### Safe action notes
 
-Store evidence with limited access. Small steps taken in the right order are often more effective than quick actions without verification.
+Store evidence with limited access.
 
 ### Safe action notes
 
-Store evidence with limited access. Small steps taken in the right order are often more effective than quick actions without verification.
+Store evidence with limited access.
 
 ### Safe action notes
 
-Store evidence with limited access. Small steps taken in the right order are often more effective than quick actions without verification.
+Store evidence with limited access.
 
 ### Safe action notes
 
-Store evidence with limited access. Small steps taken in the right order are often more effective than quick actions without verification.
+Store evidence with limited access.
 
 ### Safe action notes
 
-Store evidence with limited access. Small steps taken in the right order are often more effective than quick actions without verification.
+Store evidence with limited access.
 
 ### Safe action notes
 
-Store evidence with limited access. Small steps taken in the right order are often more effective than quick actions without verification.
+Store evidence with limited access.
 
 ### Safe action notes
 
-Store evidence with limited access. Small steps taken in the right order are often more effective than quick actions without verification.
+Store evidence with limited access.
 
 ### Safe action notes
 
-Store evidence with limited access. Small steps taken in the right order are often more effective than quick actions without verification.
+Store evidence with limited access.
 
 ### Safe action notes
 
-Store evidence with limited access. Small steps taken in the right order are often more effective than quick actions without verification.
+Store evidence with limited access.
 
 ### Safe action notes
 
-Store evidence with limited access. Small steps taken in the right order are often more effective than quick actions without verification.
+Store evidence with limited access.
 
 ### Safe action notes
 
-Store evidence with limited access. Small steps taken in the right order are often more effective than quick actions without verification.
+Store evidence with limited access.
 
 ## Sources and further reading
 
 - [Google: Remove Personally Identifiable Information](https://support.google.com/websearch/troubleshooter/3111061)
 - [Google: Results About You](https://support.google.com/websearch/answer/12719076)
-- [FTC: Protecting Personal Information](https://consumer.ftc.gov/articles/protecting-personal-information)
+- [FTC: Protecting Personal Information](https://www.ftc.gov/business-guidance/resources/protecting-personal-information-guide-business)
 
 > **Editorial note:** This article is educational in nature. Service procedures, device menus, and platform policies are subject to change. Use official channels for handling specific cases.

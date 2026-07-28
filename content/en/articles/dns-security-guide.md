@@ -95,8 +95,8 @@ No. DoH hides DNS queries from your ISP, but the DoH resolver you choose can sti
 DNS filtering helps, but smart children can find bypass methods. Combine with device-level parental controls and open communication about online safety.
 
 ## Sources and further reading
-- [Cloudflare:DNSSecurity](https://www.Cloudflare.Com/learning/dns/dns-security/)
-- [CISA:DNSSecurityBestPractices](https://www.Cisa.Gov/dns-security)
-- [EFF:HowtoEnableDNSoverHTTPS](https://www.Eff.Org/)
+- [Cloudflare: DNS Security](https://www.cloudflare.com/learning/dns/dns-security/)
+- [CISA: Cybersecurity Best Practices](https://www.cisa.gov/topics/cybersecurity-best-practices)
+- [EFF: Surveillance Self-Defense](https://www.eff.org/)
 
 > **Editorial note:** DNS configuration varies by device and network. This guide is general. Adapt it to your devices and network environment.

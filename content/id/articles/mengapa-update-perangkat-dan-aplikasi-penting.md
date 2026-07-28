@@ -86,6 +86,6 @@ Batasi untuk data sensitif, gunakan jaringan yang lebih aman, dan rencanakan pen
 Risiko umumnya kecil, tetapi backup dan ruang penyimpanan yang cukup adalah kebiasaan baik sebelum update besar.
 
 ## Sumber dan bacaan lanjutan
-- [CISA:UpdateSoftware](https://www.Cisa.Gov/secure-our-world/update-software)
-- [FTC:Fivewaystokeepscammersandhackersaway](https://consumer.Ftc.Gov/consumer-alerts/2024/08/five-ways-keep-scammers-hackers-away)
+- [CISA: Update Software](https://www.cisa.gov/secure-our-world/update-software)
+- [FTC: Five Ways to Keep Scammers and Hackers Away](https://consumer.ftc.gov/consumer-alerts/2024/08/five-ways-keep-scammers-hackers-away)
 > **Catatan editorial:** Artikel ini bersifat edukatif dan defensif. Tampilan, kebijakan, dan fitur setiap layanan dapat berubah. Gunakan dokumentasi resmi layanan yang Anda pakai untuk petunjuk teknis terbaru.

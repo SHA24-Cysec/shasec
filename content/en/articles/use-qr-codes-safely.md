@@ -59,6 +59,6 @@ One that shows the destination URL and asks for confirmation before opening. The
 Most are safe, but still check whether a sticker has been placed over it and whether the menu domain makes sense before ordering.
 
 ## Sources and further reading
-- [CISA:Coreonlinesafetyactions](https://www.Cisa.Gov/news-events/news/national-internet-safety-month-june-take-4-easy-steps-stay-safe-online)
-- [FTC:Protectpersonalinformation](https://consumer.Ftc.Gov/articles/protect-your-personal-information-hackers-and-scammers)
+- [CISA: Core Online Safety Actions](https://www.cisa.gov/news-events/news/national-internet-safety-month-june-take-4-easy-steps-stay-safe-online)
+- [FTC: Protect Your Personal Information](https://consumer.ftc.gov/articles/protect-your-personal-information-hackers-and-scammers)
 > **Editorial note:** This article is educational and defensive. QR behavior differs between payment apps. Use your provider's official guidance.

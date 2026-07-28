@@ -86,6 +86,6 @@ VPN need depends on context and policy. It is not a replacement for official sit
 Lower-risk activity without sensitive data, while still using official apps and sites and an updated device.
 
 ## Sources and further reading
-- [FTC:PublicWi-FiNetworks:SecurityTips](https://consumer.Ftc.Gov/media/79888)
-- [CISA:Coreonline-safetyactions](https://www.Cisa.Gov/news-events/news/national-internet-safety-month-june-take-4-easy-steps-stay-safe-online)
+- [FTC: Public Wi-Fi Networks — Security Tips](https://consumer.ftc.gov/media/79888)
+- [CISA: Core Online Safety Actions](https://www.cisa.gov/news-events/news/national-internet-safety-month-june-take-4-easy-steps-stay-safe-online)
 > **Editorial note:** This article is educational and defensive. Interfaces, policies, and features can change. Use the official documentation for the service you use when you need current technical instructions.

@@ -144,7 +144,7 @@ When using AI in the workplace, check Administrator rights with clear objectives
 
 ### Internal policy
 
-Internal policies need to have boundaries that users can see. Risks arise when organizational or customer data enters services that have not been vetted. Test the flow with a safe example, then discontinue use if it's not clear why. Request judgment from process owners, administrators, and tool users before additional data or actions are processed.
+Internal policies need to have boundaries that users can see. Test the flow with a safe example, then discontinue use if it's not clear why. Request judgment from process owners, administrators, and tool users before additional data or actions are processed.
 
 ### Example data
 
@@ -156,27 +156,27 @@ When assessing public Output, look at its impact on people and data, not just wh
 
 ### Customer data
 
-In using AI in the workplace, examine customer Data with clear objectives. Make sure process owners, administrators, and tool users can explain the reason for the access or action. Don't choose the widest setting just for convenience. Record decisions and inspection dates so that small changes do not develop unnoticed.
+In using AI in the workplace, examine customer Data with clear objectives.
 
 ### Contract documents
 
-Contract documents need to have boundaries that users can see. Risks arise when organizational or customer data enters services that have not been vetted. Test the flow with a safe example, then discontinue use if it's not clear why. Request judgment from process owners, administrators, and tool users before additional data or actions are processed.
+Contract documents need to have boundaries that users can see.
 
 ### Access the repository
 
-Make repository access part of routine work, not an action after a problem occurs. In workplace AI use, changes to accounts, permissions, or flows can change risks. Owners need to be aware of the changes and ensure the protection still serves its original purpose.
+Make repository access part of routine work, not an action after a problem occurs.
 
 ### New connector
 
-When assessing new Connectors, look at the impact on people and data, not just whether features are available. process owners, administrators, and tool users need to provide users with ways to ask questions and report. Checkable records will help with response when organizational or customer data enters the service that has not been checked.
+When assessing new Connectors, look at the impact on people and data, not just whether features are available.
 
 ### Access revocation
 
-In the use of AI in the workplace, check Devocation of access with a clear purpose. Make sure process owners, administrators, and tool users can explain the reason for the access or action. Don't choose the widest setting just for convenience. Record decisions and inspection dates so that small changes do not develop unnoticed.
+In the use of AI in the workplace, check Devocation of access with a clear purpose.
 
 ### Hidden fees
 
-Hidden costs need to have boundaries that users can see. Risks arise when organizational or customer data enters services that have not been vetted. Test the flow with a safe example, then discontinue use if it's not clear why. Request judgment from process owners, administrators, and tool users before additional data or actions are processed.
+Hidden costs need to have boundaries that users can see.
 
 ## Sources and further reading
 

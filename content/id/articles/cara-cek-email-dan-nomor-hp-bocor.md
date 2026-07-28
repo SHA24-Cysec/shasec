@@ -34,31 +34,31 @@ Buka Have I Been Pwned dari alamat yang Anda ketik sendiri. Masukkan alamat emai
 
 ### 2. Pahami arti hasil yang ditemukan
 
-Hasil dapat menunjukkan layanan yang pernah mengalami insiden serta jenis data yang terpapar. Baca nama layanan dan jenis data, tetapi jangan menyimpulkan bahwa semua data atau akun saat ini pasti telah diambil alih. Simpan catatan singkat tentang waktu, sumber informasi, dan langkah yang sudah dilakukan. Catatan ini membantu bila Anda perlu menghubungi layanan resmi.
+Hasil dapat menunjukkan layanan yang pernah mengalami insiden serta jenis data yang terpapar. Baca nama layanan dan jenis data, tetapi jangan menyimpulkan bahwa semua data atau akun saat ini pasti telah diambil alih.
 
 ### 3. Mulai dari email utama
 
-Amankan email yang dipakai untuk pemulihan akun lebih dulu. Ganti kata sandi unik dari perangkat aman, cek perangkat masuk, alamat pemulihan, filter penerusan, dan aplikasi pihak ketiga yang memiliki izin. Simpan catatan singkat tentang waktu, sumber informasi, dan langkah yang sudah dilakukan. Catatan ini membantu bila Anda perlu menghubungi layanan resmi.
+Amankan email yang dipakai untuk pemulihan akun lebih dulu. Ganti kata sandi unik dari perangkat aman, cek perangkat masuk, alamat pemulihan, filter penerusan, dan aplikasi pihak ketiga yang memiliki izin.
 
 ### 4. Ganti kata sandi yang dipakai ulang
 
-Jika kata sandi pernah digunakan di beberapa layanan, ganti pada semua layanan tersebut. Pengelola kata sandi membantu membuat kata sandi unik sehingga satu kebocoran tidak membuka banyak akun. Simpan catatan singkat tentang waktu, sumber informasi, dan langkah yang sudah dilakukan. Catatan ini membantu bila Anda perlu menghubungi layanan resmi.
+Jika kata sandi pernah digunakan di beberapa layanan, ganti pada semua layanan tersebut. Pengelola kata sandi membantu membuat kata sandi unik sehingga satu kebocoran tidak membuka banyak akun.
 
 ### 5. Aktifkan autentikasi yang lebih kuat
 
-Pilih passkey, kunci keamanan, atau aplikasi autentikator bila tersedia. SMS tetap berguna sebagai cadangan, tetapi nomor telepon dapat menjadi sasaran pengalihan SIM. Simpan catatan singkat tentang waktu, sumber informasi, dan langkah yang sudah dilakukan. Catatan ini membantu bila Anda perlu menghubungi layanan resmi.
+Pilih passkey, kunci keamanan, atau aplikasi autentikator bila tersedia. SMS tetap berguna sebagai cadangan, tetapi nomor telepon dapat menjadi sasaran pengalihan SIM.
 
 ### 6. Waspadai pesan bertema kebocoran
 
-Penipu sering memanfaatkan berita kebocoran untuk mengirim tautan reset palsu. Jangan klik dari pesan mendadak. Buka layanan resmi sendiri dan cek status akun dari sana. Simpan catatan singkat tentang waktu, sumber informasi, dan langkah yang sudah dilakukan. Catatan ini membantu bila Anda perlu menghubungi layanan resmi.
+Penipu sering memanfaatkan berita kebocoran untuk mengirim tautan reset palsu. Jangan klik dari pesan mendadak. Buka layanan resmi sendiri dan cek status akun dari sana.
 
 ### 7. Tinjau nomor ponsel sebagai jalur pemulihan
 
-Perbarui nomor lama pada email, marketplace, bank, dan media sosial. Hubungi operator untuk menanyakan perlindungan tambahan bila nomor memegang peran penting pada verifikasi akun. Simpan catatan singkat tentang waktu, sumber informasi, dan langkah yang sudah dilakukan. Catatan ini membantu bila Anda perlu menghubungi layanan resmi.
+Perbarui nomor lama pada email, marketplace, bank, dan media sosial. Hubungi operator untuk menanyakan perlindungan tambahan bila nomor memegang peran penting pada verifikasi akun.
 
 ### 8. Pantau, jangan panik
 
-Atur notifikasi login dan transaksi, lalu periksa akun penting secara berkala. Catat aktivitas yang tidak dikenal dan bertindak melalui kanal resmi bila muncul tanda kompromi. Simpan catatan singkat tentang waktu, sumber informasi, dan langkah yang sudah dilakukan. Catatan ini membantu bila Anda perlu menghubungi layanan resmi.
+Atur notifikasi login dan transaksi, lalu periksa akun penting secara berkala. Catat aktivitas yang tidak dikenal dan bertindak melalui kanal resmi bila muncul tanda kompromi.
 
 ## Contoh situasi
 
@@ -105,47 +105,47 @@ Dalam konteks cara cek email dan nomor hp bocor: langkah aman setelah menemukan 
 
 ### Identitas pihak terkait
 
-Dalam konteks cara cek email dan nomor hp bocor: langkah aman setelah menemukan data anda, periksa identitas pihak terkait dengan tujuan yang jelas. Hindari memberi akses atau data lebih banyak daripada yang diperlukan. Catat keputusan penting, gunakan kanal resmi, dan lakukan tindakan bertahap agar Anda tidak membuat masalah baru saat mencoba menyelesaikan masalah awal.
+Dalam konteks cara cek email dan nomor hp bocor: langkah aman setelah menemukan data anda, periksa identitas pihak terkait dengan tujuan yang jelas.
 
 ### Akun utama
 
-Dalam konteks cara cek email dan nomor hp bocor: langkah aman setelah menemukan data anda, periksa akun utama dengan tujuan yang jelas. Hindari memberi akses atau data lebih banyak daripada yang diperlukan. Catat keputusan penting, gunakan kanal resmi, dan lakukan tindakan bertahap agar Anda tidak membuat masalah baru saat mencoba menyelesaikan masalah awal.
+Dalam konteks cara cek email dan nomor hp bocor: langkah aman setelah menemukan data anda, periksa akun utama dengan tujuan yang jelas.
 
 ### Perangkat lain
 
-Dalam konteks cara cek email dan nomor hp bocor: langkah aman setelah menemukan data anda, periksa perangkat lain dengan tujuan yang jelas. Hindari memberi akses atau data lebih banyak daripada yang diperlukan. Catat keputusan penting, gunakan kanal resmi, dan lakukan tindakan bertahap agar Anda tidak membuat masalah baru saat mencoba menyelesaikan masalah awal.
+Dalam konteks cara cek email dan nomor hp bocor: langkah aman setelah menemukan data anda, periksa perangkat lain dengan tujuan yang jelas.
 
 ### Bukti transaksi atau aktivitas
 
-Dalam konteks cara cek email dan nomor hp bocor: langkah aman setelah menemukan data anda, periksa bukti transaksi atau aktivitas dengan tujuan yang jelas. Hindari memberi akses atau data lebih banyak daripada yang diperlukan. Catat keputusan penting, gunakan kanal resmi, dan lakukan tindakan bertahap agar Anda tidak membuat masalah baru saat mencoba menyelesaikan masalah awal.
+Dalam konteks cara cek email dan nomor hp bocor: langkah aman setelah menemukan data anda, periksa bukti transaksi atau aktivitas dengan tujuan yang jelas.
 
 ### Izin aplikasi
 
-Dalam konteks cara cek email dan nomor hp bocor: langkah aman setelah menemukan data anda, periksa izin aplikasi dengan tujuan yang jelas. Hindari memberi akses atau data lebih banyak daripada yang diperlukan. Catat keputusan penting, gunakan kanal resmi, dan lakukan tindakan bertahap agar Anda tidak membuat masalah baru saat mencoba menyelesaikan masalah awal.
+Dalam konteks cara cek email dan nomor hp bocor: langkah aman setelah menemukan data anda, periksa izin aplikasi dengan tujuan yang jelas.
 
 ### Riwayat perubahan
 
-Dalam konteks cara cek email dan nomor hp bocor: langkah aman setelah menemukan data anda, periksa riwayat perubahan dengan tujuan yang jelas. Hindari memberi akses atau data lebih banyak daripada yang diperlukan. Catat keputusan penting, gunakan kanal resmi, dan lakukan tindakan bertahap agar Anda tidak membuat masalah baru saat mencoba menyelesaikan masalah awal.
+Dalam konteks cara cek email dan nomor hp bocor: langkah aman setelah menemukan data anda, periksa riwayat perubahan dengan tujuan yang jelas.
 
 ### Jalur pelaporan
 
-Dalam konteks cara cek email dan nomor hp bocor: langkah aman setelah menemukan data anda, periksa jalur pelaporan dengan tujuan yang jelas. Hindari memberi akses atau data lebih banyak daripada yang diperlukan. Catat keputusan penting, gunakan kanal resmi, dan lakukan tindakan bertahap agar Anda tidak membuat masalah baru saat mencoba menyelesaikan masalah awal.
+Dalam konteks cara cek email dan nomor hp bocor: langkah aman setelah menemukan data anda, periksa jalur pelaporan dengan tujuan yang jelas.
 
 ### Pemulihan akun
 
-Dalam konteks cara cek email dan nomor hp bocor: langkah aman setelah menemukan data anda, periksa pemulihan akun dengan tujuan yang jelas. Hindari memberi akses atau data lebih banyak daripada yang diperlukan. Catat keputusan penting, gunakan kanal resmi, dan lakukan tindakan bertahap agar Anda tidak membuat masalah baru saat mencoba menyelesaikan masalah awal.
+Dalam konteks cara cek email dan nomor hp bocor: langkah aman setelah menemukan data anda, periksa pemulihan akun dengan tujuan yang jelas.
 
 ### Pencegahan berikutnya
 
-Dalam konteks cara cek email dan nomor hp bocor: langkah aman setelah menemukan data anda, periksa pencegahan berikutnya dengan tujuan yang jelas. Hindari memberi akses atau data lebih banyak daripada yang diperlukan. Catat keputusan penting, gunakan kanal resmi, dan lakukan tindakan bertahap agar Anda tidak membuat masalah baru saat mencoba menyelesaikan masalah awal.
+Dalam konteks cara cek email dan nomor hp bocor: langkah aman setelah menemukan data anda, periksa pencegahan berikutnya dengan tujuan yang jelas.
 
 ### Kebiasaan keluarga
 
-Dalam konteks cara cek email dan nomor hp bocor: langkah aman setelah menemukan data anda, periksa kebiasaan keluarga dengan tujuan yang jelas. Hindari memberi akses atau data lebih banyak daripada yang diperlukan. Catat keputusan penting, gunakan kanal resmi, dan lakukan tindakan bertahap agar Anda tidak membuat masalah baru saat mencoba menyelesaikan masalah awal.
+Dalam konteks cara cek email dan nomor hp bocor: langkah aman setelah menemukan data anda, periksa kebiasaan keluarga dengan tujuan yang jelas.
 
 ### Tinjauan berkala
 
-Dalam konteks cara cek email dan nomor hp bocor: langkah aman setelah menemukan data anda, periksa tinjauan berkala dengan tujuan yang jelas. Hindari memberi akses atau data lebih banyak daripada yang diperlukan. Catat keputusan penting, gunakan kanal resmi, dan lakukan tindakan bertahap agar Anda tidak membuat masalah baru saat mencoba menyelesaikan masalah awal.
+Dalam konteks cara cek email dan nomor hp bocor: langkah aman setelah menemukan data anda, periksa tinjauan berkala dengan tujuan yang jelas.
 
 ### Catatan tindakan aman
 
@@ -153,131 +153,131 @@ Simpan bukti dengan akses terbatas. Langkah kecil yang dilakukan dengan urutan t
 
 ### Catatan tindakan aman
 
-Simpan bukti dengan akses terbatas. Langkah kecil yang dilakukan dengan urutan tepat sering lebih efektif daripada tindakan cepat tanpa verifikasi.
+Simpan bukti dengan akses terbatas.
 
 ### Catatan tindakan aman
 
-Simpan bukti dengan akses terbatas. Langkah kecil yang dilakukan dengan urutan tepat sering lebih efektif daripada tindakan cepat tanpa verifikasi.
+Simpan bukti dengan akses terbatas.
 
 ### Catatan tindakan aman
 
-Simpan bukti dengan akses terbatas. Langkah kecil yang dilakukan dengan urutan tepat sering lebih efektif daripada tindakan cepat tanpa verifikasi.
+Simpan bukti dengan akses terbatas.
 
 ### Catatan tindakan aman
 
-Simpan bukti dengan akses terbatas. Langkah kecil yang dilakukan dengan urutan tepat sering lebih efektif daripada tindakan cepat tanpa verifikasi.
+Simpan bukti dengan akses terbatas.
 
 ### Catatan tindakan aman
 
-Simpan bukti dengan akses terbatas. Langkah kecil yang dilakukan dengan urutan tepat sering lebih efektif daripada tindakan cepat tanpa verifikasi.
+Simpan bukti dengan akses terbatas.
 
 ### Catatan tindakan aman
 
-Simpan bukti dengan akses terbatas. Langkah kecil yang dilakukan dengan urutan tepat sering lebih efektif daripada tindakan cepat tanpa verifikasi.
+Simpan bukti dengan akses terbatas.
 
 ### Catatan tindakan aman
 
-Simpan bukti dengan akses terbatas. Langkah kecil yang dilakukan dengan urutan tepat sering lebih efektif daripada tindakan cepat tanpa verifikasi.
+Simpan bukti dengan akses terbatas.
 
 ### Catatan tindakan aman
 
-Simpan bukti dengan akses terbatas. Langkah kecil yang dilakukan dengan urutan tepat sering lebih efektif daripada tindakan cepat tanpa verifikasi.
+Simpan bukti dengan akses terbatas.
 
 ### Catatan tindakan aman
 
-Simpan bukti dengan akses terbatas. Langkah kecil yang dilakukan dengan urutan tepat sering lebih efektif daripada tindakan cepat tanpa verifikasi.
+Simpan bukti dengan akses terbatas.
 
 ### Catatan tindakan aman
 
-Simpan bukti dengan akses terbatas. Langkah kecil yang dilakukan dengan urutan tepat sering lebih efektif daripada tindakan cepat tanpa verifikasi.
+Simpan bukti dengan akses terbatas.
 
 ### Catatan tindakan aman
 
-Simpan bukti dengan akses terbatas. Langkah kecil yang dilakukan dengan urutan tepat sering lebih efektif daripada tindakan cepat tanpa verifikasi.
+Simpan bukti dengan akses terbatas.
 
 ### Catatan tindakan aman
 
-Simpan bukti dengan akses terbatas. Langkah kecil yang dilakukan dengan urutan tepat sering lebih efektif daripada tindakan cepat tanpa verifikasi.
+Simpan bukti dengan akses terbatas.
 
 ### Catatan tindakan aman
 
-Simpan bukti dengan akses terbatas. Langkah kecil yang dilakukan dengan urutan tepat sering lebih efektif daripada tindakan cepat tanpa verifikasi.
+Simpan bukti dengan akses terbatas.
 
 ### Catatan tindakan aman
 
-Simpan bukti dengan akses terbatas. Langkah kecil yang dilakukan dengan urutan tepat sering lebih efektif daripada tindakan cepat tanpa verifikasi.
+Simpan bukti dengan akses terbatas.
 
 ### Catatan tindakan aman
 
-Simpan bukti dengan akses terbatas. Langkah kecil yang dilakukan dengan urutan tepat sering lebih efektif daripada tindakan cepat tanpa verifikasi.
+Simpan bukti dengan akses terbatas.
 
 ### Catatan tindakan aman
 
-Simpan bukti dengan akses terbatas. Langkah kecil yang dilakukan dengan urutan tepat sering lebih efektif daripada tindakan cepat tanpa verifikasi.
+Simpan bukti dengan akses terbatas.
 
 ### Catatan tindakan aman
 
-Simpan bukti dengan akses terbatas. Langkah kecil yang dilakukan dengan urutan tepat sering lebih efektif daripada tindakan cepat tanpa verifikasi.
+Simpan bukti dengan akses terbatas.
 
 ### Catatan tindakan aman
 
-Simpan bukti dengan akses terbatas. Langkah kecil yang dilakukan dengan urutan tepat sering lebih efektif daripada tindakan cepat tanpa verifikasi.
+Simpan bukti dengan akses terbatas.
 
 ### Catatan tindakan aman
 
-Simpan bukti dengan akses terbatas. Langkah kecil yang dilakukan dengan urutan tepat sering lebih efektif daripada tindakan cepat tanpa verifikasi.
+Simpan bukti dengan akses terbatas.
 
 ### Catatan tindakan aman
 
-Simpan bukti dengan akses terbatas. Langkah kecil yang dilakukan dengan urutan tepat sering lebih efektif daripada tindakan cepat tanpa verifikasi.
+Simpan bukti dengan akses terbatas.
 
 ### Catatan tindakan aman
 
-Simpan bukti dengan akses terbatas. Langkah kecil yang dilakukan dengan urutan tepat sering lebih efektif daripada tindakan cepat tanpa verifikasi.
+Simpan bukti dengan akses terbatas.
 
 ### Catatan tindakan aman
 
-Simpan bukti dengan akses terbatas. Langkah kecil yang dilakukan dengan urutan tepat sering lebih efektif daripada tindakan cepat tanpa verifikasi.
+Simpan bukti dengan akses terbatas.
 
 ### Catatan tindakan aman
 
-Simpan bukti dengan akses terbatas. Langkah kecil yang dilakukan dengan urutan tepat sering lebih efektif daripada tindakan cepat tanpa verifikasi.
+Simpan bukti dengan akses terbatas.
 
 ### Catatan tindakan aman
 
-Simpan bukti dengan akses terbatas. Langkah kecil yang dilakukan dengan urutan tepat sering lebih efektif daripada tindakan cepat tanpa verifikasi.
+Simpan bukti dengan akses terbatas.
 
 ### Catatan tindakan aman
 
-Simpan bukti dengan akses terbatas. Langkah kecil yang dilakukan dengan urutan tepat sering lebih efektif daripada tindakan cepat tanpa verifikasi.
+Simpan bukti dengan akses terbatas.
 
 ### Catatan tindakan aman
 
-Simpan bukti dengan akses terbatas. Langkah kecil yang dilakukan dengan urutan tepat sering lebih efektif daripada tindakan cepat tanpa verifikasi.
+Simpan bukti dengan akses terbatas.
 
 ### Catatan tindakan aman
 
-Simpan bukti dengan akses terbatas. Langkah kecil yang dilakukan dengan urutan tepat sering lebih efektif daripada tindakan cepat tanpa verifikasi.
+Simpan bukti dengan akses terbatas.
 
 ### Catatan tindakan aman
 
-Simpan bukti dengan akses terbatas. Langkah kecil yang dilakukan dengan urutan tepat sering lebih efektif daripada tindakan cepat tanpa verifikasi.
+Simpan bukti dengan akses terbatas.
 
 ### Catatan tindakan aman
 
-Simpan bukti dengan akses terbatas. Langkah kecil yang dilakukan dengan urutan tepat sering lebih efektif daripada tindakan cepat tanpa verifikasi.
+Simpan bukti dengan akses terbatas.
 
 ### Catatan tindakan aman
 
-Simpan bukti dengan akses terbatas. Langkah kecil yang dilakukan dengan urutan tepat sering lebih efektif daripada tindakan cepat tanpa verifikasi.
+Simpan bukti dengan akses terbatas.
 
 ### Catatan tindakan aman
 
-Simpan bukti dengan akses terbatas. Langkah kecil yang dilakukan dengan urutan tepat sering lebih efektif daripada tindakan cepat tanpa verifikasi.
+Simpan bukti dengan akses terbatas.
 
 ### Catatan tindakan aman
 
-Simpan bukti dengan akses terbatas. Langkah kecil yang dilakukan dengan urutan tepat sering lebih efektif daripada tindakan cepat tanpa verifikasi.
+Simpan bukti dengan akses terbatas.
 
 ## Artikel terkait
 

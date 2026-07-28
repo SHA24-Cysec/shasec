@@ -86,7 +86,7 @@ Tidak. Tapi hubungan online dengan orang yang belum pernah Anda temui langsung m
 Kemungkinan pemulihan sangat kecil, terutama untuk transfer internasional, cryptocurrency, atau voucher hadiah. Kecepatan pelaporan ke bank dan pihak berwajib menentukan peluang pemulihan.
 
 ## Sumber dan bacaan lanjutan
-- [FTC:RomanceScams](https://consumer.Ftc.Gov/articles/what-know-about-romance-scams)
-- [FBI:RomanceScams](https://www.Fbi.Gov/how-we-can-help-you/safety-resources/scams-and-fraud/romance-scams)
-- [ACCC:ReportaRomanceScam](https://www.Scamwatch.Gov.Au/)
+- [FTC: What to Know About Romance Scams](https://consumer.ftc.gov/articles/what-know-about-romance-scams)
+- [FBI: Romance Scams](https://www.fbi.gov/how-we-can-help-you/scams-and-safety/common-frauds-and-scams/romance-scams)
+- [ACCC Scamwatch: Report a Romance Scam](https://www.scamwatch.gov.au/)
 > **Catatan editorial:** Artikel ini ditulis dengan empati terhadap korban romance scam. Jika Anda atau orang terdekat mengalami penipuan ini, bantuan profesional tersedia dan pemulihan mungkin dilakukan.

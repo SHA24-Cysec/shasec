@@ -52,7 +52,7 @@ Perubahan paling signifikan pada 2026 adalah masuknya AI ke dalam rantai seranga
 
 ### Reconnaissance Berbasis AI
 
-AI agent dapat secara otomatis mengumpulkan informasi tentang target dari media sosial, LinkedIn, GitHub, dan data publik lainnya. Informasi ini dipakai untuk membuat serangan phishing yang sangat personal. Kampanye spear-phishing buatan AI mencapai tingkat klik 3 kali lebih tinggi dari phishing massal tradisional.
+AI agent dapat secara otomatis mengumpulkan informasi tentang target dari media sosial, LinkedIn, GitHub, dan data publik lainnya. Informasi ini dipakai untuk membuat serangan phishing yang personal. Kampanye spear-phishing buatan AI mencapai tingkat klik 3 kali lebih tinggi dari phishing massal tradisional.
 
 ### Payload yang Dikustomisasi
 
