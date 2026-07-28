@@ -91,4 +91,8 @@
     {{- $share := . | minify | fingerprint -}}
     <script src="{{ $share.RelPermalink }}" integrity="{{ $share.Data.Integrity }}" crossorigin="anonymous" defer></script>
   {{- end -}}
+  {{- with resources.Get "js/code-copy.js" -}}
+    {{- $codeCopy := . | minify | fingerprint -}}
+    <script src="{{ $codeCopy.RelPermalink }}" integrity="{{ $codeCopy.Data.Integrity }}" crossorigin="anonymous" defer></script>
+  {{- end -}}
 {{- end -}}

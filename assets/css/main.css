@@ -651,8 +651,62 @@
     @apply font-mono text-xs sm:text-sm text-shasec-primary bg-shasec-primary-soft px-1.5 py-0.5 rounded;
   }
 
+  /* Keep wide data inside its own scroll area on narrow screens. */
   .prose-shasec table {
-    @apply w-full text-left text-sm border-collapse my-4;
+    @apply block w-full max-w-full overflow-x-auto text-left text-sm border-collapse my-4;
+    -webkit-overflow-scrolling: touch;
+    overscroll-behavior-inline: contain;
+  }
+
+  /* Hugo renders fenced code as .highlight > pre. Never let it widen the page. */
+  .prose-shasec .highlight,
+  .prose-shasec pre {
+    @apply max-w-full overflow-x-auto;
+    -webkit-overflow-scrolling: touch;
+    overscroll-behavior-inline: contain;
+  }
+
+  .code-block {
+    @apply my-5 overflow-hidden rounded-card border border-shasec-border bg-shasec-bg-elevated shadow-card;
+  }
+
+  .code-block-toolbar {
+    @apply flex min-h-11 items-center gap-2 border-b border-shasec-border bg-shasec-bg-card/90 px-3 sm:px-4;
+  }
+
+  .code-block-language {
+    @apply font-mono text-2xs tracking-[0.14em] uppercase text-shasec-primary;
+  }
+
+  .code-copy-btn {
+    @apply ml-auto inline-flex h-8 w-8 shrink-0 items-center justify-center rounded-btn
+      border border-shasec-border text-shasec-muted
+      hover:border-shasec-primary/50 hover:bg-shasec-primary-soft hover:text-shasec-primary
+      transition-colors duration-200;
+  }
+
+  .code-copy-btn.is-copied {
+    @apply border-shasec-primary/50 bg-shasec-primary-soft text-shasec-primary;
+  }
+
+  .code-copy-icon {
+    @apply h-3.5 w-3.5;
+  }
+
+  .code-copy-status {
+    @apply font-mono text-2xs uppercase tracking-[0.1em] text-shasec-primary;
+  }
+
+  .code-block .highlight {
+    @apply m-0 max-w-full overflow-x-auto;
+  }
+
+  .code-block .highlight pre {
+    @apply m-0 min-w-max px-4 py-4 sm:px-5;
+  }
+
+  .code-block .highlight pre code {
+    @apply bg-transparent p-0 text-inherit rounded-none;
   }
 
   .prose-shasec th {
