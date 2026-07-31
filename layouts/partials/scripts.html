@@ -77,6 +77,18 @@
   {{- end -}}
 {{- end -}}
 
+{{- $isQrcode := eq .Layout "url-to-qrcode" -}}
+{{- if $isQrcode -}}
+  {{- with resources.Get "js/qrcodejs.min.js" -}}
+    {{- $qrLib := . | minify | fingerprint -}}
+    <script src="{{ $qrLib.RelPermalink }}" integrity="{{ $qrLib.Data.Integrity }}" crossorigin="anonymous" defer></script>
+  {{- end -}}
+  {{- with resources.Get "js/url-to-qrcode.js" -}}
+    {{- $qrTool := . | minify | fingerprint -}}
+    <script src="{{ $qrTool.RelPermalink }}" integrity="{{ $qrTool.Data.Integrity }}" crossorigin="anonymous" defer></script>
+  {{- end -}}
+{{- end -}}
+
 {{- $isSubscribe := or (eq .Layout "subscribe") (and .File (eq .File.ContentBaseName "subscribe")) -}}
 {{- if $isSubscribe -}}
   {{- with resources.Get "js/subscribe-form.js" -}}

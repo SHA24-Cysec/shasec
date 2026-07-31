@@ -422,3 +422,102 @@ other = "Verified sources"
 other = "Source"
 [stats_footnote]
 other = "Figures are summarized from public reports. Use the source links to review methodology, geography, and reporting period."
+
+[qr_form_title]
+other = "QR Code Generator"
+
+[qr_offline_badge]
+other = "Offline • Client-side"
+
+[qr_url_label]
+other = "URL / Text"
+
+[qr_url_hint]
+other = "Example: https://yourshop.com/promo - we don't send data to server, all processing in your browser."
+
+[qr_size_label]
+other = "Size"
+
+[qr_ecc_label]
+other = "Error Correction"
+
+[qr_fg_label]
+other = "Foreground Color"
+
+[qr_bg_label]
+other = "Background Color"
+
+[qr_margin_label]
+other = "Quiet Zone"
+
+[qr_frame_label]
+other = "Branded frame (anti-quishing)"
+
+[qr_frame_hint]
+other = "Add frame + label shasec.my.id so QR not easily replaced."
+
+[qr_logo_label]
+other = "Add center logo (max 22%)"
+
+[qr_logo_hint]
+other = "If no file selected, use default S logo. Use ECC H when using logo."
+
+[qr_generate]
+other = "Generate QR"
+
+[qr_clear]
+other = "Clear"
+
+[qr_preview_title]
+other = "Preview & Download"
+
+[qr_preview_empty]
+other = "No QR yet – enter URL then generate"
+
+[qr_safety_title]
+other = "Anti-Quishing Tips"
+
+[qr_tip_1]
+other = "Use QR with logo & branded frame + own domain so not easily replaced by sticker."
+
+[qr_tip_2]
+other = "Check URL preview before download – ensure domain correct not fake .shop."
+
+[qr_tip_3]
+other = "Don't ask login after scanning menu/parking QR. Legit QR doesn't need password."
+
+[qr_tip_4]
+other = "Print on acrylic, check every morning, and use dynamic QR with scan monitoring."
+
+[qr_privacy_note]
+other = "Privacy: QR is created 100% in your browser. No data sent to ShaSec server. Offline QR library (qrcodejs). Great for SMEs needing promo, WiFi, or payment QR."
+
+[qr_how_title]
+other = "How to use safely"
+
+[qr_how_1]
+other = "Paste full URL with https:// – e.g. https://yourshop.com/checkout"
+
+[qr_how_2]
+other = "Choose at least 256px for print, 512px for banner."
+
+[qr_how_3]
+other = "Choose ECC H if using center logo so QR still scannable even when 30% covered."
+
+[qr_how_4]
+other = "Enable branded frame for cafe/shop – prevents quishing with stickers."
+
+[qr_how_5]
+other = "Download PNG for print, WebP for web, SVG for design."
+
+[qr_faq_title]
+other = "FAQ"
+
+[qr_faq_1]
+other = "Yes, free and offline. No watermark. You can use commercially."
+
+[qr_faq_2]
+other = "No. All processing in browser. Check DevTools Network – no outbound request when generating."
+
+[qr_faq_3]
+other = "HTTPS prevents man-in-the-middle when customers scan. HTTP can be injected."

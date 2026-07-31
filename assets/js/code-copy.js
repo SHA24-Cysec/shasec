@@ -67,7 +67,7 @@
 
   function init() {
     var text = strings();
-    document.querySelectorAll('.article-content .highlight').forEach(function (highlight) {
+    document.querySelectorAll('.article-content .highlight, .prose-shasec .highlight').forEach(function (highlight) {
       if (highlight.closest('.code-block')) return;
       var code = highlight.querySelector('pre code');
       if (!code) return;
@@ -75,26 +75,64 @@
       var block = document.createElement('section');
       block.className = 'code-block';
       block.setAttribute('aria-label', languageName(code, text.code) + ' ' + text.code);
-      highlight.parentNode.insertBefore(block, highlight);
-      block.appendChild(highlight);
 
+      // Create toolbar with dots + language + status + button
       var toolbar = document.createElement('div');
       toolbar.className = 'code-block-toolbar';
+
+      var dots = document.createElement('div');
+      dots.className = 'code-block-dots';
+      dots.setAttribute('aria-hidden', 'true');
+      for (var i = 0; i < 3; i++) {
+        var dot = document.createElement('span');
+        dots.appendChild(dot);
+      }
+
       var label = document.createElement('span');
       label.className = 'code-block-language';
       label.textContent = languageName(code, text.code);
+
+      var status = document.createElement('span');
+      status.className = 'code-copy-status';
+      status.setAttribute('aria-live', 'polite');
+      status.hidden = true;
 
       var button = document.createElement('button');
       button.type = 'button';
       button.className = 'code-copy-btn';
       button.setAttribute('aria-label', text.copy);
       button.setAttribute('title', text.copy);
-      button.appendChild(icon('M8 8h12v12H8zM4 16V4h12'));
+      // icon + text (text hidden on mobile via CSS sm:inline)
+      var iconEl = icon('M8 8h12v12H8zM4 16V4h12');
+      var textSpan = document.createElement('span');
+      textSpan.className = 'hidden sm:inline ml-1';
+      textSpan.textContent = text.copy;
+      button.appendChild(iconEl);
+      button.appendChild(textSpan);
 
-      var status = document.createElement('span');
-      status.className = 'code-copy-status';
-      status.setAttribute('aria-live', 'polite');
-      status.hidden = true;
+      toolbar.appendChild(dots);
+      toolbar.appendChild(label);
+      toolbar.appendChild(status);
+      toolbar.appendChild(button);
+
+      // Create scroll wrapper
+      var scrollWrap = document.createElement('div');
+      scrollWrap.className = 'code-block-scroll';
+
+      // Insert block before highlight, move highlight into scrollWrap, then scrollWrap into block
+      highlight.parentNode.insertBefore(block, highlight);
+      scrollWrap.appendChild(highlight);
+      block.appendChild(toolbar);
+      block.appendChild(scrollWrap);
+
+      // Add touch scroll hint fade logic
+      var hasScrolled = false;
+      scrollWrap.addEventListener('scroll', function () {
+        if (!hasScrolled && scrollWrap.scrollLeft > 10) {
+          hasScrolled = true;
+          scrollWrap.classList.add('is-scrolled');
+        }
+      }, { passive: true });
 
       button.addEventListener('click', function () {
         copy(code.textContent, function (success) {
@@ -102,23 +140,85 @@
           button.classList.add('is-copied');
           button.setAttribute('aria-label', text.copied);
           button.setAttribute('title', text.copied);
-          button.replaceChildren(icon('m5 12 4.2 4.2L19 6.5'));
+          // keep icon but change text
+          button.replaceChildren(icon('m5 12 4.2 4.2L19 6.5'), (function(){
+            var s = document.createElement('span');
+            s.className = 'hidden sm:inline ml-1';
+            s.textContent = text.copied;
+            return s;
+          })());
           status.textContent = text.copied;
           status.hidden = false;
           window.setTimeout(function () {
             button.classList.remove('is-copied');
             button.setAttribute('aria-label', text.copy);
             button.setAttribute('title', text.copy);
-            button.replaceChildren(icon('M8 8h12v12H8zM4 16V4h12'));
+            button.replaceChildren(icon('M8 8h12v12H8zM4 16V4h12'), (function(){
+              var s = document.createElement('span');
+              s.className = 'hidden sm:inline ml-1';
+              s.textContent = text.copy;
+              return s;
+            })());
             status.hidden = true;
           }, 1800);
         });
       });
+    });
 
+    // Also handle plain <pre> without .highlight wrapper (from markdown fences without chroma)
+    document.querySelectorAll('.article-content > pre, .prose-shasec > pre').forEach(function (pre) {
+      if (pre.closest('.code-block')) return;
+      if (pre.querySelector('.highlight')) return;
+      var code = pre.querySelector('code');
+      if (!code) return;
+
+      var block = document.createElement('section');
+      block.className = 'code-block';
+      block.setAttribute('aria-label', 'Code');
+
+      var toolbar = document.createElement('div');
+      toolbar.className = 'code-block-toolbar';
+      var dots = document.createElement('div');
+      dots.className = 'code-block-dots';
+      dots.setAttribute('aria-hidden', 'true');
+      for (var i = 0; i < 3; i++) { var dot = document.createElement('span'); dots.appendChild(dot); }
+      var label = document.createElement('span');
+      label.className = 'code-block-language';
+      label.textContent = languageName(code, text.code);
+      var status = document.createElement('span');
+      status.className = 'code-copy-status';
+      status.hidden = true;
+      var button = document.createElement('button');
+      button.type = 'button';
+      button.className = 'code-copy-btn';
+      button.setAttribute('aria-label', text.copy);
+      button.appendChild(icon('M8 8h12v12H8zM4 16V4h12'));
+      var textSpan = document.createElement('span');
+      textSpan.className = 'hidden sm:inline ml-1';
+      textSpan.textContent = text.copy;
+      button.appendChild(textSpan);
+
+      toolbar.appendChild(dots);
       toolbar.appendChild(label);
       toolbar.appendChild(status);
       toolbar.appendChild(button);
-      block.insertBefore(toolbar, highlight);
+
+      var scrollWrap = document.createElement('div');
+      scrollWrap.className = 'code-block-scroll';
+      pre.parentNode.insertBefore(block, pre);
+      scrollWrap.appendChild(pre);
+      block.appendChild(toolbar);
+      block.appendChild(scrollWrap);
+
+      button.addEventListener('click', function () {
+        copy(code.textContent, function (success) {
+          if (!success) return;
+          button.classList.add('is-copied');
+          status.textContent = text.copied;
+          status.hidden = false;
+          setTimeout(function(){ button.classList.remove('is-copied'); status.hidden = true; }, 1800);
+        });
+      });
     });
   }
 

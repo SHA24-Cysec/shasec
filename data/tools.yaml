@@ -106,6 +106,15 @@ items:
     tags: [search, internal]
     external: false
 
+  - name: URL to QR Code Generator
+    name_en: URL to QR Code Generator
+    description: Buat QR code dari URL secara offline di browser. Anti-quishing dengan branded frame, logo, dan validasi phishing.
+    description_en: Create QR codes from URL offline in browser. Anti-quishing with branded frame, logo, and phishing validation.
+    url: /tools/url-to-qrcode/
+    category: site
+    tags: [qrcode, url, offline, anti-quishing]
+    external: false
+
   - name: Artikel ShaSec
     name_en: ShaSec Articles
     description: Kumpulan artikel threat intelligence, malware analysis, dan praktik defense.

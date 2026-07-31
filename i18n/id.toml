@@ -422,3 +422,102 @@ other = "Sumber terverifikasi"
 other = "Sumber"
 [stats_footnote]
 other = "Angka diringkas dari laporan publik. Gunakan tautan sumber untuk membaca metodologi, wilayah, dan periode data."
+
+[qr_form_title]
+other = "Generator QR Code"
+
+[qr_offline_badge]
+other = "Offline • Client-side"
+
+[qr_url_label]
+other = "URL / Teks"
+
+[qr_url_hint]
+other = "Contoh: https://tokosaya.com/promo - kami tidak kirim data ke server, semua proses di browser Anda."
+
+[qr_size_label]
+other = "Ukuran"
+
+[qr_ecc_label]
+other = "Koreksi Error"
+
+[qr_fg_label]
+other = "Warna Depan"
+
+[qr_bg_label]
+other = "Warna Belakang"
+
+[qr_margin_label]
+other = "Quiet Zone"
+
+[qr_frame_label]
+other = "Branded frame (anti-quishing)"
+
+[qr_frame_hint]
+other = "Tambah bingkai + label shasec.my.id agar QR tidak mudah diganti."
+
+[qr_logo_label]
+other = "Tambah logo tengah (max 22%)"
+
+[qr_logo_hint]
+other = "Jika tidak pilih file, pakai logo default S. Gunakan ECC H jika pakai logo."
+
+[qr_generate]
+other = "Generate QR"
+
+[qr_clear]
+other = "Bersihkan"
+
+[qr_preview_title]
+other = "Preview & Download"
+
+[qr_preview_empty]
+other = "Belum ada QR – masukkan URL lalu generate"
+
+[qr_safety_title]
+other = "Anti-Quishing Tips"
+
+[qr_tip_1]
+other = "Pakai QR dengan logo & frame branded + domain sendiri agar tidak mudah diganti stiker."
+
+[qr_tip_2]
+other = "Cek preview URL sebelum download – pastikan domain benar bukan .shop palsu."
+
+[qr_tip_3]
+other = "Jangan minta login setelah scan QR menu/parkir. QR legit tidak butuh password."
+
+[qr_tip_4]
+other = "Cetak di akrilik, cek tiap pagi, dan gunakan QR dinamis dengan monitoring scan."
+
+[qr_privacy_note]
+other = "Privasi: QR dibuat 100% di browser Anda. Tidak ada data dikirim ke server ShaSec. Library QR offline (qrcodejs). Cocok untuk UMKM yang butuh QR promo, WiFi, atau pembayaran."
+
+[qr_how_title]
+other = "Cara pakai yang aman"
+
+[qr_how_1]
+other = "Tempel URL lengkap dengan https:// – contoh https://tokosaya.com/checkout"
+
+[qr_how_2]
+other = "Pilih ukuran minimal 256px untuk cetak, 512px untuk banner."
+
+[qr_how_3]
+other = "Pilih ECC H jika pakai logo tengah agar QR tetap bisa discan meski tertutup 30%."
+
+[qr_how_4]
+other = "Aktifkan branded frame untuk kafe/toko – mencegah quishing dengan stiker."
+
+[qr_how_5]
+other = "Download PNG untuk cetak, WebP untuk web, SVG untuk desain."
+
+[qr_faq_title]
+other = "FAQ"
+
+[qr_faq_1]
+other = "Ya, gratis dan offline. Tidak ada watermark. Anda bisa pakai untuk komersial."
+
+[qr_faq_2]
+other = "Tidak. Semua proses di browser. Cek DevTools Network – tidak ada request keluar saat generate."
+
+[qr_faq_3]
+other = "HTTPS mencegah man-in-the-middle saat pelanggan scan. HTTP bisa di-inject."
