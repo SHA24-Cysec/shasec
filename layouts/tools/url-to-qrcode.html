@@ -115,7 +115,17 @@
       <!-- Tips Simple -->
       <div class="mt-6 rounded-xl border border-dashed border-shasec-border/60 bg-transparent px-4 py-3 flex gap-3">
         <span class="text-[14px]">🛡️</span>
-        <p class="text-[11px] leading-relaxed text-shasec-muted-soft"><strong class="text-shasec-muted">Anti-quishing:</strong> Cetak QR di akrilik berlogo, cek tiap pagi, pakai domain sendiri. QR menu tidak perlu minta login. <a href="/id/articles/quishing-evolusi-qr-phishing-dan-cara-mengenali-qr-berbahaya/" class="text-shasec-primary hover:underline">Pelajari →</a></p>
+        {{ $quishingPath := "/articles/quishing-evolusi-qr-phishing-dan-cara-mengenali-qr-berbahaya/" }}
+{{ $antiQuishingLabel := "Anti-quishing:" }}
+{{ $antiQuishingText := "Cetak QR di akrilik berlogo, cek tiap pagi, pakai domain sendiri. QR menu tidak perlu minta login." }}
+{{ $learnMore := "Pelajari →" }}
+{{ if eq .Site.Language.Lang "en" }}
+  {{ $quishingPath = "/articles/quishing-evolution-qr-phishing-how-to-spot-malicious-qr/" }}
+  {{ $antiQuishingLabel = "Anti-quishing:" }}
+  {{ $antiQuishingText = "Print QR codes on branded acrylic, inspect them daily, and use your own domain. A menu QR code should not ask for a login." }}
+  {{ $learnMore = "Learn more →" }}
+{{ end }}
+<p class="text-[11px] leading-relaxed text-shasec-muted-soft"><strong class="text-shasec-muted">{{ $antiQuishingLabel }}</strong> {{ $antiQuishingText }} <a href="{{ relref . $quishingPath }}" class="text-shasec-primary hover:underline">{{ $learnMore }}</a></p>
       </div>
 
       <!-- Docs Simple -->
