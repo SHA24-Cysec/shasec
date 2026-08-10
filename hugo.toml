@@ -47,13 +47,17 @@ defaultContentLanguageInSubdir = false
         pageRef = '/tools/'
         weight = 3
       [[languages.id.menus.main]]
+        name = 'Games'
+        pageRef = '/games/'
+        weight = 4
+      [[languages.id.menus.main]]
         name = 'Tentang'
         pageRef = '/about/'
-        weight = 4
+        weight = 5
       [[languages.id.menus.main]]
         name = 'Kontak'
         pageRef = '/contact/'
-        weight = 5
+        weight = 6
 
   [languages.en]
     weight = 2
@@ -87,13 +91,17 @@ defaultContentLanguageInSubdir = false
         pageRef = '/tools/'
         weight = 3
       [[languages.en.menus.main]]
+        name = 'Games'
+        pageRef = '/games/'
+        weight = 4
+      [[languages.en.menus.main]]
         name = 'About'
         pageRef = '/about/'
-        weight = 4
+        weight = 5
       [[languages.en.menus.main]]
         name = 'Contact'
         pageRef = '/contact/'
-        weight = 5
+        weight = 6
 
 # Google Analytics 4
 # Set your Measurement ID (G-XXXXXXXXXX) to enable tracking.

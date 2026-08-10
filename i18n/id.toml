@@ -521,3 +521,213 @@ other = "Tidak. Semua proses di browser. Cek DevTools Network – tidak ada requ
 
 [qr_faq_3]
 other = "HTTPS mencegah man-in-the-middle saat pelanggan scan. HTTP bisa di-inject."
+
+# Games
+[nav_games]
+other = "Games"
+[games_eyebrow]
+other = "// games"
+[games_title]
+other = "Cyber Games"
+[games_lead]
+other = "Anda belajar sambil main. 8 mini-games offline. Anda simpan skor di browser."
+[games_all]
+other = "Semua"
+[games_play]
+other = "Mainkan"
+[games_difficulty]
+other = "Kesulitan"
+[games_time]
+other = "Waktu"
+[games_score]
+other = "Skor"
+[games_best]
+other = "Terbaik"
+[games_offline]
+other = "Offline. Anda simpan data di perangkat."
+[games_back]
+other = "← Kembali ke Games"
+[games_start]
+other = "Mulai Game"
+[games_restart]
+other = "Main lagi"
+[games_share]
+other = "Bagikan skor"
+[games_how]
+other = "Cara main"
+[games_tips]
+other = "Tips"
+[games_cat_awareness]
+other = "Awareness"
+[games_cat_hardening]
+other = "Hardening"
+[games_cat_quiz]
+other = "Quiz"
+[games_cat_memory]
+other = "Memory"
+[games_cat_decode]
+other = "Decode"
+[games_cat_forensic]
+other = "Forensic"
+[games_cat_response]
+other = "Response"
+[games_diff_easy]
+other = "Mudah"
+[games_diff_medium]
+other = "Menengah"
+[games_diff_mixed]
+other = "Campuran"
+
+# Phishing Spotter
+[games_phishing_title]
+other = "Phishing Spotter"
+[games_phishing_desc]
+other = "Anda tebak 8 skenario email/SMS/WA. Anda pilih phishing atau legit."
+[games_phishing_question]
+other = "Skenario {{ .Current }} dari {{ .Total }}"
+[games_phishing_phishing]
+other = "Phishing"
+[games_phishing_legit]
+other = "Legit"
+[games_phishing_correct]
+other = "Benar!"
+[games_phishing_wrong]
+other = "Melenceng"
+[games_phishing_next]
+other = "Lanjut →"
+[games_phishing_result]
+other = "Skor akhir"
+[games_phishing_explain]
+other = "Penjelasan"
+[games_phishing_best]
+other = "Skor terbaik Anda"
+
+# Password Lab
+[games_password_title]
+other = "Password Lab"
+[games_password_desc]
+other = "Anda ketik password. Anda lihat estimasi crack. Anda perbaiki."
+[games_password_placeholder]
+other = "Ketik password di sini…"
+[games_password_strength]
+other = "Kekuatan"
+[games_password_crack]
+other = "Estimasi crack"
+[games_password_tips]
+other = "Saran perbaikan"
+[games_password_generate]
+other = "Generate passphrase"
+[games_password_copy]
+other = "Salin"
+[games_password_copied]
+other = "Disalin!"
+[games_password_very_weak]
+other = "Lemah"
+[games_password_weak]
+other = "Lemah"
+[games_password_fair]
+other = "Cukup"
+[games_password_strong]
+other = "Kuat"
+[games_password_very_strong]
+other = "Kuat"
+
+# Cyber Quiz
+[games_quiz_title]
+other = "Cyber Quiz"
+[games_quiz_desc]
+other = "Anda jawab 10 soal acak. Anda bahas threat intel dan hygiene."
+[games_quiz_progress]
+other = "Soal {{ .Current }} / {{ .Total }}"
+[games_quiz_next]
+other = "Soal berikutnya →"
+[games_quiz_finish]
+other = "Lihat skor →"
+[games_quiz_score]
+other = "Skor {{ .Score }} / {{ .Total }}"
+[games_quiz_review]
+other = "Pembahasan"
+[games_quiz_ref]
+other = "Rujukan"
+
+# Memory Hack
+[games_memory_title]
+other = "Memory Hack"
+[games_memory_desc]
+other = "Anda balik kartu. Anda pasangkan istilah dengan arti."
+[games_memory_moves]
+other = "Langkah"
+[games_memory_time]
+other = "Waktu"
+[games_memory_pairs]
+other = "Pasangan"
+[games_memory_win]
+other = "Mantap! Semua pasangan ketemu."
+[games_memory_new]
+other = "Acak ulang"
+# Decode Lab
+[games_decode_title]
+other = "Decode Lab"
+[games_decode_desc]
+other = "Anda pecahkan 8 puzzle. Anda decode Base64, Hex, ROT13, URL, JWT."
+[games_decode_level]
+other = "Level {{ .Level }}"
+[games_decode_hint]
+other = "Petunjuk"
+[games_decode_placeholder]
+other = "Jawab di sini…"
+[games_decode_check]
+other = "Periksa"
+[games_decode_next]
+other = "Lanjut →"
+[games_decode_correct]
+other = "Benar!"
+[games_decode_wrong]
+other = "Belum tepat"
+[games_decode_answer]
+other = "Jawaban"
+
+# Log Inspector
+[games_log_title]
+other = "Log Inspector"
+[games_log_desc]
+other = "Anda bedah 8 log. Anda tunjuk baris jahat."
+[games_log_question]
+other = "Temukan baris mencurigakan"
+[games_log_correct]
+other = "Tepat!"
+[games_log_wrong]
+other = "Melenceng"
+[games_log_next]
+other = "Lanjut →"
+# IR Drill
+[games_ir_title]
+other = "IR Drill"
+[games_ir_desc]
+other = "Anda pimpin 8 keputusan. Anda urut Isolate ke Recovery."
+[games_ir_progress]
+other = "Langkah {{ .Current }} / {{ .Total }}"
+[games_ir_correct]
+other = "Tepat!"
+[games_ir_wrong]
+other = "Kurang tepat"
+[games_ir_next]
+other = "Lanjut →"
+[games_ir_result]
+other = "Skor akhir"
+
+# SOC Rush
+[games_soc_title]
+other = "SOC Rush"
+[games_soc_desc]
+other = "Anda nilai 8 antrian alert. Anda pilih prioritas tertinggi."
+[games_soc_correct]
+other = "Prioritas tepat!"
+[games_soc_wrong]
+other = "Prioritas meleset"
+[games_soc_next]
+other = "Lanjut →"
+
+[games_log_explain]
+other = "Penjelasan"
+

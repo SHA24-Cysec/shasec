@@ -1,0 +1,153 @@
+{{ define "main" }}
+{{- $game := .Params.game | default .File.ContentBaseName -}}
+{{- $lang := .Site.Language.Lang -}}
+{{- $data := hugo.Data.games | default dict -}}
+{{- $items := $data.items | default (slice) -}}
+
+<section class="section-y games-single-page">
+  <div class="site-container">
+    {{ partial "components/breadcrumb.html" (dict "page" . "jsonld" true) }}
+
+    <a href="{{ "games/" | relLangURL }}" class="games-back">
+      <svg class="h-3.5 w-3.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M19 12H5"/><path d="m12 19-7-7 7-7"/></svg>
+      {{ i18n "games_back" }}
+    </a>
+
+    <div class="games-single-hero">
+      <div class="games-single-hero-icon" aria-hidden="true">
+        {{- if eq $game "phishing-spotter" -}}<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 3l7 3v6c0 4-3 6.5-7 8-4-1.5-7-4-7-8V6l7-3z"/><path d="M12 8v5"/><path d="M12 16h.01"/></svg>
+        {{- else if eq $game "password-lab" -}}<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M14.5 9.5a3.5 3.5 0 0 1-5 5L3 21l-2 2-1-1 6.5-6.5a3.5 3.5 0 0 1 5-5l2-2a2 2 0 0 1 2.8 2.8l-2 2z"/></svg>
+        {{- else if eq $game "cyber-quiz" -}}<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M9.5 2a4.5 4.5 0 0 0-2 8.5c-1 .8-1.5 1.8-1.5 3a4.5 4.5 0 0 0 4.5 4.5h.5"/><path d="M14.5 2a4.5 4.5 0 0 1 2 8.5c1 .8 1.5 1.8 1.5 3a4.5 4.5 0 0 1-4.5 4.5h-.5"/></svg>
+        {{- else if eq $game "decode-lab" -}}<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M14 6l4 6-4 6"/><path d="M10 18l-4-6 4-6"/><path d="M13 4l-2 16"/></svg>
+        {{- else if eq $game "log-inspector" -}}<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="4" width="18" height="14" rx="2"/><path d="M8 9l3 3-3 3"/><path d="M13 15h4"/></svg>
+        {{- else if eq $game "ir-drill" -}}<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/><path d="M12 9v4"/><path d="M12 17h.01"/></svg>
+        {{- else if eq $game "soc-rush" -}}<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><polygon points="12 2 2 7 12 12 22 7 12 2"/><polyline points="2 12 12 17 22 12"/><polyline points="2 17 12 22 22 17"/></svg>
+        {{- else -}}<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/></svg>{{- end -}}
+      </div>
+      <div class="games-single-hero-copy">
+        <div class="flex flex-wrap items-center gap-2 mb-2">
+          <span class="badge">{{ if eq $game "phishing-spotter" }}{{ i18n "games_cat_awareness" }}{{ else if eq $game "password-lab" }}{{ i18n "games_cat_hardening" }}{{ else if eq $game "cyber-quiz" }}{{ i18n "games_cat_quiz" }}{{ else if eq $game "decode-lab" }}{{ i18n "games_cat_decode" }}{{ else if eq $game "log-inspector" }}{{ i18n "games_cat_forensic" }}{{ else if eq $game "ir-drill" }}{{ i18n "games_cat_response" }}{{ else if eq $game "soc-rush" }}{{ i18n "games_cat_response" }}{{ else }}{{ i18n "games_cat_memory" }}{{ end }}</span>
+          <span class="font-mono text-2xs uppercase tracking-widest text-shasec-muted-soft flex items-center gap-1"><span class="h-1 w-1 rounded-full bg-shasec-primary"></span> {{ i18n "games_offline" }}</span>
+        </div>
+        <h1 class="games-single-title">{{ .Title }}</h1>
+        {{ with .Description }}<p class="games-single-desc">{{ . }}</p>{{ end }}
+      </div>
+      <div class="games-single-hero-meta">
+        {{- $meta := dict "phishing-spotter" (dict "time" "2–3 min" "diff" "Medium") "password-lab" (dict "time" "1–2 min" "diff" "Easy") "cyber-quiz" (dict "time" "3–5 min" "diff" "Mixed") "memory-hack" (dict "time" "1–3 min" "diff" "Easy") "decode-lab" (dict "time" "3–5 min" "diff" "Mixed") "log-inspector" (dict "time" "2–4 min" "diff" "Mixed") "ir-drill" (dict "time" "3–5 min" "diff" "Mixed") "soc-rush" (dict "time" "2–3 min" "diff" "Mixed") -}}
+        {{- with index $meta $game -}}
+          <div class="games-single-meta-card">
+            <span class="games-single-meta-label">{{ i18n "games_time" }}</span><span class="games-single-meta-value">{{ .time }}</span>
+          </div>
+          <div class="games-single-meta-card">
+            <span class="games-single-meta-label">{{ i18n "games_difficulty" }}</span><span class="games-single-meta-value">{{ .diff }}</span>
+          </div>
+        {{- end -}}
+        <div class="games-single-meta-card">
+          <span class="games-single-meta-label">{{ i18n "games_best" }}</span><span class="games-single-meta-value" id="single-best" data-best="{{ $game }}">—</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="games-single-layout">
+      <div class="games-single-main">
+        <div class="game-shell card overflow-hidden">
+          <div class="game-shell-bar">
+            <div class="game-shell-dots"><span></span><span></span><span></span></div>
+            <span class="game-shell-title font-mono text-2xs tracking-widest uppercase text-shasec-muted">shasec // {{ $game }}</span>
+            <span class="game-shell-live"><span class="h-1.5 w-1.5 rounded-full bg-shasec-primary animate-pulse"></span> live</span>
+          </div>
+          {{- if eq $game "phishing-spotter" -}}<div id="phishing-app" class="game-app" data-lang="{{ $lang }}"></div>
+          {{- else if eq $game "password-lab" -}}<div id="password-app" class="game-app" data-lang="{{ $lang }}"></div>
+          {{- else if eq $game "cyber-quiz" -}}<div id="quiz-app" class="game-app" data-lang="{{ $lang }}"></div>
+          {{- else if eq $game "memory-hack" -}}<div id="memory-app" class="game-app" data-lang="{{ $lang }}"></div>
+          {{- else if eq $game "decode-lab" -}}<div id="decode-app" class="game-app" data-lang="{{ $lang }}"></div>
+          {{- else if eq $game "log-inspector" -}}<div id="log-app" class="game-app" data-lang="{{ $lang }}"></div>
+          {{- else if eq $game "ir-drill" -}}<div id="ir-app" class="game-app" data-lang="{{ $lang }}"></div>
+          {{- else if eq $game "soc-rush" -}}<div id="soc-app" class="game-app" data-lang="{{ $lang }}"></div>
+          {{- else -}}<div class="prose-shasec p-6">{{ .Content }}</div>{{- end -}}
+        </div>
+
+        <div class="games-mobile-tips grid grid-cols-1 sm:grid-cols-2 gap-3 mt-4 lg:hidden">
+          <div class="card p-4">
+            <p class="font-mono text-2xs uppercase tracking-[0.14em] text-shasec-primary mb-2">{{ i18n "games_how" }}</p>
+            {{- if eq $game "phishing-spotter" -}}
+              <p class="text-sm text-shasec-muted m-0">{{ if eq $lang "id" }}Tap <b>Phishing</b>/<b>Legit</b>. Perhatikan pengirim, domain, urgensi.{{ else }}Tap <b>Phishing</b>/<b>Legit</b>. Watch sender, domain, urgency.{{ end }}</p>
+            {{- else if eq $game "password-lab" -}}
+              <p class="text-sm text-shasec-muted m-0">{{ if eq $lang "id" }}Ketik password, lihat meter offline.{{ else }}Type to see offline meter.{{ end }}</p>
+            {{- else if eq $game "cyber-quiz" -}}
+              <p class="text-sm text-shasec-muted m-0">{{ if eq $lang "id" }}10 soal acak, pembahasan tiap jawaban.{{ else }}10 random, review per answer.{{ end }}</p>
+            {{- else if eq $game "decode-lab" -}}
+              <p class="text-sm text-shasec-muted m-0">{{ if eq $lang "id" }}Ketik hasil decode, pakai hint. Level naik Easy→Hard.{{ else }}Type decoded result, use hint. Easy→Hard.{{ end }}</p>
+            {{- else if eq $game "log-inspector" -}}
+              <p class="text-sm text-shasec-muted m-0">{{ if eq $lang "id" }}Pilih baris log paling mencurigakan.{{ else }}Pick the most suspicious log line.{{ end }}</p>
+            {{- else if eq $game "ir-drill" -}}
+              <p class="text-sm text-shasec-muted m-0">{{ if eq $lang "id" }}Pilih langkah IR yang tepat, urut.{{ else }}Pick correct IR step in order.{{ end }}</p>
+            {{- else if eq $game "soc-rush" -}}
+              <p class="text-sm text-shasec-muted m-0">{{ if eq $lang "id" }}Pilih alert prioritas tertinggi.{{ else }}Pick highest priority alert.{{ end }}</p>
+            {{- else -}}
+              <p class="text-sm text-shasec-muted m-0">{{ if eq $lang "id" }}Balik 2 kartu, cocokkan istilah.{{ else }}Flip 2, match term.{{ end }}</p>
+            {{- end -}}
+          </div>
+          <div class="card p-4">
+            <p class="font-mono text-2xs uppercase tracking-[0.14em] text-shasec-primary mb-2">{{ i18n "games_tips" }}</p>
+            <p class="text-sm text-shasec-muted m-0">{{ if eq $lang "id" }}Skor lokal, 100% offline.{{ else }}Local score, 100% offline.{{ end }}</p>
+          </div>
+        </div>
+      </div>
+
+      <aside class="games-single-aside">
+        <div class="card p-4 sm:p-5">
+          <p class="font-mono text-2xs uppercase tracking-[0.14em] text-shasec-primary mb-3 flex items-center gap-2"><span class="h-1 w-1 rounded-full bg-shasec-primary"></span>{{ i18n "games_how" }}</p>
+          {{- if eq $game "phishing-spotter" -}}
+            <p class="text-sm text-shasec-muted m-0 leading-relaxed">{{ if eq $lang "id" }}Baca skenario, tap <b>Phishing</b> atau <b>Legit</b>. Penjelasan taktik muncul tiap jawaban.{{ else }}Read scenario, tap <b>Phishing</b> or <b>Legit</b>. Tactic why appears per answer.{{ end }}</p>
+          {{- else if eq $game "password-lab" -}}
+            <p class="text-sm text-shasec-muted m-0 leading-relaxed">{{ if eq $lang "id" }}Ketik di field — meter hitung entropy & crack-time lokal. Coba tambah panjang + variasi.{{ else }}Type — meter counts entropy & crack-time locally. Try longer + mixed.{{ end }}</p>
+          {{- else if eq $game "cyber-quiz" -}}
+            <p class="text-sm text-shasec-muted m-0 leading-relaxed">{{ if eq $lang "id" }}10 soal acak. Pilih jawaban → pembahasan + rujukan artikel.{{ else }}10 random. Pick → review + article ref.{{ end }}</p>
+          {{- else if eq $game "decode-lab" -}}
+            <p class="text-sm text-shasec-muted m-0 leading-relaxed">{{ if eq $lang "id" }}8 puzzle: Base64 → Hex → ROT13 → URL → JWT → campur. Ketik jawaban tepat, pakai <i>Hint</i> kalau stuck. Progress naik Easy → Hard.{{ else }}8 puzzles: Base64 → Hex → ROT13 → URL → JWT → mixed. Type exact answer, use Hint. Easy → Hard.{{ end }}</p>
+          {{- else if eq $game "log-inspector" -}}
+            <p class="text-sm text-shasec-muted m-0 leading-relaxed">{{ if eq $lang "id" }}Baca 5 baris log/header, klik 1 baris paling berbahaya (XSS, traversal, SPF fail). Penjelasan muncul.{{ else }}Read 5 lines, click the most malicious (XSS, traversal, SPF fail). Why appears.{{ end }}</p>
+          {{- else if eq $game "ir-drill" -}}
+            <p class="text-sm text-shasec-muted m-0 leading-relaxed">{{ if eq $lang "id" }}8 skenario: isolasi host, amankan bukti, kontainment, eradikasi, recovery — pilih urutan benar.{{ else }}8 scenarios: isolate, preserve evidence, containment, eradication, recovery — pick correct order.{{ end }}</p>
+          {{- else if eq $game "soc-rush" -}}
+            <p class="text-sm text-shasec-muted m-0 leading-relaxed">{{ if eq $lang "id" }}8 antrian alert datang bersamaan — pilih 1 prioritas tertinggi (ransomware > phishing > low).{{ else }}8 alert queues at once — pick the highest priority (ransomware > phishing > low).{{ end }}</p>
+          {{- else -}}
+            <p class="text-sm text-shasec-muted m-0 leading-relaxed">{{ if eq $lang "id" }}Balik dua kartu. Jika istilah & definisi cocok, pasangan terkunci. Selesaikan 8 pasangan.{{ else }}Flip two. If term & def match, pair locks. Clear 8 pairs.{{ end }}</p>
+          {{- end -}}
+          <div class="mt-4 pt-4 border-t border-shasec-border/60">
+            <p class="font-mono text-2xs uppercase tracking-widest text-shasec-muted-soft mb-2">{{ i18n "games_tips" }}</p>
+            <p class="text-xs text-shasec-muted leading-relaxed m-0">{{ if eq $lang "id" }}Main nyaman di HP, kontrol besar. Skor terbaik simpan lokal — tidak dikirim.{{ else }}Thumb-friendly. Best stays local — not sent.{{ end }}</p>
+          </div>
+        </div>
+
+        <div class="card p-4 sm:p-5">
+          <p class="font-mono text-2xs uppercase tracking-[0.14em] text-shasec-primary mb-3">{{ if eq $lang "id" }}Games lain{{ else }}More games{{ end }}</p>
+          <div class="flex flex-col gap-2">
+            {{- range $items -}}
+              {{- $n := .name -}}{{- if and (eq $lang "en") .name_en }}{{ $n = .name_en }}{{ end -}}
+              {{- $href := printf "/games/%s/" .slug | relLangURL -}}
+              {{- $isCurrent := eq .slug $game -}}
+              <a href="{{ $href }}" class="flex items-center gap-3 rounded-xl border px-3 py-2.5 transition-colors {{ if $isCurrent }}border-shasec-primary/40 bg-shasec-primary-soft text-shasec-primary{{ else }}border-shasec-border bg-shasec-bg-elevated text-shasec-muted hover:border-shasec-primary/30 hover:text-shasec-primary{{ end }}">
+                <span class="h-8 w-8 rounded-lg flex items-center justify-center border {{ if $isCurrent }}border-shasec-primary/30 bg-shasec-bg-card text-shasec-primary{{ else }}border-shasec-border bg-shasec-bg-card text-shasec-muted{{ end }}"><span class="text-xs">›</span></span>
+                <span class="text-sm font-medium leading-tight">{{ $n }}</span>
+                <span class="ml-auto text-2xs font-mono opacity-60">{{ .time }}</span>
+              </a>
+            {{- end -}}
+          </div>
+          <a href="{{ "games/" | relLangURL }}" class="btn-ghost btn-sm w-full justify-center mt-3">{{ i18n "games_back" }}</a>
+        </div>
+      </aside>
+    </div>
+  </div>
+</section>
+{{- with resources.Get "js/games/phishing-spotter.js" -}}{{- if eq $game "phishing-spotter" -}}{{- $js := . | minify | fingerprint -}}<script src="{{ $js.RelPermalink }}" integrity="{{ $js.Data.Integrity }}" crossorigin="anonymous" defer></script>{{- end -}}{{- end -}}
+{{- with resources.Get "js/games/password-lab.js" -}}{{- if eq $game "password-lab" -}}{{- $js := . | minify | fingerprint -}}<script src="{{ $js.RelPermalink }}" integrity="{{ $js.Data.Integrity }}" crossorigin="anonymous" defer></script>{{- end -}}{{- end -}}
+{{- with resources.Get "js/games/cyber-quiz.js" -}}{{- if eq $game "cyber-quiz" -}}{{- $js := . | minify | fingerprint -}}<script src="{{ $js.RelPermalink }}" integrity="{{ $js.Data.Integrity }}" crossorigin="anonymous" defer></script>{{- end -}}{{- end -}}
+{{- with resources.Get "js/games/memory-hack.js" -}}{{- if eq $game "memory-hack" -}}{{- $js := . | minify | fingerprint -}}<script src="{{ $js.RelPermalink }}" integrity="{{ $js.Data.Integrity }}" crossorigin="anonymous" defer></script>{{- end -}}{{- end -}}
+{{- with resources.Get "js/games/decode-lab.js" -}}{{- if eq $game "decode-lab" -}}{{- $js := . | minify | fingerprint -}}<script src="{{ $js.RelPermalink }}" integrity="{{ $js.Data.Integrity }}" crossorigin="anonymous" defer></script>{{- end -}}{{- end -}}
+{{- with resources.Get "js/games/log-inspector.js" -}}{{- if eq $game "log-inspector" -}}{{- $js := . | minify | fingerprint -}}<script src="{{ $js.RelPermalink }}" integrity="{{ $js.Data.Integrity }}" crossorigin="anonymous" defer></script>{{- end -}}{{- end -}}
+{{- with resources.Get "js/games/ir-drill.js" -}}{{- if eq $game "ir-drill" -}}{{- $js := . | minify | fingerprint -}}<script src="{{ $js.RelPermalink }}" integrity="{{ $js.Data.Integrity }}" crossorigin="anonymous" defer></script>{{- end -}}{{- end -}}
+{{- with resources.Get "js/games/soc-rush.js" -}}{{- if eq $game "soc-rush" -}}{{- $js := . | minify | fingerprint -}}<script src="{{ $js.RelPermalink }}" integrity="{{ $js.Data.Integrity }}" crossorigin="anonymous" defer></script>{{- end -}}{{- end -}}
+{{- with resources.Get "js/games/games-hub.js" -}}{{- $g := . | minify | fingerprint -}}<script src="{{ $g.RelPermalink }}" integrity="{{ $g.Data.Integrity }}" crossorigin="anonymous" defer></script>{{- end -}}
+{{ end }}

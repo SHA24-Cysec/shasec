@@ -1669,6 +1669,482 @@
       padding-bottom: 5.5rem;
     }
   }
+
+  /* ---------- Games — Revised Layout (hero + cards + single) ---------- */
+  .games-hero {
+    @apply relative overflow-hidden;
+    padding-top: clamp(1.5rem, 4vw, 2.5rem);
+    padding-bottom: clamp(1.5rem, 4vw, 2rem);
+  }
+  .games-hero-bg {
+    @apply pointer-events-none absolute inset-0 z-0;
+  }
+  .games-hero-matrix {
+    @apply absolute inset-0 opacity-60;
+    background-image:
+      radial-gradient(ellipse 70% 50% at 15% 30%, rgba(63,196,102,0.14), transparent 60%),
+      radial-gradient(ellipse 50% 40% at 85% 15%, rgba(63,196,102,0.06), transparent 55%),
+      linear-gradient(rgba(63,196,102,0.035) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(63,196,102,0.035) 1px, transparent 1px);
+    background-size: auto, auto, 36px 36px, 36px 36px;
+    mask-image: linear-gradient(to bottom, #000 65%, transparent 100%);
+  }
+  .games-hero-glow {
+    @apply absolute -left-16 top-8 h-72 w-72 rounded-full blur-3xl opacity-25 sm:h-80 sm:w-80;
+    background: radial-gradient(circle, rgba(63,196,102,0.4), transparent 70%);
+  }
+  .games-hero-grid {
+    @apply grid grid-cols-1 gap-8 lg:grid-cols-[1.15fr_0.85fr] lg:gap-10 items-start;
+  }
+  .games-hero-copy {
+    @apply relative min-w-0;
+  }
+  .games-hero-title {
+    @apply m-0 flex flex-col gap-0 leading-[0.9];
+  }
+  .games-hero-title-top {
+    @apply font-display font-bold uppercase tracking-tight text-shasec-text-bright block;
+    font-size: clamp(2rem, 6vw, 3.5rem);
+    letter-spacing: 0.02em;
+  }
+  .games-hero-title-bottom {
+    @apply font-display font-bold uppercase tracking-tight text-shasec-primary block;
+    font-size: clamp(2rem, 6vw, 3.5rem);
+    text-shadow: 0 0 18px rgba(63,196,102,0.45), 0 0 40px rgba(63,196,102,0.2);
+    letter-spacing: 0.04em;
+  }
+  .games-hero-lead {
+    @apply mt-4 text-sm sm:text-base text-shasec-muted leading-relaxed max-w-xl;
+  }
+  .games-hero-desc {
+    @apply mt-3 max-w-xl;
+  }
+  .games-hero-stats {
+    @apply mt-6 flex items-stretch gap-0 rounded-xl border border-shasec-border bg-shasec-bg-card/70 backdrop-blur overflow-hidden max-w-md;
+  }
+  .games-hero-stat {
+    @apply flex-1 flex flex-col items-center justify-center gap-0.5 py-3 px-2 text-center;
+  }
+  .games-hero-stat-num {
+    @apply font-mono text-sm sm:text-base font-bold text-shasec-primary leading-none;
+  }
+  .games-hero-stat-label {
+    @apply font-mono text-2xs uppercase tracking-widest text-shasec-muted-soft;
+  }
+  .games-hero-stat-divider {
+    @apply w-px bg-shasec-border self-stretch;
+  }
+  .games-hero-actions {
+    @apply mt-6 flex flex-wrap gap-3;
+  }
+  .games-hero-terminal-wrap {
+    @apply relative min-w-0 w-full;
+  }
+  .games-hero-terminal {
+    @apply w-full max-w-xl mx-auto lg:ml-auto lg:mr-0;
+    backdrop-filter: blur(8px);
+    background: rgba(10,15,18,0.9);
+    box-shadow: 0 0 0 1px rgba(63,196,102,0.06), 0 16px 48px rgba(0,0,0,0.55), 0 0 36px rgba(63,196,102,0.08);
+  }
+  .games-hero-terminal-body {
+    @apply min-h-[13rem] sm:min-h-[14rem];
+  }
+  .games-hero-terminal-body p {
+    @apply my-0.5 break-words;
+  }
+  .games-toolbar {
+    @apply flex flex-col gap-3 mb-4 lg:flex-row lg:items-center lg:justify-between;
+  }
+  .games-filters {
+    @apply flex flex-wrap gap-2;
+  }
+  .games-chip {
+    @apply inline-flex items-center gap-1.5 font-mono text-2xs sm:text-xs tracking-[0.08em] uppercase px-3 py-2 rounded-full border border-shasec-border text-shasec-muted bg-shasec-bg-card hover:text-shasec-primary hover:border-shasec-primary/30 hover:bg-shasec-primary-soft transition-colors cursor-pointer;
+  }
+  .games-chip.is-active {
+    @apply text-shasec-bg bg-shasec-primary border-shasec-primary;
+  }
+  .games-chip-count {
+    @apply ml-1 rounded-full bg-black/20 px-1.5 py-0.5 text-[10px] leading-none;
+  }
+  .games-chip.is-active .games-chip-count {
+    @apply bg-black/15 text-shasec-bg;
+  }
+  .games-search-wrap {
+    @apply relative w-full lg:w-72 shrink-0;
+  }
+  .games-search-icon {
+    @apply pointer-events-none absolute left-3.5 top-1/2 -translate-y-1/2 h-4 w-4 text-shasec-muted-soft;
+  }
+  .games-search-input {
+    @apply w-full pl-10 rounded-full;
+  }
+  .games-status {
+    @apply m-0;
+  }
+  .games-grid {
+    @apply grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4;
+  }
+  .game-card {
+    @apply relative flex flex-col overflow-hidden;
+  }
+  .game-card-rank {
+    @apply absolute right-3 top-3 font-mono text-2xs tracking-widest text-shasec-muted-soft/60;
+  }
+  .game-card-body {
+    @apply flex h-full flex-col gap-3 p-4 sm:p-5 pt-8;
+  }
+  .game-card-top {
+    @apply flex items-center justify-between gap-2;
+  }
+  .game-card-time {
+    @apply inline-flex items-center gap-1 font-mono text-2xs tracking-wider uppercase text-shasec-muted-soft;
+  }
+  .game-card-icon-wrap {
+    @apply flex items-center justify-between;
+  }
+  .game-card-icon {
+    @apply flex h-12 w-12 items-center justify-center rounded-xl border border-shasec-primary/30 bg-shasec-primary-soft text-shasec-primary shadow-glow-sm;
+  }
+  .game-card-icon svg {
+    @apply h-6 w-6;
+  }
+  .game-card-dots {
+    @apply flex items-center gap-1;
+  }
+  .game-card-dots span {
+    @apply block h-1.5 w-1.5 rounded-full bg-shasec-border;
+  }
+  .game-card-dots span:nth-child(3) {
+    @apply bg-shasec-primary/60;
+  }
+  .game-card-title {
+    @apply text-base sm:text-lg font-semibold text-shasec-text-bright m-0 leading-snug;
+  }
+  .game-card:hover .game-card-title {
+    @apply text-shasec-primary;
+  }
+  .game-card-desc {
+    @apply text-sm text-shasec-muted m-0 leading-relaxed flex-1;
+  }
+  .game-card-tags {
+    @apply flex flex-wrap gap-1.5;
+  }
+  .game-tag {
+    @apply font-mono text-2xs text-shasec-muted-soft bg-shasec-bg-elevated border border-shasec-border/60 rounded-full px-2 py-0.5;
+  }
+  .game-card-foot {
+    @apply flex flex-col gap-1.5 pt-3 border-t border-shasec-border/60;
+  }
+  .game-card-diff {
+    @apply flex items-center gap-2;
+  }
+  .game-card-diff-label {
+    @apply font-mono text-2xs uppercase tracking-widest text-shasec-muted-soft;
+  }
+  .game-best {
+    @apply font-mono text-2xs text-shasec-muted-soft;
+  }
+  .games-empty[hidden], .games-empty.hidden {
+    display: none !important;
+  }
+  .games-note {
+    @apply relative overflow-hidden;
+  }
+  .games-note::before {
+    content: '';
+    @apply absolute left-0 top-0 h-full w-0.5 bg-shasec-primary/50;
+  }
+  /* Single page */
+  .games-back {
+    @apply inline-flex items-center gap-1.5 font-mono text-2xs uppercase tracking-widest text-shasec-muted hover:text-shasec-primary transition-colors mb-4;
+  }
+  .games-single-hero {
+    @apply flex flex-col gap-4 sm:gap-5 p-4 sm:p-6 rounded-xl border border-shasec-border bg-shasec-bg-card/80 backdrop-blur mb-6;
+  }
+  @media (min-width: 768px) {
+    .games-single-hero {
+      @apply flex-row items-center gap-6;
+    }
+  }
+  .games-single-hero-icon {
+    @apply flex h-14 w-14 sm:h-16 sm:w-16 items-center justify-center rounded-xl border border-shasec-primary/30 bg-shasec-primary-soft text-shasec-primary shrink-0 shadow-glow-sm;
+  }
+  .games-single-hero-icon svg {
+    @apply h-7 w-7 sm:h-8 sm:w-8;
+  }
+  .games-single-hero-copy {
+    @apply flex-1 min-w-0;
+  }
+  .games-single-title {
+    @apply text-xl sm:text-2xl font-bold text-shasec-text-bright leading-tight m-0;
+  }
+  .games-single-desc {
+    @apply text-sm text-shasec-muted leading-relaxed mt-1.5 m-0 max-w-xl;
+  }
+  .games-single-hero-meta {
+    @apply flex flex-wrap gap-2 sm:flex-col sm:items-stretch sm:w-40 shrink-0;
+  }
+  .games-single-meta-card {
+    @apply flex-1 sm:flex-none flex flex-col items-center justify-center gap-0.5 rounded-xl border border-shasec-border bg-shasec-bg-elevated px-3 py-2.5 text-center min-w-[80px];
+  }
+  .games-single-meta-label {
+    @apply font-mono text-2xs uppercase tracking-widest text-shasec-muted-soft;
+  }
+  .games-single-meta-value {
+    @apply font-mono text-xs font-bold text-shasec-primary;
+  }
+  .games-single-layout {
+    @apply grid grid-cols-1 gap-6 lg:grid-cols-[minmax(0,1fr)_19rem] items-start;
+  }
+  .games-single-main {
+    @apply min-w-0;
+  }
+  .game-shell {
+    @apply bg-shasec-bg-card;
+  }
+  .game-shell-bar {
+    @apply flex items-center justify-between gap-3 px-3 sm:px-4 py-2.5 border-b border-shasec-border bg-black/20;
+  }
+  .game-shell-dots {
+    @apply flex items-center gap-1.5;
+  }
+  .game-shell-dots span {
+    @apply block h-2 w-2 rounded-full;
+  }
+  .game-shell-dots span:nth-child(1) { @apply bg-shasec-danger/80; }
+  .game-shell-dots span:nth-child(2) { @apply bg-shasec-warning/80; }
+  .game-shell-dots span:nth-child(3) { @apply bg-shasec-primary/80; }
+  .game-shell-title {
+    @apply flex-1 text-center truncate px-2;
+  }
+  .game-shell-live {
+    @apply inline-flex items-center gap-1.5 font-mono text-2xs uppercase tracking-widest text-shasec-primary;
+  }
+  .games-single-aside {
+    @apply flex flex-col gap-4 lg:sticky lg:top-24;
+  }
+  .game-app {
+    @apply bg-shasec-bg-card;
+  }
+  /* Phishing */
+  .phish-wrap {
+    @apply p-4 sm:p-6;
+  }
+  .phish-progress {
+    @apply flex items-center justify-between gap-3 mb-4;
+  }
+  .phish-bar {
+    @apply flex-1 h-1.5 rounded-full bg-shasec-border overflow-hidden;
+  }
+  .phish-bar-fill {
+    @apply h-full bg-shasec-primary transition-all duration-300;
+  }
+  .phish-msgcard {
+    @apply rounded-xl border border-shasec-border bg-shasec-bg-elevated p-4 sm:p-5 mb-4;
+  }
+  .phish-msg-head {
+    @apply flex items-start justify-between gap-3 mb-3 pb-3 border-b border-shasec-border/60;
+  }
+  .phish-from {
+    @apply font-mono text-xs text-shasec-text-bright break-all;
+  }
+  .phish-subject {
+    @apply text-sm font-semibold text-shasec-text-bright;
+  }
+  .phish-body {
+    @apply text-sm text-shasec-muted leading-relaxed whitespace-pre-wrap break-words;
+  }
+  .phish-actions {
+    @apply grid grid-cols-2 gap-3;
+  }
+  .phish-btn-phish {
+    @apply btn bg-shasec-danger text-white hover:bg-[#e04444] border border-transparent;
+  }
+  .phish-btn-legit {
+    @apply btn bg-shasec-primary text-shasec-bg hover:bg-shasec-primary-dim;
+  }
+  .phish-feedback {
+    @apply mt-4 rounded-xl border p-4;
+  }
+  .phish-feedback.is-correct {
+    @apply border-shasec-primary/40 bg-shasec-primary-soft;
+  }
+  .phish-feedback.is-wrong {
+    @apply border-shasec-danger/40 bg-[#ff5c5c0f];
+  }
+  .phish-feedback-title {
+    @apply font-mono text-xs uppercase tracking-widest m-0 mb-1.5;
+  }
+  .phish-feedback.is-correct .phish-feedback-title {
+    @apply text-shasec-primary;
+  }
+  .phish-feedback.is-wrong .phish-feedback-title {
+    @apply text-shasec-danger;
+  }
+  /* Password Lab */
+  .pwd-wrap {
+    @apply p-4 sm:p-6 space-y-4;
+  }
+  .pwd-input-row {
+    @apply relative;
+  }
+  .pwd-input {
+    @apply w-full rounded-xl bg-shasec-bg-input border border-shasec-border px-4 py-3.5 text-base font-mono text-shasec-text-bright pr-12;
+  }
+  .pwd-toggle {
+    @apply absolute right-2 top-1/2 -translate-y-1/2 h-8 w-8 inline-flex items-center justify-center rounded-lg border border-shasec-border text-shasec-muted hover:text-shasec-primary hover:border-shasec-primary/40 bg-transparent;
+  }
+  .pwd-meter {
+    @apply h-2 rounded-full bg-shasec-border overflow-hidden;
+  }
+  .pwd-meter-fill {
+    @apply h-full transition-all duration-300;
+  }
+  .pwd-meter-fill.is-weak { @apply bg-shasec-danger; }
+  .pwd-meter-fill.is-fair { @apply bg-shasec-warning; }
+  .pwd-meter-fill.is-strong { @apply bg-shasec-primary; }
+  .pwd-stats {
+    @apply grid grid-cols-2 gap-3;
+  }
+  .pwd-stat {
+    @apply rounded-xl border border-shasec-border bg-shasec-bg-elevated p-3;
+  }
+  .pwd-stat-label {
+    @apply font-mono text-2xs uppercase tracking-widest text-shasec-muted-soft m-0 mb-1;
+  }
+  .pwd-stat-value {
+    @apply text-sm font-semibold text-shasec-text-bright;
+  }
+  .pwd-tips {
+    @apply rounded-xl border border-shasec-border bg-shasec-bg-elevated p-4;
+  }
+  .pwd-tips li {
+    @apply text-sm text-shasec-muted;
+  }
+  .pwd-gen {
+    @apply flex flex-wrap gap-2;
+  }
+  .pwd-gen-out {
+    @apply flex-1 min-w-[200px] font-mono text-sm bg-shasec-bg-input border border-shasec-border rounded-xl px-3 py-2.5 text-shasec-text-bright break-all;
+  }
+  /* Quiz */
+  .quiz-wrap {
+    @apply p-4 sm:p-6;
+  }
+  .quiz-progress {
+    @apply flex items-center gap-3 mb-4;
+  }
+  .quiz-q {
+    @apply text-base sm:text-lg font-semibold text-shasec-text-bright mb-4 leading-snug;
+  }
+  .quiz-opts {
+    @apply flex flex-col gap-2;
+  }
+  .quiz-opt {
+    @apply w-full text-left rounded-xl border border-shasec-border bg-shasec-bg-elevated p-3 sm:p-4 text-sm text-shasec-muted hover:border-shasec-primary/40 hover:text-shasec-text-bright transition-colors;
+  }
+  .quiz-opt.is-selected {
+    @apply border-shasec-primary bg-shasec-primary-soft text-shasec-primary;
+  }
+  .quiz-opt.is-correct {
+    @apply border-shasec-primary bg-shasec-primary-soft text-shasec-primary;
+  }
+  .quiz-opt.is-wrong {
+    @apply border-shasec-danger bg-[#ff5c5c14] text-shasec-danger;
+  }
+  .quiz-explain {
+    @apply mt-4 rounded-xl border border-shasec-primary/30 bg-shasec-primary-soft p-4 text-sm text-shasec-muted leading-relaxed;
+  }
+  /* Memory */
+  .memory-wrap {
+    @apply p-4 sm:p-6;
+  }
+  .memory-stats {
+    @apply flex flex-wrap items-center gap-2 sm:gap-4 mb-4 font-mono text-2xs uppercase tracking-widest;
+  }
+  .memory-stat {
+    @apply inline-flex items-center gap-1.5 rounded-full border border-shasec-border bg-shasec-bg-elevated px-3 py-1.5 text-shasec-muted;
+  }
+  .memory-grid {
+    @apply grid grid-cols-4 gap-2 sm:gap-3;
+  }
+  .memory-card {
+    @apply relative aspect-square rounded-xl border border-shasec-border bg-shasec-bg-elevated flex items-center justify-center p-2 text-center cursor-pointer select-none transition-all duration-200 hover:border-shasec-primary/40;
+    min-height: 64px;
+  }
+  .memory-card.is-flipped {
+    @apply bg-shasec-bg-card border-shasec-primary/30 text-shasec-text-bright;
+  }
+  .memory-card.is-matched {
+    @apply bg-shasec-primary-soft border-shasec-primary/50 text-shasec-primary cursor-default opacity-70;
+  }
+  .memory-card.is-mismatch {
+    @apply border-shasec-danger bg-[#ff5c5c14];
+  }
+  .memory-card-face {
+    @apply text-[11px] sm:text-xs leading-tight font-medium break-words;
+  }
+  .memory-card-back {
+    @apply font-mono text-lg font-bold text-shasec-primary;
+  }
+
+  /* Decode Lab */
+  .decode-wrap {
+    @apply p-4 sm:p-6;
+  }
+  .log-wrap {
+    @apply p-4 sm:p-6;
+  }
+  .log-line {
+    @apply flex items-start gap-3 w-full text-left rounded-xl border border-shasec-border bg-shasec-bg-elevated p-3 text-sm font-mono text-shasec-muted hover:border-shasec-primary/30 hover:text-shasec-text-bright transition-colors;
+  }
+  .log-line.is-picked {
+    @apply border-shasec-primary bg-shasec-primary-soft text-shasec-primary;
+  }
+  .log-line.is-evil {
+    @apply border-shasec-primary bg-shasec-primary-soft text-shasec-primary;
+  }
+  .log-line.is-wrong {
+    @apply border-shasec-danger bg-[#ff5c5c14] text-shasec-danger;
+  }
+  .log-line-num {
+    @apply shrink-0 inline-flex h-6 w-6 items-center justify-center rounded bg-shasec-bg-input border border-shasec-border text-2xs font-mono text-shasec-muted;
+  }
+  .log-line-text {
+    @apply flex-1 break-all leading-relaxed;
+  }
+
+  .soc-alert {
+    @apply flex items-center gap-3 w-full text-left rounded-xl border border-shasec-border bg-shasec-bg-elevated p-3 hover:border-shasec-primary/30 transition-colors;
+  }
+  .soc-alert.is-correct {
+    @apply border-shasec-primary bg-shasec-primary-soft;
+  }
+  .soc-alert.is-wrong {
+    @apply border-shasec-danger bg-[#ff5c5c14];
+  }
+  .soc-sev {
+    @apply shrink-0 font-mono text-2xs uppercase tracking-widest rounded px-2 py-1 border;
+  }
+  .soc-sev.sev-critical {
+    @apply bg-shasec-danger/20 text-shasec-danger border-shasec-danger/30;
+  }
+  .soc-sev.sev-high {
+    @apply bg-shasec-warning/20 text-shasec-warning border-shasec-warning/30;
+  }
+  .soc-sev.sev-medium {
+    @apply bg-shasec-primary-soft text-shasec-primary border-shasec-primary/30;
+  }
+  .soc-sev.sev-low {
+    @apply bg-shasec-bg-input text-shasec-muted border-shasec-border;
+  }
+  .soc-text {
+    @apply flex-1 text-sm text-shasec-muted leading-snug break-words;
+  }
+  .soc-alert.is-correct .soc-text {
+    @apply text-shasec-primary;
+  }
 }
 
 @layer utilities {

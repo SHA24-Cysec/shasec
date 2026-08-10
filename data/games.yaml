@@ -1,0 +1,89 @@
+# Katalog games - daftar untuk halaman /games/
+items:
+  - slug: phishing-spotter
+    icon: shield-alert
+    difficulty: medium
+    time: "2-3 min"
+    category: awareness
+    name: Phishing Spotter
+    name_en: Phishing Spotter
+    description: Anda nilai 8 email, SMS, dan chat. Anda tebak phishing atau legit. Anda baca taktik pelaku usai jawab.
+    description_en: You judge 8 emails, SMS, and chats. You call phishing or legit. You read attacker tactics after each call.
+    tags: [phishing, soceng, email]
+
+  - slug: password-lab
+    icon: key
+    difficulty: easy
+    time: "1-2 min"
+    category: hardening
+    name: Password Lab
+    name_en: Password Lab
+    description: Anda ketik password. Anda lihat estimasi crack. Anda perbaiki dengan saran dan passphrase generator.
+    description_en: You type a password. You see crack time. You harden it with tips and a passphrase generator.
+    tags: [password, hardening, offline]
+
+  - slug: cyber-quiz
+    icon: brain
+    difficulty: mixed
+    time: "3-5 min"
+    category: quiz
+    name: Cyber Quiz
+    name_en: Cyber Quiz
+    description: Anda jawab 10 soal acak. Anda bahas threat intel dan ransomware. Anda buka rujukan artikel ShaSec.
+    description_en: You answer 10 random questions. You review threat intel and ransomware. You open ShaSec article refs.
+    tags: [quiz, threat-intel, ransomware]
+
+  - slug: memory-hack
+    icon: grid
+    difficulty: easy
+    time: "1-3 min"
+    category: memory
+    name: Memory Hack
+    name_en: Memory Hack
+    description: Anda balik kartu. Anda pasangkan istilah dengan arti. Anda kejar 8 pasang.
+    description_en: You flip cards. You match terms with meanings. You chase 8 pairs.
+    tags: [memory, istilah, edukasi]
+
+  - slug: decode-lab
+    icon: code
+    difficulty: mixed
+    time: "3-5 min"
+    category: decode
+    name: Decode Lab
+    name_en: Decode Lab
+    description: Anda pecahkan 8 puzzle. Anda decode Base64, Hex, ROT13, URL, JWT. Anda naik dari Easy ke Hard.
+    description_en: You solve 8 puzzles. You decode Base64, Hex, ROT13, URL, JWT. You climb from Easy to Hard.
+    tags: [decode, base64, hex, jwt, puzzle]
+
+  - slug: log-inspector
+    icon: terminal
+    difficulty: mixed
+    time: "2-4 min"
+    category: forensic
+    name: Log Inspector
+    name_en: Log Inspector
+    description: Anda jadi analis SOC. Anda bedah 8 log. Anda tunjuk baris jahat seperti XSS dan path traversal.
+    description_en: You act as SOC analyst. You inspect 8 logs. You point to the malicious line like XSS and traversal.
+    tags: [forensic, log, soc, header]
+
+  - slug: ir-drill
+    icon: alert
+    difficulty: mixed
+    time: "3-5 min"
+    category: response
+    name: IR Drill
+    name_en: IR Drill
+    description: Anda pimpin respons. Anda putuskan 8 langkah Isolate, Eradicate, Recovery. Anda urut dengan benar.
+    description_en: You lead response. You decide 8 steps Isolate, Eradicate, Recovery. You order them right.
+    tags: [ir, response, soc, playbook]
+
+  - slug: soc-rush
+    icon: layers
+    difficulty: mixed
+    time: "2-3 min"
+    category: response
+    name: SOC Rush
+    name_en: SOC Rush
+    description: Anda triase alert. Anda lihat 8 antrean. Anda pilih 1 yang Anda tangani pertama.
+    description_en: You triage alerts. You scan 8 queues. You pick 1 you handle first.
+    tags: [soc, triage, alert, response]

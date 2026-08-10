@@ -1,0 +1,168 @@
+{{ define "main" }}
+{{- $data := hugo.Data.games | default dict -}}
+{{- $items := $data.items | default (slice) -}}
+{{- $lang := .Site.Language.Lang -}}
+
+<section class="games-hero">
+  <div class="games-hero-bg" aria-hidden="true">
+    <div class="games-hero-matrix"></div>
+    <div class="games-hero-glow"></div>
+  </div>
+  <div class="site-container relative z-10">
+    {{ partial "components/breadcrumb.html" (dict "page" . "jsonld" true) }}
+    <div class="games-hero-grid">
+      <div class="games-hero-copy">
+        <p class="text-eyebrow mb-3 flex items-center gap-2">
+          <span class="inline-block h-1.5 w-1.5 rounded-full bg-shasec-primary animate-pulse"></span>
+          {{ i18n "games_eyebrow" }} — {{ i18n "games_offline" }}
+        </p>
+        <h1 class="games-hero-title">
+          <span class="games-hero-title-top">{{ i18n "games_title" }}</span>
+          <span class="games-hero-title-bottom">ARENA</span>
+        </h1>
+        {{- with .Description -}}<p class="games-hero-lead">{{ . }}</p>{{- end -}}
+        {{- with .Content -}}<div class="games-hero-desc prose-shasec text-sm">{{ . }}</div>{{- end -}}
+        <div class="games-hero-stats">
+          <div class="games-hero-stat">
+            <span class="games-hero-stat-num">{{ len $items }}</span>
+            <span class="games-hero-stat-label">Games</span>
+          </div>
+          <div class="games-hero-stat-divider"></div>
+          <div class="games-hero-stat">
+            <span class="games-hero-stat-num">100%</span>
+            <span class="games-hero-stat-label">Offline</span>
+          </div>
+          <div class="games-hero-stat-divider"></div>
+          <div class="games-hero-stat">
+            <span class="games-hero-stat-num">ID/EN</span>
+            <span class="games-hero-stat-label">Bilingual</span>
+          </div>
+        </div>
+        <div class="games-hero-actions">
+          <a href="#games-grid" class="btn-primary">
+            <svg class="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+            {{ if eq $lang "id" }}Mulai Main{{ else }}Start Playing{{ end }}
+          </a>
+          <a href="{{ "articles/" | relLangURL }}" class="btn-outline">{{ if eq $lang "id" }}Belajar dulu →{{ else }}Learn first →{{ end }}</a>
+        </div>
+      </div>
+      <div class="games-hero-terminal-wrap">
+        <div class="terminal games-hero-terminal">
+          <div class="terminal-bar">
+            <span>shasec@arena:~$ games --list</span>
+            <div class="terminal-dots"><span></span><span></span><span></span></div>
+          </div>
+          <div class="terminal-body games-hero-terminal-body font-mono text-xs leading-relaxed">
+            <p><span class="terminal-prompt">›</span> {{ if eq $lang "id" }}memuat katalog...{{ else }}loading catalog...{{ end }}</p>
+            {{- range $i, $it := $items -}}
+              {{- $n := $it.name -}}{{- if and (eq $lang "en") $it.name_en }}{{ $n = $it.name_en }}{{ end -}}
+              <p class="flex items-center gap-2"><span class="text-shasec-primary">▸</span> <span class="text-shasec-text-bright">{{ $n }}</span> <span class="text-shasec-muted-soft">[{{ $it.time }}]</span></p>
+            {{- end -}}
+            <p class="mt-2 text-shasec-primary">✓ {{ if eq $lang "id" }}siap — pilih game dan mulai{{ else }}ready — pick a game{{ end }} <span class="terminal-cursor"></span></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section-y pt-6 sm:pt-8" id="games-grid">
+  <div class="site-container">
+    {{- if $items -}}
+      <div class="games-toolbar">
+        <div class="games-filters" id="games-filters" role="toolbar" aria-label="Filter">
+          <button type="button" class="games-chip is-active" data-games-filter="all" aria-pressed="true">{{ i18n "games_all" }} <span class="games-chip-count">{{ len $items }}</span></button>
+          <button type="button" class="games-chip" data-games-filter="awareness" aria-pressed="false">{{ i18n "games_cat_awareness" }}</button>
+          <button type="button" class="games-chip" data-games-filter="hardening" aria-pressed="false">{{ i18n "games_cat_hardening" }}</button>
+          <button type="button" class="games-chip" data-games-filter="quiz" aria-pressed="false">{{ i18n "games_cat_quiz" }}</button>
+          <button type="button" class="games-chip" data-games-filter="memory" aria-pressed="false">{{ i18n "games_cat_memory" }}</button>
+          <button type="button" class="games-chip" data-games-filter="decode" aria-pressed="false">{{ i18n "games_cat_decode" }}</button>
+          <button type="button" class="games-chip" data-games-filter="forensic" aria-pressed="false">{{ i18n "games_cat_forensic" }}</button>
+          <button type="button" class="games-chip" data-games-filter="response" aria-pressed="false">{{ i18n "games_cat_response" }}</button>
+        </div>
+        <div class="games-search-wrap">
+          <svg class="games-search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+          <input id="games-search" class="input games-search-input" type="search" placeholder="{{ if eq $lang "id" }}Cari game…{{ else }}Search games…{{ end }}" autocomplete="off" spellcheck="false">
+        </div>
+      </div>
+      <p class="games-status font-mono text-2xs uppercase tracking-wide text-shasec-muted-soft mb-4" id="games-status" role="status" aria-live="polite">{{ len $items }} games</p>
+
+      <div class="games-grid" id="games-grid-cards">
+        {{- range $idx, $it := $items -}}
+          {{- $name := $it.name -}}{{- $desc := $it.description -}}
+          {{- if and (eq $lang "en") $it.name_en }}{{ $name = $it.name_en }}{{ end -}}
+          {{- if and (eq $lang "en") $it.description_en }}{{ $desc = $it.description_en }}{{ end -}}
+          {{- $href := printf "/games/%s/" $it.slug | relLangURL -}}
+          {{- $catKey := printf "games_cat_%s" $it.category -}}
+          {{- $diffKey := printf "games_diff_%s" $it.difficulty -}}
+          {{- $searchBlob := printf "%s %s %s %s" $name $desc (i18n $catKey) (delimit $it.tags " ") | lower -}}
+          <article class="game-card card group" data-games-item data-category="{{ $it.category }}" data-search="{{ $searchBlob }}">
+            <div class="game-card-rank">#0{{ add $idx 1 }}</div>
+            <div class="game-card-body">
+              <div class="game-card-top">
+                <span class="badge">{{ i18n $catKey }}</span>
+                <span class="game-card-time"><svg class="h-3 w-3" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg> {{ $it.time }}</span>
+              </div>
+              <div class="game-card-icon-wrap">
+                <div class="game-card-icon" aria-hidden="true">
+                  {{- if eq $it.icon "shield-alert" -}}<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 3l7 3v6c0 4-3 6.5-7 8-4-1.5-7-4-7-8V6l7-3z"/><path d="M12 8v5"/><path d="M12 16h.01"/></svg>
+                  {{- else if eq $it.icon "key" -}}<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M14.5 9.5a3.5 3.5 0 0 1-5 5L3 21l-2 2-1-1 6.5-6.5a3.5 3.5 0 0 1 5-5l2-2a2 2 0 0 1 2.8 2.8l-2 2z"/><circle cx="11" cy="11" r="1.5"/></svg>
+                  {{- else if eq $it.icon "brain" -}}<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M9.5 2a4.5 4.5 0 0 0-2 8.5c-1 .8-1.5 1.8-1.5 3a4.5 4.5 0 0 0 4.5 4.5h.5"/><path d="M14.5 2a4.5 4.5 0 0 1 2 8.5c1 .8 1.5 1.8 1.5 3a4.5 4.5 0 0 1-4.5 4.5h-.5"/><path d="M12 7v9"/><path d="M9 11h6"/></svg>
+                  {{- else if eq $it.icon "code" -}}<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M14 6l4 6-4 6"/><path d="M10 18l-4-6 4-6"/><path d="M13 4l-2 16"/></svg>
+                  {{- else if eq $it.icon "terminal" -}}<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="4" width="18" height="14" rx="2"/><path d="M8 9l3 3-3 3"/><path d="M13 15h4"/></svg>
+                  {{- else if eq $it.icon "alert" -}}<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/><path d="M12 9v4"/><path d="M12 17h.01"/></svg>
+                  {{- else if eq $it.icon "layers" -}}<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><polygon points="12 2 2 7 12 12 22 7 12 2"/><polyline points="2 12 12 17 22 12"/><polyline points="2 17 12 22 22 17"/></svg>
+                  {{- else -}}<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/></svg>{{- end -}}
+                </div>
+                <div class="game-card-dots" aria-hidden="true"><span></span><span></span><span></span></div>
+              </div>
+              <h2 class="game-card-title">{{ $name }}</h2>
+              <p class="game-card-desc">{{ $desc }}</p>
+              {{- if $it.tags -}}<div class="game-card-tags">{{- range $it.tags -}}<span class="game-tag">#{{ . }}</span>{{- end -}}</div>{{- end -}}
+              <div class="game-card-foot">
+                <div class="game-card-diff">
+                  <span class="game-card-diff-label">{{ i18n "games_difficulty" }}</span>
+                  <span class="badge-muted !text-[10px] !px-2 !py-0.5">{{ i18n $diffKey }}</span>
+                </div>
+                <span class="game-best" data-best="{{ $it.slug }}">{{ i18n "games_best" }}: —</span>
+              </div>
+              <a href="{{ $href }}" class="btn-primary btn-sm w-full justify-center gap-2 mt-3">
+                <span>{{ i18n "games_play" }}</span>
+                <svg class="h-3.5 w-3.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M5 12h14"/><path d="m13 6 6 6-6 6"/></svg>
+              </a>
+            </div>
+          </article>
+        {{- end -}}
+      </div>
+      <div class="games-empty card p-6 max-w-xl mt-4 hidden" id="games-empty" hidden>
+        <p class="font-mono text-xs uppercase tracking-[0.14em] text-shasec-primary mb-2">{{ if eq $lang "id" }}Tidak ada hasil{{ else }}No results{{ end }}</p>
+        <p class="text-sm text-shasec-muted">{{ if eq $lang "id" }}Coba kata kunci atau kategori lain.{{ else }}Try another keyword or category.{{ end }}</p>
+      </div>
+    {{- else -}}
+      <div class="card p-6 sm:p-8 max-w-xl">
+        <p class="font-mono text-xs uppercase tracking-[0.14em] text-shasec-primary mb-2">Empty</p>
+        <p class="text-sm text-shasec-muted">Isi data/games.yaml</p>
+      </div>
+    {{- end -}}
+
+    <aside class="card p-5 sm:p-6 mt-10 max-w-3xl games-note">
+      <p class="font-mono text-2xs tracking-[0.14em] uppercase text-shasec-primary mb-3 flex items-center gap-2"><span class="h-1 w-1 rounded-full bg-shasec-primary"></span>{{ i18n "games_tips" }}</p>
+      <ul class="m-0 pl-5 space-y-1.5 text-sm text-shasec-muted list-disc marker:text-shasec-primary leading-relaxed">
+        {{- if eq $lang "id" -}}
+          <li>Skor tersimpan di <code>localStorage</code> — tanpa login, tanpa tracking.</li>
+          <li>Semua engine 100% offline — cocok untuk kelas, workshop, atau latihan tim.</li>
+          <li>Selesai main? Lanjut ke <a href="{{ "articles/" | relLangURL }}" class="text-shasec-primary hover:underline">Artikel</a> untuk bedah teknisnya.</li>
+        {{- else -}}
+          <li>Scores in <code>localStorage</code> — no login, no tracking.</li>
+          <li>100% offline — great for classrooms and team drills.</li>
+          <li>Done? Dive deeper in <a href="{{ "articles/" | relLangURL }}" class="text-shasec-primary hover:underline">Articles</a>.</li>
+        {{- end -}}
+      </ul>
+    </aside>
+  </div>
+</section>
+{{- with resources.Get "js/games/games-hub.js" -}}
+  {{- $g := . | minify | fingerprint -}}
+  <script src="{{ $g.RelPermalink }}" integrity="{{ $g.Data.Integrity }}" crossorigin="anonymous" defer></script>
+{{- end -}}
+{{ end }}

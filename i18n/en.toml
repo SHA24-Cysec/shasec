@@ -521,3 +521,209 @@ other = "No. All processing in browser. Check DevTools Network – no outbound r
 
 [qr_faq_3]
 other = "HTTPS prevents man-in-the-middle when customers scan. HTTP can be injected."
+
+# Games
+[nav_games]
+other = "Games"
+[games_eyebrow]
+other = "// games"
+[games_title]
+other = "Cyber Games"
+[games_lead]
+other = "You play and learn. 8 offline mini-games. You keep scores in your browser."
+[games_all]
+other = "All"
+[games_play]
+other = "Play"
+[games_difficulty]
+other = "Difficulty"
+[games_time]
+other = "Time"
+[games_score]
+other = "Score"
+[games_best]
+other = "Best"
+[games_offline]
+other = "Offline. You keep data on your device."
+[games_back]
+other = "← Back to Games"
+[games_start]
+other = "Start Game"
+[games_restart]
+other = "Play again"
+[games_share]
+other = "Share score"
+[games_how]
+other = "How to play"
+[games_tips]
+other = "Tips"
+[games_cat_awareness]
+other = "Awareness"
+[games_cat_hardening]
+other = "Hardening"
+[games_cat_quiz]
+other = "Quiz"
+[games_cat_memory]
+other = "Memory"
+[games_cat_decode]
+other = "Decode"
+[games_cat_forensic]
+other = "Forensic"
+[games_cat_response]
+other = "Response"
+[games_diff_easy]
+other = "Easy"
+[games_diff_medium]
+other = "Medium"
+[games_diff_mixed]
+other = "Mixed"
+
+[games_phishing_title]
+other = "Phishing Spotter"
+[games_phishing_desc]
+other = "You judge 8 email/SMS/WA scenarios. You call phishing or legit."
+[games_phishing_question]
+other = "Scenario {{ .Current }} of {{ .Total }}"
+[games_phishing_phishing]
+other = "Phishing"
+[games_phishing_legit]
+other = "Legit"
+[games_phishing_correct]
+other = "Correct!"
+[games_phishing_wrong]
+other = "Off mark"
+[games_phishing_next]
+other = "Next →"
+[games_phishing_result]
+other = "Final score"
+[games_phishing_explain]
+other = "Why"
+[games_phishing_best]
+other = "Your best"
+
+[games_password_title]
+other = "Password Lab"
+[games_password_desc]
+other = "You type a password. You see crack time. You harden it."
+[games_password_placeholder]
+other = "Type password here…"
+[games_password_strength]
+other = "Strength"
+[games_password_crack]
+other = "Crack estimate"
+[games_password_tips]
+other = "Tips"
+[games_password_generate]
+other = "Generate passphrase"
+[games_password_copy]
+other = "Copy"
+[games_password_copied]
+other = "Copied!"
+[games_password_very_weak]
+other = "Weak"
+[games_password_weak]
+other = "Weak"
+[games_password_fair]
+other = "Fair"
+[games_password_strong]
+other = "Strong"
+[games_password_very_strong]
+other = "Strong"
+
+[games_quiz_title]
+other = "Cyber Quiz"
+[games_quiz_desc]
+other = "You answer 10 random questions. You review threat intel and hygiene."
+[games_quiz_progress]
+other = "Question {{ .Current }} / {{ .Total }}"
+[games_quiz_next]
+other = "Next →"
+[games_quiz_finish]
+other = "See score →"
+[games_quiz_score]
+other = "Score {{ .Score }} / {{ .Total }}"
+[games_quiz_review]
+other = "Review"
+[games_quiz_ref]
+other = "Ref"
+
+[games_memory_title]
+other = "Memory Hack"
+[games_memory_desc]
+other = "You flip cards. You match terms with meanings."
+[games_memory_moves]
+other = "Moves"
+[games_memory_time]
+other = "Time"
+[games_memory_pairs]
+other = "Pairs"
+[games_memory_win]
+other = "Nice! All pairs found."
+[games_memory_new]
+other = "Shuffle"
+# Decode Lab
+[games_decode_title]
+other = "Decode Lab"
+[games_decode_desc]
+other = "You solve 8 puzzles. You decode Base64, Hex, ROT13, URL, JWT. You climb Easy to Hard."
+[games_decode_level]
+other = "Level {{ .Level }}"
+[games_decode_hint]
+other = "Hint"
+[games_decode_placeholder]
+other = "Type answer here…"
+[games_decode_check]
+other = "Check"
+[games_decode_next]
+other = "Next →"
+[games_decode_correct]
+other = "Correct!"
+[games_decode_wrong]
+other = "Not yet"
+[games_decode_answer]
+other = "Answer"
+
+# Log Inspector
+[games_log_title]
+other = "Log Inspector"
+[games_log_desc]
+other = "You inspect 8 logs. You spot the malicious line."
+[games_log_question]
+other = "Spot the suspicious line"
+[games_log_correct]
+other = "Spot on!"
+[games_log_wrong]
+other = "Off mark"
+[games_log_next]
+other = "Next →"
+# IR Drill
+[games_ir_title]
+other = "IR Drill"
+[games_ir_desc]
+other = "You lead 8 decisions. You order Isolate to Recovery."
+[games_ir_progress]
+other = "Step {{ .Current }} / {{ .Total }}"
+[games_ir_correct]
+other = "Spot on!"
+[games_ir_wrong]
+other = "Not quite"
+[games_ir_next]
+other = "Next →"
+[games_ir_result]
+other = "Final score"
+
+# SOC Rush
+[games_soc_title]
+other = "SOC Rush"
+[games_soc_desc]
+other = "You triage 8 queues. You pick the top priority."
+[games_soc_correct]
+other = "Right call!"
+[games_soc_wrong]
+other = "Wrong triage"
+[games_soc_next]
+other = "Next →"
+
+[games_log_explain]
+other = "Why"
+
