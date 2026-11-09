@@ -201,4 +201,4 @@ defaultContentLanguageInSubdir = false
 # environment variables to Hugo templates.
 [security]
   [security.funcs]
-    getenv = ['^HUGO_', '^CI$', '^VERCEL_ENV$', '^SHASEC_DEPLOYMENT$']
+    getenv = ['^HUGO_', '^CI$', '^SHASEC_DEPLOYMENT$']

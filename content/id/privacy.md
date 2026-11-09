@@ -79,7 +79,7 @@ Kami menerapkan langkah teknis dan organisasional yang wajar untuk melindungi da
 ## 9. Berbagi data
 Kami tidak menjual data pribadi Anda. Data dapat diproses oleh penyedia infrastruktur yang bertindak sebagai prosesor / pihak ketiga independen sesuai kebijakan mereka, semata-mata untuk menjalankan situs dan fitur terkait:
 
-- **Hosting & CDN:** Vercel (hosting, edge network, security headers)
+- **Hosting & CDN:** Cloudflare (hosting, jaringan edge, dan header keamanan)
 - **Formulir kontak & subscribe:** Formspree (memproses nama, email, isi pesan agar terkirim ke inbox kami) — lihat [Privacy Policy Formspree](https://formspree.io/legal/privacy-policy/)
 - **Analytics (jika aktif):** Google Analytics 4 (data agregat, anonimisasi IP diutamakan)
 - **Iklan (jika aktif):** Google AdSense dan mitra Google — lihat [Privacy Policy Google](https://policies.google.com/privacy)

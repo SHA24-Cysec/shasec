@@ -4,3 +4,5 @@ resources/
 preview/
 .hugo_build.lock
 hugo_stats.json
+.wrangler/
+.dev.vars*

@@ -74,7 +74,7 @@ We apply reasonable technical and organizational measures to protect data. No in
 ## 9. Sharing & processors
 We do not sell your personal data. Data may be processed by infrastructure providers acting as processors / independent third parties under their own policies, solely to run the site and related features:
 
-- **Hosting & CDN:** Vercel (hosting, edge network, security headers)
+- **Hosting & CDN:** Cloudflare (hosting, edge network, and security headers)
 - **Contact & subscribe forms:** Formspree (processes name, email, message to deliver to our inbox) — see [Formspree Privacy Policy](https://formspree.io/legal/privacy-policy/)
 - **Analytics (if enabled):** Google Analytics 4 (aggregate, IP anonymization where possible)
 - **Ads (if enabled):** Google AdSense and Google ad partners — see [Google Privacy Policy](https://policies.google.com/privacy)

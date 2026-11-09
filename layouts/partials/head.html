@@ -170,7 +170,7 @@
 {{- end -}}
 
 {{- $deployment := getenv "SHASEC_DEPLOYMENT" -}}
-{{- $isProduction := or (eq $deployment "production") (and (eq $deployment "") (eq (getenv "VERCEL_ENV") "production")) -}}
+{{- $isProduction := eq $deployment "production" -}}
 {{- if $isProduction -}}
   {{- /* Google Analytics 4: outputs nothing while the Measurement ID is empty. */ -}}
   {{ template "_internal/google_analytics.html" . }}

@@ -36,7 +36,7 @@
 
 {{- $ads := .Site.Params.adsense | default dict -}}
 {{- $deployment := getenv "SHASEC_DEPLOYMENT" -}}
-{{- $isProduction := or (eq $deployment "production") (and (eq $deployment "") (eq (getenv "VERCEL_ENV") "production")) -}}
+{{- $isProduction := eq $deployment "production" -}}
 {{- if and $isProduction ($ads.enabled | default false) -}}
   {{- with resources.Get "js/adsense.js" -}}
     {{- $ajs := . | minify | fingerprint -}}
